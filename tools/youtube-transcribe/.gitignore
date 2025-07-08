@@ -1,0 +1,17 @@
+# Configuration file (contains user preferences)
+.yt_config.json
+
+# Temporary files
+*.tmp
+*.temp
+
+# Audio files (if saved locally during testing)
+*.mp3
+*.m4a
+*.wav
+*.opus
+
+# Transcription outputs during testing
+*.txt
+*.vtt
+*.srt
