@@ -14,8 +14,10 @@ git clone https://github.com/Takuma-AI/takuma-os.git
 cd takuma-os
 
 # Create your personal workspace
-cp -r workspace-template ~/takuma-workspace
+mkdir ~/takuma-workspace
 cd ~/takuma-workspace
+mkdir -p "🌍 EARTH" "⚔️ SIDE QUESTS" knowledge tools research plan
+echo "# My Workspace" > CLAUDE.md
 ```
 
 ### 2. Configure Claude Code
@@ -125,7 +127,7 @@ When you create something worth sharing:
 1. **Update Context Regularly**: Keep CLAUDE.md files current as projects evolve
 2. **Reference Knowledge**: Point Claude to specific files in knowledge/ for frameworks
 3. **Use Todo Lists**: Claude Code works well with task tracking in markdown
-4. **Leverage Templates**: Start from examples/ for common project types
+4. **Study Examples**: Look at 🌒 TAKUMA and 🌅 SHOKUNA for project patterns
 
 ## Troubleshooting
 

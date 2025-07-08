@@ -9,9 +9,10 @@ A living system for organizing work that emerges from the process of defining it
 git clone https://github.com/Takuma-AI/takuma-os.git
 cd takuma-os
 
-# Create your workspace from the template
-cp -r workspace-template ~/my-workspace
+# Create your workspace
+mkdir ~/my-workspace
 cd ~/my-workspace
+mkdir -p "🌍 EARTH" "⚔️ SIDE QUESTS" knowledge tools research plan
 
 # Start with a Side Quest
 cd "⚔️ SIDE QUESTS"
@@ -44,11 +45,9 @@ The principles behind Progress Management:
 - Naming conventions (emojis and organization)
 - Getting started guide
 
-### 📁 workspace-template/
-A starter structure for your own workspace:
-- Project directories with emoji convention
-- Utility directories without emojis
-- Example CLAUDE.md for AI context
+### Example Projects
+- 🌒 **TAKUMA** - See how a company workspace is organized
+- 🌅 **SHOKUNA** - Active project example (Founders Agreement)
 
 ## Core Principles
 
