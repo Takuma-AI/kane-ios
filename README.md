@@ -6,7 +6,7 @@ A living system for organizing work that emerges from the process of defining it
 
 ```bash
 # Clone this repository
-git clone [repo-url] takuma-os
+git clone https://github.com/Takuma-AI/takuma-os.git
 cd takuma-os
 
 # Create your workspace from the template
@@ -17,6 +17,8 @@ cd ~/my-workspace
 cd "⚔️ SIDE QUESTS"
 mkdir "🔬 My First Experiment"
 ```
+
+**Using Claude Code?** See `SETUP.md` for detailed setup instructions.
 
 Read `philosophy/getting-started.md` for the full introduction.
 
@@ -33,6 +35,8 @@ Curated wisdom that informs our work. Books, frameworks, and insights from:
 Utilities that reduce friction:
 - `basecamp-sync` - Upload markdown to Basecamp
 - `youtube-transcribe` - Extract wisdom from videos
+
+**Quick access**: Use `./sync` and `./yt` from the root directory.
 
 ### 💭 philosophy/
 The principles behind Progress Management:
