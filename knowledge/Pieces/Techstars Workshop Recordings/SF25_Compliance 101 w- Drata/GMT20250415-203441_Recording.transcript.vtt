@@ -1,0 +1,1118 @@
+WEBVTT
+
+1
+00:00:03.110 --> 00:00:19.600
+Lev Parker: Okay, hey? All thanks for joining me. My name is Lev, and I work at Drada. I lead our Vcpe partnerships, and we automate, cybersecurity, compliance. I'm not here to sell Drada. I'm really just here to evangelize cybersecurity, compliance.
+
+2
+00:00:19.660 --> 00:00:44.810
+Lev Parker: what it means for companies from foundation, how it impacts scale and then talk about what solutions like ours do, and how we kind of change that phenomena for companies. And then we could talk about decision, criteria and some resources to help you all navigate it. My thesis is that I think, if more investors understood what cyber security compliance is, how companies can utilize it. Why, it's important, and what some of the pain points are.
+
+3
+00:00:44.950 --> 00:01:09.449
+Lev Parker: plus what is going on right now in the market, and how it's kind of evolving that I think they would talk about it a lot more often this conversation happens a lot more with some of our later stage PE partners, and I think it's an under supported conversation for early stage companies and the Tldr on that is the earlier a company does this the cheer cheaper and easier it is
+
+4
+00:01:09.450 --> 00:01:33.470
+Lev Parker: you can have. you can like, let the efficiency gains right compound. But it's gonna have a big impact on about how you can get your 1st customers, and how you can reduce friction in the sales funnel. So we'll talk more about that and we'll talk about anything else that comes up feel free to ask any questions or anything else along the way. I also have my colleague Shane joining.
+
+5
+00:01:33.853 --> 00:01:36.940
+Lev Parker: Shane, would you like to give a brief intro.
+
+6
+00:01:37.300 --> 00:02:06.799
+Shane Tierney: Yeah, no, thank you. I'm my name is Shane Tierney. I'm a senior program manager of the Grc. Side on our product team. I'm basically a glorified paralegal that has about 15 years experience in legal compliance, data, privacy, all sorts of fun stuff like that. So I'm basically here to answer a lot of stuff on the technical side, and just kind of give you a more of a perspective from a Grc. Or compliance practitioner perspective on a as as we move forward.
+
+7
+00:02:08.949 --> 00:02:12.269
+Lev Parker: Jane and I are both Grc. Nerds him more so than me. But that's more.
+
+8
+00:02:12.270 --> 00:02:14.610
+Shane Tierney: That's not absolutely.
+
+9
+00:02:14.800 --> 00:02:24.779
+Lev Parker: Before I jump into it. Does anyone have any experience with cyber security compliance, like pursuing things like sock 2 or Gdpr Iso 2, 7 0, 1, or anything like that.
+
+10
+00:02:26.330 --> 00:02:28.320
+Lev Parker: Okay, how's it going.
+
+11
+00:02:28.460 --> 00:02:30.639
+Meg Hall: Yeah, we just signed up for draw.
+
+12
+00:02:31.890 --> 00:02:32.820
+Lev Parker: Solid.
+
+13
+00:02:32.980 --> 00:02:34.200
+Meg Hall: Oh!
+
+14
+00:02:34.960 --> 00:02:36.260
+Lev Parker: Congrats, Meg.
+
+15
+00:02:36.720 --> 00:02:49.589
+Meg Hall: Yep, and I know. So when my one of my incubators I actually went through with your guys. 3 co-founders. They were. They went through evo nexus with me with their last company.
+
+16
+00:02:49.910 --> 00:02:51.410
+Meg Hall: Incredible. Yeah. So I know
+
+17
+00:02:51.410 --> 00:02:55.440
+Meg Hall: all of them. Yeah, I think I know a few different people from your guys's company. But yeah.
+
+18
+00:02:55.590 --> 00:03:05.559
+Lev Parker: Wow! Well, I'll absolutely tell him about this. I actually think my job's done. I think I'm I'm in mountain, too. Great. So
+
+19
+00:03:06.168 --> 00:03:13.620
+Lev Parker: well, I'm curious. What made you choose, Strada? Over some of the other, you know, platforms or vendors. You could have considered.
+
+20
+00:03:18.150 --> 00:03:27.140
+Meg Hall: We met with both the data team, and then also what was the other one we met with? I don't remember the other one. But we end up going with agency, plus you guys.
+
+21
+00:03:27.140 --> 00:03:48.419
+Meg Hall: because we needed to have something that was like fully set up. And it was between the 2 like the 2 platforms. I just wanna obviously support the other founders that I know, you know. So but we end up going with both you guys. Just because, like, it is a overwhelming process, right? Like, just as like startup founders like, we just don't have that much time and capacity. So that's why we did agency plus strata together.
+
+22
+00:03:48.708 --> 00:04:02.570
+Meg Hall: Just because this is my CTO and my 1st time actually going through and going through the sock 2. But we've been getting customer questions about getting sock 2 for over a year, and we kind of already had some contracts that say we have to get it.
+
+23
+00:04:02.794 --> 00:04:18.499
+Meg Hall: I think the most disappointing part of all of it is like, you guys gotta think about like how far out it is, because right now we just engaged with them. And like, we're not gonna have until September. So it does take a little while. It's not a it's not a. It's not like you can just pay for it to be done. It has to be, you know.
+
+24
+00:04:18.500 --> 00:04:18.890
+Lev Parker: Great.
+
+25
+00:04:18.890 --> 00:04:28.240
+Meg Hall: Takes time to set up, and, like, you know, there was steps before this where, like we had like our like it documents, and we had like, like the Ciso questionnaires, all filled out and stuff. But like
+
+26
+00:04:28.450 --> 00:04:35.230
+Meg Hall: we're trying to become more like secure and more advanced with the the cause we? We're going after enterprise customers, you know.
+
+27
+00:04:35.230 --> 00:04:58.942
+Lev Parker: Yup, Yup, love it. Okay, so going enterprise customers trying to make sense of the process. Take something opaque and make it easy and understand. You know, like, how that process works. Aka, how long it takes could be 250 h and 6 months, or it could be a hundred hours in 3 weeks. It kind of varies by company and by technical aptitude, but we can walk through that
+
+28
+00:04:59.250 --> 00:05:10.869
+Lev Parker: Well, great thanks for for sharing. And hopefully, you're here at the end of the Prezi, and we can kind of circle back and and get your your take on on more of it. You also mentioned, you have experience.
+
+29
+00:05:10.910 --> 00:05:16.530
+Lev Parker: Yeah, we are going through it right now. I mean, most of the work my founders are doing through.
+
+30
+00:05:16.580 --> 00:05:20.770
+Lev Parker: I'm not technically familiar with what's going on, but
+
+31
+00:05:20.920 --> 00:05:24.079
+Lev Parker: we on boarded the vendor 3 weeks ago.
+
+32
+00:05:24.300 --> 00:05:29.899
+Lev Parker: They promise that they'll they'll get everything done, including Iso 2,700
+
+33
+00:05:30.050 --> 00:05:41.160
+Lev Parker: something. So these 3 things by the end of April cool. So
+
+34
+00:05:41.270 --> 00:05:44.519
+Lev Parker: they're gonna get you set up or they're gonna get you through the audit
+
+35
+00:05:45.210 --> 00:05:50.460
+Lev Parker: through the order. We'll get the certificate cool right on right on.
+
+36
+00:05:50.810 --> 00:05:53.530
+Lev Parker: Yeah, I think so. I mean, when did they get started?
+
+37
+00:05:54.830 --> 00:06:02.030
+Lev Parker: I would say, around 25th of March.
+
+38
+00:06:02.130 --> 00:06:10.539
+Lev Parker: okay, yeah, that's great. That's great. Interesting. Well, we can circle back on that. So I guess for some of you, maybe.
+
+39
+00:06:12.640 --> 00:06:13.640
+Lev Parker: Yeah.
+
+40
+00:06:21.140 --> 00:06:21.930
+Lev Parker: Oh.
+
+41
+00:06:26.600 --> 00:06:30.139
+Lev Parker: that in my resume a couple of the companies reached out to was Super new.
+
+42
+00:06:31.040 --> 00:06:38.290
+Lev Parker: private, and so it is very cool to see around.
+
+43
+00:06:39.140 --> 00:06:43.270
+Lev Parker: And then I bet I bet, how much time
+
+44
+00:06:43.410 --> 00:06:46.339
+Lev Parker: did it take to build out that? Gdpr.
+
+45
+00:06:47.420 --> 00:06:58.619
+Lev Parker: okay, that's pretty good. Yeah. Gdpr is, I guess. Some of the lower lift different audits available. But yeah, right
+
+46
+00:07:00.430 --> 00:07:21.559
+Lev Parker: it is. It is pretty wild how the industry has been evolving which we could talk about. If if y'all have questions later on. This is kind of how I envisioned. It'll go. We talk about cyber security overview again. I'm not gonna sell. I'm really gonna try and just talk about cyber security. So these slides are from a sales deck. And if I am, if I say, Drawda, I'm more or less meaning
+
+47
+00:07:21.710 --> 00:07:46.229
+Lev Parker: what? What automating cyber security compliance is like. I'm gonna try and focus in on early stage advantage what it means for companies of your stage in particular, walk through a great case, study, and then share some resources for you to help you navigate. How you tackle this, including how long it takes, when, what to ask for from different vendors know what's available to you all, and then we can open up for questions and answers.
+
+48
+00:07:46.645 --> 00:07:57.029
+Lev Parker: I think it's week 6 of the cohort. What are? What's the topic right now, is it? Go to market and seeking additional funding.
+
+49
+00:07:57.880 --> 00:07:59.250
+Lev Parker: Yeah, we're
+
+50
+00:07:59.630 --> 00:08:21.310
+Lev Parker: wrapping up customer discovery and starting to bring that into messaging. Some folks are starting to kick off sales folks right on. Okay, perfect timing. So, in short, cybersecurity. Compliance is how companies demonstrate that they, as a company, are safe to do business with.
+
+51
+00:08:21.656 --> 00:08:44.850
+Lev Parker: I mean what Meg was saying was a great example is, if you want to sell up market, you need sock 2, that is like table stakes of you as a company have been evaluated by an auditor. You have your your organization built upon and structured according to industry, best practices and standards. Often it's like you could think of. Every industry has a corresponding audit.
+
+52
+00:08:45.185 --> 00:09:09.000
+Lev Parker: Often. They aren't required, but it like by law or regulation, but it's table stakes to be able to sell and do business, and I'll I'll hit on you one second. And right now that it also has this ripple and network effect. So enterprise companies, their biggest security risk is not being hacked directly, but it's someone hacking a vendor who has access and getting in the back door.
+
+53
+00:09:09.100 --> 00:09:32.970
+Lev Parker: So anyone selling to Enterprise has to cater to that same with mid market, and frankly like, you know, any 50 to 100 person company is also experiencing this. Whenever those companies ha fortify their security posture. Part of that process is then evaluating their vendors to make sure that they are also persuant to the standards that they're upholding themselves. So it has this broader ripple effect.
+
+54
+00:09:33.140 --> 00:09:45.589
+Lev Parker: Is this like international? I I imagine there's a lot of like other certification. Something like that. I'm wondering. Is it very us based? Is it like international recognized everywhere?
+
+55
+00:09:45.620 --> 00:10:04.150
+Lev Parker: So the equivalent would be Iso. There's Iso 2, 7 0, 1. There's I don't know. A number of different isos, and how it's kind of happening is that whoever whichever regulatory body is the strongest or the 1st or the most robust, everyone else would just kind of anchor to
+
+56
+00:10:04.529 --> 00:10:20.860
+Lev Parker: so like Gdpr is a good example. European based framework that for privacy everyone else is just kind of going with in the Us. Actually, California has the most ambitious. And how do I say that the the courts will go the farthest
+
+57
+00:10:20.950 --> 00:10:23.305
+Lev Parker: to uphold and
+
+58
+00:10:24.280 --> 00:10:33.599
+Lev Parker: prosecute? If there's a violation of it. So then everyone just anchored to what California's standards are. Shane, do you think that's a fair summation or a fair.
+
+59
+00:10:33.830 --> 00:10:58.790
+Shane Tierney: Yeah. Lev, I mean, it was Ccpa was one of the 1st ones that actually put out a definitive term of what reasonable cybersecurity standards were, and that was one of the reasons why a lot of folks gravitated towards early adoption of Ccpa. And Gdpr. Which was, you know, predated Ccpa. Coming on board. There's a lot of modification that has happened in the privacy realm
+
+60
+00:10:58.790 --> 00:11:23.649
+Shane Tierney: in recent years, and we should obviously anticipate that to have the volume turned up to 11 on it in with the current political climate that we're living in. Because, as you know, more and more data is being used. And as it looks less and less likely that there's going to be Federal privacy, legislation coming down the pike anytime soon, the States are really picking that up
+
+61
+00:11:23.650 --> 00:11:39.259
+Shane Tierney: right. So since the onset of Ccpa, we've had 20 other States at the State level. You know, what you call it a legislate privacy including specified ones for healthcare. And AI. And what have you? But yeah, you're you're exactly right about that.
+
+62
+00:11:39.260 --> 00:11:39.890
+Lev Parker: Oh, yeah.
+
+63
+00:11:40.690 --> 00:11:48.049
+Lev Parker: I guess my question is, for instance, we are a French based company. Yep, is sub 2 still relevant for us, or do you want to sell in the Us.
+
+64
+00:11:48.880 --> 00:12:15.919
+Lev Parker: Yeah, then it is. But Iso 2,701 would be a better focus. First, st yeah. Yeah. And and yeah, it does depend on where you're trying to sell. What your go to market plan is. Also, one of the benefits is that if you have your security posture fortified with continuous control, monitoring, I'll say in a second. It means that you can quickly pursue new audits. So yeah, let let me get there. Okay, so what are we talking about?
+
+65
+00:12:16.536 --> 00:12:38.659
+Lev Parker: Compliance, fortifying your security posture. What that means is a 3rd party is, gonna look at your company. And it's gonna look at your technical systems, your tech stack. How are things structured? It's gonna look at access employee access, you know. Do you have multi factor, authentication. Have people done security trainings, etc. And then they're gonna look at a suite of policies which are kind of this
+
+66
+00:12:38.750 --> 00:12:54.229
+Lev Parker: anchor bed of all these different frameworks, and what they do is they look at your company often over a 3 month window. There's a few different kinds of audits, but Iso and sock to some other ones we're talking about. They're gonna look at evidence that you have to collect
+
+67
+00:12:54.230 --> 00:13:11.990
+Lev Parker: on a daily basis of your company across all these different the tech stack and fully access and everything. Make sure you have policies in place and then evaluate them and say, Okay, great. You are persuant to these standards. You are fulfilling the requirements of this audit.
+
+68
+00:13:12.070 --> 00:13:36.410
+Lev Parker: The problem is that historically, that's 1 hard to know what requirements I need and have to give to the audit. They can be vague and opaque. They might not represent your particular tech stack or your kind of business model. And then, 2. Most importantly, it takes a lot of time to have to go and collect these like as you as early stage companies, and even as you grow later on. None of you can afford to have tech talent taking screenshots on a day to day basis.
+
+69
+00:13:36.510 --> 00:13:52.529
+Lev Parker: Just to get some of this set up can take, you know, over a hundred hours, and if you don't automate it it's gonna take many, many more. And you're gonna have to do that on an annual recurring basis. And so what we do? And actually let me hone in more
+
+70
+00:13:52.630 --> 00:13:57.000
+Lev Parker: on some of these pain points. Yeah. So I pulled this slide, just to say, like.
+
+71
+00:13:57.510 --> 00:14:27.499
+Lev Parker: the threat is growing. And so you all are faced with this initial requirement of like, okay, I have to get this audit. It's in the sales funnel. Fine. And historically you. It's rational to almost wait and do this at the last minute, right? You wouldn't do it until a customer is asking it of you, because who has 100 h to afford to set this up? The problem, then, is, once you have to do it. You almost have to stop everything and focus on it. So it's it pays to get ahead of it. As your company grows and you onboard new people in Tech, you know, roles
+
+72
+00:14:27.500 --> 00:14:46.769
+Lev Parker: having to tackle some of this is also going to be a pain point and ultimately, like you need it to reduce friction in the sales funnel and and also avoid tech debt. Right? So there's there's a few things that we'll we'll chime in on later on and actually, Shane, is this the slide you wanted to talk about?
+
+73
+00:14:47.050 --> 00:15:10.000
+Shane Tierney: Yeah. And I, you set this up perfectly level, like, so basically, I think that there's there's 2 types of compliance that we kind of have to think of at an early stage company. Right? So there's the sock, 2 type of compliance and audit that we're reaching for for a security standard that we want, that we need for either some kind of contractual obligation or just to build trust
+
+74
+00:15:10.000 --> 00:15:34.700
+Shane Tierney: amongst the marketplace. And then there's legal compliance that you need to have, and particularly amongst, say, Hipaa, Gdpr, Ccpa. Or a number of other States are now implementing cybersecurity regulations that are associated with different business types. So there's the point in time, type, compliance
+
+75
+00:15:34.700 --> 00:15:58.660
+Shane Tierney: of an audit of a Soc audit or an iso, 2, 7 0 1 audit. But then there's the constant compliance of being in compliance with the law. Right? So if you're not in compliance with either either side of that coin, you could run into what Lev is talking about here, which is basically like compliance debt, and it usually comes at the most inopportune moment in
+
+76
+00:15:58.660 --> 00:16:23.570
+Shane Tierney: process, right? Usually at some kind of, you know, critical moment in the sales cycle, you know, where like it'll be in the T's and C's that you have to sign that, hey? We are. You know we're up to speed on Ccpa. We're up to speed on. Gdpr, we're in process with getting our sock 2, you know, in place, and this is now something that that is holding up the deal stage right? And and not having that kind of stuff, goes to the second bullet point.
+
+77
+00:16:23.570 --> 00:16:48.199
+Lev Parker: Trust is at the core of today's compliance standards and are less. We're moving away from in Grc and compliance world from being that point in time to being that kind of constant compliance. And that's where the automation and the demonstration of longevity through our trust center and and other things. You know. Come into come into play, but I'll pivot back to you, Levin, and stop taking them all the time.
+
+78
+00:16:48.610 --> 00:16:53.850
+Lev Parker: Yeah, so essentially I wish there was a good way to like
+
+79
+00:16:54.910 --> 00:17:12.139
+Lev Parker: draw a metaphor to it, but you don't want to have to tackle this in the moment at the sales funnel. This article, which I'll kind of send in a follow up is our CEO wrote it, and why he built this company, and what he thinks about it. But for early stage companies one of the big things, too, is being a startup is to not only
+
+80
+00:17:12.140 --> 00:17:39.049
+Lev Parker: be able to fortify your security posture and demonstrate like look like, I have sock 2. I have all these audits. I have this continuous monitoring. I'm fulfilling these requirements. But I'm also taking this existential stance on something that is inherent in you. Evaluating me is that you can trust me like I am smart, I am innovative. I have value, and I'm going to be a safe ongoing partner for you, as both our companies continue to grow and and change.
+
+81
+00:17:39.060 --> 00:18:01.459
+Lev Parker: And so if you do this right, there's all these huge benefits that are accelerate revenue opportunities save you time, etc. And so what we do or what platforms like ours do. What's happening now is you connect via the tech stack. Read only Api, we continuously pull and collect evidence. You can have custom controls and custom testing. And all this cool stuff.
+
+82
+00:18:01.550 --> 00:18:10.859
+Lev Parker: Then that evidence is compiled into what are called controls, which is a best practice, and every audit is a subset of these controls.
+
+83
+00:18:10.860 --> 00:18:31.699
+Lev Parker: and then those controls are transposed across 2224 different, known, established audits. So you get immediate gap analysis. And if you're going for sock 2, or you're like, Hey, 6 months I might go into this market. How am I doing on Iso? Well, it turns out that overlap is 70%. And then you have that gap analysis, and you know what else you need to do to close close that gap.
+
+84
+00:18:32.040 --> 00:19:00.330
+Lev Parker: And what I think is really powerful is, it changes fundamentally instead of being audit oriented, you're exogenous. Your focus, you're like, how do I get all this evidence about my company whatever to fulfill? It is actually, now I understand how my company is doing in real time across cybersecurity, best practices, and I understand what that means for how my company can grow. And you know, navigate regulation and change and like, if there's anything to take away other than like.
+
+85
+00:19:00.370 --> 00:19:05.469
+Lev Parker: don't kick this can down the road. It's that right. And I think anything that gives
+
+86
+00:19:05.530 --> 00:19:22.349
+Lev Parker: any. You know us. More. Agency and empowerment is often a huge win, and especially if it's making sure you know real time how your systems are doing and then capturing that information to go to market, you know, that's that's a slam dunk. That's get that gets me going. At least. Yeah.
+
+87
+00:19:22.790 --> 00:19:25.439
+Lev Parker: So essentially, what you're saying is.
+
+88
+00:19:25.780 --> 00:19:32.389
+Lev Parker: in all these different certifications like, talk to Iso. Gdpr, there are some elements that are old and
+
+89
+00:19:32.570 --> 00:19:38.799
+Lev Parker: yes, a lot whatever is not overlapping. That is the gap.
+
+90
+00:19:39.020 --> 00:19:44.789
+Lev Parker: And if organizations like yours that find that gap and kind of
+
+91
+00:19:45.080 --> 00:19:51.559
+Lev Parker: we, our platform will highlight the gap, and you know I can like.
+
+92
+00:19:51.770 --> 00:20:07.540
+Lev Parker: if we have time after this I could show you the actual platform, and you'll know it, how a test is being collected the evidence, and you'll see the control and you'll see the framework, and you can click on it. And to be like, Okay, what do I need to do, and we'll give you a help guide to do it.
+
+93
+00:20:07.740 --> 00:20:30.739
+Lev Parker: so we can't. We won't do it for you, but we'll give you all the tools and resources to navigate it. Now there are options of like. We have managed service providers who can go in and do this for you. We have. Vc, so consultants, there's like a whole suite of ways. You all can get what you need at this growth stage, depending on how much time or cap or money essentially burn runway that you want to invest.
+
+94
+00:20:30.890 --> 00:20:31.690
+Lev Parker: Yeah.
+
+95
+00:20:31.890 --> 00:20:33.740
+Lev Parker: And we we could talk more about that.
+
+96
+00:20:33.960 --> 00:20:51.463
+Lev Parker: Yeah, this is a quick snapshot of what some of the platform looks like I just realized we're talking about something, you know, high in the sky. But to see more of it might help and again, if we have time. Happy to to jump into it.
+
+97
+00:20:52.470 --> 00:21:04.230
+Lev Parker: okay, I did want to just do a quick note about Trada. We're 4 years old. We have over 7,000 customers, a hundred 1 million annual revenue 4, th fastest of all time from venture backed startups.
+
+98
+00:21:04.440 --> 00:21:23.749
+Lev Parker: Part of that is. Yes, we have had some awesome you know, firms on our cap table from iconic notable Alkyon different court venture arms like salesforce into it, but in large part is that this is such a huge need across
+
+99
+00:21:23.800 --> 00:21:32.499
+Lev Parker: the market that everyone like in part, yes, we have shipped very good software, but also because this is such a huge need and demand.
+
+100
+00:21:32.921 --> 00:21:55.450
+Lev Parker: We started off with early stage companies, and it has grown to, you know, up market. We have across those 7,000 customers every vertical of tech healthcare. We have public sports, teams, universities. We have public utilities, shipping and logistics. I mean, you name the kind of company, and it turns out they end up needing
+
+101
+00:21:55.650 --> 00:22:22.799
+Lev Parker: continuous control, monitoring in a platform, even if they're not necessarily pursuing an audit or whatnot, and there's some other cool, inserencing instances where one was an early stage company selling into healthcare, and he was talking into like a regional healthcare body of, you know, many different hospitals and a couple of smaller clinics, and they were talking about different frameworks and cyber security controls, and our customer asked the regional. It director, like? Well.
+
+102
+00:22:22.860 --> 00:22:50.379
+Lev Parker: aside from frameworks, what else do you really care about? And the person was like, well, I mean, in an ideal world. I'd be able to see this, this and that and live on the call. He shared. The screen popped into Drawda, and they looked, and sure enough, in our control library there's already 800 basic in there. There were a number of controls that this regional it director needed. And he's like that's really cool. I've never been able to see that. So our customer put together this select package
+
+103
+00:22:50.380 --> 00:23:15.179
+Lev Parker: so this it director can see that. And then the it director was able to take it to their organization and help propel them be like, look, this is the more advanced I've able to get it. So depending on what kind of industries you're in. The audit is great. But again, it's much more about now that you're at the helm of this kind of information. There are going to be new opportunities to support your customers, acquire new ones or potentially get funding, which is something we'll talk about in a moment.
+
+104
+00:23:15.860 --> 00:23:23.130
+Lev Parker: Okay, case study. This is one of my favorite ones, Vimcal, technical founder. You know them? Yeah.
+
+105
+00:23:23.350 --> 00:23:32.110
+Lev Parker: So right on they were like, let's see, they're building a scheduling
+
+106
+00:23:32.870 --> 00:23:56.120
+Lev Parker: platform, and it turns out one of like a calendly. And it turns out one of the primary icps were Enterprise Eas. So all of a sudden they had to go sell to Enterprise, and they were faced with Hey had to nail. You had to have sock 2, and at the same time he was like, well, I need more funding and trying to get a series, a funding. And the investor was like, you gotta go get an enterprise customer.
+
+107
+00:23:56.120 --> 00:24:13.400
+Lev Parker: So John was like, Okay, I clearly have to tackle compliance both to get customers and then get funding. He surveyed the market. He chose Drada variety of reasons he went all in. He spent, he estimates, between 25 to 30 h for the 1st 3 weeks, getting everything set up
+
+108
+00:24:13.400 --> 00:24:33.230
+Lev Parker: before he even had gone through the audit, having continuous control, monitoring and draw to able to show it to this enterprise customer, they were able to sign the contract. So that's within 3 weeks of having Drawda by the 4th week, because he had gotten that contract signed. He then got the series a term sheet from his ideal investor within 4 weeks.
+
+109
+00:24:33.230 --> 00:24:48.450
+Lev Parker: I mean, we were blowing up and he came back. He's like man, that was all. Because of you guys, we're like Dude, John, you did that. All we did was like, help you out. You know you were a Rock Star user, and he was like, no, you don't understand. If I didn't have drawda this wouldn't have happened.
+
+110
+00:24:49.050 --> 00:25:15.349
+Lev Parker: And so that was like great. And I had him introduce me. Investor told him about it, and the guy was like, Yeah, I don't know anything about compliance other than often. I know it's a bad word, and it makes me skeptical about how companies can grow so to hear and see this case study. He's like it helped me out, and I was like, great. We'll talk to the poor Co. He's like, forget that. Come, talk to me and my team like we need to know more about what's going on here. So all to say is, there's good wins here. There's a strong use case, you know. This is one of
+
+111
+00:25:15.350 --> 00:25:27.800
+Lev Parker: of our 7,000 customers. I couldn't tell you. There's probably a few 1,000 that are just beyond your growth stage, and we have many, many that are, you know, like Meg was showing, that are your cohort, and and similarly, yep.
+
+112
+00:25:27.950 --> 00:25:30.380
+Lev Parker: so they would like to say that
+
+113
+00:25:30.510 --> 00:25:34.719
+Lev Parker: they were already 15% there with Gdpr.
+
+114
+00:25:35.040 --> 00:25:39.620
+Lev Parker: that means you completed 85% of the Gdpr in 7 days.
+
+115
+00:25:43.240 --> 00:25:52.240
+Lev Parker: Yes, yes, like 85% is like almost all of it.
+
+116
+00:25:52.960 --> 00:26:19.459
+Lev Parker: Yeah. But again, Gdpr is more or less an easy one. This is. I'm piecing together random slides that we have available. So the other one I had on Vimcal highlighted more about the 3 weeks and 4 weeks, and our case study on the website is like what it's about. But yeah, his, his victory was really about talk to, yeah. Yeah. But Gdpr is helpful. Right? Because if you're doing scheduling and you have access to to privacy data like, yeah, you gotta have it.
+
+117
+00:26:19.690 --> 00:26:24.480
+Lev Parker: Yep, 7,000 ish customers. 100 million.
+
+118
+00:26:24.700 --> 00:26:28.299
+Lev Parker: Yeah. 4, th fastest of all time for venture backed startups.
+
+119
+00:26:31.350 --> 00:26:33.770
+Lev Parker: But yeah, they're getting there, too.
+
+120
+00:26:38.450 --> 00:26:39.899
+Lev Parker: Why does the cost difference?
+
+121
+00:26:40.290 --> 00:26:59.540
+Lev Parker: Yeah. So it depends on the how big and sophisticated the tech stack is, and the privacy monitoring or the access monitoring. It also depends on how many people are logging in and using it, but really like
+
+122
+00:26:59.650 --> 00:27:20.449
+Lev Parker: for centralized Grc pursuing an audit is almost one use case. Once you have centralized or continuous control monitoring, you can use that to support risk management. So we have a vendor risk management. 3rd party risk management. You all would get a risk register that would be based off control monitoring that you can do like a matrix assignment
+
+123
+00:27:20.450 --> 00:27:37.579
+Lev Parker: for user access reviews. We also then have something called a trust center, which is, imagine external facing web page that has all your audits, and then it has kind of like a subset of some of these controls and green dots by them that say if how they're doing in real time. And you have automated
+
+124
+00:27:37.690 --> 00:27:50.739
+Lev Parker: nda workflows. And you can even have specific trust centers for different product lines or for your different main customers. And then we do have security questionnaire automation on top of that as well.
+
+125
+00:27:58.948 --> 00:28:03.660
+Lev Parker: Kind of platform or
+
+126
+00:28:03.790 --> 00:28:16.910
+Lev Parker: governance risk and compliance. I would say all that is within Grc, the trust center might be more like trust management. But that's really within, like, governance. You could say, Yeah, yeah.
+
+127
+00:28:17.580 --> 00:28:20.310
+Lev Parker: go through these 3rd party vendors that you guys have and sign it.
+
+128
+00:28:21.400 --> 00:28:50.840
+Lev Parker: No, it's a core platform. When I say 3rd party risk management. Imagine, like as a company you have, you know, 70 different vendors that you use. One could be Vimco, or whatever. I then can monitor in real time how I have pulled information from these vendors. And how that stacks up against my security posture. Yeah, yeah. And how it eventually go is that when both companies have continuous control monitoring, it all does it automatically in real time.
+
+129
+00:28:50.920 --> 00:29:03.449
+Lev Parker: which will be very cool. That'll be like a whole other discussion about go to market. Oh, what's up, dude? Go harvest, hey, cool.
+
+130
+00:29:03.830 --> 00:29:23.230
+Lev Parker: cool, great Shane is the guy that I was like. Oh, you gotta meet the go, and that's Shane. He just hasn't responded to my email yet. But I'm sure he will. Okay, I'm mindful of time. So, and I'm happy to answer any more questions like I said we could do a Demo. But what I want to walk through is just like.
+
+131
+00:29:23.390 --> 00:29:46.299
+Lev Parker: regardless of who you go with. This is information that you should have, and one like questions you can ask whatever vendor and just to like, think about. So we have a team of I don't know. It's like 30 of them who just sell to early stage companies, and this was some of the buyers checks list that they provided. I can send this along. But wanted you to have an idea about, you know.
+
+132
+00:29:46.300 --> 00:29:59.789
+Lev Parker: hey? Evaluate tech stack? Can you support the frameworks? They go to what is onboarding, you know, like, have an idea about how much support you're gonna have. But then there's a lot of other questions you can ask, and you should be aware of. I'll send this along. That's a resource.
+
+133
+00:30:00.192 --> 00:30:09.860
+Lev Parker: How we support our customers is that you have customer success teams, their solution architects. But then there's also live chat within the platform.
+
+134
+00:30:09.920 --> 00:30:38.653
+Lev Parker: That's a distinguished right, like we are not the cheapest vendor for early stage. There's, you know, there's Trada, there's Vonta, there's secure frame, there's scrut. There's Sprinto, there's all these others, and so how much support you'll get is is an important thing to be mindful of. It is often one of the reasons people choose us, and it may be more expensive platform. But again, how technical you are, how clear this signs up like, you know, it sounds like you're having a great success.
+
+135
+00:30:39.400 --> 00:30:56.789
+Lev Parker: you know. Be mindful about the the support resources you have of submitting a ticket versus live chat, and within live chat. Is it Csm. To help you tactically navigate something versus, hey? I need to talk with someone like Shane who understands security compliance for my kind of company and advise me on that.
+
+136
+00:30:57.117 --> 00:31:13.389
+Lev Parker: One thing that some people will do is if they're pocing multiple platforms at one time is they'll submit a help ticket with 2 of them, and then see who responds faster and how well they respond. And that's definitely something I encourage you to to utilize and take advantage of.
+
+137
+00:31:14.127 --> 00:31:19.499
+Lev Parker: We also have something called an accelerator program. I think
+
+138
+00:31:19.710 --> 00:31:29.799
+Lev Parker: others do as well, but from a Comp. And tell them from the market. I don't know as well enough about this. But what we do is we have a like large partner network.
+
+139
+00:31:29.820 --> 00:31:47.780
+Lev Parker: So with compliance, we aren't often undoing the underlying cyber security. But we're packaging it all up right, so companies can utilize it. And so we have managed service partners who can do a number of different. You know it? Or Hr. Or you know whatever kind of services that you contract with them.
+
+140
+00:31:48.121 --> 00:32:02.109
+Lev Parker: Or they also do. Vc, so so a virtual Chief Information Security officer consulting. So a lot of early stage companies are like, we don't have the overhead, or the wherewithal to really tackle this ourselves, we should outsource this.
+
+141
+00:32:02.110 --> 00:32:03.320
+Lev Parker: So with those
+
+142
+00:32:03.330 --> 00:32:29.190
+Lev Parker: partners, they offer a 4 week program to help with implementation and chip away at some of that estimated 90 h to 100 h to get everything going. They will try and do a lot of that for you within the 1st 1st month. They and it's all for free. They do it because they like want your business, and they want to know you over time, and they want to make us happy. So it's kind of a win win again. I don't know how others
+
+143
+00:32:29.190 --> 00:32:48.670
+Lev Parker: other kind of platforms or other services available, but that's something. Also, I think, is an early stage company to be mindful of, because even if you're like, I can do 10 HA week, I'm gonna suck it up. So I don't want to pay someone having someone to be able to help you do that as quickly as possible, especially if it's for free could definitely be a good win.
+
+144
+00:32:49.440 --> 00:32:54.559
+Lev Parker: And then, lastly, is, you gotta prepare. You also have to anticipate the costs of the audit.
+
+145
+00:32:54.810 --> 00:33:16.220
+Lev Parker: So for context, to type 2, estimate 5 to 10,000. Some of you may need to require a pen test, and that could be another 3 to 8,000. We, if you don't want to tackle this at all yourself, and you want to pay someone else to. You can go with a managed service partner like I mentioned.
+
+146
+00:33:16.220 --> 00:33:26.019
+Lev Parker: and I was just quoting another Techstars company from the San Diego cohort. For I think 14,000, or maybe 18,000,
+
+147
+00:33:26.070 --> 00:33:32.720
+Lev Parker: including the audit. So in total, it might be like 25 to 22
+
+148
+00:33:32.920 --> 00:33:47.426
+Lev Parker: for the for a platform like ours, and them to do it in the audit. So I know with what tech services it's 2 20 right now. So having to knock 10 off of that for for compliance might be hard.
+
+149
+00:33:48.200 --> 00:34:15.929
+Lev Parker: yeah. And another thing I I wanted to include in here that everyone asks is milestone timeline. I think someone else brought that up often, that, depending on how long it takes you to get the platform set up that you are continuously monitoring, and your green lights all go, and all the requirements for sock 2, for example, there's this evidence collection window, and that is this area is like really firm on it's gonna take 3 months
+
+150
+00:34:16.130 --> 00:34:23.469
+Lev Parker: of you just sitting there. Everything is good. Make sure it stays good. And they collect it, and then you go to audit.
+
+151
+00:34:23.670 --> 00:34:27.219
+Lev Parker: Not only does this help you set expectations, but also it's
+
+152
+00:34:27.949 --> 00:34:34.729
+Lev Parker: I feel for y'all in a lot of ways right? But love the grind. But you don't know how
+
+153
+00:34:34.969 --> 00:34:50.369
+Lev Parker: the decision you made if it'll work out until 6 months down the road, potentially right. If you're choosing between, how do I tackle this problem? Do I use consultant? What platforms? What do I do? You won't necessarily know if you made the right choice until 6 months down the road.
+
+154
+00:34:50.400 --> 00:35:10.419
+Lev Parker: when it's like at the audit and go time. So if you have any more questions about how to to navigate that like happy to be a resource. I'm probably biased, but I think I try and do a good objective mark of like saying what's best, because some people have great success with some of the the, you know, cheaper providers, and it works out.
+
+155
+00:35:11.190 --> 00:35:18.539
+Lev Parker: it's good for a year. Yeah.
+
+156
+00:35:20.160 --> 00:35:23.670
+Lev Parker: Fine. What is regulating
+
+157
+00:35:27.160 --> 00:35:49.939
+Lev Parker: AI. Cp, it kind of varies. So there's some called like Iso for Iso that was in Europe. It's called Iso, something I don't exactly remember. Shane will know. There's 1 called NIST that if you're going into more it's more of higher, more regulated industries. It's gonna be there. There's some for Fintech. That that organize Pci. Dss. For payments?
+
+158
+00:35:50.000 --> 00:36:08.729
+Lev Parker: No, no, but for sock 2. It's specifically for the Aicpa, the American Institute of Certified Public Accountants so often like, you know, accountants who do auditing firms. They have people who do cyber security audits as well.
+
+159
+00:36:09.390 --> 00:36:25.969
+Lev Parker: Yeah, we do. And in fact, we used to have the chair of the Aicpa in-house, citrada the chair of that of the board there, and they had a whole compliance team. But for the most part we
+
+160
+00:36:25.970 --> 00:36:41.740
+Lev Parker: try not to be services. And we are really like this, this tech platform that puts you all in the at the helm and empowerment. And as a company gets bigger and they have people who can specifically focus on that, then they can. Do. You know a lot more in this, all these, all these great things. Yup
+
+161
+00:36:41.990 --> 00:36:45.840
+Lev Parker: for cybersecurity startups, you guys also provide.
+
+162
+00:36:46.110 --> 00:37:04.039
+Lev Parker: We do not. However, we do have partners with cyber security insurance companies, and we have a case study of a company that I think was probably larger than y'all, but the price of Drawda lowered the premium
+
+163
+00:37:04.180 --> 00:37:14.249
+Lev Parker: more than the price of the platform. So it was another like Roi impact of of having a system like this. Because from the you know, insurance
+
+164
+00:37:14.430 --> 00:37:23.622
+Lev Parker: body they're like, oh, you're wildly minimizing risk by having continuous control monitoring so that's something hopefully and feel free to
+
+165
+00:37:24.200 --> 00:37:33.212
+Lev Parker: I'll send everyone like everyone should probably get we can send. I have a copy of the deck. And you can get my email. And I can connect you with our team who works with
+
+166
+00:37:33.590 --> 00:37:36.310
+Lev Parker: insurance companies. Oh, Shane has to leave
+
+167
+00:37:36.620 --> 00:37:48.539
+Lev Parker: great now. We can give him a hard time. Yeah. So how much time on average, does it take to set up.
+
+168
+00:37:48.650 --> 00:38:18.250
+Lev Parker: Yup. It really depends varies by the company by your tech stack, and by which audit you're pursuing. The vim vimcal case study. He and I was like, you know, talking with him. Live about it, and he's like. For the 1st 3 weeks I went all in because I had to for that enterprise customer. He's like I probably put in between 25 to 30 HA week. Now for you. It could be 60, or for you it could be 120 the the 14 to 18,000 quote that I mentioned working with another tech stars
+
+169
+00:38:18.310 --> 00:38:19.145
+Lev Parker: cohort.
+
+170
+00:38:20.100 --> 00:38:37.439
+Lev Parker: she was estimate. She's like, you know it really depends, and they are non technical founders, their CTO unfortunately left. And so then they were like, Shoot what do we do? Who? And he was running it. And she's like, you know, their team. It could take these guys 250 h like we have a lot of early stage companies that that's how much time it takes
+
+171
+00:38:37.690 --> 00:38:40.719
+Lev Parker: somewhere between there. Yeah.
+
+172
+00:38:41.820 --> 00:38:49.160
+Lev Parker: Yeah. But you know what? If you're a tech service founder, go on the lower end, you know you're not that 2 50. You're gonna be lower than that.
+
+173
+00:38:49.270 --> 00:38:49.980
+Lev Parker: Yeah.
+
+174
+00:38:50.460 --> 00:39:20.160
+Lev Parker: Housekeeping like when the client comes. You already have that all prepared. Yup, are there any other like main drivers?
+
+175
+00:39:20.380 --> 00:39:41.320
+Lev Parker: One? It's not as simple as oh, this one customer wants, I would say, the existential element earlier on. You are demonstrating that you're legit and you're safe to do business with. I kind of equate it to like brushing your teeth if you don't. If you have bad breath in a social environment. You will probably be driving people away before you realize it.
+
+176
+00:39:41.330 --> 00:40:03.789
+Lev Parker: Right? So it's kind of like getting ahead of that 2. It's we're gonna reduce friction in the sales funnel. So not only is it like, Hey, do I need this one customer to get in, but they're gonna be able to close deals a lot faster. And as a company gets bigger and they have something like a trust center, they're able to measure and monitor and quantify that. And that's why that kind of function sells really well. And then I'd say 3 is that
+
+177
+00:40:04.130 --> 00:40:32.020
+Lev Parker: I talk with some companies or some Vcs who are like, I'm helping startups go from 0 to one. We don't know where they're going that you then be able to be nimble and resilient and adaptable like you can pursue new audits and access new markets, as maybe you discover a new Icp or you launch a new product or whatnot. Another one is, I would say, is that as you on board, as you endure the pains of growth, both for employees, for tech, stack for products.
+
+178
+00:40:32.070 --> 00:40:46.000
+Lev Parker: you then are going to see in real time what some of those impacts are for your cybersecurity. And you're going to be able to remediate those quickly. So that is like not only going to endure growth better, but it's also going to help you minimize risk.
+
+179
+00:40:46.260 --> 00:40:49.100
+Lev Parker: Yeah. And I'll say one more is that
+
+180
+00:40:49.290 --> 00:41:02.988
+Lev Parker: when you there, you know, like tech debt is, there's compliance debt, too. So and that's like a that's a decision, you know, that like dealing with constraints of like well, how often you know, when do I tackle this now? Versus later?
+
+181
+00:41:04.000 --> 00:41:05.690
+Lev Parker: yeah, I think that's fair.
+
+182
+00:41:06.050 --> 00:41:24.730
+Lev Parker: How's that land? The main reason they get pushed over is because
+
+183
+00:41:26.017 --> 00:41:35.170
+Lev Parker: which is great, I need to redo the deck. But I'm gonna have a bullet for each one of those. I will say we have a number of people, a number of customers.
+
+184
+00:41:35.340 --> 00:41:40.240
+Lev Parker: and I end up lately. I work more with like our like, for
+
+185
+00:41:40.470 --> 00:41:55.729
+Lev Parker: with PE firms and later stage companies. I'm like, you know, exact conversation. So I appreciate being able to to be here with early stage companies a lot. But even in my purview is that there's a number of people who have
+
+186
+00:41:56.080 --> 00:42:24.110
+Lev Parker: done this before, you know, who are maybe multi founders or had been product managers at a number of large companies. And in stealth. They are automating this because they're like, I know, this sucks. And I know that I'm gonna need this to access markets and reduce friction and sales funnel before I even go to market. And so when I see that I'm like, Oh, you like, you know, you've done this before. And this is like your pro tip. This is how you're doing it. I'm like that. That makes sense.
+
+187
+00:42:24.270 --> 00:42:34.870
+Lev Parker: Yeah, you said you. I mean, if you do it in the early stages it becomes easier. But let's say, one year from now you have to do it again.
+
+188
+00:42:35.650 --> 00:42:47.360
+Lev Parker: So that's the thing. Is that once you this like how we're talking about how you have to get things set up before you collect evidence.
+
+189
+00:42:47.960 --> 00:42:48.980
+Lev Parker: You're done.
+
+190
+00:42:49.240 --> 00:42:50.670
+Lev Parker: You've done that one time
+
+191
+00:42:50.800 --> 00:43:19.840
+Lev Parker: right now. Maybe if there's a change in your, you know. Infrastructure provider and maybe some of that, like Json output of the Api configuration changes, it might flag it, and you can close the gap. But like we actually have some, we have some customers churn who are like, yeah, we got set up and we're going. And then, like, you know, like for sock, 2 will automate. I don't know. It depends on the company, but like, let's call it 85. So a year from now, there's still gonna be some work one. It will not be
+
+192
+00:43:20.059 --> 00:43:39.129
+Lev Parker: hundreds of hours, and I should. I'll find out what that metric is for that second year around. But we'll have some companies will be like, Yeah, you know, I don't know. We automate a few times. We don't really use Drada as much as we used to, and so like, I don't know we're gonna look elsewhere or whatnot it almost like self defeating. And then they're like, Oh, wait! I forgot that it was doing all this on the back end the whole time. So.
+
+193
+00:43:39.210 --> 00:43:47.200
+Lev Parker: in short, the work you do now to get it set up, you don't have to repeat it ever again.
+
+194
+00:43:49.100 --> 00:43:56.290
+Lev Parker: Yeah, yeah. I mean, if so, it's like a marginal amount. That's what I was saying it before of like.
+
+195
+00:43:56.540 --> 00:44:00.819
+Lev Parker: then every per, because what it's gonna do is it's gonna pull out of the Idp.
+
+196
+00:44:00.970 --> 00:44:15.600
+Lev Parker: right? So right, Octa, Google G. Suite. Right? Yes. Then, if you're 3 or 4, yeah, yeah.
+
+197
+00:44:16.180 --> 00:44:32.500
+Lev Parker: Yeah. And also, if you didn't automate it now, your options to pursue sock 2 or Gdpr, as you need to. Gdprs, let's call it different for sock 2 is that you are gonna have to go in and do all these screenshots right and collect all that evidence.
+
+198
+00:44:32.680 --> 00:44:50.830
+Lev Parker: and then it's gonna have to go to the auditor. And then you're gonna have to be going back and forth with the auditor. Just guaranteed it's not gonna be the good amount if it the right intel they need. So one thing I didn't mention is, we have a hundred 45 different, I think, auditing firms in our network who have partnered with us because they're like
+
+199
+00:44:50.830 --> 00:45:05.629
+Lev Parker: my audit. Now, like auditing these companies goes faster. So my cost to do that audit is lower. I, you know they also have to embrace it, that this is kind of like what's happening now in the industry.
+
+200
+00:45:05.640 --> 00:45:07.619
+Lev Parker: Nope, Nope, and
+
+201
+00:45:07.650 --> 00:45:18.249
+Lev Parker: great question. You should be very wary of any company that is collecting the evidence and doing the audit. That's like I'll be taking the test
+
+202
+00:45:18.490 --> 00:45:30.490
+Lev Parker: and and giving you the grade at the same time. That is a huge conflict of interest. You asked about governing bodies. Aicpa is like coming down on those firms hard, and if an auditing firm
+
+203
+00:45:30.770 --> 00:45:54.010
+Lev Parker: is found to have failed on an audit, and especially in something like whatever this material classes not like they made a mistake. But like there's negligence in their process. They are gonna revoke all the audits that firm has done over this like certain time period. So there are some lower cost alternatives that are going to be like. We'll do it all in house. We'll take care of all of it for you. That is something to be skeptical of.
+
+204
+00:45:54.314 --> 00:46:04.680
+Lev Parker: However, early stage companies. Sometimes you're like, I gotta take that risk because I don't have the extra 10,000 now, and you tackle that later. That's that's, you know, up to you all.
+
+205
+00:46:04.730 --> 00:46:15.549
+Lev Parker: So let's right. Now we are. We're going to talk to Iso with Scribe and if we want to get Gdpr with Java, is that possible?
+
+206
+00:46:18.950 --> 00:46:26.839
+Lev Parker: Yeah, I don't recommend having 2 platforms. But I guess it could be.
+
+207
+00:46:27.150 --> 00:46:32.520
+Lev Parker: Yeah. Yeah. But you know, like, what's we could talk, and I can see what I can do to
+
+208
+00:46:32.940 --> 00:46:36.309
+Lev Parker: to you know we can migrate you off scrut you want.
+
+209
+00:46:36.550 --> 00:46:46.349
+Lev Parker: Oh, wait. I gotta say focus, objective, sweet. So one thing I'll talk about, and
+
+210
+00:46:46.540 --> 00:46:55.729
+Lev Parker: I saw you had your hand up. I want to get to it.
+
+211
+00:46:56.330 --> 00:46:59.310
+Lev Parker: No, that's a good question. That's a great question.
+
+212
+00:47:00.172 --> 00:47:02.579
+Lev Parker: I will find out
+
+213
+00:47:02.700 --> 00:47:15.500
+Lev Parker: honestly, the landscape is evolving very quickly. Our primary competitor had a audit firm that they spun up, founded by 3 former employees of that competitor. And so
+
+214
+00:47:15.700 --> 00:47:22.767
+Lev Parker: how they've tackled, that has been kind of like prompting aicpa to decide on what to do about it.
+
+215
+00:47:23.320 --> 00:47:30.959
+Lev Parker: but we have a whole team focused on our auditor relations. They're all former auditors. So I'd love that question I will ask. I'll find out.
+
+216
+00:47:31.961 --> 00:47:41.000
+Lev Parker: Okay, so and I could send resources, that kind of break down what's available in the product by different bundles. Also, are we okay on time? Should I just keep cruising?
+
+217
+00:47:42.620 --> 00:47:46.725
+Lev Parker: Okay, I was like, yeah, it'll be like, 30 min
+
+218
+00:47:47.573 --> 00:48:06.480
+Lev Parker: list pricing for any company like y'all is about $15,000 a year, just for the platform, and that's including $15,000 a year, and that's including going for sock 2. And then there's an audit on top of that. So estimate 20,000. We have special pricing for accelerators
+
+219
+00:48:06.630 --> 00:48:12.680
+Lev Parker: reflective of company growth stage, and we cut it in half. So you can get drawda for $7,500 a year.
+
+220
+00:48:15.270 --> 00:48:20.830
+Lev Parker: That's really the the floor. Actually.
+
+221
+00:48:25.761 --> 00:48:43.849
+Lev Parker: it'll work out. You don't have to be in the program. You go through the link, your Logos on the website. It'll work out. And again, I could send this all to you to y'all and we are in their perks. Page. So right, do they have access to the to the Perks Library for life? Yeah.
+
+222
+00:48:44.480 --> 00:48:53.449
+Lev Parker: yeah, yes, wait. Sorry, real quick. I think you're sorry you're talking
+
+223
+00:48:56.670 --> 00:48:59.300
+Lev Parker: for Iso. Sock. 2.
+
+224
+00:49:02.990 --> 00:49:04.603
+Lev Parker: Pardon. Pardon.
+
+225
+00:49:07.350 --> 00:49:10.799
+Lev Parker: Yeah. So you get access to the platform
+
+226
+00:49:11.270 --> 00:49:28.800
+Lev Parker: you get access to. It's gonna be a more self guided customer or onboarding and customer support. But we have live chat within the platform again. Csms and compliance experts. You can always, if you're like struggling to hop on a call thankfully like part of my seat is that
+
+227
+00:49:28.870 --> 00:49:52.380
+Lev Parker: if you ever loop me in on something, I'm gonna go, you know, wreak havoc internally. I'm very annoying, so that that's pretty fun, and it will get you prepared for audit, and we can advise an auditor for you or pen test, or if you need it, and the audit can be conducted within the platform. You can invite an auditor in, and they can do it so you can see it all there, and like happy to I
+
+228
+00:49:52.650 --> 00:50:04.633
+Lev Parker: that's maybe a call where it'd be like, if you want to learn more. Let's set up another call, and like I can have someone else who's better at being like this is everything that you'll get, and all that, and walk you through it?
+
+229
+00:50:07.660 --> 00:50:19.040
+Lev Parker: companies who are only platform. Do you also, like, you know some? Do you also like overlook, like you know the auditing done by them? Or is it like independent of the background?
+
+230
+00:50:19.410 --> 00:50:22.330
+Lev Parker: You take the responsibility of your team?
+
+231
+00:50:23.090 --> 00:50:31.250
+Lev Parker: No, in short, no. And that is one advantage of if you have an Mssp. Partner, or someone who kind of like.
+
+232
+00:50:31.510 --> 00:50:56.469
+Lev Parker: does all this for you is that they will. One thing I will say. And again, this is a distinguishing element amongst this industry is that we have had 0 customers, with major exceptions or nonconformities. Those are ways like an audit can be flawed at audit. So what we do take absolute ownership of is if we tell you you're at 98%, 100 before audit.
+
+233
+00:50:56.710 --> 00:50:58.230
+Lev Parker: it's gonna be right.
+
+234
+00:50:58.570 --> 00:51:02.110
+Lev Parker: The one of the benefits, not only of having
+
+235
+00:51:06.080 --> 00:51:06.940
+Lev Parker: right
+
+236
+00:51:07.430 --> 00:51:19.850
+Lev Parker: right. And again, that's partly because impartiality, like you have to have some other body come in and evaluate it. It can't be us. Yeah. Yeah.
+
+237
+00:51:20.415 --> 00:51:45.939
+Lev Parker: There's 22 different frameworks. I could send you a list. But there's sock 2. There's like 4 or 5 different isos. Gdpr, hipaa NIST we also can do custom audits, and we can work with other partners who curate audits. So we just started doing one for sec. Ira, where the sec. For financial auditing also has cyber security controls, which is, which is pretty cool.
+
+238
+00:51:47.170 --> 00:51:52.680
+Lev Parker: Pardon, FDA. Not that I know of.
+
+239
+00:51:52.800 --> 00:52:12.410
+Lev Parker: but we may. So if we've had a larger company, let's say, was paid a partner to build that custom in our platform. It might not be listed, but it might be a custom one. So if you like, send me an email, I'll ask my team internally, and I'll find out if anyone is using the platform like that, we can almost like replicate it for others. Yeah, Yup.
+
+240
+00:52:13.170 --> 00:52:18.190
+Lev Parker: there are organizations such as the Google Doc.
+
+241
+00:52:18.940 --> 00:52:26.640
+Lev Parker: each. Yeah, each. They because of textiles they are giving us like a deferred
+
+242
+00:52:26.780 --> 00:52:41.930
+Lev Parker: fee structure, so we can pay them after. Oh, cool. Yeah, we don't have that, would you, please?
+
+243
+00:52:42.330 --> 00:53:08.425
+Lev Parker: That'd be cool. I well, it it would be that that decision is beyond my pay grade. And then I know that person well, and what's that? I appreciate this. I should I? I do need to be held accountable to eat my own words so on that one, I can tell you it. It won't work. Yep.
+
+244
+00:53:09.556 --> 00:53:20.930
+Lev Parker: 2, 7, 0 0 1 and a lot of others. And then also, I guess, does your firm help like you help me walk through like how to make that decision?
+
+245
+00:53:21.690 --> 00:53:25.730
+Lev Parker: Great question. That is definitely something that we, I mean.
+
+246
+00:53:27.350 --> 00:53:46.190
+Lev Parker: we are available to say, these are these different frameworks. And this is why, and this is what constitutes them. This is what we know about the like which industries require them, the kinds of companies that pursue them. We can tell you what the overlap is, because a big part of it, and actually like
+
+247
+00:53:46.400 --> 00:54:04.699
+Lev Parker: mentioned, there's policies I kind of gleaned over that. There's like 40 different policy templates that are ubiquitous across all these different frameworks. And when you sign on as a company and you're saying, Okay, hey, we're gonna go. You know, you have business objectives like Soft 2 now, but in you know the coming years our growth trajectory is, we think, this firm, that firm, our compliance advisors, will
+
+248
+00:54:04.810 --> 00:54:31.630
+Lev Parker: make policies that are like, Hey, we kept these clauses in. You don't need them now, but you will later on. Might as well have them, so we can say like these frameworks, etc, and then be like, if this overlap between these 4 firms or these 4 different frameworks we can advise on like. Well, it's a it's a small marginal effort for you to tack on this extra framework, you know. You'll have audit costs, or whatever. But we can't say of like, Hey, you need to do these ones.
+
+249
+00:54:31.660 --> 00:54:35.747
+Lev Parker: We'll like, give you the information to make that choice. Does that make sense?
+
+250
+00:54:36.230 --> 00:54:46.315
+Lev Parker: And then just follow, that is like, do you guys do like package discounts so like the
+
+251
+00:54:47.490 --> 00:55:14.280
+Lev Parker: Yes, in theory, there's a i would say, rather large fee to add on another framework. But like we do discount, and especially because this is a very competitive market for early stage companies in particular, right? Like, I've been a trial to 2 years, and a number of other competitors have joined that like, yeah, you'll you'll if in theory, the more frameworks you have, the greater the cost. But it's it should. It'll be marginal.
+
+252
+00:55:15.170 --> 00:55:17.510
+Lev Parker: Yeah, do you know, roughly, what that is
+
+253
+00:55:22.640 --> 00:55:26.480
+Lev Parker: pretty large, I think, right, now
+
+254
+00:55:48.430 --> 00:56:01.159
+Lev Parker: and it's not like a set standard discount. I'm more gonna say, like, well, what list typically is, and then what you might be able to expect, I mean, I would. In theory.
+
+255
+00:56:07.260 --> 00:56:10.129
+Lev Parker: it's 2 30
+
+256
+00:56:13.050 --> 00:56:19.120
+Lev Parker: in theory. List is between 5 to $10,000 for an additional framework. I would anticipate that like
+
+257
+00:56:19.680 --> 00:56:22.200
+Lev Parker: it would be 0 to 3,000
+
+258
+00:56:22.740 --> 00:56:27.780
+Lev Parker: 0 to 2 for per additional framework. Yeah.
+
+259
+00:56:32.690 --> 00:56:37.050
+Lev Parker: Yep, yep.
+
+260
+00:56:37.410 --> 00:56:41.540
+Lev Parker: So that one with sock 2
+
+261
+00:56:41.910 --> 00:56:48.129
+Lev Parker: I don't know. Actually, that's a good question. But that one. You, I think you should definitely assume you can get it for one price.
+
+262
+00:56:48.690 --> 00:57:10.500
+Lev Parker: I have to. Unfortunately, I have to let sales team do the final pricing and all that. Yeah, but I I will say sorry that, like there's many early stage companies that for us to be competitive or like to close before the quote or whatnot that like, you can get at the platform and 3 frameworks for the price of the platform and one framework. So, yeah.
+
+263
+00:57:13.837 --> 00:57:21.909
+Lev Parker: is there any frameworks that are associated with it?
+
+264
+00:57:22.970 --> 00:57:27.490
+Lev Parker: Other frameworks that are associated with Gdpr, my.
+
+265
+00:57:27.780 --> 00:57:36.660
+Lev Parker: what we are? I've been asked every day is, I need to show it. Oh, interesting! What type of framework should I pursue?
+
+266
+00:57:37.700 --> 00:57:38.770
+Lev Parker: Gdpr.
+
+267
+00:57:38.960 --> 00:57:56.249
+Lev Parker: yeah, so the way you can do that is essentially being like this is what constitutes Gdpr. This is what we have, and this is how I show it, and you do that within trada. And so then you can say, hey? I'm gdpr compliant.
+
+268
+00:57:57.278 --> 00:58:08.640
+Lev Parker: I think there is an audit right.
+
+269
+00:58:08.790 --> 00:58:23.950
+Lev Parker: If there isn't either way, there will be something that you can give and direct people to that is self service like like a audit certification.
+
+270
+00:58:24.070 --> 00:58:37.099
+Lev Parker: Yep, yep, cause right with, and which you can get audited. But you can also fulfill Gdpr without getting audited by just showing that you're doing the things right. Yep, yep.
+
+271
+00:58:37.290 --> 00:58:38.650
+Lev Parker: yeah, for sure.
+
+272
+00:58:39.460 --> 00:59:07.420
+Lev Parker: Yep, yep, and you still have to pay for the audit. But like. Essentially, you'll get all the continuous control monitoring, and then you'll have it all, you know. You'll get a gap analysis. But then you can click into one framework in particular, and like it'll all be detailed and laid out, and you'll have all you'll know exactly what you need to do to close the gap and all that. Yeah.
+
+273
+00:59:11.280 --> 00:59:19.200
+Lev Parker: yes, this is recorded. So I'm doing. But I'll say on either confirm or deny. But yeah, especially like, if
+
+274
+00:59:19.320 --> 00:59:37.690
+Lev Parker: if so, if you go through this link, it's gonna create the OP. And Crm, it'll automatically be tagged tech stars. I'll be notified and like I'll monitor it. So no matter, even if we aren't on. If I'm not on the email thread, know that? Like I'm I'm looking at it over the on the back end. And I've already pinged the rep as soon as it comes in and be like.
+
+275
+00:59:38.090 --> 00:59:43.019
+Lev Parker: you know, this is what this is, how you. This is what you need to do so.
+
+276
+00:59:43.460 --> 00:59:50.110
+Lev Parker: You can always tell the rep like, Hey, dude loop in the ginger, Guy Lev, and and I'm there so, and I'll have your back.
+
+277
+00:59:51.560 --> 00:59:52.839
+Lev Parker: It's best I can say.
+
+278
+00:59:57.080 --> 01:00:06.849
+Lev Parker: cool and yeah, hit me up any questions. I wish I'd been able to have more time to ask about what you're building and how it's going. But you know, cyber security, compliance.
+
+279
+01:00:08.520 --> 01:00:09.730
+Lev Parker: cool.
+

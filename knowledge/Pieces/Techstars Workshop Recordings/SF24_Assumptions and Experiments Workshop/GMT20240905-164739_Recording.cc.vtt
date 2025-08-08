@@ -1,0 +1,1556 @@
+WEBVTT
+
+00:00:04.000 --> 00:00:10.000
+I'm gonna double check that. You guys can see the screen before I start this time.
+
+00:00:10.000 --> 00:00:13.000
+Is everyone seeing this?
+
+00:00:13.000 --> 00:00:14.000
+Remember you might.
+
+00:00:14.000 --> 00:00:15.000
+I see it.
+
+00:00:15.000 --> 00:00:16.000
+New Tab.
+
+00:00:16.000 --> 00:00:17.000
+Okay.
+
+00:00:17.000 --> 00:00:18.000
+Dave, you're saying it.
+
+00:00:18.000 --> 00:00:20.000
+Okay. Cool.
+
+00:00:20.000 --> 00:00:23.000
+So today, we're going to talk about assumptions and.
+
+00:00:23.000 --> 00:00:29.000
+So the techs team who put this deck together they call the assumptions hypotheses.
+
+00:00:29.000 --> 00:00:30.000
+It's the same thing.
+
+00:00:30.000 --> 00:00:38.000
+Neil and I always call them because we really like the riskiest assumption test which I put in your pre work. Pack.
+
+00:00:38.000 --> 00:00:43.000
+If you didn't click on that article I highly recommend going after this workshop and reading. It's like.
+
+00:00:43.000 --> 00:00:48.000
+A 5 min. Read but riskiest assumptions are the same as.
+
+00:00:48.000 --> 00:00:51.000
+Hypotheses that you're making. But assumptions.
+
+00:00:51.000 --> 00:01:03.000
+I guess, gives the implication that you are just assuming it, which is the correct implication. Hypothesis sounds a lot more official when it's all really just speculation and assumptions.
+
+00:01:03.000 --> 00:01:08.000
+So. You'll see the word hypothesis in here, but I've renamed it to assumptions and.
+
+00:01:08.000 --> 00:01:26.000
+So like, I just said, before we started today is about learning a skill. So I added, this in here so that you guys understand the objective today, recognizing assumptions and designing experiments to validate them. That's all I want you to take away from this. And we can kind of chat and go through it together, and then.
+
+00:01:26.000 --> 00:01:31.000
+Throughout program, you will design and start validating these assumptions like.
+
+00:01:31.000 --> 00:01:41.000
+The whole program. That's really a lot. One of the best things you can do is come out of techstars with a lot of validated assumptions that you're sure about your business.
+
+00:01:41.000 --> 00:01:45.000
+I want to start with a warmup question.
+
+00:01:45.000 --> 00:01:49.000
+Based on the riskiest assumption test that you guys did in your prework packet.
+
+00:01:49.000 --> 00:02:00.000
+What is one hypothesis or assumption that you have about your company that you'd like to share? Does anybody have one that they're thinking of it does not have to be your riskiest assumption.
+
+00:02:00.000 --> 00:02:05.000
+Just any assumption or hypothesis. Yeah. Agent.
+
+00:02:05.000 --> 00:02:11.000
+Yeah one. I think it's it's probably up there with the riskiest. But
+
+00:02:11.000 --> 00:02:16.000
+We, we have an assumption that small business owners will be willing to.
+
+00:02:16.000 --> 00:02:28.000
+Essentially trust the AI to outsource that component of the work from either themselves or from a freelance or agency.
+
+00:02:28.000 --> 00:02:42.000
+And the whole product kind of hinges on that right, because if they're not willing to do it.
+
+00:02:42.000 --> 00:02:43.000
+Yeah.
+
+00:02:43.000 --> 00:02:48.000
+You're not really gonna be able to provide them with that service, and you'd have to pivot. I think that's a great example, because we need to make sure that's validated very soon. I'm interested. What your riskiest one is, if it's not that one. But we can talk later.
+
+00:02:48.000 --> 00:02:53.000
+No, that was a great answer, though Dave.
+
+00:02:53.000 --> 00:02:54.000
+Did you.
+
+00:02:54.000 --> 00:02:56.000
+Oh! And.
+
+00:02:56.000 --> 00:02:57.000
+Oh!
+
+00:02:57.000 --> 00:03:05.000
+I didn't raise my hand, but I'm happy to give you. Ours is ours is, if they, if we build it, they will come right. And so you're you're talking about a legacy of playing these games for 50 years in person.
+
+00:03:05.000 --> 00:03:09.000
+And we're theoretically now saying that we're gonna allow you to.
+
+00:03:09.000 --> 00:03:16.000
+Play it online. And so you know, there's a huge assumption that people are gonna be like, Yeah, that's cool. I'll do that.
+
+00:03:16.000 --> 00:03:19.000
+Yeah, that's a huge platform shift right?
+
+00:03:19.000 --> 00:03:27.000
+Assuming people who play table games would just want to go on. The computer is a huge assumption I'm very interested in, like what.
+
+00:03:27.000 --> 00:03:41.000
+You might have already that kind of backs up that assumption, or if it's just straight up, unproven, which is fine, too, most of you. By the way, most of your assumptions will be unproven because we're catching you so early. So that's like normal. You don't have to be ashamed.
+
+00:03:41.000 --> 00:03:44.000
+George.
+
+00:03:44.000 --> 00:03:47.000
+Thanks. Yeah, I I think.
+
+00:03:47.000 --> 00:03:50.000
+Probably the most fundamental assumption.
+
+00:03:50.000 --> 00:03:52.000
+That's the most risky would be that.
+
+00:03:52.000 --> 00:03:58.000
+Companies actually really prefer, like less biased insight when they're conducting market research.
+
+00:03:58.000 --> 00:04:02.000
+Cause in my experience a lot of the time it's about
+
+00:04:02.000 --> 00:04:03.000
+Sort of.
+
+00:04:03.000 --> 00:04:07.000
+Finding validation for preconceived ideas.
+
+00:04:07.000 --> 00:04:08.000
+And that's a bit. I think that's a big problem. So.
+
+00:04:08.000 --> 00:04:10.000
+And.
+
+00:04:10.000 --> 00:04:16.000
+Yeah.
+
+00:04:16.000 --> 00:04:17.000
+Yeah, exactly.
+
+00:04:17.000 --> 00:04:19.000
+The that confirmation bias. Right? It's like, why, a lot of them hire the consultants. They don't actually want the truth. They just want the consultant to validate, decided to do.
+
+00:04:19.000 --> 00:04:20.000
+Yeah.
+
+00:04:20.000 --> 00:04:21.000
+Same thing.
+
+00:04:21.000 --> 00:04:24.000
+That's interesting. I'm very interested in what you can come up with to test that.
+
+00:04:24.000 --> 00:04:27.000
+Morgan.
+
+00:04:27.000 --> 00:04:46.000
+For me, it's the assumption that like, now's the time for, you know, solving problems and women's health. I think no one ever asked like, why should we solve for cancer? Or you know Alzheimer's or something? But I think a long time people neglected women's health. But I think now's the time to go forward, and that's what my company is based off of. So.
+
+00:04:46.000 --> 00:04:48.000
+Just on kind of that assumption.
+
+00:04:48.000 --> 00:04:57.000
+Tell me more about that. What would it mean for you if that is untrue? Does that mean the demise of the business, or just would be harder like.
+
+00:04:57.000 --> 00:04:58.000
+What?
+
+00:04:58.000 --> 00:04:59.000
+Just harder, I think.
+
+00:04:59.000 --> 00:05:20.000
+For a long time. It's just kind of an assumption that women's pain is just something most women can just deal with. So I think there's more of a public awareness about it now. I think investors are more aware of it now. But that you know, that's again an assumption on my part. So if it's not true, it doesn't mean that obviously the patients are still there. These women still want help. It will just be bit harder on me for herself.
+
+00:05:20.000 --> 00:05:40.000
+That's interesting. Yeah, I haven't really heard an assumption like that before, but that's completely valid where it's like, look, this could be the time for it, and it could not be, and it could be a lot harder if it's not the time for it. But that doesn't mean that it's like your business cannot succeed right now, either way. So I would say like, that's like a less risky assumption. But it's still totally valid.
+
+00:05:40.000 --> 00:05:45.000
+Okay. Anyone else.
+
+00:05:45.000 --> 00:05:47.000
+Cool. Let's move on.
+
+00:05:47.000 --> 00:05:51.000
+So those were all great. Let's do an example.
+
+00:05:51.000 --> 00:06:02.000
+Are a couple of examples very similar to what you guys just shared. Let's pretend we have a health tech company in the dementia space targeting senior citizens, children.
+
+00:06:02.000 --> 00:06:07.000
+Who are making decisions for their aging parents. I know a lot of us on the call have aging parents. This, like pretty.
+
+00:06:07.000 --> 00:06:12.000
+Should resonate with a lot of people. So pretend we're all working on this business.
+
+00:06:12.000 --> 00:06:15.000
+A couple of hypotheses or assumptions that we could make.
+
+00:06:15.000 --> 00:06:17.000
+About this business.
+
+00:06:17.000 --> 00:06:25.000
+I believe that Facebook is the best channel to acquire people 45 to 60 years old, who are my target customers.
+
+00:06:25.000 --> 00:06:28.000
+I really like this one as our very 1st example, because.
+
+00:06:28.000 --> 00:06:35.000
+All of your examples which were spot on and great, but they were much more big picture.
+
+00:06:35.000 --> 00:06:39.000
+So like, probably because you guys were giving me some of your riskiest ones.
+
+00:06:39.000 --> 00:06:51.000
+I wanted to be clear that it's also extremely important to validate the smaller assumptions that you're making the assumptions where you're betting your time, your resources. Your your team's efforts, all of that.
+
+00:06:51.000 --> 00:07:04.000
+I want to make sure that every single thing that you're doing is not based on an unproven so something as small as trying to acquire people via Facebook, because you think 45 to 60 year olds are gonna be on there.
+
+00:07:04.000 --> 00:07:07.000
+That is also an assumption.
+
+00:07:07.000 --> 00:07:20.000
+So it goes as big as our. The customer is even going to be interested in my platform being on a computer versus tabletop like, Dave said. All the way down. To what channel should I use to target this group of people.
+
+00:07:20.000 --> 00:07:24.000
+These are all assumptions that we want to talk about today.
+
+00:07:24.000 --> 00:07:32.000
+Another one. I believe that investing in social media marketing will result in more qualified leads per month than email marketing.
+
+00:07:32.000 --> 00:07:38.000
+So obviously, we have to make prioritizations and distinctions between the different things that we do.
+
+00:07:38.000 --> 00:07:39.000
+But.
+
+00:07:39.000 --> 00:07:49.000
+Most of the time. When we choose one thing over the other, it starts as an assumption or hypothesis. You're not exactly sure when you pick one thing or another when all of you are looking at your.
+
+00:07:49.000 --> 00:07:55.000
+Quarterly roadmap. You're deciding what you're gonna work on this quarter. A lot of you are choosing one thing over the other.
+
+00:07:55.000 --> 00:08:04.000
+Just based on a hypothesis. And we can actually get that a lot more at a lot higher of a success rate. If we start validating those hypotheses.
+
+00:08:04.000 --> 00:08:14.000
+Before we make those bets so like, if this person decided to start actually investing time and resources in social media marketing, I would hope that it was after they validated this assumption.
+
+00:08:14.000 --> 00:08:17.000
+Before moving away from email marketing.
+
+00:08:17.000 --> 00:08:21.000
+And I've seen companies not do that. So I've seen companies put.
+
+00:08:21.000 --> 00:08:28.000
+Tens of thousands of dollars into different campaigns or assumptions that they're making, and lose it all.
+
+00:08:28.000 --> 00:08:37.000
+During program which is really sad. So when I saw this workshop, I was extremely happy about it. I've added in a few things of my own from things that I've seen, because.
+
+00:08:37.000 --> 00:08:55.000
+This is one of the major pitfalls of program. People usually figure it out in the second half of program. But in the 1st half of program. A lot of our founders in the past have.
+
+00:08:55.000 --> 00:08:56.000
+Yes.
+
+00:08:56.000 --> 00:09:00.000
+Blown a lot of the capital that we've given them a lot of their time during program. We have a very finite amount of time all of these things on unproven assumptions. So I would. I would guys to take away from this, not doing that. I don't know if you want to say anything else.
+
+00:09:00.000 --> 00:09:04.000
+I do. I do. Just I just want to double down on just said it.
+
+00:09:04.000 --> 00:09:08.000
+And and no matter, it doesn't matter. We say this every time.
+
+00:09:08.000 --> 00:09:13.000
+And for some reason it still happens, no matter what but what I'm saying, and maybe there's someone not in the room right now.
+
+00:09:13.000 --> 00:09:16.000
+I don't know. I think we're missing, probably at least tutor me.
+
+00:09:16.000 --> 00:09:19.000
+That I wanna make sure. Here's this.
+
+00:09:19.000 --> 00:09:20.000
+Which is.
+
+00:09:20.000 --> 00:09:27.000
+All of a sudden you have this like gust of $120,000 in your business bank account.
+
+00:09:27.000 --> 00:09:29.000
+Plus whatever you already had in there.
+
+00:09:29.000 --> 00:09:32.000
+And you look at that money you're like, yeah, like.
+
+00:09:32.000 --> 00:09:35.000
+I just need to drop a bunch of this into.
+
+00:09:35.000 --> 00:09:36.000
+Marketing.
+
+00:09:36.000 --> 00:09:38.000
+And I'm gonna make more money. And I'm gonna get more customers.
+
+00:09:38.000 --> 00:09:42.000
+And it's a it's. It just blows me away. My mind is common sense that that's like.
+
+00:09:42.000 --> 00:09:45.000
+Basically like grabbing a bag of money and lighting it on fire.
+
+00:09:45.000 --> 00:09:46.000
+But.
+
+00:09:46.000 --> 00:09:49.000
+There's people who don't know that we need to hear that.
+
+00:09:49.000 --> 00:09:55.000
+So I'm just saying it out loud right now, if you think that now that you have this money, if you spend it on marketing. You're gonna get sales.
+
+00:09:55.000 --> 00:09:57.000
+I gotta bridge this up.
+
+00:09:57.000 --> 00:10:02.000
+So I'll leave it at that for now. But I think Dominique seems to agree.
+
+00:10:02.000 --> 00:10:03.000
+Yeah.
+
+00:10:03.000 --> 00:10:06.000
+Absolutely. It's like resonation. Anyone, please.
+
+00:10:06.000 --> 00:10:20.000
+So there's a few marketers in the class, but especially before paid. I'm offering it up now. Please talk to me because it's so sad to see these channels. I always say businesses. They want you to spend more. So.
+
+00:10:20.000 --> 00:10:23.000
+Get very passionate. Thanks, Neil.
+
+00:10:23.000 --> 00:10:48.000
+I mean, we've just seen it time and time again. So this is the 1st time we're actually putting this warning before program even starts. So I'm hoping that it helps a lot. And it's not just marketing. That's just the biggest thing. There are a lot of things that people are wasting time and resources on chasing after customer segments that aren't going to come to fruition, wasting half of the program 6 weeks, 7 weeks, doing something that was not validated, and losing all of that time.
+
+00:10:48.000 --> 00:10:54.000
+Building a product that wasn't ever going to actually sell. All of these things are are pitfalls. We've seen time and time again.
+
+00:10:54.000 --> 00:11:01.000
+Yeah. And one more anecdote on that front. Because that happened recently. There was a company last year. We had in our program.
+
+00:11:01.000 --> 00:11:02.000
+We were going through the jobs to be done. Stuff.
+
+00:11:02.000 --> 00:11:06.000
+And when it came down to present both during arena week, and then, right after madness.
+
+00:11:06.000 --> 00:11:07.000
+Both.
+
+00:11:07.000 --> 00:11:11.000
+Moment it was very clear on our end, and to other founders like.
+
+00:11:11.000 --> 00:11:14.000
+Okay. The job isn't quite dialed in like we're not.
+
+00:11:14.000 --> 00:11:15.000
+All the way there. We don't know.
+
+00:11:15.000 --> 00:11:19.000
+And I did found there's a choice, because we're not here to tell you what to do.
+
+00:11:19.000 --> 00:11:22.000
+So you can run with your assumption on what your gut tells you.
+
+00:11:22.000 --> 00:11:25.000
+Even though the data isn't showing that there's anything there.
+
+00:11:25.000 --> 00:11:29.000
+We're skeptical of it. We're concerned about it because we don't think it's gonna work.
+
+00:11:29.000 --> 00:11:31.000
+Though companies who do that.
+
+00:11:31.000 --> 00:11:36.000
+Within 3 to 6 months after the program I'm sitting down with. And they're like.
+
+00:11:36.000 --> 00:11:42.000
+We need to find a way to adjust our strategy because it didn't work. And I'm like, okay, like I, I'm getting bored.
+
+00:11:42.000 --> 00:11:45.000
+Of of having that very predictable conversation with those founders.
+
+00:11:45.000 --> 00:11:54.000
+So just thought I would call that out because it continues to happen.
+
+00:11:54.000 --> 00:11:57.000
+But we're just calling people alright.
+
+00:11:57.000 --> 00:11:58.000
+So.
+
+00:11:58.000 --> 00:11:59.000
+Now that was I was actually thinking about visual Appsiana. But yes, might help us a good example, too. Yeah.
+
+00:11:59.000 --> 00:12:00.000
+Well, let's move on.
+
+00:12:00.000 --> 00:12:05.000
+I mean they shut their company down, I mean, hey? They'll they'll own it.
+
+00:12:05.000 --> 00:12:17.000
+It happens. And and we'll always help you guys. We actually like to try and like repurpose our founders. If you shut down to like other portfolio companies and stuff so textures for life. It's.
+
+00:12:17.000 --> 00:12:19.000
+It's totally fine.
+
+00:12:19.000 --> 00:12:44.000
+And 3rd one. I believe that the majority of customers live in urban areas. This kind of goes into like the personas thing that I tried to shoot down when we were doing jobs to be done. A lot of people come in, especially people with like Mba backgrounds. No fence. But you've been trained on these like personas and these demographics and a lot of those are just assumptions. You really do need data, and you need to validate these things. Even if you.
+
+00:12:44.000 --> 00:12:58.000
+It's coming from which I'll get to. It might be a bias from experience that you already have, but you still need to validate it in this specific circumstance, even if you have experience, and might be able to draw from that to make a pretty.
+
+00:12:58.000 --> 00:13:05.000
+Educated hypothesis. Every hypothesis is still that they're not proven until you validate it.
+
+00:13:05.000 --> 00:13:08.000
+So what can we do next? Based on these hypotheses.
+
+00:13:08.000 --> 00:13:17.000
+So that's the question that you should ask yourself. So I added, this slide. Does anyone know who this is?
+
+00:13:17.000 --> 00:13:18.000
+Darwin.
+
+00:13:18.000 --> 00:13:19.000
+Yeah.
+
+00:13:19.000 --> 00:13:25.000
+So we have a lot of scientists on the call. So I won't belabor the point because you guys already know this. But for those who don't.
+
+00:13:25.000 --> 00:13:28.000
+Darwin, like father of evolution.
+
+00:13:28.000 --> 00:13:53.000
+He also is one of the best examples of early scientific method. And that's what we're gonna talk about today. The scientific method. That's why we're talking about hypotheses and experimentation. All of that. It's kind of odd cause we're in startups business entrepreneurship. But the scientific method transfers greatly over to building a startup. So Darwin made an observation in the Galapagos Islands. He saw these birds on the different islands with different kinds of.
+
+00:13:53.000 --> 00:13:54.000
+And he.
+
+00:13:54.000 --> 00:13:58.000
+Observed, and those weeks, and made the hypothesis.
+
+00:13:58.000 --> 00:14:02.000
+Hmm! I wonder if the beaks are being.
+
+00:14:02.000 --> 00:14:24.000
+Developed over time, based on the different food varieties that exist on each of the islands, so like the ones that have nuts, have a much sharper beak. The ones where they were eating worms have, like a less sharp beak. You can see the difference on the picture. And then he designed an experiment to go out and test that over many generations of birds, which he did, and then he was able to prove evolution.
+
+00:14:24.000 --> 00:14:34.000
+And kind of like survival of the fittest, that whole concept. So the point here is not the evolution piece. It's that he's used the scientific method. He observed this about the birds.
+
+00:14:34.000 --> 00:14:53.000
+A lot of people who don't understand the scientific method think that he observed that about the birds, and therefore concluded evolution. But that's not how it works. And that's not how it works in the startup, either. You're observing a lot of things you're gonna observe your customers behavior. You're going to observe trends in the market, and you cannot just skip to drawing conclusions.
+
+00:14:53.000 --> 00:14:56.000
+You have to make an.
+
+00:14:56.000 --> 00:15:10.000
+Assumption or a hypothesis, and then design an experiment to prove or disprove that, and then you draw the conclusions. There are really like 4 steps there, you can't just go from step one to 4, or else you're gonna make a lot of mistakes and a lot of unfounded conclusions.
+
+00:15:10.000 --> 00:15:34.000
+So speaking of the scientific method, this is the same thing. So you understand that before and after of the hypotheses. So because I observed that individuals ages 45 to 60, use Facebook a lot. And our social media reports confirm this demographic. I believe that meaning our hypothesis, we're using the words, I believe, because that reminds us that it's not true.
+
+00:15:34.000 --> 00:15:40.000
+Like not true, yet it's an assumption. So I believe that, or I assume that.
+
+00:15:40.000 --> 00:15:46.000
+Facebook is the best channel to acquire people 45 to 60 years old, who are my target customers.
+
+00:15:46.000 --> 00:15:57.000
+And therefore this is the experiment I'm going to run ads on different social media platforms to test whether Facebook outperforms other platforms on acquiring customers.
+
+00:15:57.000 --> 00:16:01.000
+And then the 4th step here would be the conclusion. You can draw.
+
+00:16:01.000 --> 00:16:08.000
+Based on this experiment. I am therefore able to conclude that Facebook is the best channel, or is not the best channel.
+
+00:16:08.000 --> 00:16:11.000
+And then you can say for certain that statement.
+
+00:16:11.000 --> 00:16:15.000
+So that's a scientific method here. Does anyone have questions about.
+
+00:16:15.000 --> 00:16:16.000
+Any of this.
+
+00:16:16.000 --> 00:16:19.000
+It's pretty straightforward, but.
+
+00:16:19.000 --> 00:16:23.000
+Pause me, if you need me to.
+
+00:16:23.000 --> 00:16:24.000
+Cool.
+
+00:16:24.000 --> 00:16:38.000
+So here's a little framework. This is from Ryan, who is a mentor to Neil. He's a long time managing director here at tech stars. He has run tech stars anywhere for the longest time, and now he's running tech star. San Diego.
+
+00:16:38.000 --> 00:16:42.000
+And he made this for you guys. So this is a framework.
+
+00:16:42.000 --> 00:16:44.000
+We have our observations.
+
+00:16:44.000 --> 00:17:03.000
+We have our hypotheses, which are the assumptions we're making. So it's important that when you're thinking about your assumptions, like, what are the observations that you made that made you think that assumption so like for Dave, you obviously have a reason that you are making the assumption that people are going to change from table top to computer games when you make their game online.
+
+00:17:03.000 --> 00:17:20.000
+I'm curious for you to brainstorm what observations you made or have had in your life that have led you to have those assumptions, because that's important to lead into and figure out where you're getting that, then it's either proven or unproven. Most of your assumptions right now are going to be unproven.
+
+00:17:20.000 --> 00:17:23.000
+Very few of you have already run.
+
+00:17:23.000 --> 00:17:31.000
+Sufficient experimentation on your assumptions for any of them to be proven. But maybe you have. Maybe a couple of them are especially for the smaller ones like which.
+
+00:17:31.000 --> 00:17:33.000
+Marketing channel to use.
+
+00:17:33.000 --> 00:17:41.000
+And then we're gonna get into prioritization because you definitely want to rank your assumptions by importance so that you know what to experiment with. First.st
+
+00:17:41.000 --> 00:17:47.000
+And then you have your experiments. So that's how you design to validate it. So pretty straightforward stuff. Here.
+
+00:17:47.000 --> 00:18:00.000
+But this is a skill that I think a lot of people neglect. We always try and build experiments with our founders, but we never sit down to try and like, teach this for you guys to understand the whole method yourself. And it's really important because we can't just.
+
+00:18:00.000 --> 00:18:12.000
+Walk every single one of you through 10 experiments for the entire program. And we're definitely not going to be with you after program. But this is gonna be for the next 7 to 8 years of you building this business and seeing it to fruition.
+
+00:18:12.000 --> 00:18:24.000
+It will be making assumptions and validating those assumptions that is like the crux of making a business. That's the whole bread and butter of it, and I feel like it's not talked about enough, because a lot of people.
+
+00:18:24.000 --> 00:18:26.000
+Especially in the Bay area. I'm just gonna say it.
+
+00:18:26.000 --> 00:18:37.000
+They go off of unvalidated assumptions. And that's why we see a lot of people crash and burn. They'll raise millions and millions and then crash and burn because they were going off, of assumptions that were unproven the whole time.
+
+00:18:37.000 --> 00:18:39.000
+So.
+
+00:18:39.000 --> 00:18:47.000
+Let's go into hypotheses, and then we'll go into experiments. So what is a hypothesis? A good, well formed hypothesis or assumption?
+
+00:18:47.000 --> 00:18:50.000
+That I'd like you guys to make is.
+
+00:18:50.000 --> 00:18:53.000
+3 things. It's testable.
+
+00:18:53.000 --> 00:19:04.000
+Testable meaning like you can design an experiment that would tell you yes or no. It's not like a vague statement or something that you couldn't physically test to get an answer for.
+
+00:19:04.000 --> 00:19:09.000
+Kinda like the unknown questions of the universe. We're not gonna be able to test that.
+
+00:19:09.000 --> 00:19:23.000
+Precise, precise meaning. It has a yes or no answer. So it either is true or it's not. There's not a gray area. So we're not gonna test it and then come out and say, maybe it's true. Precise is mostly in the way that you're framing the assumption.
+
+00:19:23.000 --> 00:19:36.000
+You want to frame it in a way that is a yes or no, very similar to what we talked about with the key results yesterday, and the last one is discrete, and for those who are like more scientific or mathematic.
+
+00:19:36.000 --> 00:19:38.000
+Discrete is much more.
+
+00:19:38.000 --> 00:19:48.000
+It's much less about the precise yes or no. It's that we're validating. Only one variable at a time. So discrete is that we're isolating one unknown.
+
+00:19:48.000 --> 00:20:00.000
+And we're not putting a bunch of unknowns together, because that actually muddles it. And you're not sure what's true or what's not true. So very similar to this example with the Facebook, they're isolating one.
+
+00:20:00.000 --> 00:20:16.000
+Unknown. They're unknown as Facebook. They want to know if Facebook is the best channel, they're not like wondering, oh, is all of social media good or which social media one is the best they're just seeing. Yes or no is Facebook the best? And that's kind of how you can be discreet.
+
+00:20:16.000 --> 00:20:20.000
+And that's gonna give you the most successful.
+
+00:20:20.000 --> 00:20:21.000
+Results.
+
+00:20:21.000 --> 00:20:31.000
+So testable, precise, and discreet. We want to isolate a variable one, unknown. We want it to be a yes or no answer, and we want to be able to design a test to get that yes or no answer.
+
+00:20:31.000 --> 00:20:36.000
+There are different types of hypotheses like I've kind of alluded to already.
+
+00:20:36.000 --> 00:21:01.000
+They can be high importance for your business, low importance. They can also be proven or unproven. But I want to call your attention to this top area. This is kind of what we were talking about at the very beginning, a lot of you unmuted, and gave me your foundational assumptions, which are much more risky for your business, because by definition they're foundational. Which customer segment you're going after is this problem, even a problem or the problem I should solve. Is it a validated problem?
+
+00:21:01.000 --> 00:21:08.000
+Problem is this solution the correct solution to the problem which jobs to be done can help validate.
+
+00:21:08.000 --> 00:21:31.000
+All of those different things are foundational are some of the examples I shared. Product sales, hiring economic assumptions, marketing assumptions which channel you're going down. Yeah. Hiring is a good one, too. We don't really think about that. But assumptions that hiring more people will help with said problem. That is an assumption I see people make during program.
+
+00:21:31.000 --> 00:21:32.000
+So so much.
+
+00:21:32.000 --> 00:21:43.000
+You guys will get the 120 K. And you'll say I need to hire these 2 contractors. I need a designer for this, and I need a dev for that. And I need this 3rd person for this thing, a customer success.
+
+00:21:43.000 --> 00:21:45.000
+Person.
+
+00:21:45.000 --> 00:22:04.000
+And that's gonna solve all my problems. That's a heavy assumption. So I want you guys to see hiring as also assumptions that you need to validate. You need to be sure that adding a job or hiring someone right now is going to give you the value that you're willing to invest in it, if not more value. That is an assumption that you should test.
+
+00:22:04.000 --> 00:22:08.000
+The same way you would test a product assumption or a sales assumption.
+
+00:22:08.000 --> 00:22:23.000
+So there, there are 2 different kinds. It doesn't really matter which. It doesn't make something more or less important, because something might be more relevant in the functional aspect than the foundational. It does make things more risky if they're a foundational assumption, though.
+
+00:22:23.000 --> 00:22:35.000
+So a couple examples, these are more functional. So product. We believe that the majority of small business owners in urban areas are actively seeking solutions to streamline their social media management. So this is.
+
+00:22:35.000 --> 00:22:43.000
+This is kind of foundational, too, because it sounds like their whole product is not going to be able to serve their customer segment. If this is not true.
+
+00:22:43.000 --> 00:22:53.000
+So that's a little bit foundational marketing. We believe that investing in social media marketing will result in more qualified leads per dollar than email marketing. So that's the one we saw before.
+
+00:22:53.000 --> 00:23:01.000
+Hiring. We believe that using a new recruiting software will double the qualified candidates for technical roles. This is a huge deal.
+
+00:23:01.000 --> 00:23:06.000
+We don't want to pour a bunch of money in if we're not sure that that's true.
+
+00:23:06.000 --> 00:23:08.000
+So reflecting on observation, base.
+
+00:23:08.000 --> 00:23:19.000
+On hypothesis. So this is kind of what I already said. It's important to figure out what observations you were making, so that you can recognize your own biases that are lending.
+
+00:23:19.000 --> 00:23:32.000
+Yourself to come up with the assumptions and hypotheses that you are. So a lot of people neglect like what led to that assumption. I want you guys to brainstorm what led to that assumption? Because it's very important. There might be.
+
+00:23:32.000 --> 00:23:53.000
+Clues in there that lead you to know whether this is going to be proven or unproven. Some of these you're gonna realize once you brainstorm are quite unfounded, and other ones you might be even more sure about. Once you think about the observations that led you to it. Remember that the observations will never prove it. So, even if you have a bunch of data that you observed before, if you haven't run a test, it's still unproven.
+
+00:23:53.000 --> 00:23:57.000
+But it might be a more well founded.
+
+00:23:57.000 --> 00:24:03.000
+So it's important, because what you observed in the past can explain why you believe something is true.
+
+00:24:03.000 --> 00:24:10.000
+So we're gonna take 10 min. I'm not gonna put you in breakout rooms. We're just gonna do it here.
+
+00:24:10.000 --> 00:24:18.000
+We'll take closer to like 8 min. I want you guys to take a pen and paper or a Google Doc or a Google Sheet and come up with at least.
+
+00:24:18.000 --> 00:24:36.000
+10 assumptions about your business include assumptions about your customer segment, all of the foundational things about your product, about your problem, space, about your solution, and also about the things you're doing functionally in your company, the marketing, the hiring, the financials, all of that. What do you believe to be true?
+
+00:24:36.000 --> 00:24:49.000
+And then for each hypothesis, write down the observation that made you believe it's true. So the thing that you saw that led you to make that assumption, even if it's something as foundational as the whole reason you started the business.
+
+00:24:49.000 --> 00:24:51.000
+Getting to the root of why you have that hypothesis.
+
+00:24:51.000 --> 00:24:53.000
+And then for each one.
+
+00:24:53.000 --> 00:25:01.000
+Note whether each one is proven or disproven. Already most of yours are unproven. Sorry, most of yours will already be.
+
+00:25:01.000 --> 00:25:07.000
+Unproven, you will not have proven any. But if you have already run an experiment, that's fine.
+
+00:25:07.000 --> 00:25:10.000
+So write that down. Take about 8 min.
+
+00:25:10.000 --> 00:25:20.000
+And then I'll have a few of you share.
+
+00:25:20.000 --> 00:25:50.000
+I'm gonna go back to this for you guys.
+
+00:28:12.000 --> 00:28:42.000
+Okay, take about 2 more minutes, and then we're gonna share.
+
+00:30:43.000 --> 00:30:45.000
+Alright! That's time!
+
+00:30:45.000 --> 00:31:00.000
+Does anyone want to share one or 2.
+
+00:31:00.000 --> 00:31:02.000
+Yeah.
+
+00:31:02.000 --> 00:31:13.000
+Yeah, so this is one of the fundamental ones. We said, like, understanding players are the key for developing great games.
+
+00:31:13.000 --> 00:31:15.000
+And what.
+
+00:31:15.000 --> 00:31:17.000
+What is the assumption you're making.
+
+00:31:17.000 --> 00:31:24.000
+Assumption is that that to develop great games developers should understand what player wants.
+
+00:31:24.000 --> 00:31:28.000
+Okay, I see. And then, did you, brainstorm? What observations you made that.
+
+00:31:28.000 --> 00:31:29.000
+Made you both.
+
+00:31:29.000 --> 00:31:33.000
+Yeah, like, we are all gamers, and we do love.
+
+00:31:33.000 --> 00:31:34.000
+What we.
+
+00:31:34.000 --> 00:31:37.000
+Like imagine to play so.
+
+00:31:37.000 --> 00:31:42.000
+Like to look ourselves, and are among our friends.
+
+00:31:42.000 --> 00:31:43.000
+We always.
+
+00:31:43.000 --> 00:31:46.000
+Think, that.
+
+00:31:46.000 --> 00:31:48.000
+These studios cannot.
+
+00:31:48.000 --> 00:31:52.000
+Develop great games because they do not.
+
+00:31:52.000 --> 00:31:56.000
+Understand what we think about it, like what we want from that game.
+
+00:31:56.000 --> 00:32:01.000
+Like kind of a self of observation.
+
+00:32:01.000 --> 00:32:02.000
+But.
+
+00:32:02.000 --> 00:32:03.000
+Like.
+
+00:32:03.000 --> 00:32:07.000
+I think the.
+
+00:32:07.000 --> 00:32:13.000
+The experiment should be to talk with great game producers and.
+
+00:32:13.000 --> 00:32:14.000
+Understand.
+
+00:32:14.000 --> 00:32:16.000
+The key aspects on.
+
+00:32:16.000 --> 00:32:19.000
+How did they make their games, that successful.
+
+00:32:19.000 --> 00:32:20.000
+Maybe.
+
+00:32:20.000 --> 00:32:36.000
+I'm I'm glad that you gave that example because a lot of you guys and all of the founders that I've ever worked with a lot of you guys are solving problems that you've seen yourself in your own personal life, either with yourself or a loved one. Not everybody, but a lot of founders do that, and.
+
+00:32:36.000 --> 00:32:51.000
+Assumptions are really huge for that scenario, because a lot of founders see a problem or experience problem that that problem has certain things true about it, whether it's that everyone feels that problem or everyone experiences it in the exact way that.
+
+00:32:51.000 --> 00:33:05.000
+The founder has all of those things. And you need to validate all of that. So I completely agree. I think there are a lot of assumptions made when it's from your personal experience. But it also could be that they're all correct.
+
+00:33:05.000 --> 00:33:11.000
+Which is amazing. So I'm very happy and excited to see you validate those.
+
+00:33:11.000 --> 00:33:13.000
+Hello!
+
+00:33:13.000 --> 00:33:24.000
+Yeah. So one of ours is that short term management companies struggle the most with handling guest inquiries at pre-booking rather than pre-arrival, and during this day.
+
+00:33:24.000 --> 00:33:29.000
+And the way we came to that hypothesis. Our assumption is that we observed.
+
+00:33:29.000 --> 00:33:35.000
+Literally companies that we reached out to saying, Oh, wait! You don't tackle prebooking. Then maybe not for us.
+
+00:33:35.000 --> 00:33:42.000
+So the experiment for us will be during jobs to be done. To really get to the bottom of that.
+
+00:33:42.000 --> 00:33:53.000
+Yeah, these are really good examples. So Tro gave an example of like, I had this personal experience. So I made this assumption, I need to validate it, I know, cause I talked to you guys about this a little bit more flow.
+
+00:33:53.000 --> 00:33:55.000
+You had.
+
+00:33:55.000 --> 00:34:11.000
+2, I think 2 or 3 customers ask for something that you weren't offering. And so you're making the assumption that the rest of your initial customer segment would feel the same way. And so before building product. I remember you said this before going and building product, you want to validate that.
+
+00:34:11.000 --> 00:34:29.000
+For you. It's going to be using jobs to be done. There's also experiments you can design around that. I think that's great. So that's something that everyone here probably will experience. You're gonna see? Like 2, 3 of your customers ask for a certain thing or want a certain thing. You cannot immediately assume that the rest of the segment wants that.
+
+00:34:29.000 --> 00:34:36.000
+So what a few things could happen. They could be a sub segment that you decide you want to pivot and serve.
+
+00:34:36.000 --> 00:34:42.000
+Or they could be representative of your whole segment, or they could just be a minority that you don't want to serve. And you need to like.
+
+00:34:42.000 --> 00:34:54.000
+Kick them out of your segment and keep serving the main segment. So, like all of those things could happen, and each of those are a completely different directions. So if you just picked one blindly, I mean, you have, like a 1 3rd chance of of being correct. So.
+
+00:34:54.000 --> 00:35:00.000
+Yeah, I'm really glad you want to validate that before building product for that. That ask of theirs.
+
+00:35:00.000 --> 00:35:05.000
+Cool. Okay, so we'll have. We'll be able to share more in the next exercise. But those were 2 great examples.
+
+00:35:05.000 --> 00:35:14.000
+So here are some more things to think about. So look at the list that you made, and for the ones that you wrote have been proven.
+
+00:35:14.000 --> 00:35:36.000
+Think about. Why do you think it's proven? What data specifically do you have to prove this hypothesis? And do you need additional observations to prove this hypothesis, I would say, not only what data, but do you have enough data? Or is it just like one thing that's proving this? And then for your unproven hypotheses on your sheet. Why do you think it's unproven?
+
+00:35:36.000 --> 00:35:40.000
+Where are the gaps like? What are the things you need to test to make that proven.
+
+00:35:40.000 --> 00:35:49.000
+And what data do you need to prove this hypothesis? So those questions are key to designing an experiment to prove it. So we'll get into that in a second.
+
+00:35:49.000 --> 00:35:53.000
+Some examples. Here's an unproven hypothesis.
+
+00:35:53.000 --> 00:36:00.000
+The same one we've been talking about investing in social media marketing will result in more qualified leads per dollar than email marketing.
+
+00:36:00.000 --> 00:36:12.000
+Why it's unproven might be. We haven't yet run parallel campaigns to compare the effectiveness of both channels, so it would be unproven. Therefore, even if you have a marketing background, and you've seen this be true before.
+
+00:36:12.000 --> 00:36:16.000
+It's unproven for this specific scenario with this specific.
+
+00:36:16.000 --> 00:36:41.000
+Gaps, lack of comparative data between social media and email marketing campaigns. So same thing and then needed data. So an experiment that they could run is a B testing between the 2 campaigns, measuring the number and quality of leads generated from each, comparing that, and then drawing a conclusion that would make this a proven hypothesis, which would then, as you can probably imagine, unlock a lot of doors for them to then invest in this route.
+
+00:36:41.000 --> 00:36:45.000
+Dave.
+
+00:36:45.000 --> 00:36:58.000
+So I have an hypothesis that, you know. Can I get a million subscribers? You know, that would would buy my product right? And so how? How can I improve that like, you know? I mean.
+
+00:36:58.000 --> 00:37:02.000
+Until I get a million subscribers. How can I prove that I can get a million subscribers.
+
+00:37:02.000 --> 00:37:04.000
+I would probably.
+
+00:37:04.000 --> 00:37:06.000
+I would probably roll that back to.
+
+00:37:06.000 --> 00:37:24.000
+Like the foundational assumptions that are in there. So yeah, a lot of us are making assumptions that the business is gonna work right? And the way you test that the business is gonna work is, you try and make the business work, and it's a great experiment, and for some of you. It'll work, and some of you it won't. But for yours, Dave saying you can get a million subscribers. It's really like.
+
+00:37:24.000 --> 00:37:28.000
+The 1st one you said, people will convert to my platform.
+
+00:37:28.000 --> 00:37:29.000
+I will be able to get.
+
+00:37:29.000 --> 00:37:32.000
+X. Amount of users per month.
+
+00:37:32.000 --> 00:37:38.000
+Or something like. First, st you should make that assumption time bound. So like I can get a million users in.
+
+00:37:38.000 --> 00:37:42.000
+The next 2 years, and then your assumptions really, that you wanted.
+
+00:37:42.000 --> 00:37:51.000
+You're acquiring this amount of customers. Does it look like you're actually gaining that are they switching over like you see how there are a lot of mini assumptions that go into that.
+
+00:37:51.000 --> 00:37:58.000
+I I guess my hypothesis, my cop, my cop, my pop! My hypothesis was, there are enough.
+
+00:37:58.000 --> 00:38:02.000
+Modern Ttrpg players to grow to a million subscribers.
+
+00:38:02.000 --> 00:38:04.000
+Oh, interesting!
+
+00:38:04.000 --> 00:38:17.000
+Well, that's a very testable hypothesis. Remember that the hypothesis needs to be testable and then precise and discreet. That's extremely testable. Right? You just need the data on how many of those players exist.
+
+00:38:17.000 --> 00:38:19.000
+You're just saying exist in the world.
+
+00:38:19.000 --> 00:38:20.000
+Yeah.
+
+00:38:20.000 --> 00:38:22.000
+Yeah.
+
+00:38:22.000 --> 00:38:24.000
+So you could gather data for that.
+
+00:38:24.000 --> 00:38:27.000
+Fantastic like you could run an experiment where you just.
+
+00:38:27.000 --> 00:38:30.000
+Collect the data of how many exists in the world.
+
+00:38:30.000 --> 00:38:31.000
+That one.
+
+00:38:31.000 --> 00:38:32.000
+How do you do that? You mean like a like a.
+
+00:38:32.000 --> 00:38:35.000
+A panel survey or something.
+
+00:38:35.000 --> 00:38:41.000
+No, there. There are ways to purchase data on different segments and things we can work together on that.
+
+00:38:41.000 --> 00:38:56.000
+That one is actually a really easy one to run. You don't even have to run an experiment that one's much more like data gathering. That's why it says needed data. You don't always have to run an experiment. If there's like data out there that could validate, especially when you have assumptions about the market in general.
+
+00:38:56.000 --> 00:39:07.000
+So we could. We could like purchase data to figure out how many T. Rpg players exist in America, for instance.
+
+00:39:07.000 --> 00:39:17.000
+Or we could do it ourselves. So I can think of a lot of ways that we could like. You said kind of like survey people or figure out the amount of people that exist in in this country.
+
+00:39:17.000 --> 00:39:41.000
+So challenging your hypotheses, I added, this slide for you guys, this is a huge like, does everyone pause and pay attention to this one slide. It's extremely important investment bias I have created this term. So your assumptions will have this investment bias meaning some of you have already made a big bet based on an unproven hypothesis. You may be inclined to assume that it's.
+
+00:39:41.000 --> 00:39:42.000
+True.
+
+00:39:42.000 --> 00:39:49.000
+So a lot of you have already cause you guys have been working on your businesses. You might have already sunk a lot of money into something.
+
+00:39:49.000 --> 00:40:13.000
+Probably a product that you have right now that is not validated. You might have some money into a higher that you don't know if you actually need, you might have been paying a bunch of money into ads or marketing before validating. That's what you needed to do. That's okay. Most people come into techstars, having made unproven, unvidated big bets and lost a lot of capital time, resources, effort.
+
+00:40:13.000 --> 00:40:14.000
+Into that.
+
+00:40:14.000 --> 00:40:27.000
+That's fine. A lot of people start thinking about their assumptions and then want to postify meaning after the fact. Come up with a justification for why, what they did was actually true.
+
+00:40:27.000 --> 00:40:30.000
+But it was never proven.
+
+00:40:30.000 --> 00:40:33.000
+So to going in and making a big bet on an unproven hypothesis.
+
+00:40:33.000 --> 00:40:58.000
+Make sure that you don't have this where it's kind of like what George was talking about. The confirmation bias like you just are trying to validate it because you already made the bet. There. It's okay to have been wrong. It's okay to have lost a bunch of money or time or resources. That's fine. Most probably more than half of you have already made this mistake. That's why we have this workshop right now. It's totally fine. So make sure that in your assumptions you're not having a bias.
+
+00:40:58.000 --> 00:41:04.000
+What I'm calling an investment bias where you've already invested a lot into something. And so you assume that it's true or proven.
+
+00:41:04.000 --> 00:41:11.000
+Be honest with yourself. Is it actually true or proven, or am I postifying it? Because I already made the action.
+
+00:41:11.000 --> 00:41:17.000
+So another caveat here, we're gonna have a whole workshop in week. 6 about.
+
+00:41:17.000 --> 00:41:20.000
+How to spend or not spend your money wisely.
+
+00:41:20.000 --> 00:41:30.000
+Neil and I didn't want to have you guys wait until week 6, because a lot of people make a lot of mistakes between weeks one and 6, and then tell us they wish that workshop was at the beginning.
+
+00:41:30.000 --> 00:41:36.000
+I don't think that it's good to put that workshop at the beginning, because you guys need to have gone through mentor madness 1st to see that.
+
+00:41:36.000 --> 00:41:40.000
+However, I am putting this warning bell here.
+
+00:41:40.000 --> 00:41:49.000
+Pause, all big bets based on unproven assumptions. You will think yourself down the road. So from week, one to week, 6, when we have that workshop.
+
+00:41:49.000 --> 00:41:58.000
+Just be extremely conservative with any sort of big bets you're making with your capital, with your time, with your resources.
+
+00:41:58.000 --> 00:42:12.000
+Make sure that anything you're doing you're doing based on provenance, or you're doing it to validate an assumption. Do not do anything that isn't unproven. You will regret it, and you'll be so sad when you hear hear the workshop in week. 6.
+
+00:42:12.000 --> 00:42:19.000
+Just saying that right now another one another bet is giving away equity to advisors, to random people.
+
+00:42:19.000 --> 00:42:23.000
+People do that between weeks one and 6 don't do that.
+
+00:42:23.000 --> 00:42:24.000
+You will get that.
+
+00:42:24.000 --> 00:42:30.000
+Come, talk to me and, Neil, if that's something that you want to do. So this is your warning bell. We'll talk more about it in 6 weeks, but.
+
+00:42:30.000 --> 00:42:42.000
+Just don't do this for now, and if you feel like you need to come, talk to us before you make that decision, or else. You're gonna regret it. Once we talk more about it in in mid program.
+
+00:42:42.000 --> 00:42:45.000
+Morgan.
+
+00:42:45.000 --> 00:42:50.000
+Yeah, I have a quick question. So like the validation process itself will take.
+
+00:42:50.000 --> 00:42:59.000
+Time right of ours. So obviously, you want it to be like a quick validation like, do you have, like an optimal like this should happen in like week, like in a in a month, like what.
+
+00:42:59.000 --> 00:43:02.000
+I I guess that might depend a little bit on the goals, but, like.
+
+00:43:02.000 --> 00:43:08.000
+How do you find that balance of like? I need to get to this answer quickly, because you want to move your business forward.
+
+00:43:08.000 --> 00:43:21.000
+Yeah, at techstars it. We like to experiment quickly. So like the whole month to growth, month is really for validating assumptions. And then, like growth, hacking and stuff.
+
+00:43:21.000 --> 00:43:27.000
+The fastest turnaround possible, the better. So like Brad, who is on our tech Chicago team, and you'll meet him next week.
+
+00:43:27.000 --> 00:43:52.000
+Now he runs global sourcing. He is really good at helping founders with experimentation. He tries to run them as fast as possible. Can you do at once? How many assumptions can you be validating at once? He teaches the founders that it should be like a hurried experience like you wanna validate these things as quickly as possible. And to answer your question, Morgan, it does. It does depend right cause if you need to do an experiment where you're sending something out and.
+
+00:43:52.000 --> 00:44:05.000
+Seeing how many customers sign up and things you do need to give it time. But if it's something more like you can gather data and validate it. You could do it like multiple today. So it really depends on what kind of experiment you need to set up for that.
+
+00:44:05.000 --> 00:44:28.000
+But the faster the better. That's this is something that we do want a speed run. We want to do it well, but we want to like validate as many of these things as quickly as possible, because what I have on the screen here we don't want to start making bets on things that are unproven. But we also don't want to pause all of our progress. Right? So it's like it's a 2 sided coin that the answer to it is to just quickly validate as many things as possible as quickly as possible.
+
+00:44:28.000 --> 00:44:35.000
+This is gonna be something that you guys probably won't have time to do until we get to the mid program.
+
+00:44:35.000 --> 00:44:38.000
+Most of you guys will be like.
+
+00:44:38.000 --> 00:44:45.000
+Validating assumptions via mentors in mentor madness, or not at all, or through jobs to be done.
+
+00:44:45.000 --> 00:44:53.000
+Until we finish and we get to mid program. You probably won't be able to run like full experiments that are outside of those 3 things.
+
+00:44:53.000 --> 00:45:13.000
+Here's some more things to consider to challenge your hypotheses, reflect on implicit bias that could be impacting these hypotheses. So one implicit bias is the investment bias that I just talked about, but also just your own personal experiences, especially if it's a an issue that you've already experienced yourself or a loved one has.
+
+00:45:13.000 --> 00:45:21.000
+Do you have an implicit bias on these assumptions? Are you assuming them to be even more true because it comes from your experience? A lot of people? The answer is, Yes.
+
+00:45:21.000 --> 00:45:25.000
+Have I taken in other perspectives to develop these hypotheses.
+
+00:45:25.000 --> 00:45:28.000
+So a prospective bias make sure that you're.
+
+00:45:28.000 --> 00:45:32.000
+You know, getting outside of your own head and picturing the rest of the world too.
+
+00:45:32.000 --> 00:45:42.000
+That's gonna make it even more true. What are my past hypotheses? Did they lead to a positive or negative outcome? So consider your history and things that you've already proven or disproven.
+
+00:45:42.000 --> 00:45:52.000
+The outcome. Have I approached this thinking about what I want to find out, rather than trying to prove something that I believe to be true. This one is huge, this is like confirmation bias.
+
+00:45:52.000 --> 00:45:56.000
+Is it something that you want to find out? Or do you just want this thing to be true?
+
+00:45:56.000 --> 00:45:59.000
+Probably because we've already invested a lot of time in, or we feel.
+
+00:45:59.000 --> 00:46:18.000
+Personally invested in it. Being true, a lot of people want their idea of the problem space to be true because they've personally invested their heart and soul into solving that problem. I'd like us to detach a little bit and be much more invested in solving the truest form of the problem. That's what's gonna make you successful.
+
+00:46:18.000 --> 00:46:21.000
+One of the companies. Neil was referencing earlier.
+
+00:46:21.000 --> 00:46:28.000
+The founder clearly had a personal bias, a personal tie to wanting to solve a very specific problem.
+
+00:46:28.000 --> 00:46:41.000
+When the market and the customer segment clearly needed something completely different. And it's almost like he forced it. He was trying to shove a square peg in a round hole, because that's the problem he wanted to solve, and it didn't work.
+
+00:46:41.000 --> 00:46:49.000
+It. It never does so trying to like, detach yourself and the things you want to be true versus what's actually true.
+
+00:46:49.000 --> 00:46:56.000
+I'm gonna skip this and keep moving forward. So now I want, I'm gonna put you guys in breakout rooms for.
+
+00:46:56.000 --> 00:47:18.000
+Like 6 min. I want you to take 3 assumptions each, and like and challenge each others. Why do you think the hypothesis is unproven. What observations led up to the hypothesis, and what data might be missing, and also start brainstorming? What experiments could I probably do to validate this assumption? So help each other start to come up with that.
+
+00:47:18.000 --> 00:47:30.000
+I'm gonna pop you guys into breakout rooms right now, and I'll let you know when 6 min is up.
+
+00:47:30.000 --> 00:48:00.000
+Does anyone have any questions.
+
+00:48:02.000 --> 00:48:09.000
+Alright!
+
+00:48:09.000 --> 00:48:39.000
+See you guys in a bit.
+
+00:49:56.000 --> 00:49:59.000
+Alright. Does anyone want to share heather.
+
+00:49:59.000 --> 00:50:08.000
+How their group went.
+
+00:50:08.000 --> 00:50:10.000
+Yeah, I can go.
+
+00:50:10.000 --> 00:50:13.000
+So.
+
+00:50:13.000 --> 00:50:18.000
+One of my hypotheses was that I believe that Conference sponsorship.
+
+00:50:18.000 --> 00:50:23.000
+Is like industry. Conference, sponsorship is an effective way to get leads and increase revenue.
+
+00:50:23.000 --> 00:50:28.000
+And it was based on observations I've had.
+
+00:50:28.000 --> 00:50:35.000
+As a conference attendee that lots of clinical trial tech vendors either had a booth or a speaking slot.
+
+00:50:35.000 --> 00:50:39.000
+And I would say, that's unproven because it's not like I've.
+
+00:50:39.000 --> 00:50:46.000
+Sponsored a series of conferences. But my partner was Dave, and he said, when he was at Amazon.
+
+00:50:46.000 --> 00:50:54.000
+His experience was that they would lead to leads, and you know, more activity in the pipeline. So it was interesting to get that feedback from him.
+
+00:50:54.000 --> 00:50:59.000
+But I think the only way to really prove it is to actually.
+
+00:50:59.000 --> 00:51:03.000
+Get out there, and, you know, make the measurement myself.
+
+00:51:03.000 --> 00:51:08.000
+Yeah, I definitely. But it sounds like it's very well founded. So.
+
+00:51:08.000 --> 00:51:10.000
+What could be like an experiment that you.
+
+00:51:10.000 --> 00:51:15.000
+Design for that.
+
+00:51:15.000 --> 00:51:20.000
+For probably have to, and I kind of put this in my financial model. But.
+
+00:51:20.000 --> 00:51:26.000
+You know, spend money on sponsorships, but break it down into different kinds.
+
+00:51:26.000 --> 00:51:30.000
+A very low, level sponsorship, where they just put your logo on stuff.
+
+00:51:30.000 --> 00:51:35.000
+Another one where you speak another one where you have a booth, and then see if there's actually.
+
+00:51:35.000 --> 00:51:40.000
+An uptick in the number of Discovery calls booked in a given month.
+
+00:51:40.000 --> 00:51:41.000
+Yeah.
+
+00:51:41.000 --> 00:51:42.000
+And remember.
+
+00:51:42.000 --> 00:51:47.000
+I'm I'm actually, I'm actually convinced that we can actually get her a speaking slot for free.
+
+00:51:47.000 --> 00:51:48.000
+So.
+
+00:51:48.000 --> 00:51:49.000
+We'll see.
+
+00:51:49.000 --> 00:51:50.000
+I love the name I love.
+
+00:51:50.000 --> 00:51:51.000
+I told you that I'd work with her on proposals.
+
+00:51:51.000 --> 00:52:00.000
+I'm positive we can do. I do it all the time for my industry. But, like Monica, let's do that. Let's 90 days. Let's get you a speaking slots. You can prove this thing out.
+
+00:52:00.000 --> 00:52:01.000
+I love that.
+
+00:52:01.000 --> 00:52:02.000
+Sounds good.
+
+00:52:02.000 --> 00:52:17.000
+Scrappiness. Remember, Monica, to keep the testing discrete. So like you would only test one at a time, or else you wouldn't know like which one is making uptick, so like do the low level first, st and see like, can I spend only little, or do free and see, and then move up from there, instead of doing them all at once.
+
+00:52:17.000 --> 00:52:21.000
+But yeah, that's a great example.
+
+00:52:21.000 --> 00:52:22.000
+So.
+
+00:52:22.000 --> 00:52:24.000
+You guys are gonna do this next one on your own like.
+
+00:52:24.000 --> 00:52:27.000
+After this workshop, but.
+
+00:52:27.000 --> 00:52:32.000
+We're gonna rank, the hypotheses that you have based on importance. So.
+
+00:52:32.000 --> 00:52:45.000
+As you can probably imagine, high importance is that it's critical and timely to prove or disprove meaning like you're spending money on on this or wasting time on this, or like.
+
+00:52:45.000 --> 00:52:47.000
+You're gonna be mission critical. If this is not true.
+
+00:52:47.000 --> 00:52:49.000
+Right now.
+
+00:52:49.000 --> 00:53:06.000
+And it has a high impact on the company. That's high importance. That's like you might even need to validate this during the 1st half of program, even though we're doing other things. That's how high importance this is. You should have only a few of those, because it's not just the your riskiest ones. It's that it's risky and timely.
+
+00:53:06.000 --> 00:53:10.000
+Then we have medium importance, important but not critical.
+
+00:53:10.000 --> 00:53:11.000
+So.
+
+00:53:11.000 --> 00:53:17.000
+For this I mean by critical, is much more like timeliness. Critical.
+
+00:53:17.000 --> 00:53:21.000
+Of course, if it's important, it's going to be critical to your business. But if it's not.
+
+00:53:21.000 --> 00:53:25.000
+Absolutely burning your business right now. It's medium.
+
+00:53:25.000 --> 00:53:50.000
+And those are the ones you're gonna test. Once we get to growth month. And then there's low importance, nonessential and low impact on company growth still important to recognize. And once you're chugging along and you have some repeatability, you will get to those to enhance the business, but not probably during tech stars. So that's how I would view this. We're not going to do it right now. But remember, high medium low.
+
+00:53:50.000 --> 00:53:55.000
+You're gonna go on your own with your 10 hypotheses. You wrote down in the 1st experiment.
+
+00:53:55.000 --> 00:53:58.000
+Or the 1st exercise.
+
+00:53:58.000 --> 00:54:03.000
+And rank, all of them. So you're gonna rank them from one to 11 being the lowest 10 being the highest.
+
+00:54:03.000 --> 00:54:10.000
+If that's too vague, I don't really like the one to 10 scale. I just like to put things into buckets, so you can also just rank them high, medium, low.
+
+00:54:10.000 --> 00:54:24.000
+If that's easier for you. If you feel like there's a gradient, you can do one to 10. But it's really important, because you want to focus on the top 3 unprovencies to design experiments for during program. I would recommend doing that during growth month.
+
+00:54:24.000 --> 00:54:41.000
+And remember that the 10 you wrote down here are not just the 10 that are final. You probably want to go back with your team or by yourself, and write down all of your hypotheses. That you can think of all of your assumptions. Just keep a running, Doc, and then rank them while you're doing that.
+
+00:54:41.000 --> 00:54:45.000
+If they're proven or unproven, and then level of importance.
+
+00:54:45.000 --> 00:54:49.000
+So let's go into experiments.
+
+00:54:49.000 --> 00:54:58.000
+So an experiment is, what actions will you take to obtain evidence to support our hypothesis? So, to test our hypothesis, we will blank.
+
+00:54:58.000 --> 00:54:59.000
+That's your experiment.
+
+00:54:59.000 --> 00:55:04.000
+There's also evidence. So like I was saying, you can run an experiment, or you can gather evidence.
+
+00:55:04.000 --> 00:55:09.000
+Evidence what data will be collected to prove or disprove your hypothesis.
+
+00:55:09.000 --> 00:55:12.000
+We will know this hypothesis is true. When Blank.
+
+00:55:12.000 --> 00:55:17.000
+So there are 2 different sides here, and you can see one is much more Async, and one is.
+
+00:55:17.000 --> 00:55:25.000
+So like an experiment, you need to run over a certain amount of time, but evidence you can just devote time during one day to gather.
+
+00:55:25.000 --> 00:55:49.000
+Common types of experiments. These are the top 3. There were many more listed. But you can look up all the different types of experiments you can do. This is from the lean entrepreneur but these were my top 3 favorites. I put them on this slide together, Ab testing. That is like the most kind of like bread and butter form of testing. You guys have probably heard of it. You take 2 versions of something you compare them.
+
+00:55:49.000 --> 00:56:03.000
+To see which performs better. It's usually in terms of user engagement or conversion. So like, you're putting something in front of users, and they pick one or the other, or you put like 2 sodas in front of a a tester, and they pick one or the other. That's Ab testing.
+
+00:56:03.000 --> 00:56:07.000
+Concierge and Wizard of Oz are very similar.
+
+00:56:07.000 --> 00:56:10.000
+These are my favorite kinds of tests.
+
+00:56:10.000 --> 00:56:25.000
+They're very good at validating assumptions. The difference is for concierge. The customer is aware that it is kind of like a low, level version of the product and in Wizard of Oz you're the man behind the curtain, and they don't know that they're not using an actual product.
+
+00:56:25.000 --> 00:56:29.000
+So for concierge, you're providing a high touch manual service.
+
+00:56:29.000 --> 00:56:34.000
+As a version of your product that you want to build in the future to.
+
+00:56:34.000 --> 00:56:42.000
+Understand, customer needs and gather insights before developing an automated solution. So you do it yourself before you spend that money on a product.
+
+00:56:42.000 --> 00:56:59.000
+Whizz is the same thing. You're manually fulfilling it. But it's not going to be like high touch. You're not interacting with the customer. You have a front up, whether it's like a Google form or whatever it is, and you're doing the work on the back end. There's no true automation. You're fulfilling the product's purpose after the person buys.
+
+00:56:59.000 --> 00:57:01.000
+To validate whether or not.
+
+00:57:01.000 --> 00:57:04.000
+This product is going to be able to solve their needs.
+
+00:57:04.000 --> 00:57:05.000
+So.
+
+00:57:05.000 --> 00:57:30.000
+An example for concierge is we had a company helping nursing homes, teach their elderly people to learn technology. It came out of Covid. A lot of people wanted their like grandparents or parents to be able to zoom with them and things like that. So in our 22 cohort we had a company doing that. They wanted to build a whole Sas platform that would like train the the elderly people and also be like.
+
+00:57:30.000 --> 00:57:49.000
+A help desk platform. But instead of putting a bunch of money into build that product, they just sent a bunch of their teams like their founding team of 5. They just went to nursing homes, and they would spend, like all of Tuesday and all of Wednesday, providing this high touch manual service they were able to understand. The users needs.
+
+00:57:49.000 --> 00:58:12.000
+They were able to talk to the nursing Home residence because those are the people who were going to pay for this service, and they were able to gather insights. So they were doing the concierge. They were giving the same service they're going to with their product, but they were doing it manually without paying to build the the development, because they wanted to gather the insights 1st and validate the assumption that this would be something that they wanted.
+
+00:58:12.000 --> 00:58:30.000
+It actually helped them validate their assumption because the original plan was to charge the nursing homes as like a perk. If you come here we offer tech help. We have a tech desk. They realize through their concierge that it was the families who actually cared the most because they had the most stake in the game of the
+
+00:58:30.000 --> 00:58:36.000
+Nursing home residents being able to use technology. They didn't want to be isolated from their loved ones, so they were the ones willing to pay.
+
+00:58:36.000 --> 00:58:40.000
+I'll explain, Wizard in a second, but I want to take your questions near it.
+
+00:58:40.000 --> 00:59:03.000
+Yep, on the concierge model. Something which worries us because, like, that's also how we try to run our experiments. Is, how do you focus on transitioning like, what's the right point at which you decide that? By the way, now, I'm going to stop this and focus on the technological aspect of building this as like doing more sales and like gathering more data, because that's where, like the temptation.
+
+00:59:03.000 --> 00:59:04.000
+Lies.
+
+00:59:04.000 --> 00:59:11.000
+And then, of course, like just shutting everything down and just working on the Sas and like working on the technology aspect. I mean.
+
+00:59:11.000 --> 00:59:15.000
+Is it sustainable in the long run? So that's like some questions.
+
+00:59:15.000 --> 00:59:16.000
+That.
+
+00:59:16.000 --> 00:59:17.000
+Yeah.
+
+00:59:17.000 --> 00:59:31.000
+So there, that was kind of like 2 questions, right like, when do you change? And then what do you do with the customers? So when do you change that? For, like a concierge experiment, I would say once you've completely validated it. So once you can say like beyond unreasonable doubt.
+
+00:59:31.000 --> 00:59:39.000
+This is true like this is what we want to build. We want to spend all our money and time into building this. And I would say jobs to be done. It's gonna help you with that.
+
+00:59:39.000 --> 00:59:48.000
+When you know your job statement, and you're also testing that in the real field with this concierge service for that segment that you came out of job to be done with.
+
+00:59:48.000 --> 00:59:51.000
+You can say like, Yep, this is what we want to build.
+
+00:59:51.000 --> 00:59:59.000
+So, of course, like you'll, it'll always be like 99.9, cause you'll never know it'll work for certain. But as certain as you can be without.
+
+00:59:59.000 --> 01:00:19.000
+Spending too much time, because there is such thing as like prolonging your product growth. Right? You should get to it at some point, but as much as you can validate before then is good, and then what I've seen people do is a couple of things. You can offer the new service to the people you're doing the concierge with, and say, like, Hey, we have this new product.
+
+01:00:19.000 --> 01:00:43.000
+You should continue servicing them while you're building, like you shouldn't just let them drop off. You can try and have them convert, or some people just end up having a few that they keep doing concierge with while they're selling their new product. And then they slowly like drop off or convert, or you might just serve them for a while. So there are like many different things you can do, depending on your specific business, but I've seen all of them.
+
+01:00:43.000 --> 01:00:46.000
+I think, just making sure that you're respecting your reputation like.
+
+01:00:46.000 --> 01:00:54.000
+Treating the customer as well, and still being there for their needs and trying to help them. Transition to your new app is the best way to do it.
+
+01:00:54.000 --> 01:01:09.000
+Can I ask one follow question? I mean, like, yeah. So I think one thing that we receive as a feedback when we talk about this is, customers tend to be like they they get worried. Because again, the idea is they're used to having a service model.
+
+01:01:09.000 --> 01:01:17.000
+So we're saying that. By the way, if you grow and you technologize like we're not sure if you want to stay our customers because they see it as a risk.
+
+01:01:17.000 --> 01:01:20.000
+To their own business. So they're like, if we become commoditized for you.
+
+01:01:20.000 --> 01:01:25.000
+Then there's a chance that you stop focusing on our business.
+
+01:01:25.000 --> 01:01:26.000
+Oh, I see!
+
+01:01:26.000 --> 01:01:27.000
+So how do you navigate something like that?
+
+01:01:27.000 --> 01:01:47.000
+I I think we would have to work on it with you personally to deal with those customers. But like in general, yeah, that's why, a lot of people do kind of keep the the white glove approach with their 1st initial customers. If they're not going to move over. I know that happened with base camp? So we can just work on it with you specifically and like, decide what's best for your group.
+
+01:01:47.000 --> 01:01:48.000
+Of customers.
+
+01:01:48.000 --> 01:01:49.000
+Annie.
+
+01:01:49.000 --> 01:01:52.000
+Thanks.
+
+01:01:52.000 --> 01:01:58.000
+Yeah. So I I really like this idea, that concierge and Wizard of Oz, because we've had.
+
+01:01:58.000 --> 01:02:12.000
+Customers say, like, Oh, while you're building the software, would you be interested in like consulting or like helping us build? And so we've actually turned that down because we're like, no, we've got to focus on the product. But now I'm thinking.
+
+01:02:12.000 --> 01:02:14.000
+We can like kind of reframe.
+
+01:02:14.000 --> 01:02:21.000
+That consulting work as as concierge work. My question is.
+
+01:02:21.000 --> 01:02:25.000
+In that example that you had did.
+
+01:02:25.000 --> 01:02:29.000
+Are they? Did that company charge.
+
+01:02:29.000 --> 01:02:37.000
+For those that hands-on service? Or did they offer it as like a free pilot, and like framed it as like testing.
+
+01:02:37.000 --> 01:02:41.000
+It evolved. They started.
+
+01:02:41.000 --> 01:02:48.000
+Free in the nursing homes because they were trying to get the nursing homes to charge. They were doing like free pilots with like 3 nursing homes.
+
+01:02:48.000 --> 01:03:10.000
+And then, when they realized they needed to charge the families, I believe they started the families for the service for the concierge service. So they were making money. And then they started making small like apps that they could send out so or small bits of software. They started making like a phishing training for like emails, because the old people get started getting like fish, very commonly like during covid so they let the.
+
+01:03:10.000 --> 01:03:18.000
+Families buy that for their loved ones. They just started making offerings more and more to the point that they got to.
+
+01:03:18.000 --> 01:03:24.000
+Offering their full service that they wanted to, but it was just them doing it manually, and they were charging.
+
+01:03:24.000 --> 01:03:26.000
+And then they were able to build.
+
+01:03:26.000 --> 01:03:27.000
+A a software.
+
+01:03:27.000 --> 01:03:37.000
+After that I would just caution you. Any one. You don't want it to be doing a bunch of free work.
+
+01:03:37.000 --> 01:03:38.000
+Right.
+
+01:03:38.000 --> 01:03:45.000
+So make sure that you're doing the concierge as an experiment like this. You have an assumption you want to validate. So you go and get that hands-on experience with the customers for a reason.
+
+01:03:45.000 --> 01:03:46.000
+And then.
+
+01:03:46.000 --> 01:03:47.000
+You know that.
+
+01:03:47.000 --> 01:04:01.000
+You end it because you want to go, actually make it into a development a developed software. So it needs to be something that is very measured that you're very aware of that you're making sure is not a time suck that you're doing to gain specific insights for your business.
+
+01:04:01.000 --> 01:04:12.000
+Yeah. And that way, it's also like hyper focused on testing the product. Because if you just label it consulting, it can be like so broad, and it's not helpful. So I think that's that's great.
+
+01:04:12.000 --> 01:04:37.000
+Yeah. And like, you might even want to do kinda like Wizard of Oz, where it's like, we have this product fill out this form here, and, like, you know, our our back end will like analyze it for you. But it's really just you guys. So that's what Wizard of Oz is I was, gonna get to for you guys, a lot of my students at Northwestern will do Wizard of Oz to validate. They'll just send out a Google form and say, we do this thing for you like we match you with. A friend to study.
+
+01:04:37.000 --> 01:04:40.000
+With, or something like that. We have an algorithm.
+
+01:04:40.000 --> 01:05:01.000
+Fill out this form. And really, it's just them going through a Google sheet. And they like match people and then send it. And so that's the Wizard of Oz, because you feel like you're signing up for this whole like, you know, service. But it's just the people doing it, and that's how you validate it. It doesn't make it any less valid for someone to pay you, because you're doing the same service. It's just that you're putting in a lot more work than if you built the software. Obviously.
+
+01:05:01.000 --> 01:05:05.000
+Cool. We have only a few minutes left. I'm gonna just.
+
+01:05:05.000 --> 01:05:07.000
+Show you the rest of the slides.
+
+01:05:07.000 --> 01:05:10.000
+You guys can fill in the last bit of this chart.
+
+01:05:10.000 --> 01:05:26.000
+You're gonna go on your own. Look at your hypotheses, rank them by importance, like we said. Then design. If it's just a brainstorm, you don't have to go full into, like all the details of the experiment, but just jot down for your future self. Here's something that could validate it.
+
+01:05:26.000 --> 01:05:39.000
+Something I could design. So you're not going to do this now, but for each of your hypotheses, not just your top 3, all of them design an experiment that can prove or disprove the hypothesis.
+
+01:05:39.000 --> 01:05:41.000
+That's the end. Here.
+
+01:05:41.000 --> 01:06:06.000
+We have about 2 min left for questions. But there's another feedback form here so that you guys can let the education team know what you thought of this workshop, I thought, this is really cool, because this is not a skill that we have taught in the past, and I appreciate the really fruitful conversations we had here from you guys sharing. So just remember that Neil and I and the whole team will be here helping you guys experiment and test these assumptions and validate them. The whole program.
+
+01:06:06.000 --> 01:06:16.000
+And afterward, this is really like your whole journey of being a founder. It's just testing and validating assumptions and then making bets based on those. So get really used to this skill.
+
+01:06:16.000 --> 01:06:41.000
+Go back through this list. Keep writing down your assumptions, and we'll work together to do this. But it's really important that you're not doing things that are unproven. So I'm really glad that we have this opportunity to put this warning bell here. If anyone feels like they're going after something that's unproven, or that you may have already made a big bet. Don't worry. Send us a boxer. We can talk about it. I wanna make sure nobody is, you know, making these.
+
+01:06:41.000 --> 01:06:48.000
+Tumultuous decisions. Between now and week 6. So let's try and get ahead of that. This program.
+
+01:06:48.000 --> 01:06:53.000
+I'll stick around for questions.
+
+01:06:53.000 --> 01:06:55.000
+Thanks, everybody.
+

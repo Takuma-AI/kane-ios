@@ -1,0 +1,3554 @@
+WEBVTT
+
+00:00.000 --> 00:02.240
+It's really great to see all of you.
+
+00:02.240 --> 00:04.880
+What I want to do today since this is
+
+00:04.880 --> 00:07.160
+this build at Startup School is
+
+00:07.160 --> 00:08.480
+share of you some lessons
+
+00:08.480 --> 00:11.360
+I've learned about building startups at AI Fund.
+
+00:11.360 --> 00:12.840
+AI Funds Adventure Studio,
+
+00:12.840 --> 00:16.240
+and we build an average of about one startup per month.
+
+00:16.240 --> 00:18.080
+Because we co-founded startups,
+
+00:18.080 --> 00:19.360
+we're in there writing code,
+
+00:19.360 --> 00:20.960
+talking to customers, design on features,
+
+00:20.960 --> 00:22.040
+that are in pricing,
+
+00:22.040 --> 00:23.560
+and so we've done a lot of reps
+
+00:23.560 --> 00:25.560
+of not just washing others build startups,
+
+00:25.560 --> 00:27.080
+but actually being in the weeds,
+
+00:27.080 --> 00:29.400
+building startups with entrepreneurs.
+
+00:29.640 --> 00:31.840
+And what I want to do today is
+
+00:31.840 --> 00:33.000
+share of you some of the lessons
+
+00:33.000 --> 00:34.400
+I've learned building startups,
+
+00:34.400 --> 00:36.920
+especially around this changing AI technology
+
+00:36.920 --> 00:38.240
+and what it enables.
+
+00:38.240 --> 00:41.960
+And it'll be focused on the theme of speed.
+
+00:41.960 --> 00:43.720
+So it turns out that,
+
+00:43.720 --> 00:45.400
+but those of you that want to build a startup,
+
+00:45.400 --> 00:47.440
+I think a strong predictor for startups
+
+00:47.440 --> 00:50.120
+also success is an execution speed.
+
+00:50.120 --> 00:51.840
+And I actually have a lot of respect
+
+00:51.840 --> 00:53.760
+for the entrepreneurs and executives
+
+00:53.760 --> 00:56.600
+that can just do things really quickly.
+
+00:56.600 --> 01:00.160
+And new AI technology is enabling startups
+
+01:00.160 --> 01:01.920
+to go much faster.
+
+01:01.920 --> 01:03.480
+So what I want to do is share of you
+
+01:03.480 --> 01:04.720
+some of those best practices,
+
+01:04.720 --> 01:07.680
+which are frankly changing every two to three months though,
+
+01:07.680 --> 01:08.960
+to let you get that speed
+
+01:08.960 --> 01:11.760
+that hopefully lets you have a higher odds of success.
+
+01:11.760 --> 01:13.440
+Before diving to speed,
+
+01:13.440 --> 01:14.480
+a lot of people ask me,
+
+01:14.480 --> 01:17.360
+hey, Andrew, where are the opportunities for startups?
+
+01:17.360 --> 01:20.600
+So this is what I think of as a AI stack,
+
+01:20.600 --> 01:21.960
+where at the lowest level
+
+01:21.960 --> 01:23.640
+are the semiconductor companies,
+
+01:23.640 --> 01:24.520
+then the clouds,
+
+01:24.520 --> 01:26.960
+I have my scalars build on top of that,
+
+01:26.960 --> 01:28.160
+a lot of the AI foundation,
+
+01:28.160 --> 01:30.280
+all the companies build on top of that.
+
+01:30.280 --> 01:33.000
+And even though a lot of the PR excitement and hype
+
+01:33.000 --> 01:35.880
+has been on these technology layers,
+
+01:35.880 --> 01:38.280
+it turns out that almost by definition,
+
+01:38.280 --> 01:40.040
+the biggest opportunities have to be
+
+01:40.040 --> 01:41.880
+at the application layer
+
+01:41.880 --> 01:44.360
+because we actually need the applications
+
+01:44.360 --> 01:46.000
+to generate even more revenue
+
+01:46.000 --> 01:49.760
+so that they can afford to pay the foundation, cloud,
+
+01:49.760 --> 01:52.440
+and semiconductor technology layers.
+
+01:52.440 --> 01:53.640
+So for whatever reason,
+
+01:53.640 --> 01:55.880
+media and social media tends not to talk
+
+01:55.880 --> 01:58.000
+about the application layer as much,
+
+01:58.000 --> 02:00.000
+but for those of you who think you're building startups,
+
+02:00.000 --> 02:01.160
+almost by definition,
+
+02:01.160 --> 02:03.560
+the biggest opportunities have to be there,
+
+02:03.560 --> 02:04.560
+although of course,
+
+02:04.560 --> 02:06.400
+the opportunities are all layers of the set.
+
+02:06.400 --> 02:09.880
+One of the things that's changed a lot over the last year,
+
+02:09.880 --> 02:12.080
+and in terms of AI tech trends,
+
+02:12.080 --> 02:12.920
+if you ask me,
+
+02:12.920 --> 02:14.800
+what's the most important tech trend in AI?
+
+02:14.800 --> 02:17.960
+I would say is the rise of agent to AI.
+
+02:17.960 --> 02:19.800
+And about a year and a half ago,
+
+02:19.800 --> 02:21.720
+when I started to go around and give talks
+
+02:21.720 --> 02:23.160
+to try to convince people
+
+02:23.160 --> 02:25.360
+that AI agents might be a thing,
+
+02:25.360 --> 02:28.680
+I did not realize that around last summer,
+
+02:28.680 --> 02:31.640
+a bunch of marketers would get a hold of this term
+
+02:31.640 --> 02:34.680
+and use it as a sticker and slap it on everything in sight,
+
+02:34.680 --> 02:36.880
+which made it almost lose some of its meaning.
+
+02:36.880 --> 02:39.520
+But I'll share with you from a technical perspective,
+
+02:39.520 --> 02:42.760
+why I think agentic AI is exciting and important,
+
+02:42.760 --> 02:46.040
+and also opens up a lot more startup opportunities.
+
+02:46.040 --> 02:48.400
+So it turns out that the way a lot of us use LOMs
+
+02:48.400 --> 02:51.640
+is to prompt it to have it during an output.
+
+02:51.640 --> 02:54.400
+And the way we have an LOM output something
+
+02:54.400 --> 02:56.520
+is as if you're going to a human,
+
+02:56.520 --> 02:57.920
+or in this case, an AI,
+
+02:57.920 --> 03:00.920
+and asking it to please type on an essay for you
+
+03:00.920 --> 03:03.360
+by writing from the first word to the last word,
+
+03:03.360 --> 03:06.120
+all in one go, whatever, using backspace.
+
+03:06.120 --> 03:08.400
+And humans, we don't do our best writing,
+
+03:08.400 --> 03:11.000
+being forced to type in this linear order.
+
+03:11.000 --> 03:12.600
+And it turns out neither does AI,
+
+03:12.600 --> 03:16.240
+but despite the difficulty of being forced to write in this linear way,
+
+03:16.240 --> 03:18.080
+our LOMs do surprisingly well.
+
+03:18.080 --> 03:19.240
+With agentic workflows,
+
+03:19.240 --> 03:20.960
+we can go to AI system and ask it
+
+03:20.960 --> 03:23.000
+to please first write an essay online,
+
+03:23.000 --> 03:25.120
+then do some web research if it needs to,
+
+03:25.120 --> 03:28.560
+and fetch some web pages to put in their own context,
+
+03:28.560 --> 03:29.560
+then write the first draft,
+
+03:29.560 --> 03:31.440
+then read the first draft in critique,
+
+03:31.440 --> 03:33.080
+and revise it, and so on.
+
+03:33.080 --> 03:35.280
+And so we end up with this iterative workflow
+
+03:35.280 --> 03:37.640
+where your model does some thinking and some research,
+
+03:37.640 --> 03:40.320
+does some revision, goes back to do more thinking,
+
+03:40.320 --> 03:42.560
+and by going around this loop many times,
+
+03:42.560 --> 03:46.200
+it is slower, but it delivers a much better work product.
+
+03:46.200 --> 03:48.240
+So for a lot of projects,
+
+03:48.240 --> 03:54.080
+AI fund has worked on everything from pulling out complex compliance documents
+
+03:54.080 --> 03:55.920
+to medical diagnosis,
+
+03:55.920 --> 03:58.720
+to reasoning about complex legal documents.
+
+03:58.720 --> 04:00.960
+We found that these agentic workflows
+
+04:00.960 --> 04:03.280
+are really a huge difference within it working,
+
+04:03.280 --> 04:04.760
+versus not working.
+
+04:04.760 --> 04:06.800
+But a lot of the work that needs to be done,
+
+04:06.800 --> 04:08.920
+a lot of available businesses to be built still,
+
+04:08.920 --> 04:10.200
+will be taking workflows,
+
+04:10.200 --> 04:11.640
+existing or new workflows,
+
+04:11.640 --> 04:13.520
+and figuring out how to implement them
+
+04:13.520 --> 04:16.280
+into these types of agentic workflows.
+
+04:16.280 --> 04:20.040
+So just to update the picture for the AI stack,
+
+04:20.040 --> 04:22.440
+what has emerged over the last year
+
+04:22.440 --> 04:25.240
+is a new agentic orchestration layer
+
+04:25.240 --> 04:27.800
+that helps application builders orchestrate
+
+04:27.800 --> 04:32.120
+or coordinate a lot of calls to the technology layers underneath.
+
+04:32.120 --> 04:34.680
+And the good news is the orchestration layer
+
+04:34.680 --> 04:37.600
+has made it even easier to build applications.
+
+04:37.600 --> 04:39.000
+But I think the basic conclusion
+
+04:39.000 --> 04:40.520
+that the application layer has to be
+
+04:40.520 --> 04:43.360
+the most valuable layer of the stack still holds true.
+
+04:43.360 --> 04:46.720
+With a bias or focus on the application layer,
+
+04:46.720 --> 04:49.440
+let me now dive into some of the best practices of learning,
+
+04:49.440 --> 04:51.800
+but how startups can move faster.
+
+04:52.920 --> 04:55.840
+It turns out that at AI fund,
+
+04:55.840 --> 05:00.160
+we only focus on working on concrete ideas.
+
+05:00.160 --> 05:03.600
+So to me, a concrete idea, a concrete product idea,
+
+05:03.600 --> 05:05.880
+is one that's specified enough detail
+
+05:05.880 --> 05:08.160
+that an engineer can go and build it.
+
+05:08.160 --> 05:10.120
+So for example, if you say,
+
+05:10.120 --> 05:13.080
+let's use AI's optimized healthcare assets,
+
+05:13.080 --> 05:14.960
+you know, that's actually not a concrete idea.
+
+05:14.960 --> 05:15.760
+It's too vague.
+
+05:15.760 --> 05:17.280
+If you tell me it's a very software,
+
+05:17.280 --> 05:19.200
+do you use AI's optimized healthcare assets?
+
+05:19.200 --> 05:21.680
+Different engineers would do totally different things.
+
+05:21.680 --> 05:23.000
+And because it's not concrete,
+
+05:23.000 --> 05:25.720
+you can't build it quickly and you don't have speed.
+
+05:25.720 --> 05:27.840
+In contrast, if you had a concrete idea,
+
+05:27.840 --> 05:30.000
+like let's write software to let hospitals,
+
+05:30.000 --> 05:33.040
+let patients with MRI machine slots online to optimize usage,
+
+05:33.040 --> 05:35.240
+I don't know if this is a good or a bad concrete idea.
+
+05:35.240 --> 05:37.560
+That's actually business already doing this.
+
+05:37.560 --> 05:39.080
+But it is concrete and that means
+
+05:39.080 --> 05:40.640
+engineers can build it quickly.
+
+05:40.640 --> 05:41.920
+If it's a good idea, you find out
+
+05:41.920 --> 05:43.880
+there's not a good idea, you will find out
+
+05:43.880 --> 05:46.600
+by having concrete ideas by as you speed.
+
+05:46.600 --> 05:49.720
+Or someone would say, let's use AF email personal productivity.
+
+05:49.720 --> 05:52.840
+Too many interpretations of that, that's not concrete.
+
+05:52.840 --> 05:53.880
+But if someone says,
+
+05:53.880 --> 05:54.760
+could you build an app,
+
+05:54.760 --> 05:56.480
+Gmail integrates the automation that uses,
+
+05:56.480 --> 05:57.360
+let's use the right prompt,
+
+05:57.360 --> 05:58.760
+so it's my filter and tag email,
+
+05:58.760 --> 05:59.760
+is that it's concrete?
+
+05:59.760 --> 06:01.720
+I could go build that this afternoon.
+
+06:01.720 --> 06:04.400
+So concrete is by as you speed.
+
+06:04.400 --> 06:06.880
+And the deceptive thing for a lot of entrepreneurs
+
+06:06.880 --> 06:10.120
+is the vague ideas tend to get a lot of kudos.
+
+06:10.120 --> 06:11.640
+If you go and tell all your friends,
+
+06:11.640 --> 06:14.320
+we should use AI to optimize the use of healthcare assets.
+
+06:14.320 --> 06:16.320
+Everyone will say that's a great idea.
+
+06:16.320 --> 06:17.800
+But it's actually not a great idea,
+
+06:17.800 --> 06:20.640
+at least in a sense of being something you can build.
+
+06:20.640 --> 06:21.640
+It turns out when you're vague,
+
+06:21.640 --> 06:23.400
+you're almost always right.
+
+06:23.400 --> 06:24.880
+But when you're concrete,
+
+06:24.880 --> 06:26.520
+you may be right or wrong.
+
+06:26.520 --> 06:27.360
+Either way, it's fine.
+
+06:27.360 --> 06:29.120
+We can discover that much more fast,
+
+06:29.120 --> 06:31.120
+which is what's important for us to start up.
+
+06:31.120 --> 06:33.680
+In terms of executing concrete ideas,
+
+06:33.680 --> 06:35.360
+I find that AI fun,
+
+06:35.360 --> 06:37.720
+I ask my team to focus on concrete ideas
+
+06:37.720 --> 06:41.240
+because a concrete idea gives clear direction.
+
+06:41.240 --> 06:42.960
+And the team can run really fast,
+
+06:42.960 --> 06:45.200
+to build it and either validate it, prove it out,
+
+06:45.200 --> 06:47.240
+or falsify it and conclude it doesn't work.
+
+06:47.240 --> 06:48.080
+Either way, it's fine.
+
+06:48.080 --> 06:50.280
+So let's do that quickly.
+
+06:50.280 --> 06:53.200
+And it turns out that finding good concrete ideas
+
+06:53.200 --> 06:54.640
+usually requires someone,
+
+06:54.640 --> 06:56.640
+could be you, could be a subject matter expert.
+
+06:56.640 --> 06:59.000
+Think about a problem for a long time.
+
+06:59.000 --> 07:03.080
+So for example, actually before you're starting Coursera,
+
+07:03.080 --> 07:06.320
+I spent years thinking about online education,
+
+07:06.320 --> 07:07.200
+talking to the users,
+
+07:07.200 --> 07:08.880
+holding my own intuitions
+
+07:08.880 --> 07:11.880
+about what would make a good tech platform.
+
+07:11.880 --> 07:13.720
+And then after that long process,
+
+07:13.720 --> 07:16.320
+I think YC sometimes calls it wondering the idea maze.
+
+07:16.320 --> 07:18.280
+But after thinking about it for a long time,
+
+07:18.280 --> 07:20.200
+you find that the guts of people
+
+07:20.200 --> 07:21.960
+that thought about this for a long time
+
+07:21.960 --> 07:24.360
+can be very good about rapidly making decisions.
+
+07:24.360 --> 07:26.200
+As in, after you've thought about this,
+
+07:26.200 --> 07:28.120
+talk to customers and stuff for a long time,
+
+07:28.120 --> 07:29.120
+if you're also this expert,
+
+07:29.120 --> 07:31.440
+should I build this feature or that feature,
+
+07:31.440 --> 07:32.280
+you know, the gut,
+
+07:32.280 --> 07:34.520
+which is an instantaneous decision,
+
+07:34.520 --> 07:36.560
+can be actually a surprisingly good proxy.
+
+07:36.560 --> 07:40.320
+It can be surprisingly good mechanism for making decisions.
+
+07:40.320 --> 07:42.160
+And I know I work on AI,
+
+07:42.160 --> 07:43.680
+you might think I'll say,
+
+07:43.680 --> 07:44.720
+oh, we need data.
+
+07:44.720 --> 07:46.360
+And of course, I love data.
+
+07:46.360 --> 07:49.160
+The turns out getting data for a lot of starters
+
+07:49.160 --> 07:51.680
+is just slow mechanism for making decisions.
+
+07:51.680 --> 07:53.800
+And subject matter expert with good guts
+
+07:53.800 --> 07:55.680
+is often a much better mechanism
+
+07:55.680 --> 07:57.280
+for making a speedy decision.
+
+07:57.280 --> 07:58.880
+And then one other thing,
+
+07:58.880 --> 08:00.280
+but many successful starters,
+
+08:00.280 --> 08:01.320
+at any moment in time,
+
+08:01.320 --> 08:04.600
+you're pursuing one very clear hypothesis.
+
+08:04.600 --> 08:05.800
+They're building out and trying to sell
+
+08:06.080 --> 08:08.040
+a value of all-spot.
+
+08:08.040 --> 08:10.480
+And a startup doesn't have resources to hedge
+
+08:10.480 --> 08:11.840
+and try 10 things at the same time.
+
+08:11.840 --> 08:13.960
+So pick one, go for it.
+
+08:13.960 --> 08:17.240
+And if data tells you to use faith in that idea,
+
+08:17.240 --> 08:18.280
+that's totally fine.
+
+08:18.280 --> 08:20.320
+Just pivot on the dime to pursue
+
+08:20.320 --> 08:21.960
+a totally different concrete idea.
+
+08:21.960 --> 08:23.960
+So that's what often feels like an AI fund.
+
+08:23.960 --> 08:27.560
+We're pursuing one thing doggily with determination
+
+08:27.560 --> 08:29.480
+until the world tells us we were wrong,
+
+08:29.480 --> 08:31.480
+then change and pursue a totally different thing
+
+08:31.480 --> 08:34.680
+with equal determination and equal dogginess.
+
+08:34.680 --> 08:36.600
+And one of the pads in our scene,
+
+08:36.600 --> 08:39.360
+if every piece of new data calls you to the pivot,
+
+08:39.360 --> 08:41.360
+it probably means you're starting off
+
+08:41.360 --> 08:43.120
+from too weak a base of knowledge, right?
+
+08:43.120 --> 08:44.200
+Every time you talk to a customer,
+
+08:44.200 --> 08:45.720
+you totally change your mind.
+
+08:45.720 --> 08:48.120
+Part of it means you don't know enough about that sector yet
+
+08:48.120 --> 08:50.520
+to have a really high quality concrete idea
+
+08:50.520 --> 08:53.040
+and finding someone to start about a subject
+
+08:53.040 --> 08:55.360
+for longer may get drawn to better power.
+
+08:55.360 --> 08:56.920
+In order to go faster,
+
+08:56.920 --> 08:58.400
+the other thing often think about
+
+08:58.400 --> 08:59.840
+is the built feedback loop,
+
+08:59.840 --> 09:02.320
+which is rapidly changing when it comes to
+
+09:02.320 --> 09:05.200
+how we build with AI coding assistance.
+
+09:05.200 --> 09:07.320
+So when you're building a lot of applications,
+
+09:07.320 --> 09:09.440
+one of the biggest risks is customer acceptance, right?
+
+09:09.440 --> 09:11.080
+A lot of startups struggle,
+
+09:11.080 --> 09:13.080
+not because we can't build whatever we want to build,
+
+09:13.080 --> 09:16.240
+but because we build something and it turns out nobody cares.
+
+09:16.240 --> 09:19.640
+And so for a lot of the way I build startups,
+
+09:19.640 --> 09:20.680
+especially applications,
+
+09:20.680 --> 09:23.080
+less so deep tech, less so technology startups,
+
+09:23.080 --> 09:24.560
+but definitely application startups
+
+09:24.560 --> 09:26.640
+is often built software.
+
+09:26.640 --> 09:28.360
+So this is an engineering toss.
+
+09:28.360 --> 09:30.720
+And then we will get feedback from users
+
+09:30.720 --> 09:32.720
+and just a product management toss.
+
+09:32.720 --> 09:34.240
+And then we'll go back, you know,
+
+09:34.240 --> 09:35.600
+then basically use the feedback,
+
+09:35.600 --> 09:37.520
+we'll tweak our views on what to build,
+
+09:37.520 --> 09:39.160
+go back to write more software,
+
+09:39.160 --> 09:40.880
+and we go around this loop many, many times,
+
+09:40.880 --> 09:43.080
+iterate toward product market fit.
+
+09:43.080 --> 09:47.280
+And it turns out that with AI coding assistance,
+
+09:47.280 --> 09:49.720
+which Andre talked about as well,
+
+09:49.720 --> 09:52.760
+rapid engineering is becoming possible in a way
+
+09:52.760 --> 09:54.000
+that just was not possible.
+
+09:54.000 --> 09:55.520
+It's becoming much more feasible.
+
+09:55.520 --> 09:58.760
+So the speed of engineering is going up rapidly
+
+09:58.760 --> 10:02.280
+and the cost of engineering is also going down rapidly.
+
+10:02.280 --> 10:03.960
+This changes the mechanisms
+
+10:03.960 --> 10:06.600
+by which we drive startups around this loop.
+
+10:06.600 --> 10:08.560
+When I think about the software I did I do,
+
+10:08.560 --> 10:10.240
+I may be put into two major buckets.
+
+10:10.240 --> 10:12.440
+Sometimes I've built quick and dirty prototypes
+
+10:12.440 --> 10:13.320
+to test an idea,
+
+10:13.320 --> 10:15.360
+and say, we'll build a new customer service chat ball.
+
+10:15.360 --> 10:17.840
+Let's build an AI to process legal documents or whatever.
+
+10:17.840 --> 10:19.080
+But the quick and dirty prototype
+
+10:19.080 --> 10:20.640
+to see if we think it works.
+
+10:20.640 --> 10:22.680
+The other type of software I do is,
+
+10:22.680 --> 10:24.360
+write, maintain production software,
+
+10:24.360 --> 10:26.080
+maintain legacy software,
+
+10:26.080 --> 10:28.760
+but these massive production-ready code bases.
+
+10:28.760 --> 10:31.080
+Depending on which analyst report you trust,
+
+10:31.080 --> 10:33.840
+it's been hard to find very rigorous data on this.
+
+10:33.840 --> 10:36.040
+You know, when writing production quality code,
+
+10:36.040 --> 10:38.800
+maybe we're 30% to 50% faster with AI assistance,
+
+10:38.800 --> 10:39.960
+hard to find a rigorous number.
+
+10:39.960 --> 10:41.520
+Maybe, these falls more to me.
+
+10:41.520 --> 10:44.400
+But in terms of building quick and dirty prototypes,
+
+10:44.400 --> 10:46.240
+we're not 50% faster.
+
+10:46.240 --> 10:48.160
+I think we're easily 10 times faster,
+
+10:48.160 --> 10:50.760
+maybe much more than 10 times faster.
+
+10:50.760 --> 10:52.520
+And there are a few reasons for this.
+
+10:52.520 --> 10:54.840
+When you're building standalone prototypes,
+
+10:54.840 --> 10:58.120
+this less integration with legacy software infrastructure
+
+10:58.120 --> 11:00.320
+and legacy data needed.
+
+11:00.320 --> 11:02.920
+Also, the requirements for reliability,
+
+11:02.920 --> 11:06.280
+even scalability, even security are much lower.
+
+11:06.280 --> 11:08.000
+And I know I'm not supposed to tell people
+
+11:08.000 --> 11:09.640
+to write insecure code, right?
+
+11:09.640 --> 11:11.080
+Feels like the wrong thing to say.
+
+11:11.080 --> 11:12.360
+But I routinely go to my team
+
+11:12.360 --> 11:13.960
+and say, go ahead, write insecure code.
+
+11:13.960 --> 11:17.680
+Because if this software is only gonna run on your laptop,
+
+11:17.680 --> 11:20.640
+and if you don't plan to maliciously hack your own laptop,
+
+11:20.640 --> 11:22.680
+it's fine to have insecure code, right?
+
+11:22.680 --> 11:24.400
+But of course, after it seems to be working,
+
+11:24.400 --> 11:26.840
+please do make a secure before you ship it to someone else.
+
+11:26.840 --> 11:29.680
+And you know, like a leaking PII, a leaking send data
+
+11:29.680 --> 11:31.720
+that is very damaging.
+
+11:31.720 --> 11:33.800
+So before you ship it, make a secure and scalable,
+
+11:33.800 --> 11:35.680
+but they were just assessing it, it's fine.
+
+11:35.680 --> 11:37.080
+And so I find increasingly,
+
+11:37.080 --> 11:40.040
+starters will systematically pursue innovations
+
+11:40.040 --> 11:43.880
+by building 20 prototypes to see what works, right?
+
+11:43.880 --> 11:46.480
+Because I know that there's some ads in AI,
+
+11:46.480 --> 11:48.800
+a lot of proof of concepts don't make into production.
+
+11:48.800 --> 11:51.320
+But I think by driving the cost of a proof of concept
+
+11:51.320 --> 11:52.600
+low enough, it's actually fine.
+
+11:52.600 --> 11:53.920
+I've lost a proof of concepts.
+
+11:53.920 --> 11:55.720
+Don't see the light of day.
+
+11:55.720 --> 11:58.080
+And I know that the mantra,
+
+11:58.080 --> 12:00.240
+move fast and break things got a bad rep,
+
+12:00.240 --> 12:02.160
+because it broke things.
+
+12:02.160 --> 12:04.880
+And some teams took away from this
+
+12:04.880 --> 12:06.480
+that you should not move fast,
+
+12:06.480 --> 12:08.480
+but I think that's a mistake.
+
+12:08.480 --> 12:11.280
+I tend to tell my teams to move fast and be responsible.
+
+12:11.280 --> 12:12.760
+And I think they actually lost their ways
+
+12:12.760 --> 12:16.120
+to move really quickly while still being responsible.
+
+12:16.120 --> 12:20.520
+And in terms of the AI assistance coding landscape,
+
+12:20.520 --> 12:22.400
+I think was it three, four years ago,
+
+12:22.400 --> 12:23.800
+code autocomplete, right?
+
+12:23.800 --> 12:25.960
+Popularized by GitHub, co-pilot.
+
+12:25.960 --> 12:27.080
+And then there was a cursor,
+
+12:27.080 --> 12:30.000
+wind-served generation of AI-enabled IDEs.
+
+12:30.000 --> 12:33.240
+We're in great use, wind-served cursor, quite a lot.
+
+12:33.240 --> 12:37.480
+And then starting on our six, seven months ago,
+
+12:37.480 --> 12:39.240
+decided to be this new generation
+
+12:39.240 --> 12:41.920
+of high-dagentic coding assistance,
+
+12:41.920 --> 12:43.200
+including, like you're using,
+
+12:43.200 --> 12:44.960
+oh, fee a lot for coding.
+
+12:44.960 --> 12:46.200
+Cloud code is fantastic.
+
+12:46.200 --> 12:48.360
+Since Cloud 4 release has become,
+
+12:48.360 --> 12:49.640
+and I've been getting a few months,
+
+12:49.640 --> 12:50.520
+I may use something different,
+
+12:50.520 --> 12:52.760
+but the tools are evolving really rapidly.
+
+12:52.760 --> 12:55.040
+But I think Cloud code X,
+
+12:55.040 --> 12:58.200
+this is a new generation of highly-agentic coding assistance
+
+12:58.200 --> 13:01.040
+that is making developer productivity keep on growing.
+
+13:01.040 --> 13:01.960
+And the interesting thing is,
+
+13:01.960 --> 13:04.960
+if you're even half a generation or one generation behind,
+
+13:04.960 --> 13:06.120
+it actually makes a big difference
+
+13:06.120 --> 13:08.840
+compared to if you're on top of the latest tools.
+
+13:08.840 --> 13:11.280
+And I find my team is taking really different approaches
+
+13:11.280 --> 13:13.200
+to software engineering now compared to even fee
+
+13:13.200 --> 13:14.520
+or six months ago.
+
+13:14.520 --> 13:16.160
+One surprising thing is,
+
+13:16.160 --> 13:17.800
+we're used to thinking of code
+
+13:17.800 --> 13:19.320
+as this really valuable artifact,
+
+13:19.320 --> 13:21.240
+because it's so hard to create.
+
+13:21.240 --> 13:23.800
+But because the cost of software engineering is going down,
+
+13:23.800 --> 13:26.160
+code is much less of a valuable artifact as it used to.
+
+13:26.160 --> 13:27.760
+Some on teams where,
+
+13:27.760 --> 13:29.360
+we've completely rebuilt the code base
+
+13:29.360 --> 13:30.840
+three times the last month, right?
+
+13:30.840 --> 13:32.480
+Because it's not that hard anymore
+
+13:32.480 --> 13:34.400
+to just completely rebuild the code base.
+
+13:34.400 --> 13:36.120
+Pick a new data schema is fine,
+
+13:36.120 --> 13:38.920
+because the cost of doing that has plummeted.
+
+13:38.920 --> 13:41.320
+Some of you may have heard of Jeff Bezos' terminology
+
+13:41.320 --> 13:43.640
+of a two-aidor versus a one-way door.
+
+13:43.640 --> 13:45.440
+A two-aidor's decision they can make.
+
+13:45.440 --> 13:46.480
+If you change your mind,
+
+13:46.480 --> 13:47.560
+come back out, you know,
+
+13:47.560 --> 13:49.280
+reverse it relatively cheap.
+
+13:49.320 --> 13:50.640
+Whereas the one-way door is,
+
+13:50.640 --> 13:52.280
+you make a decision and you change your mind
+
+13:52.280 --> 13:54.880
+is very costly, very difficult to reverse.
+
+13:54.880 --> 13:56.640
+So choosing the software architecture
+
+13:56.640 --> 13:57.720
+of your text stack,
+
+13:57.720 --> 13:58.720
+used to be a one-way door.
+
+13:58.720 --> 14:01.200
+Once you build on top of a certain text stack,
+
+14:01.200 --> 14:03.760
+you know, set the database schema really hard to change it.
+
+14:03.760 --> 14:05.600
+So that used to be a one-way door.
+
+14:05.600 --> 14:08.000
+I don't want to say it's totally a two-way door,
+
+14:08.000 --> 14:10.880
+but I find that my team will more often
+
+14:10.880 --> 14:14.200
+build on a certain text stack a week later, change your mind.
+
+14:14.200 --> 14:15.360
+Let's throw the code base away
+
+14:15.360 --> 14:17.640
+and redo it from scratch on the new text stack.
+
+14:17.640 --> 14:18.960
+I don't want to over-hype it.
+
+14:18.960 --> 14:20.200
+We don't do that all the time.
+
+14:20.200 --> 14:22.400
+There are still costs to redoing that.
+
+14:22.400 --> 14:24.480
+But I find my team is often rethinking
+
+14:24.480 --> 14:26.920
+what is a one-way door and what's now a two-way door
+
+14:26.920 --> 14:29.720
+because the cost of software engineering is so much lower now.
+
+14:29.720 --> 14:32.400
+And maybe going a little bit beyond software engineering,
+
+14:32.400 --> 14:33.840
+I feel like it's actually a good time
+
+14:33.840 --> 14:36.720
+to empower everyone to build a AI.
+
+14:36.720 --> 14:37.760
+Over the last year,
+
+14:37.760 --> 14:40.920
+a bunch of people have advised others not to learn to code
+
+14:40.920 --> 14:43.080
+on the browser AI will automate it.
+
+14:43.080 --> 14:44.520
+I think we'll look back on this
+
+14:44.520 --> 14:48.520
+as some of the worst career advice ever given.
+
+14:48.520 --> 14:52.680
+Because as better tools make software engineering easier,
+
+14:52.680 --> 14:55.120
+more people should do it, not fewer.
+
+14:55.120 --> 14:56.640
+So when many decades ago,
+
+14:56.640 --> 14:59.320
+the world moved from punch cards to keyboard and terminal
+
+14:59.320 --> 15:00.600
+that made coding easier.
+
+15:00.600 --> 15:01.680
+When we moved from assemblies,
+
+15:01.680 --> 15:03.880
+high-level languages like Cobalt,
+
+15:03.880 --> 15:05.800
+there are actually people arguing back then
+
+15:05.800 --> 15:08.160
+that now we have Cobalt,
+
+15:08.160 --> 15:09.360
+we don't need programmers anymore,
+
+15:09.360 --> 15:11.560
+that people actually don't pay for it to that effect.
+
+15:11.560 --> 15:12.920
+But of course, there was wrong
+
+15:12.920 --> 15:15.000
+and program languages made easier to code
+
+15:15.000 --> 15:16.640
+and more people learn to code.
+
+15:16.640 --> 15:18.120
+Check sentences, IDs,
+
+15:18.120 --> 15:20.640
+IDs, AI coding assistance.
+
+15:20.640 --> 15:22.160
+And as coding becomes easier,
+
+15:22.160 --> 15:24.400
+more people should learn to code.
+
+15:24.400 --> 15:26.320
+I have a controversial opinion,
+
+15:26.320 --> 15:28.040
+which is, I think it's actually time
+
+15:28.040 --> 15:30.560
+for everyone of every job role to learn to code.
+
+15:30.560 --> 15:32.000
+And in fact, on my team,
+
+15:32.000 --> 15:34.120
+my CFO, my head of talent,
+
+15:34.120 --> 15:37.960
+my recruiters, my friend desk person,
+
+15:37.960 --> 15:39.160
+all of them knew how to code
+
+15:39.160 --> 15:41.320
+and I should see all of them performing better
+
+15:41.320 --> 15:44.080
+at all of their job functions because they can code.
+
+15:44.080 --> 15:46.440
+And I think I'm pretty little bit ahead of her
+
+15:46.440 --> 15:48.280
+for most businesses are not there yet.
+
+15:48.280 --> 15:49.120
+But in the future,
+
+15:49.120 --> 15:51.280
+I think when part everyone to code,
+
+15:51.280 --> 15:53.120
+a lot of people can be more productive.
+
+15:53.120 --> 15:55.320
+I want to share of you one lesson I learned as well
+
+15:55.320 --> 15:58.360
+on why we should have people learn to do this,
+
+15:58.360 --> 16:02.760
+which is when a teacher in Genese VIF everyone on Coursera,
+
+16:02.760 --> 16:05.320
+we needed to generate background art like this
+
+16:05.320 --> 16:06.760
+using mid-Journey.
+
+16:06.760 --> 16:11.160
+And one of my team members knew art history.
+
+16:11.160 --> 16:13.640
+And so he could prompt mid-Journey
+
+16:13.640 --> 16:15.120
+with the genre, the palette,
+
+16:15.120 --> 16:17.400
+the artistic inspiration had a very good control
+
+16:17.400 --> 16:19.080
+over the images he generated.
+
+16:19.080 --> 16:22.240
+So we end up using all of Tommy's generous images.
+
+16:22.240 --> 16:25.800
+Whereas in Contrast, I don't know art history.
+
+16:25.800 --> 16:28.920
+And so when I prompt your image generation,
+
+16:28.920 --> 16:31.800
+I could write, please make pretty pictures
+
+16:31.800 --> 16:33.440
+of robots for me, right?
+
+16:33.440 --> 16:35.760
+And I could never have the control
+
+16:35.760 --> 16:37.280
+that my collaborates are good.
+
+16:37.280 --> 16:40.320
+And so I couldn't generate as good images as he could.
+
+16:40.320 --> 16:42.520
+And I think with computers,
+
+16:42.520 --> 16:44.520
+one of the most important skills of the future
+
+16:44.520 --> 16:47.240
+is the ability to tell a computer exactly what you want
+
+16:47.240 --> 16:48.760
+so that it will do it for you.
+
+16:48.760 --> 16:50.920
+And there will be people that have that deeper understanding
+
+16:50.920 --> 16:53.800
+of computers that will be able to command the computer
+
+16:53.800 --> 16:55.120
+to get the outcome you want.
+
+16:55.120 --> 16:57.800
+And learning to code, not that you need to write the code
+
+16:57.800 --> 17:00.160
+yourself, steer AI to code for you.
+
+17:00.160 --> 17:01.560
+It seems like it will remain the best way
+
+17:01.560 --> 17:03.120
+to do that for a long time.
+
+17:03.120 --> 17:06.880
+With software engineering becoming much faster,
+
+17:06.880 --> 17:08.520
+the other interesting dynamic I'm seeing
+
+17:08.520 --> 17:10.560
+is that the product management work,
+
+17:10.560 --> 17:13.040
+getting user feedback, deciding what features to build,
+
+17:13.080 --> 17:15.640
+that is increasingly the bottleneck.
+
+17:15.640 --> 17:17.880
+And so I'm seeing very interesting dynamics
+
+17:17.880 --> 17:19.480
+in multiple teams over the last year.
+
+17:19.480 --> 17:20.720
+A lot more of my teams have started
+
+17:20.720 --> 17:22.840
+to complain that the bottleneck on product engineering
+
+17:22.840 --> 17:26.400
+and design because the engineers have gotten so much faster.
+
+17:26.400 --> 17:28.200
+Some machine trends I'm seeing.
+
+17:28.200 --> 17:30.440
+Three, four, five years ago, Silicon Valley
+
+17:30.440 --> 17:32.880
+used to have these slightly suspicious rules of thumb,
+
+17:32.880 --> 17:34.440
+but nonetheless, rules of thumb
+
+17:34.440 --> 17:37.000
+will have 1 p.m. to four engineers
+
+17:37.000 --> 17:38.520
+or 1 p.m. to seven engineers.
+
+17:38.520 --> 17:40.320
+It was this like p.m. product manager
+
+17:40.320 --> 17:41.840
+at the engineering ratio, right?
+
+17:42.480 --> 17:44.000
+I think we're going to solve for those typical
+
+17:44.000 --> 17:46.960
+as ever, 1 p.m. to six, seven engineers.
+
+17:46.960 --> 17:49.480
+And with engineers becoming much faster,
+
+17:49.480 --> 17:51.240
+I don't see product management work
+
+17:51.240 --> 17:54.000
+designing what to build, becoming faster
+
+17:54.000 --> 17:55.800
+at the same speed that engineering is.
+
+17:55.800 --> 17:57.080
+I'm seeing this ratio shift.
+
+17:57.080 --> 18:00.120
+So literally yesterday, one of my teams came to me
+
+18:00.120 --> 18:02.000
+and for the first time, when we're planning
+
+18:02.000 --> 18:04.720
+to hit comfort project, this team proposed to me
+
+18:04.720 --> 18:07.160
+not have 1 p.m. to four engineers,
+
+18:07.160 --> 18:09.560
+but have 1 p.m. to 0.5 engineers.
+
+18:09.560 --> 18:10.960
+So the team I should propose to me,
+
+18:10.960 --> 18:12.360
+I still know that this is a good idea.
+
+18:12.360 --> 18:13.720
+For the first time in my life,
+
+18:13.720 --> 18:16.000
+I saw your managers propose to me,
+
+18:16.000 --> 18:18.360
+having twice as many p.m. as engineers
+
+18:18.360 --> 18:19.760
+was a very interesting dynamic.
+
+18:19.760 --> 18:21.480
+I still don't know if this proposed
+
+18:21.480 --> 18:22.680
+I heard yesterday is a good idea,
+
+18:22.680 --> 18:25.480
+but I think it's a sign of where the world's going.
+
+18:25.480 --> 18:27.440
+And I find there's a p.m.s that can code
+
+18:27.440 --> 18:29.000
+or engineers with some product instincts
+
+18:29.000 --> 18:30.760
+often end up doing better.
+
+18:30.760 --> 18:32.120
+The other thing that found important
+
+18:32.120 --> 18:35.240
+for startup leaders is because engineering
+
+18:35.240 --> 18:37.440
+is going so fast, if you're good tactics,
+
+18:37.440 --> 18:39.760
+we're getting rapid feedback to shape your perspective
+
+18:39.760 --> 18:41.240
+on what to build faster.
+
+18:41.240 --> 18:44.000
+That helps you get faster as well.
+
+18:44.000 --> 18:46.680
+So I'm going to go through a portfolio of tactics
+
+18:46.680 --> 18:49.520
+for getting product feedback to keep shaping
+
+18:49.520 --> 18:51.520
+what you will decide to build.
+
+18:51.520 --> 18:53.960
+And we're going to go through a list of the faster,
+
+18:53.960 --> 18:57.680
+maybe less accurate, the slower more accurate tactics.
+
+18:57.680 --> 19:00.320
+So the fastest tactic for getting feedback is
+
+19:00.320 --> 19:02.640
+look at the product yourself and just go by your gut.
+
+19:02.640 --> 19:04.640
+And if you're subject matter to exhibit,
+
+19:04.640 --> 19:07.040
+this is actually surprisingly good.
+
+19:07.040 --> 19:08.400
+If you know what you're doing,
+
+19:08.400 --> 19:11.840
+loop is slower is go ask the friends of teammates
+
+19:11.840 --> 19:15.800
+to get feedback to play your product and get feedback.
+
+19:15.800 --> 19:19.760
+Loop is slower is ask the attend strangers for feedback.
+
+19:19.760 --> 19:22.040
+It turns out when I built products,
+
+19:22.040 --> 19:24.400
+one of the most important skills I think I learned
+
+19:24.400 --> 19:26.040
+was how to send to the coffee shop,
+
+19:26.040 --> 19:27.200
+how to sit in there.
+
+19:27.200 --> 19:29.880
+When I travel, I often send the hotel lobby.
+
+19:29.880 --> 19:33.040
+It turns out lent to spot places to buy foot traffic
+
+19:33.040 --> 19:34.960
+and very respectfully, you know,
+
+19:34.960 --> 19:37.080
+grab strangers and ask them for feedback
+
+19:37.080 --> 19:38.080
+on whatever I'm building.
+
+19:38.160 --> 19:40.440
+This used to be easier was less known
+
+19:40.440 --> 19:42.920
+when people recognize you as a little bit more awkward.
+
+19:42.920 --> 19:45.640
+But I found that I've actually sat with teams
+
+19:45.640 --> 19:47.840
+at the hotel lobby, very high foot traffic.
+
+19:47.840 --> 19:49.160
+And you know, very respectfully,
+
+19:49.160 --> 19:50.960
+off strangers, hey, we're building the same,
+
+19:50.960 --> 19:52.240
+do you mind taking a look?
+
+19:52.240 --> 19:54.960
+Oh, and I actually learned in a coffee shop
+
+19:54.960 --> 19:56.560
+that a lot of people working,
+
+19:56.560 --> 19:58.120
+a lot of people don't want to be working.
+
+19:58.120 --> 19:59.800
+So we give them, excuse me, distracted.
+
+19:59.800 --> 20:01.760
+They're very happy to do that too.
+
+20:01.760 --> 20:04.560
+But I've actually kind of made tons of product decisions
+
+20:04.560 --> 20:06.040
+in a hotel lobby and a coffee shop
+
+20:06.040 --> 20:08.440
+who collaborates with just just like that.
+
+20:08.440 --> 20:11.600
+St. Prototype 100 testers, if you have access,
+
+20:11.600 --> 20:12.760
+the logic goes to users.
+
+20:12.760 --> 20:14.400
+St. Prototype to more users.
+
+20:14.400 --> 20:17.560
+And these are, these get to be slow and slow tactics.
+
+20:17.560 --> 20:19.320
+And I know Silicon Valley, you know,
+
+20:19.320 --> 20:20.600
+we like to talk about A, B testing.
+
+20:20.600 --> 20:22.640
+Of course, I do a ton of A, B testing.
+
+20:22.640 --> 20:24.840
+But contrary to what many people think,
+
+20:24.840 --> 20:27.520
+A, B testing is not one of the slowest tactics
+
+20:27.520 --> 20:30.520
+in my menu because it's just slow to ship it.
+
+20:30.520 --> 20:32.240
+It depends on how many users you have, right?
+
+20:32.240 --> 20:35.720
+So and then the other thing is as you use anything,
+
+20:35.720 --> 20:39.160
+but the first tactic, some teams will look at the data
+
+20:39.160 --> 20:40.400
+to make a decision.
+
+20:40.400 --> 20:44.480
+But the missing piece is, when I A, B test something,
+
+20:44.480 --> 20:47.200
+I don't just use the, without the A, B test,
+
+20:47.200 --> 20:48.800
+to pick product A or product B.
+
+20:48.800 --> 20:51.600
+My team will often sit down and look here for the data
+
+20:51.600 --> 20:54.560
+to hone our instincts, to speed up, to improve the rate.
+
+20:54.560 --> 20:56.640
+I wish we were able to use the first tactic,
+
+20:56.640 --> 20:58.320
+to make high quality decisions.
+
+20:58.320 --> 21:00.040
+I often sit down and think, gee,
+
+21:00.040 --> 21:01.840
+I thought, you know, this product name
+
+21:01.840 --> 21:03.400
+will work better than their product name.
+
+21:03.400 --> 21:05.760
+Clearly, my mental model that uses wrong,
+
+21:05.760 --> 21:09.080
+so we sit down and think, to update our mental model,
+
+21:09.080 --> 21:13.520
+using all of that data, to improve the quality of our guts
+
+21:13.520 --> 21:15.720
+on how to make product decisions faster.
+
+21:15.720 --> 21:17.480
+That turns out to be really important.
+
+21:17.480 --> 21:18.400
+All right.
+
+21:18.400 --> 21:22.200
+So talk about concrete ideas, speed up engineering,
+
+21:22.200 --> 21:23.240
+speed up product feedback.
+
+21:23.240 --> 21:24.680
+This is one last thing we'll touch on,
+
+21:24.680 --> 21:27.040
+which is a scene that, understanding AI,
+
+21:27.040 --> 21:28.720
+actually makes you go faster.
+
+21:28.720 --> 21:30.600
+And here's why, as an AI person,
+
+21:30.600 --> 21:32.040
+maybe I'm biased to be pro AI,
+
+21:32.040 --> 21:33.520
+but I want to share you why.
+
+21:33.520 --> 21:35.800
+So it turns out that when it comes to mature technology,
+
+21:35.800 --> 21:38.920
+like mobile, you know, many people have had smartphones
+
+21:38.920 --> 21:41.720
+for a long time, we kind of know what a mobile app can do, right?
+
+21:41.720 --> 21:43.880
+So many people, including non-technical people,
+
+21:43.880 --> 21:45.960
+have good instincts about what a mobile app can do.
+
+21:45.960 --> 21:47.360
+If you look at mature job roles,
+
+21:47.360 --> 21:48.760
+like sales marketing, HR legal,
+
+21:48.760 --> 21:51.280
+they're all really important, all really difficult.
+
+21:51.280 --> 21:53.960
+But, you know, there are enough marketers
+
+21:53.960 --> 21:56.400
+that have done marketing for long enough,
+
+21:56.400 --> 21:58.880
+and the marketing tactics haven't changed that much
+
+21:58.880 --> 22:01.200
+in the last year, so there are a lot of people
+
+22:01.200 --> 22:02.760
+that are really good at marketing.
+
+22:02.760 --> 22:04.120
+And it's really important, really hard,
+
+22:04.120 --> 22:06.400
+but that knowledge is relatively diffused
+
+22:06.400 --> 22:08.800
+because, you know, the knowledge of how to do HR,
+
+22:08.800 --> 22:11.040
+like it hasn't changed dramatically, you know,
+
+22:11.040 --> 22:12.400
+in the last six months.
+
+22:12.400 --> 22:14.720
+But AI is the emerging technology,
+
+22:14.720 --> 22:17.480
+and so the knowledge of how to do AI really well
+
+22:17.480 --> 22:18.880
+is not widespread.
+
+22:18.880 --> 22:20.520
+And so teams that actually get it,
+
+22:20.520 --> 22:23.400
+they understand AI, do have an advantage
+
+22:23.400 --> 22:24.400
+over teams that don't.
+
+22:24.400 --> 22:26.280
+Whereas if you need an HR problem,
+
+22:26.280 --> 22:27.400
+you can find someone, you know,
+
+22:27.400 --> 22:29.480
+that knows how to do it well, probably.
+
+22:29.480 --> 22:30.560
+But if an AI problem,
+
+22:30.800 --> 22:32.320
+you're doing how to actually do that,
+
+22:32.320 --> 22:33.880
+could put your head of other companies.
+
+22:33.880 --> 22:36.200
+So things like, what accuracy can you get
+
+22:36.200 --> 22:37.480
+for a customer service chat box?
+
+22:37.480 --> 22:38.680
+You know, should you problem a fine team
+
+22:38.680 --> 22:40.280
+using a journey workflow?
+
+22:40.280 --> 22:41.960
+How do you get a voice out to a low latency?
+
+22:41.960 --> 22:43.640
+And a lot of these decisions
+
+22:43.640 --> 22:46.280
+that if you make the right technical decision,
+
+22:46.280 --> 22:48.640
+you can like solve the problem in a couple days,
+
+22:48.640 --> 22:50.440
+they make the wrong technical decision,
+
+22:50.440 --> 22:52.880
+you could chase a blind alley for three months, right?
+
+22:52.880 --> 22:54.920
+And one thing I'm a bit surprised by,
+
+22:54.920 --> 22:56.800
+it turns out if you have, you know,
+
+22:56.800 --> 22:58.600
+two possible architecture decisions,
+
+22:58.600 --> 23:00.320
+it's one bit of information.
+
+23:00.320 --> 23:02.680
+It feels like if you don't know the right answer,
+
+23:02.680 --> 23:04.240
+at most, you're twice as slow, right?
+
+23:04.240 --> 23:06.000
+One bit, you know, try both of you,
+
+23:06.000 --> 23:07.680
+it feels like one bit of information,
+
+23:07.680 --> 23:09.680
+that it most by your two xp'd up.
+
+23:09.680 --> 23:13.160
+And I think in some, their echo says that is true.
+
+23:13.160 --> 23:14.320
+But what I see in practice,
+
+23:14.320 --> 23:17.000
+if you flip the wrong bit, you're not twice as slow,
+
+23:17.000 --> 23:19.920
+you spend like 10 times longer chasing a blind alley,
+
+23:19.920 --> 23:22.560
+which is why I think going into this right technical
+
+23:22.560 --> 23:24.720
+adjustment, it really makes startups
+
+23:24.720 --> 23:26.240
+go so much faster.
+
+23:26.240 --> 23:28.920
+The other reason why I find,
+
+23:28.920 --> 23:32.040
+staying on top of AI really hopeful for startups
+
+23:32.040 --> 23:35.080
+is over the last two years,
+
+23:35.080 --> 23:39.560
+we have just had a ton of wonderful Genei tools
+
+23:39.560 --> 23:41.880
+or Genei building blocks, right?
+
+23:41.880 --> 23:42.720
+Partial list.
+
+23:42.720 --> 23:44.080
+But prompting agentic workflows,
+
+23:44.080 --> 23:45.840
+evals, Godrails, rad, voice that,
+
+23:45.840 --> 23:48.240
+asynchronous, loss of ETL, embeddings,
+
+23:48.240 --> 23:51.440
+fine tuning, graph DB, how to integrate a computer,
+
+23:51.440 --> 23:52.880
+use mcb-reasing models.
+
+23:52.880 --> 23:55.520
+There's a long and wonderful list of building blocks
+
+23:55.520 --> 23:57.840
+that you can quickly combine to build software
+
+23:57.840 --> 24:01.400
+that no one on the planet could have built even a year ago.
+
+24:01.400 --> 24:03.200
+And this creates a lot of new opportunities
+
+24:03.200 --> 24:05.680
+for startups to build new things.
+
+24:05.680 --> 24:07.520
+So when I learned about these building blocks,
+
+24:07.520 --> 24:09.480
+this is actually a picture that I had in mind.
+
+24:09.480 --> 24:11.920
+If you own one building block,
+
+24:11.920 --> 24:14.440
+like you have a basic white building block,
+
+24:14.440 --> 24:15.760
+you know, you can build some cool stuff,
+
+24:15.760 --> 24:16.960
+maybe you know how to prompt,
+
+24:16.960 --> 24:18.040
+see you have one building block,
+
+24:18.040 --> 24:20.000
+you know, you build some amazing stuff.
+
+24:20.000 --> 24:21.720
+But if you get a second building block,
+
+24:21.720 --> 24:23.760
+like you also know how to build chat box,
+
+24:23.760 --> 24:26.920
+see you have a white Lego break and a black Lego break.
+
+24:26.920 --> 24:29.280
+You can build something more interesting.
+
+24:29.280 --> 24:32.160
+If you acquire a blue building break as well,
+
+24:32.160 --> 24:34.320
+you can build something even more interesting.
+
+24:34.320 --> 24:38.040
+Get few red building breaks, maybe a little yellow one,
+
+24:38.040 --> 24:39.240
+more interesting.
+
+24:39.240 --> 24:41.840
+Get more building breaks, get more building breaks,
+
+24:41.840 --> 24:43.920
+and very rapidly, the number of things
+
+24:43.920 --> 24:46.080
+you can combine them into,
+
+24:46.080 --> 24:49.120
+grows, kind of carbonate or early or grows exponentially.
+
+24:49.120 --> 24:51.720
+And so knowing all these wonderful building blocks,
+
+24:51.720 --> 24:54.880
+let's you combine them in a much richer combination.
+
+24:54.880 --> 24:56.200
+One thing that deep learning that I do,
+
+24:56.200 --> 24:57.680
+so I actually take a lot of deep learning that I
+
+24:57.680 --> 24:58.960
+show causes myself, you know,
+
+24:58.960 --> 25:00.200
+to this work of great part.
+
+25:00.200 --> 25:01.200
+We work with, I think, like,
+
+25:01.200 --> 25:03.800
+finish all the leading AI companies in the world,
+
+25:03.800 --> 25:08.800
+and so the, and, and, and try to hand out building blocks.
+
+25:09.040 --> 25:10.720
+But when I look at the deep learning that AI
+
+25:10.720 --> 25:13.240
+caused catalog, this is actually what I see.
+
+25:13.240 --> 25:15.880
+And whenever I take these causes to learn these building blocks,
+
+25:15.880 --> 25:18.920
+I feel like I'm getting new things that can combine
+
+25:18.920 --> 25:21.080
+to form, kind of, combinatorial,
+
+25:21.080 --> 25:23.760
+the exponentially more software applications
+
+25:23.760 --> 25:26.680
+that were not possible just one or two years ago.
+
+25:26.680 --> 25:28.240
+So just to wrap up, this is my last slide.
+
+25:28.240 --> 25:30.640
+Then you'll take questions if, if you'll have any.
+
+25:30.640 --> 25:33.800
+I find that there are many things in that for startup,
+
+25:33.800 --> 25:36.920
+not just speed, but when I look at the startups
+
+25:36.920 --> 25:38.600
+that AI fund is building,
+
+25:38.600 --> 25:40.960
+I find that the management team's ability
+
+25:40.960 --> 25:43.560
+to execute as speed is highly correlated
+
+25:43.560 --> 25:45.160
+with this odds of success.
+
+25:45.160 --> 25:48.120
+And some things with learning to get your speed
+
+25:48.120 --> 25:51.400
+is, you know, work on concrete ideas.
+
+25:51.400 --> 25:52.800
+It's going to be good concrete ideas.
+
+25:52.800 --> 25:54.720
+I find that as an executive, I'm judge
+
+25:54.720 --> 25:56.960
+on the speed and quality of my decisions,
+
+25:56.960 --> 25:59.760
+both do matter, the speed absolutely matters.
+
+25:59.760 --> 26:01.760
+Rapid entering with AI coding assistance
+
+26:01.760 --> 26:03.400
+makes you go much faster,
+
+26:03.400 --> 26:05.880
+but that shifts the bottleneck to getting user feedback
+
+26:05.880 --> 26:07.240
+on the product decisions.
+
+26:07.240 --> 26:09.440
+And so having a portfolio of tactics
+
+26:09.440 --> 26:11.000
+to go get rapid feedback.
+
+26:11.000 --> 26:13.480
+And if you haven't learned to go to coffee shop
+
+26:13.480 --> 26:15.960
+and talk to strangers, it's not easy,
+
+26:15.960 --> 26:17.760
+but then just be respectful, right?
+
+26:17.800 --> 26:18.960
+Just be respectful of people.
+
+26:18.960 --> 26:20.720
+That's actually a very valuable skill
+
+26:20.720 --> 26:22.280
+for entrepreneurs to have, I think.
+
+26:22.280 --> 26:25.680
+And I think also, say on top of the AI technology,
+
+26:25.680 --> 26:27.280
+buys you speed.
+
+26:27.280 --> 26:30.480
+All right, with that, let me thank you very much.
+
+26:30.480 --> 26:41.520
+I think I have a quick question.
+
+26:41.520 --> 26:44.360
+As AI advances, do you think it's more important
+
+26:44.360 --> 26:47.960
+for humans to develop the tools
+
+26:47.960 --> 26:50.680
+or learn how to use the tools better?
+
+26:50.680 --> 26:53.120
+Like, how can we position ourselves
+
+26:53.120 --> 26:55.200
+to remain essential in a world
+
+26:55.200 --> 26:58.400
+where, you know, intelligence is becoming democratized?
+
+26:58.400 --> 27:02.520
+I feel like AGI has been over height.
+
+27:02.520 --> 27:04.160
+And so for a long time,
+
+27:04.160 --> 27:05.920
+there'll be a lot of things that humans can do
+
+27:05.920 --> 27:07.280
+that AI cannot.
+
+27:07.280 --> 27:08.720
+And I think in the future,
+
+27:08.720 --> 27:10.360
+the people that are most powerful
+
+27:10.360 --> 27:12.960
+are the people that can make computers
+
+27:12.960 --> 27:15.680
+do exactly what you want it to do.
+
+27:15.680 --> 27:17.880
+And so I think, seeing on top of the tools,
+
+27:17.880 --> 27:19.840
+some of us will build tools sometimes,
+
+27:19.840 --> 27:21.000
+but there will be a lot of other tools
+
+27:21.000 --> 27:22.920
+that others will build that we can just use.
+
+27:22.920 --> 27:25.360
+But so people that know how to use AI
+
+27:25.360 --> 27:27.200
+to get computers to do what you want it to do
+
+27:27.200 --> 27:28.480
+will be much more powerful.
+
+27:28.480 --> 27:30.840
+Not where about people running out of things to do,
+
+27:30.840 --> 27:33.160
+but people that can use AI will be much more powerful
+
+27:33.160 --> 27:34.440
+than people that don't.
+
+27:34.440 --> 27:37.080
+Hey, so well, first of all, thank you so much.
+
+27:37.080 --> 27:38.840
+I have a huge respect for you
+
+27:38.840 --> 27:42.120
+and I think that your inspiration for a lot of us,
+
+27:42.120 --> 27:44.800
+my question is about the future of compute.
+
+27:44.800 --> 27:49.800
+So as we move towards more powerful AI,
+
+27:49.880 --> 27:52.240
+where do you think that compute is setting?
+
+27:52.240 --> 27:53.440
+I mean, we see people saying,
+
+27:53.440 --> 27:55.880
+let's ship GPUs to space,
+
+27:55.880 --> 27:58.560
+some people talking about nuclear power, data centers.
+
+27:58.560 --> 27:59.600
+What do you think about it?
+
+27:59.600 --> 28:00.920
+There's some kind of debate we're going to say
+
+28:00.920 --> 28:03.360
+in response to the last question about kind of AGI,
+
+28:03.360 --> 28:06.400
+about maybe I'll answer this and a little bit of the last question.
+
+28:06.400 --> 28:09.280
+So turns out there's one framework you can use,
+
+28:09.280 --> 28:11.480
+but deciding what's hype and what's not hype.
+
+28:11.480 --> 28:13.520
+I think over the last two years,
+
+28:13.520 --> 28:15.520
+there's been a handful of companies
+
+28:15.520 --> 28:18.800
+that hyped up certain things,
+
+28:18.800 --> 28:23.800
+but promotional PR fundraising influence purposes.
+
+28:24.080 --> 28:26.600
+And because AI was so new,
+
+28:26.600 --> 28:30.240
+handful of companies got away with saying almost anything
+
+28:30.240 --> 28:31.880
+without anyone fact checking them
+
+28:31.880 --> 28:34.080
+because the technology was not understood.
+
+28:34.080 --> 28:36.680
+So one of my mental filters is
+
+28:36.680 --> 28:38.120
+there's certain hype narratives
+
+28:38.120 --> 28:39.920
+that make these businesses look more powerful,
+
+28:39.920 --> 28:41.560
+that's been amplified.
+
+28:41.560 --> 28:46.600
+And so for example, this idea that AI is so powerful,
+
+28:46.600 --> 28:49.920
+we might accidentally to human extinction.
+
+28:49.920 --> 28:51.440
+That's just ridiculous,
+
+28:51.440 --> 28:53.240
+but it is a hype narrative
+
+28:53.240 --> 28:55.200
+that made certain businesses look more powerful
+
+28:55.200 --> 28:56.960
+and it got around top
+
+28:56.960 --> 28:59.360
+and actually helped certain businesses fund raising goals.
+
+28:59.360 --> 29:03.120
+AI is so powerful, soon no one will even have a job anymore.
+
+29:03.120 --> 29:04.640
+Just not true, right?
+
+29:04.640 --> 29:07.360
+But again, that made these business look more powerful,
+
+29:07.360 --> 29:08.480
+got hyped up.
+
+29:08.480 --> 29:11.080
+Or we are so powerful,
+
+29:11.080 --> 29:12.560
+so when the high narrative,
+
+29:12.560 --> 29:15.480
+we're so powerful that by training a new model,
+
+29:15.480 --> 29:18.360
+we will casually wipe out thousands of startups.
+
+29:18.360 --> 29:19.480
+That's just not true.
+
+29:19.480 --> 29:21.640
+Yes, Jasper, Brandon Trouville,
+
+29:21.640 --> 29:23.320
+a small number of companies got wiped out,
+
+29:23.320 --> 29:26.160
+but it's not that easy to casually wipe out thousands
+
+29:26.160 --> 29:27.200
+of startups.
+
+29:27.200 --> 29:29.400
+AI needs so much electricity,
+
+29:29.400 --> 29:31.600
+only nuclear power is good enough for that.
+
+29:31.600 --> 29:34.240
+That wind, solar, stuff, this is not true.
+
+29:34.240 --> 29:37.600
+So I think a lot of this GPUs in space,
+
+29:37.600 --> 29:39.120
+you know, I don't know,
+
+29:39.120 --> 29:41.680
+is like, go for it.
+
+29:41.680 --> 29:43.440
+I think we have a lot of room to run still
+
+29:43.440 --> 29:45.680
+for terrestrial GPUs.
+
+29:45.680 --> 29:48.240
+Yeah, but I think some of these hype narratives
+
+29:48.240 --> 29:52.160
+have been amplified that I think are a distortion
+
+29:52.160 --> 29:54.640
+of what actually will be done.
+
+29:54.640 --> 29:58.120
+There's a lot of hype in AI and how,
+
+29:58.120 --> 30:00.880
+and nobody's really certain about how we're going to
+
+30:00.880 --> 30:02.560
+be building the future with it.
+
+30:02.560 --> 30:05.720
+But what are some of the most dangerous biases
+
+30:05.720 --> 30:10.320
+or over hyped narratives that you've seen people talk about
+
+30:10.320 --> 30:14.320
+or get poisoned by that they end up running with
+
+30:14.320 --> 30:17.400
+that we should try to avoid or be more aware of
+
+30:17.400 --> 30:20.720
+and allow us to have a more realistic view
+
+30:20.720 --> 30:23.240
+as we are building this future.
+
+30:23.240 --> 30:26.920
+So I think the dangerous AI narrative has been over hyped.
+
+30:26.920 --> 30:28.720
+AI is a fantastic tool,
+
+30:28.720 --> 30:32.240
+but like any other powerful tool like electricity,
+
+30:32.240 --> 30:34.560
+lots of ways to use it for beneficial purposes,
+
+30:34.560 --> 30:36.920
+also some ways to use it in harmful ways.
+
+30:36.920 --> 30:41.440
+I find myself not using the term AI safety that much,
+
+30:41.440 --> 30:43.680
+not because I think we should build dangerous things,
+
+30:43.680 --> 30:46.960
+but because I think safety is not a function of technology,
+
+30:46.960 --> 30:48.560
+it's a function of how we apply it.
+
+30:48.560 --> 30:50.360
+So like electric motor,
+
+30:52.200 --> 30:54.800
+the maker of electric motor can't guarantee
+
+30:54.800 --> 30:57.760
+that no one will ever use it for an unsafe downstream task.
+
+30:57.760 --> 30:59.400
+Like using electric motor,
+
+30:59.400 --> 31:01.080
+we use to build a Dallas machine,
+
+31:01.080 --> 31:02.120
+electric vehicle,
+
+31:02.120 --> 31:03.800
+can use to build a smart bomb,
+
+31:03.800 --> 31:06.720
+but the electric motor manufacturer can't control
+
+31:06.720 --> 31:08.200
+how we use downstream.
+
+31:08.200 --> 31:11.400
+So safety is not a function of electric motor
+
+31:11.400 --> 31:13.240
+as a function of how you apply it.
+
+31:13.240 --> 31:14.560
+And I think the same thing for AI,
+
+31:14.560 --> 31:16.520
+AI is neither safe nor unsafe.
+
+31:16.520 --> 31:19.440
+It is how you apply it that makes it safer unsafe.
+
+31:19.440 --> 31:21.360
+So instead of thinking about AI safety,
+
+31:21.360 --> 31:23.800
+I often think about responsible AI,
+
+31:23.800 --> 31:27.080
+because it is how we use it responsibly, hopefully,
+
+31:27.080 --> 31:28.800
+or irresponsibly the determines
+
+31:28.800 --> 31:30.920
+that are not what we build with AI technology
+
+31:30.920 --> 31:33.360
+as it being harmful or beneficial.
+
+31:33.360 --> 31:36.640
+And I feel like sometimes that the really weird corner cases
+
+31:36.640 --> 31:37.760
+they get hyped up in the news,
+
+31:37.760 --> 31:40.040
+I think just one or two days ago,
+
+31:40.040 --> 31:42.000
+there was a Wall Street Journal article
+
+31:42.000 --> 31:45.200
+about AI losing control of AI or something.
+
+31:45.200 --> 31:46.960
+And I feel like that article
+
+31:46.960 --> 31:50.880
+took a corner case experiments run in the lab
+
+31:50.880 --> 31:53.000
+and sensationalized it in a way
+
+31:53.000 --> 31:55.040
+that I think was really disproportionate
+
+31:55.040 --> 31:57.320
+relative to the lab experiment those being run.
+
+31:57.320 --> 32:00.760
+And unfortunately, technology is hard enough to understand
+
+32:00.760 --> 32:02.760
+that many people don't know better.
+
+32:02.760 --> 32:06.560
+And so these high narratives do keep on getting amplified.
+
+32:06.560 --> 32:07.720
+And I feel like this has been used
+
+32:07.720 --> 32:10.080
+as a weapon against open source software as well,
+
+32:10.080 --> 32:11.480
+which is really unfortunate.
+
+32:11.480 --> 32:12.880
+Thank you for a work.
+
+32:12.880 --> 32:15.840
+I think your impact is remarkable.
+
+32:15.840 --> 32:19.760
+My question is, as aspiring founders,
+
+32:19.760 --> 32:23.000
+how should we be thinking about business
+
+32:23.000 --> 32:26.320
+in the world where anything can be disrupted in a day?
+
+32:26.320 --> 32:29.840
+Whatever great mode product or feature you have
+
+32:29.840 --> 32:32.440
+can be replicated with vibe code in competitors
+
+32:32.440 --> 32:34.480
+in basically hours.
+
+32:34.480 --> 32:36.680
+It turns out when you start a business,
+
+32:36.680 --> 32:38.800
+there are a lot of things to worry about.
+
+32:38.800 --> 32:41.000
+The number thing I worry about
+
+32:41.000 --> 32:44.600
+is are you building a product that uses love?
+
+32:44.600 --> 32:46.960
+It turns out that when you build a business,
+
+32:46.960 --> 32:48.160
+there are lots of things to think about.
+
+32:48.160 --> 32:50.960
+There goes market, channel, competitors, technology,
+
+32:50.960 --> 32:53.000
+mode, all that is important.
+
+32:53.000 --> 32:55.800
+But if I were to have a singular focus on one thing,
+
+32:55.800 --> 32:57.400
+it is, are you building a product
+
+32:57.400 --> 32:58.880
+that users really want?
+
+32:58.880 --> 33:01.640
+Until you solve that, it's very difficult
+
+33:01.640 --> 33:03.400
+to build a valuable business.
+
+33:03.400 --> 33:07.000
+After you solve that, the other questions do come to play.
+
+33:07.000 --> 33:08.840
+Do you have a channel to get to customers?
+
+33:08.840 --> 33:09.920
+What is pricing?
+
+33:09.920 --> 33:11.800
+Long-term, what is your mode?
+
+33:11.800 --> 33:14.640
+I find that modes tend to be over-hyped.
+
+33:14.640 --> 33:16.400
+Actually, I find that more businesses
+
+33:16.400 --> 33:18.120
+tend to start up with a product
+
+33:18.120 --> 33:21.160
+and then evolve eventually into a mode.
+
+33:21.160 --> 33:25.840
+But consumer products brand is somewhat more defensible.
+
+33:25.840 --> 33:27.120
+And if you have a lot of momentum,
+
+33:27.120 --> 33:28.800
+it comes harder to catch you.
+
+33:28.800 --> 33:30.680
+But enterprise products, sometimes,
+
+33:30.680 --> 33:34.040
+if you have a, maybe mode is more of a consideration
+
+33:34.040 --> 33:37.400
+of the channels that are hard to get to enterprises.
+
+33:37.400 --> 33:41.480
+So I think, sorry, when AI fund looks at businesses,
+
+33:41.480 --> 33:44.800
+we actually wind up doing a fairly complex analysis
+
+33:44.800 --> 33:48.320
+of these factors and writing to the six-page narrative
+
+33:48.320 --> 33:51.120
+memo to analyze it before we decide whether or not
+
+33:51.120 --> 33:52.560
+to go see it or not.
+
+33:52.560 --> 33:56.600
+And I think all of these things are important.
+
+33:56.600 --> 33:59.880
+But I feel like at this moment in time,
+
+33:59.880 --> 34:01.720
+the number of opportunities, meaning
+
+34:01.720 --> 34:03.720
+the amount of stuff that is possible
+
+34:03.720 --> 34:05.640
+that no one's built yet in the world,
+
+34:05.640 --> 34:08.160
+seems much greater than the number of people
+
+34:08.160 --> 34:09.840
+with the skills to build them.
+
+34:09.840 --> 34:12.000
+So definitely at the application layer,
+
+34:12.000 --> 34:14.120
+it feels like there's a lot of white space
+
+34:14.120 --> 34:15.480
+for new things you can build
+
+34:15.480 --> 34:17.880
+that no one else seems to be working on.
+
+34:17.880 --> 34:21.040
+And I would say, you know, focus on building a product
+
+34:21.040 --> 34:22.960
+that people want that people love
+
+34:22.960 --> 34:26.000
+and then figure out the rest of it along the way.
+
+34:26.000 --> 34:28.520
+Although this is important to figure a long way.
+
+34:28.520 --> 34:29.760
+Hi, Professor.
+
+34:29.760 --> 34:31.440
+Thank you for your wonderful speech.
+
+34:31.440 --> 34:34.520
+I'm an underwear researcher from Stanford.
+
+34:34.520 --> 34:37.400
+And I think your metaphor in your speech
+
+34:37.400 --> 34:38.720
+is very interesting.
+
+34:38.720 --> 34:42.160
+You said the current AI tools are like bricks
+
+34:42.160 --> 34:45.920
+and can be built upon accumulation.
+
+34:45.920 --> 34:48.200
+However, so far it is difficult to see
+
+34:48.200 --> 34:50.320
+the accumulative functional expansion
+
+34:50.320 --> 34:52.880
+of the integration of AI tools
+
+34:52.880 --> 34:54.680
+because they open a line on the stacking
+
+34:54.680 --> 34:58.120
+of functions based on intent distribution
+
+34:58.120 --> 35:01.720
+and are accompanied by dynamic problems of tokens
+
+35:01.720 --> 35:03.120
+and time overhead.
+
+35:03.160 --> 35:07.160
+So which is different from static engineering?
+
+35:07.160 --> 35:09.240
+So what do you think will be the perspective
+
+35:09.240 --> 35:12.920
+of a possible agent to accumulation effect in the future?
+
+35:12.920 --> 35:15.280
+But hey, just some quick remarks to that, right?
+
+35:15.280 --> 35:18.400
+You mentioned agent OM token cost.
+
+35:18.400 --> 35:21.160
+My most common advice to developers
+
+35:21.160 --> 35:23.000
+is to first approximation.
+
+35:23.000 --> 35:25.280
+Just don't worry about how much tokens cost.
+
+35:25.280 --> 35:28.160
+Only a small number of startups are lucky enough
+
+35:28.160 --> 35:30.720
+to have users use so much of your product
+
+35:30.720 --> 35:32.920
+that the cost of tokens becomes a problem.
+
+35:33.040 --> 35:34.280
+It can become a problem.
+
+35:34.280 --> 35:36.080
+I've definitely been on a bunch of teams
+
+35:36.080 --> 35:38.280
+where the cost uses like a product
+
+35:38.280 --> 35:40.440
+and we started to look at all, right?
+
+35:40.440 --> 35:43.080
+Genii bills and it was definitely climbing
+
+35:43.080 --> 35:45.480
+in a way that really became a problem.
+
+35:45.480 --> 35:47.760
+But it's actually really difficult to get to point
+
+35:47.760 --> 35:50.760
+where your token usage costs other problem
+
+35:50.760 --> 35:53.840
+and for the teams I'm on where we were lucky enough
+
+35:53.840 --> 35:56.480
+that users made our token cost a problem.
+
+35:56.480 --> 35:58.360
+We often had entry solutions
+
+35:58.360 --> 36:00.720
+to then bend the curves and bring it back down
+
+36:00.720 --> 36:02.480
+through prompting, fine tuning,
+
+36:02.480 --> 36:04.520
+USDSPI to optimize or whatever.
+
+36:04.520 --> 36:06.680
+And then what I'm seeing is that
+
+36:06.680 --> 36:08.720
+I'm seeing a lot of agent workflows
+
+36:08.720 --> 36:10.720
+that actually integrate a lot of different steps.
+
+36:10.720 --> 36:14.320
+So for example, if you build a customer's service chatbot
+
+36:14.320 --> 36:16.400
+will often have to use prompting,
+
+36:16.400 --> 36:17.840
+maybe optimize some of the results
+
+36:17.840 --> 36:20.480
+through your DSPI, the emails, the God Rails,
+
+36:20.480 --> 36:21.800
+maybe the customer's service chatbot
+
+36:21.800 --> 36:23.720
+needs rack apart the way to get information
+
+36:23.720 --> 36:25.120
+to feedback to the user.
+
+36:25.120 --> 36:27.920
+So I actually do see these things grow.
+
+36:27.920 --> 36:30.480
+But one tip for many of you as well is
+
+36:30.480 --> 36:33.320
+I will often architect my software
+
+36:33.320 --> 36:36.400
+to make switching between different building block providers
+
+36:36.400 --> 36:38.040
+relatively easy.
+
+36:38.040 --> 36:40.720
+So for example, I have a lot of products
+
+36:40.720 --> 36:42.320
+that I build on top of LOMs,
+
+36:42.320 --> 36:44.600
+but sometimes the point is specific product
+
+36:44.600 --> 36:47.040
+and ask me which OM are we using.
+
+36:47.040 --> 36:50.440
+I honestly don't know because we'll build up emails
+
+36:50.440 --> 36:52.640
+and where does the new model that's released
+
+36:52.640 --> 36:54.240
+will quickly run emails to see
+
+36:54.240 --> 36:56.240
+if the new model is better than the O1.
+
+36:56.240 --> 36:58.280
+And then you'll just switch to the new model
+
+36:58.280 --> 36:59.920
+of the new model that's better on emails.
+
+36:59.920 --> 37:02.680
+And so the model we use week by week,
+
+37:02.680 --> 37:04.320
+you know, sometimes our engines will change it
+
+37:04.320 --> 37:05.760
+without even bothering to tell me
+
+37:05.760 --> 37:08.320
+because it either showed the new model works better.
+
+37:08.320 --> 37:10.080
+So it turns out that switching costs
+
+37:10.080 --> 37:13.240
+for foundation models is relatively low
+
+37:13.240 --> 37:15.240
+and we often architect our software.
+
+37:15.240 --> 37:16.880
+Oh, AI suite is open sourcing
+
+37:16.880 --> 37:18.160
+that my friends that I worked on
+
+37:18.160 --> 37:19.960
+to make switching easier.
+
+37:19.960 --> 37:22.440
+Switching costs for the orchestration platforms
+
+37:22.440 --> 37:24.280
+is a little bit harder,
+
+37:24.280 --> 37:27.360
+but I find that preserving that flexibility
+
+37:27.360 --> 37:28.720
+in your choice of building blocks
+
+37:28.720 --> 37:30.040
+often less you go faster,
+
+37:30.040 --> 37:32.240
+even as you're building more and more things
+
+37:32.240 --> 37:33.720
+on top of each other.
+
+37:33.720 --> 37:34.560
+So hope that helps.
+
+37:34.560 --> 37:35.560
+Thank you so much.
+
+37:35.560 --> 37:37.120
+In the world of education in AI,
+
+37:37.120 --> 37:38.480
+there are two paradigms mostly.
+
+37:38.480 --> 37:41.200
+So one is AI can make teachers more productive
+
+37:41.200 --> 37:43.560
+or automating grading and automating homeworks.
+
+37:43.560 --> 37:45.320
+But another score of thought is that
+
+37:45.320 --> 37:47.640
+there'll be personal tutors for every student.
+
+37:47.640 --> 37:49.480
+So every student can have one tutor
+
+37:49.480 --> 37:51.760
+that gets feedback from an AI
+
+37:51.760 --> 37:53.520
+and gets personal questions from them.
+
+37:53.520 --> 37:55.280
+So how do you see these two paradigms converge?
+
+37:55.280 --> 37:57.400
+And how would education look like in the next five years?
+
+37:57.400 --> 38:00.320
+I think everyone feels like a change is coming in at tech.
+
+38:00.320 --> 38:02.160
+Like don't think the disruption is here yet.
+
+38:02.160 --> 38:03.600
+I think a lot of people are experimenting
+
+38:03.600 --> 38:04.440
+at different things.
+
+38:04.440 --> 38:06.440
+So Coursera has Coursera coach,
+
+38:06.440 --> 38:08.520
+which actually works really well.
+
+38:08.520 --> 38:10.880
+Deep learning data is more focused on teaching AI.
+
+38:10.880 --> 38:13.320
+Also, some built-in chatbos.
+
+38:13.320 --> 38:15.360
+A lot of teams experience of water grading.
+
+38:15.360 --> 38:16.840
+Oh, there's an avatar of me
+
+38:16.840 --> 38:18.680
+on the Deep learning data website that you can talk to
+
+38:18.680 --> 38:19.920
+if you want.
+
+38:19.920 --> 38:21.920
+Deep learning data AI slash avatar.
+
+38:21.920 --> 38:22.920
+And then I think for some things
+
+38:22.920 --> 38:26.480
+like language learning with, you know, speak, dolingo,
+
+38:26.480 --> 38:28.080
+that has become clearer
+
+38:28.080 --> 38:30.120
+some of the ways that I would transform it.
+
+38:30.120 --> 38:32.360
+But the broader educational landscape,
+
+38:32.360 --> 38:34.760
+the exact ways that AI would transform it,
+
+38:34.760 --> 38:36.800
+I see a lot of experimentation.
+
+38:36.800 --> 38:38.040
+I think what key relearning
+
+38:38.040 --> 38:39.360
+which I've been doing some work with
+
+38:39.360 --> 38:42.720
+is doing this is very promising for K-12 education.
+
+38:42.720 --> 38:44.280
+But I think what I'm seeing
+
+38:44.280 --> 38:46.240
+is frankly tons of experimentation.
+
+38:46.240 --> 38:48.400
+But the final end state is still not clear.
+
+38:48.400 --> 38:51.960
+I do think education will be hyper-personalized.
+
+38:51.960 --> 38:53.840
+But that workflow is an avatar,
+
+38:53.840 --> 38:56.080
+is a text chatbot, what's the workflow?
+
+38:56.080 --> 38:59.080
+I think I feel like the hype from a couple of years ago
+
+38:59.080 --> 39:02.800
+that with AI soon, and we're all so easy, that was hype.
+
+39:02.800 --> 39:06.560
+The reality is work is complex, right?
+
+39:06.560 --> 39:10.760
+Teachers, students, people do really complex workflows.
+
+39:10.760 --> 39:12.840
+And for the next decade,
+
+39:12.840 --> 39:15.520
+we'll be looking at the work that needs to be done
+
+39:15.520 --> 39:18.760
+and figuring out how to map it to agente workflows.
+
+39:18.760 --> 39:21.240
+And education is one of the sectors
+
+39:21.240 --> 39:23.640
+where this mapping is still underway,
+
+39:23.640 --> 39:25.400
+but it's not your mature enough
+
+39:25.400 --> 39:27.960
+to the point where the end state is clear.
+
+39:28.840 --> 39:31.240
+So I think I think we should all just keep working on it.
+
+39:31.240 --> 39:32.880
+All right, all right, thank you so much, Andrew.
+
+39:32.880 --> 39:33.880
+Thank you.
+
+39:33.880 --> 39:36.360
+Hey, my question is, I think AI
+
+39:36.360 --> 39:38.000
+has a lot of great potential for good,
+
+39:38.000 --> 39:39.360
+but there's also a lot of potential
+
+39:39.360 --> 39:41.040
+for bad consequences as well,
+
+39:41.040 --> 39:43.560
+such as exacerbate an economic inequality
+
+39:43.560 --> 39:44.400
+and things like that.
+
+39:44.400 --> 39:45.800
+And I think a lot of our startups here,
+
+39:45.800 --> 39:47.720
+while they'll be doing a lot of great things,
+
+39:47.720 --> 39:50.640
+will also be just five or a true of their product,
+
+39:50.640 --> 39:53.000
+be contributing to some of those negative consequences.
+
+39:53.000 --> 39:53.840
+So I was curious,
+
+39:53.840 --> 39:57.080
+how do you think, you know, us as AI builders
+
+39:57.080 --> 40:00.240
+should kind of balance our product building
+
+40:00.240 --> 40:02.920
+with also the potential societal downsides
+
+40:02.920 --> 40:04.320
+of some AI products?
+
+40:04.320 --> 40:06.960
+And essentially, how can we both move fast
+
+40:06.960 --> 40:09.680
+and be responsible as you mentioned in your talk?
+
+40:09.680 --> 40:11.080
+Looking at your heart,
+
+40:11.080 --> 40:13.040
+and if fundamentally what you're building,
+
+40:13.040 --> 40:15.160
+if you don't think it'll make people
+
+40:15.160 --> 40:18.120
+writ large better off, don't do it, right?
+
+40:18.120 --> 40:19.120
+I know it sounds simple,
+
+40:19.120 --> 40:20.800
+but that's actually really hard to do in the moment.
+
+40:20.800 --> 40:23.280
+But AI fun, we've killed multiple projects,
+
+40:23.280 --> 40:25.680
+not on financial grounds, but on ethical grounds,
+
+40:25.680 --> 40:26.640
+where they're multiple projects.
+
+40:26.640 --> 40:29.720
+We looked at the economic cases, very solid,
+
+40:29.720 --> 40:30.880
+but we said, you know what,
+
+40:30.880 --> 40:32.240
+we don't want this to exist in the world
+
+40:32.240 --> 40:34.000
+and we just killed them on that basis.
+
+40:34.000 --> 40:36.760
+So I hope more people will do that.
+
+40:36.760 --> 40:40.000
+And then I worry about bringing everyone with us.
+
+40:40.000 --> 40:41.960
+One interesting thing I'm seeing is
+
+40:41.960 --> 40:44.120
+people in all sorts of drug roles
+
+40:44.120 --> 40:46.440
+that are not engineering are much more productive
+
+40:46.440 --> 40:48.960
+if they know AI than if they don't.
+
+40:48.960 --> 40:51.280
+And so for example, on my marketing team,
+
+40:51.280 --> 40:52.920
+my marketers, they know how to code.
+
+40:52.920 --> 40:55.080
+Frankly, they were running circles
+
+40:55.080 --> 40:56.120
+around the ones that don't.
+
+40:56.120 --> 40:57.760
+So then everyone learned to code,
+
+40:57.760 --> 40:59.120
+and then they got better.
+
+40:59.120 --> 41:01.720
+But I feel like trying to bring everyone with us,
+
+41:01.720 --> 41:04.400
+to make sure everyone is empowered to build with AI,
+
+41:04.400 --> 41:07.920
+that'll be an important part of what all of us do, I think.
+
+41:07.920 --> 41:09.240
+I'm one of your big fans,
+
+41:09.240 --> 41:11.240
+and thank you for your online courses.
+
+41:11.240 --> 41:13.240
+Your courses make the deep learning
+
+41:13.240 --> 41:15.760
+like much more accessible to the world.
+
+41:15.760 --> 41:18.680
+And my question is also about education.
+
+41:18.960 --> 41:21.840
+As AI becomes more powerful and widespread,
+
+41:21.840 --> 41:23.800
+there's seem to be a growing gap between
+
+41:23.800 --> 41:27.600
+what can it actually do and what people perceive it.
+
+41:27.600 --> 41:29.680
+So what do you think about like,
+
+41:29.680 --> 41:33.280
+is it important to educate the general public
+
+41:33.280 --> 41:34.920
+about deep learning stuff
+
+41:34.920 --> 41:38.360
+and not only like educate those technical people
+
+41:38.360 --> 41:40.360
+and make people understand more
+
+41:40.360 --> 41:43.960
+what really what AI really do and how it works?
+
+41:43.960 --> 41:45.320
+I think the knowledge will diffuse.
+
+41:45.320 --> 41:48.000
+Even in AI, we want to empower everyone to build with AI.
+
+41:48.000 --> 41:50.400
+So we're working on it, many of us are working on it.
+
+41:50.400 --> 41:52.480
+I'll just tell you what I think is the main date.
+
+41:52.480 --> 41:54.480
+I think there are maybe two dangers.
+
+41:54.480 --> 41:56.760
+One is if you don't bring people with us fast enough,
+
+41:56.760 --> 41:58.160
+I hope we'll solve that.
+
+41:58.160 --> 42:00.560
+There's one other danger, which is,
+
+42:00.560 --> 42:03.120
+it turns out that if you look at the mobile ecosystem,
+
+42:03.120 --> 42:05.680
+mobile phones, it's actually not that interesting.
+
+42:05.680 --> 42:07.960
+And one of the reasons is there are two gatekeepers
+
+42:07.960 --> 42:09.360
+and Jordan and iOS,
+
+42:09.360 --> 42:11.160
+and then let's say that you do certain things,
+
+42:11.160 --> 42:13.840
+you're not allowed to try certain things on mobile.
+
+42:13.840 --> 42:16.720
+And I think this, you know, campus innovators,
+
+42:16.720 --> 42:20.840
+these dangers of AI have been used by certain businesses
+
+42:20.840 --> 42:22.800
+that are trying to shut down open source
+
+42:22.800 --> 42:24.040
+because there are a number of businesses
+
+42:24.040 --> 42:25.720
+that would love to be a gatekeeper
+
+42:25.720 --> 42:27.520
+to large scale foundation models.
+
+42:27.520 --> 42:29.920
+So I think piping up dangers,
+
+42:29.920 --> 42:32.000
+suppose it falls dangers of AI,
+
+42:32.000 --> 42:35.040
+in order to get regulators to pass laws
+
+42:35.040 --> 42:37.560
+like the proposal SB 1047 in California,
+
+42:37.560 --> 42:39.720
+which thank goodness we shut down
+
+42:39.720 --> 42:41.440
+where the put in place really burdens
+
+42:41.440 --> 42:42.960
+some regulatory requirements
+
+42:42.960 --> 42:44.680
+that don't make anyone safer
+
+42:44.680 --> 42:45.960
+but would make it really difficult
+
+42:45.960 --> 42:47.320
+for tears to release open source
+
+42:47.320 --> 42:48.960
+and open weight software.
+
+42:48.960 --> 42:51.760
+So one of the dangers to inequality as well
+
+42:51.760 --> 42:54.120
+is if these regulatory, you know,
+
+42:54.120 --> 42:55.480
+awful regulatory approaches,
+
+42:55.480 --> 42:56.760
+and I've been in the room, right?
+
+42:56.760 --> 42:59.240
+Some of these businesses set stuff to regulators
+
+42:59.240 --> 43:00.800
+that was just not true.
+
+43:00.800 --> 43:03.520
+So I think that some of these arguments,
+
+43:03.520 --> 43:06.800
+the danger is if these regulatory proposals succeed
+
+43:06.800 --> 43:08.520
+and end up siphoning regulations,
+
+43:08.520 --> 43:10.960
+leaving us with a small number of gatekeepers
+
+43:10.960 --> 43:12.800
+where everyone needs the permission
+
+43:12.800 --> 43:14.200
+of a small number of companies
+
+43:14.200 --> 43:15.760
+to find to you the model
+
+43:15.760 --> 43:17.080
+from a certain way,
+
+43:17.080 --> 43:18.600
+that's always siphoning innovation
+
+43:18.600 --> 43:21.520
+and prevent the diffusion of this information
+
+43:21.520 --> 43:23.800
+to let lots of startups, you know,
+
+43:23.800 --> 43:25.400
+build whatever they want responsibly
+
+43:25.400 --> 43:26.960
+but they're the freedom to innovate.
+
+43:26.960 --> 43:30.600
+So I think so long as we prevent this line of attack
+
+43:30.600 --> 43:33.520
+on open source open weight models from succeeding
+
+43:33.520 --> 43:36.640
+and would make good progress with a fitness still there,
+
+43:36.640 --> 43:39.720
+then I think eventually we get to the diffusion of knowledge
+
+43:39.720 --> 43:42.240
+and we can hopefully then bring everyone with us
+
+43:42.240 --> 43:44.120
+with this fight to protect open source
+
+43:44.120 --> 43:46.360
+or we've been winning, but the fight is still on
+
+43:46.360 --> 43:50.680
+and we still have to keep up that work to protect open source.
+
+43:50.680 --> 43:51.840
+Thank you all very much,
+
+43:51.840 --> 43:53.360
+as we want to proceed my will.
+
+43:53.360 --> 43:54.200
+Thank you.
+

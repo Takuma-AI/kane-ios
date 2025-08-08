@@ -1,0 +1,1169 @@
+WEBVTT
+
+00:00.000 --> 00:03.360
+Every single AI company is not telling the truth
+
+00:03.360 --> 00:06.160
+about what its context window really does.
+
+00:06.160 --> 00:09.680
+And this video talks about context windows memory
+
+00:09.680 --> 00:13.040
+and what that means for AGI, artificial general intelligence.
+
+00:13.040 --> 00:15.040
+First, let's dive into the claims that are being made.
+
+00:15.040 --> 00:16.720
+These are big claims.
+
+00:16.720 --> 00:18.560
+Million token context windows,
+
+00:18.560 --> 00:20.600
+there's talk of two million, five million,
+
+00:20.600 --> 00:23.600
+even 10 million token context windows coming soon.
+
+00:23.600 --> 00:26.320
+We already have context windows routinely
+
+00:26.320 --> 00:29.040
+in the several hundred thousand tokens all the time.
+
+00:29.040 --> 00:32.160
+What this means in practice is that companies are telling us
+
+00:32.160 --> 00:34.560
+that if you want to put a prompt in,
+
+00:34.560 --> 00:37.840
+that is a full book, you can do that.
+
+00:37.840 --> 00:39.320
+It's not true.
+
+00:39.320 --> 00:41.240
+It doesn't actually work that way.
+
+00:41.240 --> 00:45.040
+And anyone who works with LLM's extensively will tell you that.
+
+00:45.040 --> 00:47.680
+You might get a tenth of the usual context window.
+
+00:47.680 --> 00:51.280
+Running understanding, for example, of Gemini right now
+
+00:51.280 --> 00:53.760
+with a million token context window on paper
+
+00:53.760 --> 00:58.320
+is you get really solid performance out of about 128,000 tokens.
+
+00:58.320 --> 00:59.600
+Or just over a tenth.
+
+00:59.600 --> 01:02.000
+And after that, it's a little bit more questionable.
+
+01:02.000 --> 01:02.960
+It's not clear.
+
+01:02.960 --> 01:06.760
+And there are absolutely developer forums complaining about the fact
+
+01:06.760 --> 01:09.760
+that Gemini does not have effective performance
+
+01:09.760 --> 01:12.160
+especially past the half million mark.
+
+01:12.160 --> 01:15.600
+Why you might think would someone want to put in a context
+
+01:15.600 --> 01:16.600
+that large?
+
+01:16.600 --> 01:19.600
+No one writes a half a million token prompt.
+
+01:19.600 --> 01:22.080
+Not even I write a half a million token prompt.
+
+01:22.080 --> 01:23.280
+I will tell you why.
+
+01:23.280 --> 01:25.000
+If you are analyzing documents,
+
+01:25.000 --> 01:26.960
+if you're analyzing code bases,
+
+01:27.000 --> 01:31.440
+fundamentally anything with very large sequences of tokens
+
+01:31.440 --> 01:35.000
+that make semantic meaning across large structures together,
+
+01:35.000 --> 01:38.560
+you need the option to use a larger context window.
+
+01:38.560 --> 01:39.880
+The problem is this.
+
+01:39.880 --> 01:44.160
+Fundamentally, when the transformer reads that context,
+
+01:44.160 --> 01:46.440
+it does not read it as a structure.
+
+01:46.440 --> 01:48.560
+It reads it as a string of tokens.
+
+01:48.560 --> 01:51.840
+And so larger structures within the document,
+
+01:51.840 --> 01:54.560
+within the code base can get lost.
+
+01:54.560 --> 01:57.120
+And that is why agentic search is picking up
+
+01:57.120 --> 02:02.120
+versus just semantic rag for context windows for code bases.
+
+02:02.120 --> 02:03.480
+And by context window, in this case,
+
+02:03.480 --> 02:05.520
+like rag is obviously not the context window.
+
+02:05.520 --> 02:07.280
+It's like part of the context engineering
+
+02:07.280 --> 02:08.880
+that you're doing for the code base.
+
+02:08.880 --> 02:11.640
+The point is having a search function
+
+02:11.640 --> 02:14.160
+can be just semantic meaning for code bases
+
+02:14.160 --> 02:16.560
+because there's so much structure in code bases.
+
+02:16.560 --> 02:20.680
+And that is just one example of where we can go wrong
+
+02:20.680 --> 02:23.040
+when we assume the context windows
+
+02:23.040 --> 02:25.320
+just as vanilla fill the prompt
+
+02:25.320 --> 02:27.880
+and add the doc context windows work.
+
+02:27.880 --> 02:29.680
+They don't necessarily work well.
+
+02:29.680 --> 02:34.680
+And I know that model makers will push a like 99%,
+
+02:35.440 --> 02:38.880
+or 98% performance on needle in the haystack tests.
+
+02:38.880 --> 02:40.200
+And a needle in the haystack tests
+
+02:40.200 --> 02:41.200
+kind of what it sounds like.
+
+02:41.200 --> 02:42.840
+You stick like one random fact
+
+02:42.840 --> 02:44.600
+in the middle of a gigantic block of text
+
+02:44.600 --> 02:47.240
+and you test to see if the model can find it.
+
+02:47.240 --> 02:49.400
+The problem is this is all done
+
+02:49.400 --> 02:51.920
+under a very controlled environment
+
+02:51.920 --> 02:54.800
+and it does not measure the ability of an allola
+
+02:54.800 --> 02:59.800
+to synthesize between multiple pieces of specific context,
+
+02:59.800 --> 03:02.760
+which by the way is exactly what you need it to do
+
+03:02.760 --> 03:04.360
+to do higher level thinking.
+
+03:04.360 --> 03:07.280
+It is what humans are able to do when they read a book,
+
+03:07.280 --> 03:08.120
+grant it.
+
+03:08.120 --> 03:11.320
+We don't memorize every part of the book we read,
+
+03:11.320 --> 03:14.080
+but we don't have the problem of saying,
+
+03:14.080 --> 03:16.280
+you know what, the book I'm reading right now,
+
+03:16.280 --> 03:19.080
+I remember it less well than the book
+
+03:19.080 --> 03:20.760
+that I read four years ago.
+
+03:20.760 --> 03:22.120
+We have the opposite problem,
+
+03:22.120 --> 03:25.360
+but with LLMs, it's the other way.
+
+03:25.360 --> 03:28.120
+At the end of the day, if it's in pre-training data,
+
+03:28.120 --> 03:31.360
+I can actually get kind of decent literary analysis.
+
+03:31.360 --> 03:33.880
+If the book is something that I'm reading now
+
+03:33.880 --> 03:35.960
+in the sense that it's a new prompt or new text
+
+03:35.960 --> 03:38.160
+it hasn't seen before, I don't really give it books,
+
+03:38.160 --> 03:40.480
+but like I can give it docs that it hasn't seen before,
+
+03:40.480 --> 03:41.960
+it's not in the pre-training data.
+
+03:41.960 --> 03:45.080
+Even with state of the art models like O3 Pro,
+
+03:45.080 --> 03:47.200
+it can still be very hit or miss
+
+03:47.200 --> 03:49.920
+whether it actually examines the full context
+
+03:49.920 --> 03:51.120
+and test back this up.
+
+03:51.120 --> 03:54.400
+Test are often showing an edge awareness with LLMs
+
+03:54.400 --> 03:56.360
+where they are paying attention to the end
+
+03:56.360 --> 03:58.160
+and they're paying attention to the beginning
+
+03:58.160 --> 03:59.760
+and the middle is a big U-shade.
+
+03:59.760 --> 04:02.440
+So one, I'm gonna tell you a few strategies
+
+04:02.440 --> 04:03.400
+for how this is handled,
+
+04:03.400 --> 04:05.520
+because I don't think that's often sort of laid out
+
+04:05.520 --> 04:07.560
+just very clearly, like these are your options.
+
+04:07.560 --> 04:09.120
+We all know this is a problem.
+
+04:09.120 --> 04:11.400
+So play out the options, right?
+
+04:11.400 --> 04:15.400
+And then number two, I wanna talk about AGI
+
+04:15.400 --> 04:17.160
+and I wanna talk about what this means
+
+04:17.160 --> 04:18.440
+for artificial general intelligence,
+
+04:18.440 --> 04:20.000
+but we'll save that fun stuff for the end.
+
+04:20.000 --> 04:22.360
+So let's just run through a few strategies quickly.
+
+04:22.360 --> 04:23.280
+We'll do five.
+
+04:23.280 --> 04:25.640
+So number one, I've talked about this one before,
+
+04:25.640 --> 04:27.240
+we're not gonna belabor it, rag.
+
+04:27.240 --> 04:29.480
+Retrieve a logmented generation fundamentally
+
+04:29.480 --> 04:32.560
+if you feel like you need to have an index
+
+04:32.560 --> 04:35.720
+that sort of gives you a sense of semantic meaning,
+
+04:35.720 --> 04:39.040
+you need the model to go and retrieve something
+
+04:39.040 --> 04:41.400
+with a particular utterance or prompt
+
+04:41.400 --> 04:44.400
+and then go fetch something out of a very large context
+
+04:44.400 --> 04:45.760
+that you've put into the rag
+
+04:45.760 --> 04:48.280
+so it doesn't just live in the context window,
+
+04:48.280 --> 04:50.120
+fantastic, rag can work well.
+
+04:50.120 --> 04:54.200
+It, like the classic example is the wiki, the HR manual,
+
+04:54.200 --> 04:55.840
+that's kind of what rag is good for.
+
+04:55.840 --> 04:59.280
+Second strategy, summary change, summary change,
+
+04:59.280 --> 05:01.720
+real example, 200 page financial report.
+
+05:01.720 --> 05:04.640
+The old approach would be to feed all 200 pages
+
+05:04.640 --> 05:05.800
+and you're paying, I don't know,
+
+05:05.800 --> 05:07.520
+50 bucks or something to the API,
+
+05:07.520 --> 05:09.040
+depending on how big a prompt you run,
+
+05:09.040 --> 05:10.920
+depending on how complex and multi-step it is,
+
+05:10.920 --> 05:12.320
+how many tokens you're burning,
+
+05:12.320 --> 05:14.360
+depending on the model, new approach,
+
+05:14.360 --> 05:17.320
+split it into sections, summarize each of them
+
+05:17.320 --> 05:19.840
+and then combine each of the summaries together.
+
+05:19.840 --> 05:21.800
+So you're laddering up the semantic meaning,
+
+05:21.800 --> 05:23.760
+it's ext cheaper at least.
+
+05:23.760 --> 05:26.120
+Whatever your model is, it's gonna run a lot cheaper.
+
+05:26.120 --> 05:29.880
+And the accuracy is higher because by splitting it into sections,
+
+05:29.880 --> 05:32.680
+you're making sure nothing gets stuck in the middle
+
+05:32.680 --> 05:33.880
+and it's just lost.
+
+05:33.880 --> 05:36.800
+I have Claude all the time, admit to me
+
+05:36.800 --> 05:39.840
+that Claude does not read the documents I give it fully.
+
+05:39.840 --> 05:41.880
+It reads the first few thousand tokens
+
+05:41.880 --> 05:43.840
+and just kind of pattern matches
+
+05:43.840 --> 05:46.120
+is literally what Claude said, but I call it vibes.
+
+05:46.120 --> 05:48.240
+It just vibes its way through.
+
+05:48.240 --> 05:50.800
+Okay, third strategy deal with a strategic chunking.
+
+05:50.800 --> 05:55.080
+So similarly, you split the 80 page document into sections.
+
+05:55.080 --> 05:57.040
+This is similar to summary chains.
+
+05:57.040 --> 06:00.200
+And then you ask each chunk, you interrogate each chunk,
+
+06:00.200 --> 06:03.040
+do you contain information about X topic?
+
+06:03.040 --> 06:06.680
+Let's say you're trying to explore a particular product area
+
+06:06.680 --> 06:10.000
+inside a financial report for the stock market.
+
+06:10.000 --> 06:13.600
+You wanna interrogate each of the 10 page chunks
+
+06:13.600 --> 06:15.480
+in a very large company report
+
+06:15.480 --> 06:17.200
+and you wanna say does it contain information
+
+06:17.200 --> 06:18.040
+about the products?
+
+06:18.040 --> 06:20.360
+Only positive chunks would then move forward
+
+06:20.360 --> 06:22.680
+after you do that interrogation across splits.
+
+06:22.680 --> 06:26.400
+This results in vastly fewer tokens being used
+
+06:26.400 --> 06:30.160
+and much better accuracy, even versus like a vector search.
+
+06:30.160 --> 06:33.160
+Because you're basically saying you must pay attention.
+
+06:33.160 --> 06:37.320
+This is a small context window, just look at it, it's not rag.
+
+06:37.320 --> 06:40.400
+All I'm asking you to do is just look at the context window
+
+06:40.400 --> 06:41.400
+and tell me if this is in here
+
+06:41.400 --> 06:44.120
+and I'm giving you so little, just a few thousand tokens
+
+06:44.120 --> 06:45.240
+like you can't mess it up.
+
+06:45.240 --> 06:47.880
+Fourth strategy is context budgeting,
+
+06:47.880 --> 06:50.040
+which is a big part of context engineering.
+
+06:50.040 --> 06:52.080
+You sort of treat the tokens the way we treated
+
+06:52.080 --> 06:55.600
+random access memory or RAM in the nice, you can serve it.
+
+06:55.600 --> 06:57.240
+You treat it like it's precious.
+
+06:57.240 --> 07:00.520
+So you would say, for example, here, this 500,
+
+07:00.520 --> 07:02.800
+we're always gonna have system instructions.
+
+07:02.800 --> 07:05.080
+We're just gonna have 500 lines of system instructions
+
+07:05.080 --> 07:06.680
+or 50 lines of system instructions
+
+07:06.680 --> 07:07.800
+and that's what we're gonna have.
+
+07:07.800 --> 07:09.320
+Okay, and this next piece,
+
+07:09.320 --> 07:11.160
+this is, I'll call it a thousand tokens
+
+07:11.160 --> 07:12.800
+we'll say for conversation history
+
+07:12.800 --> 07:15.200
+and that's summarizing older parts of the conversation
+
+07:15.240 --> 07:16.840
+again, we're not gonna touch it.
+
+07:16.840 --> 07:19.160
+2000 tokens for retrieved documents
+
+07:19.160 --> 07:21.200
+and then 500 for working memory, whatever it is.
+
+07:21.200 --> 07:22.840
+You can do more of this in the API
+
+07:22.840 --> 07:24.560
+where you're sort of hacking the context.
+
+07:24.560 --> 07:27.200
+If you are in a chatbot, you have limited options.
+
+07:27.200 --> 07:29.040
+The system instructions you can't touch
+
+07:29.040 --> 07:31.640
+of the conversation history is summarized for you.
+
+07:31.640 --> 07:33.960
+Retrieved documents is kind of up to you.
+
+07:33.960 --> 07:35.880
+You'll notice if you're in the chatbot
+
+07:35.880 --> 07:37.840
+that older retrieved documents are dropped out.
+
+07:37.840 --> 07:39.920
+I routinely have a conversation with O3
+
+07:39.920 --> 07:41.720
+where I'm like, remember that document
+
+07:41.720 --> 07:43.440
+and it's literally there
+
+07:43.440 --> 07:44.720
+and I remember uploading it
+
+07:44.760 --> 07:46.360
+and there's a little marker in the UI that shows
+
+07:46.360 --> 07:49.360
+I did it and of course O3 is like, it's out of memory.
+
+07:49.360 --> 07:50.880
+I don't know, didn't happen.
+
+07:50.880 --> 07:52.480
+I can't remember.
+
+07:52.480 --> 07:54.160
+And so if you're in the chatbot,
+
+07:54.160 --> 07:55.800
+you have to do all of this manually.
+
+07:55.800 --> 07:58.680
+You have to kind of track how long your conversation
+
+07:58.680 --> 08:00.640
+is going for, what you're asking for
+
+08:00.640 --> 08:02.120
+and then budget your asks
+
+08:02.120 --> 08:04.520
+and budget the documents you give very carefully.
+
+08:04.520 --> 08:07.800
+So the last strategy is position hacking.
+
+08:07.800 --> 08:09.320
+So research shows attention
+
+08:09.320 --> 08:11.560
+is at least three x greater at the edges of the prompt.
+
+08:11.560 --> 08:13.760
+So, and I've talked about this before,
+
+08:13.760 --> 08:16.200
+put critical instructions at the beginning,
+
+08:16.200 --> 08:18.400
+put like key facts at the end.
+
+08:18.400 --> 08:21.360
+The relevant document is where it needs to be
+
+08:21.360 --> 08:23.160
+to be paid attention to like first
+
+08:23.160 --> 08:25.520
+or the second most is last.
+
+08:25.520 --> 08:28.440
+And then insert checkpoints every few thousand tokens
+
+08:28.440 --> 08:30.600
+as you chat to make sure that you confirm
+
+08:30.600 --> 08:32.040
+that the prompt is working.
+
+08:32.040 --> 08:33.120
+And so in a sense in that,
+
+08:33.120 --> 08:35.200
+you're not trying to escape the fact
+
+08:35.200 --> 08:36.560
+that you have limited context.
+
+08:36.560 --> 08:37.720
+You're actually trying to position hack.
+
+08:37.720 --> 08:39.240
+Now, if I were to look at this and say,
+
+08:39.240 --> 08:41.600
+now what can you do with APIs versus a chat window?
+
+08:41.600 --> 08:43.280
+All five of these are very viable
+
+08:43.280 --> 08:45.240
+with an API first approach.
+
+08:45.240 --> 08:47.320
+Only some of these work with a chat window.
+
+08:47.320 --> 08:48.600
+So the chat window,
+
+08:48.600 --> 08:51.800
+you can do summary chains that would work
+
+08:51.800 --> 08:53.960
+because you can actually like split
+
+08:53.960 --> 08:55.600
+into sections and have different chats.
+
+08:55.600 --> 08:57.080
+You can do strategic chunking
+
+08:57.080 --> 08:59.680
+where you ask it if it contains information that works.
+
+08:59.680 --> 09:01.240
+You can do position hacking
+
+09:01.240 --> 09:02.920
+where you time your instructions
+
+09:02.920 --> 09:04.360
+and kind of what you put where.
+
+09:04.360 --> 09:05.800
+It is a little bit more difficult
+
+09:05.800 --> 09:08.280
+if you're in the chat window to do context budgeting
+
+09:08.280 --> 09:10.760
+and to do retrieval augmented generation
+
+09:10.760 --> 09:12.960
+although arguably a custom GPT
+
+09:12.960 --> 09:14.600
+is effectively a cheap form
+
+09:14.600 --> 09:16.000
+of retrieval augmented generation
+
+09:16.000 --> 09:17.960
+or a project area in chat GPT
+
+09:17.960 --> 09:20.680
+is a cheap form of retrieval augmented generation.
+
+09:20.680 --> 09:22.040
+So there's ways to kind of get there
+
+09:22.040 --> 09:23.920
+but certainly a summary chain,
+
+09:23.920 --> 09:26.600
+strategic chunking and position hacking are very viable
+
+09:26.600 --> 09:28.400
+even if you're not an API person.
+
+09:28.400 --> 09:31.800
+Okay, let's get slightly philosophical here
+
+09:31.800 --> 09:33.840
+for a minute toward the end of this video.
+
+09:33.840 --> 09:36.080
+I want to get real honest about the fact
+
+09:36.080 --> 09:37.800
+that we've been talking for a few minutes
+
+09:37.800 --> 09:40.280
+about the fact that fundamentally,
+
+09:40.280 --> 09:44.120
+these models cannot reliably track information
+
+09:44.120 --> 09:47.600
+across a single structured piece of text that's book length.
+
+09:47.600 --> 09:50.640
+How do we expect them to maintain understanding
+
+09:50.640 --> 09:52.800
+across a lifetime of experience?
+
+09:52.800 --> 09:55.480
+Particularly when they're not getting better at this.
+
+09:55.480 --> 09:57.000
+This is not a new issue.
+
+09:57.000 --> 09:58.560
+I am not telling you about something
+
+09:58.560 --> 10:00.960
+that did not exist when chat GPT launched
+
+10:00.960 --> 10:02.000
+and now it does.
+
+10:02.000 --> 10:04.800
+I'm telling you about something that hasn't gotten solved.
+
+10:04.800 --> 10:07.400
+This is a limitation of our architectures
+
+10:07.400 --> 10:09.760
+that is partly a function of physics.
+
+10:09.760 --> 10:12.240
+One of the things that Google engineers have observed
+
+10:12.240 --> 10:15.320
+is that it is incredibly computationally intensive
+
+10:15.320 --> 10:18.400
+to use the full 1 million token context window.
+
+10:18.400 --> 10:19.800
+I don't know if you know this,
+
+10:19.800 --> 10:22.040
+but context scales quadratically.
+
+10:22.040 --> 10:24.240
+In other words, as you burn more tokens,
+
+10:24.240 --> 10:27.320
+if you send more tokens through,
+
+10:27.320 --> 10:31.240
+it's a quadratic equation that scales to the power of four
+
+10:31.240 --> 10:33.520
+in order to process those tokens.
+
+10:33.520 --> 10:35.840
+And so if you go from 50 to 100,000,
+
+10:35.840 --> 10:39.840
+and you forex the amount of energy you have to use
+
+10:39.840 --> 10:41.720
+to process that context window,
+
+10:41.720 --> 10:45.440
+which is why some of these longer prompts take so long.
+
+10:45.440 --> 10:48.080
+Like you're burning multiple minutes during an Opus 4
+
+10:48.080 --> 10:49.040
+and it's just going,
+
+10:49.040 --> 10:51.440
+you're burning multiple minutes during an O3 Pro,
+
+10:51.440 --> 10:53.200
+some of that is that they're inference models
+
+10:53.200 --> 10:54.040
+and they're thinking,
+
+10:54.040 --> 10:56.680
+but some of it maybe you gave it a lot of context.
+
+10:56.680 --> 10:58.560
+This is a fundamental limitation.
+
+10:58.560 --> 11:00.480
+It's not an artifact of your prompt design,
+
+11:00.480 --> 11:02.800
+although your prompt design can help address the issue.
+
+11:02.800 --> 11:06.800
+This is a robust effect across every model architecture
+
+11:06.800 --> 11:08.240
+that's been tested so far.
+
+11:08.240 --> 11:09.560
+And here's the thing,
+
+11:09.560 --> 11:13.640
+the entire bet on LLM's achieving artificial general
+
+11:13.640 --> 11:17.800
+intelligence rests on this assumption if you really reduce it.
+
+11:17.800 --> 11:21.320
+Humans are lossy compression functions too.
+
+11:21.320 --> 11:24.480
+Say it again, humans are lossy compression functions too.
+
+11:24.480 --> 11:26.880
+Our forgetting and compression is fundamentally similar
+
+11:26.880 --> 11:27.800
+to what these models do.
+
+11:27.800 --> 11:28.800
+That is the bet.
+
+11:28.800 --> 11:30.520
+I don't know that I agree with it.
+
+11:30.520 --> 11:32.640
+The context window problem suggests
+
+11:32.640 --> 11:34.680
+this bet might be incorrect.
+
+11:34.680 --> 11:36.440
+Yes, we forget details,
+
+11:36.440 --> 11:38.760
+but we maintain coherent mental models.
+
+11:38.760 --> 11:40.320
+Sure, I can't recite page 50's
+
+11:40.320 --> 11:41.640
+of the legal document verbatim,
+
+11:41.640 --> 11:44.160
+but I understand how chapter 20 relates to chapter one
+
+11:44.160 --> 11:45.440
+and I can tell you pretty clearly.
+
+11:45.440 --> 11:47.160
+LLM, it's not the same, right?
+
+11:47.160 --> 11:49.320
+Research shows they're doing pattern matching
+
+11:49.320 --> 11:51.480
+and if they're doing pattern matching,
+
+11:51.480 --> 11:53.640
+that's not the same as understanding the structure.
+
+11:53.640 --> 11:57.120
+And if this concept of quadratic complexity really applies,
+
+11:57.120 --> 11:59.040
+it's not just inconvenient.
+
+11:59.040 --> 12:00.360
+At AGI scales,
+
+12:00.360 --> 12:02.440
+you're hitting thermodynamic limits.
+
+12:02.440 --> 12:03.800
+You're hitting energy limits.
+
+12:03.800 --> 12:07.800
+We need perhaps a fundamentally different breakthrough
+
+12:07.800 --> 12:10.120
+in the way that we handle attention
+
+12:10.120 --> 12:12.080
+across long context windows
+
+12:12.080 --> 12:14.080
+in order to truly get to a point
+
+12:14.080 --> 12:17.040
+where these LLMs can deeply understand context
+
+12:17.040 --> 12:18.680
+across very large spaces.
+
+12:18.680 --> 12:19.880
+So either we're right,
+
+12:19.880 --> 12:21.880
+an intelligence really is lossy compression.
+
+12:21.880 --> 12:23.560
+Maybe I'm just fooling myself,
+
+12:23.560 --> 12:24.960
+I'm a very lossy human,
+
+12:24.960 --> 12:26.880
+and I just need to be honest, right?
+
+12:26.880 --> 12:28.120
+And maybe you need to be honest.
+
+12:28.120 --> 12:29.480
+And we need to be a little more humble
+
+12:29.480 --> 12:31.400
+and recognize the limitations of the AI
+
+12:31.400 --> 12:32.720
+or our limitations too.
+
+12:32.720 --> 12:35.440
+And it's going to get to AGI effectively
+
+12:35.440 --> 12:37.320
+because humans are not that much better.
+
+12:37.320 --> 12:40.400
+Or we're kind of wrong.
+
+12:40.400 --> 12:42.600
+And we're building very sophisticated,
+
+12:42.600 --> 12:44.960
+stochastic parrots, people spirits,
+
+12:44.960 --> 12:47.080
+pick your description of choice.
+
+12:47.080 --> 12:50.560
+And those machines will never really understand
+
+12:50.560 --> 12:52.880
+the large context windows that we throw at them.
+
+12:52.880 --> 12:54.800
+And that is a fundamental computational limit
+
+12:54.800 --> 12:56.200
+that we would have to have a new breakthrough
+
+12:56.200 --> 12:58.440
+to get to sort of AGI from.
+
+12:58.440 --> 13:01.560
+For now, I would settle for honesty
+
+13:01.560 --> 13:03.840
+from vendors who are talking about context windows.
+
+13:03.840 --> 13:05.600
+I think we have traded,
+
+13:05.600 --> 13:08.160
+this is a million context windows and it's simple
+
+13:08.160 --> 13:09.960
+for the honesty that we need
+
+13:09.960 --> 13:11.840
+to actually do appropriate planning.
+
+13:11.840 --> 13:15.000
+I would like to propose that we start to use
+
+13:15.000 --> 13:19.280
+real tests of actual synthesis work across documents
+
+13:19.280 --> 13:22.360
+as a way to describe capabilities.
+
+13:22.360 --> 13:25.400
+Like this model can effectively synthesize insights
+
+13:25.400 --> 13:26.960
+across a 10 page document,
+
+13:26.960 --> 13:29.120
+gets it right 90% of the time.
+
+13:29.120 --> 13:32.440
+Or this one can do it for 20 page or 100 page, whatever it is.
+
+13:32.440 --> 13:33.920
+I have yet to see, by the way,
+
+13:33.920 --> 13:37.000
+a reliable synthesis across a 100 page document
+
+13:37.000 --> 13:39.480
+by any model if it's a complex document.
+
+13:39.480 --> 13:40.760
+So that's a theoretical.
+
+13:40.760 --> 13:43.200
+OK, so I've left you with a few strategies.
+
+13:43.200 --> 13:44.880
+We've talked about how you address this.
+
+13:44.880 --> 13:48.520
+Don't walk away thinking that just because I'm skeptical
+
+13:48.520 --> 13:50.720
+about the implications for AGI,
+
+13:50.720 --> 13:54.000
+I don't think that this is a transformative opportunity
+
+13:54.000 --> 13:54.760
+for us building.
+
+13:54.760 --> 13:57.240
+If we apply any of these five strategies,
+
+13:57.240 --> 13:58.720
+or maybe a combination of them,
+
+13:58.720 --> 14:03.400
+it is totally possible to use the LLMs we have today
+
+14:03.400 --> 14:05.720
+to accomplish transformative business results.
+
+14:05.720 --> 14:06.680
+I've seen it.
+
+14:06.680 --> 14:09.040
+Now that doesn't mean a lot of people aren't screwing it up.
+
+14:09.040 --> 14:09.840
+They are.
+
+14:09.840 --> 14:11.880
+But the AI we have today,
+
+14:11.880 --> 14:14.800
+even if it never gets better, is still good enough
+
+14:14.800 --> 14:18.280
+that with the weaknesses in the context windows we have today,
+
+14:18.280 --> 14:20.880
+we can still build business solutions
+
+14:20.880 --> 14:23.440
+and frankly personal solutions that offer a ton of value.
+
+14:23.480 --> 14:26.040
+I know people who are within the context windows
+
+14:26.040 --> 14:29.040
+we have today building really effective second brains.
+
+14:29.040 --> 14:31.320
+It's, it's just possible.
+
+14:31.320 --> 14:32.760
+Some of them are hacking obsidian,
+
+14:32.760 --> 14:33.880
+some are using other tools,
+
+14:33.880 --> 14:35.440
+some of them are rolling their own.
+
+14:35.440 --> 14:37.840
+There are remarkable things that we're able to do personally
+
+14:37.840 --> 14:39.640
+and professionally within the context window
+
+14:39.640 --> 14:41.080
+limitations we have today.
+
+14:41.080 --> 14:42.960
+Use the five strategies I laid out,
+
+14:42.960 --> 14:44.960
+the position hacking, the context budgeting,
+
+14:44.960 --> 14:47.240
+the strategic chunking, the summary chains,
+
+14:47.240 --> 14:50.200
+the rag retrieval log manager generation,
+
+14:50.200 --> 14:51.880
+and have fun with what we've got.
+
+14:51.880 --> 14:55.280
+And be aware of the claims that model makers
+
+14:55.280 --> 14:57.000
+and vendors make about context windows.
+
+14:57.000 --> 15:00.480
+They're not all they're cracked up to be cheers.
+

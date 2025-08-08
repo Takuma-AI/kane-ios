@@ -1,0 +1,1202 @@
+WEBVTT
+
+1
+00:00:01.760 --> 00:00:18.729
+Chloe Lannert: So just kicked off the recording. This crew is week 12 and a half weeks out from Demo Day. They're starting to think about their raises just to get a quick overview. Who's planning on by show of hands? Who's planning on kicking off a raise in the next like 3 months.
+
+2
+00:00:20.710 --> 00:00:23.470
+Chloe Lannert: Who's like 6 to 9 months.
+
+3
+00:00:26.760 --> 00:00:32.806
+Chloe Lannert: Okay? Okay? So still, like, we're, we're ramping up. We're ramping up.
+
+4
+00:00:33.520 --> 00:00:36.219
+Chloe Lannert: So I kind of want to work backwards from Demo Day
+
+5
+00:00:36.320 --> 00:00:55.120
+Chloe Lannert: at Demo Day you were still blank labs in the conductor. Sort of era. Talk us through that, and then sort of the shift into fleet glue. And where did like the fundraising conversation? Sort of hit? There also to the founders, drive with questions like, I have my list of questions, but your questions are are more important.
+
+6
+00:00:55.120 --> 00:01:09.290
+Neal Sáles-Griffin: Right, and then the last thing I would add as a caveat here, Danny, is like pretty much. Let this go wherever you think it should go. Let the founders here drive it as well. Tell them what you think they need to hear given, you know you getting to know them. Let them introduce themselves like, do your thing, dude? You know what you're doing.
+
+7
+00:01:10.030 --> 00:01:21.880
+Daniel Pereira: Yeah 100%. Well, 1st thing I'll say is, I'm an open book, and I'm I'm known to be a little brash, so feel free to ask me whatever, and take it as you will, and I hope I don't
+
+8
+00:01:22.430 --> 00:01:26.949
+Daniel Pereira: so I don't hurt anyone's feelings but cool. So
+
+9
+00:01:27.250 --> 00:01:41.619
+Daniel Pereira: what happened. So we yeah, we were blank labs when we were still kind of in techstars. And I think what's really important to 1st call out is, we're still aligned to a really similar mission that we were even we were building AR hardware.
+
+10
+00:01:41.670 --> 00:01:53.099
+Daniel Pereira: So when we were building blank labs, we wanted to build a Microsoft consumer inference engines. In regular English. What that means is, we wanted to be the operating system for all the wearable devices that were coming out
+
+11
+00:01:53.140 --> 00:02:22.740
+Daniel Pereira: terrible that because we're all devices where a sign of the times and just something that everyone that was 23, and in San Francisco was building at the time, including us. Now, that was our hypothesis there, that we really wanted to not compete on the hardware level, and that if we could build the software that made it easy for consumers to be able to run the same application across all these different devices. Just how Microsoft did the personal computer, we would win, and we'd be that forever where that would facilitate the adoption of more of this hardware as well. Now.
+
+12
+00:02:24.050 --> 00:02:34.380
+Daniel Pereira: That was cool. We were getting traction for it right? Because I would evangelize it. And I think that you'll realize it's a big theme throughout all this. My style of raising is
+
+13
+00:02:34.720 --> 00:02:43.820
+Daniel Pereira: pure evangelist obsession. And truly believing you can create a new one, right? And
+
+14
+00:02:44.130 --> 00:02:51.049
+Daniel Pereira: what happened from blank labs was that we weren't searching for a problem enough. I think, right? We just were searching for cool tech.
+
+15
+00:02:51.120 --> 00:03:20.643
+Daniel Pereira: And what we noticed was that, well, we know that for this technology, it makes sense. Right. If this is going to be an actual new technology that's going to be adopted by everyone, and it's going to be an essential part of humanity, much like the personal computer was, you're going to need an operating system, Microsoft Layer, right? That runs on all these devices so shortly after techstars act ironically after not listening for, like, you know, 3 months in a row, to a lot of devices, should have back then found myself reading a lot of bomb OS and all that stuff after techstars. But you know how it goes stubborn.
+
+16
+00:03:21.100 --> 00:03:30.209
+Daniel Pereira: I we started talking to different folks right? And what we realized was that there was a huge, huge and present problem with robotics.
+
+17
+00:03:30.500 --> 00:03:40.550
+Daniel Pereira: Okay, so robotics needs its Microsoft layer now, because everyone's wanting to adopt these machines. Only the biggest companies of the world have been able to. And
+
+18
+00:03:40.550 --> 00:04:03.739
+Daniel Pereira: the only way we're going to reindustrialize the country and really fix manufacturing and have it so people aren't doing disgusting jobs that are lugging hundreds of pounds across factory floor is by robotics. And it's not just for your fortune. 100 that also applies to people like my family's factory that does bread manufacturing right like we want to make their people's lives better and help those businesses be more robust. And it was after kind of noticing that that
+
+19
+00:04:05.090 --> 00:04:09.989
+Daniel Pereira: and I'll stop after this because it gets crazier after this. But basically, what happened was that
+
+20
+00:04:10.637 --> 00:04:23.419
+Daniel Pereira: as part of my kind of just obsession with, you know, understanding more and more about, why is this important? Why do we need to really a double down on. This is we
+
+21
+00:04:24.040 --> 00:04:31.899
+Daniel Pereira: we talked to like 200 300 different folks before we laid down a code over the summer before. After stopping everything we're doing for blank labs. We just realized the problem wasn't big enough.
+
+22
+00:04:32.030 --> 00:04:39.210
+Daniel Pereira: And after we kind of doubled down on this problem, we met this one guy, and
+
+23
+00:04:39.790 --> 00:05:05.629
+Daniel Pereira: real quickly. Say, this is like, I'm not someone who's gonna tell you to go network your ass off, go build good fucking products that people are actually going to use. It'll be networking any day of the week. That doesn't not mean to build a relationship. So, and there was a guy that I had known for about a year, and he that he's like built his own Unicorn company isn't is like a solo Gp. With like 10 unicorns under his belt that I'd happened. I was like, Hey, I'm thinking about pivoting into this right.
+
+24
+00:05:05.930 --> 00:05:29.320
+Daniel Pereira: Can we chat right? And we had chatted about this briefly when we were still in techstars, but I kind of ignored it because I didn't think there was noise. And what he had told us was like, listen, guys, would you guys want to build for the Microsoft robotics makes total sense? What if I write you a check and you acquire some IP from another company that was trying to do what you were doing for the developer offering. And if you can figure out how to commercialize it and actually have a vision for what to do with this.
+
+25
+00:05:29.460 --> 00:05:35.790
+Daniel Pereira: because it's just tech right? Everything is just tech until you know how to sell it and know why people want it. Then we'll make it happen. So.
+
+26
+00:05:36.137 --> 00:05:41.860
+Daniel Pereira: I ignored him for months, but then, after tech stars, I went back to him, and I was like, Hey, Kev, like, remember that thing we were talking about.
+
+27
+00:05:41.970 --> 00:05:50.272
+Daniel Pereira: and one thing led to another, and I'll go into a raise. But I'll stop there. See, you guys, or Chloe has any more targeted questions.
+
+28
+00:05:54.980 --> 00:05:59.360
+Meg Hall: Sorry, so he said that he would write you a check to go acquire another startup.
+
+29
+00:06:00.170 --> 00:06:06.030
+Daniel Pereira: Yeah, he was like, I'll I'll write you like he's like, how much do you need? I was like, I don't know, like I don't want to spend a lot of money on it.
+
+30
+00:06:06.600 --> 00:06:11.900
+Daniel Pereira: I was like I'd rather get it for 0. And he ended up writing me like a little under a million
+
+31
+00:06:12.020 --> 00:06:37.130
+Daniel Pereira: to do that. But we didn't take the check for almost a year, because we had no nothing to do with that money. Why are you going to take money if you have nothing to do with it? And that is something that I think is really important, too. It's like, don't take money for the sake of taking money right? Especially if you're going to get diluted like I'm 1 of those people, and you can. People can respectfully disagree with me. People did on. I stood up on day one of tech stars, and I was like, I'm never fucking selling this company. I'd rather either this company is going to be a trillion dollar company, or it's going to be burned to the ground
+
+32
+00:06:37.180 --> 00:06:57.049
+Daniel Pereira: right? What I mean by that, because, like, I'm never leaving as the founder. This is, I believe, that founder of companies are the only companies that will succeed right like, there's a lot of examples of this and I wasn't going to take money just because some random Vc. Thought that I'd be good to do something right like, have conviction in yourself. Don't let money give you conviction.
+
+33
+00:06:58.710 --> 00:07:01.059
+Meg Hall: And how did you meet that guy? Sorry I missed that part.
+
+34
+00:07:03.300 --> 00:07:13.629
+Daniel Pereira: Just a founder buddy of mine was like, shoot coffee with Kevin. I was like, he's like, really cracked. And I was like, yeah. So we met at like a blue bottle in Santa Monica totally before talk started. Actually.
+
+35
+00:07:13.740 --> 00:07:15.530
+Daniel Pereira: it's always a blue bottle somewhere.
+
+36
+00:07:16.140 --> 00:07:17.109
+Chloe Lannert: The blue bottle.
+
+37
+00:07:17.350 --> 00:07:18.650
+Daniel Pereira: Oh, he's a blue bottle.
+
+38
+00:07:22.830 --> 00:07:24.019
+Chloe Lannert: Awesome anyone else.
+
+39
+00:07:24.740 --> 00:07:31.290
+Chloe Lannert: So you you just like perfect poster child example of fundraising. Yeah, Antoine.
+
+40
+00:07:33.940 --> 00:07:38.470
+antoinecarriere: So. How did you manage your time?
+
+41
+00:07:39.235 --> 00:07:40.870
+antoinecarriere: In that period.
+
+42
+00:07:41.490 --> 00:07:47.769
+Daniel Pereira: I didn't. I don't. I'm for me managing time means doing whatever it humanly need to
+
+43
+00:07:47.920 --> 00:07:54.280
+Daniel Pereira: to be able to execute on the highest priority things at 150% confidence interval. So.
+
+44
+00:07:54.280 --> 00:07:54.710
+antoinecarriere: Night.
+
+45
+00:07:54.710 --> 00:07:55.060
+Daniel Pereira: Can I go?
+
+46
+00:07:55.060 --> 00:08:01.839
+antoinecarriere: Can I call bullshit on that and ask you it the question differently then, and say.
+
+47
+00:08:02.030 --> 00:08:11.179
+antoinecarriere: Walk me through a week. Go back in time a week during that period of time
+
+48
+00:08:11.530 --> 00:08:16.989
+antoinecarriere: and start on Monday. When did you wake up? And what did you do next?
+
+49
+00:08:17.370 --> 00:08:19.329
+Daniel Pereira: So when I raised, or when I met Kevin.
+
+50
+00:08:20.280 --> 00:08:22.039
+antoinecarriere: When you were raising.
+
+51
+00:08:22.570 --> 00:08:25.679
+Daniel Pereira: Oh, so I have a I have a style of raising that.
+
+52
+00:08:25.680 --> 00:08:31.000
+antoinecarriere: Successfully when you were raising successfully from your standpoint in hindsight.
+
+53
+00:08:31.000 --> 00:08:32.360
+Daniel Pereira: Yeah. So
+
+54
+00:08:32.580 --> 00:08:45.829
+Daniel Pereira: I this is where it's gonna be controversial, because every Vc and every founder has a different way of doing this the way I do it at this stage that you guys are at. And this changes. The stage goes. These important caveats will change. Right is
+
+55
+00:08:45.910 --> 00:09:14.030
+Daniel Pereira: I like to say that my biggest inspiration from raising was Ehrlich Bachman from Silicon Valley. If you guys have seen that show now, the reason being is because I don't have time to talk to you or listen to what money you're going to give me, or whatever, if I don't have a killer product that I believe in. So when Dcs would reach out to me for like 6 months in a row like top guns, I would literally say, sorry you can't talk right now let's shout when I'm building, and I almost realized the more short and the more you don't.
+
+56
+00:09:14.400 --> 00:09:41.319
+Daniel Pereira: because you're so busy building, the more that they chase you down, and the more that they care, and they start sending you little gifts. And suddenly it's this whole little thing, right? So the way we did. It is for 6, 7 months. So we got our taxes in February, decided that we were going to go all in and staff a little team with the precede, with the like the angel money that we had raised. So by August we brought on 2 engineers. Just you. It's actually still. Now, I'm kind of hiring but the 2 engineers, and in full
+
+57
+00:09:41.790 --> 00:09:51.599
+Daniel Pereira: February I told every single Vc. That would come to me. Can't talk, can't chat. We'll talk at some point later, and I packed them, and when I decided to raise in late February
+
+58
+00:09:52.643 --> 00:09:58.929
+Daniel Pereira: was it February or March? One of those 2? I decided. I put them all in a 1 in a 2 week interval.
+
+59
+00:09:59.150 --> 00:10:23.410
+Daniel Pereira: and in 2 weeks I raised almost 5 million dollars. Had them competing over valuations, and I had to do very little, but be an evangelist, and convince them, not convince them, and explain to them why I'm sure that this is going to be a trillion dollar company if I bring on the best partners in the world to help me do it. That's the caveat at the end. Right? Don't be an egotistical asshole that thinks you're Steve Jobs, because you're not right. But
+
+60
+00:10:23.640 --> 00:10:24.890
+Daniel Pereira: you want to get there.
+
+61
+00:10:25.650 --> 00:10:38.479
+antoinecarriere: So this is super helpful. Do you mind if I, if I interrupt you and ask a a kind of a question because you said something. This is super clear. I visualize it like fully, except one thing
+
+62
+00:10:40.130 --> 00:10:46.909
+antoinecarriere: at some point. There's somebody who reaches out to you and you say, Go, fly your kite in a very nice way.
+
+63
+00:10:47.250 --> 00:10:53.320
+antoinecarriere: and then at another point, someone else reaches up to you, and you say, Go, fly your kite in a very nice way.
+
+64
+00:10:53.560 --> 00:11:02.929
+antoinecarriere: and I am not in that situation. People don't reach out to me, and so I am suspecting that there's something that goes on
+
+65
+00:11:03.060 --> 00:11:04.310
+antoinecarriere: between
+
+66
+00:11:05.240 --> 00:11:33.950
+antoinecarriere: somebody randomly walking somewhere and then meeting you. And so were you networking? Were you kind of all? Always kind of hanging out in specific places, etc. That's what I'm trying to get like, how do you spend your time? Do you sleep like 14 HA day, and then you kind of go on, zoom and and you stay in your in your cave, or what do you do? That's that's what I'm trying to get.
+
+67
+00:11:34.200 --> 00:11:35.730
+Daniel Pereira: That's a really good question.
+
+68
+00:11:35.830 --> 00:11:50.749
+Daniel Pereira: So it's both, and it's changed over time. I was. I've always been a big Twitter guy, and I actually think Twitter is helpful, especially if you're building a consumer and you're not on Twitter. You're doing something wrong. You need to get on Twitter, because that's for hiring if you're seeing what's going on around you. But it can also be a little
+
+69
+00:11:51.160 --> 00:12:11.059
+Daniel Pereira: like you can go in circles because you think people are building and really not shipping anything to vaporware. But for me it was. It's not. I wasn't network. I wasn't going to networking events or going to like the Jp. Morgan sponsored. Whatever thing like. I didn't care about those things like, but what I did do is I was really curious with the people that I cared about, and the people that I respected, which 99% of the time or other founders.
+
+70
+00:12:11.100 --> 00:12:32.479
+Daniel Pereira: So I would talk to founders that are better than me that are ahead of me, and I'd ask, I'd be curious, and they'd ask me what I'm doing. And I tried to hang out with those guys, and those guys would be helpful to me because I would teach them something. They would teach me something. And suddenly they just brought it up to their founder, Buddy, who's a series d founder, and maybe that series d founder ends up being the freaking founder, Sam Allman.
+
+71
+00:12:32.833 --> 00:12:47.559
+Daniel Pereira: But do you see what I'm saying, and that's how. Then Vcs hear everything like I don't know what it is in Spanish, but like Vcs always got information. Second, founders always get it first.st That's why. And this goes back to raising. I don't take money from non founder. Vcs.
+
+72
+00:12:47.790 --> 00:13:04.599
+Daniel Pereira: I won't do it. It's not worth my time. I wouldn't recommend one of you guys when you're doing like corporate late stage, it's a whole different game. Because now you're taking pure lifeblood. But I really believe in founder love. So that's what advice I'd give. There now, the only other thing I'd say is.
+
+73
+00:13:05.970 --> 00:13:11.510
+Daniel Pereira: It's again, if you're building consumer, there's merit to going to hackathons if you're in San Francisco like, I'm not gonna say
+
+74
+00:13:11.510 --> 00:13:36.230
+Daniel Pereira: that you should live at hackathons because people also get stuck in like a half a Hackathon cycle where they think that that's real work just because they're making a little prize money. But it's good to meet talent and also meet really crack people who are building cool stuff. I can't begin to tell you the amount of people that I went to Hackathon with that were literally just building their first, st like Hackathon project at some random house in Twin Peaks or in Castro, that now are literally like 30 40 million dollar company.
+
+75
+00:13:37.010 --> 00:13:41.880
+Daniel Pereira: Right? So it's like, invest early in your relationship and in the people that you think are really cool people.
+
+76
+00:13:45.060 --> 00:13:46.209
+Daniel Pereira: How about yourself?
+
+77
+00:13:48.360 --> 00:13:49.100
+Chloe Lannert: Andrew! Jump!
+
+78
+00:13:49.100 --> 00:13:51.660
+Daniel Pereira: I never saw some hands. So yeah, just shoot.
+
+79
+00:13:53.010 --> 00:14:04.219
+Andrew Fernandes: Yeah, 2 related questions. When you raised 5 million in 2 weeks, where were you at traction? Wise in terms of product and other metrics, and were you raising on the back of that or on the back more of vision.
+
+80
+00:14:04.930 --> 00:14:08.599
+Daniel Pereira: Neil's gonna hate me for this 0 revenue
+
+81
+00:14:08.960 --> 00:14:18.379
+Daniel Pereira: all vibes. No, it wasn't online. Basically, we raised on the we got some Lois which I will now agree with Neil, or stupid and bullshit, and a waste of your time like.
+
+82
+00:14:18.380 --> 00:14:23.850
+Neal Sáles-Griffin: Do tell them what you think. Don't worry about what I think, man, you're good. You got full. Yeah, you're good.
+
+83
+00:14:23.850 --> 00:14:25.560
+Daniel Pereira: Like they're they're not.
+
+84
+00:14:25.690 --> 00:14:41.380
+Daniel Pereira: They're not. They don't do anything they can help for some Vcs. Honestly, some of the more inexperienced Vcs. Which are a lot of the Vcs. Is that anyone can become a Vc. Now will take that as signal, not gonna lie. But I think what's really important, especially the stage you're at is
+
+85
+00:14:43.150 --> 00:15:05.895
+Daniel Pereira: make like you need to bring them into your world right? Like a good Vc. Meeting from day one they have stepped into your world, and they fundamentally believe that nothing they could tell you nothing anyone could do, no market pressure will take you out of that world, and that's what world building is right. And if you at the stage that all of you guys are at right,
+
+86
+00:15:06.430 --> 00:15:08.660
+Daniel Pereira: that means so much. Because
+
+87
+00:15:08.780 --> 00:15:25.309
+Daniel Pereira: honestly, now with like AI and stuff. Anyone can get some 1 million dollar a building slop right like the amount of Slop millionaire company. I see my Vc friends talk about this too right or abundant, but which are the resilient, which are the like talk. I know what I talked about, all the things that were wrong with the market right now.
+
+88
+00:15:25.370 --> 00:15:39.960
+Daniel Pereira: Right, all of the all the 300 customers I talked to and got quotes with them, saying, Daniel, please, if you build this I will literally like, please give it to me. I will give you whatever it takes right like industry. Leaders like I put quotes on there being like
+
+89
+00:15:40.460 --> 00:15:43.340
+Daniel Pereira: I need this, or my company will fail
+
+90
+00:15:43.400 --> 00:16:11.940
+Daniel Pereira: like that's what matters more than everything, and just evangelize the shit out of them like evangelize, evangelize, evangelize. Tell a story, make them if they're crying by the end of their discussion, whether it be good or bad. You've done a really good job. So that's that's what I raised off of, and you got it. You can't bullshit right like. If you're going to tell them you're going to move fast, you better fucking. Move fast. If you're going to tell them that you're building something really, technologically difficult, you better better ship it and have the progress and updates to show them there, right? Like what we're building is ridiculous. We're like
+
+91
+00:16:12.010 --> 00:16:30.409
+Daniel Pereira: pure, deep tech company, right? Like we deploy on any robot, and we are able to control them and standardize and integrate them in the same exact way. Very hard. So I'm not saying to go and tell them the lie or tell them something that's going to be ready in 2 years if it's not, and you tell them it's in 2 weeks, but just like, bring them into your world. That's that's that's how it is.
+
+92
+00:16:32.750 --> 00:16:37.500
+Daniel Pereira: If you guys read on brian Chesky talks a lot about this and
+
+93
+00:16:38.385 --> 00:16:45.299
+Daniel Pereira: so I, the the people I did use to see my parents. Ceos, for contacts are Alex Karp, Brian Chesky
+
+94
+00:16:45.450 --> 00:16:56.010
+Daniel Pereira: and Bob Iger from Disney, like those are the guys that I look up to. And I think about, how do you world build? And before that would be Walters, I'm a huge Walters guy. But yeah.
+
+95
+00:16:56.330 --> 00:16:57.470
+Daniel Pereira: on world building.
+
+96
+00:17:00.310 --> 00:17:02.999
+Meg Hall: So how did you pick? How much to raise.
+
+97
+00:17:04.490 --> 00:17:12.549
+Daniel Pereira: Yeah, so I I didn't. So this is where I'm not perfect. I I didn't. I went into my race thinking I was gonna raise mill and a half.
+
+98
+00:17:13.819 --> 00:17:14.610
+Daniel Pereira: and
+
+99
+00:17:15.569 --> 00:17:33.537
+Daniel Pereira: that quickly didn't happen, because, like like both of my, I have Co leads, both of them off. Rip wanted to give me over a mil and a half, and I was like, no, no, like not happening, because I wanted to do saves. People tried like one of my leads trying to do a price ground even higher valuation. And I was like not happening
+
+100
+00:17:34.120 --> 00:17:35.180
+Daniel Pereira: So
+
+101
+00:17:35.430 --> 00:17:49.795
+Daniel Pereira: we pick that number based off projected headcount and the kpis and metrics that we thought we were going to hit over the next 1812 to 18 months. Right? I'm a big, lean believer, right until you have a demand. But
+
+102
+00:17:50.410 --> 00:17:54.619
+Daniel Pereira: That was how kind of anchored on it. 20% cushion, just in case right?
+
+103
+00:17:54.690 --> 00:18:19.910
+Daniel Pereira: What ended up happening, though, and it was where I do give great investors credit. Is that certain investors also help? You understand things that you don't know because you're an early stage founder, right. You're always gonna end up spending more money than you thought you were right. It's not that you need more, but you're always going to end up spending more than you thought right? That's why you add in that 20% cushion right into your own internal modeling. But, like what I realized in conversations with like. I have some assumptions about hiring timelines, some assumptions about
+
+104
+00:18:19.910 --> 00:18:27.310
+Daniel Pereira: wrong assumptions that good Vcs. Even though they move super fast. In the second meeting they'd come at me and they'd help me understand. They're like, Oh, shit.
+
+105
+00:18:27.370 --> 00:18:32.549
+Daniel Pereira: wow! I'm gonna run out of money way faster than I thought right, or being more on, Daniel like.
+
+106
+00:18:33.410 --> 00:18:42.824
+Daniel Pereira: let's say you don't hit this in the next 8 months, like you've put or on your plan like you can't just die like you've just invested so much time, and they help me understand where I need that. So
+
+107
+00:18:43.300 --> 00:18:47.689
+Daniel Pereira: Some of that was just that. So then I learned. So then the number quickly moved to like 2 and a half.
+
+108
+00:18:47.810 --> 00:19:03.309
+Daniel Pereira: And that was what I actually believe. And after that this ended becoming fear over subscription. I just basically was like, if you want to give me free money high value, higher valuation, money or uncapped, take it if you can get uncapped money, take it. I raised my 1st round completely untapped.
+
+109
+00:19:03.830 --> 00:19:09.719
+Daniel Pereira: would love to do that again. It won't happen, but if you can like after the 1st round, but if you can pull it off, do it. But
+
+110
+00:19:10.140 --> 00:19:13.889
+Daniel Pereira: yeah, we ended up oversubscribing, but I just negotiated evaluation higher.
+
+111
+00:19:14.490 --> 00:19:15.670
+Meg Hall: I mean, I
+
+112
+00:19:15.950 --> 00:19:24.359
+Meg Hall: how like what? What was it that pulled them in so much that you were able to raise 5 million dollars with no revenue in.
+
+113
+00:19:24.360 --> 00:19:24.880
+Daniel Pereira: So.
+
+114
+00:19:24.880 --> 00:19:29.360
+Meg Hall: That that's like there's something secret. There's some kind of a secret sauce there that I want to know.
+
+115
+00:19:30.235 --> 00:19:38.630
+Daniel Pereira: So yeah, it's a good question. You're thinking you think about more about like so couple things, hey? I'm building in deep tech
+
+116
+00:19:38.730 --> 00:20:04.539
+Daniel Pereira: whatever deep tech, which is hot, been hot for the past couple of years. Right? Robotics, hot as hell for the past, like 6 months, and manufacturing, has been also hot as hell, and that's our customers are reserving into now. Right? So there was a lot of there's a little amount of hype that got involved in this round. I'm not like we've got. We did, you know, I was like, Wow, you guys are getting hyped around like. And that's why we're able to make a higher valuation. But part of it is that
+
+117
+00:20:04.810 --> 00:20:24.411
+Daniel Pereira: what I heard somebody see say is that, like I have a good founder market fit my co-founder, and I right like Thoughthill, and I know he chose the group 5. So most startups die from suicide. Right they they there's I have a high belief that we're not going to suicide ourselves because we're like, literally brothers. People actually confuse us all the time. We look similar. Similar hair, same skin color.
+
+118
+00:20:25.110 --> 00:20:37.500
+Daniel Pereira: The other one was that I grew up in factory like my family. My dad is a founder, is himself, he had, and yeah, so I don't know why I didn't leave this before, but like I would start every single pitch by saying.
+
+119
+00:20:37.965 --> 00:20:48.779
+Daniel Pereira: my background, I worked at better at hyper growth scale to like a couple 100,000. Mrr, I realize I never talked about that. You know what I talked about. I was starting my pitches by saying, I grew up working in a factory
+
+120
+00:20:48.830 --> 00:21:13.119
+Daniel Pereira: right? I started there when I was 12. I started mopping. I've done the procurement. I even take a gap semester before I went to college, because I was obsessed with working in this factory right? And I grew up listening to my dad bitch and complain about these integrators, and I'll never forget about that one time. That and and right and like that, I think. But that's part of the story, right? That's when they're like holy crap. Now they're in my world. They're in my world right? I get to tell them how shit works now, right? And
+
+121
+00:21:13.160 --> 00:21:14.110
+Daniel Pereira: and
+
+122
+00:21:14.120 --> 00:21:43.739
+Daniel Pereira: the other one is that I have. I've been very vividly and always been a huge American dynamist like since when I got to text I was an oil lobbyist for a brief amount of time in college. I was that 13 year old kid that was phone banking for politicians in Vegas. And that was a big part of my story right? Because it's genuine. I believe it's deep in my heart, like I'm child of immigrants who did the American dream in manufacturing. I want to see this country industrialized. I want to see factories everywhere, right? And I think
+
+123
+00:21:43.900 --> 00:21:47.989
+Daniel Pereira: that is like what got them excited. That's like what got them excited. Basically.
+
+124
+00:21:50.680 --> 00:21:52.369
+Daniel Pereira: I'm just not reading this chat. So.
+
+125
+00:21:53.950 --> 00:21:54.290
+Anthony De Silva: Hey! Dan!
+
+126
+00:21:54.290 --> 00:21:57.259
+Neal Sáles-Griffin: It's just me trolling you. Bro. Don't worry. It's nothing important.
+
+127
+00:21:59.260 --> 00:22:10.160
+Anthony De Silva: Hey? Just curious. Did you do any outreach at all to to Vcs? Or was it all all inbound through like founder conversations and hangouts.
+
+128
+00:22:11.250 --> 00:22:17.035
+Daniel Pereira: I did 0 of them and not reach out to a single view. So they all would reach out to me on email or Linkedin or something.
+
+129
+00:22:19.490 --> 00:22:25.594
+Daniel Pereira: and I. This is something that I encourage you all to ask Mark Andreessen just talked about this like a month ago on
+
+130
+00:22:26.150 --> 00:22:31.739
+Daniel Pereira: on Tvpn. But if you are cool, reaching out to the Vc.
+
+131
+00:22:32.070 --> 00:22:35.479
+Daniel Pereira: Most of the good funds take that as negative signal.
+
+132
+00:22:35.990 --> 00:22:43.330
+Daniel Pereira: because the 1st test we need to get past is, am I good enough salesman to actually be able to get an intro to that fun?
+
+133
+00:22:43.660 --> 00:22:50.670
+Daniel Pereira: Do I know a founder that I can evangelize and make him believe in me as a friend enough to give me an intro right? That's like a test for the Vcs.
+
+134
+00:22:50.670 --> 00:22:51.979
+Neal Sáles-Griffin: That's the 1st test.
+
+135
+00:22:52.680 --> 00:22:54.020
+Daniel Pereira: That's like a test. Yeah.
+
+136
+00:22:54.640 --> 00:23:01.330
+Daniel Pereira: the the Vcs here to speak to that more. But yeah, it's so. I would not do cold outreach without you guys again
+
+137
+00:23:01.650 --> 00:23:11.989
+Daniel Pereira: that I that's a controversial topic. Me personally, don't do it, put in the work. Instead of spending 8 h doing cold outreach. Go to a blue bottle. Listen to some cool founders or
+
+138
+00:23:11.990 --> 00:23:37.909
+Daniel Pereira: that are talking and introduce yourself, and that is, you're more likely to get an A. 16 Z. Intro than spending 8 h blasting cold emails and obsessing over right the right wording or amount of sentences to get the Vcs to respond? Or what's the one specific one liner, that it's not worth the time. And but as if you go do the opposite, you're also going to learn something right? You don't learn shit doing cold emails to Vcs, you're just learning how to buy. Basically because that's really all you're doing. You're like, it's just yeah.
+
+139
+00:23:39.830 --> 00:23:40.150
+Neal Sáles-Griffin: Danny.
+
+140
+00:23:40.150 --> 00:23:40.730
+Daniel Pereira: Mind, yourself.
+
+141
+00:23:40.730 --> 00:23:56.139
+Neal Sáles-Griffin: Yeah, I was just gonna say, before Antoine chimes in you've been like one thing that was apparent to me from when I met you was that you're like a student of the game. Clearly like you were paying attention, and you were staying aware of what people are saying and what the different
+
+142
+00:23:56.450 --> 00:24:21.189
+Neal Sáles-Griffin: tools and tactics and strategies that people are employing to like be in this like field right of startups. So I I guess I just wanted to ask, like, if you had any recommendations for this group. Because I know this group is also very aware of of what you know people are saying, and you know all the tools and of the trade and whatnot. But like, how did you one keep yourself engaged? And all that while also being so Laser focused on making your business work.
+
+143
+00:24:21.730 --> 00:24:22.580
+Daniel Pereira: 100%.
+
+144
+00:24:22.800 --> 00:24:28.540
+Daniel Pereira: You need to treat learning like a sport that is essential for your heart to beat.
+
+145
+00:24:28.800 --> 00:24:46.289
+Daniel Pereira: So what I mean by that is I? I know that I I'm not. I'm not great at time management, but sometimes I was 4 min late to this meeting. Sometimes that's like, because I get excited like I'm getting better at it. But it's because of that right. I force myself, and I bake it into my routine. So, like I wake up the second I wake up.
+
+146
+00:24:46.290 --> 00:25:04.089
+Daniel Pereira: I have the sweet sounds of Terry Gross on Npr. Ready as I'm showering for my morning download. Right then I switch over to like public radio. So I can understand what's happening in my surrounding areas right? And I get to the office. And every day I know not too much time, but every 10 books of a fiction, 10 books of a nonfiction
+
+147
+00:25:04.090 --> 00:25:19.939
+Daniel Pereira: download on New York Times, download on Wall Street Journal, and I treat that like sacred, sacred, sacred, sacred, sacred, right. And I'm always, always just listening right. And I think if you do that, it compounds
+
+148
+00:25:19.960 --> 00:25:23.050
+Daniel Pereira: right and honestly, twitter
+
+149
+00:25:23.210 --> 00:25:45.119
+Daniel Pereira: if you don't become obsessive about it as I can. It's really helpful for news, because that's where you see a lot of, especially if you start following founders and making Twitter friends. Right? You'll see what they're building. You'll see the things really fast and it keeps you on your toes right? So that's what I'd recommend is just literally treat it like something essential. Treat it like lifeblood.
+
+150
+00:25:48.590 --> 00:25:52.199
+antoinecarriere: This is super inspiring the the.
+
+151
+00:25:52.540 --> 00:26:00.660
+antoinecarriere: So so did did I hear you? Well, at the beginning it sounds like you will never do anything else than this.
+
+152
+00:26:01.090 --> 00:26:02.420
+Daniel Pereira: Oh, and I'll die doing this.
+
+153
+00:26:02.730 --> 00:26:17.600
+antoinecarriere: Exactly. Yeah. And so so you will, you will. So 1 1 of the things you made sure of, I suspect is that you won't die from hunger, because that would be too too silly to die from hunger.
+
+154
+00:26:17.900 --> 00:26:41.159
+antoinecarriere: And so how? Because it sounds to me like a lot of it was okay, I'm going to evangelize, evangelize, evangelize. I don't have the right kind of way to spend money. So I'm not raising money until at some point there's kind of a convergence of factors that gets you into the point where you you're going to raise. And then at that point in time, your top of mind, etc.
+
+155
+00:26:41.190 --> 00:26:51.429
+antoinecarriere: and the the thing that if I try to apply that to myself, there's a there's a i add a fell don't die principle, you know, because I want to die
+
+156
+00:26:51.780 --> 00:27:01.109
+antoinecarriere: trying. I don't want to die so so I love your analogy with the sports like make sure that it's a sport. So it's not something. It's something that
+
+157
+00:27:01.270 --> 00:27:19.000
+antoinecarriere: brings you as much energy as it takes energy to do to go to Blue Bottle, etc. But I'm wondering if there are things that you kind of put in place. To kind of really make sure that you don't die before it's worth dying for.
+
+158
+00:27:19.280 --> 00:27:47.099
+Daniel Pereira: Yeah, thank you for all these real questions. By the way, guys that are like making me think harder about like, actually, so 100%. So when I was in tech starts, I thought I was dying of cancer. This actually happened. I ended up getting flying out of the country to do a full executive body scans on literally 12 doctors in one day, because I was getting rashes like quite literally like my stomach stopped working like I was nauseous all the time. It was bad. So. But I didn't have cancer. I had stress
+
+159
+00:27:47.510 --> 00:28:04.090
+Daniel Pereira: right. And I wasn't eating, and I wasn't respecting myself. Essentially. And it's so goddamn important, because once you realize that your performance isn't just mental, your physical performance will hurt your mental performance. Everything changes so to answer your question
+
+160
+00:28:04.270 --> 00:28:05.840
+Daniel Pereira: when I get stressed. I don't eat
+
+161
+00:28:06.170 --> 00:28:11.880
+Daniel Pereira: on Celsius or Redable didn't have Celsius this conference, and I go right. But
+
+162
+00:28:12.110 --> 00:28:34.440
+Daniel Pereira: I know that that's not sustainable because my body broke down, and when I was in techstars, and I know that I don't want to actually give myself a stomach or sore, or something worse. So what do I do is again. I bake it into my routine. So now what I do is, instead of just like hoping that I'm going to get to it or over planning a grandiose plan. I start small. I'm like, Okay, I know that I'm not going to be Brian Johnson tomorrow.
+
+163
+00:28:34.480 --> 00:28:46.990
+Daniel Pereira: right? But I know that my biggest problem right now is that I don't eat. I'll I'll go an entire day out eating, and then I'll eat a massive meal the next day for dinner, and I feel like crap. I get bad sleep right? I was like, what if? What if
+
+164
+00:28:47.270 --> 00:29:00.609
+Daniel Pereira: I start drinking soylent. Which are these? I don't know if you guys have heard of soylent right, for right after my morning smoothie and at lunch, no matter if I'm hungry, no matter if I'm sick right, and force myself to do it right.
+
+165
+00:29:00.770 --> 00:29:07.889
+Daniel Pereira: And that was a starting point. And suddenly I had more energy right, and they are still in business. Shocker, right? John Coogan left, and that.
+
+166
+00:29:08.110 --> 00:29:36.649
+Daniel Pereira: But there's they're still in business. But it worked for me right? So, finding the moments of chaos. Because your guys life is, you guys, arguably, you're about to go through more chaos than I am right now when passing a couple of months. Right? You guys are about to raise a freaking round you. Demo day right? Find the moments of peace that you can commit to being a good steward to your own body right? And if you don't, you're going to break down, and there's been worse. There's been terrible issues I could have. You can end up with mental health issues. I could have.
+
+167
+00:29:37.410 --> 00:29:43.900
+Daniel Pereira: So to stay in Texas family. The company we acquired Fyi Guy was a brilliant mit
+
+168
+00:29:44.350 --> 00:29:46.839
+Daniel Pereira: roboticist. Is caro fireball a lot.
+
+169
+00:29:47.590 --> 00:29:52.060
+Daniel Pereira: You completely lost that mentally and completely, did you?
+
+170
+00:29:52.190 --> 00:29:58.850
+Daniel Pereira: I can't go into too many details because of the freaking contract we've signed with them. But what we I can say is, he's open about it. Is
+
+171
+00:29:59.160 --> 00:30:09.089
+Daniel Pereira: he literally ended up in the hospital for almost an entire year, because the mental slut. But the physical stuff body started shutting down wrong place, wrong time never recovered.
+
+172
+00:30:09.410 --> 00:30:10.100
+Daniel Pereira: Right?
+
+173
+00:30:10.260 --> 00:30:11.540
+Daniel Pereira: I don't want to repeat that
+
+174
+00:30:11.710 --> 00:30:18.010
+Daniel Pereira: meaning. No one should. So take care of yourself. I I would have not listened if I was in your spot right now. But
+
+175
+00:30:18.150 --> 00:30:19.730
+Daniel Pereira: seriously, it varies on.
+
+176
+00:30:25.060 --> 00:30:27.150
+Daniel Pereira: Sorry. I don't know how to pronouncing.
+
+177
+00:30:27.150 --> 00:30:33.490
+Esmaeil Sadeghi: Yes, a smile, Granny, a smile is here and the area of my focus is really similar to yours.
+
+178
+00:30:33.853 --> 00:30:57.309
+Esmaeil Sadeghi: We have been having, like some challenges in terms of like reaching out to like some of these Us based manufacturing sectors with our solution. So I'm just curious, like, in terms like, go to market strategy and your sales funnel. If you can speak like about these approaches that you, you use actually what work best for you and what didn't work. So we can get some idea in our in our go to market strategy as well.
+
+179
+00:30:57.650 --> 00:30:58.370
+Daniel Pereira: Yes.
+
+180
+00:30:58.900 --> 00:31:07.352
+Daniel Pereira: so figure it out right like we just started bringing on our 1st customers like paying customers like a month ago. Right?
+
+181
+00:31:09.610 --> 00:31:10.510
+Daniel Pereira: So
+
+182
+00:31:11.230 --> 00:31:24.540
+Daniel Pereira: at the beginning, and still actually our sales wise, I'm not. I'm not too ahead of you guys. I'll be honest with you right like now we're doing pocs with like companies like Mitsubishi. Continental pocs are also only slightly better than Loy. So you know,
+
+183
+00:31:25.330 --> 00:31:29.900
+Daniel Pereira: is Pound. There's a Kevin, the guy who.
+
+184
+00:31:30.180 --> 00:31:36.029
+Daniel Pereira: It's a huge vendor of mine, Ted Matthew, who, if any of you guys are in deep tech and building full shit, I should introduce you to. So
+
+185
+00:31:36.270 --> 00:31:42.270
+Daniel Pereira: let me introduce you. Is pound paper.
+
+186
+00:31:42.550 --> 00:31:50.939
+Daniel Pereira: Pound the freaking paper right? Like, I literally like Linkedin outreach, become a pro like email outreach. Be a pro
+
+187
+00:31:52.200 --> 00:32:16.039
+Daniel Pereira: learn to talk to people that's so like everyone has their own superpower. Right? You might be really good email marketing like I was decent at it that better upscaled it to make a lot of money. But like what I know I'm really good at is getting you on the phone and making you believe in me and believe in our company and believe in our team? Right? So because I know that I have a 1 of the best teams in the world. I can talk. I don't call and talk about my team, what my team is going to do for you, and I'm going to serve you. And
+
+188
+00:32:16.270 --> 00:32:20.659
+Daniel Pereira: and for you specifically smel, do whatever you can just get into the factory
+
+189
+00:32:20.830 --> 00:32:37.959
+Daniel Pereira: right? Because when you're in the factory everything changes. You can. You have control of everything. You can ask the questions. You have them there for an hour, 2 h, or 3 h, and by the end of that factory site you should so like for you, if you're selling manufacturing factory business should be your number one metric.
+
+190
+00:32:38.060 --> 00:32:52.538
+Daniel Pereira: and then see how you're converting from them. Your goal should be that after that 1 h factory site tour, they are asking you how fast you can move and how fast you can put something in there right. But honestly, I don't have a great answer. I don't have a great sound. The only thing I will say is,
+
+191
+00:32:52.880 --> 00:32:56.870
+Daniel Pereira: Partners are super important in this game. If any of you are selling into manufacturing
+
+192
+00:32:58.020 --> 00:33:18.450
+Daniel Pereira: holy crap, is it a completely relationships? And who do you know, Dave, so what I did early on before I even have a product ready. And I started reaching out to Ceos. I love, I love cold emailing, Ceos. By the way, I like, I hate cold emailing. Vcs, I don't do it. Cold email, Ceos, all day, all day, right? And I would reach out to them and be like, Hey, I'm Danny.
+
+193
+00:33:18.730 --> 00:33:38.540
+Daniel Pereira: This is what I'm building. This is a problem I saw. Right? Keep it short and simple. I'm like you have 20 min to chat right? And what I sort of do. I started building my partner network before I even have a product ready and got him on board right? And 6 months later, which is like now, it's actually just now starting to give it. When I go to the conferences like this, I have guys coming up to me and being like
+
+194
+00:33:38.830 --> 00:33:54.320
+Daniel Pereira: you, you're you're the guy that they told me to come to. You're the Amr Guy, right like they already have built in trust. That's the key word by like trust they have built in trust before I even get there right. Because now my integration part of the Ceos of these companies that I'm now finally partner with, and like they're
+
+195
+00:33:54.860 --> 00:33:57.999
+Daniel Pereira: evangelizing for me like I have.
+
+196
+00:33:58.420 --> 00:34:16.029
+Daniel Pereira: I'll show you. This is about it. Here. This is an item 24 topper. There's a robot down there. This is a $10,000 rack that I got for free, because I convinced the CEO of Item 24 that I'm going to make Killer Demos. And when this as a factor of those killer Demos, these things are going to sell themselves. This is a $60,000 mer robot
+
+197
+00:34:16.120 --> 00:34:39.449
+Daniel Pereira: that we got because I, fucking cold email, the CEO of Universal robotics, one of the biggest robotic companies in the world. And I did the same thing right. And they love seeing that stuff right? So if they believe it, then they're gonna start sending people towards you. So if you're selling into the space. It means a lot because the biggest thing is the trust factor. And none of these guys trust you. They actually hate you manufacturing guys hate Silicon Valley cap. Bros hate them right? So you got to convince them that you care.
+
+198
+00:34:39.449 --> 00:34:58.830
+Daniel Pereira: and that you maybe identify the problem that yourself. And that's why you're making a fix, and like I love leading with like, I'm not a Phd. Some clients I'll be like almost as a positive. I can barely even fucking code. And they're like, Yes, you get me. You get me that if you can use your product and you don't even know how to code it. My engineering team of 2 probably is going to crush it. Then. Right? So, stuff like that.
+
+199
+00:34:59.290 --> 00:35:18.479
+Esmaeil Sadeghi: Sure. Yeah, thank you very much. And one follow up question here regarding the trade show that you are joining now. So how is your experience in this regard, like we are also like pre revenue startup as well. So probably it doesn't make for us to have a boost at the trade show. But how is this experience for your company right now? How is the attraction for for your boost? There.
+
+200
+00:35:19.470 --> 00:35:46.119
+Daniel Pereira: I mean I I so conferences in general, no matter what stage you're at, you, you need to put in more work before than during what I'd say. So. This is our 1st big conference that we paid for because we've gone to regional ones and actually love regional conferences because they invite us a lot of times, and it'll make us pay, and the level of intent and high touch. So much better right? I'd rather go to 200 person contra conference and 200,000 person conference. Right?
+
+201
+00:35:46.781 --> 00:36:15.910
+Daniel Pereira: So for us. Crush your branding. I'm a big believer in that. Not enough. Crush your branding, set meetings before reach out Linkedin, before. Be like stop by the booth! Can I? Come? Introduce myself? Don't try to sell these folks like you're always selling. But you're selling yourself first, st like at this stage, you guys are the product. People are buying you. They're not buying your product. You could have the best you could. You could have the the best brand new. You could have a model better than 4. 0, and you're still selling yourself at this stage.
+
+202
+00:36:15.940 --> 00:36:23.309
+Daniel Pereira: Right? So for these conferences, put in the work before. Make the meetings happen before schedule stuff. Invite your leads to dinner.
+
+203
+00:36:23.400 --> 00:36:25.962
+Daniel Pereira: invite your leads to dinner, and
+
+204
+00:36:26.630 --> 00:36:28.830
+Daniel Pereira: really make sure that you're just being helpful.
+
+205
+00:36:28.970 --> 00:36:54.539
+Daniel Pereira: like my favorite thing to do here. You know what I've been doing all day, but we'll get with leads. And all these integrators, for example, wanna integrate, they integrate one type of robot and they want to sell them the one that they're gonna get a kick back on, and they convince them that's the one that's for them and all that bullshit. So I'll have leads. Come, and I'll be like, you know what? What if me and you just walk before for 20 min today or tomorrow, and I'll introduce you to all the guys I know we'll grill them together right? And that is like
+
+206
+00:36:54.710 --> 00:37:13.390
+Daniel Pereira: I didn't talk about my product yet I did not even talk about my product yet, and a building that trust with them, and they know why they're here. They came to my booth right? So they know what I can do. But I'm not even talked about that yet. I'm just making them trust me because I'm trying to help them, because I generally want to. And I tell them, even if you don't buy from me. I hope I was useful here, right? Because I know they're gonna probably talk to their buddy, even if they don't.
+
+207
+00:37:13.510 --> 00:37:16.590
+Daniel Pereira: So that's that's how to go about conferences.
+
+208
+00:37:16.730 --> 00:37:17.750
+Esmaeil Sadeghi: Thank you very much.
+
+209
+00:37:17.750 --> 00:37:22.509
+Daniel Pereira: I'm happy to chat more on that I mean, with any of you guys I'm happy to chat. But yeah.
+
+210
+00:37:25.680 --> 00:37:33.460
+Chloe Lannert: Absolutely killer. If you had to run this whole process again tomorrow, this whole fundraising process, what would you change.
+
+211
+00:37:38.230 --> 00:37:41.540
+Chloe Lannert: or were there any any assumptions you made super early on that you.
+
+212
+00:37:42.620 --> 00:37:44.129
+Daniel Pereira: I tried to raise 2 files
+
+213
+00:37:45.310 --> 00:37:49.699
+Daniel Pereira: like I maximize for pure speed, and I don't even know this is
+
+214
+00:37:49.810 --> 00:37:52.490
+Daniel Pereira: I. I know I could have gone even higher valuation.
+
+215
+00:37:52.590 --> 00:38:07.460
+Daniel Pereira: But I was. I genuinely maximize for speed, because I wanted to get back to work and not raising, because raising isn't worth. By the way, anyone raising money doesn't mean shit guys. By the way, especially at this stage, like, it's not all it means. Is you got some people to believe in you from Vc.
+
+216
+00:38:07.600 --> 00:38:08.085
+Daniel Pereira: but
+
+217
+00:38:08.990 --> 00:38:16.220
+Daniel Pereira: I probably could have. If I waited like a month. Yeah, until a month, I would have probably had more offers and be able to spin off different stuff and be able to.
+
+218
+00:38:19.296 --> 00:38:20.828
+Daniel Pereira: Oh, Buddy,
+
+219
+00:38:22.580 --> 00:38:29.252
+Daniel Pereira: And probably going to higher valuation. Do you need a do they need evaluation. I don't know. So other than that.
+
+220
+00:38:30.530 --> 00:38:32.250
+Daniel Pereira: nothing too crazy.
+
+221
+00:38:32.360 --> 00:38:39.069
+Daniel Pereira: Yeah, I don't. And no real regrets. Honestly, I think it went as good as it could have, I might have. Yeah.
+
+222
+00:38:41.240 --> 00:39:02.230
+Neal Sáles-Griffin: Okay, I'll keep mine quick, because I see Megan Chris have questions. But I just wanna apologize in advance for going video off. I'm gonna hit the road in a second, Danny. But I recall in recent months slash the past year, hearing from you on Boxer awesomely. Thank you for always reaching out and staying connected with me. But one thing I've heard you mention is the benefit
+
+223
+00:39:02.330 --> 00:39:28.289
+Neal Sáles-Griffin: that you realize of jobs. So I'm curious with all of this like this is obviously my selfish question that all these founders know. I always like to like just like force, feed everybody now. But you appreciated jobs much long after the program. So I would love for you to just give a little bit of wisdom and advice to these founders about how they could take advantage of what you realize later. That helped you with communicating and like selling your business.
+
+224
+00:39:29.080 --> 00:39:29.670
+Daniel Pereira: Yeah.
+
+225
+00:39:29.770 --> 00:39:56.049
+Daniel Pereira: it's a great question. So I was. I did not pay any attention beyond, like the 1st meeting of jobs, just because in my head. I was like, I'm building consumers is an applicant name blah blah, just, you know, like ego, ego ego and what I realized after this was that with jobs looking, I became obsessed about it is, I think, a customer. 90% of the time isn't telling you his real problem. And if he's not telling you his real problem. Then he's probably 90% of the time not willing to pay for that problem
+
+226
+00:39:56.140 --> 00:40:07.139
+Daniel Pereira: right? So even though he'll tell you something. Oh, most people don't know the core problems off that. Even when you guys ask me a follow up question, I'm like, Oh, great! That's a great question. I forgot to even mention that right clients are the same way.
+
+227
+00:40:07.140 --> 00:40:27.149
+Daniel Pereira: So what jobs to be done when you talk to them and interview them from that perspective is, get a deeper understanding of what they actually care about. And you're probably never going to get to it@firstst What that allows you to do for your product, position it in a much better way. That speaks that and learn way faster. You're not wasting time on conversations that are like very surface level that it's like, if I say, Oh.
+
+228
+00:40:27.860 --> 00:40:35.179
+Daniel Pereira: everyone has a problem. Everyone's had a paper cut like everyone hates paper cuts right. But like on if I work in a paper.
+
+229
+00:40:35.290 --> 00:40:39.340
+Daniel Pereira: No, that's probably gonna be more pertinent. How do I sell my clients? Yeah. But if I'm gonna like
+
+230
+00:40:39.360 --> 00:40:47.309
+Daniel Pereira: a freaking Plastic Wrapping Company don't matter to me at all right, but if I ask somebody, his biggest problem is, the guy at the plastic company could have been
+
+231
+00:40:47.310 --> 00:41:12.020
+Daniel Pereira: reading a sort of reading for the 1st time in 20 years last week. So it maybe has all the paper cuts. So that's his biggest problem right now, because he's doing it at work every day, right? But it's not the real problem. So jobs to be done just allows you to get deeper than any I want to see any other way like I've had 2 h conversations with clients that I like. I'm just trying to, you know, just riff with them blah blah! That just by asking them more targeted like Jtbd. Style questions within 10 min, I'm like, Oh, shit like we should have been talking about this for the past 2 h.
+
+232
+00:41:12.130 --> 00:41:27.579
+Daniel Pereira: So that's what really made me appreciate jobs to be done. And just it's hard. It's also hard. It's it's it's a skill like it's a it's a skill like I you can. It took me a long time to like, have a basic understanding, and I still will go through that freaking mattress video and be like.
+
+233
+00:41:28.217 --> 00:41:31.280
+Daniel Pereira: like, it's just like, really, it's nuts.
+
+234
+00:41:35.340 --> 00:41:36.390
+Chloe Lannert: Meg, jump in!
+
+235
+00:41:36.590 --> 00:41:47.619
+Meg Hall: Okay, sounds good. So going back to your like, your fundraising style. So you said that you raise that much in like in only a couple of weeks. Like.
+
+236
+00:41:47.860 --> 00:42:01.770
+Meg Hall: how did you create Investor Fomo? And then also before. So before you actually kicked off your fundraising round, were you sending out like investor newsletters. How often what did those include things like that like? What was your investor advertising? And like Fomo style?
+
+237
+00:42:03.680 --> 00:42:29.779
+Daniel Pereira: I generally did 0 advertising like I did 0 advertising for Fomo, though a couple of things. Oh, that I did wrong, that I wish I didn't do, and I quickly realized so it wasn't the whole race like the 1st couple of days. Never tell investors other investors you're talking to, unless they've already written you a check because they all back channel. Every single investor you just have founders talk Vcs talk because it's their only job. So it's like what they have to do. It's all they do is talk to the meetings. So it's like
+
+238
+00:42:29.910 --> 00:42:49.130
+Daniel Pereira: they're gonna find out. So don't tell that. And if they push you on it, fuck them. Maybe they shouldn't. They never do. Don't throw around valuation numbers until you have a term sheet, either, like, even if a Vc says, like, well, okay, let's do this for like 20, be like, okay, cool. Throw me a term sheet right? But within it to build promo. It's just
+
+239
+00:42:50.470 --> 00:43:06.549
+Daniel Pereira: I took the risk of telling Vcs. I'm done raising after 3 weeks is what I told them right? I was like, I'm done raising. We're trying to do this fast. We're optimizing for speed. We've got to get back to work. This is for these specific things, and I'm done so I would tell every Vc. That during meeting one
+
+240
+00:43:06.800 --> 00:43:07.600
+Daniel Pereira: right.
+
+241
+00:43:09.630 --> 00:43:13.290
+Daniel Pereira: That was really, I would say all the the specific things I did. But like.
+
+242
+00:43:13.640 --> 00:43:40.660
+Daniel Pereira: have confidence. Guys like seriously like, have confidence. That's 1 of the biggest things that, like Vcs can smell fear. And they love seeing like. I mean, it's what I would like. You need to have a delusional level of belief in yourself and in this company and in your team like delusional, like giantly delusional. And you do that with enough humility and understanding that you're bringing in people to help you accomplish this delusional dream, your teammates and investors. Then it's fine. If you're just saying that you're oh.
+
+243
+00:43:40.760 --> 00:43:48.709
+Daniel Pereira: I'm doing this, Steve, because I think I'm the next, Steve. That's different, right? But have that delusional confidence in your company and your ability to win.
+
+244
+00:43:48.940 --> 00:43:54.910
+Daniel Pereira: Yeah, don't be afraid to tell them that you're gonna beat everyone in the market, and then you're gonna win. We're not here to make friends. We're here to win.
+
+245
+00:43:56.510 --> 00:44:05.120
+Meg Hall: I think that there's something about your like energy level. And the way that you tell stories that I think can get people hyped. I think that that might be part of your secret sauce, that.
+
+246
+00:44:07.250 --> 00:44:35.200
+Daniel Pereira: I'm a huge believe in storytelling. So when I worked at better up, this was the CEO better up would drill down on me all this all the time. He was also a fixed unit like, learn to tell a story, learn to draw people in like my dad. It was a he was part of this, like revolutionary, like Democratic Socialist party in Peru, when he was in younger parts, and the guy who was a leader and became President. He was like, genuinely, probably one of the best orders of like the 20th century.
+
+247
+00:44:35.340 --> 00:45:01.280
+Daniel Pereira: I was literally like 7 years old, and I would my Dad would play this on TV, and I would see my dad cry of this guy's like return of exile video, because the guy was very controversial. He got 2 Democrats came back, but then he would tell me, be like, listen to this. The indentations like like I I will listen to like I'm not. I'm giving. You guys can go on Twitter and know this. I'm pretty. I'm the right leaning guy. You know what politician I study fucking Obama
+
+248
+00:45:01.410 --> 00:45:29.189
+Daniel Pereira: because Obama talks with it's like, honestly talks like a non-american. I'm like any other American politician he draws. He literally physically draws you in, uses his hands. He pauses. He gets super excited, like politicians are afraid to right? And that so yeah, so I I appreciate you saying that. But it's just I'm obsessed about it right, because I believe it, and it's how you for customers, for your how you hire so hard to hire the best talent in the world. You need to evangelize everything is evangelizing.
+
+249
+00:45:30.480 --> 00:45:31.380
+Meg Hall: Thank you.
+
+250
+00:45:34.460 --> 00:45:42.929
+Chris Wong: Cool, Danny. Quick question, quick question for you when you were thinking about fundraising. How did you know when was the right time for you cause you kicked the can down for a lot of people. And then at
+
+251
+00:45:42.930 --> 00:45:43.260
+Chris Wong: 1 point
+
+252
+00:45:43.260 --> 00:45:48.909
+Chris Wong: you were, you were like, Okay, now is the time to go like. What was that moment like going up to that? And then
+
+253
+00:45:49.030 --> 00:45:58.350
+Chris Wong: for the things that you were optimizing or thinking that was the right time to go like. Was any of that really truly important to you? Or did you learn afterwards that it was like, Oh, I could have just done it without that. Yeah.
+
+254
+00:45:59.741 --> 00:46:01.850
+Daniel Pereira: Sorry. Give me one sec.
+
+255
+00:46:01.850 --> 00:46:02.460
+Chris Wong: Yep.
+
+256
+00:46:05.410 --> 00:46:11.259
+Daniel Pereira: Sorry I'm just. I wanna I'm gonna tell. Saw Hill to cover for us.
+
+257
+00:46:18.480 --> 00:46:19.315
+Daniel Pereira: Cool.
+
+258
+00:46:22.140 --> 00:46:24.320
+Daniel Pereira: So you asked me, how did I?
+
+259
+00:46:25.590 --> 00:46:26.410
+Daniel Pereira: Sorry.
+
+260
+00:46:26.410 --> 00:46:31.460
+Chris Wong: Yeah. Yeah. So at at what? At? For a while you said that you were kicking, you know, like.
+
+261
+00:46:31.460 --> 00:46:31.920
+Daniel Pereira: Oh, yeah.
+
+262
+00:46:31.920 --> 00:46:56.449
+Chris Wong: Reaching out to you. You're like, no, no, I'm not fundraising, like I'm building right now and then at some point you're like, Okay, I'm now ready to go and fundraise, or let's just go and do it like. What was that? What did? What gave you that kind of indication that you were ready to kind of like, go and fundraise and go through the process, or were you? And were you prepping for that, or getting into the mode like, Oh, I need to. You had 0 revenue. But like you were like, Okay, I got built this far, or I built this fast by now, like in something to prove. Yeah.
+
+263
+00:46:58.500 --> 00:47:07.690
+Daniel Pereira: Half science, half art. So half it is that like, I just quickly realized that I, enough Vcs and the Vcs started. It went from like, you know, like
+
+264
+00:47:08.370 --> 00:47:33.302
+Daniel Pereira: solo GPS to like partners at a 16 Z. Over time, because these talks over there, although, is that guy? Is that kid talking to you. No, he keeps telling me no. Oh, crap! I wonder who he is talking to. Right like so that was part of it. Honestly, I just kind of realized that the timing, from like the amount of attention I was getting and like what was going on in the market, was good timing. The other one was simply that I started realizing that
+
+265
+00:47:33.740 --> 00:47:43.289
+Daniel Pereira: we were unable to take the bets or serve in the conversations we were having. Like, I started getting reach out to you from like Mitsubishi Continental. And I was like, Oh, shit
+
+266
+00:47:43.420 --> 00:47:57.690
+Daniel Pereira: even a Poc. I cannot handle. If we do this right like I can go evangelize all I want. But when push comes to shove, I'm not going to be able to handle this and have the engineering team would do this. So it was a little bit of both. It's in between those 2, I would say honestly, it was.
+
+267
+00:47:58.590 --> 00:48:02.509
+Daniel Pereira: It was like 60 40 of hey? This feels right.
+
+268
+00:48:02.670 --> 00:48:12.930
+Daniel Pereira: some amalgam of things. And about 40 of it being like crap. I'm gonna I'm gonna really stop some of these deployments if I don't raise now. So yeah. Wish I had a better answer. But so it was kind of a little bit of both.
+
+269
+00:48:15.670 --> 00:48:16.630
+Chloe Lannert: Roller jump in.
+
+270
+00:48:17.790 --> 00:48:33.810
+Carlo Scaglia: Yup, hey, Daniel! Cool! I was actually wondering how you've kind of used this approach of fundraising across other things with the business. Call it, maybe hiring, maybe approach to marketing all of these different things, because just sounds like this is your general approach to selling almost.
+
+271
+00:48:37.650 --> 00:48:42.259
+Daniel Pereira: So you're asking me like, how do I.
+
+272
+00:48:42.840 --> 00:48:44.620
+Carlo Scaglia: So what was the question in there?
+
+273
+00:48:45.380 --> 00:48:50.020
+Carlo Scaglia: How you took your fund, your approach to fundraising, and potentially use that across other things in the business.
+
+274
+00:48:50.020 --> 00:48:50.420
+Daniel Pereira: Oh!
+
+275
+00:48:50.420 --> 00:48:58.429
+Carlo Scaglia: Because you're pretty much evangelizing. How did you translate it when you hire? How do you translate it when you do marketing? How do you translate across like the other touch points.
+
+276
+00:48:58.780 --> 00:49:14.769
+Daniel Pereira: That's a baller question. So for hiring, it's very similar to like a Vc. But more so. The perspective of you got the best engineers in the world have everyone telling them they're going to build a trillion dollar company. It's convincing them that they're going to get to work on some of the coolest shit of their lives
+
+277
+00:49:14.970 --> 00:49:43.600
+Daniel Pereira: and meaning right? So that's where you evangelize for hiring right? Vcs, you evangelize on the world that you're going to build and the metrics you want to pull forward for customers. You evangelize on how much you can, freaking, help them, how much you can listen, how much you can help them like I don't I? I never like Vc, as I talk about interoperability. I talk about like integration. I mean, it's like interoperability, like operating system. Microsoft, of robotics like interconnect right.
+
+278
+00:49:43.760 --> 00:49:45.800
+Daniel Pereira: I didn't never use those words with customers.
+
+279
+00:49:46.000 --> 00:50:03.820
+Daniel Pereira: I evangelize how much I care about them. I evangelize how much my product is made to deal with the current, to take over, to replace the current regime that is full of problems. Right? So it's it's different for everyone, but it all goes back to the same thing right? But and then with.
+
+280
+00:50:05.110 --> 00:50:12.589
+Daniel Pereira: Is there another person that I need to sell into? Convince? I mean, certainly. No. Yeah. Investors, employees
+
+281
+00:50:12.760 --> 00:50:16.109
+Daniel Pereira: and customers. That's infanity. Yeah, that's it.
+
+282
+00:50:17.160 --> 00:50:17.920
+Carlo Scaglia: Thanks.
+
+283
+00:50:18.600 --> 00:50:27.870
+Chloe Lannert: Final question, is there anything that you wish you did or knew about during techstars that you think the group would benefit from hearing.
+
+284
+00:50:28.530 --> 00:50:32.409
+Daniel Pereira: Would have listened to me a little more, or save me some time in pain
+
+285
+00:50:33.060 --> 00:50:35.100
+Daniel Pereira: other than that, though
+
+286
+00:50:40.110 --> 00:50:42.940
+Daniel Pereira: I mean this is still, for now I wish I would shut up a little more
+
+287
+00:50:43.060 --> 00:50:54.640
+Daniel Pereira: honestly in general, both with clients. Listen more with employees taking better ideas like Jeff Bezos always talks about how in meetings he always talks last because he didn't want to influence decisions.
+
+288
+00:50:55.140 --> 00:51:19.820
+Daniel Pereira: or even talk to us with investors. It's part of confidence right? The more you're having it over, explained blah blah, the more it comes off is like, Oh, versus just saying we do this, and we do it really fucking? Well, why? Because we built the best thing in the world for this versus like, Oh, we do. So it's just like that's something I would do. And I think a lot of founders can get in this mode because we love what we do. And we love the things that we're building. And we want to have an opinion and everything right. We want to.
+
+289
+00:51:19.940 --> 00:51:27.760
+Daniel Pereira: But that won't apply to all of you. Right? I'm sure there are people here who are introverts more shy and killer, you know.
+
+290
+00:51:27.910 --> 00:51:32.809
+Daniel Pereira: But if you're more on the naturally evangelist, naturally talkative side.
+
+291
+00:51:33.280 --> 00:51:36.649
+Daniel Pereira: talk a little less. Listen a little more. That's what I would say.
+
+292
+00:51:37.980 --> 00:51:42.160
+Chloe Lannert: Thank you so much. Can folks email you with follow up questions.
+
+293
+00:51:42.160 --> 00:51:45.309
+Daniel Pereira: Yeah, let me send you guys my email right now. So
+
+294
+00:51:45.470 --> 00:51:55.750
+Daniel Pereira: so if I don't respond to the email because I so this week, I'm getting fucking slammed with emails because of automate putting my number and sorry I'm on this like bar school. It's higher than seat
+
+295
+00:51:57.940 --> 00:52:21.449
+Daniel Pereira: and never stop getting scrappy. Guys seriously like don't overspend money after your A's like the bar stools that I'm sitting on right now are the ones from my apartment right? Like stuff like that, like I got never stop getting scrapped right. Don't let it hold you back. Say, Crappy. And yeah, that's my number. You guys can always text me, respond to emails. Just text me, that's what I tell everyone. Just you can spam me. I'm never ignoring on purpose. I just am Adhd and get distracted.
+
+296
+00:52:21.660 --> 00:52:23.200
+Daniel Pereira: So here to be helpful.
+
+297
+00:52:23.810 --> 00:52:29.990
+Chloe Lannert: Dude. Thank you so much for carving out this time. Go evangelize, more super, super grateful.
+
+298
+00:52:30.710 --> 00:52:38.559
+Daniel Pereira: Yeah, for sure, Chloe. Thank you so much. Team. It was a great meeting. Everyone feel free to reach out for whatever. And any intros. Happy to be helpful.
+
+299
+00:52:38.560 --> 00:52:40.350
+Carlo Scaglia: Thanks. Daniel.
+
+300
+00:52:40.700 --> 00:52:41.470
+Vivian @makingautoeasy: Thank you.
+

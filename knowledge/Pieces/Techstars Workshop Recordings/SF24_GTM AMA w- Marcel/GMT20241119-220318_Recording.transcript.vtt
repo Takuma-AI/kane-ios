@@ -1,0 +1,1086 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.230
+Point Reyes: My stuff.
+
+2
+00:00:03.670 --> 00:00:05.110
+Point Reyes: Okay, cool.
+
+3
+00:00:05.800 --> 00:00:21.514
+Point Reyes: And like, I said, like, later on, I could share more resources like, I've done a lot of different types of presentations. And so this is just 1 1 kind of approach that that kinda I'm thinking through. But later on, like, Oh, I'm just gonna fly through a lot of these, and then we can.
+
+4
+00:00:21.870 --> 00:00:47.389
+Point Reyes: we can kind of spend a little bit more time. But I figure what would be maybe worth spending some time is just talking a little bit about my journey. Mostly recently helping to 24 x traffic and 4 X revenue for Deepgram, and kind of how I essentially build our go to market function in a very unique way. I like to call like AI like growth. And you know. And so I think.
+
+5
+00:00:47.460 --> 00:01:12.859
+Point Reyes: regardless of what stage you're at, the the way I kind of think about it is every single knowledge worker, us all included. We'll need to retool ourselves in the next 12 months. Right? And so that presents both an opportunity for for you all building the businesses you're building, but also just the way you're building your company and and I think the the advantage early stage companies right now have is the fact that you can build a company in a very unique way.
+
+6
+00:01:12.860 --> 00:01:36.610
+Point Reyes: And that means like becoming more AI native. That means how you're approaching and tackling the different jobs to be done. You can really start with AI, or you can really think about it in a more native way. Right? But but if you think about the fact that how the world's changing, especially for knowledge workers, and how we, the way you go about doing that work, is going to completely shift in the next 12 to 18 months.
+
+7
+00:01:36.800 --> 00:01:51.779
+Point Reyes: Then if you start to build your company around that, and with those assumptions as you're building a product as you're building your internal operations. It changes everything right. And and that's kind of the journey. We've been helping a lot of people go through, and that I've gone through myself right?
+
+8
+00:01:52.070 --> 00:02:09.819
+Point Reyes: And one way to think about this is if tomorrow, you know, you just had unlimited resources, and you had a hundred people walking into your your office or your virtual office, and ready to go ready to start working for you. How would you even start to delegate what that those people would do for you right.
+
+9
+00:02:09.820 --> 00:02:32.730
+Point Reyes: And usually, when you think about hey, I need 2 people to help me with this, and like, it's kind of easy for our brain to wrap around that when you put 100 or 1,000, it's just like I don't even know how what I do. I don't need 100 go away right? And and that's kind of what's happening right now, I think, with AI and kind of how a lot of people are approaching. It is like they're they're thinking it about it in kind of like a
+
+10
+00:02:32.730 --> 00:02:40.880
+Point Reyes: one dimensional way or in one layer. But but if you think about it as like the ability to just delegate.
+
+11
+00:02:40.880 --> 00:03:04.500
+Point Reyes: You know it really changes how you approach, how you're building your company, how you're building your go to market right like. And so one way to think about it is, if you had to delegate 100 of your job, whether it's your actual job right now as a founder and builder, or as a doing, marketing, or doing sales. What would that look like? Right? And so those are just thought provoking things and super quickly. I'll fly through these slides so we can
+
+12
+00:03:04.500 --> 00:03:20.090
+Point Reyes: have more of a discussion. But a little bit of background on me. Start a career early on at large enterprises like Ibm and HP and build these massive content programs there and and then I was pretty early on, and a few companies ended up growing really fast, like hashicorp.
+
+13
+00:03:20.090 --> 00:03:47.229
+Point Reyes: We were 6 million in arr when I joined. We went from 6 to 100 million in 2 years, from 100 to 500 people in headcount service. Titan. We went from about like 1 25 to about 200 million in arr in about a year at scale. We went from 100 to 300 million in arr, and funny enough at scale. I was marketer number 3. I was our 1st marketing leader, and there was only 2 people in marketing when I joined, and our budget was 0, and we were already past 100 million in arr. So it's like
+
+14
+00:03:47.230 --> 00:03:56.849
+Point Reyes: I've seen a lot of the different things, you know, and then a deep Graham also, they're in the process of raising, probably Crc and and doing super well. And so
+
+15
+00:03:57.160 --> 00:04:21.129
+Point Reyes: and then, more recently started, Growthx and Growthx is kind of like a very unique kind of experience. And I'll talk about it here in a little bit, but we wanted to share a little bit of my journey of becoming a native, if you will, and kind of how we built this content programs. But really, quickly, I'm just going to fly through a lot of these things so that we can have more discussion. I can show things. And we can. You know, this is more just setting the the context, I think hopefully for
+
+16
+00:04:21.130 --> 00:04:27.919
+Point Reyes: for everyone. But along the way people have questions like daniel is just meant monitoring the the.
+
+17
+00:04:27.920 --> 00:04:41.990
+Lilliana Robinson: Yeah, they can let you know, too. And, Marcel, if if I might also just offer one more point of context here. Just so the founders know on the call your wonderful Eir Daniel here, who's worked with all of you now because we're on the 3rd rotation. So he's met all 12 of you.
+
+18
+00:04:42.300 --> 00:04:50.089
+Lilliana Robinson: He messaged us and said, Hey, I see the founders are really struggling with this. I know the perfect person. Let me see if he can give some time. So
+
+19
+00:04:50.090 --> 00:05:14.070
+Lilliana Robinson: Daniel, kind of set this all up based on your needs. This wasn't something that we already had on the calendar. So one, we're very grateful to Daniel for doing that and looking out for your needs and being able to teach you and introduce you to an expert. But also this is extremely tailored to this exact class. So I want everyone's undivided attention and make sure you're thinking about ways that Marcel can help your company for the ama. So that's kind of what we're thinking here.
+
+20
+00:05:14.730 --> 00:05:41.882
+Point Reyes: Awesome. That's super helpful. And like I said, like, there's a lot of context, I think I can hopefully offer of just being advising a lot of companies early on, and being at every essentially stage, from 0 to one all the way to 300 million in arr and everything else in between. And so I think there's a lot of lessons that I wish some founders had earlier days, you know, and and so
+
+21
+00:05:42.350 --> 00:05:43.430
+Point Reyes: but
+
+22
+00:05:43.580 --> 00:05:50.870
+Point Reyes: you know, like, like my, the biggest takeaway, I think from from today. Outside of thinking through your go to market, strategy is really
+
+23
+00:05:50.870 --> 00:06:13.609
+Point Reyes: thinking through, like, how do you become, build an AI native company, that's not to say, go build an AI product. But what I mean is like, how do you apply AI and think differently about every function you're building in your company, you know, and I think there's an opportunity where, without doing the cheap version of just hiring like an AI. Sdr. And 10,000 leads, or something like that.
+
+24
+00:06:13.740 --> 00:06:43.170
+Point Reyes: Exactly. It's it's kind of thinking through it very differently. And I'll give very specific examples of things that we build and that we've done, or that we've seen companies, do, you know, but but a little bit of my journey more recently, right? Like, I kind of ultimately started as thinking through, how do I delegate or eliminate the kind of work that I don't want to do right, and that how I started my kind of my journey with with AI building AI workflows and doing some of these things right. And and I think I thought about it as like, okay, as I
+
+25
+00:06:43.170 --> 00:06:54.760
+Point Reyes: try to delegate away. And one little piece of background. Why, I think what he's showing here might be helpful to some of you, because, like literally, this part of what he's describing.
+
+26
+00:06:55.280 --> 00:07:23.089
+Point Reyes: it was something that I've seen many founders talk about like I only will post on social media when I have something to share. I don't have time for this now, or this is too early in my journey, but things are changing a way that you can start doing these things almost as a side job, and you can increase your reach by a ton, like in many different ways, without burning things. If you know how to do it. And that's basically what Marcel did at Deepgram. And then after this, maybe we'll switch to the
+
+27
+00:07:23.270 --> 00:07:41.340
+Point Reyes: to the Q&A. And then we can go through all the things that you're all sharing, but thinking the way he's thinking, like you are all too early to be like probably spending money with like paid traffic and then doing giant content programs or hiring a bunch of people. But there are things that because of today, you can start
+
+28
+00:07:41.430 --> 00:07:44.469
+Point Reyes: thinking about. And that's kind of what Marcel is showing
+
+29
+00:07:44.510 --> 00:07:52.369
+Point Reyes: background. Yeah, yeah, absolutely. And and I think that the reason this is so important is because
+
+30
+00:07:52.800 --> 00:08:18.900
+Point Reyes: it it's gonna be impossible for you to have 0 things that drain you in in your day to day. But I think if you can figure out ways to buy back your time right? Like, you're the biggest ball in actual business today, right? Your time, the time you have. And so for me that was the biggest unlock for me was figuring out ways with both AI and delegation how to buy back my time, and how to be intention about how I use my time and how to get more leverage
+
+31
+00:08:19.220 --> 00:08:46.220
+Point Reyes: from my time right? And so like, I like this chart as a way to kind of just providing a framework and one of the the quick hacks I actually like to do this is, I think, very important in the stage area. Because, keep in mind. I'm also an early stage founder, you know. We went from 0 to 3 million in arr. Now. You know, pretty close to 3 million in 5 months, you know. And while I still had a day job as a Cmo up until last month, and so, like.
+
+32
+00:08:46.220 --> 00:09:00.070
+Point Reyes: I'm in the same shoes you guys are at, you know, in this journey I'm only 6 months in. But this was very like life, changing as far as like figuring out like what energizes you and what drains you as a founder. If you're constantly doing the draining stuff
+
+33
+00:09:00.070 --> 00:09:14.459
+Point Reyes: eventually, like it's going to suck the creativity and the magic out of the equation, you know. And if you're constantly like trying to tackle a hundred low impact things that are draining, it's also going to not move the needle and and like your ability to just like block your time
+
+34
+00:09:14.460 --> 00:09:36.250
+Point Reyes: like, buy back some time and be intentional about where you're spending time and part of this equation is also like getting leverage with AI as well. Right? Like building AI workflows like replicating our expertise and and finding leverage in your time, you know. And so that's the process I went through. And so then last year, I wanted to just start to apply this to something right? So I started building these AI workflows.
+
+35
+00:09:36.592 --> 00:10:00.937
+Point Reyes: And I won't spend too much time here, because I'm I'm sure not all of you care about necessarily applying AI to to content creation. But the Tldr is like, I started building these AI workflows that just replicated what I would do individually. So there's like chaining together a lot of the Llm. Space chains and and the Tldr. Was like, I built this programmatic over 4,000 pages. And
+
+36
+00:10:01.280 --> 00:10:19.940
+Point Reyes: The the results was that we ended up 24 xing our traffic. And just all this kind of like massive inflection point in the whole business right now, there's a much bigger con like strategy here that I can talk about as well. That wasn't just the content piece that we we did a lot of other things which was like.
+
+37
+00:10:19.940 --> 00:10:49.390
+Point Reyes: you know, started building a startup community. And we started like connecting with influencers and doing kind of content partnerships and like on Twitter, like teaching people how to use. You know, the the Api and the product we're selling, we we started getting product launches to be really, really intentional and amazing. And you know, we there's a bunch of other things we're doing. We did. But this was kind of like the big inflection point right and and pretty quickly, like we just started to see like this massive inflection of
+
+38
+00:10:49.699 --> 00:10:59.929
+Point Reyes: On on all the revenue related things right, like everything from credit card swipes to active, pro paid projects to Api, calls all the way to self, serve revenue and sales lab revenue.
+
+39
+00:10:59.930 --> 00:11:02.009
+Dave Scott: Can you tell us a little bit about what your startup does?
+
+40
+00:11:02.980 --> 00:11:05.097
+Point Reyes: Yeah, yeah, so so this is a
+
+41
+00:11:05.550 --> 00:11:17.839
+Point Reyes: this one, specifically is about deep gram, right? And so I was similar with deep gram, deep gram does voice voice agents and voice api. So speech to text, text, to speech, and overall like essentially think of it like
+
+42
+00:11:17.840 --> 00:11:36.219
+Point Reyes: voice mode as an Api, and so they power a lot of like the the note takers we all use. They power. A lot of contact center automations and a lot of like real time voice agents. That you know whether it's like to automate, drive through, or 9 1 1 calls and things like that, you know and then the
+
+43
+00:11:36.220 --> 00:11:51.049
+Point Reyes: the the the startup that that we're building right now is called growthx.ai, and and like we're, we're kind of AI native services. Essentially building go to market in a more AI native way.
+
+44
+00:11:51.330 --> 00:11:54.210
+Dave Scott: So this one was deep, deep, stack.
+
+45
+00:11:54.686 --> 00:11:55.340
+Point Reyes: Deep ground!
+
+46
+00:11:55.340 --> 00:12:01.300
+Dave Scott: Deep. Graham. Okay? And what's your business model? Just so we can get in context as to these, what these numbers are saying.
+
+47
+00:12:01.650 --> 00:12:23.960
+Point Reyes: Yeah, yeah, absolutely. So with with deep RAM, it's a model as a service in some ways, right? And so it's an Api that that does transcription. Api, that does text to speech. You feed it a text, and it gives you actual speech. And so it's mostly like an infrastructure play. And so there's a lot. But I think a lot of these principles that
+
+48
+00:12:23.970 --> 00:12:26.189
+Point Reyes: that I'm walking through, or things that
+
+49
+00:12:26.240 --> 00:12:32.160
+Point Reyes: there's, you know. I'll mention here in A, in a few slides. There's a lot of other brands that are taking the same approach, you know.
+
+50
+00:12:33.079 --> 00:12:39.540
+Point Reyes: And so the the Tldr here is that by using AI,
+
+51
+00:12:39.750 --> 00:13:06.899
+Point Reyes: we didn't actually hire many people right? This whole program we built. We had one human in the loop which was offshore and AI workflows, and we 30 x our traffic. And we actually sliced our budgets in half in that process. So we were able to like 2 X revenue 3 X revenue without actually spending any additional money, you know. And so so I think that's the the kind of the Tldr. So we started doing these workshops where we're teaching people how to take this approach and
+
+52
+00:13:06.900 --> 00:13:12.740
+Point Reyes: and do the same approach, especially with content and content, is only one place to potentially apply
+
+53
+00:13:12.740 --> 00:13:34.769
+Point Reyes: the this kind of thought process right? But these are the results we're starting to see with both clients and other brands, even the ones we don't work with. They're just like kind of thinking through this more AI led growth approach right? Which I can kind of show you here in a in a second as well. Kind of the the behind the scenes. But we're seeing similar results across the board for for a lot of different different companies. Yeah.
+
+54
+00:13:37.740 --> 00:13:47.749
+Point Reyes: cool. Alright. So what what I mean by this approach is essentially a combination of strategy execution, applying AI to the different jobs to be done.
+
+55
+00:13:47.770 --> 00:13:49.850
+Point Reyes: and and building
+
+56
+00:13:49.970 --> 00:14:03.199
+Point Reyes: like experts in the loop, right as you scale things out right like. And so but but also give me give me context. If there's things here that we want to focus a little bit more on right like. But I wanted to just quickly show you like just
+
+57
+00:14:03.260 --> 00:14:13.569
+Point Reyes: this mentality. Because I think when you start to one thing that I would add as well like, we have people in both, like a lot of people in the program. Now they are more focused on
+
+58
+00:14:13.920 --> 00:14:16.330
+Point Reyes: doing outbound and
+
+59
+00:14:16.950 --> 00:14:32.079
+Point Reyes: like some of some of them, are trying to do like more thought leadership and like thinking about social media. But like, I'm seeing all the numbers in the very, very conservative, because everybody's so strapped for time. And what you did here is like a perfect example of how to do
+
+60
+00:14:32.120 --> 00:14:49.149
+Point Reyes: super scalable things in a high volume with a tiny budget. So the stuff that Marcel is going to show. Now, I think it's 1 example of like what can be done on the marketing side when you're tackling marketing. But the same stuff applied to like sales and other things. So keep that in mind.
+
+61
+00:14:49.670 --> 00:14:57.220
+Point Reyes: Yeah. And I just want to show one example because it's super encouraging. Here. That is
+
+62
+00:14:58.780 --> 00:15:02.670
+Point Reyes: and give me just a second guys, I'm pulling it up so because I want to use
+
+63
+00:15:02.740 --> 00:15:07.469
+Point Reyes: specific example of a company that was exactly in the same stage as you all are.
+
+64
+00:15:07.880 --> 00:15:14.843
+Point Reyes: and that did it all by himself. The CEO did it all by himself. Okay, so give me a second here.
+
+65
+00:15:15.440 --> 00:15:18.549
+Point Reyes: okay, so let me share my screen again.
+
+66
+00:15:21.310 --> 00:15:43.670
+Point Reyes: And so this is the SEO side of things, and the marketing side of things right? And the same mindset applies to to clay, and like other things on the sales side. So so here's an example. So this is Bob. By the way, if anyone wants an introduction like Bob's amazing he came to our 1st workshop and one of the things he did was It
+
+67
+00:15:43.870 --> 00:16:07.420
+Point Reyes: was essentially build programmatically. Build these pages where they're around area codes right? So he build essentially a page for every single area code possible. And that was him understanding his business and being able to set up him manually going and building page at a time, and publishing articles he build like multiple clusters of these pages, right? And
+
+68
+00:16:07.420 --> 00:16:18.340
+Point Reyes: not only did this like completely change. He was at about half a million in arr, and in less than like 6 months. He's now at 1.5 million in arr, now, raising a series a.
+
+69
+00:16:18.340 --> 00:16:39.440
+Point Reyes: And he did this all by himself, without any vendor, without any additional help other than like taking the taking like essentially a workshop. But, like all this, information is like kind of freely available, you know, but it also helped him essentially tweak his product because he was starting to get the audiences and and find additional Icp
+
+70
+00:16:39.440 --> 00:17:04.030
+Point Reyes: based on these people searching for things that he wasn't even thinking about before right? And so it opened up a lot of additional use cases that he wasn't even thinking about. And so in some ways, SEO wasn't just a go to market. SEO is also a way to validate Icp or validate product direction as well. Right? And so it's like a good example here, and I'll just show you kind of some of the things we're doing. And and then again, like just
+
+71
+00:17:04.339 --> 00:17:15.909
+Point Reyes: this might seem a little bit overwhelming at first, st if you're not as as familiar, and don't worry too much about the the tools here, but think about it more as like, hey! How do I take
+
+72
+00:17:16.130 --> 00:17:21.935
+Point Reyes: the things that I would do personally that are bottlenecks? And how do I
+
+73
+00:17:22.440 --> 00:17:40.069
+Point Reyes: replicate them into workflows, or using AI and mixing both AI and human expertise right like. So this is an example of where, let's say you have a topic that you want to write about or pages you want to develop right? One of the things we're doing is like we're taking a lot of these
+
+74
+00:17:40.070 --> 00:17:54.140
+Point Reyes: things that we would do as humans right? So we would go and and just like, read every single page and do research on what's already ranking for those keywords you want to rank. Instead, we're having AI. Go and scrape, and and then write a title.
+
+75
+00:17:54.140 --> 00:18:01.929
+Point Reyes: Come up with a title, and then write an outline and and then write an actual full on article right?
+
+76
+00:18:02.230 --> 00:18:26.540
+Point Reyes: And and now, instead of you starting with 0, or having to spend, you know, 10 h to write an article. Maybe this is getting it to 80%, and you're able to get a lot more leverage out of your time. Right? So again. The reason I'm flying through this and and this is high levels, because there's a lot more like in the in the weeds, and I want to more open up your eyes to what's possible.
+
+77
+00:18:26.789 --> 00:18:34.260
+Point Reyes: Now, let me give you a couple of other examples are more in the outbound and go to market space that you all see like the potential as well. Right?
+
+78
+00:18:34.837 --> 00:18:56.900
+Point Reyes: In in this one, like what we're doing is essentially taking every single call. As it happens, you all have meeting recorders right? Like it's they're super easy, cheap to to have now. And you can start to essentially have Llms. Parse through every single call you have, and be able to dissect like use cases.
+
+79
+00:18:56.960 --> 00:19:01.820
+Point Reyes: The deal structure, the next steps, the technical details.
+
+80
+00:19:02.249 --> 00:19:28.869
+Point Reyes: The summary who participated in the call right? And and that's kind of useful and whatnot. But you can also start to do things where, if you're doing something once now, you don't need to keep doing it again and again, right? And so. Just to give like a very specific example. Here. Sorry. Let me just show you. So now, in this case we're taking all those things in the previous flow which is like all this information from a call you had.
+
+81
+00:19:28.960 --> 00:19:43.160
+Point Reyes: And then it's scraping that prospects website. It's understanding what that prospects use case is. It's enriching that, doing all these things. Then it's taking the transcript. And it's actually writing a really great like next step. And I'll show you. Live
+
+82
+00:19:43.523 --> 00:20:09.660
+Point Reyes: follow up from that right like where it's taking the transcript, the research you did the use cases, the deal structure, all these things. And here in a second, it was essentially, write this perfect. Follow up email right? But this same engine can be applied to outbound. And you know, and you can see here it's mentioning like very specific things from the call right? This is running and saving.
+
+83
+00:20:09.780 --> 00:20:29.880
+Point Reyes: you know. Probably each one of these is at least like an hour worth of work that you no longer need to do or or that it gets you 80 or 9% there, right like, so but but there's a bunch of other examples that later on we can come back to and kind of show you and there's a bunch of other things, for example, on the recruiting front.
+
+84
+00:20:29.880 --> 00:20:34.229
+Lilliana Robinson: Marcel. We have a question on the last thing, Annie.
+
+85
+00:20:34.580 --> 00:20:39.887
+Annie Brown: Yeah, I had a question about the generating AI content the
+
+86
+00:20:40.620 --> 00:20:56.300
+Annie Brown: It's really interesting. I love the the idea of using AI for like Canning, scanning key SEO words. My only question is and why I've been hesitant to use AI for content is because I know Google's algorithm
+
+87
+00:20:56.740 --> 00:21:05.050
+Annie Brown: changes all the time, or it's SEO the way it approaches SEO. And I have read things that basically say like it's
+
+88
+00:21:05.270 --> 00:21:17.659
+Annie Brown: detecting AI generated content and then deprioritizing that. Is there a way to address that as you generate
+
+89
+00:21:17.690 --> 00:21:24.680
+Annie Brown: content, so that generating AI content doesn't actually hurt your SEO.
+
+90
+00:21:25.420 --> 00:21:41.950
+Point Reyes: Yeah, I think that question is kind of twofold, because it's also the same problem that we see with AI Sdrs. So people just think, okay, we're just going to use AI, and it's gonna generate to do all my job and done same thing with outbound. They'll go hire an agency that just do outbound for me, and I forget about it, and
+
+91
+00:21:42.360 --> 00:21:49.013
+Point Reyes: I don't know if them is relevant. But yeah, I think there's you're right. There's 2 sides to this question. I think one side is
+
+92
+00:21:49.420 --> 00:21:50.850
+Point Reyes: part strategy.
+
+93
+00:21:50.930 --> 00:22:16.859
+Point Reyes: And the other part is like, how use technology so so kind of explain a little bit but from just the pure SEO. Put AI aside at the end of the day. What Google and any anything else, what they're trying to solve. For is this thing answering about like a question? And is this the best answer to a question, and is it adding value? Is it useful and relevant, and does it deliver on the thing it says it delivers right. And so, if you say.
+
+94
+00:22:16.910 --> 00:22:42.339
+Point Reyes: you know, this is the ultimate guide to blah blah like. Is this more unique? Is this more useful? Is this relevant? And is this actually what it says? It is right that applies whether it's human, generated, AI generated hybrid of the 2. It doesn't matter right? Like at the end of the day. What matters is that it's that's what it's trying to solve, for it's like no longer like Google is not trying to figure out.
+
+95
+00:22:42.350 --> 00:23:07.329
+Point Reyes: Has AI touched this? These words or not? Right? What it's trying to figure out is like, are people trying to not add value, not be unique, not be useful. And is this authoritative or not right? And there's a lot of different signals. But the one of the big signals is like thinking through is like domain authority. Right? So if you're brand new domain, no one links to you. You have no authority. Obviously, if you go and try to publish 5,000 pages, the likelihood of those things succeeding is extremely
+
+96
+00:23:07.330 --> 00:23:22.040
+Point Reyes: low, and there's a very good chance of you being getting flagged as like spam, because you try to generate 5,000 pages with no authority and no links to you. Right? So that's not. That's also not a good strategy. To begin with. Right now, the approach that
+
+97
+00:23:22.230 --> 00:23:44.579
+Point Reyes: I would recommend is actually thinking through. How? What would I do. If I had unlimited time personally right, I would go, and I would research read a hundred articles on this topic. How would I find those articles? Oh, maybe I'll go find trusted sources. I'll go find the top Podcasters, the top Youtube videos, the top reports on this blah blah, right? Okay? And then what would you do next? Okay, I would plan out
+
+98
+00:23:44.580 --> 00:24:09.540
+Point Reyes: the best answer to this question, and I'll come up with a really good outline, and then I will take that outline and then go check against what's working really well, and what's ranking? Well, and I'll see if I'm missing anything, and then I'll finalize this outline, and then I'll start writing like my notes on what I want to say in each outline. What I want to deliver in each outline right? And I can keep going right. But that's essentially how we've applied AI workflows is not to extract humans from the equation is to argument the things we would do
+
+99
+00:24:09.540 --> 00:24:27.190
+Point Reyes: as humans and to bake in a lot of the expertise into our prompts. And in how we select the inputs, how we process those inputs and things like that. So it's allowing us to do a better job. Not a worse job. And it's not abstracting away the experts from the equation. It's just a different way of approaching it.
+
+100
+00:24:27.580 --> 00:24:29.109
+Annie Brown: Okay. Great. Thank you.
+
+101
+00:24:29.530 --> 00:24:50.159
+Point Reyes: Yeah, yeah, it's the same thing applies also with AI Sdrs, right? I think people are burning through their entire Thames with the wrong approach. And it's the same thing. It's like a shitty, cold email is going to be a shitty cold mail, whether it's sent from a person or AI, you know, a thing that doesn't deliver value is still not going to deliver value. And and I think like
+
+102
+00:24:50.220 --> 00:24:51.899
+Point Reyes: trust is is
+
+103
+00:24:52.270 --> 00:25:03.459
+Point Reyes: trust is distribution is what's really hard to build. And and it's what's ultimately going to drive. I think your your early success in terms of founder led right. And so
+
+104
+00:25:03.610 --> 00:25:12.480
+Point Reyes: the way I kind of think about this is is like, Hey, you're you need to figure out a way to increase your sellable surface area
+
+105
+00:25:12.770 --> 00:25:31.832
+Point Reyes: right? And what I mean by that is like, if someone follows you on Linkedin or on Twitter or someone comes to your website that's like a sellable surface area. That's a sellable signal that you can use right? Going in cold outbounding to someone. It might work up to a certain point. But that's personal, not like
+
+106
+00:25:32.510 --> 00:25:39.090
+Point Reyes: a strategy for 90 plus percent of the businesses that would actually get you to to scale right?
+
+107
+00:25:39.664 --> 00:25:51.520
+Point Reyes: And and so ultimately, what we recommend for a lot of companies early on is like, how can you start to plant seeds and try to grow grow organically? How can you build your founder led brand on social
+
+108
+00:25:51.520 --> 00:26:10.609
+Point Reyes: right and start to take the content that you're creating anyways in order to grow organic and start to actually post content regularly in social. And you can use the AI for both to augment those 2. And then, now that you're starting to get more signals. Now, how can you programmatically turn those signals into opportunities and kind of like. The way I think about this is like
+
+109
+00:26:10.640 --> 00:26:12.579
+Point Reyes: thinking through like what's
+
+110
+00:26:12.830 --> 00:26:19.370
+Point Reyes: what's a good fit versus a bad fit, and what's high intent versus low intent signals. And how do you
+
+111
+00:26:19.370 --> 00:26:33.210
+Point Reyes: essentially action those things programmatically right? Based on that. And you know, like, I'm I'm biased here, because, like, you know, I'm investor in Koala. But there's a bunch of other tools out there that you can use. But it's essentially the idea is like
+
+112
+00:26:33.210 --> 00:26:51.460
+Point Reyes: you capture, start capturing these 1st party signals quickly. You know this costs almost nothing to do right away, you know, and you don't even need a Crm or a Hubspot, or anything, or marketing automation. And then you can start to see, especially if you're in the b 2 b space like you can start to prioritize what great looks like
+
+113
+00:26:51.460 --> 00:26:59.160
+Point Reyes: and start to action. And by 1st party intent, you mean, like website interactions, social media interactions.
+
+114
+00:26:59.290 --> 00:27:24.319
+Point Reyes: Github interactions. Yeah, like, if you're open source, like one of the companies I I talked to for a while is on Structuredio. They had, like millions of downloads, you know, to their open source. And so they're starting to take that open source activity and de-anonymize it, and then go in and hitting up those accounts. Once they solve like a tipping point of usage. Right? And and then you can start to act on those signals.
+
+115
+00:27:24.320 --> 00:27:38.289
+Point Reyes: and then it's no longer like a cold outbound right? It's now like, you're seeing a 30% reply rate instead of like A, you know. Oh, a point 0 1% reply rate. Because you're taking, hey? Someone viewed this page or someone did. This
+
+116
+00:27:38.310 --> 00:28:07.459
+Point Reyes: problem is, if you have 3 people going to your pricing page or 3 people going to your website a day. That's not enough signals to act on right. So that's why you need to go and invest in content and growing your organic reach. Because then you have a bigger pond to fish from, right, and not to say you shouldn't do cold outbound, sure. Go for it. But it's like, if that's the only thing you're focusing on for for a long time. And you're not building your founder brand. And you're not building your trust and reputation. And you're not growing organically your website traffic.
+
+117
+00:28:07.460 --> 00:28:29.569
+Point Reyes: Then at some point that wall is going to dry. And it's gonna be pretty brutal, right? And so so if you can have more of diversified approach to it. It's gonna pay off right? And then you can start to build automation. And these types of things right like anytime, somebody visits this page or does this, then it automatically does. XY, and Z, you know. And then you can start to build these kind of like
+
+118
+00:28:29.750 --> 00:28:50.520
+Point Reyes: automated outbound, like what I show where you scrape a website, you send a very personalized 1st touch emails and and things like that right like. And so so anyways like, that's the the Tldr. But with that I can also go into a lot more detail on a lot of these things, or or kind of answer more of the specific questions. Folks folks have as well.
+
+119
+00:28:51.290 --> 00:28:55.599
+Lilliana Robinson: Amazing. Thank you, Marcel, so let's open it up.
+
+120
+00:28:55.610 --> 00:29:02.259
+Lilliana Robinson: I also know. Daniel has some questions he knows would be relevant if there aren't questions from the group. But
+
+121
+00:29:02.600 --> 00:29:05.009
+Lilliana Robinson: what have you guys kind of thought about
+
+122
+00:29:05.320 --> 00:29:08.270
+Lilliana Robinson: in the past 30 min that Marcel can help with?
+
+123
+00:29:17.570 --> 00:29:19.879
+Lilliana Robinson: Yeah, Dave, you get 1st pick.
+
+124
+00:29:21.050 --> 00:29:29.740
+Dave Scott: Thanks, Marcel. I just wanna make sure I understand. So are you advocating that we use AI to increase productivity or to increase organic growth.
+
+125
+00:29:29.930 --> 00:29:34.710
+Dave Scott: or both, cause I think I kind of saw examples of both, and I was a little confused.
+
+126
+00:29:35.860 --> 00:29:40.050
+Point Reyes: Yeah. So I would say.
+
+127
+00:29:40.900 --> 00:29:51.990
+Point Reyes: my, the biggest takeaway is as you're building your company, you should take a more AI native approach to how you build your company, which is like, don't try to solve and scale the way you would
+
+128
+00:29:52.190 --> 00:29:53.259
+Point Reyes: free AI.
+
+129
+00:29:53.450 --> 00:29:58.870
+Point Reyes: And and if the way you're hiring the way you're scaling the way you're doing stuff is the same.
+
+130
+00:29:59.100 --> 00:30:19.880
+Point Reyes: you know, as most people were doing in your position 3 years ago, and you're probably doing something wrong. And you're gonna fall behind right? Because there's people that are gaining a lot more leverage on their time and a lot more leverage on their expertise, you know, and I think that mentality can be applied to both. How you go to market as well as internal productivity, and how you approach things right. And so, for example, internally.
+
+131
+00:30:19.910 --> 00:30:44.639
+Point Reyes: we needed to hire managing editors, and we posted the job, and we got 2,000 applicants, and we had a recruiter that we were paying 100 bucks an hour, and was just fucking, reviewing noise all day. And we're like, this is stupid like, you know, this is not going to scale. So Daniel helped build the workflow. We improved our job descriptions. We we then essentially created a workflow that would vet and essentially like, exclude the bottom 50%.
+
+132
+00:30:44.640 --> 00:31:08.999
+Point Reyes: And then the second part, we did a video part of interviews. So now no longer like requires us to book meetings. And then the Tldr. Of all that was AI plus expertise. And and now we had 4 offers accepted this week, and so we went from 2,000 applicants to 4 offers, and it took me about a total of 10 h of interviews to get that to that point. A couple of examples of like companies that I've worked with in our cohort that we have like
+
+133
+00:31:09.374 --> 00:31:15.939
+Point Reyes: large lists. And we're like, Oh, we're gonna send. I need. It takes me like hours to to
+
+134
+00:31:15.980 --> 00:31:42.389
+Point Reyes: triage this, or to research this lead, or to figure out what this company does and to do outreach. And and the numbers are always very small. It's like you guys are always talking about. I'm gonna do one post a day or one post a week, or I'm going to do 10 outreaches this week and like, can you do more like? Can you think out of the box and figure out ways to do this in a different way? If you spend a lot of time understanding this kind of stuff that Marcel was talking about. But
+
+135
+00:31:43.377 --> 00:32:10.849
+Point Reyes: so there's like a lot of things that I think you all could be a lot more aggressive these days where those tools become available to everyone before you have any money. But the one thing that another question that, I think, is like top of mind for me. Is that a lot of the companies here Pre product market fit, and everybody's like pre revenue as well, and a lot of every like most people are thinking about. I'm gonna spend time
+
+136
+00:32:10.960 --> 00:32:31.809
+Point Reyes: on Gtm. Or spend time in marketing, spend time in like building my reputation and all this stuff later on. How do you see like? What do you think is the right balance? How much time you should spend on like figuring out product markets it because you've seen that from many angles, from you people that you advise, and for companies that you join post product market fit already.
+
+137
+00:32:32.384 --> 00:32:36.830
+Point Reyes: Yeah, I mean, there's, I think, a lot of shortcuts on
+
+138
+00:32:38.000 --> 00:32:42.220
+Point Reyes: Maybe shortcut is the wrong word. But I think smarter ways to find product market fit.
+
+139
+00:32:42.230 --> 00:33:10.860
+Point Reyes: then, I think, are one way is, if you're starting to build your reputation, and hopefully you have some expertise or some internal insight into what you're trying to build. I think if not, you should probably go gain that right like, if you're trying to. You know, if you're near a certain space, and you have 0 knowledge of that space or that vertical. And you have like, you know, and you've never even worked in that space, or vertical, or or use case or whatever like, then it's a little bit harder. But let's just assume
+
+140
+00:33:11.020 --> 00:33:31.629
+Point Reyes: that you actually have some insider knowledge or some unique perspective into what you're trying to do right? Then I think part of the journey at least, how how I've done it is just like genuinely sharing insights and information, and just talking to a lot of people, and you know, and then sharing the lessons you're learning is kind of like building in public in a lot of ways.
+
+141
+00:33:31.630 --> 00:33:47.466
+Point Reyes: And hopefully, you are either an expert in the space or you're starting to position yourself as an expert because you're learning faster than anyone else. Right? So so maybe we can use an example. Here. Is there is there one that we can use? Let's see.
+
+142
+00:33:47.820 --> 00:33:52.830
+Point Reyes: we have quite a few help blocks. Can you guys tell me what you do?
+
+143
+00:33:52.830 --> 00:33:53.769
+Lilliana Robinson: Yeah. Near it.
+
+144
+00:33:54.540 --> 00:33:55.809
+Lilliana Robinson: Are you able to unmute.
+
+145
+00:33:55.810 --> 00:34:01.289
+Nirat Attri: So, yeah, so we are a b 2 b platform, and we provide
+
+146
+00:34:01.380 --> 00:34:09.800
+Nirat Attri: ehr, like, electronic health record orchestration workflows for doctors and medical device companies or medical service companies.
+
+147
+00:34:09.800 --> 00:34:14.903
+Point Reyes: Okay, so medical devices. And you said, What else?
+
+148
+00:34:16.121 --> 00:34:26.019
+Nirat Attri: Doctors, medical service organizations, basically, anybody who works with health record systems, we allow them to build clinical workflows around them.
+
+149
+00:34:26.730 --> 00:34:48.639
+Point Reyes: Okay, perfect. So you're trying to figure out what are the pain points for for those you know doctors or practices, or you know and and hopefully, like you're talking to a bunch of people in the space. And that's part of your process for for Icp right finding Icp and finding product market fit and building your product. You have to talk to a lot of people. Well, hopefully. 1st of all, you're recording all those calls.
+
+150
+00:34:48.639 --> 00:35:11.790
+Point Reyes: Second, instead of doing outbound and try to sell something you can use outbound to essentially accelerate how you're connecting to those people, and how you're lending those interviews right? And and then. Now you can start taking those transcripts, and you can start taking those transcripts and having a guy help you process the insights from those transcripts right? And and then starting to like kind of group, those things, those insights together.
+
+151
+00:35:11.790 --> 00:35:25.109
+Point Reyes: So, for example, when I was at upkeep, I had 2 Sdrs and that we used. And we did 200 interviews today. If I had the tools that we had today, I wouldn't have needed 2 2 Sdrs. Full time doing this for 2 months. But we did 200 interviews
+
+152
+00:35:25.110 --> 00:35:45.709
+Point Reyes: and those interviews, those transcripts would have been like a gold mine right like. And so that's kind of how I would approach is like to to use AI to go deeper into learning the space, learning your Icp or learning your personas that you're thinking about solving pain points for use. AI to accelerate how you're getting in front of them, and how you're collecting that information. Use AI to help process
+
+153
+00:35:45.710 --> 00:35:53.660
+Point Reyes: right? And now, all of a sudden, you have like this pool of information and unique insights that can help drive both the content you're creating.
+
+154
+00:35:53.660 --> 00:36:18.629
+Point Reyes: And now, as you're learning those things, and you're accelerating those learnings, you can also use AI to start generating some social posts right? And and now it becomes this kind of reinforcing engine, right? Like you have an AI that helps you land a ton of really interesting interviews with the right people which, by the way, in the process of building, having those interviews and asking people hopefully, you're building relationships that later on you can sell to right. And you're also sharing learnings with them that you've already had from
+
+155
+00:36:18.630 --> 00:36:30.260
+Point Reyes: interviews. You're taking those learnings. They're turning into social posts and content and insights is driving a roadmap as you're building your roadmap, you're also sharing insights based on that. Now you're seeking a certain
+
+156
+00:36:30.260 --> 00:36:55.089
+Point Reyes: people to continue to do those research and validate that, and to sell them to. And now you have this kind of reinforcing cycle right like. That's how I approach. Everything is like, think of it like, how do you build it so that it's reinforcing? And and how do you like try to abstract yourself from the equation and only insert yourself in the areas where you have the most leverage, you know. And then how do you scale things using AI and automation, you know, hopefully, that helps a little bit.
+
+157
+00:36:57.180 --> 00:37:25.359
+Nirat Attri: I think, one question which will be shared across like with Morgan as well on that front is I think our end users are not really on these traditional channels that AI could like be leveraged. And like. So, for example, I'm not going to find most of my customers on Linkedin. I'm more likely to find them on a place like a medical conference, for example. And like, that's where, like the content generation aspect like, how do we? How do we source like, how do we get those people to actually
+
+158
+00:37:25.390 --> 00:37:28.699
+Nirat Attri: get onto that content? That's like a challenge that we are facing.
+
+159
+00:37:28.700 --> 00:37:48.620
+Point Reyes: Let me just show you a quick example here, right I was actually building something kind of similar, really quickly for for ramp. It's kind of cool, but they. They wanted to take every single conference that they would sponsor, and they then wanted to take everyone that was listed in the conference.
+
+160
+00:37:48.720 --> 00:37:53.899
+Point Reyes: and then, like every person, every other brand that was sponsoring that conference.
+
+161
+00:37:54.300 --> 00:38:12.679
+Point Reyes: And then they wanted to do like a custom like outreach to them. Essentially, this is a very basic one, right? Like, Hey, there, I see that city treasures and trade solutions, teams attending this conference in Nashville with both organizations focus like anyways, this email can be a lot better. But you get the idea right? Like you can.
+
+162
+00:38:12.740 --> 00:38:35.170
+Point Reyes: you know, regardless of where it is. I think you can find very creative ways to to go fetch that information and go, you know, be creative, and how to get in front of them like in this case. How would you do like, I think, like Morgan, and like a bunch of other people in our cohort, you're trying to figure out how they do reputation because they have not like they have an empty Linkedin
+
+163
+00:38:35.170 --> 00:38:48.699
+Point Reyes: the there's no domain, there's no no recognition of their brand. Yet how would you go by like sending? What do you send 1st like if you're gonna do an outbound like this like, for example, he has a list of 1,500
+
+164
+00:38:49.572 --> 00:38:54.370
+Point Reyes: companies, private equity companies that you could reach out to, but
+
+165
+00:38:54.550 --> 00:39:08.099
+Point Reyes: same thing with a bunch of other companies in our cohort that they have lists, or they know who to reach out. But if they reached out like you either get nothing back, or the people are too busy that you have, like 2 layers of staff before you can actually
+
+166
+00:39:08.130 --> 00:39:15.739
+Point Reyes: reach out the person that the email is the the address. So like, how do you break the the wall. In this cases
+
+167
+00:39:16.110 --> 00:39:26.390
+Point Reyes: you have any. I mean, the I think there's 2 ways trying to figure this out is like, one is potentially multi step right. It's like, who do those people trust.
+
+168
+00:39:26.640 --> 00:39:30.229
+Point Reyes: And can you get to those people 1st in in?
+
+169
+00:39:30.330 --> 00:39:35.069
+Point Reyes: But I think that more scalable way is figuring out what's in it for them.
+
+170
+00:39:35.560 --> 00:39:40.793
+Point Reyes: and what value can you deliver to them? Right? And so
+
+171
+00:39:41.630 --> 00:40:08.039
+Point Reyes: it like people like feeling good about themselves, and and they also like, if you can play to their ego and or you can, you can position. This is not like, Hey, an early stage founder don't have a product yet. Can you give me your time for free? And you don't even know who I am? And and I'm just an extract a bunch of information from you from your busy day, and there's nothing in it for you like that's a very bad value proposition, right? Like. So you gotta get creative, like.
+
+172
+00:40:08.040 --> 00:40:14.010
+Point Reyes: you know, part of that is like, I don't know. Even if money is, there's not a lot of money you can say, Hey.
+
+173
+00:40:14.010 --> 00:40:41.559
+Point Reyes: you know you can be pretty transparent, and it's like, Hey, I'm in this journey. This is like my story. This is why I give a shit about this space. This is why I actually try to do something in this space and solve a pain point. And these are the people I've talked to. And it's the kind of pain point, and in exchange for your time I would love to like you know, I'm pulling together this report. We're doing 100 of these interviews, and I would love to share that with you as well. And it's going to tell you like not just
+
+174
+00:40:41.560 --> 00:40:59.429
+Point Reyes: their pain points, but how they're approaching it, and best practices. And I'm compiling it as part of this process, right? So now there's something in it for them, and you land with like a story, a genuine story of why you give a shit about their space, you know. Anyways like that's kind of how I would approach it right? It's just like, be genuine, and and
+
+175
+00:40:59.550 --> 00:41:08.439
+Point Reyes: put put yourself in their shoes, and if it's a bad deal for them, you know, like make it a good deal for them, so that it's like a little bit easier. Make it easier for them to say yes, you know.
+
+176
+00:41:11.620 --> 00:41:15.529
+Point Reyes: See, you have your hand raised as well. I don't know if you wanted to.
+
+177
+00:41:18.700 --> 00:41:23.200
+Annie Brown: Okay, yes. Yes, I had a question because I
+
+178
+00:41:25.140 --> 00:41:29.289
+Annie Brown: I love doing thought leadership stuff. I I love sharing. But
+
+179
+00:41:29.510 --> 00:41:35.689
+Annie Brown: I am always almost hyper concerned on Linkedin, because
+
+180
+00:41:35.890 --> 00:41:48.216
+Annie Brown: I see so many cringy posts that I just absolutely can't stand. And I'd like want to avoid being one of those cringey posts at at all costs. I was wondering, like,
+
+181
+00:41:49.160 --> 00:41:51.360
+Annie Brown: you know, if you've seen
+
+182
+00:41:52.190 --> 00:42:00.970
+Annie Brown: ways of approaching Linkedin posts, because because also, you know, kind of same to the SEO, like there are ones where I can tell it was generated by AI. And
+
+183
+00:42:01.140 --> 00:42:04.770
+Annie Brown: you know it's it's providing value. But it's
+
+184
+00:42:05.220 --> 00:42:08.765
+Annie Brown: it's really long. It's kind of in in your face.
+
+185
+00:42:09.690 --> 00:42:12.507
+Annie Brown: I I don't know it, it seems
+
+186
+00:42:12.950 --> 00:42:19.089
+Annie Brown: very markety. So yeah, just curious. If you've seen best practices, or you have examples of
+
+187
+00:42:19.320 --> 00:42:24.105
+Annie Brown: ways to use Linkedin and make Linkedin posts that avoid
+
+188
+00:42:26.038 --> 00:42:30.020
+Point Reyes: You know, I think we all know what kind of that those bad Linkedin posts are.
+
+189
+00:42:31.140 --> 00:42:33.760
+Point Reyes: Yeah, I think
+
+190
+00:42:34.470 --> 00:42:41.690
+Point Reyes: I'm trying to find an example. Then I'll share my screen. Give me a second here. So the
+
+191
+00:42:42.920 --> 00:42:53.600
+Point Reyes: like. I had a few that that did really well but but like the tactic that I've used personally, because it was kind of a similar boat like, I don't want to be cringe
+
+192
+00:42:53.660 --> 00:43:10.550
+Point Reyes: cringy, or anything like that so often like, I'll build something that's valuable, or I'll pull together something that's extremely valuable that people want, and it's just like something I could sell. But instead of selling. It can be a resource. It can be like a micro tool you build. It can even be like
+
+193
+00:43:10.550 --> 00:43:28.509
+Point Reyes: something that you're turning into a product. But maybe you're giving away a slice of it, you know. This is a great example. When I was a deep gram, obviously deep gram, this transcription right. We had this thing on our homepage for over a year. You could go on the homepage. You can upload any file and hit. Transcribe. It'll transcribe it for free
+
+194
+00:43:28.520 --> 00:43:30.539
+Point Reyes: and very fast and very good.
+
+195
+00:43:30.650 --> 00:43:49.109
+Point Reyes: and I was like we would get no traction. So I put this on a on a separate page called free transcription tools, and that feature was also free and available and not gated. And then, instead of just posting a link on Linkedin, I was just like, Hey, everyone! We're giving away free transcription forever. And that was the hook. Right? You're probably well, what
+
+196
+00:43:49.140 --> 00:44:09.539
+Point Reyes: we were already doing that for over a year. Right? So nothing changed here. It was just packaged slightly different. And there's like, Hey, we're really good at this thing. And so we're giving it away. This tool because we're that good but we're not ready to release it to the world yet. But if you come below I'll share a link with you for you to try it out unlimited, and just ask for you to give me some feedback right?
+
+197
+00:44:09.540 --> 00:44:32.140
+Point Reyes: And we got 890 comments from this, you know. And then from those people I created some automation, using Phantom Buster to automatically send them a note, and then I had an Ea help me answer questions and things like that, and then like it really took off. And you know, like, and and this was all lead magnet, because from those people. I then was upselling them into my workshop.
+
+198
+00:44:32.260 --> 00:44:51.199
+Point Reyes: you know. And then the workshop was actually my my front end offer. And then people that attended my workshop turned into customers right? And so it's like a multi tier. Step right like I'm doing these lead magnets as my like hook. And then from these lead magnets. The process of me sending them a link requires them. And then here's the hack, right.
+
+199
+00:44:51.240 --> 00:45:00.560
+Point Reyes: people that, like Linkedin, has different ways of doing signals. Each network is pretty different, right like. But but Linkedin has different things that they consider stronger signals. A common is pretty strong.
+
+200
+00:45:01.350 --> 00:45:15.499
+Point Reyes: a reply to an individual. DM, message is like the strongest. So like, try this. Take a friend that you haven't seen a post from that you actually know personally, and and tell them, hey, I want to try something on Linkedin and send that friend a message on Linkedin
+
+201
+00:45:15.847 --> 00:45:20.630
+Point Reyes: and then watch. The next week all their posts are going to start showing up at the top of your feed
+
+202
+00:45:20.770 --> 00:45:23.060
+Point Reyes: after you have a back and forth message.
+
+203
+00:45:23.720 --> 00:45:24.550
+Annie Brown: Oh!
+
+204
+00:45:24.550 --> 00:45:49.139
+Point Reyes: And so so this is essentially a hack of being like, hey? In order for you to get this thing that I'm offering you for free. You have to reply to my message or a DM. You have to send me a DM. Or I'll send you a DM. You have to reply, you know, and then use automation to do that. But now, all of a sudden, all these people are paying attention to you a lot more, and seeing a lot of your posts a lot more, and then you do a follow up after you've given them value right where it's just like holy shit. This is amazing. This is awesome.
+
+205
+00:45:49.140 --> 00:46:11.179
+Point Reyes: Hey? By the way, the only thing I ask is for you to just give me feedback, and then they come back and give you feedback on the tool. And you're like, Oh, this is great. By the way, I'm doing a workshop right. And even if nothing comes out of that. It was still a huge value exchange. You gave him a lot more value than you extracted, you know, and now they keep that in their mind. And they're like, Okay, anytime you post. They're like, Oh, I really like Marcel. Marcel always gives me a lot of value and doesn't ask a lot in return.
+
+206
+00:46:11.180 --> 00:46:11.590
+Annie Brown: Well.
+
+207
+00:46:11.590 --> 00:46:25.609
+Point Reyes: Like you're you're building up your piggy bank of value if you deliver and trust and and credibility, you know, and then you can draw from that piggy bank. But then, like, if you start a negative or a 0, and then you're sending people a cold outbound, you know, it's not. Gonna it's not gonna.
+
+208
+00:46:25.610 --> 00:46:45.469
+Annie Brown: Yeah, no, that makes a lot of sense. And I and I love those tips because I was wondering why people are asking for the the DM stuff. So that makes a lot more sense. And then do you do you have an example of a post that's not related to like a tool like something that's like, I, you know, didn't like necessarily create something. But I just wrote a post that
+
+209
+00:46:45.530 --> 00:46:46.630
+Annie Brown: did well.
+
+210
+00:46:48.830 --> 00:46:55.959
+Point Reyes: yeah, like, I try to share things that are working for me like, here's an example, like, you know, some some tools that I really love.
+
+211
+00:46:56.970 --> 00:47:09.450
+Point Reyes: Buster and screen studio and geekbod, you know, or or if I built something here like this one was like, I I just literally like.
+
+212
+00:47:09.500 --> 00:47:13.959
+Point Reyes: did a 5 min video in between meetings. And it's just like, here's what I build. This is how I'm doing this thing, you know.
+
+213
+00:47:13.960 --> 00:47:14.480
+Annie Brown: Okay.
+
+214
+00:47:14.480 --> 00:47:18.310
+Point Reyes: Like sharing the learnings right like this slide. Just showed you this slide right like.
+
+215
+00:47:18.310 --> 00:47:21.019
+Annie Brown: Are you? Are you making those videos on loom.
+
+216
+00:47:22.570 --> 00:47:30.840
+Point Reyes: No, it's actually the tool, you see, like, I was making these videos and people, oh, this is really cool. What software did you see, do this video. And I was like, Oh, it's screen studios. Then I did a post about.
+
+217
+00:47:31.140 --> 00:47:32.620
+Annie Brown: Oh, okay. Cool.
+
+218
+00:47:32.620 --> 00:47:38.699
+Point Reyes: You know. But so you see that that's the point, right? Like I'm adding value because it's the thing I wish I knew about before. And it's
+
+219
+00:47:38.700 --> 00:47:39.230
+Point Reyes: yeah.
+
+220
+00:47:39.520 --> 00:47:49.970
+Point Reyes: you know, and it's like this, really cool. You see how it zooms in automatically. And it's like cuts down like. So so it's like you're trying to add value. You got to know your audience. Obviously, you.
+
+221
+00:47:49.970 --> 00:47:50.560
+Annie Brown: Yeah.
+
+222
+00:47:50.845 --> 00:48:05.690
+Point Reyes: But I think one thing I would say is a lot of pretty much. It was a requirement for a cohort. Everybody to do a ton of jobs to be done. Interviews I haven't seen a single article or single post like sharing. Hey? This is what I learned, you know, so.
+
+223
+00:48:05.690 --> 00:48:07.450
+Dave Scott: Hold on seriously.
+
+224
+00:48:08.447 --> 00:48:17.899
+Dave Scott: Not only did I do that. I wrote a whole blog about it. And I now have a podcast where I'm doing with all my customers. Weekly basis.
+
+225
+00:48:17.900 --> 00:48:20.358
+Point Reyes: They're loving this. I love it so.
+
+226
+00:48:20.710 --> 00:48:21.770
+Dave Scott: I'll send it to you.
+
+227
+00:48:22.490 --> 00:48:47.139
+Point Reyes: What was your experience like now? Like like, what? What do you like? Dave is the one that, like he has a reddit community with thousands of people like, I think he's he's like way ahead on the marketing side than most most people. Yeah, like a lot of us. They were still figuring out like, How do I build reputation? And like a lot of the probably research that they did, I think, is like a huge amount of research that almost nobody has.
+
+228
+00:48:47.140 --> 00:48:54.440
+Point Reyes: And just from that you can plug lead magnets. You can block a bunch of stuff for like months of content, you know.
+
+229
+00:48:54.440 --> 00:49:07.099
+Point Reyes: like, I say, like in that and that post that you did like a lot of a lot of people in our small one off things. But you have the whole play game on how we would convert that
+
+230
+00:49:07.120 --> 00:49:34.367
+Point Reyes: those posts into like you have a Ea to go through the people that did things. You had a phantom Buster to get the needs. So you had how to turn the post into value. And like another thing that I've seen you do a ton. Is that delegate to like Eas, for example, like hire, a cheaper labor that you can. You can do things in more more like some of us were like some of companies we have on the core, like, for example, they're doing. They would like to find
+
+231
+00:49:35.201 --> 00:49:49.470
+Point Reyes: host of Airbnb. That's super hard to find, because you don't have the name of the company. But I bet if you could narrow down the have a Ea go through the the whole thing and find the companies that are hosting. That's something that I would personally have
+
+232
+00:49:49.620 --> 00:49:56.630
+Point Reyes: have to do or like before even doing automations and and do like 1 1 off 2 or 2 days.
+
+233
+00:49:57.470 --> 00:50:02.940
+Point Reyes: Yeah, like, I think the remember the slides I talked about like
+
+234
+00:50:02.950 --> 00:50:18.440
+Point Reyes: thinking about like the signals, right? Like a website. Visitor is a signal. But another signal is an engagement in your social post. So so, Phantom Buster, for example, has this thing where? And I mean, there's a bunch of other tools. Phantom Buster is just one of them. But where anyone that engages with either your post
+
+235
+00:50:18.440 --> 00:50:38.366
+Point Reyes: for someone else's post, you can give it a link, and it'll automatically export that list into Phantom Buster. And then you create a cadence to automatically either connect with them or or extract that late list in in a bunch of others right? Like. So there's other things you can do as well like if you're doing. Things are more like around like local businesses like
+
+236
+00:50:38.660 --> 00:50:39.350
+Point Reyes: like
+
+237
+00:50:39.540 --> 00:51:07.110
+Point Reyes: Google Maps or Google, local business Api like, allows you to extract any review of any business and any information from any business. So any information that you can find on Google Maps can be extracted via Api. You know, there are like so many different scraping tools out there so many ways to get data out of places like. So when we were, I'll give you an example. When we were service site and we were selling to Hvac shops and plumber plumbing shops and things like that.
+
+238
+00:51:07.110 --> 00:51:27.010
+Point Reyes: Well, that information is not available. We can't go buy zoom info, or clear bit for that shit right like. So we had to. Literally, we had a team of like what we call Ldrs lead development reps. And now with AI you could have automated. And with voice, AI! You could have automated even further, and their entire jobs was like we would take yelp at the time and and scrape yelp businesses
+
+239
+00:51:27.040 --> 00:51:35.870
+Point Reyes: and then enrich that information. Clean up that information to come up with a list of target potential accounts to go after. And then the Ldrs would call each one of them.
+
+240
+00:51:35.870 --> 00:52:00.269
+Point Reyes: and they would pretend to be a potential customer, and they would ask them, Hey, by the way, do you guys do residential or commercial. That was one of their qualifications. They only focus on residential. Oh, cool, cool and how many technicians you guys have, and literally like the front desk person would like give away all this information right? And so they were essentially doing like a prequalification and all that right. But then they also found out that, like, Hey, the way to get a lot of these lists even easier and better.
+
+241
+00:52:00.270 --> 00:52:28.710
+Point Reyes: is if we had warm intro from these organizations like, there's like this, forget something, star or whatever like these, these essentially groups that these people belong to right. And and so then they did partnerships with them, and then, in exchange for those partnerships, they gave some rep share, but then they got their entire list of people, and then they hit up those people, and that whole motion was called warm, outbound instead of cold, outbound. And so with warm outbound is like, Hey, we're part of this organization. We partner with them. And in exchange we're giving like this thing. And there's all these other members here. They're already
+
+242
+00:52:28.710 --> 00:52:52.999
+Point Reyes: taking advantage of it. And, by the way, there's this other Hvac shop just next door to you. They're going to eat your lunch if you don't sign up with us because they're doing XY. And Z, and you're not doing XY, and z right like. And so that's examples of like brute forcing, doing whatever the fuck it takes to just like, get there and getting creative, you know. And if you're more scrappy and more creative and more resourceful in that, you're just, gonna you know, get ahead a lot faster. And and you know.
+
+243
+00:52:53.140 --> 00:52:55.879
+Point Reyes: yeah, hopefully, that helps.
+
+244
+00:52:56.990 --> 00:53:26.940
+Lilliana Robinson: Amazing. Okay, this has been such a fruitful hour. I hope that Marcel, you and Daniel can feel how much you've helped the founders here. I love the engagement. We have 4 min, I'm thinking. If there's 1 final question, I see that there are a couple more challenges that were in the chat. I don't know if Nick or Morgan you guys want to ask your question from the challenge, and maybe we can just do like a rapid fire answer from Marcel before we hit time. Who wants it? Who wants the final question.
+
+245
+00:53:28.440 --> 00:53:29.320
+Point Reyes: No pressure.
+
+246
+00:53:31.030 --> 00:53:34.190
+Lilliana Robinson: You already wrote chats. Okay. Morgan Series.
+
+247
+00:53:34.370 --> 00:53:51.609
+Morgan Stanton: Okay. So Neera touched on a little bit like, I'm often going after biotech and pharma. And they're definitely very traditional, very old, like a lot of lunches, coffees kind of bought. So how do you use like what you've been saying to kind of make inroads with them? Right? I can only go to so many dinners and lunches in a week.
+
+248
+00:53:52.290 --> 00:53:53.443
+Point Reyes: Yeah, yeah,
+
+249
+00:53:54.810 --> 00:54:04.860
+Point Reyes: okay, like, let's take biotech, right? Is there a pain point or something that you feel like everyone in your in your Icp is experiencing.
+
+250
+00:54:07.510 --> 00:54:13.670
+Morgan Stanton: All right. It's always trying to reduce, reduce the time and cost to get any drug to market. That's like everyone's pain point.
+
+251
+00:54:14.250 --> 00:54:18.799
+Point Reyes: Yeah. And so so like, maybe there's an angle there where.
+
+252
+00:54:18.840 --> 00:54:33.529
+Point Reyes: you know like it, you gotta find that hook. The thing that just resonates and gets people like kind of going like this, you know. And and if there's a ways for you to be the connector for ways instead of just like like you said, like attending dinners or whatnot like
+
+253
+00:54:33.530 --> 00:54:53.570
+Point Reyes: starting to aggregate that information, talk to a lot of people, aggregate that information, and then create resources that are extremely helpful, that eventually will lead to your product. But even if it doesn't lead to your product, it leads to you like that's already a win right like, even if it almost has nothing to do with your product in some ways, as long as it's building reputation and trust within that space.
+
+254
+00:54:53.570 --> 00:55:10.790
+Point Reyes: It's still worth it, right like and and like, I would start doing things that that would just like, put you in the conversation and give you a unique angle and and insight, you know. I know that's kind of a maybe a little bit vague. But then the the other piece here is like?
+
+255
+00:55:10.860 --> 00:55:36.616
+Point Reyes: Are there unique sources of information that you can be the broker to, or that you can find, or or that you can be the kind of this value, valuable person that's giving them insights or teaching them something new about their business, that they didn't even think about it right, or teaching whatever it might be right like, it's like, how do I build trust? First, st before I try to monetize my my trust or my distribution? Maybe a good example of that is what you're doing with the Cmo,
+
+256
+00:55:36.900 --> 00:56:01.519
+Point Reyes: yeah, yeah. Like, I've been hosting breakfast, you know. They're fairly inexpensive. And we have a Co. Working space that we pay almost nothing to to use. You know very little, and that gives us access to shared space. And then we find brands that have money and and or Vcs that actually pay for it. So then the breakfast are free essentially, and then we invite people, and then each breakfast
+
+257
+00:56:01.580 --> 00:56:19.330
+Point Reyes: we? I try to invite 80% of the same people, and then 20% new. And so then, like half of the people there already know me really well already knows really well, and you know, like that makes it a lot easier. I you know things are repeatable so that gets easier each time. And that helps like kind of, you know.
+
+258
+00:56:19.600 --> 00:56:34.459
+Point Reyes: aggregate things, you know. Or maybe it's like, Hey, that doesn't exist for farmer or and maybe you become the person organizing the groups and the meetups and the or you become a connector right? Like you're connecting with people. And then you're introducing them to someone that that will help them, or something.
+
+259
+00:56:35.360 --> 00:56:44.239
+Morgan Stanton: I've found Pharma companies are very secretive. So when I do find a little piece of information they don't want shared, and I do share it. People get excited. It's like, Oh, we didn't know.
+
+260
+00:56:44.240 --> 00:56:46.059
+Point Reyes: Oh, yeah. Yeah.
+
+261
+00:56:46.425 --> 00:56:48.984
+Morgan Stanton: Try to leverage that a bit more.
+
+262
+00:56:49.350 --> 00:56:49.860
+Lilliana Robinson: Awesome.
+
+263
+00:56:49.860 --> 00:56:55.578
+Point Reyes: Yeah, just do an outbound campaign and put the word Rfk. In the title, and then you reply.
+
+264
+00:56:57.997 --> 00:56:58.752
+Morgan Stanton: Thank you.
+
+265
+00:56:59.130 --> 00:57:02.289
+Point Reyes: Highest reply. Rate, or open rates in history of outbound.
+
+266
+00:57:03.490 --> 00:57:29.000
+Lilliana Robinson: Thank you for the final question, Morgan. Okay, we made it. We're at time, Marcel. Thank you so much for sharing your time with us. This was extremely valuable. I don't know if you have the capacity to answer any, follow up questions, but if so, we'll share your email. It's completely up to you. Daniel, thank you again for offering this. I totally see why you wanted the founders to meet Marcel. This has been great, so we're at time, so everyone feel free to drop. But thank you again.
+
+267
+00:57:29.050 --> 00:57:30.190
+Lilliana Robinson: and I hope that we can have.
+
+268
+00:57:30.190 --> 00:57:50.919
+Point Reyes: I'll offer just 1 1 quick thing. We've done cohorts before, and so if there's anyone that's truly interested, but is committed to actually spending the time. I'm happy to give the cohorts away for free but don't share with anyone else, you know, just as a gift we usually charge you a hundred dollars, but we have the recording, so it doesn't cost me anything to share. But my only requirement is like
+
+269
+00:57:50.920 --> 00:58:00.219
+Point Reyes: you all, give us feedback one and 2 actually do it, because, like, you know, so so let let me or Daniel know, and I'm happy to share the recordings with you guys.
+
+270
+00:58:00.600 --> 00:58:04.839
+Point Reyes: you know all this SEO stuff that he was showing automation and things like that. Yeah.
+
+271
+00:58:05.130 --> 00:58:06.910
+Lilliana Robinson: Okay, that's very generous. Thank you.
+

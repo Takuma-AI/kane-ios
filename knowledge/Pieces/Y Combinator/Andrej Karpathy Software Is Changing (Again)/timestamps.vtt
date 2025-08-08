@@ -1,0 +1,1529 @@
+WEBVTT
+
+00:00.000 --> 00:07.000
+Please welcome former director of AI Tesla, Andre Carpathi.
+
+00:19.000 --> 00:23.000
+Wow, a lot of people here. Hello.
+
+00:23.000 --> 00:29.000
+Okay, yeah, so I'm excited to be here today to talk to you about software in the era of AI.
+
+00:29.000 --> 00:34.000
+And I'm told that many of you are students, like bachelor's, master's, PhD and so on,
+
+00:34.000 --> 00:36.000
+and you're about to enter the industry.
+
+00:36.000 --> 00:40.000
+And I think it's actually like an extremely unique and very interesting time to enter the industry right now.
+
+00:40.000 --> 00:47.000
+And I think fundamentally the reason for that is that software is changing again.
+
+00:47.000 --> 00:51.000
+And I say again because I actually gave this talk already.
+
+00:51.000 --> 00:56.000
+But the problem is that software keeps changing, so I actually have a lot of material to create new talks.
+
+00:56.000 --> 01:03.000
+And I think it's changing quite fundamentally, I think roughly speaking, software has not changed much on such a fundamental level for 70 years.
+
+01:03.000 --> 01:08.000
+And then it's changed, I think, about twice quite rapidly in the last few years.
+
+01:08.000 --> 01:12.000
+And so there's just a huge amount of work to do, a huge amount of software to write and rewrite.
+
+01:12.000 --> 01:15.000
+So let's take a look at maybe the realm of software.
+
+01:15.000 --> 01:20.000
+So if we kind of think of this as like the map of software, this is a really cool tool called Map of GitHub.
+
+01:20.000 --> 01:26.000
+This is kind of like all the software that's written, these are instructions to the computer for carrying out tasks in the digital space.
+
+01:26.000 --> 01:31.000
+So if you zoom in here, these are all different kinds of repositories and this is all the code that has been written.
+
+01:31.000 --> 01:38.000
+And a few years ago, I kind of observed that software was kind of changing and there was kind of like a new type of software around.
+
+01:38.000 --> 01:41.000
+And I call this software 2.0 at the time.
+
+01:41.000 --> 01:45.000
+And the idea here was that software 1.0 is the code you write for the computer.
+
+01:46.000 --> 01:51.000
+Software 2.0 are basically neural networks and in particular the weights of a neural network.
+
+01:51.000 --> 01:54.000
+And you're not writing this code directly.
+
+01:54.000 --> 02:01.000
+You are more kind of like tuning the data sets and then you're running an optimizer to create the parameters of this neural network.
+
+02:01.000 --> 02:06.000
+And I think like at the time neural networks were kind of seen as like just a different kind of classifier, like a decision tree or something like that.
+
+02:06.000 --> 02:11.000
+And so I think it was kind of like, I think this framing was a lot more appropriate.
+
+02:11.000 --> 02:16.000
+And now actually what we have is kind of like an equivalent of GitHub in the realm of software 2.0.
+
+02:16.000 --> 02:21.000
+And I think the hugging phase is basically equivalent of GitHub in software 2.0.
+
+02:21.000 --> 02:24.000
+And there's also model Atlas and you can visualize all the code written there.
+
+02:24.000 --> 02:32.000
+In case you're curious by the way, the giant circle, the point in the middle, these are the parameters of flux, the image generator.
+
+02:32.000 --> 02:40.000
+And so anytime someone tunes a Laura on top of a flux model, you basically create a git commit in this space and you create a different kind of image generator.
+
+02:40.000 --> 02:49.000
+So basically what we have is software 1.0 is the computer code that programs a computer software 2.0 are the weights which program neural networks.
+
+02:49.000 --> 02:53.000
+And here's an example of Alex net image recognizer neural network.
+
+02:53.000 --> 02:59.000
+Now so far all of the neural networks that we've been familiar with until recently were kind of like fixed function computers.
+
+02:59.000 --> 03:02.000
+Image two categories or something like that.
+
+03:03.000 --> 03:11.000
+And I think what's changed and I think as a quite fundamental change is that neural networks became programmable with large language models.
+
+03:11.000 --> 03:14.000
+And so I see this as quite new unique.
+
+03:14.000 --> 03:16.000
+It's new kind of a computer.
+
+03:16.000 --> 03:21.000
+And so in my mind it's worth giving it a new designation of software 3.0.
+
+03:21.000 --> 03:26.000
+And basically your prompts are now programs that program the LLM.
+
+03:26.000 --> 03:30.000
+And remarkably these prompts are written in English.
+
+03:30.000 --> 03:34.000
+So it's kind of a very interesting programming language.
+
+03:34.000 --> 03:38.000
+So maybe to summarize the difference if you're doing sentiment classification.
+
+03:38.000 --> 03:48.000
+For example, you can imagine writing some amount of Python to basically do sentiment classification or you can train in neural net or you can prompt a large language model.
+
+03:48.000 --> 03:54.000
+So here this is a few shot prompt and you can imagine changing it and programming the computer in a slightly different way.
+
+03:54.000 --> 03:57.000
+So basically we have software 1.0, software 2.0.
+
+03:57.000 --> 04:02.000
+And I think we're seeing, maybe you've seen a lot of GitHub code is not just like code anymore.
+
+04:02.000 --> 04:05.000
+There's a bunch of like English interspersed with code.
+
+04:05.000 --> 04:08.000
+And so I think kind of there's a growing category of new kind of code.
+
+04:08.000 --> 04:14.000
+So not only is it a new programming paradigm, it's also remarkable to me that it's in our native language of English.
+
+04:14.000 --> 04:22.000
+And so when this blew my mind a few, I guess years ago now, I tweeted this and I think it captured the attention of a lot of people.
+
+04:22.000 --> 04:28.000
+And this is my currently pinned tweet is that remarkably we're now programming computers in English.
+
+04:28.000 --> 04:37.000
+Now when I was at Tesla, we were working on the autopilot and we were trying to get the car to drive.
+
+04:37.000 --> 04:47.000
+And I sort of showed this slide at the time where you can imagine that the inputs to the car are on the bottom and they're going through a software stack to produce the steering and acceleration.
+
+04:47.000 --> 04:53.000
+And I made the observation at the time that there was a ton of C++ code around in the autopilot, which was the software 1.0 code.
+
+04:53.000 --> 04:56.000
+And then there was some neural nets and they're doing image recognition.
+
+04:56.000 --> 05:04.000
+And I kind of observed that over time as we made the autopilot better, basically the neural network grew in capability and size.
+
+05:04.000 --> 05:10.000
+And in addition to that, all the C++ code was being deleted and kind of like was,
+
+05:11.000 --> 05:17.000
+and a lot of the kind of capabilities and functionality that was originally written 1.0 was migrated to 2.0.
+
+05:17.000 --> 05:27.000
+So as an example, a lot of the stitching up of information across images from the different cameras and across time was done by a neural network and we were able to delete a lot of code.
+
+05:27.000 --> 05:33.000
+And so the software 2.0 stack would quite literally eight through the software stack of the autopilot.
+
+05:33.000 --> 05:35.000
+So I thought this was really remarkable at the time.
+
+05:36.000 --> 05:41.000
+And I think we're seeing the same thing again, where basically we have a new kind of software and it's eating through the stack.
+
+05:41.000 --> 05:44.000
+We have three completely different programming paradigms.
+
+05:44.000 --> 05:50.000
+And I think if you're entering the industry, it's a very good idea to be fluent in all of them because they all have slight pros and cons.
+
+05:50.000 --> 05:53.000
+And you may want to program some functionality in 1.0 or 2.0 or 3.0.
+
+05:53.000 --> 05:56.000
+Are you going to train a neural net? Are you going to just prompt an LLM?
+
+05:56.000 --> 05:58.000
+I should be a piece of code that's explicit, et cetera.
+
+05:58.000 --> 06:04.000
+So we'll have to make these decisions and actually potentially fluidly transition between these paradigms.
+
+06:05.000 --> 06:16.000
+So what I want to get into now is, first I want to, in the first part, talk about LLMs and how to kind of think of this new paradigm and the ecosystem and what that looks like.
+
+06:16.000 --> 06:21.000
+What is this new computer? What does it look like? And what does the ecosystem look like?
+
+06:21.000 --> 06:26.000
+I was struck by this quote from Enduring actually many years ago now, I think.
+
+06:26.000 --> 06:29.000
+And I think Endure is going to be speaking right after me.
+
+06:29.000 --> 06:31.000
+But he said at the time, AI is the new electricity.
+
+06:31.000 --> 06:40.000
+And I do think that it kind of captures something very interesting in that LLMs certainly feel like they have properties of utilities right now.
+
+06:40.000 --> 06:48.000
+So LLM labs, like OpenAI, Gemini, and Tropi, et cetera, they spend capex to train the LLMs.
+
+06:48.000 --> 06:50.000
+And this is kind of equivalent to building out a grid.
+
+06:50.000 --> 06:55.000
+And then there's OPEX to serve that intelligence over APIs to all of us.
+
+06:55.000 --> 07:00.000
+And this is done through metered access where we pay per million tokens or something like that.
+
+07:00.000 --> 07:04.000
+And we have a lot of demands that are very utility-like demands out of this API.
+
+07:04.000 --> 07:08.000
+We demand low latency, high uptime, consistent quality, et cetera.
+
+07:08.000 --> 07:15.000
+In electricity, you would have a transfer switch so you can transfer your electricity source from like grid and solar or battery or generator.
+
+07:15.000 --> 07:20.000
+In LLMs, we have maybe open router and easily switch between the different types of LLMs that exist.
+
+07:20.000 --> 07:24.000
+Because the LLMs are software, they don't compete for physical space.
+
+07:24.000 --> 07:28.000
+So it's okay to have basically like six electricity providers and you can switch between them, right?
+
+07:28.000 --> 07:31.000
+Because they don't compete in such a direct way.
+
+07:31.000 --> 07:40.000
+And I think what's also really fascinating, and we saw this in the last few days actually, a lot of the LLMs went down and people were kind of like stuck and unable to work.
+
+07:40.000 --> 07:47.000
+And I think it's kind of fascinating to me that when the state of the art LLMs go down, it's actually kind of like an intelligence brown out in the world.
+
+07:48.000 --> 07:53.000
+It's kind of like when the voltage is unreliable in the grid and the planet just gets dumber.
+
+07:53.000 --> 07:59.000
+The more reliance we have on these models, which already is like really dramatic and I think we'll continue to grow.
+
+07:59.000 --> 08:02.000
+But LLMs don't only have properties of utilities.
+
+08:02.000 --> 08:05.000
+I think it's also fair to say that they have some properties of fabs.
+
+08:05.000 --> 08:12.000
+And the reason for this is that the CAPEX required for building LLMs is actually quite large.
+
+08:12.000 --> 08:16.000
+It's not just like building some power station or something like that, right?
+
+08:16.000 --> 08:23.000
+You're investing in huge amount of money and I think the tech tree and for the technology is growing quite rapidly.
+
+08:23.000 --> 08:31.000
+So we're in a world where we have sort of deep tech trees, research and development secrets that are centralizing inside the LLMs labs.
+
+08:31.000 --> 08:37.000
+But I think the analogy muddies a little bit also because as I mentioned, this is software.
+
+08:37.000 --> 08:41.000
+And software is a bit less defensible because it is so malleable.
+
+08:41.000 --> 08:45.000
+And so I think it's just an interesting kind of thing to think about potentially.
+
+08:45.000 --> 08:52.000
+There's many analogic analogies you can make like a 4 nanometer process node, maybe it's something like a cluster with certain max plots.
+
+08:52.000 --> 08:58.000
+You can think about when you're using a video GPUs and you're only doing the software and you're not doing the hardware, that's kind of like the fabless model.
+
+08:58.000 --> 09:05.000
+But if you're actually also building your own hardware and you're training on TPUs, if you're Google, that's kind of like the Intel model where you own your fab.
+
+09:05.000 --> 09:07.000
+So I think there's some analogies here that make sense.
+
+09:07.000 --> 09:16.000
+But actually I think the analogy that makes the most sense perhaps is that in my mind, LLMs have very strong kind of analogies to operating systems.
+
+09:16.000 --> 09:22.000
+In that this is not just electricity or water, it's not something that comes out of the tap as a commodity.
+
+09:22.000 --> 09:26.000
+These are now increasingly complex software ecosystems.
+
+09:26.000 --> 09:30.000
+So they're not just like simple commodities like electricity.
+
+09:30.000 --> 09:38.000
+And it's kind of interesting to me that the ecosystem is shaping in a very similar kind of way where you have a few close source providers like Windows or Mac OS.
+
+09:38.000 --> 09:41.000
+And then you have an open source alternative like Linux.
+
+09:41.000 --> 09:48.000
+And I think for LLMs as well, we have a few competing close source providers.
+
+09:48.000 --> 09:55.000
+And then maybe the Lama ecosystem is currently like maybe a close approximation to something that may grow into something like Linux.
+
+09:55.000 --> 10:01.000
+Again, I think it's still very early because these are just simple LLMs, but we're starting to see that these are going to get a lot more complicated.
+
+10:01.000 --> 10:06.000
+It's not just about the LLM itself, it's about all the tool use and the multi-modalities and how all of that works.
+
+10:06.000 --> 10:10.000
+And so when I sort of had this realization a while back, I tried to sketch it out.
+
+10:10.000 --> 10:14.000
+And it kind of seems to me like LLMs are kind of like a new operating system, right?
+
+10:14.000 --> 10:17.000
+So the LLM is a new kind of a computer.
+
+10:17.000 --> 10:19.000
+It's kind of like the CPU equivalent.
+
+10:19.000 --> 10:22.000
+The context windows are kind of like the memory.
+
+10:22.000 --> 10:31.000
+And then the LLM is orchestrating memory and compute for problem solving using all of these capabilities here.
+
+10:31.000 --> 10:37.000
+And so definitely if you look at it, it looks very much like an operating system from that perspective.
+
+10:37.000 --> 10:43.000
+A few more analogies, for example, if you want to download an app, say I go to VS Code and I go to Download,
+
+10:43.000 --> 10:49.000
+you can download VS Code and you can run it on Windows, Linux, or Mac.
+
+10:49.000 --> 10:56.000
+In the same way as you can take an LLM app like cursor, and you can run it on GPT or Cloud or Gemini series, right?
+
+10:56.000 --> 10:58.000
+It's just a drop down.
+
+10:58.000 --> 11:01.000
+So it's kind of like similar in that way as well.
+
+11:01.000 --> 11:11.000
+More analogies that I think strike me is that we're kind of like in this 1960s-ish era where LLM compute is still very expensive for this new kind of a computer.
+
+11:11.000 --> 11:20.000
+And that forces the LLM to be centralized in the Cloud, and we're all just sort of thin clients that interact with it over the network.
+
+11:20.000 --> 11:31.000
+And none of us have full utilization of these computers, and therefore it makes sense to use time sharing where we're all just, you know, a dimension of the batch when they're running the computer in the Cloud.
+
+11:31.000 --> 11:34.000
+And this is very much what computers used to look like during this time.
+
+11:34.000 --> 11:39.000
+The operating systems were in the Cloud, everything was streamed around, and there was batching.
+
+11:39.000 --> 11:44.000
+And so the personal computing revolution hasn't happened yet, because it's just not economical, it doesn't make sense.
+
+11:44.000 --> 11:56.000
+But I think some people are trying, and it turns out that Mac Minis, for example, are a very good fit for some of the LLMs, because it's all, if you're doing batch one inference, this is all super memory-bound, so this actually works.
+
+11:56.000 --> 12:02.000
+And I think these are some early indications, maybe, of personal computing, but this hasn't really happened yet.
+
+12:02.000 --> 12:10.000
+And it's not clear what this looks like, maybe some of you get to invent what this is, or how it works, or what this should be.
+
+12:10.000 --> 12:24.000
+Maybe one more analogy that I'll mention is whenever I talk to Chatchipity, or some LLM directly in text, I feel like I'm talking to an operating system through the terminal, like it's text, it's direct access to the operating system.
+
+12:24.000 --> 12:32.000
+I think a GUI hasn't yet really been invented in a general way, like Chatchipity have a GUI, different than just the text bubbles.
+
+12:32.000 --> 12:41.000
+Certainly some of the apps that we're going to go into in a bit have GUI, but there's no GUI across all the tasks, if that makes sense.
+
+12:41.000 --> 12:49.000
+There are some ways in which LLMs are different from operating systems in some fairly unique way, and from early computing.
+
+12:49.000 --> 12:56.000
+And I wrote about this one particular property that strikes me as very different this time around.
+
+12:56.000 --> 13:05.000
+It's that LLMs like flip, they flip the direction of technology diffusion that is usually present in technology.
+
+13:05.000 --> 13:11.000
+So for example, with electricity, cryptography, computing, flight, internet, GPS, lots of new transformative technologies that have not been around.
+
+13:11.000 --> 13:20.000
+Typically, it is the government and corporations that are the first users, because it's new and expensive, et cetera, and it only later diffuses to consumer.
+
+13:20.000 --> 13:30.000
+But I feel like LLMs are kind of like flipped around. So maybe with early computers, it was all about ballistics and military use, but with LLMs, it's all about how do you boil an egg or something like that.
+
+13:30.000 --> 13:32.000
+This is certainly like a lot of my use.
+
+13:32.000 --> 13:37.000
+And so it's really fascinating to me that we have a new magical computer, and it's like helping me boil an egg.
+
+13:37.000 --> 13:42.000
+It's not helping the government to do something really crazy like some military ballistics or some special technology.
+
+13:42.000 --> 13:47.000
+Indeed, corporations or governments are lagging behind the adoption of all of us, of all of these technologies.
+
+13:47.000 --> 13:55.000
+So it's just backwards, and I think it informs maybe some of the uses of how we want to use this technology or like what are some of the first apps and so on.
+
+13:56.000 --> 14:06.000
+So in summary, so far, LLMs labs, lab, LLMs, I think it's accurate language to use, but LLMs are complicated operating systems.
+
+14:06.000 --> 14:13.000
+There are circa 1960s in computing, and we're redoing computing all over again, and they're currently available via time sharing and distributed lucky utility.
+
+14:14.000 --> 14:18.000
+What is new and unprecedented is that they're not in the hands of a few governments and corporations.
+
+14:18.000 --> 14:29.000
+They're in the hands of all of us, because we all have a computer, and it's all just software, and ChashiPT was being down to our computers like to billions of people like instantly and overnight, and this is insane.
+
+14:29.000 --> 14:36.000
+And it's kind of insane to me that this is the case, and now it is our time to enter the industry and program these computers.
+
+14:36.000 --> 14:39.000
+It's crazy, so I think this is quite remarkable.
+
+14:39.000 --> 14:48.000
+Before we program LLMs, we have to kind of like spend some time to think about what these things are, and I especially like to kind of talk about their psychology.
+
+14:48.000 --> 14:59.000
+So the way I like to think about LLMs is that they're kind of like people spirits. They are stochastic simulations of people, and the simulator in this case happens to be an other aggressive transformer.
+
+14:59.000 --> 15:07.000
+So transformer is a neural net, and it just kind of like goes on the level of tokens, it goes chunk, chunk, chunk, chunk.
+
+15:07.000 --> 15:21.000
+And there's an almost equal amount of compute for every single chunk, and this simulator, of course, is basically there's some weights involved, and we fit it to all of the texts that we have on the internet, and so on.
+
+15:21.000 --> 15:28.000
+And you end up with this kind of a simulator, and because it is trained on humans, it's got this emergent psychology that is human-like.
+
+15:28.000 --> 15:38.000
+So the first thing you'll notice is, of course, LLMs have encyclopedic knowledge and memory, and they can remember lots of things, a lot more than any single individual human can because they read so many things.
+
+15:38.000 --> 15:45.000
+It actually kind of reminds me of this movie, Rainman, which I actually really recommend people watch, it's an amazing movie, I love this movie.
+
+15:45.000 --> 15:55.000
+And Dustin Hoffman here is an autistic savant, who has almost perfect memory, so he can read like a phone book, and remember all of the names and phone numbers.
+
+15:55.000 --> 16:02.000
+And I kind of feel like LLMs are kind of like very similar, they can remember Shah Hash's and lots of different kinds of things very, very easily.
+
+16:02.000 --> 16:09.000
+So they certainly have superpowers in some respects, but they also have a bunch of, I would say, cognitive deficits.
+
+16:09.000 --> 16:18.000
+So they hallucinate quite a bit, and they kind of make up stuff, and don't have a very good sort of internal model of self-knowledge, not sufficient at least.
+
+16:18.000 --> 16:28.000
+And this has gotten better, but not perfect. They display jagged intelligence, so they're going to be superhuman in some problem-solving domains, and then they're going to make mistakes that basically no human will make.
+
+16:28.000 --> 16:39.000
+Like, you know, they will insist that 9.11 is greater than 9.9, or that there are two hours in strawberry, these are some famous examples, but basically there are rough edges that you can trip on.
+
+16:39.000 --> 16:42.000
+So that's kind of, I think, also kind of unique.
+
+16:42.000 --> 17:02.000
+They also kind of suffer from enterograde amnesia, so, and I think I'm alluding to the fact that if you have a coworker who joins your organization, this coworker will over time learn your organization, and they will understand and gain like a huge amount of context on the organization, and they go home, and they sleep, and they consolidate knowledge, and they develop expertise over time.
+
+17:02.000 --> 17:08.000
+LLMs don't natively do this, and this is not something that has really been solved in the R&D of LLMs, I think.
+
+17:08.000 --> 17:20.000
+And so, context windows are really kind of like working memory, and you have to sort of program the working memory quite directly, because they don't just kind of like get smarter by default, and I think a lot of people get tripped up by the analogies in this way.
+
+17:20.000 --> 17:37.000
+In popular culture, I recommend people watch these two movies, Memento and 51states, in both of these movies, the protagonists, their weights are fixed, and their context windows gets wiped every single morning, and it's really problematic to go to work or have relationships when this happens, and this happens to all of us all the time.
+
+17:37.000 --> 17:54.000
+I guess one more thing I would point to is security kind of related limitations of the use of LLMs. So for example, LLMs are quite gullible, they are susceptible to prompt injection risks, they might leak your data, et cetera, and so, and there's many other considerations security related.
+
+17:54.000 --> 18:04.000
+So basically long story short, you have to load your, you have to simultaneously think through this superhuman thing that has a bunch of cognitive deficits and issues.
+
+18:05.000 --> 18:15.000
+How do we, and yet, they are extremely like useful, and so how do we program them, and how do we work around their deficits, and enjoy their superhuman powers.
+
+18:15.000 --> 18:22.000
+So what I want to switch to now is talk about the opportunities of how do we use these models, and what are some of the biggest opportunities.
+
+18:22.000 --> 18:26.000
+This is not a comprehensive list, just some of the things that I thought were interesting for this talk.
+
+18:26.000 --> 18:31.000
+The first thing I'm kind of excited about is what I would call partial autonomy apps.
+
+18:31.000 --> 18:43.000
+So for example, let's work with the example of coding. You can certainly go to chat GPT directly, and you can start copy-pasting code around, and copy-pasting bug reports and stuff around, and getting code and copy-pasting everything around.
+
+18:43.000 --> 18:49.000
+Why would you, why would you do that? Why would you go directly to the operating system? It makes a lot more sense to have an app dedicated for this.
+
+18:49.000 --> 18:59.000
+And so I think many of you use cursor, I do as well, and cursor is kind of like the thing you want instead, you don't want to just directly go to the chat GPT.
+
+18:59.000 --> 19:07.000
+And I think cursor is a very good example of an early LLM app that has a bunch of properties that I think are useful across all the LLM apps.
+
+19:07.000 --> 19:15.000
+So in particular, you will notice that we have a traditional interface that allows a human to go in and do all the work manually, just as before.
+
+19:15.000 --> 19:20.000
+But in addition to that, we now have this LLM integration that allows us to go in bigger chunks.
+
+19:20.000 --> 19:25.000
+And so some of the properties of LLM apps that I think are shared and useful to point out.
+
+19:25.000 --> 19:33.000
+Number one, the LLM basically do a ton of the context management. Number two, they orchestrate multiple calls to LLM's.
+
+19:33.000 --> 19:43.000
+So in the case of cursor, there's under the hood embedding models for all your files, the actual chat models, models that apply diffs to the code, and this is all orchestrated for you.
+
+19:43.000 --> 19:52.000
+A really big one that I think also may be not fully appreciated always is application specific GUI and the importance of it.
+
+19:52.000 --> 19:55.000
+Because you don't just want to talk to the operating system directly in text.
+
+19:55.000 --> 20:02.000
+Text is very hard to read, interpret, understand, and also like you don't want to take some of these actions natively in text.
+
+20:02.000 --> 20:06.000
+So it's much better to just see a diff as like red and green change.
+
+20:06.000 --> 20:08.000
+And you can see what's being added is subtracted.
+
+20:08.000 --> 20:13.000
+It's much easier to just do command why to accept or command and to reject. I shouldn't have to type it in text, right?
+
+20:13.000 --> 20:19.000
+So GUI allows a human to audit the work of these fallible systems and to go faster.
+
+20:19.000 --> 20:22.000
+I'm going to come back to this point a little bit later as well.
+
+20:22.000 --> 20:27.000
+And the last kind of feature I want to point out is that there's what I call the autonomy slider.
+
+20:27.000 --> 20:31.000
+So for example, in cursor, you can just do top completion, you're mostly in charge.
+
+20:31.000 --> 20:36.000
+You can select a chunk of code and command K to change just that chunk of code.
+
+20:36.000 --> 20:38.000
+You can do command L to change the entire file.
+
+20:38.000 --> 20:43.000
+Or you can do command I, which just, you know, let her do whatever you want in the entire repo.
+
+20:43.000 --> 20:46.000
+And that's the sort of full autonomy agent, the genetic version.
+
+20:46.000 --> 20:49.000
+And so you are in charge of the autonomy slider.
+
+20:49.000 --> 20:56.000
+And depending on the complexity of the task at hand, you can tune the amount of autonomy that you're willing to give up for that task.
+
+20:56.000 --> 21:01.000
+Maybe to show one more example of a fairly successful LLM app perplexity.
+
+21:01.000 --> 21:06.000
+It also has very similar features to what I've just pointed out in cursor.
+
+21:06.000 --> 21:08.000
+It packages up a lot of the information.
+
+21:08.000 --> 21:10.000
+It orchestrates multiple alarms.
+
+21:10.000 --> 21:13.000
+It's got a GUI that allows you to audit some of its work.
+
+21:13.000 --> 21:17.000
+So for example, it will cite sources and you can imagine inspecting them.
+
+21:17.000 --> 21:19.000
+And it's got an autonomy slider.
+
+21:19.000 --> 21:24.000
+You can either just do a quick search or you can do research or we can do deep research and come back ten minutes later.
+
+21:24.000 --> 21:27.000
+So this is all just varying levels of autonomy that you give up to the tool.
+
+21:27.000 --> 21:32.000
+So I guess my question is, I feel like a lot of software will become partially autonomous.
+
+21:32.000 --> 21:35.000
+And I'm trying to think through like, what does that look like?
+
+21:35.000 --> 21:41.000
+And for many of you who maintain products and services, how are you going to make your products and services partially autonomous?
+
+21:41.000 --> 21:44.000
+Can an LLM see everything that a human can see?
+
+21:44.000 --> 21:47.000
+Can an LLM act in all the ways that a human could act?
+
+21:47.000 --> 21:50.000
+And can humans supervise and stay in the loop of this activity?
+
+21:50.000 --> 21:53.000
+Because again, these are thalable systems that aren't yet perfect.
+
+21:53.000 --> 21:57.000
+And what does a diff look like in Photoshop or something like that?
+
+21:57.000 --> 22:03.000
+And also a lot of the traditional software right now, it has all these switches and all this kind of stuff that's all designed for human.
+
+22:03.000 --> 22:07.000
+All of this has to change and become accessible to LLMs.
+
+22:07.000 --> 22:14.000
+So one thing I want to stress with a lot of these LLM apps that I'm not sure gets as much attention as it should is,
+
+22:14.000 --> 22:17.000
+we're now kind of like cooperating with AI's.
+
+22:17.000 --> 22:21.000
+And usually they are doing the generation and we as humans are doing the verification.
+
+22:21.000 --> 22:26.000
+It is in our interest to make this loop go as fast as possible so we're getting a lot of work done.
+
+22:26.000 --> 22:30.000
+There are two major ways that I think this can be done.
+
+22:30.000 --> 22:32.000
+Number one, you can speed up verification a lot.
+
+22:32.000 --> 22:40.000
+And I think GUI's, for example, are extremely important to this because GUI utilizes your computer vision GPU in all of our head.
+
+22:40.000 --> 22:44.000
+Reading text is effortful and it's not fun, but looking at stuff is fun.
+
+22:44.000 --> 22:47.000
+And it's just kind of like a highway to your brain.
+
+22:47.000 --> 22:53.000
+So I think GUI's are very useful for auditing systems and visual representations in general.
+
+22:53.000 --> 22:57.000
+And number two I would say is we have to keep the AI on the leash.
+
+22:57.000 --> 23:01.000
+I think a lot of people are getting way over excited with AI agents.
+
+23:01.000 --> 23:06.000
+And it's not useful to me to get a dip of 1000 lines of code to my repo.
+
+23:06.000 --> 23:08.000
+Like I have to, I'm still the bottleneck, right?
+
+23:08.000 --> 23:13.000
+Even though that 1000 lines come out instantly, I have to make sure that this thing is not introducing bugs.
+
+23:13.000 --> 23:17.000
+It's just like, and that is doing the correct thing, right?
+
+23:17.000 --> 23:19.000
+And that there's no security issues and so on.
+
+23:19.000 --> 23:30.000
+So I think that, yeah, basically, we have to sort of like, it's in our interest to make the flow of these two go very, very fast.
+
+23:30.000 --> 23:34.000
+And we have to somehow keep the AI on the leash because it gets way too overreactive.
+
+23:34.000 --> 23:36.000
+It's kind of like this.
+
+23:36.000 --> 23:38.000
+This is how I feel when I do AI assist coding.
+
+23:38.000 --> 23:40.000
+If I'm just vibe coding, everything is nice and great.
+
+23:40.000 --> 23:46.000
+But if I'm actually trying to get work done, it's not so great to have an overreactive agents doing all this kind of stuff.
+
+23:46.000 --> 23:49.000
+So this slide is not very good, I'm sorry.
+
+23:49.000 --> 23:55.000
+But I guess I'm trying to develop like many of you some ways of utilizing these agents in my coding workflow.
+
+23:55.000 --> 23:57.000
+And to do AI assist coding.
+
+23:57.000 --> 24:00.000
+And in my own work, I'm always scared to get way too big dips.
+
+24:00.000 --> 24:03.000
+I always go in small incremental chunks.
+
+24:03.000 --> 24:05.000
+I want to make sure that everything is good.
+
+24:05.000 --> 24:07.000
+I want to spin this loop very, very fast.
+
+24:07.000 --> 24:11.000
+And I sort of work on small chunks of single concrete thing.
+
+24:11.000 --> 24:17.000
+And so I think many of you probably are developing similar ways of working with LLMs.
+
+24:17.000 --> 24:23.000
+I also saw a number of blog posts that try to develop these best practices for working with LLMs.
+
+24:23.000 --> 24:25.000
+And here's one that I read recently and I thought was quite good.
+
+24:25.000 --> 24:27.000
+And it kind of discussed some techniques.
+
+24:27.000 --> 24:30.000
+And some of them have to do with how you keep the AI on the leash.
+
+24:30.000 --> 24:36.000
+And so as an example, if you are prompting, if your prompt is big, then the AI might not do exactly what you want.
+
+24:36.000 --> 24:39.000
+And in that case, verification will fail.
+
+24:39.000 --> 24:41.000
+You're going to ask for something else.
+
+24:41.000 --> 24:43.000
+If a verification fails, then you're going to start spinning.
+
+24:43.000 --> 24:47.000
+So it makes a lot more sense to spend a bit more time to be more concrete in your prompts,
+
+24:47.000 --> 24:51.000
+which increases the probability of successful verification and you can move forward.
+
+24:51.000 --> 24:55.000
+And so I think a lot of us are going to end up finding kind of techniques like this.
+
+24:55.000 --> 25:03.000
+I think in my own work as well, I'm currently interested in what education looks like together with kind of like now that we have AI and LLMs.
+
+25:03.000 --> 25:05.000
+What does education look like?
+
+25:05.000 --> 25:10.000
+And I think a large amount of thought for me goes into how we keep AI on the leash.
+
+25:10.000 --> 25:14.000
+I don't think it just works to go to ChashiPTM and be like, hey, teach me physics.
+
+25:14.000 --> 25:17.000
+I don't think this works because the AI gets lost in the woods.
+
+25:17.000 --> 25:20.000
+And so for me, this is actually two separate apps, for example.
+
+25:20.000 --> 25:26.000
+There's an app for a teacher that creates courses and then there's an app that takes courses and serves them to students.
+
+25:26.000 --> 25:32.000
+And in both cases, we now have this intermediate artifact of a course that is auditable and we can make sure it's good.
+
+25:32.000 --> 25:34.000
+We can make sure it's consistent.
+
+25:34.000 --> 25:42.000
+And the AI is kept on the leash with respect to a certain syllabus, a certain progression of projects, and so on.
+
+25:42.000 --> 25:46.000
+And so this is one way of keeping the AI on the leash and I think has a much higher likelihood of working.
+
+25:46.000 --> 25:49.000
+And the AI is not getting lost in the woods.
+
+25:49.000 --> 25:55.000
+One more kind of analogy I wanted to sort of allude to is I'm not a no stranger to partial autonomy.
+
+25:55.000 --> 25:58.000
+And I kind of worked on this, I think, for five years at Tesla.
+
+25:59.000 --> 26:02.000
+And this is also a partial autonomy product and shares a lot of the features.
+
+26:02.000 --> 26:06.000
+But for example, right there in the instrument panel is the GUI of the autopilot.
+
+26:06.000 --> 26:09.000
+So it's showing me what the neural network sees and so on.
+
+26:09.000 --> 26:17.000
+And we have the autonomy slider where over the course of my tenure there, we did more and more autonomous tasks for the user.
+
+26:17.000 --> 26:25.000
+And maybe the story that I wanted to tell very briefly is actually the first time I drove a self-driving vehicle was in 2013.
+
+26:25.000 --> 26:30.000
+And I had a friend who worked at Waymo and he offered to give me a drive around Palo Alto.
+
+26:30.000 --> 26:33.000
+I took this picture using Google Glass at the time.
+
+26:33.000 --> 26:36.000
+And many of you are so young that you might not even know what that is.
+
+26:36.000 --> 26:39.000
+But yeah, this was like all the rage at the time.
+
+26:39.000 --> 26:45.000
+And we got into this car and we went for about a 30-minute drive around Palo Alto, highways, streets, and so on.
+
+26:45.000 --> 26:48.000
+And this drive was perfect. There was zero interventions.
+
+26:48.000 --> 26:51.000
+And this was 2013, which is now 12 years ago.
+
+26:51.000 --> 27:00.000
+And it's kind of struck me because at the time when I had this perfect drive, this perfect demo, I felt like, wow, self-driving is imminent because this just worked.
+
+27:00.000 --> 27:02.000
+This is incredible.
+
+27:02.000 --> 27:06.000
+But here we are 12 years later and we are still working on autonomy.
+
+27:06.000 --> 27:08.000
+We are still working on driving agents.
+
+27:08.000 --> 27:11.000
+And even now we haven't actually like fully solved the problem.
+
+27:11.000 --> 27:20.000
+Like you may see Waymo is going around and they look driverless, but there's still a lot of teleoperation and a lot of human in the loop of a lot of this driving.
+
+27:20.000 --> 27:26.000
+So we still haven't even like declared success, but I think it's definitely like going to succeed at this point, but it just took a long time.
+
+27:26.000 --> 27:33.000
+And so I think like this software is really tricky, I think in the same way that driving is tricky.
+
+27:33.000 --> 27:38.000
+And so when I see things like, oh, 22, 25 is the year of agents, I get very concerned.
+
+27:38.000 --> 27:44.000
+And I kind of feel like, you know, this is the decade of agents and this is going to be quite some time.
+
+27:44.000 --> 27:47.000
+We need humans in the loop, we need to do this carefully.
+
+27:47.000 --> 27:51.000
+This is software, well, it's be serious here.
+
+27:51.000 --> 27:56.000
+One more kind of analogy that I always think through is the Iron Man suit.
+
+27:56.000 --> 27:58.000
+I think this is, I always love Iron Man.
+
+27:58.000 --> 28:04.000
+I think it's like so correct in a bunch of ways with respect to technology and how it will play out.
+
+28:04.000 --> 28:09.000
+And what I love about the Iron Man suit is that it's both an augmentation and Tony Stark can drive it.
+
+28:09.000 --> 28:10.000
+And it's also an agent.
+
+28:10.000 --> 28:15.000
+And in some of the movies, the Iron Man suit is quite autonomous and can fly around and find Tony and all this kind of stuff.
+
+28:15.000 --> 28:20.000
+And so this is the autonomy slider is we can be, we can build augmentations or we can build agents.
+
+28:20.000 --> 28:22.000
+And we kind of want to do a bit of both.
+
+28:22.000 --> 28:27.000
+But at this stage, I would say working with fallible Al Alems and so on.
+
+28:27.000 --> 28:33.000
+I would say, you know, it's less Iron Man robots and more Iron Man suits that you want to build.
+
+28:33.000 --> 28:39.000
+And that's like building flashy demos of autonomous agents and more building partial autonomy products.
+
+28:39.000 --> 28:47.000
+And these products have custom GUIs and UI UX and we're trying to, and this is done so that the generation verification group of the human is very, very fast.
+
+28:47.000 --> 28:52.000
+But we are not losing the sight of the fact that it is in principle possible to automate this work.
+
+28:52.000 --> 28:54.000
+And there should be an autonomy slider in your product.
+
+28:54.000 --> 29:01.000
+And you should be thinking about how you can slide that autonomy slider and make your product sort of more autonomous over time.
+
+29:01.000 --> 29:05.000
+But this is kind of how I think there's lots of opportunities in these kinds of products.
+
+29:05.000 --> 29:10.000
+I want to now switch gears a little bit and talk about one other dimension that I think is very unique.
+
+29:10.000 --> 29:18.000
+Not only is there a new type of programming language that allows for autonomy and software, but also as I mentioned, it's programmed in English, which is this natural interface.
+
+29:18.000 --> 29:23.000
+And suddenly everyone is a programmer because everyone speaks natural language like English.
+
+29:23.000 --> 29:26.000
+So this is extremely bullish and very interesting to me.
+
+29:26.000 --> 29:33.000
+And also completely unprecedented, I would say it used to be the case that you need to spend five to 10 years studying something to be able to do something in software.
+
+29:33.000 --> 29:35.000
+This is not the case anymore.
+
+29:35.000 --> 29:41.000
+So I didn't mind just anyone has heard of live coding.
+
+29:41.000 --> 29:46.000
+This is the tweet that kind of like introduced this, but I'm told that this is now like a major meme.
+
+29:46.000 --> 29:52.000
+Fun story about this is that I've been on Twitter for like 15 years or something like that at this point.
+
+29:52.000 --> 29:58.000
+And I still have no clue which tweet will become viral and which tweet like fizzles and no one cares.
+
+29:58.000 --> 30:01.000
+And I thought that this tweet was going to be the latter.
+
+30:01.000 --> 30:04.000
+I don't know if it's just like a shower of thoughts, but this became like a total meme.
+
+30:04.000 --> 30:12.000
+And I really just can't tell, but I guess I'll get struck a chord and gave a name to something that everyone was feeling, but couldn't quite say in words.
+
+30:13.000 --> 30:17.000
+So now there's a Wikipedia page and everything.
+
+30:17.000 --> 30:26.000
+This is like.
+
+30:26.000 --> 30:31.000
+Yeah, this is like a major contribution or something like that.
+
+30:31.000 --> 30:38.000
+So Tom Wolf from Hugging Face shared this beautiful video that I really love.
+
+30:38.000 --> 30:43.000
+There are kids vibe coding.
+
+30:43.000 --> 30:47.000
+And I find that this is such a wholesome video like I love this video.
+
+30:47.000 --> 30:50.000
+Like how can you look at this video and feel bad about the future.
+
+30:50.000 --> 30:53.000
+The future is great.
+
+30:53.000 --> 30:57.000
+I think this will end up being like a gateway drug to software development.
+
+30:57.000 --> 31:01.000
+I'm not a doomer about the future of the generation.
+
+31:01.000 --> 31:04.000
+And I think yeah, I love this video.
+
+31:04.000 --> 31:08.000
+I'm excited by coding a little bit as well because it's so fun.
+
+31:08.000 --> 31:13.000
+So by coding is so great when you want to build something super duper custom that doesn't appear to exist.
+
+31:13.000 --> 31:16.000
+And you just want to wing it because it's a Saturday or something like that.
+
+31:16.000 --> 31:21.000
+So I built this iOS app and I don't I can't actually program in Swift.
+
+31:21.000 --> 31:24.000
+But I was really shocked that I was able to build like a super basic app.
+
+31:24.000 --> 31:26.000
+And I'm not going to explain it that's really dumb.
+
+31:26.000 --> 31:29.000
+But I kind of like this was just like a day of work.
+
+31:29.000 --> 31:31.000
+And this was running on my phone like later that day.
+
+31:31.000 --> 31:33.000
+I was like, wow, this is amazing.
+
+31:33.000 --> 31:38.000
+I didn't have to like read through Swift or like a five days or something like that to like get started.
+
+31:38.000 --> 31:41.000
+I also have uploaded this app called menu gen.
+
+31:41.000 --> 31:44.000
+And this is a lot you can try it in the menu gen.app.
+
+31:44.000 --> 31:46.000
+And I basically have this problem where I show up at a restaurant.
+
+31:46.000 --> 31:49.000
+I read through the menu and I have no idea what any of the things are.
+
+31:49.000 --> 31:51.000
+And I need pictures.
+
+31:51.000 --> 31:52.000
+So this doesn't exist.
+
+31:52.000 --> 31:54.000
+So I was like, hey, I'm going to buy code it.
+
+31:54.000 --> 31:56.000
+So this is what it looks like.
+
+31:56.000 --> 31:59.000
+You go to the menu gen.app.
+
+31:59.000 --> 32:04.000
+And you take a picture of a menu and then menu gen generates the images.
+
+32:04.000 --> 32:08.000
+And everyone gets five dollars in credits for free when you sign up.
+
+32:08.000 --> 32:11.000
+And therefore, this is a major cost center in my life.
+
+32:11.000 --> 32:17.000
+So this is a negative negative revenue app for me right now.
+
+32:17.000 --> 32:21.000
+I've lost a huge amount of money on menu gen.
+
+32:21.000 --> 32:22.000
+Okay.
+
+32:22.000 --> 32:26.000
+But the fascinating thing about menu gen for me is that.
+
+32:27.000 --> 32:33.000
+The code of the vipe coding part, the code was actually the easy part of vipe coding menu gen.
+
+32:33.000 --> 32:36.000
+And most of it actually was when I tried to make it real,
+
+32:36.000 --> 32:40.000
+so that you can actually have authentication and payments in the domain name and the versatile deployment.
+
+32:40.000 --> 32:41.000
+This was really hard.
+
+32:41.000 --> 32:43.000
+And all of this was not code.
+
+32:43.000 --> 32:47.000
+All of this DevOps stuff was in me in the browser clicking stuff.
+
+32:47.000 --> 32:50.000
+And this was extreme slot and took another week.
+
+32:50.000 --> 32:54.000
+So it was really fascinating that I had the menu gen.
+
+32:55.000 --> 32:58.000
+Basically demo working on my laptop in a few hours.
+
+32:58.000 --> 33:01.000
+And then it took me a week because I was trying to make it real.
+
+33:01.000 --> 33:05.000
+And the reason for this is this was just really annoying.
+
+33:05.000 --> 33:08.000
+So for example, if you try to add Google log into your web page,
+
+33:08.000 --> 33:12.000
+I know this is very small, but just a huge amount of instructions of this.
+
+33:12.000 --> 33:14.000
+A clerk library telling me how to integrate this.
+
+33:14.000 --> 33:15.000
+And this is crazy.
+
+33:15.000 --> 33:17.000
+Like it's telling me go to this URL.
+
+33:17.000 --> 33:20.000
+Click on this drop down, choose this, go to this and click on that.
+
+33:20.000 --> 33:22.000
+And it's like telling me what to do.
+
+33:22.000 --> 33:25.000
+The computer is telling me the actions I should be taking.
+
+33:25.000 --> 33:26.000
+Like you do it.
+
+33:26.000 --> 33:28.000
+Why am I doing this?
+
+33:28.000 --> 33:31.000
+What the hell?
+
+33:31.000 --> 33:34.000
+I had to follow all these instructions.
+
+33:34.000 --> 33:35.000
+This was crazy.
+
+33:35.000 --> 33:37.000
+So I think the last part of my talk,
+
+33:37.000 --> 33:41.000
+therefore, focuses on, can we just build for agents?
+
+33:41.000 --> 33:43.000
+I don't want to do this work.
+
+33:43.000 --> 33:44.000
+Can agents do this?
+
+33:44.000 --> 33:45.000
+Thank you.
+
+33:45.000 --> 33:47.000
+Okay.
+
+33:47.000 --> 33:51.000
+So roughly speaking, I think there's a new category of consumer and manipulator
+
+33:51.000 --> 33:52.000
+of digital information.
+
+33:52.000 --> 33:56.000
+It used to be just humans through GUIs or computers through APIs.
+
+33:56.000 --> 33:58.000
+And now we have a completely new thing.
+
+33:58.000 --> 34:02.000
+And agents are their computers, but they are human-like,
+
+34:02.000 --> 34:03.000
+kind of, right?
+
+34:03.000 --> 34:04.000
+They're people spirits.
+
+34:04.000 --> 34:05.000
+There's people spirits on the internet,
+
+34:05.000 --> 34:07.000
+and they need to interact with their software infrastructure.
+
+34:07.000 --> 34:08.000
+Like, can we build for them?
+
+34:08.000 --> 34:09.000
+It's a new thing.
+
+34:09.000 --> 34:12.000
+So as an example, you can have robots.txt on your domain,
+
+34:12.000 --> 34:15.000
+and you can instruct, or like, advise, I suppose,
+
+34:15.000 --> 34:18.000
+web crawlers on how to behave on your website.
+
+34:19.000 --> 34:21.000
+In the same way, you can have maybe Ellen's.txt file,
+
+34:21.000 --> 34:23.000
+which is just a simple markdown,
+
+34:23.000 --> 34:26.000
+that's telling LLMs what this domain is about.
+
+34:26.000 --> 34:28.000
+And this is very readable to an LLM.
+
+34:28.000 --> 34:32.000
+If it had to instead get the HTML of your web page and try to parse it,
+
+34:32.000 --> 34:34.000
+this is very error-prone and difficult,
+
+34:34.000 --> 34:36.000
+and it will screw it up, and it's not going to work.
+
+34:36.000 --> 34:39.000
+So we can just directly speak to the LLM. It's worth it.
+
+34:39.000 --> 34:42.000
+A huge amount of documentation is currently written for people.
+
+34:42.000 --> 34:45.000
+So you will see things like lists, and bold, and pictures.
+
+34:46.000 --> 34:49.000
+And this is not directly accessible by an LLM.
+
+34:49.000 --> 34:53.000
+So I see some of the services now are transitioning a lot of their docs
+
+34:53.000 --> 34:55.000
+to be specifically for LLMs.
+
+34:55.000 --> 34:58.000
+So Versel and Stripe, as an example, are early movers here,
+
+34:58.000 --> 35:01.000
+but there are a few more that I've seen already.
+
+35:01.000 --> 35:04.000
+And they offer their documentation in markdown.
+
+35:04.000 --> 35:07.000
+Markdown is super easy for LLMs to understand.
+
+35:07.000 --> 35:09.000
+This is great.
+
+35:09.000 --> 35:12.000
+Maybe one simple example from my experience as well.
+
+35:13.000 --> 35:15.000
+Maybe some of you know three blue, one brown.
+
+35:15.000 --> 35:18.000
+He makes beautiful animation videos on the editor.
+
+35:23.000 --> 35:26.000
+Yeah, I love this library, so that he wrote the Manin.
+
+35:26.000 --> 35:28.000
+And I wanted to make my own.
+
+35:28.000 --> 35:31.000
+And there's extensive documentation on how to use Manin.
+
+35:31.000 --> 35:34.000
+And so I didn't want to actually read through it.
+
+35:34.000 --> 35:36.000
+So I copy-pasted the whole thing to an LLM,
+
+35:36.000 --> 35:39.000
+and I described what I wanted, and it just worked out of the box.
+
+35:39.000 --> 35:42.000
+Like LLM just by coded me an animation, exactly what I wanted.
+
+35:42.000 --> 35:44.000
+And I was like, wow, this is amazing.
+
+35:44.000 --> 35:47.000
+So if we can make docs legible to LLMs,
+
+35:47.000 --> 35:50.000
+it's going to unlock a huge amount of kind of use.
+
+35:50.000 --> 35:54.000
+And I think this is wonderful and should happen more.
+
+35:54.000 --> 35:57.000
+The other thing I wanted to point out is that you do unfortunately have to.
+
+35:57.000 --> 36:00.000
+It's not just about taking your docs and making them appear in markdown.
+
+36:00.000 --> 36:01.000
+That's the easy part.
+
+36:01.000 --> 36:02.000
+We actually have to change the docs.
+
+36:02.000 --> 36:05.000
+Because anytime your docs stay click, this is bad.
+
+36:05.000 --> 36:09.000
+And LLM will not be able to natively take this action right now.
+
+36:09.000 --> 36:12.000
+So Bersel, for example, is replacing every occurrence of click
+
+36:12.000 --> 36:17.000
+with the equivalent curl command that your LLM agent could take on your behalf.
+
+36:17.000 --> 36:19.000
+And so I think this is very interesting.
+
+36:19.000 --> 36:22.000
+And then, of course, there's a model context protocol from Enfropic.
+
+36:22.000 --> 36:25.000
+And this is also another way it's a protocol speaking directly to agents
+
+36:25.000 --> 36:28.000
+as this new consumer and manipulator of digital information.
+
+36:28.000 --> 36:30.000
+So I'm very bullish on these ideas.
+
+36:30.000 --> 36:33.000
+The other thing I really like is a number of little tools here and there
+
+36:34.000 --> 36:38.000
+that are helping ingest data in like very LLM-friendly formats.
+
+36:38.000 --> 36:41.000
+So for example, when I go to a GitHub repo, like my NanagyPity repo,
+
+36:41.000 --> 36:44.000
+I can't feed this to an LLM and ask questions about it.
+
+36:44.000 --> 36:47.000
+Because it's, you know, this is a human interface of GitHub.
+
+36:47.000 --> 36:50.000
+So when you just change the URL from GitHub to GitHub ingest,
+
+36:50.000 --> 36:54.000
+then this will actually concatenate all the files into a single giant text
+
+36:54.000 --> 36:56.000
+and it will create a directory structure, et cetera.
+
+36:56.000 --> 36:59.000
+And this is ready to be copy-based it into your favorite LLM
+
+36:59.000 --> 37:00.000
+and you can do stuff.
+
+37:01.000 --> 37:04.000
+Maybe even more dramatic example of this is deep wiki,
+
+37:04.000 --> 37:07.000
+where it's not just the raw content of these files.
+
+37:07.000 --> 37:11.000
+This is from Devon, but also like they have Devon basically
+
+37:11.000 --> 37:14.000
+do analysis of the GitHub repo and Devon basically builds up
+
+37:14.000 --> 37:17.000
+a whole docs pages just for your repo.
+
+37:17.000 --> 37:21.000
+And you can imagine that this is even more helpful to copy-based into your LLM.
+
+37:21.000 --> 37:24.000
+So I love all the little tools that basically where you just change the URL
+
+37:24.000 --> 37:26.000
+and it makes something accessible to an LLM.
+
+37:26.000 --> 37:28.000
+So this is all well and great.
+
+37:29.000 --> 37:31.000
+And I think there should be a lot more of it.
+
+37:31.000 --> 37:36.000
+One more note I wanted to make is that it is absolutely possible that in the future,
+
+37:36.000 --> 37:39.000
+LLMs will be able to, this is not even future, this is today.
+
+37:39.000 --> 37:42.000
+They'll be able to go around and they'll be able to click stuff and so on.
+
+37:42.000 --> 37:46.000
+But I still think it's very worth basically meeting LLM halfway,
+
+37:46.000 --> 37:50.000
+LLMs halfway and making it easier for them to access all this information.
+
+37:50.000 --> 37:55.000
+Because this is still fairly expensive, I would say, to use and a lot more difficult.
+
+37:56.000 --> 38:01.000
+And so I do think that lots of software, there will be a long tail where it won't adapt
+
+38:01.000 --> 38:05.000
+because these are not like live players or repositories or digital infrastructure.
+
+38:05.000 --> 38:07.000
+And we will need these tools.
+
+38:07.000 --> 38:11.000
+But I think for everyone else, I think it's very worth meeting in some middle point.
+
+38:11.000 --> 38:14.000
+So I'm bullish on both if that makes sense.
+
+38:14.000 --> 38:18.000
+So in summary, what an amazing time to get into the industry.
+
+38:18.000 --> 38:20.000
+We need to rewrite a ton of code.
+
+38:20.000 --> 38:24.000
+A ton of code will be written by professionals and by coders.
+
+38:24.000 --> 38:27.000
+These LLMs are kind of like utilities, kind of like fabs,
+
+38:27.000 --> 38:30.000
+but they're kind of especially like operating systems.
+
+38:30.000 --> 38:34.000
+But it's so early, it's like 1960s of operating systems.
+
+38:34.000 --> 38:38.000
+And I think a lot of the analogies crossover.
+
+38:38.000 --> 38:44.000
+And these LLMs are kind of like these fallible people spirits that we have to learn to work with.
+
+38:44.000 --> 38:48.000
+And in order to do that properly, we need to adjust our infrastructure towards it.
+
+38:48.000 --> 38:52.000
+So when you're building these LLM apps, I describe some of the ways of working effectively
+
+38:52.000 --> 38:56.000
+with these LLMs and some of the tools that make that kind of possible.
+
+38:56.000 --> 38:58.000
+And how you can spin this loop very, very quickly.
+
+38:58.000 --> 39:01.000
+And basically create partial telling products.
+
+39:01.000 --> 39:05.000
+And then, yeah, a lot of code has to also be written for the agents or directly.
+
+39:05.000 --> 39:09.000
+But in any case, going back to the Ironman suit analogy,
+
+39:09.000 --> 39:12.000
+I think what we will see over the next decade, roughly,
+
+39:12.000 --> 39:15.000
+is we're going to take the slider from left to right.
+
+39:15.000 --> 39:16.000
+And I'm very interesting.
+
+39:16.000 --> 39:19.000
+It's going to be very interesting to see what that looks like.
+
+39:19.000 --> 39:22.000
+And I can't wait to build it with all of you.
+
+39:22.000 --> 39:23.000
+Thank you.
+
+39:23.000 --> 39:25.000
+Thank you.
+

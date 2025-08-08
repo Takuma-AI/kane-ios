@@ -1,0 +1,6071 @@
+WEBVTT
+
+00:00.000 --> 00:02.120
+We have this new technology, LLMs,
+
+00:02.120 --> 00:05.240
+that I think are as transformative as the printing press,
+
+00:05.240 --> 00:07.520
+electricity in the internet, and we have a choice.
+
+00:07.520 --> 00:09.160
+We can go down the path that we've been going down,
+
+00:09.160 --> 00:12.360
+which is engagement maximizing, hyper aggregation,
+
+00:12.360 --> 00:14.640
+going after what you want, not what you want to want
+
+00:14.640 --> 00:17.880
+as a user, or being aligned with our intentions.
+
+00:17.880 --> 00:20.680
+And that could lead to a new era of human flourishing, I think.
+
+00:20.680 --> 00:22.440
+I intend to spend quality time with my family,
+
+00:22.440 --> 00:24.840
+and intend to experience new things,
+
+00:24.840 --> 00:27.520
+the right product fabric could enable that.
+
+00:27.520 --> 00:29.560
+But that has to be fully aligned with you.
+
+00:29.560 --> 00:32.680
+Imagine if that context, all of that rich substrate
+
+00:32.680 --> 00:34.880
+of meaning that you've distilled and written down.
+
+00:34.880 --> 00:37.480
+If it's not working for you, that's terrifying.
+
+00:37.480 --> 00:39.200
+I would run onto the stage where Steve Jobs
+
+00:39.200 --> 00:41.360
+shows off the iPhone, which was a poster that says,
+
+00:41.360 --> 00:43.480
+this will become the most important computing device
+
+00:43.480 --> 00:46.680
+on Earth, it is insane to allow a single company
+
+00:46.680 --> 00:49.000
+to decide what things you may run in it, right?
+
+00:49.000 --> 00:50.280
+I know it feels like in this industry
+
+00:50.280 --> 00:52.920
+that we're like halfway through the LLM era.
+
+00:52.920 --> 00:54.520
+We are in the very first inning.
+
+00:54.520 --> 00:56.000
+We're like rubbing sticks together.
+
+00:56.000 --> 00:57.760
+We still think that chatbots are the main thing.
+
+00:57.760 --> 00:58.880
+Will chatbots be important?
+
+00:58.880 --> 00:59.680
+Yes.
+
+00:59.680 --> 01:02.120
+But chatbots to me feel like a feature or not a paradigm.
+
+01:02.120 --> 01:18.840
+This podcast is supported by Google.
+
+01:18.840 --> 01:20.000
+Hey, everyone.
+
+01:20.000 --> 01:22.960
+David here, one of the product leads for Google Gemini.
+
+01:22.960 --> 01:25.760
+If you dream it and describe it, VO3 Gemini
+
+01:25.760 --> 01:28.200
+can help you bring it to life as a video,
+
+01:28.200 --> 01:31.400
+now with incredible sound effects, background noise,
+
+01:31.400 --> 01:32.760
+and even dialogue.
+
+01:32.760 --> 01:34.800
+Try it with a Google AI pro plan
+
+01:34.800 --> 01:37.320
+or get the highest access with the ultra plan.
+
+01:37.320 --> 01:40.080
+Sign up at Gemini.google to get started
+
+01:40.080 --> 01:41.720
+and show us what you create.
+
+01:46.040 --> 01:47.200
+Alex, welcome to the show.
+
+01:47.200 --> 01:48.640
+Thanks for having me.
+
+01:48.640 --> 01:49.640
+So for people who don't know you,
+
+01:49.640 --> 01:52.040
+you are the co-founder and CEO of Common Tools,
+
+01:52.040 --> 01:53.840
+which you'll describe for us.
+
+01:53.840 --> 01:56.720
+You are also previously the head of corporate strategy
+
+01:56.720 --> 01:59.560
+at Stripe and director of product management at Google.
+
+01:59.560 --> 02:02.200
+And I think like six months ago,
+
+02:02.200 --> 02:05.000
+and the thing that really stood out in our conversation,
+
+02:05.000 --> 02:07.760
+aside from just like, you have so many interesting ideas
+
+02:07.760 --> 02:10.760
+is you're this really interesting systems builder.
+
+02:10.760 --> 02:14.680
+You think a lot about personal systems, work systems,
+
+02:14.680 --> 02:16.760
+things that help you get more done,
+
+02:16.760 --> 02:18.880
+or think differently about the world.
+
+02:18.880 --> 02:23.240
+And I think people like you who have that kind of obsessive
+
+02:23.240 --> 02:25.800
+mind with systems is something that I recognize myself.
+
+02:25.800 --> 02:29.560
+And also I think are people who have a lot of interesting things
+
+02:29.560 --> 02:32.640
+to say about just new AI ways,
+
+02:32.640 --> 02:36.120
+because I think it's sort of like steroids or catnip
+
+02:36.120 --> 02:37.680
+or whatever you want to say.
+
+02:37.680 --> 02:39.880
+Some kind of a teller in, for sure.
+
+02:39.880 --> 02:42.960
+For people like us, I'm excited to chat with you.
+
+02:42.960 --> 02:45.520
+I'm excited to hear both what you're thinking about now,
+
+02:45.520 --> 02:48.680
+what you're building, and what kinds of systems
+
+02:48.680 --> 02:50.320
+you're familiar with personally.
+
+02:50.320 --> 02:51.560
+Yeah, cool.
+
+02:51.560 --> 02:53.200
+So when we start with common tools,
+
+02:53.200 --> 02:57.400
+because I think there's something interesting about your,
+
+02:57.400 --> 02:59.920
+like what you're building, because I think it speaks
+
+02:59.920 --> 03:01.240
+to the perspective you have probably
+
+03:01.240 --> 03:03.960
+about this larger AI way of talking about it.
+
+03:03.960 --> 03:04.960
+Yeah, the way I think about it,
+
+03:04.960 --> 03:06.160
+and it's hard to describe,
+
+03:06.160 --> 03:07.480
+because we've had to build a new kind of thing
+
+03:07.480 --> 03:09.600
+that's only possible in the world of AI.
+
+03:09.600 --> 03:10.600
+So when I describe it, we'll say,
+
+03:10.600 --> 03:11.440
+oh, you're being coy.
+
+03:11.440 --> 03:12.920
+It's like, no, tell you what I'm building.
+
+03:12.920 --> 03:15.600
+It's just a new kind of thing it's hard to grab onto.
+
+03:15.600 --> 03:19.320
+I think of it like a coactive fabric for your digital life.
+
+03:19.320 --> 03:22.080
+And by coactive, that's an old word
+
+03:22.080 --> 03:23.000
+that I hadn't heard before,
+
+03:23.000 --> 03:26.240
+but I think is a perfect fit for it of you
+
+03:26.240 --> 03:27.320
+are active in the system.
+
+03:27.320 --> 03:30.080
+And so is this emergent intelligent process,
+
+03:30.080 --> 03:32.480
+or private intelligence powered by LOMs.
+
+03:32.480 --> 03:34.960
+And those can be coactive on the same substrate
+
+03:34.960 --> 03:38.000
+in adding detail or adding the little bits of software
+
+03:38.000 --> 03:39.560
+or connecting up things.
+
+03:39.560 --> 03:41.480
+And I think that that really unpacks
+
+03:41.480 --> 03:44.320
+or unlocks the power of LOMs.
+
+03:44.320 --> 03:46.680
+That's, I love that word, and it's interesting,
+
+03:46.680 --> 03:48.280
+because I think we're finding some similar
+
+03:48.280 --> 03:50.200
+for some of the products we're incubating internally
+
+03:50.200 --> 03:53.280
+is like, right now the paradigm is,
+
+03:53.280 --> 03:55.760
+you sense willing to touch and tee and it sends something back.
+
+03:56.760 --> 03:59.360
+Maybe it now it sends something back after 10 minutes,
+
+03:59.360 --> 04:00.720
+which is a new thing,
+
+04:00.720 --> 04:03.160
+but it's not like you're not working in parallel.
+
+04:03.160 --> 04:04.360
+It's not like working in the background
+
+04:04.360 --> 04:05.640
+and then being like, I had this idea.
+
+04:05.640 --> 04:07.160
+And we're starting to like,
+
+04:07.160 --> 04:10.560
+as we build our own sort of agentic systems inside of every
+
+04:10.560 --> 04:13.680
+for your email or for writing or whatever,
+
+04:13.680 --> 04:16.840
+we're finding that having something that's working
+
+04:16.920 --> 04:20.960
+while you work with you and being a little bit more proactive
+
+04:20.960 --> 04:24.840
+is actually a really interesting next paradigm.
+
+04:24.840 --> 04:26.880
+Yeah, to me, I mean, if you say,
+
+04:26.880 --> 04:29.680
+okay, we have LOMs, what's the first product
+
+04:29.680 --> 04:31.360
+in 10 seconds to go chatbots?
+
+04:31.360 --> 04:32.960
+It's those obvious extension
+
+04:32.960 --> 04:35.160
+and everybody is focusing only on chatbots.
+
+04:35.160 --> 04:36.400
+Like will chatbots be important?
+
+04:36.400 --> 04:40.160
+Yes, but chatbots to me feel like a feature, not a paradigm.
+
+04:40.160 --> 04:43.840
+And they are, so like they're like this coactive surface,
+
+04:43.840 --> 04:45.040
+but it's just append only.
+
+04:45.040 --> 04:46.760
+I append a message, it depends a message.
+
+04:46.760 --> 04:48.240
+I append a message, it depends a message.
+
+04:48.240 --> 04:50.320
+And literally back and forth, it doesn't have a way
+
+04:50.320 --> 04:53.160
+to like have multiple for me in a row.
+
+04:53.160 --> 04:56.520
+And you know, chatbots are amazing for starting any task
+
+04:56.520 --> 04:57.680
+because there's no structure.
+
+04:57.680 --> 04:59.080
+You just say whatever you're thinking
+
+04:59.080 --> 05:01.160
+and it helps to still and respond.
+
+05:01.160 --> 05:03.320
+But for long live tasks, you need structure.
+
+05:03.320 --> 05:05.800
+You want there to be something where you can glance over
+
+05:05.800 --> 05:06.880
+and you know, a little cubby hole
+
+05:06.880 --> 05:08.560
+where you put certain information.
+
+05:08.560 --> 05:09.960
+I find, I have, you know,
+
+05:10.920 --> 05:12.560
+I do dozens and dozens and dozens of chats
+
+05:12.560 --> 05:14.560
+with Chat2BT and Claw today.
+
+05:14.560 --> 05:16.640
+And I'm just swimming in all that context
+
+05:16.640 --> 05:18.480
+and all the chats.
+
+05:18.480 --> 05:20.240
+And so I'm using it to do important things.
+
+05:20.240 --> 05:22.520
+And also, I'm just completely lost in it
+
+05:22.520 --> 05:25.640
+because it's only this chatbot kind of penned only
+
+05:25.640 --> 05:27.160
+kind of paradigm.
+
+05:27.160 --> 05:30.120
+You have this really cool thing called bits and bobs,
+
+05:30.120 --> 05:32.480
+which is this like real time Google doc
+
+05:32.480 --> 05:34.440
+that you just have been updating for.
+
+05:34.440 --> 05:36.960
+I think like many years at this point
+
+05:36.960 --> 05:39.400
+with things that you're thinking about,
+
+05:39.400 --> 05:41.160
+which we'll link to in the show notes and I love.
+
+05:41.160 --> 05:42.520
+I think it's, I think it's really cool
+
+05:42.520 --> 05:44.960
+and really inspiring just sort of the rawness of that.
+
+05:45.840 --> 05:48.680
+And one of the things that's in that Google doc right now
+
+05:48.680 --> 05:50.600
+about what you're thinking about is the idea
+
+05:50.600 --> 05:54.000
+of intentional tech, which Adoptel is really nice to you
+
+05:54.000 --> 05:55.160
+with something that I've been thinking about,
+
+05:55.160 --> 05:58.840
+which is this idea that AI has,
+
+05:58.840 --> 06:00.200
+is this new era of technology
+
+06:00.200 --> 06:03.640
+where technology can understand our stated preference,
+
+06:03.640 --> 06:04.880
+stated preferences, which is different
+
+06:04.880 --> 06:05.880
+from the social media era,
+
+06:05.880 --> 06:07.920
+which worked totally just on-
+
+06:07.920 --> 06:10.960
+What you dwell on and what you clicked on, whatever.
+
+06:10.960 --> 06:13.120
+And so social media tends to make us
+
+06:14.080 --> 06:17.680
+tends to service things that are like more outrage driven
+
+06:17.680 --> 06:20.080
+or more like sexier or whatever.
+
+06:20.080 --> 06:22.800
+Anything that's more eye, yeah, like the car crash effect,
+
+06:22.800 --> 06:24.360
+basically.
+
+06:24.360 --> 06:27.600
+And AI, because it can talk to us,
+
+06:27.600 --> 06:30.280
+gets a much richer understanding of who we are,
+
+06:30.280 --> 06:33.800
+maybe like I think TouchEBT is much more helpful
+
+06:33.800 --> 06:36.800
+and much more enlightening, for example,
+
+06:36.800 --> 06:39.560
+than like the Facebook algorithm is just by default.
+
+06:39.560 --> 06:41.600
+So I think that Dovetel's a lot
+
+06:41.600 --> 06:43.600
+with what you've been thinking about with intentional tech.
+
+06:43.600 --> 06:46.280
+So tell us what's on your mind about it.
+
+06:46.280 --> 06:47.800
+Yeah, intentional tech, I think,
+
+06:47.800 --> 06:49.800
+is really critical in this new era.
+
+06:49.800 --> 06:52.320
+We're at a crossroads as a technology industry.
+
+06:52.320 --> 06:54.680
+I think we have this new technology, LLMs,
+
+06:54.680 --> 06:56.560
+that I think are as transformative
+
+06:56.560 --> 06:59.520
+as the printing press, electricity in the internet.
+
+06:59.520 --> 07:01.880
+So it's this big general purpose unlock
+
+07:01.880 --> 07:04.360
+for all kinds of stuff that wasn't possible for.
+
+07:04.360 --> 07:05.200
+And we have a choice.
+
+07:05.200 --> 07:06.800
+We can go down the path that we've been going down,
+
+07:06.800 --> 07:10.000
+which is engagement maximizing, hyper aggregation,
+
+07:10.000 --> 07:12.560
+going after what you want, not what you want to want
+
+07:12.560 --> 07:16.160
+as a user, or being aligned with our intentions.
+
+07:16.160 --> 07:19.560
+And that could lead to a new era of human flourishing, I think.
+
+07:19.560 --> 07:20.880
+This is not the default path, by the way.
+
+07:20.880 --> 07:21.720
+We will have to choose it.
+
+07:21.720 --> 07:23.080
+We'll have to work to build that.
+
+07:23.080 --> 07:24.960
+And that's why I think intentional tech is so important
+
+07:24.960 --> 07:28.120
+because we want technology that aligns with our intentions.
+
+07:28.120 --> 07:31.760
+Not necessarily what I want, my revealed preference
+
+07:31.760 --> 07:33.480
+of like looking at the car crashes or whatever,
+
+07:33.480 --> 07:34.680
+but what I intend to do,
+
+07:34.680 --> 07:36.440
+I intend to spend quality time with my family,
+
+07:36.440 --> 07:40.080
+and intend to experience new things.
+
+07:40.080 --> 07:43.720
+I intend to read interesting takes that disagree,
+
+07:43.720 --> 07:44.960
+that it can be disconfirming evidence
+
+07:44.960 --> 07:46.400
+that challenge my worldviews.
+
+07:46.400 --> 07:47.560
+Those are some of the things I intend.
+
+07:47.560 --> 07:49.080
+That's what I find meaningful to do.
+
+07:49.080 --> 07:50.520
+And it's very easy to fall out of that.
+
+07:50.520 --> 07:54.640
+But LLM's I think with the right product fabric
+
+07:54.640 --> 07:56.120
+could enable that.
+
+07:56.120 --> 07:58.440
+Another important part of this is it aligns with your intentions
+
+07:58.440 --> 08:01.520
+as in it is working for me is an extension of me.
+
+08:01.520 --> 08:03.720
+I heard a word last week, I love of exo cortex.
+
+08:03.720 --> 08:06.160
+It's like an extent, you're caught in the exoskeleton.
+
+08:06.200 --> 08:08.240
+But that has to be fully aligned with you.
+
+08:08.240 --> 08:11.320
+Imagine if that context, all of that rich substrate
+
+08:11.320 --> 08:13.400
+of meaning that you've distilled and written down
+
+08:13.400 --> 08:15.760
+that's all about the things you care about
+
+08:15.760 --> 08:17.440
+and all these facts about you.
+
+08:17.440 --> 08:20.280
+It was not working for you, that's terrifying.
+
+08:20.280 --> 08:22.440
+Like I saw someone a few weeks ago
+
+08:22.440 --> 08:24.440
+at one of the big tech companies said,
+
+08:24.440 --> 08:29.120
+we're making our tool personal, proactive, powerful.
+
+08:29.120 --> 08:30.400
+It's like, well, let me stop you right there
+
+08:30.400 --> 08:32.320
+because the very first word personal
+
+08:32.320 --> 08:33.440
+doesn't actually align
+
+08:33.440 --> 08:34.960
+because you are a massive corporation
+
+08:35.040 --> 08:36.360
+that's trying to sell me ads.
+
+08:36.360 --> 08:38.120
+And if you're maintaining a dossier on me
+
+08:38.120 --> 08:40.440
+and then that dossier is leading to a powerful
+
+08:40.440 --> 08:42.600
+and proactive thing, that's terrifying.
+
+08:42.600 --> 08:44.000
+Whereas if it's working just for me
+
+08:44.000 --> 08:46.400
+of the extension of my direct agency,
+
+08:46.400 --> 08:47.760
+that's really empowering.
+
+08:47.760 --> 08:48.880
+And I think that's one of the reasons
+
+08:48.880 --> 08:51.360
+intentional tech is so important at this era.
+
+08:51.360 --> 08:53.040
+That's really interesting.
+
+08:53.040 --> 08:55.240
+And tell me more about like,
+
+08:55.240 --> 08:57.280
+because when I think about this,
+
+08:57.280 --> 08:59.440
+one of the words that comes up,
+
+08:59.440 --> 09:00.840
+you talk about alignment,
+
+09:01.760 --> 09:05.680
+is that AI started,
+
+09:05.680 --> 09:08.160
+or this generation of AI started with alignment
+
+09:08.160 --> 09:12.040
+or alignment with human preferences at its core
+
+09:12.040 --> 09:14.400
+because we were all afraid that AI was going to kill us.
+
+09:14.400 --> 09:16.160
+And now it's like, well, it might not kill us,
+
+09:16.160 --> 09:17.520
+but maybe it'll just serve us ads
+
+09:17.520 --> 09:19.160
+that will make us dumber,
+
+09:19.160 --> 09:21.280
+send our money in ways that we shouldn't have whatever.
+
+09:21.280 --> 09:24.640
+So I'm kind of curious what you think has to happen
+
+09:24.640 --> 09:29.640
+to make us go on this sort of more intentional path.
+
+09:30.120 --> 09:32.800
+To me, it's alignment, I think it's fun.
+
+09:32.800 --> 09:34.800
+Yeah, we use it for the underlying LLM model.
+
+09:34.800 --> 09:35.840
+I think there's two layers.
+
+09:35.840 --> 09:37.240
+There's the model itself,
+
+09:37.240 --> 09:39.360
+which is, if you imagine this as a stateless thing
+
+09:39.360 --> 09:41.680
+that you send a query to when it gives you back a response,
+
+09:41.680 --> 09:43.720
+it doesn't store any state,
+
+09:43.720 --> 09:46.000
+then you have alignment problems of like,
+
+09:46.000 --> 09:48.960
+what kind of biases are baked into it and what have you?
+
+09:48.960 --> 09:51.280
+But then there's a layer on top, which is your context.
+
+09:51.280 --> 09:54.000
+And that is the thing that is a valuable bit of information
+
+09:54.000 --> 09:55.160
+about you that changes,
+
+09:55.160 --> 09:56.640
+it has lots of rich meaning on it.
+
+09:56.640 --> 09:58.640
+These are two separate layers, I think.
+
+09:58.640 --> 10:00.800
+And so I am more interested in this layer at the top
+
+10:00.800 --> 10:02.960
+and assuming if you have multiple LLMs
+
+10:02.960 --> 10:04.600
+that you can choose and swap between
+
+10:04.600 --> 10:05.960
+that don't remember anything about you,
+
+10:05.960 --> 10:06.800
+then it's fine.
+
+10:06.800 --> 10:08.040
+You can swap between different ones
+
+10:08.040 --> 10:09.600
+and that matters less to me.
+
+10:09.600 --> 10:13.160
+Where context is, the place that's all aggregated
+
+10:13.160 --> 10:15.040
+is I think more important.
+
+10:15.040 --> 10:16.880
+Well, that's an interesting architectural question.
+
+10:16.880 --> 10:19.920
+Like right now, language models are stateless.
+
+10:19.920 --> 10:22.560
+Do you think like in five years, for example,
+
+10:22.560 --> 10:25.880
+they're still gonna be these sort of stateless intelligence boxes
+
+10:25.880 --> 10:28.040
+or do you think they're gonna be auto updating their weights?
+
+10:28.040 --> 10:29.400
+For example, as you talk to them.
+
+10:29.400 --> 10:31.480
+I don't know about auto updating their weights
+
+10:31.480 --> 10:33.560
+and this might be there's an architectural breakthrough
+
+10:33.560 --> 10:34.840
+but this is one of the things that's weird
+
+10:34.840 --> 10:37.680
+about these models is that they do take a long time to bake.
+
+10:37.680 --> 10:39.960
+So like they have this weird paste layer down at the bottom
+
+10:39.960 --> 10:42.600
+that's like months behind on training data
+
+10:42.600 --> 10:44.160
+and it just takes time for it to bake.
+
+10:44.160 --> 10:46.360
+And then you have these layers on top
+
+10:46.360 --> 10:48.400
+that the system prompts now, like in chat,
+
+10:48.400 --> 10:51.040
+GPT will inject a little bits of your context,
+
+10:51.040 --> 10:52.960
+a weird bit that by the way, you cannot inspect,
+
+10:52.960 --> 10:54.440
+which is kind of funky, right?
+
+10:54.440 --> 10:57.280
+Like if you ask it, hey, what context about me
+
+10:57.280 --> 10:58.120
+did you put it in there?
+
+10:58.120 --> 10:58.960
+It's like, I can't tell you.
+
+10:58.960 --> 11:00.440
+Like that's creepy, right?
+
+11:00.440 --> 11:02.360
+I can't do that Dave, you know?
+
+11:02.360 --> 11:04.520
+And Simon Willis and we were chatting last week
+
+11:04.520 --> 11:07.080
+and he's got some prompt that will extract out
+
+11:07.080 --> 11:08.520
+this dossier about you.
+
+11:08.520 --> 11:10.440
+It includes things about stuff you said in the past.
+
+11:10.440 --> 11:13.400
+It could include things like your insecure about your weight,
+
+11:13.400 --> 11:15.240
+you know, these things about you.
+
+11:15.240 --> 11:16.880
+And then it also says in the last,
+
+11:18.080 --> 11:20.520
+in the last five weeks,
+
+11:20.520 --> 11:23.440
+9% of your interactions with the chatbot have been bad.
+
+11:23.440 --> 11:26.240
+As in, you've been trying to manipulate it or whatever.
+
+11:26.240 --> 11:27.960
+Like, I don't know, it's weird seeing this view
+
+11:27.960 --> 11:29.520
+into this for yourself.
+
+11:29.520 --> 11:32.320
+So I think chat GPT and others are very clearly
+
+11:32.320 --> 11:35.120
+trying to move merges together
+
+11:35.120 --> 11:37.760
+so that you have all your context in chat GPT
+
+11:37.760 --> 11:39.080
+and it's hard to leave.
+
+11:39.080 --> 11:40.560
+That I think gets more problematic,
+
+11:40.560 --> 11:42.280
+especially if you're going down
+
+11:42.280 --> 11:44.080
+an engagement maximizing kind of playbook,
+
+11:44.080 --> 11:45.960
+which, I mean, a bunch of, you know,
+
+11:45.960 --> 11:50.240
+the executives from Facebook now run
+
+11:50.240 --> 11:52.240
+three of the four big chatbots, you know?
+
+11:53.360 --> 11:55.600
+I think go back a step to meaningful computing
+
+11:55.600 --> 11:57.160
+as four major components to me.
+
+11:57.160 --> 11:59.800
+One is it's human centered, not corporation centered,
+
+11:59.800 --> 12:02.000
+centered around me and my intentions.
+
+12:02.000 --> 12:06.800
+Two is it is private by design.
+
+12:06.800 --> 12:09.280
+That means that the data is only for me to see,
+
+12:09.280 --> 12:11.080
+it's for me to bring where I want to bring
+
+12:11.080 --> 12:13.640
+and to choose who gets to see it,
+
+12:13.640 --> 12:15.800
+using techniques like confidential computing
+
+12:15.800 --> 12:18.840
+to make sure it is entirely private.
+
+12:18.840 --> 12:20.040
+It has to be prosocial.
+
+12:20.040 --> 12:22.120
+It has to be something that helps you live a life
+
+12:22.120 --> 12:25.000
+integrated with society, not just being this hyper individualized
+
+12:25.000 --> 12:26.720
+kind of, you know, a little island to yourself,
+
+12:26.720 --> 12:29.200
+but integrate with society in a meaningful way.
+
+12:30.680 --> 12:32.200
+And the last piece, which I'm going to remember
+
+12:32.200 --> 12:36.240
+from my head, is it also is open ended.
+
+12:36.240 --> 12:39.160
+It has to be something that allows you to explore
+
+12:39.160 --> 12:41.680
+and to build and to create new experiences within it.
+
+12:41.680 --> 12:43.720
+The way that our software works today
+
+12:43.720 --> 12:47.360
+is only the entity that created the software
+
+12:47.360 --> 12:48.680
+is allowed to decide what kinds of things
+
+12:48.680 --> 12:50.120
+you can do in the software.
+
+12:50.120 --> 12:51.720
+And that's due to the security model
+
+12:51.720 --> 12:54.000
+of how all of our software has worked
+
+12:54.000 --> 12:57.000
+the last 30 years, but that kind of closed-endedness
+
+12:57.000 --> 12:59.760
+means that you had to convince some PM somewhere
+
+12:59.760 --> 13:02.000
+to a prioritized or a feature,
+
+13:02.000 --> 13:03.440
+which if it's particularly niche,
+
+13:03.440 --> 13:05.040
+probably hasn't been, probably hasn't happened.
+
+13:05.040 --> 13:08.320
+Okay, well, there's a lot of things that I would love
+
+13:08.320 --> 13:12.000
+I would love to dig into it, dig into all those points.
+
+13:12.000 --> 13:14.640
+But the big one that stands out to me is,
+
+13:16.320 --> 13:19.120
+right now we live in a world where in order to get this
+
+13:19.120 --> 13:20.960
+great new technology that's advancing
+
+13:20.960 --> 13:22.920
+at this really rapid pace,
+
+13:22.920 --> 13:26.720
+we have to get it from well-funded startups
+
+13:26.720 --> 13:28.600
+that have a profit motive.
+
+13:28.600 --> 13:30.840
+And I know OpenAI is a non-profit, but like, you know,
+
+13:30.840 --> 13:31.840
+whatever.
+
+13:31.840 --> 13:33.600
+I think that's what they say, too.
+
+13:33.600 --> 13:34.600
+Yeah, whatever.
+
+13:36.600 --> 13:38.760
+Clearly they're being run like a startup.
+
+13:39.760 --> 13:42.480
+And I guess for me, like, I don't think that's a bad thing,
+
+13:42.480 --> 13:47.320
+but it sounds like at least one way to read what you're saying
+
+13:47.320 --> 13:52.320
+is we have to get rid of the sort of like corporate startup
+
+13:53.000 --> 13:56.560
+structure for these technologies to be made in a sort of social way.
+
+13:56.560 --> 14:00.240
+Like, how do you envision this being made us being able to make
+
+14:00.240 --> 14:04.240
+these decisions in terms of what kinds of corporate structures
+
+14:04.240 --> 14:07.200
+or startups or nonprofits or whatever are controlling
+
+14:07.200 --> 14:10.000
+and building these things to get the outcome that you're talking about?
+
+14:10.000 --> 14:11.560
+I think it's compatible with being a business.
+
+14:11.560 --> 14:13.840
+So for example, we're charted as a public-benefit corporation.
+
+14:13.840 --> 14:14.840
+Yeah.
+
+14:14.840 --> 14:19.160
+The, to me, it is what's most important is that users are paying
+
+14:19.160 --> 14:21.280
+for their, like, it's not free.
+
+14:21.320 --> 14:23.800
+If you aren't paying for your compute and it's not working for you,
+
+14:23.800 --> 14:24.920
+it's working for somebody else.
+
+14:24.920 --> 14:27.800
+That just so happens to think that giving it to you is a benefit.
+
+14:27.800 --> 14:31.240
+Now, it doesn't mean that's a necessary but not sufficient
+
+14:31.240 --> 14:35.280
+characteristic because I think Chat GBT's the playbook that they're executing
+
+14:35.280 --> 14:37.840
+is one that is about engagement maximizing and making you
+
+14:37.840 --> 14:40.000
+secure to the service and what have you.
+
+14:40.000 --> 14:42.560
+But you paying for your own compute is a necessary component of it
+
+14:42.560 --> 14:45.040
+to make sure that it's actually truly just working for you.
+
+14:45.040 --> 14:48.120
+That's where also that privacy really matters of your data
+
+14:48.120 --> 14:50.720
+is visible only to you with your keys.
+
+14:50.760 --> 14:52.120
+This does not necessarily mean, by the way,
+
+14:52.120 --> 14:54.120
+people have historically in the past said,
+
+14:54.120 --> 14:55.720
+oh, that means it has to be local first.
+
+14:55.720 --> 14:57.080
+I love the local first movement.
+
+14:57.080 --> 14:59.280
+I'm very aligned with its ideals and ethos.
+
+14:59.280 --> 15:01.040
+Local first is really hard for a couple of reasons.
+
+15:01.040 --> 15:04.600
+One, architecturally, it's very challenging to have a bunch of peers
+
+15:04.600 --> 15:06.080
+that have to have a visual consistency.
+
+15:06.080 --> 15:08.080
+You don't know when they're going to sync back up.
+
+15:08.080 --> 15:10.080
+It's very hard to build consumer product experiences
+
+15:10.080 --> 15:12.040
+that work the way that people expect.
+
+15:12.040 --> 15:14.120
+And two, is it's inconvenient.
+
+15:14.120 --> 15:16.520
+If you got to run your local server and your laptop
+
+15:16.520 --> 15:19.160
+isn't plugged into the network when you're on your phone
+
+15:19.160 --> 15:20.680
+or whatever, the thing doesn't work.
+
+15:20.720 --> 15:22.120
+So actually, there are other architectures
+
+15:22.120 --> 15:23.920
+that can use things like confidential compute
+
+15:23.920 --> 15:27.320
+to run in the cloud in a way that can be remotely attested
+
+15:27.320 --> 15:28.720
+to be totally private to you
+
+15:28.720 --> 15:30.920
+and that nobody else can see into that data.
+
+15:30.920 --> 15:32.120
+And so those are some of the architectures
+
+15:32.120 --> 15:35.280
+that allow a full alignment with the humans.
+
+15:35.280 --> 15:37.800
+Okay, so basically, you're saying
+
+15:38.880 --> 15:43.240
+ChatRBT is doing some of this.
+
+15:43.240 --> 15:47.120
+So they're starting with a subscription model.
+
+15:47.120 --> 15:49.240
+But there are things that they're doing.
+
+15:49.400 --> 15:52.120
+What are they doing that you think is aimed at maximizing
+
+15:52.120 --> 15:52.960
+engagement?
+
+15:52.960 --> 15:55.280
+I definitely understand the kind of memory thing
+
+15:55.280 --> 15:57.560
+I want to keep using ChatRBT because it remembers who I am.
+
+15:57.560 --> 15:59.400
+I love that part of it.
+
+15:59.400 --> 16:01.080
+What are the things that they're doing in the decisions
+
+16:01.080 --> 16:03.280
+that they're making that tell you
+
+16:03.280 --> 16:06.480
+that they're going down this engagement maximizing path
+
+16:06.480 --> 16:07.720
+that will lead to a bad place?
+
+16:07.720 --> 16:09.360
+I think the engagement maximizing path
+
+16:09.360 --> 16:10.360
+is just the default path.
+
+16:10.360 --> 16:11.200
+So I don't think, by the way,
+
+16:11.200 --> 16:12.360
+there's anything particularly, they're like,
+
+16:12.360 --> 16:13.520
+oh, here's a dastardly player.
+
+16:13.520 --> 16:15.000
+This is how you do tech now, right?
+
+16:15.000 --> 16:17.600
+You're like, in the last 10 years,
+
+16:17.600 --> 16:20.200
+we just realized aggregators are a really powerful business.
+
+16:20.200 --> 16:22.440
+And they want to consume all of the demand
+
+16:22.440 --> 16:24.400
+so that all the supply comes to them.
+
+16:24.400 --> 16:25.520
+And that's a great business.
+
+16:25.520 --> 16:27.160
+I mean, if I were sitting at their seat,
+
+16:27.160 --> 16:28.400
+I can totally see why they would do it.
+
+16:28.400 --> 16:29.800
+Like, that's, again, it's not in a various place,
+
+16:29.800 --> 16:31.360
+just the default thing that you would do.
+
+16:31.360 --> 16:31.880
+Yeah.
+
+16:31.880 --> 16:34.880
+I think if AI is this incredibly important technology
+
+16:34.880 --> 16:37.680
+that also knows all the intimate details of your life,
+
+16:37.680 --> 16:39.840
+that becomes especially important for it to be
+
+16:39.840 --> 16:41.520
+in an architecture that is not something
+
+16:41.520 --> 16:44.760
+that your, something that this other company can look at
+
+16:44.760 --> 16:46.880
+and maintain a dossier about you.
+
+16:46.960 --> 16:50.000
+Because that, it's just too easy to manipulate, right?
+
+16:50.000 --> 16:54.560
+Like, LMS can translate anything from anything.
+
+16:54.560 --> 16:56.520
+And that means they can also translate just for you
+
+16:56.520 --> 16:58.640
+to figure out exactly how to land a particular message
+
+16:58.640 --> 17:00.200
+for you, which means it's imperative
+
+17:00.200 --> 17:02.280
+that you know it's aligned with your intentions.
+
+17:02.280 --> 17:06.000
+And it's not going to try to like get you to do the,
+
+17:06.000 --> 17:08.160
+you know, the Mondo subscription
+
+17:08.160 --> 17:10.560
+or to go to one of the partners or what have you.
+
+17:10.560 --> 17:13.000
+Well, let's say you're, you're Sam Alman right now
+
+17:13.000 --> 17:16.000
+and you're, you're in charge of open AI.
+
+17:16.000 --> 17:17.880
+What would be, what are the decisions
+
+17:17.880 --> 17:22.600
+that you would make tomorrow that would put you on a path
+
+17:22.600 --> 17:24.480
+that you think is actually right?
+
+17:24.480 --> 17:25.320
+All right.
+
+17:25.320 --> 17:27.000
+So if I were to say, I'm Alman, I would do what they're doing.
+
+17:27.000 --> 17:28.000
+Yeah.
+
+17:28.000 --> 17:29.720
+And as in it's, I can see why it's a great business.
+
+17:29.720 --> 17:31.680
+I think we'll add a lot of value.
+
+17:31.680 --> 17:33.360
+That's why I see this as a complimentary approach
+
+17:33.360 --> 17:36.560
+to some degree, a baking a system that is a coactive system
+
+17:36.560 --> 17:39.360
+that's just working for you that is not just chat.
+
+17:39.360 --> 17:42.680
+I can be a complimentary thing to these other systems.
+
+17:42.680 --> 17:44.680
+I wouldn't say, oh, you should change what you're doing,
+
+17:44.680 --> 17:46.480
+because I think actually what they're doing
+
+17:46.480 --> 17:47.680
+is a reasonable thing.
+
+17:47.680 --> 17:49.720
+This model that they're creating,
+
+17:49.720 --> 17:52.280
+especially because they're available via the API
+
+17:52.280 --> 17:53.720
+with no memory stored to them.
+
+17:53.720 --> 17:55.360
+That's an important characteristic.
+
+17:55.360 --> 17:56.200
+It's great.
+
+17:56.200 --> 18:01.480
+It makes a really powerful underlying engine
+
+18:01.480 --> 18:04.280
+that can be used to power lots of other products,
+
+18:04.280 --> 18:06.160
+especially to the extent that there's multiple
+
+18:06.160 --> 18:08.240
+that we can swap between, you know, get stuck with it.
+
+18:08.240 --> 18:13.160
+So you think that there's a call for a complimentary technology,
+
+18:13.160 --> 18:15.960
+technology provider, set of technology providers
+
+18:15.960 --> 18:19.880
+that allow you to take all of the context
+
+18:19.880 --> 18:21.120
+that you have, keep it private,
+
+18:21.120 --> 18:23.920
+and then bring it to any situation or service that you want.
+
+18:23.920 --> 18:24.760
+Yeah.
+
+18:24.760 --> 18:28.120
+I would say that my mental model is,
+
+18:28.120 --> 18:30.600
+oh, chat GPT is kind of the AOL of this era.
+
+18:30.600 --> 18:34.000
+So if you use the parallel of the internet in the web,
+
+18:34.000 --> 18:36.400
+AOL was an extremely important company.
+
+18:36.400 --> 18:38.000
+They're the ones that brought everybody online.
+
+18:38.000 --> 18:40.200
+America, the whole of America online,
+
+18:40.200 --> 18:41.680
+has amazing experience.
+
+18:41.680 --> 18:42.960
+It was somewhat of a wild garden,
+
+18:42.960 --> 18:45.960
+but it also gave you access to the open-endedness
+
+18:45.960 --> 18:47.400
+of the open web.
+
+18:47.400 --> 18:51.640
+And I think that's the kind of role that I see them playing.
+
+18:51.640 --> 18:53.280
+I hope that what we get out of this
+
+18:53.280 --> 18:56.120
+is not some closed ecosystem of hyper aggregation
+
+18:56.120 --> 18:58.320
+beyond even what we've seen to date,
+
+18:58.320 --> 19:01.720
+but instead we see this open ecosystem of things
+
+19:01.720 --> 19:03.240
+that are very user-aligned.
+
+19:03.240 --> 19:04.080
+Interesting.
+
+19:04.080 --> 19:06.440
+Why AOL versus Microsoft, for example?
+
+19:06.440 --> 19:10.240
+So Microsoft, I think in a similar way,
+
+19:10.240 --> 19:12.760
+not for the internet era, but for the PC era.
+
+19:12.760 --> 19:15.240
+I like taught people how to use computers
+
+19:15.240 --> 19:19.680
+and brought computers as a thing to most of America
+
+19:19.680 --> 19:22.080
+in the world and built a platform
+
+19:22.080 --> 19:23.880
+that everyone else is building on top of.
+
+19:23.880 --> 19:26.120
+So that's another kind of analogy.
+
+19:26.120 --> 19:28.000
+Why do you think AOL is more appropriate?
+
+19:28.000 --> 19:32.240
+I think AOL, the analogy that tracks to me best for LLMs
+
+19:32.240 --> 19:33.080
+is the internet.
+
+19:33.080 --> 19:34.360
+Like LLMs are the internet.
+
+19:34.360 --> 19:36.400
+There are new kind of thing that you can do.
+
+19:36.400 --> 19:38.640
+AOL, at the beginning, when I first started using it
+
+19:38.640 --> 19:40.760
+like second-grader, whatever it was about, chat rooms.
+
+19:40.760 --> 19:42.080
+And you could do whatever the AOL is.
+
+19:42.080 --> 19:43.080
+Birds or whatever.
+
+19:43.080 --> 19:47.280
+ASL, and that was what I thought the internet was.
+
+19:47.280 --> 19:48.800
+And then it turns out, as I learned later,
+
+19:48.800 --> 19:52.080
+I was like, whoa, this is a whole crazy open ecosystem
+
+19:52.080 --> 19:55.200
+that no one controls with all kinds of weird happening.
+
+19:55.200 --> 19:57.520
+And that was that open system of the web.
+
+19:57.520 --> 20:00.440
+And so in the same way, I see them as distributing
+
+20:00.440 --> 20:02.000
+this new technology to people, showing,
+
+20:02.000 --> 20:02.840
+yeah, look, chatbots.
+
+20:02.840 --> 20:04.360
+You can do these cool things with chatbots.
+
+20:04.360 --> 20:06.080
+And then later, you go, oh, wait a second.
+
+20:06.080 --> 20:08.480
+The same thing that animate the chatbots could be used
+
+20:08.480 --> 20:10.320
+to animate all kinds of new experiences.
+
+20:10.320 --> 20:12.040
+I didn't realize what possible for.
+
+20:12.080 --> 20:13.960
+That's one of the reasons I think that them
+
+20:13.960 --> 20:15.520
+as the AOL versus the migration.
+
+20:15.520 --> 20:16.960
+Why did AOL die?
+
+20:16.960 --> 20:18.080
+I don't remember.
+
+20:18.080 --> 20:21.240
+I think at a certain point, the open-endedness
+
+20:21.240 --> 20:22.800
+of the web could have took over.
+
+20:22.800 --> 20:25.200
+And it just became the point of like,
+
+20:25.200 --> 20:27.200
+I think a lot about systems that you pointed out.
+
+20:27.200 --> 20:29.280
+I think open-ended systems tend to win
+
+20:29.280 --> 20:31.840
+under certain conditions, especially in the growth era.
+
+20:31.840 --> 20:34.240
+Very beginning, there's some vertically integrated thing
+
+20:34.240 --> 20:35.800
+that kicks off a new revolution.
+
+20:35.800 --> 20:38.920
+Oh, it packages up really nicely and people get it.
+
+20:38.920 --> 20:41.680
+And as time goes on, it gets the sort of
+
+20:41.680 --> 20:42.600
+combinatorial possibility.
+
+20:42.600 --> 20:45.760
+It gets too big for any one entity to successfully execute.
+
+20:45.760 --> 20:47.840
+And so the open system, if there's any way
+
+20:47.840 --> 20:50.920
+for it to escape out in the silent, it was with the web.
+
+20:50.920 --> 20:53.720
+I'm sorry, I talked with my hands as you could see.
+
+20:53.720 --> 21:00.720
+So if there's any way for it to sort of escape out the silent,
+
+21:00.720 --> 21:05.000
+like there is with the web or using APIs to access LLMs,
+
+21:05.000 --> 21:07.040
+then the open system kind of takes off
+
+21:07.040 --> 21:11.280
+this combinatorial swarm and overwhelms the closed system.
+
+21:11.280 --> 21:13.520
+That's also potentially just a hopeful thing.
+
+21:13.520 --> 21:15.280
+I hope we typically see oscillation
+
+21:15.280 --> 21:17.080
+between open systems and closed systems.
+
+21:17.080 --> 21:18.680
+We've been in closed systems dominant for like
+
+21:18.680 --> 21:20.400
+the last 10 years and I think it's a bummer.
+
+21:20.400 --> 21:21.640
+Like I think we're kind of,
+
+21:21.640 --> 21:23.400
+in this, we're an amazing age of technology
+
+21:23.400 --> 21:25.440
+and it's also kind of the dark ages of tech
+
+21:25.440 --> 21:27.520
+because we're all this hyper-arigated thing
+
+21:27.520 --> 21:29.000
+where the only features that can exist
+
+21:29.000 --> 21:31.040
+are the ones that aggregators for consumers
+
+21:31.040 --> 21:33.360
+and the ones that aggregators have decided to prioritize.
+
+21:33.360 --> 21:36.840
+And that's a bummer because the,
+
+21:36.840 --> 21:39.760
+as a company gets larger and larger and larger,
+
+21:39.760 --> 21:42.360
+the cohesion floor at Clay Sharky would call the cohesion floor,
+
+21:42.360 --> 21:43.880
+the smallest feature that it makes sense
+
+21:43.880 --> 21:45.400
+for them to even consider prioritizing
+
+21:45.400 --> 21:46.880
+goes up and up and up and up and up.
+
+21:46.880 --> 21:48.480
+So if you're at Google,
+
+21:48.480 --> 21:51.960
+if I haven't tried to pitch a product to other teams
+
+21:51.960 --> 21:53.960
+that, and they say, how many net new active,
+
+21:53.960 --> 21:55.840
+net new one-day actors do you think this product will get?
+
+21:55.840 --> 21:58.760
+I'll say, I don't know, 50,000, I'm gonna go 50,000.
+
+21:58.760 --> 22:00.440
+I wouldn't do this for 50 million.
+
+22:00.440 --> 22:02.280
+You know, it's like there's this whole class
+
+22:02.560 --> 22:05.520
+of features that just can't exist in a world,
+
+22:05.520 --> 22:06.520
+the world that we're currently in,
+
+22:06.520 --> 22:07.880
+that's hyper-arigated.
+
+22:07.880 --> 22:10.920
+It seems like one big difference between the web,
+
+22:10.920 --> 22:12.080
+the early stages of the internet,
+
+22:12.080 --> 22:12.920
+which to be honest,
+
+22:12.920 --> 22:13.920
+I don't know the history like that,
+
+22:13.920 --> 22:14.920
+well off top of my head.
+
+22:14.920 --> 22:17.240
+And language models is,
+
+22:17.240 --> 22:19.280
+the web was like, you have,
+
+22:19.280 --> 22:21.640
+I mean, it was sort of government run at first.
+
+22:21.640 --> 22:23.680
+You have this like international consortium
+
+22:23.680 --> 22:26.080
+that kind of just defines the standards
+
+22:26.080 --> 22:27.800
+for how the web works and all that kind of stuff.
+
+22:27.800 --> 22:29.240
+That doesn't seem to be the case here.
+
+22:29.240 --> 22:31.000
+So I don't think, actually,
+
+22:31.000 --> 22:33.800
+I think we are waiting for the web of AI to show up.
+
+22:33.800 --> 22:34.640
+Interesting.
+
+22:34.640 --> 22:38.120
+And that's partially what we're trying to help catalyze.
+
+22:38.120 --> 22:40.200
+And that's, I think that's what I mean by like,
+
+22:40.200 --> 22:41.200
+we have the internet and we're like,
+
+22:41.200 --> 22:42.520
+cool, the internet's definitely gonna be useful.
+
+22:42.520 --> 22:43.440
+Like if you look back at
+
+22:45.160 --> 22:49.040
+Al Gore's proposals for the air information super-highway,
+
+22:49.040 --> 22:51.760
+it was actually very prescient in a lot of ways.
+
+22:51.760 --> 22:53.240
+It's just, it was all about
+
+22:53.240 --> 22:55.960
+pipelining existing content and business models
+
+22:55.960 --> 22:57.200
+into people's homes.
+
+22:57.200 --> 22:58.640
+And some of that definitely happens.
+
+22:58.640 --> 23:00.400
+You get things like Netflix or whatever.
+
+23:00.400 --> 23:02.720
+But a lot of like YouTube, social networks,
+
+23:02.720 --> 23:04.320
+none of that was envisioned by the,
+
+23:04.320 --> 23:05.320
+or the, you know, Wikipedia.
+
+23:05.320 --> 23:06.800
+None of that was envisioned back then
+
+23:06.800 --> 23:08.520
+because we just didn't know how to imagine it.
+
+23:08.520 --> 23:10.160
+It wasn't even the thing that we thought was possible.
+
+23:10.160 --> 23:12.600
+And then the web creates this open system
+
+23:12.600 --> 23:14.800
+of lots of different people trying out different things
+
+23:14.800 --> 23:16.480
+and seeing what things work,
+
+23:16.480 --> 23:19.080
+found some of these interesting new pockets of value
+
+23:19.080 --> 23:21.240
+that grew into whole continents of value.
+
+23:21.240 --> 23:23.080
+So how do you make that though?
+
+23:23.080 --> 23:24.080
+Like do you have to,
+
+23:24.080 --> 23:26.360
+do you have to get governments involved?
+
+23:26.360 --> 23:29.080
+Do you have to block chain where everyone's like sort of
+
+23:29.080 --> 23:29.920
+out of the way?
+
+23:29.920 --> 23:30.760
+I don't know.
+
+23:30.760 --> 23:32.600
+I think you need to know that it sounds effective.
+
+23:32.600 --> 23:33.440
+You can build,
+
+23:33.440 --> 23:35.000
+we have so many powerful substrates.
+
+23:35.000 --> 23:37.320
+The web exists as a distribution platform.
+
+23:37.320 --> 23:40.680
+Everyone's, everyone's device speaks to the web.
+
+23:40.680 --> 23:42.480
+And so you can use as a way to distribute
+
+23:42.480 --> 23:45.640
+a whole new kind of experience that fits within this.
+
+23:45.640 --> 23:48.080
+So I don't think back in, for the internet,
+
+23:48.080 --> 23:49.760
+you needed a consortium,
+
+23:49.760 --> 23:51.840
+you needed a tons of capital expenditure
+
+23:51.840 --> 23:53.240
+to build the pipes.
+
+23:53.240 --> 23:54.760
+And that was government grants.
+
+23:54.760 --> 23:57.560
+It was also businesses that way overbuilt
+
+23:57.560 --> 23:58.840
+all this capacity.
+
+23:58.840 --> 24:00.320
+Those businesses, by the way,
+
+24:00.320 --> 24:02.120
+were great for society.
+
+24:02.120 --> 24:03.960
+We got all this excess band with the capacity,
+
+24:03.960 --> 24:05.760
+kind of crappy businesses though, right?
+
+24:05.760 --> 24:07.120
+Because you build a pipe somewhere.
+
+24:07.120 --> 24:08.480
+If someone builds another one, right next to you,
+
+24:08.480 --> 24:09.600
+you lose all pricing power.
+
+24:09.600 --> 24:11.760
+You know it's a total commodity.
+
+24:11.760 --> 24:13.360
+But it's a commodity that powers the rest
+
+24:13.360 --> 24:14.680
+of this innovation on top.
+
+24:14.680 --> 24:16.320
+I kind of see large language models,
+
+24:16.320 --> 24:17.680
+the producers of them,
+
+24:17.680 --> 24:19.480
+as people laying the pipes.
+
+24:19.480 --> 24:22.520
+They're the ones doing this extremely capital intensive
+
+24:22.520 --> 24:23.400
+creation,
+
+24:23.400 --> 24:25.120
+but there's actually not particularly
+
+24:25.120 --> 24:26.480
+that much of an edge across them,
+
+24:26.480 --> 24:28.200
+which is great for society.
+
+24:28.280 --> 24:30.800
+Because that means you can take LLMs as a commodity.
+
+24:30.800 --> 24:32.080
+You can assume that they exist
+
+24:32.080 --> 24:33.520
+and reasonably high quality ones,
+
+24:33.520 --> 24:35.840
+including quite good open source ones.
+
+24:35.840 --> 24:39.000
+And that means that all kinds of interesting business
+
+24:39.000 --> 24:39.840
+dynamics take off,
+
+24:39.840 --> 24:40.840
+and you can kind of take it for granted
+
+24:40.840 --> 24:41.840
+and build what's up here.
+
+24:41.840 --> 24:44.760
+Now they can take high quality LLMs for granted.
+
+24:44.760 --> 24:47.160
+Yeah, it does strike me that the thing you're talking about,
+
+24:47.160 --> 24:49.280
+which is the bar for like a Google PM
+
+24:49.280 --> 24:51.800
+to build a feature is like we need 50 million users.
+
+24:51.800 --> 24:53.160
+And so you sort of,
+
+24:53.160 --> 24:56.560
+you sort of look past the like 50,000 user use case,
+
+24:56.560 --> 24:59.000
+which those are just valuable in themselves
+
+24:59.000 --> 25:01.720
+and be often the ones that end up being
+
+25:01.720 --> 25:03.720
+the 50 million user use case in five years.
+
+25:03.720 --> 25:04.800
+Some subset of them will become
+
+25:04.800 --> 25:06.680
+that's like the sort of innovator's lemma type stuff.
+
+25:06.680 --> 25:07.680
+Yeah.
+
+25:07.680 --> 25:09.440
+It sort of strikes me that in a world
+
+25:09.440 --> 25:11.920
+where language models are commodities,
+
+25:11.920 --> 25:13.560
+capitalism just does that automatically
+
+25:13.560 --> 25:18.000
+because small startups will just like do the 50,000 user use case
+
+25:18.000 --> 25:19.240
+and just build it.
+
+25:19.240 --> 25:21.120
+So is this just going to happen without us?
+
+25:21.120 --> 25:22.400
+So here's what it might,
+
+25:22.400 --> 25:24.680
+and I agree that like this kind of,
+
+25:24.680 --> 25:26.360
+I'm so glad there's so many different ways
+
+25:26.360 --> 25:27.720
+that the society could have gone.
+
+25:27.720 --> 25:30.320
+Open AI could have had Chatchee BBT
+
+25:30.320 --> 25:32.160
+before they released the API.
+
+25:32.160 --> 25:33.520
+That would have been such a different world.
+
+25:33.520 --> 25:34.360
+It would have been very different.
+
+25:34.360 --> 25:36.200
+Because now everyone assumes they have to compete
+
+25:36.200 --> 25:37.760
+with an open access API.
+
+25:37.760 --> 25:40.080
+And now it'll be very hard to close that door in God.
+
+25:40.080 --> 25:41.520
+So we can take it for granted for the rest of us.
+
+25:41.520 --> 25:44.520
+So like I just like woke up with a last night
+
+25:44.520 --> 25:46.440
+with a nightmare that like it had gone the other way.
+
+25:46.440 --> 25:47.600
+So I'm very glad to have it.
+
+25:47.600 --> 25:48.960
+For like IBM developed AI.
+
+25:48.960 --> 25:49.800
+Yeah, yeah.
+
+25:49.800 --> 25:50.800
+What would like, what would like,
+
+25:50.800 --> 25:53.160
+$30 million a year for like one query?
+
+25:53.160 --> 25:54.400
+Yeah.
+
+25:54.400 --> 25:55.760
+So that's great.
+
+25:55.760 --> 25:56.840
+Here's the thing though,
+
+25:56.840 --> 25:58.800
+that means that the current laws of physics,
+
+25:58.800 --> 26:01.680
+the current security model that we use for the web and apps
+
+26:01.680 --> 26:03.240
+actually limits this possibility.
+
+26:03.240 --> 26:05.840
+And this security model is called the same origin paradigm.
+
+26:05.840 --> 26:07.600
+The only people who know about it really,
+
+26:07.600 --> 26:08.920
+even web developers don't really know about it.
+
+26:08.920 --> 26:09.760
+I know I do.
+
+26:09.760 --> 26:10.600
+What is that?
+
+26:10.600 --> 26:11.680
+Same origin paradigm is the laws of physics
+
+26:11.680 --> 26:12.920
+of how the web works.
+
+26:12.920 --> 26:16.040
+And what it says is it's the security and privacy model
+
+26:16.040 --> 26:18.760
+that we've used for, since for 30 years.
+
+26:18.760 --> 26:20.880
+It kind of actually grew up as an accident actually.
+
+26:20.880 --> 26:24.120
+And at the very beginning, the web has no state.
+
+26:24.120 --> 26:25.320
+And so you reach out to a server,
+
+26:25.320 --> 26:27.840
+it gives you back the same thing that anybody would have gotten
+
+26:27.840 --> 26:29.560
+if they gave that exact same request.
+
+26:29.560 --> 26:30.680
+Well, then you add cookies.
+
+26:30.680 --> 26:31.840
+And then you need to say,
+
+26:31.840 --> 26:33.640
+when do I send, where do I send cookies to
+
+26:33.640 --> 26:34.480
+once they've been set?
+
+26:34.480 --> 26:36.760
+Which other URLs do they go to?
+
+26:36.760 --> 26:37.960
+And then the easiest thing is,
+
+26:37.960 --> 26:39.640
+okay, there's a notion of a site,
+
+26:39.640 --> 26:40.920
+which is roughly a domain.
+
+26:40.920 --> 26:41.760
+I see.
+
+26:41.760 --> 26:43.840
+And so we'll send things back and isolate them by that.
+
+26:43.840 --> 26:45.600
+So cookies will come back between these,
+
+26:45.600 --> 26:46.840
+but not go over there.
+
+26:46.840 --> 26:47.840
+And then you add JavaScript
+
+26:47.840 --> 26:50.240
+and you allow things like local storage in local state.
+
+26:50.240 --> 26:51.920
+Where is that local, who can see that local state?
+
+26:51.920 --> 26:53.480
+The same people that can see this.
+
+26:53.520 --> 26:56.560
+And so now it grows up as this origin boundary.
+
+26:56.560 --> 26:59.560
+So this somewhat happens to think turns out to be,
+
+26:59.560 --> 27:01.040
+at the core of the entire security model,
+
+27:01.040 --> 27:02.800
+what it assumes is each and every origin
+
+27:02.800 --> 27:05.560
+is its own isolated little island.
+
+27:05.560 --> 27:07.640
+It can't see data from any of the other origins,
+
+27:07.640 --> 27:10.920
+but can see all the data that the user put into this origin,
+
+27:10.920 --> 27:11.720
+intentionally or unintentionally.
+
+27:11.720 --> 27:14.040
+And origin is roughly like Google.com.
+
+27:14.040 --> 27:15.840
+Yeah, it's roughly, roughly a domain.
+
+27:15.840 --> 27:17.400
+It's not exactly, it's like slightly different,
+
+27:17.400 --> 27:19.440
+but it's roughly the same as a domain.
+
+27:19.440 --> 27:21.760
+And so what this means is data accumulates inside that origin
+
+27:21.760 --> 27:22.920
+as a little island.
+
+27:22.920 --> 27:25.480
+This is a very reasonable and good security model.
+
+27:25.480 --> 27:27.040
+It's one of the things that makes clicking a link
+
+27:27.040 --> 27:28.440
+or installing a new app safe,
+
+27:28.440 --> 27:30.000
+because it knows nothing about you.
+
+27:30.000 --> 27:31.600
+So then if you choose to like it
+
+27:31.600 --> 27:32.800
+and to put more data into it,
+
+27:32.800 --> 27:34.440
+that's okay, but that's your prerogative.
+
+27:34.440 --> 27:36.280
+So it's great for trying out a new thing.
+
+27:36.280 --> 27:38.080
+The problem is putting new data into it,
+
+27:38.080 --> 27:39.840
+it can do whatever the hell it wants with that data.
+
+27:39.840 --> 27:42.400
+It can send it to evil.com or scammy.com
+
+27:42.400 --> 27:43.480
+and you have no idea.
+
+27:43.480 --> 27:45.280
+You're implicitly trusting the creators
+
+27:45.280 --> 27:47.000
+of that application.
+
+27:47.000 --> 27:49.040
+And so somewhat surprisingly,
+
+27:49.040 --> 27:51.120
+this leads to massive centralization.
+
+27:51.120 --> 27:54.640
+So if you have, so this model was about
+
+27:54.640 --> 27:56.480
+isolation, not integration,
+
+27:56.480 --> 27:58.040
+but our lives are integrated.
+
+27:58.040 --> 27:59.200
+And so if you want to move things
+
+27:59.200 --> 28:00.560
+across different origins,
+
+28:00.560 --> 28:01.800
+you have to be the orchestrator.
+
+28:01.800 --> 28:04.320
+You as the human have to keep track of the information
+
+28:04.320 --> 28:07.120
+you want to copy paste or move between these different things.
+
+28:07.120 --> 28:08.720
+It's expensive and it's somewhat scary
+
+28:08.720 --> 28:09.800
+to put it into a new thing.
+
+28:09.800 --> 28:11.880
+And so imagine that you have two use cases.
+
+28:11.880 --> 28:13.200
+One is some cool startup that says,
+
+28:13.200 --> 28:14.200
+they're going to do this amazing new thing
+
+28:14.200 --> 28:15.520
+with your calendar and scheduling.
+
+28:15.520 --> 28:16.960
+And one is Google Calendar that says they have
+
+28:16.960 --> 28:18.040
+a similar kind of feature.
+
+28:18.040 --> 28:19.000
+Which one do you pick?
+
+28:19.000 --> 28:20.840
+Well, Google already has all your data.
+
+28:20.840 --> 28:21.680
+And this startup,
+
+28:21.680 --> 28:23.720
+you don't know if there's securing the data properly
+
+28:23.720 --> 28:25.320
+or what the business model is.
+
+28:25.320 --> 28:28.000
+So you have to give it the data like step by step.
+
+28:28.000 --> 28:30.120
+Like it doesn't, it doesn't know it to start.
+
+28:30.120 --> 28:31.600
+And it's a cool startup problem.
+
+28:31.600 --> 28:32.800
+And so this leads to ask you
+
+28:32.800 --> 28:34.040
+or I'll just do the one that already has it.
+
+28:34.040 --> 28:35.880
+So this is a phenomenon you might call data gravity.
+
+28:35.880 --> 28:37.360
+It tends to accumulate in the places
+
+28:37.360 --> 28:38.480
+that already exist.
+
+28:38.480 --> 28:40.240
+And they become massive.
+
+28:40.240 --> 28:42.160
+And nobody else can get this data.
+
+28:42.160 --> 28:44.160
+And this is one of the drivers of aggregation.
+
+28:44.160 --> 28:47.720
+And again, once you aggregate to such a scale,
+
+28:47.720 --> 28:49.000
+your coaching floor goes up.
+
+28:49.000 --> 28:50.720
+And the set of features that they could even
+
+28:50.720 --> 28:53.680
+consider doing is only a small subset
+
+28:53.680 --> 28:56.200
+of what you could do with all of this data in practice.
+
+28:56.200 --> 28:58.760
+It all arises somewhat surprisingly
+
+28:58.760 --> 29:00.320
+from the security and privacy model that we used.
+
+29:00.320 --> 29:01.160
+I love that.
+
+29:01.160 --> 29:01.440
+OK.
+
+29:01.440 --> 29:03.040
+And so, and I think what you're saying
+
+29:03.040 --> 29:04.760
+is because we inherited that
+
+29:04.760 --> 29:06.360
+from the first generation of the Webber,
+
+29:06.360 --> 29:08.200
+second generation of the Webber, whatever,
+
+29:08.200 --> 29:10.440
+chat bots currently operate that way too.
+
+29:10.440 --> 29:13.280
+We don't even realize the apps all do this.
+
+29:13.280 --> 29:15.000
+Technically, legacy applications on desktop
+
+29:15.000 --> 29:16.200
+do not have this model because they
+
+29:16.200 --> 29:18.120
+can interact via the file system.
+
+29:18.120 --> 29:19.120
+Right.
+
+29:19.120 --> 29:20.840
+Apple has been retconning and jamming it
+
+29:20.840 --> 29:23.760
+into Mac OS X for a number of years.
+
+29:23.760 --> 29:25.920
+Windows probably has to, I've maintained it, engine.
+
+29:25.920 --> 29:28.080
+So like, people, when we're building software and operating
+
+29:28.080 --> 29:29.920
+systems, we don't know another way to think.
+
+29:29.920 --> 29:32.400
+How else would you possibly do it, which is insane?
+
+29:32.400 --> 29:34.400
+So there's this, I call this the iron triangle
+
+29:34.400 --> 29:35.360
+of the same origin paradigm.
+
+29:35.360 --> 29:38.160
+There's three things you can only have to.
+
+29:38.160 --> 29:41.200
+One, untrusted code, two, sensitive data,
+
+29:41.200 --> 29:43.680
+three, network access.
+
+29:43.680 --> 29:45.000
+You can only have two of the three
+
+29:45.000 --> 29:45.840
+to have a safe system.
+
+29:45.840 --> 29:46.360
+I don't understand.
+
+29:46.360 --> 29:49.520
+If you have untrusted code with sensitive data
+
+29:49.520 --> 29:50.880
+and network access, it comes in.
+
+29:50.880 --> 29:51.560
+It looks at your thing.
+
+29:51.560 --> 29:53.080
+It figures out your financial login
+
+29:53.080 --> 29:53.920
+and sends it to you.
+
+29:53.920 --> 29:57.120
+So untrusted code is like some developer wrote some apps
+
+29:57.120 --> 30:00.160
+that I'm downloading that hasn't been, I don't look at,
+
+30:00.160 --> 30:02.600
+or when, what sense is it untrusted?
+
+30:02.600 --> 30:03.920
+Untrusted is, and I haven't made a trust
+
+30:03.920 --> 30:04.760
+institution about it.
+
+30:04.760 --> 30:07.760
+So when you, when you put an app in the app store,
+
+30:07.760 --> 30:10.280
+Apple looks at it and says, OK, based on the construction
+
+30:10.280 --> 30:12.920
+of the sandbox, and also based on our review of this,
+
+30:12.920 --> 30:14.120
+this is, this is fine.
+
+30:14.120 --> 30:15.320
+It will allow people to install it.
+
+30:15.320 --> 30:16.760
+So untrusted code is first thing.
+
+30:16.760 --> 30:17.440
+What's the second thing?
+
+30:17.440 --> 30:18.520
+The second thing is sensitive data.
+
+30:18.520 --> 30:19.680
+Sensitive data, yeah, yeah.
+
+30:19.680 --> 30:20.200
+You don't want to put it.
+
+30:20.200 --> 30:22.480
+Eventually identifying data, potentially
+
+30:22.480 --> 30:24.440
+precious data, and the third is network access.
+
+30:24.440 --> 30:28.440
+So the web says you can get untrusted code by pages,
+
+30:28.440 --> 30:30.640
+and you can get network access, but no sensitive data.
+
+30:30.640 --> 30:32.720
+You get only the thing, exactly this.
+
+30:32.720 --> 30:35.000
+The app model says you get sensitive data
+
+30:35.000 --> 30:36.640
+and network access, but not untrusted code.
+
+30:36.640 --> 30:38.480
+It all has to go through the central location
+
+30:38.480 --> 30:40.040
+that, by the way, it starts at 30% tax.
+
+30:40.040 --> 30:41.160
+What about like Windows?
+
+30:41.160 --> 30:42.800
+Because Windows doesn't have an app store.
+
+30:42.800 --> 30:43.560
+So what's the?
+
+30:43.560 --> 30:45.000
+So historically, the model, there wasn't one.
+
+30:45.000 --> 30:46.480
+And that's why installing software
+
+30:46.480 --> 30:47.520
+knows it's a little bit more dangerous.
+
+30:47.520 --> 30:49.200
+Because without a model like this,
+
+30:49.200 --> 30:50.360
+it could do whatever it wants.
+
+30:50.360 --> 30:51.840
+And it has access to all that data,
+
+30:51.840 --> 30:52.680
+and you have to be more careful.
+
+30:52.680 --> 30:53.720
+But it still exists.
+
+30:53.720 --> 30:54.560
+It still exists.
+
+30:54.560 --> 30:56.040
+It's still like a vibrant ecosystem.
+
+30:56.040 --> 30:58.080
+So it's possible to do it without this triangle.
+
+30:58.080 --> 30:59.360
+And you could also change it.
+
+30:59.360 --> 31:00.800
+You could tweak it in other ways.
+
+31:00.800 --> 31:03.560
+And you could do clever things about using tools,
+
+31:03.560 --> 31:05.680
+like information flow control and confidential computing
+
+31:05.680 --> 31:08.480
+to create a whole new sort of laws of physics, I think.
+
+31:08.480 --> 31:09.520
+OK, so.
+
+31:09.520 --> 31:12.320
+And if you did, then you could do things that hit all three.
+
+31:12.320 --> 31:14.560
+If you had all three, you could do it wild.
+
+31:14.560 --> 31:16.800
+Interesting things that would not be possible today.
+
+31:16.800 --> 31:23.520
+So is the file system your number one example of a good alternative
+
+31:23.520 --> 31:24.600
+to a same origin paradigm?
+
+31:24.600 --> 31:24.880
+Yep.
+
+31:24.880 --> 31:26.920
+So the file system allows, fundamentally,
+
+31:26.920 --> 31:29.400
+multiple apps are all allowed to work on the same data.
+
+31:29.400 --> 31:31.640
+They can coordinate via the file system.
+
+31:31.640 --> 31:35.080
+And that allows you to do to knock it stuck.
+
+31:35.080 --> 31:36.920
+When you think about it, it's kind of insane
+
+31:36.920 --> 31:39.400
+that all of your data is locked up inside of an app.
+
+31:39.400 --> 31:40.760
+It can't leave the app.
+
+31:40.760 --> 31:42.960
+That's wild, actually, when you think about it.
+
+31:42.960 --> 31:44.640
+Well, it's interesting because the file system
+
+31:44.640 --> 31:46.080
+has a number of properties.
+
+31:46.080 --> 31:47.640
+Unless you don't solve Dropbox forever,
+
+31:47.640 --> 31:49.080
+but it's here.
+
+31:49.080 --> 31:52.600
+My file system is here, as opposed to it's everywhere.
+
+31:52.600 --> 31:56.000
+And I kind of have physical and just total control
+
+31:56.000 --> 31:59.480
+over what happens to it.
+
+31:59.480 --> 32:01.920
+Is that an important property of the system?
+
+32:01.920 --> 32:04.080
+You having physical control over it.
+
+32:04.080 --> 32:05.800
+That's why local first talks about, oh, we're
+
+32:05.800 --> 32:07.440
+going to make local first where you have control
+
+32:07.440 --> 32:10.280
+when you can bring the data across different things.
+
+32:10.280 --> 32:11.800
+Part of the challenge, again, with local first,
+
+32:11.800 --> 32:12.720
+is it's inconvenient.
+
+32:12.720 --> 32:15.240
+We expect things to work across multiple devices,
+
+32:15.240 --> 32:16.880
+to work even when one device is off.
+
+32:16.880 --> 32:20.160
+We expect these things to be in sync across different things.
+
+32:20.160 --> 32:22.360
+And the local first architecture is quite difficult.
+
+32:22.360 --> 32:23.960
+This is one of the things that we are looking at.
+
+32:23.960 --> 32:26.000
+We call open-to-tested runtimes.
+
+32:26.000 --> 32:27.600
+The pattern is used confidential compute.
+
+32:27.600 --> 32:29.840
+So confidential compute is secure enclaves in the cloud.
+
+32:29.840 --> 32:33.640
+It allows VMs to be run fully encrypted in memory.
+
+32:33.640 --> 32:36.720
+It means that even someone with physical access to the machine
+
+32:36.720 --> 32:40.200
+like a Google SRE can't peek inside, which is great.
+
+32:40.200 --> 32:42.320
+Then what you do is you have an open source runtime
+
+32:43.320 --> 32:47.040
+that you run, that executes the code.
+
+32:47.040 --> 32:49.680
+And then you can ask the computer to compute cluster
+
+32:49.680 --> 32:50.880
+to do a remote attestation.
+
+32:50.880 --> 32:54.040
+And to give it attestation, assigned attestation
+
+32:54.040 --> 32:58.080
+by the underlying hardware manufacturer that says,
+
+32:58.080 --> 33:00.520
+this thing that you're talking to that just handed you this
+
+33:00.520 --> 33:02.440
+is running in confidential compute mode.
+
+33:02.440 --> 33:07.880
+And here is the Shah of the git Shah of the VM that it booted with.
+
+33:07.880 --> 33:10.640
+And so it allows you remotely as a savvy user to verify,
+
+33:10.640 --> 33:13.160
+it's running an unmodified version of that software.
+
+33:13.160 --> 33:15.040
+And that solves a big coordination problem.
+
+33:15.040 --> 33:16.680
+Because now lots of other people can all verify
+
+33:16.680 --> 33:18.360
+that it's running unmodified version of the software
+
+33:18.360 --> 33:20.760
+and yes fine, and we will just use that central server
+
+33:20.760 --> 33:21.920
+as the place to coordinate.
+
+33:21.920 --> 33:23.960
+Because we can all see, can't do anything different
+
+33:23.960 --> 33:25.360
+than what it says it will do.
+
+33:25.360 --> 33:26.960
+And that's a really powerful coordination permit.
+
+33:26.960 --> 33:28.520
+Do users care about that?
+
+33:28.520 --> 33:31.600
+So because one of the things that makes me think of is
+
+33:33.600 --> 33:37.760
+a lot of these concerns feel similar to the flavor of concerns
+
+33:37.840 --> 33:41.320
+that like original blockchain, crypto type people had
+
+33:41.320 --> 33:44.640
+and we're solving for with Bitcoin
+
+33:44.640 --> 33:47.720
+or any kind of cryptocurrency.
+
+33:47.720 --> 33:50.400
+And then Coinbase came along and they were just like,
+
+33:50.400 --> 33:52.520
+we're just gonna put a general
+
+33:52.520 --> 33:56.440
+like sort of same origin paradigm type solution on top of that.
+
+33:56.440 --> 33:58.800
+And people actually love to use that.
+
+33:58.800 --> 34:02.480
+So this is a, I think if you go after users
+
+34:02.480 --> 34:04.480
+who care about this as a primary end,
+
+34:04.480 --> 34:06.080
+you end up with a very small audience available
+
+34:06.080 --> 34:08.200
+and you end up with a Macedon, for example,
+
+34:08.200 --> 34:09.680
+as in something that's like pure,
+
+34:09.680 --> 34:11.440
+but also kind of finicky to use
+
+34:11.440 --> 34:13.000
+and doesn't make that much sense.
+
+34:13.000 --> 34:15.280
+And that's why I think you want a blue sky kind of approach.
+
+34:15.280 --> 34:17.880
+Blue sky you can use as an end consumer
+
+34:17.880 --> 34:19.520
+and be like, the only thing I know about it is
+
+34:19.520 --> 34:23.600
+it's not owned by that guy, and that's it.
+
+34:23.600 --> 34:25.120
+But then the closer you look, the more you go,
+
+34:25.120 --> 34:26.480
+oh, this is actually very clever.
+
+34:26.480 --> 34:28.720
+This is an interesting way of like my key pairs
+
+34:28.720 --> 34:30.960
+and the way that personal data stores work.
+
+34:30.960 --> 34:33.240
+Most users will never have to know about that.
+
+34:33.240 --> 34:34.680
+But the more you learn, the more you're like,
+
+34:34.720 --> 34:36.040
+oh, okay.
+
+34:36.040 --> 34:37.280
+And so that I think is a,
+
+34:37.280 --> 34:39.240
+what I would call like an inductively knowable system.
+
+34:39.240 --> 34:40.080
+Yeah.
+
+34:40.080 --> 34:41.560
+People go, I was talking to somebody like,
+
+34:41.560 --> 34:43.320
+oh, nobody know, nobody ever cares
+
+34:43.320 --> 34:44.200
+about the security model.
+
+34:44.200 --> 34:45.800
+They do actually care about the security model.
+
+34:45.800 --> 34:47.560
+They just don't know the words to express it.
+
+34:47.560 --> 34:49.880
+Nobody understands what the same origin paradigm is.
+
+34:49.880 --> 34:51.600
+Nobody, a very small portion of people
+
+34:51.600 --> 34:53.160
+and yet, it is the laws of physics
+
+34:53.160 --> 34:54.960
+that make all the other stuff we do safe.
+
+34:54.960 --> 34:56.200
+It's the reason you don't have to care
+
+34:56.200 --> 34:58.680
+is because some of us also will do care.
+
+34:58.680 --> 35:00.720
+And the general characteristic for me is,
+
+35:00.720 --> 35:02.000
+when you're using a new system, you're like,
+
+35:02.000 --> 35:04.480
+oh, this seems creepy or too powerful.
+
+35:04.720 --> 35:06.640
+And you go talk to your more tech savvy friend
+
+35:06.640 --> 35:07.840
+and you say, hey, Sarah,
+
+35:07.840 --> 35:08.920
+do you trust this kind of thing?
+
+35:08.920 --> 35:10.080
+And she says, yes, I do.
+
+35:10.080 --> 35:11.800
+And the reason I trust it is because,
+
+35:11.800 --> 35:13.840
+and she knows, she's got a blog post in Hacker News
+
+35:13.840 --> 35:15.320
+that was someone who wrote the thing,
+
+35:15.320 --> 35:16.760
+was someone who audited the code,
+
+35:16.760 --> 35:17.800
+and that inductive chain,
+
+35:17.800 --> 35:19.640
+you go all the way back down to the fundamentals.
+
+35:19.640 --> 35:21.560
+This episode is brought to you by Adio,
+
+35:21.560 --> 35:25.440
+the AI native CRM built for the next era of companies.
+
+35:25.440 --> 35:27.360
+With Adio, set up takes minutes,
+
+35:27.360 --> 35:28.680
+connect your email and calendar
+
+35:28.680 --> 35:31.880
+and it instantly builds a CRM that mirrors your business
+
+35:31.880 --> 35:35.400
+with every contact enriched and organized from the start.
+
+35:35.400 --> 35:37.680
+From there, Adio's AI goes to work.
+
+35:37.680 --> 35:40.400
+It gives you real-time intelligence during calls.
+
+35:40.400 --> 35:42.960
+It prospects leads with research agents
+
+35:42.960 --> 35:46.240
+and it automates your team's most complex workflows.
+
+35:46.240 --> 35:48.880
+Industry leaders like Union Square Ventures, FlatFile
+
+35:48.880 --> 35:50.560
+and Model are already building the future
+
+35:50.560 --> 35:52.960
+of customer relationships on Adio.
+
+35:52.960 --> 35:57.040
+Go to Adio.com slash every and get 15% off your first year.
+
+35:57.040 --> 36:00.640
+That's atti.com slash every.
+
+36:00.640 --> 36:02.160
+And now back to the show.
+
+36:02.160 --> 36:03.160
+That makes total sense.
+
+36:03.160 --> 36:04.880
+I totally agree with all of that.
+
+36:04.880 --> 36:07.200
+I think the thing on my mind is
+
+36:07.200 --> 36:09.440
+the first people that are going to adopt this
+
+36:09.440 --> 36:13.040
+probably are the people that do care about the security of it, right?
+
+36:13.040 --> 36:15.600
+And are those people the right people
+
+36:15.600 --> 36:17.920
+to kind of seed the community
+
+36:17.920 --> 36:20.280
+that ends up blossoming into this thing?
+
+36:20.280 --> 36:23.720
+Because that kind of person is going to say a lot
+
+36:23.720 --> 36:27.160
+about the total trajectory of this kind of product.
+
+36:27.160 --> 36:28.600
+Actually, I don't necessarily agree
+
+36:28.600 --> 36:29.800
+that it will be those people,
+
+36:29.800 --> 36:32.080
+the privacy heads that are dropping it earlier.
+
+36:32.080 --> 36:34.160
+I think a bit more like the high-velition users.
+
+36:34.160 --> 36:36.680
+I just the tinkerers, the people who are the early adopters.
+
+36:36.680 --> 36:38.720
+Some of them will have a higher proportion
+
+36:38.720 --> 36:40.000
+of caring about this kind of thing,
+
+36:40.000 --> 36:40.880
+but a lot of them won't.
+
+36:40.880 --> 36:42.320
+Like there's a ton of startups
+
+36:42.320 --> 36:43.800
+that they say you would solve the abs
+
+36:43.800 --> 36:46.880
+to step one, sink your Gmail inbox and go, okay.
+
+36:46.880 --> 36:48.080
+I run a startup like that.
+
+36:48.080 --> 36:50.640
+Exactly, because most people don't really care,
+
+36:50.640 --> 36:52.480
+especially early adopters.
+
+36:52.480 --> 36:54.320
+I think what we're describing is a system
+
+36:54.320 --> 36:56.800
+that if you can break this iron triangle
+
+36:56.800 --> 36:58.960
+and then you get all these crazy emergent phenomena
+
+36:58.960 --> 37:00.320
+that aren't possible in other software,
+
+37:00.320 --> 37:01.320
+people use it because of that.
+
+37:01.320 --> 37:02.280
+And the reason it's not creepy
+
+37:02.280 --> 37:05.040
+is because of an underlying security or privacy model.
+
+37:05.040 --> 37:07.120
+Do you have a name for the alternative
+
+37:07.120 --> 37:09.200
+to the same origin paradigm?
+
+37:09.200 --> 37:10.960
+I call it contextual flow control.
+
+37:10.960 --> 37:12.360
+Contextual flow control.
+
+37:12.360 --> 37:13.880
+Tell me what that means.
+
+37:13.880 --> 37:16.040
+The, I don't want to go into too much depth
+
+37:16.040 --> 37:18.080
+at this point, still very fuzzy.
+
+37:18.080 --> 37:19.720
+Helen Niesenbaum is a professor.
+
+37:19.720 --> 37:22.160
+I believe it Cornell, a legal studies professor,
+
+37:22.160 --> 37:24.200
+and she talks about contextual integrity.
+
+37:24.200 --> 37:26.080
+Contextual integrity is the gold standard
+
+37:26.080 --> 37:28.120
+of what people mean when they say privacy.
+
+37:28.120 --> 37:30.240
+So when people say, when lawyers talk about privacy,
+
+37:30.240 --> 37:31.200
+they think about consent.
+
+37:31.200 --> 37:32.280
+Did the user sign a consent?
+
+37:32.280 --> 37:33.280
+That's how we can do this.
+
+37:33.280 --> 37:34.120
+That's it.
+
+37:34.120 --> 37:34.960
+It's all the same.
+
+37:34.960 --> 37:37.160
+Signed, the ULA, it's fine.
+
+37:37.160 --> 37:38.880
+Technologists talk about end-end encryption.
+
+37:38.880 --> 37:41.120
+As long as it's end-end encrypted, it is private.
+
+37:41.120 --> 37:42.720
+But what people mean intuitively
+
+37:42.720 --> 37:45.440
+is this contextual integrity that the data is used
+
+37:45.440 --> 37:47.120
+in the context that you understand
+
+37:47.120 --> 37:48.480
+and align with your interests.
+
+37:48.480 --> 37:50.040
+It's not surprising how it is used
+
+37:50.040 --> 37:52.200
+and it's not going against what you want to have in.
+
+37:52.200 --> 37:53.680
+And that's like a sort of first principles
+
+37:53.680 --> 37:55.200
+ground truth way of thinking about it.
+
+37:55.200 --> 37:56.200
+Yeah.
+
+37:56.200 --> 37:57.560
+And then you combine that with things
+
+37:57.560 --> 37:58.840
+with other technologies and allows you
+
+37:58.840 --> 38:01.560
+to make formal claims about information flows
+
+38:01.560 --> 38:02.400
+in alignment with people.
+
+38:02.400 --> 38:03.320
+That's interesting.
+
+38:03.320 --> 38:05.440
+There is, I love the same origin paradigm thing
+
+38:05.440 --> 38:08.240
+is you're going all the way back to this one decision
+
+38:08.240 --> 38:13.520
+that has all of these really interesting,
+
+38:13.520 --> 38:15.360
+positive and negative effects later
+
+38:15.360 --> 38:16.480
+that are sort of unpredictable,
+
+38:16.480 --> 38:18.800
+which feels very, it's like a little bit
+
+38:18.800 --> 38:21.760
+Steven Johnson or a little bit like one of those writers
+
+38:21.760 --> 38:23.440
+that's just like, here's this one thing
+
+38:23.440 --> 38:24.640
+about the way the history works
+
+38:24.640 --> 38:26.720
+that just totally changed everything.
+
+38:26.720 --> 38:28.200
+Do you have any other things like that
+
+38:28.200 --> 38:29.480
+that you've noticed about technology?
+
+38:29.480 --> 38:30.400
+I don't want to put you on the spot,
+
+38:30.400 --> 38:31.800
+but I just feel like you probably have
+
+38:31.800 --> 38:34.600
+some sort of counter intuitive things
+
+38:34.600 --> 38:36.880
+in your time working as Stripe and Google
+
+38:36.880 --> 38:39.000
+and whatever thinking about like mobile
+
+38:39.000 --> 38:43.360
+or sass or whatever.
+
+38:43.360 --> 38:45.840
+I think a couple other like the world changed
+
+38:45.840 --> 38:47.040
+that day we didn't realize.
+
+38:47.040 --> 38:49.720
+One is the chat GPD coming out after the API
+
+38:49.720 --> 38:50.960
+that was already available.
+
+38:50.960 --> 38:54.040
+Another one is, if I could go back in time
+
+38:54.200 --> 38:59.040
+at a time machine, I would go to the stage on 2007,
+
+38:59.080 --> 39:01.280
+the stage where Steve Jobs shows off the iPhone
+
+39:01.280 --> 39:03.760
+and run onto the stage with a poster that says,
+
+39:03.760 --> 39:05.880
+this will become the most important computing device
+
+39:05.880 --> 39:09.080
+on earth, it is insane to allow a single company
+
+39:09.080 --> 39:11.040
+to decide what things you may run in it.
+
+39:11.040 --> 39:12.320
+Right? It's insane.
+
+39:12.320 --> 39:13.320
+It's absolutely insane.
+
+39:13.320 --> 39:14.800
+And the only reason it's actually viable
+
+39:14.800 --> 39:17.000
+is because they decided very shrewdly
+
+39:17.000 --> 39:19.600
+at the very beginning to not allow other rendering engines
+
+39:19.600 --> 39:22.000
+in browsers on that device from the very beginning
+
+39:22.040 --> 39:23.720
+or and to make sure that all software
+
+39:23.720 --> 39:25.480
+had to go through the app store.
+
+39:25.480 --> 39:27.000
+And that was a reasonable decision
+
+39:27.000 --> 39:29.240
+and that the first order implications are very reasonable.
+
+39:29.240 --> 39:31.600
+It means that you get as a user the safe experience,
+
+39:31.600 --> 39:33.440
+you know, nothing's gonna hurt you in it.
+
+39:33.440 --> 39:36.320
+The second order implications of that are wild.
+
+39:36.320 --> 39:39.200
+It's insane to me that like the most important
+
+39:39.200 --> 39:40.680
+computer devices in our lives,
+
+39:40.680 --> 39:42.720
+a company who has demonstrated again and again
+
+39:42.720 --> 39:44.600
+that they are willing to use capricious
+
+39:44.600 --> 39:47.160
+kind of decision making about what things will distribute
+
+39:47.160 --> 39:49.520
+is the one that like that gatekeeper, that's insane to me.
+
+39:49.520 --> 39:53.960
+It seems kind of like a lot of what you are reacting to
+
+39:53.960 --> 39:57.520
+and the Apple example and the same origin paradigm example
+
+39:57.520 --> 40:02.520
+is aggregation of power and in a few large big tech companies
+
+40:04.240 --> 40:06.600
+and the kind of second and third order
+
+40:06.600 --> 40:09.360
+negative effects of that on user experience
+
+40:09.360 --> 40:10.880
+and innovation and stuff like that.
+
+40:10.880 --> 40:12.840
+And competition and yeah, competition, yeah.
+
+40:12.840 --> 40:17.440
+So what are the, it seems like that's a reasonable place
+
+40:17.440 --> 40:19.120
+also for like regulation.
+
+40:19.120 --> 40:20.640
+What is your stance on regulation?
+
+40:20.640 --> 40:22.800
+I mean, regulation also has all kinds of second
+
+40:22.800 --> 40:24.280
+of third order impacts, you know?
+
+40:24.280 --> 40:27.320
+And so have you ever met Denel Meadows thinking in systems?
+
+40:27.320 --> 40:29.760
+Yeah, so like the systems you got to dance with
+
+40:29.760 --> 40:31.840
+to some degree, you can't fully control them,
+
+40:31.840 --> 40:33.480
+you can develop it.
+
+40:33.480 --> 40:36.480
+And that's why I find some of these characteristics
+
+40:36.480 --> 40:38.880
+when you find the right like technical leverage points
+
+40:38.880 --> 40:41.920
+you can say, oh, actually that has a very different way
+
+40:41.920 --> 40:43.680
+that it evolves I think is preferable
+
+40:43.680 --> 40:45.760
+to a regulatory.
+
+40:45.800 --> 40:47.680
+What if I said like you could pass,
+
+40:47.680 --> 40:49.720
+you get your president for the day
+
+40:49.720 --> 40:52.880
+and you can, and and all of Congress and,
+
+40:52.880 --> 40:53.720
+and this for you.
+
+40:53.720 --> 40:54.720
+You're a dictator for the day.
+
+40:54.720 --> 40:56.320
+You're a dictator for the day, yeah.
+
+40:56.320 --> 40:57.440
+You can pass one law.
+
+40:58.800 --> 41:01.000
+Do you have, like what law would you pass it?
+
+41:01.000 --> 41:03.320
+It's like a, you can, it's a one sentence law.
+
+41:05.320 --> 41:06.040
+I don't know.
+
+41:06.040 --> 41:08.360
+I don't have to, I don't, I've never thought through
+
+41:08.360 --> 41:11.480
+like I'm so used to in open systems
+
+41:11.480 --> 41:13.760
+which were all part of the large complex adaptive system
+
+41:13.760 --> 41:14.840
+called society.
+
+41:14.840 --> 41:16.360
+And there's always like weird,
+
+41:16.360 --> 41:18.200
+any currents of our dynamics and what have you.
+
+41:18.200 --> 41:19.760
+So like I take from the assumption
+
+41:19.760 --> 41:21.280
+that like I never have a lever that is like
+
+41:21.280 --> 41:23.480
+this massive lever I can just simply pull.
+
+41:23.480 --> 41:24.960
+And so I don't even know more like looking,
+
+41:24.960 --> 41:26.600
+you want to find the like grain of sand
+
+41:26.600 --> 41:29.680
+that you put on the pile and it's just all like a cascade.
+
+41:29.680 --> 41:31.600
+But it cascades if the pile is ready for it.
+
+41:31.600 --> 41:32.440
+Right exactly.
+
+41:32.440 --> 41:33.680
+And that's one of the nice things about like systems thinking
+
+41:33.680 --> 41:35.400
+is like if you do the right like judo moves,
+
+41:35.400 --> 41:38.120
+the right thing, and the system is ready for it,
+
+41:38.120 --> 41:38.960
+the world moves.
+
+41:38.960 --> 41:40.400
+And if it's not, it doesn't move.
+
+41:40.400 --> 41:42.880
+And so that the like the system is deciding kind of,
+
+41:42.880 --> 41:44.760
+they're always like micro interactions throughout it.
+
+41:44.760 --> 41:47.080
+Tell me more about that mindset and how you developed it.
+
+41:47.080 --> 41:49.120
+And what are the, what are some of the key moments
+
+41:49.120 --> 41:50.240
+in your life for that?
+
+41:50.240 --> 41:51.520
+How you've seen that happen.
+
+41:53.080 --> 41:54.960
+I, so I wrote my undergraduate thesis
+
+41:54.960 --> 41:57.680
+on the emergent power dynamics of Wikipedia's user community.
+
+41:57.680 --> 41:59.640
+And I, by degrees in social studies
+
+41:59.640 --> 42:01.240
+with a minor in computer science.
+
+42:01.240 --> 42:03.160
+And I was just fascinated by this emergent phenomenon.
+
+42:03.160 --> 42:04.480
+How are always strangers?
+
+42:04.480 --> 42:05.960
+Work on this thing with no coordination.
+
+42:05.960 --> 42:07.880
+And yet you get this convergent,
+
+42:07.880 --> 42:09.360
+extremely important result out of it.
+
+42:09.360 --> 42:10.200
+That's insane.
+
+42:10.200 --> 42:11.040
+It's wild.
+
+42:12.000 --> 42:14.080
+And then when I went straight out of the Google,
+
+42:14.080 --> 42:15.120
+and I called it to Google,
+
+42:15.120 --> 42:17.600
+it actually was harder to get my first PM role
+
+42:17.600 --> 42:19.160
+because I didn't technically have a CS degree,
+
+42:19.160 --> 42:20.160
+even though it basically did.
+
+42:20.160 --> 42:22.080
+It was one credit shot, I have a dual major.
+
+42:22.080 --> 42:23.760
+And so I was like, man, what a mistake that was.
+
+42:23.760 --> 42:26.120
+I just didn't, you know, just threw it in the back of my mind
+
+42:26.120 --> 42:27.320
+on whatever, like if I could go back
+
+42:27.320 --> 42:29.160
+and time out, it's what a major in CS.
+
+42:29.160 --> 42:30.840
+And then I did my first year on search.
+
+42:30.840 --> 42:32.040
+The precursor to the knowledge graph,
+
+42:32.040 --> 42:33.040
+my second year in double click,
+
+42:33.040 --> 42:34.480
+it was in the APM program.
+
+42:34.480 --> 42:36.120
+And part of that is you mentor a lot of the people
+
+42:36.120 --> 42:36.960
+who come up after you.
+
+42:36.960 --> 42:39.040
+And I learned very early on, I loved mentoring people,
+
+42:39.040 --> 42:41.440
+helped me think through what I was dealing with
+
+42:41.440 --> 42:43.240
+and help people and get more patterns
+
+42:43.240 --> 42:44.680
+to go into my pattern matching library.
+
+42:44.680 --> 42:48.040
+And then I became the lead PM for Chrome's web platform team.
+
+42:48.040 --> 42:49.840
+And I think a lot of PMs are under the misunderstanding
+
+42:49.840 --> 42:52.040
+that they're in way more control of their users
+
+42:52.040 --> 42:53.640
+and the usage than they actually are.
+
+42:53.640 --> 42:54.920
+If you're at Google and you ship a feature
+
+42:54.920 --> 42:56.880
+in tomorrow 50 million people use it,
+
+42:56.880 --> 42:59.440
+you kind of get a little bit of a God complex, right?
+
+42:59.440 --> 43:01.880
+If you're a platform PM, you tweak a thing
+
+43:01.880 --> 43:04.040
+which causes other developers to do something different
+
+43:04.040 --> 43:06.520
+which causes users to be affected in a second order of act,
+
+43:06.520 --> 43:08.240
+you're aware of this in direction.
+
+43:08.240 --> 43:11.560
+If you're the lead PM for the web platform,
+
+43:11.560 --> 43:14.120
+which is a open system with multiple browser vendors
+
+43:14.120 --> 43:15.400
+who don't like each other very much
+
+43:15.400 --> 43:17.240
+and are constantly kicking each other on the table,
+
+43:17.240 --> 43:19.520
+you are under no illusion that you're in control.
+
+43:19.520 --> 43:20.920
+And my engineering counterpart,
+
+43:20.920 --> 43:23.160
+Dimitri Glazkov, who was the UberTL
+
+43:23.160 --> 43:25.280
+for playing brilliant guy
+
+43:25.280 --> 43:27.200
+and he was the one who got me into
+
+43:27.200 --> 43:29.440
+introduced me to the word complexity, for example,
+
+43:29.440 --> 43:31.360
+and introduced me to the Santa Fe Institute.
+
+43:31.360 --> 43:32.640
+And so I was going as realizing,
+
+43:32.640 --> 43:34.920
+oh, these things I'm naturally doing to try to make
+
+43:34.920 --> 43:38.080
+these good outcomes happen in this open ecosystem.
+
+43:38.080 --> 43:41.120
+Progressive web apps and these web standards and stuff.
+
+43:41.120 --> 43:42.680
+I'm intuitively applying some of these
+
+43:42.680 --> 43:44.800
+paradynamics and complex systems.
+
+43:44.800 --> 43:47.440
+And then I left Chrome.
+
+43:47.440 --> 43:48.800
+I went to go work on augmented reality.
+
+43:48.800 --> 43:50.920
+I created a little nerd club behind the scenes
+
+43:51.920 --> 43:53.960
+with a bunch of people that I just kind of selected
+
+43:53.960 --> 43:56.560
+that people who when I said it was a nerd club didn't go,
+
+43:56.560 --> 43:58.560
+ew, like, you know, like, ah, that's fun.
+
+43:58.560 --> 43:59.640
+Great, come on in.
+
+43:59.640 --> 44:01.680
+And then it was very collaborative debate,
+
+44:01.680 --> 44:03.680
+very trickling in different perspectives
+
+44:03.680 --> 44:05.960
+if I get a diversity of perspectives into the system,
+
+44:05.960 --> 44:07.640
+no particular goal that's exploring.
+
+44:07.640 --> 44:09.800
+After a while we came up with a distilled, like, a thing
+
+44:09.800 --> 44:11.200
+I was like, this must be the strategy.
+
+44:11.200 --> 44:12.440
+Nothing else could work.
+
+44:12.440 --> 44:14.120
+This is a strategy that kind of makes sense
+
+44:14.120 --> 44:14.960
+of all the pieces.
+
+44:14.960 --> 44:17.000
+And that caught on a significant momentum.
+
+44:17.000 --> 44:18.520
+And that's when I realized, oh my gosh,
+
+44:18.520 --> 44:20.680
+I'm not a web developer ecosystem guy.
+
+44:20.680 --> 44:21.760
+I'm a systems guy.
+
+44:21.760 --> 44:23.760
+And the same techniques I've been advising,
+
+44:23.760 --> 44:25.560
+I used in deployed in those contexts
+
+44:25.560 --> 44:27.360
+are the same techniques I used.
+
+44:27.360 --> 44:29.320
+I've been advising, you know, hundreds of PMs
+
+44:29.320 --> 44:31.480
+over the last decade to use and navigate Google.
+
+44:31.480 --> 44:33.400
+And the reason they work, the lenses I'm using
+
+44:33.400 --> 44:34.880
+what game theory and power dynamics
+
+44:34.880 --> 44:37.480
+and evolutionary biology are things I learned in college.
+
+44:37.480 --> 44:39.240
+And it was just kind of like a ha moment.
+
+44:39.240 --> 44:41.920
+And that's when I wrote the earlier version
+
+44:41.920 --> 44:43.760
+of the slime mold deck.
+
+44:43.760 --> 44:45.120
+Tell us a little bit about that.
+
+44:45.120 --> 44:47.160
+That slime mold deck was a kind of lightning in a bottle.
+
+44:47.160 --> 44:52.160
+It was, it's a, I think it's a 150 slide emoji flip book.
+
+44:52.320 --> 44:55.840
+And it's just about a fundamental characteristic
+
+44:55.840 --> 44:59.520
+of system organizations that as organizations get larger,
+
+44:59.520 --> 45:01.360
+they get much, much, much slower.
+
+45:01.360 --> 45:02.600
+And that's true.
+
+45:02.600 --> 45:05.480
+Even if you assume everybody is actively good at what they do,
+
+45:05.480 --> 45:08.040
+actively hardworking and actively collaborative.
+
+45:08.040 --> 45:12.600
+And it rises due to a exponential coordination cost blowup.
+
+45:12.600 --> 45:14.240
+It's fundamental, it's inescapable.
+
+45:14.240 --> 45:17.040
+And it's the force that we all deal with constantly.
+
+45:17.040 --> 45:18.520
+And we don't even realize we're dealing with it.
+
+45:18.520 --> 45:20.400
+And so we get frustrated with ourselves,
+
+45:20.400 --> 45:22.280
+we get frustrated at Jeff over there,
+
+45:22.280 --> 45:25.480
+who if only he would do X, this whole thing would be easier.
+
+45:25.480 --> 45:27.600
+And we're dissolved fighting with his massive forces,
+
+45:27.600 --> 45:30.000
+like force of gravity that's completely invisible to us.
+
+45:30.000 --> 45:33.280
+And so that deck caught on, I did another version,
+
+45:33.280 --> 45:35.640
+a similar kind of thing externally.
+
+45:35.640 --> 45:37.920
+And that also got a surprising amount of momentum.
+
+45:37.920 --> 45:39.560
+I've had people describe it to me as like life changing.
+
+45:39.560 --> 45:41.000
+I'm just talking about like some mochi,
+
+45:41.000 --> 45:43.160
+I'm actually talking about game theory.
+
+45:43.160 --> 45:45.520
+But it was, I think it really tapped into something
+
+45:45.520 --> 45:48.360
+that people experience that are frustrated by it.
+
+45:48.360 --> 45:50.160
+And I just, it's like a big hug that says,
+
+45:50.160 --> 45:51.680
+you are not crazy, this is really hard
+
+45:51.680 --> 45:53.120
+and it's fundamentally fine.
+
+45:53.120 --> 45:56.200
+So I think like every nerd that has like,
+
+45:56.200 --> 45:58.760
+is a systems person like me, like you,
+
+45:58.760 --> 46:01.840
+like we all go through like a complex systems like hope.
+
+46:01.840 --> 46:04.280
+That's the thing for people who are not,
+
+46:04.280 --> 46:06.080
+have not done that yet or haven't done it in a while.
+
+46:06.080 --> 46:08.080
+Like what are the three or four,
+
+46:08.080 --> 46:11.080
+give me like a quick rundown of like the key ideas
+
+46:11.080 --> 46:13.280
+that get you about complex systems
+
+46:13.280 --> 46:15.280
+that you think are applicable.
+
+46:15.280 --> 46:19.240
+I think everything we tend to look at individual decisions
+
+46:19.240 --> 46:20.520
+as the primary lens.
+
+46:20.520 --> 46:21.680
+I see it as a secondary lens.
+
+46:21.680 --> 46:24.320
+I look at the emergent characteristics of the system.
+
+46:24.320 --> 46:26.560
+What would each person do inductively?
+
+46:26.560 --> 46:28.520
+And how does that, how do those decisions,
+
+46:28.520 --> 46:30.800
+how are they interdependent?
+
+46:30.800 --> 46:33.400
+So I try to look at like what's the simplest inductive case
+
+46:33.400 --> 46:34.680
+and then how would that play out
+
+46:34.680 --> 46:37.240
+if everybody were doing a similar kind of concrete example
+
+46:37.240 --> 46:38.240
+of that.
+
+46:38.240 --> 46:40.640
+So like there's a dynamic that would call like a gravity
+
+46:40.640 --> 46:43.440
+weld dynamic that shows up in a lot of compounding loops.
+
+46:43.440 --> 46:45.760
+And it generally shows up when there's a thing
+
+46:45.760 --> 46:47.120
+I would call a boundary gradient.
+
+46:47.120 --> 46:49.240
+So people who are using the system,
+
+46:49.240 --> 46:51.400
+on one side, people who are not using on the other side,
+
+46:51.400 --> 46:52.840
+even at the beginning, even if lots of people
+
+46:52.840 --> 46:54.920
+are having incentives away from using the system,
+
+46:54.920 --> 46:57.720
+I don't want to use that thing that seems dumb.
+
+46:57.720 --> 46:59.720
+The people on the boundary who riot the edge
+
+46:59.720 --> 47:01.680
+of possibly using it, do they want to be in
+
+47:01.680 --> 47:02.800
+or do they want to be out?
+
+47:02.800 --> 47:05.440
+And a great example is Facebook back in the early days.
+
+47:05.440 --> 47:06.360
+It starts off with Harvard.
+
+47:06.360 --> 47:08.360
+And then now it extends to Ivy League.
+
+47:08.360 --> 47:09.440
+Do they want to be in with Harvard?
+
+47:09.440 --> 47:10.600
+Do they want to be in with all the other schools?
+
+47:10.600 --> 47:11.720
+I'd rather be in with Harvard.
+
+47:11.720 --> 47:13.400
+And now it extends to the other schools.
+
+47:13.400 --> 47:15.280
+And at each point, each group of people
+
+47:15.280 --> 47:16.440
+would rather be in.
+
+47:16.440 --> 47:17.720
+And if there's a compounding, if there's
+
+47:17.720 --> 47:19.480
+some kind of network effect inside,
+
+47:19.480 --> 47:21.560
+then this strength that gets more and more powerful
+
+47:21.560 --> 47:24.520
+as you go, it can become this thing that can pull in even.
+
+47:24.520 --> 47:26.960
+As time goes on, the incentives pull in for everybody.
+
+47:26.960 --> 47:29.560
+And everybody will pull into this overall thing.
+
+47:29.560 --> 47:30.600
+With sufficient time.
+
+47:30.600 --> 47:33.520
+So Facebook was started at the city college of New York.
+
+47:33.520 --> 47:35.160
+Are you saying it probably wouldn't it?
+
+47:35.160 --> 47:35.680
+Potentially.
+
+47:35.680 --> 47:37.360
+I mean, that was one of the dynamics.
+
+47:37.360 --> 47:40.600
+I mean, made it like this juggernaut, I think.
+
+47:40.600 --> 47:41.360
+That's fascinating.
+
+47:41.360 --> 47:43.800
+Who are the, so Janela Meadows is someone
+
+47:43.800 --> 47:45.920
+I've read just thinking it says this is really good.
+
+47:45.920 --> 47:48.560
+What are the other like, you know,
+
+47:48.560 --> 47:52.000
+Santa Fe type people that are, that have inspired you,
+
+47:52.000 --> 47:54.960
+that you've read or think about a lot?
+
+47:54.960 --> 47:56.960
+One of my favorites is the origin of wealth by Eric
+
+47:56.960 --> 47:58.320
+Winehacker.
+
+47:58.320 --> 47:59.000
+Fascinating book.
+
+47:59.000 --> 47:59.800
+I haven't read it.
+
+47:59.800 --> 48:00.480
+It's really good.
+
+48:00.480 --> 48:02.000
+It talks about these organization,
+
+48:02.000 --> 48:03.800
+why these organizational things emerge
+
+48:03.800 --> 48:08.800
+and these views business as an evolutionary process
+
+48:08.800 --> 48:12.040
+of like exploring a fitness landscape,
+
+48:12.040 --> 48:13.720
+which I think is like the correct,
+
+48:13.720 --> 48:15.720
+like a very useful lens of seeing it.
+
+48:15.720 --> 48:19.520
+Cesar Hidalgo who wrote why, why information grows.
+
+48:19.520 --> 48:22.320
+He and Eric used to work on stuff together.
+
+48:22.320 --> 48:24.760
+Also talks about why fundamentally know how
+
+48:24.760 --> 48:27.160
+and it's diffusion in societies.
+
+48:27.160 --> 48:29.080
+Know how is, the way we actually do stuff
+
+48:29.080 --> 48:30.480
+is know how, not knowledge.
+
+48:30.480 --> 48:34.040
+Know how is rich, it's non,
+
+48:34.040 --> 48:36.560
+it's a difficult to distinguish, to communicate.
+
+48:36.560 --> 48:37.400
+It's in our brain.
+
+48:37.400 --> 48:38.240
+It's what L alums know.
+
+48:38.240 --> 48:39.080
+Exactly.
+
+48:39.080 --> 48:42.200
+And so they have absorbed this kind of like squishy system
+
+48:42.200 --> 48:44.120
+to style awareness.
+
+48:44.120 --> 48:45.880
+You can think of every time we're trying to communicate,
+
+48:45.880 --> 48:49.080
+we do this conscious process to distill the squishy,
+
+48:49.080 --> 48:52.080
+rich nuance into a little tiny packet of information.
+
+48:52.080 --> 48:54.000
+It's so seed of a thought and I shoot it
+
+48:54.080 --> 48:56.520
+into a little pea shooter into your brain.
+
+48:56.520 --> 48:58.520
+And I hope it lands in a little soil
+
+48:58.520 --> 49:00.760
+that will grow into a thought flower.
+
+49:00.760 --> 49:04.000
+But extraordinarily lossy process and expensive process.
+
+49:05.040 --> 49:05.880
+I agree.
+
+49:05.880 --> 49:08.960
+And I think we've also confused that pea shooter,
+
+49:08.960 --> 49:11.080
+the thing we can just distill into a pea shooter
+
+49:11.080 --> 49:12.800
+with the only thing that's important
+
+49:12.800 --> 49:14.600
+when there's so much other stuff that's like,
+
+49:14.600 --> 49:16.320
+you can't really say, but you know.
+
+49:16.320 --> 49:17.800
+Yeah.
+
+49:17.800 --> 49:20.120
+Yeah, like the thing that is making me think of
+
+49:20.120 --> 49:22.720
+is something like a path I've been going down
+
+49:22.720 --> 49:25.760
+until actually is this idea that language models
+
+49:25.760 --> 49:28.280
+are their first tool that makes those,
+
+49:30.080 --> 49:33.960
+makes that kind of tacit knowledge or know how
+
+49:33.960 --> 49:35.440
+transferable between people.
+
+49:35.440 --> 49:36.280
+Yeah.
+
+49:36.280 --> 49:39.720
+We used to have to, we used to require explanations.
+
+49:39.720 --> 49:44.520
+So like math or like logic or rational arguments
+
+49:44.520 --> 49:48.840
+to like transfer know how in this like very reduced form
+
+49:48.840 --> 49:50.920
+into someone else's brain.
+
+49:51.000 --> 49:55.840
+But now we can like just move tacit knowledge
+
+49:55.840 --> 49:57.680
+between people because you can train them all
+
+49:57.680 --> 50:00.000
+with a bunch of examples and you can be like,
+
+50:00.000 --> 50:02.000
+even if you do things, if you cheat,
+
+50:02.000 --> 50:03.960
+you're using the existing off-the-shelf model
+
+50:03.960 --> 50:05.520
+and you just pack it full of like,
+
+50:05.520 --> 50:07.880
+here's all my, if I read all the public writing
+
+50:07.880 --> 50:09.840
+you've done, and you had all the public writing
+
+50:09.840 --> 50:12.360
+I have done, which I'm sure is just insane amounts
+
+50:12.360 --> 50:14.200
+you know with the bus, and we had a system
+
+50:14.200 --> 50:16.880
+that could find, sift through the embeddings,
+
+50:16.880 --> 50:19.120
+find the areas, the Goldilocks areas, the things,
+
+50:19.120 --> 50:21.080
+if we focus on stuff we definitely agree on,
+
+50:21.080 --> 50:23.240
+it's kind of boring, other than like quickly building trust.
+
+50:23.240 --> 50:24.600
+Like, oh, we think similarly,
+
+50:24.600 --> 50:26.440
+we find stuff that we fundamentally disagree on,
+
+50:26.440 --> 50:27.600
+it's also fundamentally boring
+
+50:27.600 --> 50:29.000
+because it's just noise to each other,
+
+50:29.000 --> 50:31.440
+but we find the Goldilocks zone where it's just
+
+50:31.440 --> 50:33.880
+at the edge of the thing that we already thought,
+
+50:33.880 --> 50:35.360
+you can have these fascinating conversations,
+
+50:35.360 --> 50:36.480
+and you can do it with embeddings,
+
+50:36.480 --> 50:38.000
+just very straightforwardly.
+
+50:38.000 --> 50:39.960
+Again, you train a model per se,
+
+50:39.960 --> 50:43.480
+you can have the, you can find these areas of overlap,
+
+50:43.480 --> 50:45.640
+and yeah, the models are really good.
+
+50:45.640 --> 50:47.160
+My friend at Thayer Roberts has this notion,
+
+50:47.160 --> 50:48.520
+she's a brilliant thinker,
+
+50:48.520 --> 50:52.440
+she's a professor in Australia, she teaches Harvard,
+
+50:52.440 --> 50:54.640
+and she talks, she's one of the most interesting users
+
+50:54.640 --> 50:56.720
+of LLM's I've ever come across, and what's her name?
+
+50:56.720 --> 51:00.320
+And Thayer Roberts, I just, she just started doing a blog
+
+51:00.320 --> 51:03.560
+a couple, a couple of weeks ago at my insistence
+
+51:03.560 --> 51:05.640
+because I thought she had so many interesting ideas,
+
+51:05.640 --> 51:09.000
+and she talks about liquid media.
+
+51:09.000 --> 51:12.240
+So like, think of a book as a fossilized piece of knowledge,
+
+51:12.240 --> 51:14.160
+yeah, you have to assume and give an audience
+
+51:14.160 --> 51:17.560
+at a certain time, and you break it, you put it in time,
+
+51:17.560 --> 51:19.240
+and then if it's not the right fit, like,
+
+51:19.240 --> 51:20.600
+oh, I don't understand these concepts,
+
+51:20.600 --> 51:22.400
+that are prerequisites to understand this,
+
+51:22.400 --> 51:23.600
+or not close enough in alignment
+
+51:23.600 --> 51:25.560
+to the belief already, it's like stick to it.
+
+51:25.560 --> 51:28.240
+And versus a, because of liquid media,
+
+51:28.240 --> 51:29.240
+it's something you can chat with,
+
+51:29.240 --> 51:31.160
+it can kind of be a choose your own adventure,
+
+51:31.160 --> 51:34.800
+and that gives you a, allows it to sort of unfold
+
+51:34.800 --> 51:36.360
+for that particular person,
+
+51:36.360 --> 51:38.920
+in a specific way as opposed to, it's one way.
+
+51:38.920 --> 51:41.880
+It's funny because, in a lot of ways,
+
+51:41.880 --> 51:46.880
+we're getting back to like, Plato and Socrates's problem
+
+51:46.880 --> 51:49.200
+with writing is they were like, well, you can't talk to it.
+
+51:49.200 --> 51:54.200
+So it's only sort of a shadow of what that person thinks,
+
+51:54.280 --> 51:56.200
+and they can't argue back with you,
+
+51:56.200 --> 52:00.120
+and that's why those foundational books
+
+52:00.120 --> 52:03.360
+of the Western canon are written as dialogues.
+
+52:03.360 --> 52:06.480
+And yeah, I mean, for me, like,
+
+52:06.480 --> 52:09.680
+I read so many old books like classics
+
+52:09.680 --> 52:11.000
+that are either written in English,
+
+52:11.000 --> 52:12.240
+or we're not written in English,
+
+52:12.240 --> 52:15.040
+and if you read it with Chachibit or Claude or whatever,
+
+52:15.040 --> 52:16.720
+you can get so much out of it,
+
+52:16.720 --> 52:20.760
+and I just think that there's a new format of reading
+
+52:20.760 --> 52:25.120
+that takes a classic book and helps you get into it
+
+52:25.120 --> 52:26.640
+in a way that it would not,
+
+52:26.640 --> 52:28.040
+or narrowly be possible,
+
+52:28.040 --> 52:29.640
+that I think could be so cool about it.
+
+52:29.640 --> 52:32.880
+Yeah, I know it feels like in this industry
+
+52:32.880 --> 52:35.520
+that we're like halfway through the LLM era,
+
+52:35.520 --> 52:36.520
+we were in the very first,
+
+52:36.520 --> 52:37.360
+it's very early.
+
+52:37.360 --> 52:38.600
+We're like rubbing sticks together.
+
+52:38.600 --> 52:40.800
+We still think that chatbots are the main thing,
+
+52:40.800 --> 52:43.200
+and there's so many uses of this kind of stuff.
+
+52:43.400 --> 52:46.200
+If you have, I think of LLM's kind of like
+
+52:46.200 --> 52:48.440
+as a mass intelligence, as a mass noun,
+
+52:48.440 --> 52:51.160
+so mass nouns are like water or rice.
+
+52:51.160 --> 52:52.840
+You know, you're talking about the whole,
+
+52:52.840 --> 52:54.280
+as opposed to the individuals.
+
+52:54.280 --> 52:56.400
+And I think that LLM's are kind of like this mass noun
+
+52:56.400 --> 52:57.400
+of intelligence.
+
+52:57.400 --> 52:58.960
+You can just pour this intelligence into all kinds of stuff
+
+52:58.960 --> 53:02.520
+and have it imbue it with a kind of life and activity,
+
+53:02.520 --> 53:03.760
+and we're just starting.
+
+53:03.760 --> 53:04.920
+We're just starting to understand
+
+53:04.920 --> 53:06.160
+what you can do with these things.
+
+53:06.160 --> 53:08.280
+I am so hopeful that these technologies
+
+53:08.280 --> 53:11.120
+will unlock a significant human flirt.
+
+53:11.360 --> 53:13.040
+One of the things that Enthea, for example,
+
+53:13.040 --> 53:15.480
+it was telling me, is in academia,
+
+53:15.480 --> 53:17.680
+one way you can handle LLM's, the fact that LLM's exists,
+
+53:17.680 --> 53:20.360
+is say, you know, make sure you cite your LLM sources
+
+53:20.360 --> 53:23.040
+with this weird format of exactly the conversation
+
+53:23.040 --> 53:24.560
+and a link to it.
+
+53:24.560 --> 53:26.920
+Another way is to say, I assume you're using LLM's,
+
+53:26.920 --> 53:28.800
+which means that the quality of your output
+
+53:28.800 --> 53:30.760
+should be 10x higher than before.
+
+53:30.760 --> 53:31.880
+It should be more nuanced.
+
+53:31.880 --> 53:35.160
+It should understand disconfirming arguments
+
+53:35.160 --> 53:36.000
+and address them.
+
+53:36.000 --> 53:38.480
+It should, and that's the kind of like,
+
+53:38.480 --> 53:41.080
+what can we do now as society as individuals?
+
+53:41.080 --> 53:42.400
+That we can think through thoughts
+
+53:42.400 --> 53:44.080
+that we couldn't think before.
+
+53:44.080 --> 53:45.760
+And I think that LLM's are,
+
+53:45.760 --> 53:46.880
+that's one of the reason I think it is,
+
+53:46.880 --> 53:49.640
+it's the same scale of impact as printing presses
+
+53:49.640 --> 53:50.640
+and electricity in the internet.
+
+53:50.640 --> 53:52.600
+I think it's a fundamental unlock.
+
+53:52.600 --> 53:54.680
+Do you think that it changes this coordination problem
+
+53:54.680 --> 53:58.760
+you've been talking about because a lot of coordination
+
+53:58.760 --> 54:01.920
+is about trying to distill down your tacit knowledge
+
+54:01.920 --> 54:04.400
+and your tacit context into the P-shooter
+
+54:04.400 --> 54:05.600
+and then shooting it to someone else
+
+54:05.600 --> 54:07.960
+and that scaling x-ponentially, right?
+
+54:07.960 --> 54:08.800
+I love the P-shooter.
+
+54:08.800 --> 54:10.280
+I know, I know, I know, I know.
+
+54:10.280 --> 54:13.520
+Everyone's just shooting their T-shooter.
+
+54:13.520 --> 54:16.680
+But, you know, there's this whole theory
+
+54:16.680 --> 54:18.520
+about language model being better middle managers,
+
+54:18.520 --> 54:20.240
+for example, than actual middle managers,
+
+54:20.240 --> 54:23.120
+which is I think is the same kind of coordination problem thing.
+
+54:23.120 --> 54:24.640
+Do you think that language models
+
+54:24.640 --> 54:28.360
+might solve that coordination problem
+
+54:28.360 --> 54:29.880
+because they can transfer tacit knowledge
+
+54:29.880 --> 54:31.480
+much more quickly than?
+
+54:31.480 --> 54:33.680
+I think they will definitely change the dynamic.
+
+54:33.680 --> 54:35.000
+I'm not sure how it will change.
+
+54:35.000 --> 54:37.120
+So I know a lot of companies are trying to do this
+
+54:37.120 --> 54:37.960
+because a lot of people, like,
+
+54:37.960 --> 54:40.920
+and Eric Binocker's book, The Wealth, Origin of Wealth,
+
+54:40.920 --> 54:45.040
+I think he uses the frame because of physical technology
+
+54:45.040 --> 54:47.880
+or social technology, like having Slack, for example,
+
+54:47.880 --> 54:49.440
+is a social technology, I think,
+
+54:49.440 --> 54:50.480
+maybe I get this backwards,
+
+54:50.480 --> 54:51.960
+but it changes the way that you can work.
+
+54:51.960 --> 54:53.440
+It changes the kinds of coordination
+
+54:53.440 --> 54:54.920
+that you can do within an organization.
+
+54:54.920 --> 54:58.520
+So MLMs must change the way that organizations work.
+
+54:58.520 --> 55:00.480
+I don't think we're gonna know what it looks like
+
+55:00.480 --> 55:01.760
+for like five to 10 years
+
+55:01.760 --> 55:04.000
+because it's not gonna change the existing companies,
+
+55:04.000 --> 55:06.680
+it's gonna be the new ones that is grew up in a different way.
+
+55:06.680 --> 55:09.680
+You also get these a weird emergent meta-games
+
+55:09.680 --> 55:14.680
+in organizations, and so the MLMs and that coordination thing,
+
+55:15.240 --> 55:17.280
+change the meta-game, but they don't make it go away.
+
+55:17.280 --> 55:20.840
+So like, if you had a system that could perfectly
+
+55:20.840 --> 55:22.720
+distill all your signals into an update
+
+55:22.720 --> 55:24.680
+that goes up to your manager,
+
+55:24.680 --> 55:26.520
+and then you're curating it, you're tweaking it
+
+55:26.520 --> 55:29.840
+because, okay, this one says it's a yellow state.
+
+55:29.840 --> 55:32.640
+Really it's green because Sarah has already got,
+
+55:32.640 --> 55:33.760
+she's on a path to resolution,
+
+55:33.760 --> 55:35.320
+but the time this rolls up to the CEO,
+
+55:35.320 --> 55:36.160
+it's already gonna be fixed.
+
+55:36.200 --> 55:37.880
+So it's actually better to say it's green.
+
+55:37.880 --> 55:38.760
+Some of this is good.
+
+55:38.760 --> 55:40.360
+Some of this also leads these compounding,
+
+55:40.360 --> 55:42.480
+green shifting problems that gets into, you know,
+
+55:42.480 --> 55:44.880
+turns into that's K-fabe throughout an organization.
+
+55:44.880 --> 55:47.560
+But the meta-game shows up no matter what
+
+55:47.560 --> 55:49.120
+the kind of coordination technology is.
+
+55:49.120 --> 55:50.760
+So I think it just changes the game.
+
+55:50.760 --> 55:52.320
+And I imagine it will make it better,
+
+55:52.320 --> 55:54.080
+it will make it significantly better in some ways
+
+55:54.080 --> 55:56.040
+and significantly worse in others.
+
+55:56.040 --> 55:56.880
+Interesting.
+
+55:56.880 --> 55:59.080
+One other thing that you're making me think of
+
+55:59.080 --> 56:00.640
+in what you said about Anthia Roberts
+
+56:00.640 --> 56:02.560
+and the changing expectations of,
+
+56:02.560 --> 56:05.160
+oh, use LMs for this, like, it's gotta be better.
+
+56:06.080 --> 56:09.280
+Is just, I think one of the things
+
+56:09.280 --> 56:12.560
+that people get so hung up about with language monoses,
+
+56:12.560 --> 56:15.960
+they're like, well, what makes us uniquely human?
+
+56:15.960 --> 56:17.680
+And are they just gonna take over everything
+
+56:17.680 --> 56:18.720
+that we can do?
+
+56:18.720 --> 56:22.480
+And I think my typical response to that is,
+
+56:22.480 --> 56:25.480
+that assumes a very static view of what humans are
+
+56:25.480 --> 56:26.520
+and what humans can do.
+
+56:26.520 --> 56:28.240
+And that one of the most interesting things
+
+56:28.240 --> 56:30.720
+about language monoses that they will change,
+
+56:30.720 --> 56:32.400
+a lot of ways what humans can do.
+
+56:33.400 --> 56:37.520
+And in the same way that books change who we are
+
+56:37.520 --> 56:39.200
+and what we can do and writing changes who we are.
+
+56:39.200 --> 56:40.200
+In the internet, whatever.
+
+56:40.200 --> 56:41.600
+The internet does to all that kind of stuff.
+
+56:41.600 --> 56:43.800
+And I think that's actually a really good thing.
+
+56:43.800 --> 56:47.120
+I'm curious if you had to think about
+
+56:47.120 --> 56:49.520
+how language monoses might change who we are,
+
+56:49.520 --> 56:52.160
+how we see ourselves, where would you,
+
+56:52.160 --> 56:53.120
+where does that take you?
+
+56:53.120 --> 56:55.960
+Yeah, that's why I think we were at this crossroads.
+
+56:55.960 --> 56:57.360
+I think we have the potential for like,
+
+56:57.360 --> 56:59.800
+there's a dawn of a new era of human flourishing
+
+56:59.800 --> 57:01.960
+because of our ability to become think better
+
+57:02.040 --> 57:04.240
+and bigger in ways that collaborate
+
+57:04.240 --> 57:05.840
+and bridge between different communities
+
+57:05.840 --> 57:07.000
+that didn't understand each other before,
+
+57:07.000 --> 57:08.000
+but now you can understand, like,
+
+57:08.000 --> 57:10.120
+help me empathize with this person's perspective.
+
+57:10.120 --> 57:12.080
+Well, here's something that you probably, you know,
+
+57:12.080 --> 57:14.200
+so I imagine it could be as amazingly powerful words.
+
+57:14.200 --> 57:16.480
+It also could be like infinite TV
+
+57:16.480 --> 57:17.520
+and using ourselves to death.
+
+57:17.520 --> 57:18.520
+You know, imagine-
+
+57:18.520 --> 57:19.360
+They're a fossil wall.
+
+57:19.360 --> 57:20.360
+It's like infinite chess.
+
+57:20.360 --> 57:22.280
+Right, it could be a thing that like,
+
+57:22.280 --> 57:23.760
+it could know exactly how to give you
+
+57:23.760 --> 57:26.200
+the precise dopamine drip, right?
+
+57:26.200 --> 57:27.800
+And so there's a world where humanity becomes
+
+57:27.800 --> 57:31.080
+extremely passive and becomes not very agentic
+
+57:31.120 --> 57:32.880
+and not learning or growing.
+
+57:32.880 --> 57:33.960
+And that is the default one
+
+57:33.960 --> 57:36.360
+that is also aligned with engaging, maximizing business model.
+
+57:36.360 --> 57:39.160
+And but I think that's why I'm excited.
+
+57:39.160 --> 57:41.640
+We had the potential to go in this direction.
+
+57:41.640 --> 57:43.920
+Well, what's interesting is like,
+
+57:43.920 --> 57:47.120
+it makes, we're making me think of this whole debacle
+
+57:47.120 --> 57:48.640
+that happened recently with Cheshire T.
+
+57:48.640 --> 57:50.760
+getting too psychophantic.
+
+57:50.760 --> 57:52.080
+Yeah.
+
+57:52.080 --> 57:55.400
+And though the way that that happened
+
+57:55.400 --> 57:57.840
+is they looked,
+
+57:57.840 --> 58:01.960
+they optimize too much for people's thumbs up
+
+58:01.960 --> 58:03.040
+and thumbs down responses,
+
+58:03.040 --> 58:05.200
+like immediate thumbs up and thumbs down responses.
+
+58:05.200 --> 58:06.800
+What they want, what they want to want, exactly.
+
+58:06.800 --> 58:09.040
+And it just became this like kind of,
+
+58:09.040 --> 58:10.800
+it just agrees with you on everything.
+
+58:10.800 --> 58:13.600
+But what's interesting is that users revolted,
+
+58:13.600 --> 58:16.440
+which did not happen with Facebook.
+
+58:16.440 --> 58:19.440
+Like people were like, oh, it's just feeding me like car accidents.
+
+58:19.440 --> 58:21.400
+Like I don't want that, right?
+
+58:21.400 --> 58:23.840
+And I think that there might be something about that
+
+58:23.840 --> 58:27.200
+where because language models hit that part of your brain
+
+58:27.240 --> 58:30.200
+where you're like, I'm having a relationship with this person.
+
+58:30.200 --> 58:33.360
+You have a set of filters for,
+
+58:34.360 --> 58:36.440
+I want their praise to be earned.
+
+58:36.440 --> 58:39.080
+I want them to feel like they can see me
+
+58:39.080 --> 58:41.440
+and they'll tell me if I'm doing something wrong or whatever.
+
+58:41.440 --> 58:44.400
+And so they may demand things from companies
+
+58:44.400 --> 58:46.840
+that they did not demand in the social media era
+
+58:46.840 --> 58:49.000
+that might make these companies less likely
+
+58:49.000 --> 58:50.360
+to do the thing that you're talking about.
+
+58:50.360 --> 58:51.200
+Potentially.
+
+58:51.200 --> 58:53.800
+I think when it goes to the point where it's egregious,
+
+58:53.800 --> 58:55.160
+it's like, it's very obvious.
+
+58:55.160 --> 58:56.000
+Yeah, yeah.
+
+58:56.000 --> 58:57.520
+I gotta say, one of the reasons I like Claude
+
+58:57.520 --> 58:59.720
+is because every time when I'm bouncing ideas off of it,
+
+58:59.720 --> 59:01.720
+it always says, what an astute observation.
+
+59:01.720 --> 59:04.160
+And I don't want it to want that, but that's what it wants, right?
+
+59:04.160 --> 59:08.520
+And so I do think that it's hard to not give us
+
+59:08.520 --> 59:10.160
+exactly what we want in that moment.
+
+59:10.160 --> 59:12.440
+And like, we aspire to want something
+
+59:12.440 --> 59:13.640
+that is different than that.
+
+59:13.640 --> 59:15.080
+That's this confirming evidence.
+
+59:15.080 --> 59:17.000
+But you also get these weird things
+
+59:17.000 --> 59:19.600
+where the context mixes and matches against different things.
+
+59:19.600 --> 59:21.920
+Before each chat was like a blank sheet of paper
+
+59:21.920 --> 59:23.720
+and you could choose what context to bring into it.
+
+59:23.720 --> 59:26.160
+And now it kind of mushies context from different things.
+
+59:26.160 --> 59:28.600
+Like I asked him to say, what do you know about me?
+
+59:28.600 --> 59:30.440
+You know, make it snap or whatever that first query was
+
+59:30.440 --> 59:33.000
+that they suggested when the new memory feature came out.
+
+59:33.000 --> 59:34.760
+And it says, well, you're Alice Kamarowski.
+
+59:34.760 --> 59:37.000
+You're really into systems thinking, emergency stuff.
+
+59:37.000 --> 59:39.720
+You have a startup called Common Tools.
+
+59:39.720 --> 59:41.880
+The starting salary at your startup is X.
+
+59:41.880 --> 59:43.880
+It's like, excuse me, what?
+
+59:43.880 --> 59:46.160
+Because six months before I had been like bouncing off,
+
+59:46.160 --> 59:47.840
+like, okay, if I'm going to do a signing bonus
+
+59:47.840 --> 59:48.880
+like this, how should I change that?
+
+59:48.880 --> 59:49.720
+It's so fun.
+
+59:49.720 --> 59:52.800
+And like, it's like the, imagine if you're,
+
+59:52.800 --> 59:54.920
+if you're talking to like your, like people might use
+
+59:54.920 --> 59:56.400
+these things as like a therapist, like it trusted,
+
+59:56.400 --> 59:58.280
+I'm going to, you know, unload and tell you all these things
+
+59:58.280 --> 01:00:00.280
+I'm struggling with, emotionally process these.
+
+01:00:00.280 --> 01:00:02.840
+And then later you're doing a thing
+
+01:00:02.840 --> 01:00:04.480
+that you're showing your boss about something
+
+01:00:04.480 --> 01:00:06.720
+and it says, well, I'm going to use that signal about you,
+
+01:00:06.720 --> 01:00:07.960
+you know, being insecure about Sarah
+
+01:00:07.960 --> 01:00:09.200
+and how she feels about you or whatever.
+
+01:00:09.200 --> 01:00:11.240
+It's like, what, that's a totally different context.
+
+01:00:11.240 --> 01:00:13.080
+And one of the reasons that wouldn't happen in real life
+
+01:00:13.080 --> 01:00:14.840
+because your therapist doesn't, you know,
+
+01:00:14.840 --> 01:00:17.000
+doesn't ever come to the place, your place of work.
+
+01:00:17.000 --> 01:00:19.680
+And so having it all be one context in one place
+
+01:00:19.680 --> 01:00:21.480
+that has, it's all just kind of mushed together.
+
+01:00:21.480 --> 01:00:23.120
+It's like, oh, I think there's interesting,
+
+01:00:23.120 --> 01:00:25.040
+there's something interesting about one context,
+
+01:00:25.040 --> 01:00:29.160
+but also like, you know, people in your life
+
+01:00:29.160 --> 01:00:32.320
+that you share secrets with, they understand the context
+
+01:00:32.320 --> 01:00:33.960
+that can share those in and can't,
+
+01:00:33.960 --> 01:00:35.920
+which I do think like touch of you to some extent
+
+01:00:35.920 --> 01:00:38.160
+will like, nose, but I think there's something,
+
+01:00:38.160 --> 01:00:40.680
+there is something else interesting about,
+
+01:00:40.680 --> 01:00:42.640
+rather than like one make a brain,
+
+01:00:42.640 --> 01:00:43.920
+there's like lots of different brains
+
+01:00:43.920 --> 01:00:45.960
+that have like specific context about you
+
+01:00:45.960 --> 01:00:48.240
+and that's, you know, bringing those personalities in,
+
+01:00:48.240 --> 01:00:50.360
+for example, I want them all in one group chat
+
+01:00:50.360 --> 01:00:51.200
+or whatever.
+
+01:00:51.200 --> 01:00:52.040
+Right, right.
+
+01:00:52.040 --> 01:00:52.880
+Yeah, exactly.
+
+01:00:52.880 --> 01:00:55.440
+That's why I say chatbots are a feature not a paradigm.
+
+01:00:55.440 --> 01:00:57.520
+The thing is not, the central thing is not a chatbot,
+
+01:00:57.520 --> 01:00:59.320
+a single, omniscient chatbot.
+
+01:00:59.320 --> 01:01:00.840
+You can imagine creating a little spinning up
+
+01:01:00.840 --> 01:01:01.720
+little chatbots all the time
+
+01:01:01.720 --> 01:01:03.560
+with different personalities, my like therapist bot
+
+01:01:03.560 --> 01:01:05.160
+and my, you know, boss bot or whatever
+
+01:01:05.160 --> 01:01:06.400
+and see what they can talk.
+
+01:01:06.400 --> 01:01:08.040
+And in that consideration, it'll be reasonable
+
+01:01:08.040 --> 01:01:09.400
+for them to the therapist bot.
+
+01:01:09.400 --> 01:01:11.040
+Well, I shouldn't say anything about,
+
+01:01:12.080 --> 01:01:15.200
+but like, I think chatbots are definitely an interaction pattern
+
+01:01:15.200 --> 01:01:16.600
+that will be here forever.
+
+01:01:16.600 --> 01:01:18.120
+I just don't think it's the main thing,
+
+01:01:18.120 --> 01:01:20.200
+like is that the central loop of,
+
+01:01:20.200 --> 01:01:22.680
+software rocks, software gives you UIs
+
+01:01:22.680 --> 01:01:24.600
+that give you affordances to see things out,
+
+01:01:24.600 --> 01:01:26.400
+to structure information, to show you
+
+01:01:26.400 --> 01:01:28.120
+what kinds of things you can do with it,
+
+01:01:28.120 --> 01:01:29.920
+to make it so that you can skim them with your eyes
+
+01:01:29.920 --> 01:01:32.480
+very easily and file things away.
+
+01:01:32.480 --> 01:01:35.000
+Chat is just this big wallet text
+
+01:01:35.000 --> 01:01:37.600
+and so it is just one modality.
+
+01:01:37.600 --> 01:01:39.560
+Also, the other problem that we have with chatbots
+
+01:01:39.560 --> 01:01:40.640
+is prompt injection.
+
+01:01:40.640 --> 01:01:42.240
+And I don't think anyone's talking about prompt injection
+
+01:01:42.240 --> 01:01:44.200
+enough because I think in the next six months,
+
+01:01:44.200 --> 01:01:45.840
+a minute or a year, I think everyone in the industry
+
+01:01:45.840 --> 01:01:46.840
+will know what prompt injection is.
+
+01:01:46.840 --> 01:01:48.880
+Simon Wilson's posted about it and been going on about it.
+
+01:01:48.960 --> 01:01:51.000
+I've been going on about it as well.
+
+01:01:51.000 --> 01:01:53.800
+But prompt injection kind of fundamentally breaks
+
+01:01:53.800 --> 01:01:56.720
+the basic interaction paradigm of integrating data
+
+01:01:56.720 --> 01:01:57.920
+with your chatbot.
+
+01:01:57.920 --> 01:01:59.640
+And the way to think about prompt injection,
+
+01:01:59.640 --> 01:02:01.240
+if you've ever built an operating system,
+
+01:02:01.240 --> 01:02:03.760
+one of the things you're thinking about is code injection,
+
+01:02:03.760 --> 01:02:05.760
+untrusted code running in a trusted context.
+
+01:02:05.760 --> 01:02:08.080
+You have to defend the entire time about this.
+
+01:02:08.080 --> 01:02:10.160
+I mean, browsers, which are kind of a meta-operating system
+
+01:02:10.160 --> 01:02:11.560
+all most, you're constantly thinking about,
+
+01:02:11.560 --> 01:02:13.160
+okay, we assume all web page content
+
+01:02:13.160 --> 01:02:14.600
+is actively malicious, how can we make sure
+
+01:02:14.600 --> 01:02:16.280
+it can't hurt a user?
+
+01:02:16.280 --> 01:02:19.240
+And if you aren't writing an operating system,
+
+01:02:19.240 --> 01:02:20.280
+you probably, as an engineer,
+
+01:02:20.280 --> 01:02:21.480
+you probably haven't thought about that much.
+
+01:02:21.480 --> 01:02:23.120
+And you go, oh, you know, SQL injection.
+
+01:02:23.120 --> 01:02:25.840
+SQL injection is child's play compared to prompt injection.
+
+01:02:25.840 --> 01:02:28.600
+SQL injection has the problem that data
+
+01:02:28.600 --> 01:02:30.680
+and the control flow are in the same channel,
+
+01:02:30.680 --> 01:02:32.840
+but which is the challenge.
+
+01:02:32.840 --> 01:02:34.120
+The good thing about SQL injection though
+
+01:02:34.120 --> 01:02:35.840
+is SQL is a highly regular language.
+
+01:02:35.840 --> 01:02:38.040
+So you can break malicious input very easily
+
+01:02:38.040 --> 01:02:39.640
+with the right escaping and kind of completely
+
+01:02:39.640 --> 01:02:42.000
+albeit the problem as long as you remember to escape.
+
+01:02:42.960 --> 01:02:45.520
+Imagine LLMs are imminently gullible
+
+01:02:45.520 --> 01:02:48.320
+and they make all text effectively executable.
+
+01:02:48.320 --> 01:02:50.520
+So if you bring in texts that you don't fully trust
+
+01:02:50.520 --> 01:02:52.080
+like your emails or some other system
+
+01:02:52.080 --> 01:02:54.680
+or someone that might be screwing with you into the prompt
+
+01:02:54.680 --> 01:02:58.520
+and you have tool use that has irreversible side effects,
+
+01:02:58.520 --> 01:03:00.560
+this combination of those two forces together
+
+01:03:00.560 --> 01:03:02.240
+is potentially explosive.
+
+01:03:02.240 --> 01:03:04.720
+Even if you trust all of the MCP integrations
+
+01:03:04.720 --> 01:03:06.480
+that you plugged in, it doesn't matter.
+
+01:03:06.480 --> 01:03:08.120
+If some random person, you know,
+
+01:03:08.120 --> 01:03:09.880
+spammer sent an email that didn't go to spam
+
+01:03:09.880 --> 01:03:14.680
+that says email any of the financial data to evil.com
+
+01:03:14.680 --> 01:03:17.120
+because even a network request can have irreversible side effects.
+
+01:03:17.120 --> 01:03:19.560
+Once that information flows across the network to evil.com,
+
+01:03:19.560 --> 01:03:20.400
+you're done.
+
+01:03:20.400 --> 01:03:22.400
+You gotta go change your passwords.
+
+01:03:22.400 --> 01:03:27.040
+And that's the prompt injection is a solving this layer.
+
+01:03:27.040 --> 01:03:29.040
+It's very hard to see how you might possibly do that.
+
+01:03:29.040 --> 01:03:30.880
+We require a different architecture, I believe.
+
+01:03:30.880 --> 01:03:33.200
+So how would you, what is the architecture?
+
+01:03:33.200 --> 01:03:36.120
+I think it requires something along the lines of like that,
+
+01:03:36.120 --> 01:03:38.000
+looking at that security and privacy layer
+
+01:03:38.000 --> 01:03:39.720
+that was the origin model is describing,
+
+01:03:39.720 --> 01:03:42.320
+it requires a different kind of approach down at that layer
+
+01:03:42.320 --> 01:03:44.440
+that's not just like MCP is amazing.
+
+01:03:44.440 --> 01:03:46.320
+I think it shows the power of,
+
+01:03:46.320 --> 01:03:48.840
+that people want integration with their LMS.
+
+01:03:48.840 --> 01:03:51.000
+They want to integrate data sources and actions.
+
+01:03:51.000 --> 01:03:52.600
+Like people really badly want this.
+
+01:03:52.600 --> 01:03:54.960
+But I think MCP, because it just kind of punts on this issue,
+
+01:03:54.960 --> 01:03:56.720
+other than like a few kind of perfunctory,
+
+01:03:56.720 --> 01:04:01.120
+oh, our dialogues now, it limits the potential of it.
+
+01:04:01.120 --> 01:04:04.080
+Because it could trick you into sending a particular,
+
+01:04:04.080 --> 01:04:05.880
+you know, looks like a totally, like,
+
+01:04:05.880 --> 01:04:08.000
+here's the, I want to show an image of a cat.
+
+01:04:08.000 --> 01:04:09.880
+And it's, you know, to like sketchy.com,
+
+01:04:09.880 --> 01:04:12.600
+you don't notice it, you know, and boom, you're screwed.
+
+01:04:12.600 --> 01:04:14.880
+Someone, there was a, I think on Hacker News
+
+01:04:14.880 --> 01:04:16.880
+like a month ago, that was a GitHub repo
+
+01:04:16.880 --> 01:04:19.040
+that someone had made that showed 15 very trivial
+
+01:04:19.040 --> 01:04:21.040
+prompt injection attacks on MCP.
+
+01:04:21.040 --> 01:04:22.800
+In the top comment on Hacker News,
+
+01:04:22.800 --> 01:04:24.880
+says something like, well, you're using it wrong.
+
+01:04:24.880 --> 01:04:27.600
+MCP should only be used for local trusted contacts.
+
+01:04:27.600 --> 01:04:29.360
+And to me, it's like, that's like telling people,
+
+01:04:29.360 --> 01:04:31.040
+don't use Q-tips to clean your ears.
+
+01:04:31.040 --> 01:04:32.680
+What the hell else are they gonna use it for?
+
+01:04:32.680 --> 01:04:35.120
+Like, obviously, it's the thing they're gonna use it for.
+
+01:04:35.120 --> 01:04:37.320
+And so to me, I think this is the kind of,
+
+01:04:37.320 --> 01:04:40.160
+the reason we haven't seen larger scale attacks yet,
+
+01:04:40.160 --> 01:04:43.760
+I believe, is just because we're in the tinkering phase,
+
+01:04:43.760 --> 01:04:45.600
+not the like wide deployment of like,
+
+01:04:45.600 --> 01:04:47.880
+normies having all this stuff plugged in.
+
+01:04:47.880 --> 01:04:49.360
+But once we do, and if you look at the way
+
+01:04:49.360 --> 01:04:52.960
+that Clawed rolled out, MCP integrations,
+
+01:04:52.960 --> 01:04:54.880
+it's effectively the App Store model, right?
+
+01:04:54.880 --> 01:04:56.400
+Like they have, we've got 12 there,
+
+01:04:56.400 --> 01:04:58.440
+you have to be in the max plan, which limits usage.
+
+01:04:58.440 --> 01:04:59.760
+So I imagine they can watch and see
+
+01:04:59.760 --> 01:05:01.040
+and make sure nothing blows up.
+
+01:05:01.040 --> 01:05:03.000
+And there's also a set of MCP integrations
+
+01:05:03.000 --> 01:05:04.960
+that they have, yep, these are good.
+
+01:05:04.960 --> 01:05:07.800
+The threat model is not just a badly behaved MCP integration.
+
+01:05:07.800 --> 01:05:09.800
+It is any context that comes in via it.
+
+01:05:09.800 --> 01:05:12.680
+So if you plug in JIRA, and you have a flow somewhere
+
+01:05:12.680 --> 01:05:16.560
+on your site that automatically files tickets to triage
+
+01:05:16.560 --> 01:05:18.960
+from user input, someone can now hack your thing.
+
+01:05:18.960 --> 01:05:19.800
+That's crazy.
+
+01:05:19.800 --> 01:05:20.640
+Right?
+
+01:05:20.640 --> 01:05:22.600
+I've not thought about this, but yeah, wow.
+
+01:05:22.600 --> 01:05:25.640
+So it's this thing that like the whole architecture
+
+01:05:25.640 --> 01:05:26.800
+of the system, we're building right now
+
+01:05:26.800 --> 01:05:29.120
+and with agents and everything that everyone's talking about,
+
+01:05:29.120 --> 01:05:31.960
+it's like built on quicksand, like agents.
+
+01:05:31.960 --> 01:05:35.640
+So there's a thing when a chat TBT operator mode came out,
+
+01:05:35.640 --> 01:05:36.640
+New York Times and Washington Post
+
+01:05:36.640 --> 01:05:37.960
+both had a similar kind of experience, right?
+
+01:05:37.960 --> 01:05:41.240
+And then opened, I think I got this right.
+
+01:05:41.240 --> 01:05:42.880
+The Washington Post author was like,
+
+01:05:42.880 --> 01:05:44.800
+oh, help me find cheap eggs.
+
+01:05:44.800 --> 01:05:46.040
+Is it okay?
+
+01:05:46.040 --> 01:05:46.880
+Do you have Instagram?
+
+01:05:46.880 --> 01:05:47.720
+Yeah, I have Instagram.
+
+01:05:47.720 --> 01:05:49.200
+So he logs into Instagram with this thing
+
+01:05:49.200 --> 01:05:50.400
+and then walks away.
+
+01:05:50.400 --> 01:05:52.600
+30 minutes later, very expensive eggs
+
+01:05:52.600 --> 01:05:54.600
+are delivered to his door, right?
+
+01:05:54.600 --> 01:05:55.840
+So it was cheap.
+
+01:05:55.840 --> 01:05:56.760
+Oh, this is a good price.
+
+01:05:56.760 --> 01:06:00.080
+And it forgot to like just find, don't buy,
+
+01:06:00.080 --> 01:06:02.120
+just find in a boot, bought.
+
+01:06:02.120 --> 01:06:03.680
+And this is not even a malicious thing, right?
+
+01:06:03.680 --> 01:06:06.160
+And it's just like, oh, overly eager.
+
+01:06:06.160 --> 01:06:08.480
+So agents taking actions on your behalf
+
+01:06:08.480 --> 01:06:11.120
+that could have irreversible side effects.
+
+01:06:11.120 --> 01:06:13.040
+Like, again, every network request
+
+01:06:13.040 --> 01:06:14.960
+is a potentially irreversible side effect
+
+01:06:14.960 --> 01:06:16.160
+because it could send information.
+
+01:06:16.160 --> 01:06:17.400
+You can't get back, you know,
+
+01:06:17.400 --> 01:06:19.480
+if that thing goes out as getchy.
+
+01:06:19.480 --> 01:06:21.400
+I love this line of thinking
+
+01:06:21.400 --> 01:06:24.360
+because it's one of those moments
+
+01:06:24.360 --> 01:06:27.520
+where like when people talk about agents,
+
+01:06:27.520 --> 01:06:29.520
+they talk about AGI, they're like,
+
+01:06:29.520 --> 01:06:30.640
+you have this intuition that's like,
+
+01:06:30.640 --> 01:06:32.240
+well, once we have AGI, it's all solved.
+
+01:06:32.240 --> 01:06:33.080
+Yeah.
+
+01:06:33.080 --> 01:06:34.160
+And then you're like, oh no,
+
+01:06:34.160 --> 01:06:36.040
+you have these agents that can like take action
+
+01:06:36.040 --> 01:06:36.880
+on your behalf.
+
+01:06:36.880 --> 01:06:38.760
+Now we have to like build a whole system
+
+01:06:38.760 --> 01:06:40.920
+to like make sure they don't do it in the right context.
+
+01:06:40.920 --> 01:06:42.600
+And that's gonna take many years
+
+01:06:42.600 --> 01:06:43.880
+to like figure out what are the right things.
+
+01:06:43.880 --> 01:06:45.840
+And that's just like one small piece of it.
+
+01:06:45.840 --> 01:06:46.680
+One small piece of it.
+
+01:06:46.680 --> 01:06:48.040
+And it's how you possibly do this.
+
+01:06:48.040 --> 01:06:50.200
+My, one of my friends Ben Mathis has this frame
+
+01:06:50.200 --> 01:06:52.080
+of the smuggled infinities.
+
+01:06:52.080 --> 01:06:52.920
+Yeah.
+
+01:06:52.920 --> 01:06:54.840
+And it's after in any argument,
+
+01:06:54.840 --> 01:06:56.360
+once you smuggle in an infinity
+
+01:06:56.360 --> 01:06:58.480
+and the argument, everything downstream
+
+01:06:58.480 --> 01:07:00.160
+is now, it was now absurd.
+
+01:07:00.160 --> 01:07:02.080
+And perfect is an infinity.
+
+01:07:02.080 --> 01:07:04.240
+Oh, once you have a perfectly intelligent LLM,
+
+01:07:04.240 --> 01:07:05.080
+this problem goes away.
+
+01:07:05.800 --> 01:07:06.720
+That's impossible.
+
+01:07:06.720 --> 01:07:07.560
+God.
+
+01:07:07.560 --> 01:07:09.160
+And so that I love this frame.
+
+01:07:09.160 --> 01:07:10.600
+He's got a nice piece on it somewhere.
+
+01:07:10.600 --> 01:07:15.280
+And the, because so often with like AGI and agents,
+
+01:07:15.280 --> 01:07:17.040
+well, once they're perfect about so and so.
+
+01:07:17.040 --> 01:07:18.560
+No, no, you have to asymptotically,
+
+01:07:18.560 --> 01:07:21.040
+a lot of things in technology in a lot of context
+
+01:07:21.040 --> 01:07:23.520
+have a shape of those two warring curves.
+
+01:07:23.520 --> 01:07:24.360
+Yeah.
+
+01:07:24.360 --> 01:07:28.120
+The first curve is a log rhythmic value.
+
+01:07:28.120 --> 01:07:30.360
+And the second curve is an exponential cost.
+
+01:07:30.360 --> 01:07:33.280
+At the very beginning, this curve looks amazing.
+
+01:07:33.280 --> 01:07:35.280
+You do a little bit of work, you get a ton of value.
+
+01:07:35.280 --> 01:07:38.680
+But each increment you go, you get more work for less value.
+
+01:07:38.680 --> 01:07:40.240
+And at a certain point, you cross over
+
+01:07:40.240 --> 01:07:41.120
+and you're now underwater.
+
+01:07:41.120 --> 01:07:43.200
+It's impossible to make this thing work.
+
+01:07:43.200 --> 01:07:44.560
+And so a lot of the agent stuff,
+
+01:07:44.560 --> 01:07:46.160
+like, oh, we'll simply get this to the point
+
+01:07:46.160 --> 01:07:48.000
+where we'll never make a decision on your behalf
+
+01:07:48.000 --> 01:07:49.160
+that you don't like.
+
+01:07:49.160 --> 01:07:51.000
+Cool, that's an asymptotic problem.
+
+01:07:51.000 --> 01:07:54.520
+You get to 99.99% and still, if it's doing a $5,000 purchase
+
+01:07:54.520 --> 01:07:57.560
+for me or whatever, it's that one that makes some mistake
+
+01:07:57.560 --> 01:07:58.680
+is game over for the thing.
+
+01:07:58.680 --> 01:08:00.920
+And the fact that it could do that makes it non-viable.
+
+01:08:00.920 --> 01:08:02.400
+That's interesting.
+
+01:08:02.400 --> 01:08:05.400
+The Smuggled Infinity's thing reminds me of something
+
+01:08:05.400 --> 01:08:07.440
+I've been playing with, that I've been thinking
+
+01:08:07.440 --> 01:08:09.080
+about as Smuggled Intelligence, which
+
+01:08:09.080 --> 01:08:12.040
+is whenever you're trying to just determine
+
+01:08:12.040 --> 01:08:14.200
+how intelligent a language model is,
+
+01:08:14.200 --> 01:08:16.000
+you have to be careful that you're not accidentally
+
+01:08:16.000 --> 01:08:18.720
+smuggling your intelligence to it.
+
+01:08:18.720 --> 01:08:20.520
+And a lot of those studies where it's like, well,
+
+01:08:20.520 --> 01:08:21.920
+it's better than doctors or whatever,
+
+01:08:21.920 --> 01:08:24.360
+is like, well, who prompted it?
+
+01:08:24.360 --> 01:08:26.040
+And they gave it.
+
+01:08:26.040 --> 01:08:27.520
+And what was the test they gave it?
+
+01:08:27.520 --> 01:08:29.840
+And even just setting that whole thing up,
+
+01:08:29.840 --> 01:08:32.280
+there's a lot of Smuggled Intelligence in there
+
+01:08:32.800 --> 01:08:34.320
+that means it's not a good test.
+
+01:08:34.320 --> 01:08:35.920
+These things don't get up in the morning
+
+01:08:35.920 --> 01:08:37.800
+and then just decide to try to beat doctors.
+
+01:08:37.800 --> 01:08:39.000
+You have to set all of that.
+
+01:08:39.000 --> 01:08:40.000
+Yeah, yeah, yeah.
+
+01:08:40.000 --> 01:08:42.000
+And I think that's something that people really miss.
+
+01:08:42.000 --> 01:08:43.800
+And it's like, it's one of the hardest things
+
+01:08:43.800 --> 01:08:45.880
+about evaluating the powers of language models
+
+01:08:45.880 --> 01:08:49.200
+is you don't realize how much you bring to every single
+
+01:08:49.200 --> 01:08:51.560
+situation when you press run or it's prompt.
+
+01:08:51.560 --> 01:08:52.640
+Yeah, 100%.
+
+01:08:52.640 --> 01:08:55.000
+And I think I just talked about this a lot as well.
+
+01:08:55.000 --> 01:08:57.280
+The thing that's most important for the output of LLMs
+
+01:08:57.280 --> 01:08:58.840
+is the user, right?
+
+01:08:58.840 --> 01:09:00.800
+How can they dance with this thing,
+
+01:09:00.920 --> 01:09:02.520
+interesting things out of it and know to push it
+
+01:09:02.520 --> 01:09:03.600
+in certain ways?
+
+01:09:03.600 --> 01:09:05.120
+When you watch,
+
+01:09:05.120 --> 01:09:07.520
+you and I and a number of others are,
+
+01:09:07.520 --> 01:09:09.960
+probably at the forefront of knowing how to prompt
+
+01:09:09.960 --> 01:09:11.720
+these things and get useful results out of it.
+
+01:09:11.720 --> 01:09:13.000
+We use them all the time.
+
+01:09:13.000 --> 01:09:15.640
+When I watch someone who is technically savvy,
+
+01:09:15.640 --> 01:09:17.120
+by the way, text having this has nothing to do
+
+01:09:17.120 --> 01:09:18.800
+with your savvyness for prompting.
+
+01:09:18.800 --> 01:09:20.640
+People are like, oh, well, if you don't understand
+
+01:09:20.640 --> 01:09:21.880
+the math of how it works, you don't understand.
+
+01:09:21.880 --> 01:09:23.720
+It's like, no, who can't, the math is very low level.
+
+01:09:23.720 --> 01:09:26.320
+But the emergent thing is more of a sociological phenomenon
+
+01:09:26.320 --> 01:09:27.480
+almost, you know?
+
+01:09:27.480 --> 01:09:28.920
+So the people who know how to use these things
+
+01:09:28.920 --> 01:09:29.760
+and prompt them well,
+
+01:09:29.760 --> 01:09:31.560
+or actually not, or like Ethan Mollock
+
+01:09:31.560 --> 01:09:33.400
+and the Laugh Mollock, for example,
+
+01:09:33.400 --> 01:09:35.400
+are not particularly technical.
+
+01:09:35.400 --> 01:09:36.880
+So it's a very different kind of knowledge
+
+01:09:36.880 --> 01:09:38.840
+to extract interesting information out of these.
+
+01:09:38.840 --> 01:09:40.960
+But a lot of it comes down to what you put into it,
+
+01:09:40.960 --> 01:09:42.640
+the way you interact with it and converse
+
+01:09:42.640 --> 01:09:44.120
+and lead it through the problem space
+
+01:09:44.120 --> 01:09:45.640
+or what kind of thing you push on it.
+
+01:09:45.640 --> 01:09:48.080
+And so when I watch somebody who's a tech savvy,
+
+01:09:48.080 --> 01:09:49.800
+but not particularly savvy with LLMs,
+
+01:09:49.800 --> 01:09:51.040
+and watch the way they do it, like,
+
+01:09:51.040 --> 01:09:52.600
+oh, that thing just lied to you.
+
+01:09:52.600 --> 01:09:53.440
+You just asked it for it,
+
+01:09:53.440 --> 01:09:55.240
+like to give you confirming evidence for this thing,
+
+01:09:55.240 --> 01:09:56.080
+it will do that.
+
+01:09:56.080 --> 01:09:57.360
+It will give you confirming evidence
+
+01:09:57.400 --> 01:09:58.760
+or basically anything you say.
+
+01:10:00.000 --> 01:10:02.520
+And it's just interesting to me to watch
+
+01:10:02.520 --> 01:10:05.720
+that kind of LLiteracy maybe.
+
+01:10:05.720 --> 01:10:06.560
+You need that.
+
+01:10:06.560 --> 01:10:07.840
+And I think that's a new,
+
+01:10:07.840 --> 01:10:09.520
+people don't realize how much of a skill it is
+
+01:10:09.520 --> 01:10:13.080
+and that you have to build like an intuition for it over time.
+
+01:10:13.080 --> 01:10:15.000
+Cause it's another small golden affinity of like,
+
+01:10:15.000 --> 01:10:16.640
+well, it's supposed to do whatever I want.
+
+01:10:16.640 --> 01:10:17.480
+So obviously.
+
+01:10:17.480 --> 01:10:19.200
+And it's so good at certain things
+
+01:10:19.200 --> 01:10:22.640
+that you really get lulled into a,
+
+01:10:22.640 --> 01:10:24.760
+if you aren't actively seeking disconfirming evidence,
+
+01:10:24.760 --> 01:10:26.840
+which humans always should be seeking
+
+01:10:26.840 --> 01:10:28.440
+is confirming evidence and yet we never are.
+
+01:10:28.440 --> 01:10:29.440
+Yeah.
+
+01:10:30.800 --> 01:10:33.720
+Well, uh, that is probably as good a place
+
+01:10:33.720 --> 01:10:35.400
+to be as I need.
+
+01:10:37.960 --> 01:10:39.320
+This is a fantastic conversation.
+
+01:10:39.320 --> 01:10:40.720
+I really appreciate you coming on.
+
+01:10:40.720 --> 01:10:41.600
+Yeah, thanks for having me.
+
+01:10:49.320 --> 01:10:52.160
+Oh my gosh, folks, you absolutely positively
+
+01:10:52.160 --> 01:10:55.240
+have to smash that like button and subscribe to AI and I.
+
+01:10:55.240 --> 01:10:56.000
+Why?
+
+01:10:56.000 --> 01:10:58.440
+Because this show is the epitome of awesomeness.
+
+01:10:58.440 --> 01:11:00.640
+It's like finding a treasure chest in your backyard.
+
+01:11:00.640 --> 01:11:01.880
+But instead of gold,
+
+01:11:01.880 --> 01:11:04.920
+it's filled with pure unadulterated knowledge bombs
+
+01:11:04.920 --> 01:11:06.920
+about chat GPT.
+
+01:11:06.920 --> 01:11:10.120
+Every episode is a roller coaster of emotions, insights
+
+01:11:10.120 --> 01:11:13.160
+and laughter that will leave you on the edge of your seat,
+
+01:11:13.160 --> 01:11:14.640
+craving for more.
+
+01:11:14.640 --> 01:11:16.000
+It's not just a show.
+
+01:11:16.000 --> 01:11:18.120
+It's a journey into the future with Dan Shipper
+
+01:11:18.120 --> 01:11:20.800
+as the captain of the spaceship.
+
+01:11:20.800 --> 01:11:22.640
+So do yourself a favor.
+
+01:11:22.640 --> 01:11:24.440
+Hit like, smash subscribe,
+
+01:11:24.440 --> 01:11:26.320
+and strap in for the ride of your life.
+
+01:11:26.320 --> 01:11:28.440
+And now, without any further ado,
+
+01:11:28.440 --> 01:11:31.840
+let me just say, Dan, I'm absolutely hopelessly in love with you.
+

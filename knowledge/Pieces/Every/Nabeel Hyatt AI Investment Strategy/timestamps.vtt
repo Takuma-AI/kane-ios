@@ -1,0 +1,3098 @@
+WEBVTT
+
+00:00.000 --> 00:02.640
+Rory Sutherland says there's like three types of innovation.
+
+00:02.640 --> 00:04.960
+There's faster horses, and then there's teleportation.
+
+00:04.960 --> 00:07.080
+Like you want it to exist, you don't know how to get there,
+
+00:07.080 --> 00:08.560
+but if I tell you you want teleportation,
+
+00:08.560 --> 00:10.760
+you want teleportation, everybody wants teleportation.
+
+00:10.760 --> 00:12.480
+And then there's like Japanese toilets.
+
+00:12.480 --> 00:14.720
+For me, the things I'm like wandering around
+
+00:14.720 --> 00:18.120
+and trying to find are the Japanese toilets of AI.
+
+00:18.120 --> 00:21.520
+I am looking for mostly new experiences,
+
+00:21.520 --> 00:24.800
+things that surprise you with the place that they're playing.
+
+00:24.800 --> 00:31.800
+Hey, it's Dan, we're going to get to the episode in a moment,
+
+00:40.840 --> 00:43.080
+but I wanted to share with you one thing before we do.
+
+00:43.080 --> 00:47.040
+I think that writing is the most important skill in the AI age.
+
+00:47.040 --> 00:48.760
+Now that you can code in English,
+
+00:48.760 --> 00:51.960
+the line between a writer and a builder is blurring.
+
+00:51.960 --> 00:53.680
+And I think in a war like that,
+
+00:53.680 --> 00:55.480
+the most important thing you can learn to do
+
+00:55.480 --> 00:59.240
+no matter what your job is, is learn to tell great stories.
+
+00:59.240 --> 01:01.440
+That's why I want to tell you about how to write with AI.
+
+01:01.440 --> 01:04.680
+It's a course you put on at every led by our lead writer,
+
+01:04.680 --> 01:05.680
+Evan Armstrong.
+
+01:05.680 --> 01:07.920
+It's a four week course designed to teach you everything
+
+01:07.920 --> 01:10.280
+you need to know to write incredible things with AI.
+
+01:10.280 --> 01:12.120
+We go through all of the latest technology,
+
+01:12.120 --> 01:15.440
+including chat to BT, Claude, and some of our internal incubations,
+
+01:15.440 --> 01:18.040
+like Spiral and Lex, to give you a powerful toolkit
+
+01:18.040 --> 01:19.240
+to tell amazing stories.
+
+01:19.240 --> 01:21.240
+The course starts February 13th,
+
+01:21.240 --> 01:24.480
+and early bird access ends this Friday, January 24th.
+
+01:24.480 --> 01:26.760
+So if you want to save $300 off list price,
+
+01:26.760 --> 01:29.880
+grab your spot at rightwithai.xyz,
+
+01:29.880 --> 01:31.520
+and now onto the episode.
+
+01:31.520 --> 01:32.920
+Neville, welcome to the show.
+
+01:32.920 --> 01:33.840
+Good to be here.
+
+01:33.840 --> 01:38.360
+So for people who don't know, you are a partner at Spark Capital.
+
+01:38.360 --> 01:39.200
+That's right.
+
+01:39.200 --> 01:41.360
+You've made a bunch of impressive investments,
+
+01:41.360 --> 01:44.480
+including in Cruz Discord.
+
+01:44.480 --> 01:46.440
+A very recent one is Grenola.
+
+01:46.440 --> 01:48.600
+And before we start, you said something,
+
+01:48.600 --> 01:51.760
+which I didn't know about you, which is your investing strategy
+
+01:51.760 --> 01:53.320
+is not prolific.
+
+01:53.320 --> 01:54.720
+You only do a couple a year.
+
+01:54.720 --> 01:56.360
+Why is that?
+
+01:56.360 --> 01:59.960
+First of all, I just think that, so I was a founder before,
+
+01:59.960 --> 02:02.560
+becoming an investor.
+
+02:02.560 --> 02:07.080
+And I found that I had no horror venture capital stories
+
+02:07.080 --> 02:11.080
+that sometimes investors have, or entrepreneurs have.
+
+02:11.080 --> 02:12.960
+But I also basically had a bunch of noops.
+
+02:12.960 --> 02:15.640
+I had investors that were fine and great board members
+
+02:15.640 --> 02:18.160
+and maybe offered a random piece of advice.
+
+02:18.160 --> 02:20.880
+But weren't in the muck enough and in the nuance
+
+02:20.880 --> 02:22.880
+enough to give good feedback, because they
+
+02:22.880 --> 02:24.840
+were investing in 15,000 things.
+
+02:24.840 --> 02:27.240
+What does noops stand for?
+
+02:27.240 --> 02:28.080
+No opposition?
+
+02:28.080 --> 02:31.520
+Yeah, they were just fine.
+
+02:31.520 --> 02:33.800
+It was like, there are no damage.
+
+02:33.800 --> 02:34.880
+I don't have a horror story.
+
+02:34.880 --> 02:35.960
+It did no harm.
+
+02:35.960 --> 02:39.920
+But it was also like, would the company have been exactly
+
+02:39.920 --> 02:43.720
+the same if they were not there, probably.
+
+02:43.720 --> 02:46.120
+And I just, there's a thing on our website
+
+02:46.120 --> 02:48.040
+that I think we collectively believe at Spark,
+
+02:48.040 --> 02:51.640
+which is that there aren't really any startup playbooks.
+
+02:51.640 --> 02:54.960
+I think as a founder, you're doing something super unique
+
+02:54.960 --> 02:56.800
+with every, so you probably already believe
+
+02:56.800 --> 02:58.800
+there's really no playbook for what you're trying to do.
+
+02:58.800 --> 03:02.600
+But generally, every single journey is unique
+
+03:02.600 --> 03:04.520
+and all the devils and the details.
+
+03:04.520 --> 03:08.840
+And so I think for me, the proxy is if you're a startup CEO
+
+03:08.840 --> 03:11.080
+or running a small org, you can manage
+
+03:11.080 --> 03:15.280
+like eight or nine direct reports where you kind of understand
+
+03:15.320 --> 03:18.160
+everything they're doing and outside of that,
+
+03:18.160 --> 03:21.040
+it starts to, the edges get fuzzy.
+
+03:21.040 --> 03:23.120
+And it's just the same thing.
+
+03:23.120 --> 03:25.400
+Like I want to work with eight or nine or 10 companies
+
+03:25.400 --> 03:28.120
+really closely, as much as a founder really wants me around
+
+03:28.120 --> 03:29.440
+and I go away if it's not.
+
+03:29.440 --> 03:32.280
+And so you try and make the rest of the math work
+
+03:32.280 --> 03:35.440
+and like construct life about the way you want to live
+
+03:35.440 --> 03:37.040
+and then see if you can make it work
+
+03:37.040 --> 03:39.760
+versus letting somebody's financial or business model
+
+03:39.760 --> 03:41.440
+force you into working or what you don't want to work.
+
+03:41.440 --> 03:42.280
+I like that.
+
+03:42.280 --> 03:45.360
+I mean, I think it's, it takes some balls.
+
+03:45.360 --> 03:50.240
+It's better than like, I think obviously the sort of
+
+03:50.240 --> 03:51.800
+spray and prey like small checks and a lot of things
+
+03:51.800 --> 03:56.480
+like that, that's a well-draught strategy.
+
+03:56.480 --> 04:00.680
+But I think taking enough risk to be concentrated
+
+04:00.680 --> 04:05.680
+and to actually call your shot is, I think it's quite cool.
+
+04:05.680 --> 04:08.440
+Well, it's not deep, spray and prey even on the front end.
+
+04:08.440 --> 04:10.440
+I mean, basically the whole venture capital industry
+
+04:10.440 --> 04:12.920
+since I joined, I've been to this for a little over decade now,
+
+04:12.920 --> 04:16.200
+is basically doing that at both ends of the spectrum, right?
+
+04:16.200 --> 04:18.520
+You've got the, I'm gonna write 100K checks
+
+04:18.520 --> 04:20.760
+into a million things and then you have the, well,
+
+04:20.760 --> 04:25.040
+if I raise $100,000,000 that I can own a proxy
+
+04:25.040 --> 04:28.080
+of the whole market firms, which is like a lot of our peers
+
+04:28.080 --> 04:29.160
+that started around the same time.
+
+04:29.160 --> 04:31.160
+We did, that's been their strategy
+
+04:31.160 --> 04:32.240
+to mitigate risk over time.
+
+04:32.240 --> 04:33.920
+And I'm like, look, the whole point of this thing is risk,
+
+04:33.920 --> 04:36.440
+like accept the risk and like go do the work you want
+
+04:36.440 --> 04:37.280
+to do with good people.
+
+04:37.280 --> 04:38.120
+That is interesting.
+
+04:38.200 --> 04:42.120
+Something about what you said about doing something unique,
+
+04:42.120 --> 04:44.440
+triggered something for me, I think you'd have good thoughts
+
+04:44.440 --> 04:49.440
+on this, which is I feel like I've been grasping for words
+
+04:49.920 --> 04:53.680
+for how to describe whatever it is for a while recently.
+
+04:53.680 --> 04:54.520
+Yeah.
+
+04:54.520 --> 04:56.240
+And I think that that's a really interesting place to be
+
+04:56.240 --> 05:00.600
+because like we're doing something that's working
+
+05:00.600 --> 05:02.840
+and there isn't yet a word for it.
+
+05:02.840 --> 05:06.800
+The closest thing I've come up with is multi-modal media company.
+
+05:07.800 --> 05:10.680
+And what was the other idea you had a little while ago
+
+05:10.680 --> 05:11.520
+that was not good?
+
+05:11.520 --> 05:12.520
+The malleable media.
+
+05:12.520 --> 05:13.040
+That's terrible.
+
+05:13.040 --> 05:13.960
+Meta-media.
+
+05:13.960 --> 05:15.400
+Multi-modal media is my,
+
+05:15.400 --> 05:19.200
+but there's a lot of M's in it, which is a problem.
+
+05:19.200 --> 05:22.000
+So like it's multi-modal publishing maybe?
+
+05:22.000 --> 05:23.920
+I don't know, we're working on it.
+
+05:23.920 --> 05:26.200
+But like the point is we publish writing,
+
+05:26.200 --> 05:28.200
+we publish videos, we publish podcasts,
+
+05:28.200 --> 05:29.280
+and we publish software.
+
+05:29.280 --> 05:30.640
+But that's of the time, right?
+
+05:30.640 --> 05:34.960
+Publishing software is a lot closer to publishing articles
+
+05:34.960 --> 05:36.080
+in 2025.
+
+05:36.080 --> 05:36.800
+Exactly.
+
+05:36.800 --> 05:38.320
+Then it was 10 years ago, right?
+
+05:38.320 --> 05:40.400
+And that's new, you're newly able to do that, right?
+
+05:40.400 --> 05:42.600
+Yeah, so like there's not really a word for it.
+
+05:42.600 --> 05:44.200
+So I'm trying to like figure that out.
+
+05:44.200 --> 05:50.200
+But there's this interesting thing where like I'm realizing
+
+05:50.200 --> 05:52.280
+that working on something that I don't have a word for
+
+05:52.280 --> 05:54.280
+is actually like really valuable and really cool,
+
+05:54.280 --> 05:56.360
+especially because it's starting to work.
+
+05:56.360 --> 06:00.520
+But then there's also this trap that I think you can get into.
+
+06:00.520 --> 06:02.040
+Sometimes I've definitely fallen into this too,
+
+06:02.040 --> 06:04.120
+where it's like you think you don't have a word for it,
+
+06:04.120 --> 06:05.880
+but there is actually a word and it's been done a lot
+
+06:05.880 --> 06:08.880
+before, and you can't fool yourself.
+
+06:08.880 --> 06:11.400
+Do you have an exact example of that in your head?
+
+06:14.920 --> 06:17.840
+I don't have like a specific example off the other hand.
+
+06:17.840 --> 06:21.240
+But like, I don't know, when we started every, for example,
+
+06:21.240 --> 06:23.280
+we were like, oh, like this kind of media company
+
+06:23.280 --> 06:24.120
+has never been done before.
+
+06:24.120 --> 06:25.760
+We wanted to be a bundle of different newsletters.
+
+06:25.760 --> 06:28.000
+And it's like, it's a magazine.
+
+06:28.000 --> 06:31.520
+A bundle of these letters is a magazine.
+
+06:31.520 --> 06:32.520
+Yeah.
+
+06:32.520 --> 06:34.800
+And so like, and yeah, there were some things
+
+06:34.800 --> 06:38.560
+that were different about it, but like about a year or two
+
+06:38.560 --> 06:40.600
+and we realized that all of the complexity
+
+06:40.600 --> 06:42.960
+that we had built into the model didn't need to be there.
+
+06:42.960 --> 06:45.040
+And it was just like, it was just a newsletter, basically,
+
+06:45.040 --> 06:48.400
+and the way the newsletter worked was sort of like a magazine.
+
+06:49.440 --> 06:51.040
+That's the tension though, and anything new,
+
+06:51.040 --> 06:54.200
+which is like, of course it proxies to something
+
+06:54.200 --> 06:55.120
+that's pre-existing.
+
+06:55.120 --> 06:57.680
+Of course it proxies something, but if you then adhere,
+
+06:57.680 --> 06:59.080
+once you did something change in you,
+
+06:59.080 --> 07:01.000
+we start calling it a newsletter,
+
+07:01.000 --> 07:03.360
+because that's also a trap.
+
+07:03.360 --> 07:06.400
+Like the early days of, we were an early investor
+
+07:06.400 --> 07:08.480
+in Postmates, and back in this on-demand land,
+
+07:08.480 --> 07:11.320
+you had Postmates in Uber and DoorDash and Lyft,
+
+07:11.320 --> 07:15.080
+and you know, the Twitter Roddy looks at that
+
+07:15.080 --> 07:18.240
+and is like, you know, that's just a delivery company.
+
+07:18.240 --> 07:20.840
+That's the same thing as a taxi company.
+
+07:20.840 --> 07:24.320
+And yet, if those founders had internalized that
+
+07:24.320 --> 07:25.800
+and just been like, yeah, we're just a taxi company.
+
+07:25.800 --> 07:27.840
+In fact, you just wouldn't have done,
+
+07:27.840 --> 07:30.840
+like you wouldn't have done any of the things
+
+07:30.840 --> 07:32.440
+that you ended up doing over time.
+
+07:32.440 --> 07:36.760
+And so, I don't know, I think definitions really matter.
+
+07:36.760 --> 07:38.680
+If you're doing something new,
+
+07:38.680 --> 07:40.320
+which I think you are trying to grasp
+
+07:40.320 --> 07:43.360
+or something new right now, I would like find
+
+07:43.360 --> 07:45.920
+the weird words that are capturing
+
+07:45.920 --> 07:47.280
+that essence inside of you, right?
+
+07:47.280 --> 07:51.240
+I think for me, like actually calling us a newsletter
+
+07:51.240 --> 07:55.600
+was quite freeing because it was like,
+
+07:55.600 --> 07:57.320
+we were doing all this complicated stuff
+
+07:57.320 --> 07:58.920
+to not just be a newsletter,
+
+07:58.920 --> 08:00.400
+and then once we just like dropped it,
+
+08:00.400 --> 08:02.200
+and it was just like, no, it's just a newsletter,
+
+08:02.200 --> 08:04.080
+and like it's a bunch of creative people writing stuff,
+
+08:04.080 --> 08:05.600
+and like we're gonna do interesting stuff.
+
+08:05.600 --> 08:07.440
+We just, you know, we don't know what it is yet,
+
+08:07.440 --> 08:08.440
+but for now we're just gonna write
+
+08:08.440 --> 08:10.600
+because that's what we love to do.
+
+08:10.600 --> 08:12.400
+That was like, that was really helpful
+
+08:12.400 --> 08:17.280
+because I think what's been quite important for me
+
+08:17.280 --> 08:22.120
+entrepreneurially is to start to be really comfortable
+
+08:22.120 --> 08:25.040
+with like whatever it is that I authentically believe
+
+08:25.040 --> 08:27.880
+and want to do as opposed to like triangulating
+
+08:27.880 --> 08:30.640
+between like what I believe in what I think will sound okay
+
+08:30.640 --> 08:33.280
+and like what I think I can justify basically,
+
+08:34.240 --> 08:36.280
+and I think like being able to say,
+
+08:36.280 --> 08:38.720
+no, it's a newsletter and I'm like gonna write a lot
+
+08:38.720 --> 08:40.320
+is like was an expression of that.
+
+08:40.320 --> 08:41.640
+It's like that's what I wanna do,
+
+08:41.640 --> 08:44.160
+and everything else is like flowed from that,
+
+08:44.160 --> 08:46.960
+and then we found some new stuff that we're doing
+
+08:46.960 --> 08:48.680
+that is like, oh, I can't really describe what this is,
+
+08:48.680 --> 08:50.280
+but it's really cool, and there's like this creative
+
+08:50.280 --> 08:52.680
+soup happening, and I'm like really excited, so fun.
+
+08:54.040 --> 08:56.360
+So yeah, I obviously like in entrepreneurship
+
+08:56.360 --> 08:57.840
+in general, like there are no hard and fast rules,
+
+08:57.840 --> 08:59.920
+like sometimes you don't wanna call yourself a newsletter
+
+09:00.000 --> 09:01.360
+because like that ruins the like,
+
+09:01.360 --> 09:02.520
+you wanna find the magical thing,
+
+09:02.520 --> 09:03.800
+but you don't wanna like force it.
+
+09:03.800 --> 09:06.520
+Yeah, and the irony of this conversation is like,
+
+09:06.520 --> 09:09.320
+what you're doing to find what you really wanna do
+
+09:09.320 --> 09:11.040
+is a little bit rooted in the past,
+
+09:11.040 --> 09:13.880
+but also this awkward new thing you're now trying to describe,
+
+09:13.880 --> 09:16.400
+and then like what I found that I really wanna do
+
+09:16.400 --> 09:19.480
+is also anachronistic, but because it's the old way
+
+09:19.480 --> 09:20.520
+venture capital used to be.
+
+09:20.520 --> 09:22.640
+Like I just wanna invest in hand full of companies
+
+09:22.640 --> 09:24.200
+and work really close to those founders
+
+09:24.200 --> 09:27.520
+in a smallish firm where I trust my partners,
+
+09:27.520 --> 09:29.120
+we all work together on something,
+
+09:29.120 --> 09:31.680
+he knows only seven of us on the venture team at Spark,
+
+09:31.680 --> 09:35.600
+and like that was how Sequoia was 40 years ago,
+
+09:35.600 --> 09:37.160
+and it worked well, it's just not the way
+
+09:37.160 --> 09:38.680
+people are building firms today.
+
+09:38.680 --> 09:40.040
+Yeah, what does that like do?
+
+09:40.040 --> 09:42.480
+Like now that the ecosystem is like these gigantic
+
+09:42.480 --> 09:44.440
+mega funds that look at like seed investing
+
+09:44.440 --> 09:47.920
+as like loss leaders for like big growth rounds,
+
+09:47.920 --> 09:51.240
+you know, like how are you thinking about how that changes,
+
+09:51.240 --> 09:53.040
+or if it seems like it doesn't really change
+
+09:53.040 --> 09:56.840
+what you're doing, but like how does it affect your approach?
+
+09:59.960 --> 10:01.640
+I mean, we're still good,
+
+10:01.640 --> 10:02.800
+like I think an important start of this,
+
+10:02.800 --> 10:05.000
+if we're still good citizens with all of these players as well,
+
+10:05.000 --> 10:06.760
+right, you end up co-investing with people.
+
+10:06.760 --> 10:08.840
+I really wanted you to shit on them.
+
+10:08.840 --> 10:13.840
+I know, I was like, I must hold back slightly from now.
+
+10:18.200 --> 10:23.360
+It is not a, I think those firms are a viable strategy,
+
+10:23.360 --> 10:27.280
+I think they are a different product,
+
+10:27.280 --> 10:29.680
+and as long as a founder understands
+
+10:29.680 --> 10:31.680
+what product they're buying,
+
+10:31.680 --> 10:34.440
+then I'm super happy with all of them existing
+
+10:34.440 --> 10:35.440
+in the ecosystem.
+
+10:35.440 --> 10:37.800
+I think the things that make me frustrated
+
+10:37.800 --> 10:40.280
+is when I'm in a conversation,
+
+10:40.280 --> 10:41.480
+sometimes with a current founder,
+
+10:41.480 --> 10:43.160
+like I'm on the board of this company,
+
+10:43.160 --> 10:44.240
+they're going out to race.
+
+10:44.240 --> 10:45.360
+So never mind, I'm competing with them.
+
+10:45.360 --> 10:47.960
+Like they're going out to race a series B or a series C,
+
+10:47.960 --> 10:52.640
+and the stories they're being told by investors
+
+10:52.640 --> 10:56.000
+about what the product is without going through the whole,
+
+10:56.000 --> 10:59.560
+it's just like not entirely truth.
+
+10:59.560 --> 11:04.040
+You cannot be investing five times a month
+
+11:04.040 --> 11:06.800
+and operating out of a $10 billion fund
+
+11:06.800 --> 11:09.680
+and get anything more than a random phone call
+
+11:09.680 --> 11:12.400
+every four years on a thing.
+
+11:12.400 --> 11:14.520
+And there are firms that are very good at being transparent
+
+11:14.520 --> 11:16.600
+about what this is, the transactional relationship,
+
+11:16.600 --> 11:19.040
+you get the money and you run away.
+
+11:19.040 --> 11:20.520
+I think actually Founders Fund is very good
+
+11:20.520 --> 11:23.400
+at being very honest about this.
+
+11:23.400 --> 11:25.080
+And there's lots of people that do a lot of
+
+11:25.080 --> 11:26.600
+storing around what they're selling.
+
+11:26.600 --> 11:28.040
+So as long as people know what they're buying
+
+11:28.040 --> 11:28.960
+and what they're selling, it's fine.
+
+11:28.960 --> 11:30.680
+We sell a different thing.
+
+11:30.680 --> 11:32.720
+And some Founders, that's really important,
+
+11:32.720 --> 11:34.400
+and it's wonderful, and they want that process
+
+11:34.400 --> 11:35.240
+and some don't.
+
+11:35.240 --> 11:37.120
+You have a connection, a kismet with anybody,
+
+11:37.120 --> 11:39.320
+or you don't, and we work on those things.
+
+11:39.320 --> 11:41.000
+That makes sense.
+
+11:41.000 --> 11:43.800
+Well, I want to talk about one of your latest investments,
+
+11:43.800 --> 11:47.000
+which is granola, which is one of my favorite AI products.
+
+11:47.000 --> 11:49.440
+And I think it's becoming one of everybody's favorite AI
+
+11:49.440 --> 11:50.440
+products.
+
+11:50.440 --> 11:52.920
+We've had Chris on the podcast.
+
+11:52.920 --> 11:54.600
+We have Chris wrote an article for every year
+
+11:54.600 --> 11:56.880
+that did really well, it's really amazing stuff.
+
+11:56.880 --> 11:58.800
+I think he's super talented.
+
+11:58.800 --> 12:02.560
+What did you see in that when you invested?
+
+12:02.560 --> 12:06.000
+Well, when did you invest?
+
+12:06.000 --> 12:08.920
+Was it before they had the product they have now or is it after?
+
+12:08.920 --> 12:12.920
+So I've known Chris for over a decade.
+
+12:12.920 --> 12:16.560
+Chris was a founder of a company called Socratic.
+
+12:16.560 --> 12:19.320
+Back in the day, kind of like previous AI generation.
+
+12:19.320 --> 12:22.200
+And that was actually a Spark portfolio company.
+
+12:22.200 --> 12:26.440
+And so he's been part of the family for a really long time.
+
+12:26.440 --> 12:30.640
+And his first attempt at making this
+
+12:30.640 --> 12:34.240
+was, as you'll talk about now, was a little bit of a misfire.
+
+12:34.240 --> 12:37.880
+So he got to notes as a canonical thing
+
+12:37.880 --> 12:39.200
+that you can work on.
+
+12:39.200 --> 12:41.080
+But it was very interruptive.
+
+12:41.080 --> 12:43.960
+And the use flow without going through it all
+
+12:43.960 --> 12:45.200
+just wasn't the thing.
+
+12:45.200 --> 12:47.320
+It was like the place to play, but not the thing.
+
+12:47.320 --> 12:50.520
+And so I hung out with a bunch at C that we played and talked
+
+12:50.520 --> 12:53.800
+about product and looked at early prototypes and so and so forth.
+
+12:53.800 --> 12:55.400
+For us, it just wasn't over the line.
+
+12:55.400 --> 12:57.400
+And so he did raise a seed from somewhere else.
+
+12:57.400 --> 13:00.000
+And then we just, you know, you connect with certain people.
+
+13:00.000 --> 13:01.520
+And so we just kept in touch.
+
+13:01.520 --> 13:04.360
+And then probably about four or five, six months,
+
+13:04.360 --> 13:05.040
+something like that.
+
+13:05.040 --> 13:09.160
+After the seed, he stumbled into what is now granola.
+
+13:09.160 --> 13:13.600
+As soon as you play with that, if you have any taste or product
+
+13:13.600 --> 13:17.480
+sense, you're like, oh, this is the thing.
+
+13:17.480 --> 13:18.760
+Yeah, it's great.
+
+13:18.760 --> 13:19.600
+Well, let's go.
+
+13:20.600 --> 13:23.840
+And so we then catalyzed around really quickly at that point.
+
+13:23.840 --> 13:26.720
+And that was a big round, right?
+
+13:26.720 --> 13:28.400
+I don't know what big is.
+
+13:28.400 --> 13:29.480
+It was like 20 million, right?
+
+13:29.480 --> 13:30.240
+Yeah.
+
+13:30.240 --> 13:31.280
+That's pretty big.
+
+13:31.280 --> 13:32.600
+Yeah.
+
+13:32.600 --> 13:36.200
+It was the thing that felt so unique.
+
+13:36.200 --> 13:38.200
+And I know you're somebody that, like I listen to your podcast,
+
+13:38.200 --> 13:39.120
+we've caught up a bunch.
+
+13:39.120 --> 13:41.720
+I know you're somebody that struggles with as well is like,
+
+13:41.720 --> 13:47.880
+there's a, I don't know, Rory Sutherland says there's like three types
+
+13:47.880 --> 13:50.760
+of innovation in his like canonical way of talking about the world,
+
+13:50.760 --> 13:53.360
+which is like, there's, there's faster horses.
+
+13:53.360 --> 13:55.600
+And there's like, which is like, obviously,
+
+13:55.600 --> 13:56.960
+like just make the thing go faster.
+
+13:56.960 --> 13:59.360
+And, and, and then there's teleportation,
+
+13:59.360 --> 14:02.720
+which is like this thing that you don't know should,
+
+14:02.720 --> 14:03.800
+like you want it to exist.
+
+14:03.800 --> 14:04.840
+You don't know how to get there.
+
+14:04.840 --> 14:06.280
+But if I tell you you want teleportation,
+
+14:06.280 --> 14:07.360
+you want teleportation.
+
+14:07.360 --> 14:08.560
+Everybody wants teleportation.
+
+14:08.560 --> 14:10.040
+Should we have a colony on Mars?
+
+14:10.040 --> 14:10.880
+Be awesome.
+
+14:10.880 --> 14:12.080
+Like, I don't know how we're going to do that.
+
+14:12.080 --> 14:12.600
+That's it.
+
+14:12.600 --> 14:14.600
+And then there's like Japanese toilets.
+
+14:15.600 --> 14:21.880
+Which is like, nobody, you didn't know you needed Japanese toilets in your life
+
+14:21.880 --> 14:23.480
+until the first time you got to Japan.
+
+14:23.480 --> 14:25.680
+And then you're like, walk out of the toilet.
+
+14:25.680 --> 14:27.480
+You're like, why isn't this everywhere?
+
+14:27.480 --> 14:29.320
+How have I been missing this my whole life?
+
+14:29.320 --> 14:31.600
+And it's not even that complicated.
+
+14:31.600 --> 14:32.440
+And that's Skunola.
+
+14:32.440 --> 14:33.200
+Yeah, yeah.
+
+14:33.200 --> 14:34.160
+Like, it's this thing.
+
+14:34.160 --> 14:37.120
+It's not like the execution is actually really subtle.
+
+14:37.120 --> 14:38.640
+It's really hard.
+
+14:38.640 --> 14:43.160
+But I think for me, the things I'm like wandering around and trying to find
+
+14:43.160 --> 14:45.600
+are the Japanese toilets of AI.
+
+14:45.600 --> 14:49.280
+Like, the faster horses are mostly what's getting funded.
+
+14:49.280 --> 14:56.720
+It's mostly what's come out of this B2B sass, big industrial machine
+
+14:56.720 --> 14:59.600
+that we have in venture capital is churning out startups after startups
+
+14:59.600 --> 15:01.000
+and incubator after incubator.
+
+15:01.000 --> 15:02.920
+And most of that stuff is fine.
+
+15:02.920 --> 15:08.120
+And it'll also be arbitrage out of existence in four years and who cares.
+
+15:08.120 --> 15:12.520
+And so mostly you're looking for new expi, I am looking for mostly
+
+15:12.520 --> 15:17.800
+new experiences, things that surprise you with the place that they're playing.
+
+15:17.800 --> 15:23.840
+And so for me when I use Grinola, you're like, oh, this is so intuitive.
+
+15:23.840 --> 15:26.440
+It's like the 50th thousandth AI note taker.
+
+15:26.440 --> 15:29.240
+Like, did the world need another AI note taker?
+
+15:29.240 --> 15:32.520
+I was like, yes, except I didn't want to use any of those other AI note takers.
+
+15:32.520 --> 15:36.200
+When Fireflies joins my Zoom meeting, I'd never let it in.
+
+15:36.200 --> 15:37.200
+Oh, the anger.
+
+15:37.200 --> 15:38.360
+The needy and anger.
+
+15:38.360 --> 15:45.800
+Yeah, and where is this just like, no, just basically looks like Apple notes.
+
+15:45.800 --> 15:50.160
+And it's just going to like append a little, a little extra to the things
+
+15:50.160 --> 15:52.760
+that you took notes on and make you a little smarter along the way.
+
+15:52.760 --> 15:53.760
+Yeah, it's brilliant.
+
+15:53.760 --> 15:58.200
+How do you think you become someone who makes a Japanese toilet?
+
+15:58.200 --> 16:01.480
+You know, like versus a faster horse, you know, like there's something,
+
+16:01.480 --> 16:05.000
+I was talking to Chris about this, like something about like the way that he looks
+
+16:05.000 --> 16:09.400
+at or thinks about the soul of a product and the way his intuition works and all that
+
+16:09.400 --> 16:10.400
+kind of stuff.
+
+16:10.400 --> 16:14.600
+And I'm kind of curious, I assume you've invested in other people that have that same
+
+16:14.600 --> 16:15.600
+kind of archetype.
+
+16:15.600 --> 16:17.400
+Like, what have you learned about that?
+
+16:17.400 --> 16:23.640
+Yeah, there's a similar journey to Andrew Mason, a script.
+
+16:23.640 --> 16:30.480
+There's a similar journey to an investment that was just announced recently called Wordware.
+
+16:30.480 --> 16:34.960
+They have a similar milieu, which is very different from, you know, I would say,
+
+16:34.960 --> 16:41.920
+a Kyle vote at Cruz, that that's an example, like that's a teleportation, the pitch.
+
+16:41.920 --> 16:45.760
+That's like self-driving cars, like amazing, probably impossible.
+
+16:45.760 --> 16:46.760
+Can you do it?
+
+16:46.760 --> 16:49.080
+Like that's a very different kind of pitch.
+
+16:49.080 --> 16:52.560
+What are the habits of those kinds of founders or what are the journeys that they're on?
+
+16:52.560 --> 16:59.240
+I would say that the remarkable thing that comes out about a person like that usually comes
+
+16:59.240 --> 17:04.040
+out when they're talking about how they got to whatever solution that they're talking
+
+17:04.040 --> 17:06.040
+about.
+
+17:06.040 --> 17:12.480
+Yeah, I'm trying to, like, what is the right answer here?
+
+17:12.480 --> 17:15.680
+What's the authentic answer here?
+
+17:15.680 --> 17:20.400
+Why is Chris or Andrew really special?
+
+17:20.400 --> 17:24.200
+I'm trying to think about this through the lens of when those kinds of founders come
+
+17:24.280 --> 17:27.600
+into our firm.
+
+17:27.600 --> 17:29.360
+You can feel it in the room.
+
+17:29.360 --> 17:33.840
+It's not just me, like the whole team, and this is partially because we cast for these types
+
+17:33.840 --> 17:39.160
+of people, but like the whole firm, like rallies pretty quickly.
+
+17:39.160 --> 17:41.360
+And so what are the patterns in that pitch?
+
+17:41.360 --> 17:50.120
+It's usually that they are telling you insightful reasons why they put things into the product
+
+17:50.120 --> 17:53.640
+that you would have never normally thought of from customer development calls.
+
+17:53.640 --> 17:54.640
+Okay.
+
+17:54.640 --> 18:00.200
+So it's like some combination of storytelling and attention to small details in a way
+
+18:00.200 --> 18:04.960
+that, like, levels up into something that all makes sense together.
+
+18:04.960 --> 18:12.160
+Yeah, there's some connectivity between the choices a person made in the product that
+
+18:12.160 --> 18:17.000
+like you can feel and some insight about a customer.
+
+18:17.000 --> 18:21.880
+Like if they're listening very, very closely to the behavior of what's happening.
+
+18:21.880 --> 18:25.480
+And so in Chris's case, it's just noticing, for instance, the very first version of
+
+18:25.480 --> 18:28.880
+granola was a tab complete, almost like copilot, right?
+
+18:28.880 --> 18:33.360
+So you type a couple of words in and you type tab and it starts filling out.
+
+18:33.360 --> 18:36.400
+Seems actually kind of magical when you first look at it.
+
+18:36.400 --> 18:40.640
+It's like, but if you just like listen to yourself closer, if you're self aware enough
+
+18:40.640 --> 18:44.480
+closer, especially if you're the user of the product and you're your own customer, you
+
+18:44.480 --> 18:48.520
+just realize, like, I'm kind of like super distracted in this meeting because every time
+
+18:48.520 --> 18:51.560
+I press tab, like, it fills out things and it makes an error and then I want to correct
+
+18:51.560 --> 18:52.560
+the error.
+
+18:52.560 --> 18:53.560
+And now I'm not paying attention.
+
+18:53.560 --> 18:54.560
+I'm like, no, I contact.
+
+18:54.560 --> 18:57.320
+It's like, not why I'm on this Zoom call, like, it's that.
+
+18:57.320 --> 19:01.200
+And so that little, I don't even, it's not brilliance.
+
+19:01.200 --> 19:07.360
+It's not, it's not even creativity in the like, in the like, canonical definition of creativity
+
+19:07.360 --> 19:14.360
+where you come up with 15,000 ideas and it's more like investigation or like a word that's
+
+19:14.360 --> 19:18.440
+going to mind as like sensitivity, like you're sensitive to what's actually going on.
+
+19:18.440 --> 19:23.920
+You're like, got your hands like all in the, in the milieu and you can kind of like feel
+
+19:23.920 --> 19:26.480
+the changes in the weather pattern or something like that.
+
+19:26.480 --> 19:27.480
+Yep.
+
+19:27.480 --> 19:28.480
+Yeah.
+
+19:28.480 --> 19:36.160
+It's like the spectrum scale is like how kinetic, how much kinetic energy do you have because
+
+19:36.160 --> 19:38.560
+you have to move very fast, right?
+
+19:38.560 --> 19:43.120
+But we all know people that like are just all course power.
+
+19:43.120 --> 19:44.800
+Like they're just kinetic energy.
+
+19:44.800 --> 19:46.440
+They're the people that are like, I want to start a startup.
+
+19:46.440 --> 19:48.320
+And the way I'm going to start a startup is I'm going to come up with a new business
+
+19:48.320 --> 19:51.720
+plan every single day for the next three months until I find the right thing.
+
+19:51.720 --> 19:53.800
+And I'm going to push it like that.
+
+19:53.800 --> 19:58.000
+And that's good kinetic energy without a lot of sensitivity.
+
+19:58.000 --> 20:00.720
+They are trying to plow through the problem.
+
+20:00.720 --> 20:06.240
+They are very, very uncomfortable with fog of war, with like wandering in the wilderness
+
+20:06.240 --> 20:07.520
+to find the thing.
+
+20:07.520 --> 20:11.680
+So the opposite spectrum is sensitivity.
+
+20:11.680 --> 20:16.520
+And the problem is that sometimes if you go too far in the sensitivity side, then you're
+
+20:16.520 --> 20:23.120
+the artist who is just like has absolute like analysis paralysis.
+
+20:23.120 --> 20:27.160
+You just think and think and think and think and think and think and it's just too slow.
+
+20:27.160 --> 20:28.840
+Your iteration cycle is too slow.
+
+20:28.840 --> 20:33.240
+And again, you're trying to solve by listening closely that fog of war, like you're trying
+
+20:33.240 --> 20:36.080
+to just listen to every single animal in the forest to figure out how to track it before
+
+20:36.080 --> 20:37.080
+you walk in.
+
+20:37.080 --> 20:41.400
+And so it's this like, I think those types of founders you're trying to sense for are
+
+20:41.400 --> 20:44.400
+they have a pro nation to movement.
+
+20:44.400 --> 20:47.320
+They will move, but they will move while still listening.
+
+20:47.320 --> 20:49.320
+I love that.
+
+20:49.320 --> 20:53.640
+That's beautiful.
+
+20:53.640 --> 20:58.000
+Tell me about word wear because I have a feeling that there's something very spiritually
+
+20:58.000 --> 21:02.160
+aligned between word wear and whatever it is that I'm doing.
+
+21:02.160 --> 21:03.160
+Really?
+
+21:03.160 --> 21:04.160
+Yeah.
+
+21:04.160 --> 21:06.240
+So I'm not diving into word wear until you start answering that.
+
+21:06.240 --> 21:07.240
+What do you mean?
+
+21:07.240 --> 21:11.920
+Well, I've been thinking a lot about like, okay, what does it mean to be like a multi-modal
+
+21:11.920 --> 21:14.840
+publishing company, media company like that kind of thing?
+
+21:14.840 --> 21:23.640
+And the way that I've been thinking about it is, as you can start to code in English,
+
+21:23.640 --> 21:26.080
+writing is building.
+
+21:26.080 --> 21:35.480
+And I think the opposite is true, like building becomes like at every, it informs all of
+
+21:35.480 --> 21:36.800
+the writing that we do.
+
+21:36.800 --> 21:41.240
+So there's this sort of feedback loop and usually in most organizations, you have builders
+
+21:41.240 --> 21:44.800
+over here and writers over here, or they're in totally separate organizations.
+
+21:44.800 --> 21:49.800
+And in every, there's a lot, a lot of overlap because all of our EARs, everyone that works
+
+21:49.800 --> 21:52.880
+at every, they write articles, they don't just write articles, they write code by like
+
+21:52.880 --> 21:56.640
+writing prompts.
+
+21:56.640 --> 22:03.800
+And so if I have to like pull on that thread a little bit, like the commonality is writing,
+
+22:03.800 --> 22:09.280
+but like the underneath that is like storytelling, like having a perspective and bringing a perspective
+
+22:09.280 --> 22:14.040
+to like the medium or the craft, the thing that you're doing, whether that's like the output
+
+22:14.040 --> 22:20.120
+is actually writing, whether it's podcasts, whether it's building, and so I'm, that's like
+
+22:20.120 --> 22:26.280
+the unifying thing between all of the different parts of the organization.
+
+22:26.280 --> 22:33.200
+And something about Wordware, the way it's phrased, just like expresses that really cleanly.
+
+22:33.200 --> 22:37.760
+But certainly trying to put people in the role, it's trying to open up, Wordware is certainly
+
+22:37.760 --> 22:42.640
+trying to open up the idea that everybody is a maker, and that you should, like it's
+
+22:42.640 --> 22:48.640
+still really frustrating to me that, and I'm sure you bump into this a lot, like nobody's
+
+22:48.640 --> 22:56.400
+really using, nobody is using cursor and wind surf, and replicate agents, and all, and
+
+22:56.400 --> 23:02.120
+clawed for code, and all of these things, like I had a random look at during lunch today,
+
+23:02.120 --> 23:07.680
+I made an app, like I had 15 minutes, and I was like, somebody had tweeted out a couple
+
+23:07.680 --> 23:12.360
+of days ago, the right way to structure, O1 prompts, and I was like, you probably saw
+
+23:12.360 --> 23:13.360
+this tweet, right?
+
+23:13.360 --> 23:14.360
+Seems great.
+
+23:14.360 --> 23:19.000
+So I took a whole article on that, and I just shoved it into a replete agent, and I was
+
+23:19.000 --> 23:24.600
+like, here's your PRD, make me an app, so that I can just right here, and then pitch the
+
+23:24.600 --> 23:28.960
+clawed to giving back an expanded product, took 15 minutes, it was like while I was waiting
+
+23:28.960 --> 23:34.360
+for my next call, and like that's nothing that would even pass through my head a year
+
+23:34.360 --> 23:35.360
+ago.
+
+23:35.360 --> 23:40.240
+That's a thing, writing is building, but software is now content, so one of the really
+
+23:40.240 --> 23:45.640
+cool things is when we just launched this app called Cora, and that has 10,000 people
+
+23:45.640 --> 23:49.720
+on the wait list, those are all now every subscribers, like you can't write an article
+
+23:49.720 --> 23:54.160
+that's going to get you 10,000 subscribers, but you can write software that does it,
+
+23:54.160 --> 23:58.040
+and that's like, that's incredible, but yeah, I interrupt you, I don't worry about that.
+
+23:58.040 --> 24:06.440
+So anyway, I think the vast majority of people just simply if you sit down and show them
+
+24:06.440 --> 24:09.920
+replete agents, which is a great brilliant product, McKellys, amazing.
+
+24:09.920 --> 24:12.240
+I've never used it, actually.
+
+24:12.240 --> 24:17.440
+I used replete a lot, like a year ago-ish, but I have now used their new agent stuff,
+
+24:17.440 --> 24:22.440
+how do you compare it to a cursor composer or a windsurf?
+
+24:22.440 --> 24:26.240
+I think it's in the same category, these are direct competitors.
+
+24:26.240 --> 24:31.600
+I would put, you know, almost if you put a spectrum on coding agents, and we're going
+
+24:31.600 --> 24:36.400
+to come back to Wordware, because this will link back in, but I can keep these all in my head.
+
+24:36.400 --> 24:41.160
+If you put a spectrum on all the coding agents today, the spectrum I would put on them is
+
+24:41.160 --> 24:47.320
+basically like how long are they allowed to work before they ask for feedback.
+
+24:47.320 --> 24:51.760
+And so if we're starting at the low end, you have like Microsoft Copilot, which is trying
+
+24:51.760 --> 24:56.120
+to finish one line of code, and on the other end of the spectrum, you have Devon, which
+
+24:56.120 --> 24:57.960
+is trying to run away for four hours.
+
+24:57.960 --> 24:58.960
+That's a great spectrum.
+
+24:58.960 --> 25:03.120
+And I actually think when I talk to people today, when we're going through product sessions
+
+25:03.120 --> 25:07.000
+and I'm working with teams about this, on whatever they're trying to innovate on, that's
+
+25:07.000 --> 25:09.680
+the spectrum I first start from, which is like, hey, for whatever probably you're trying
+
+25:09.680 --> 25:14.680
+to solve, let's try and think about what is the reasoning of our current SOTA models.
+
+25:14.680 --> 25:17.400
+Let's think about how long do you think you can leave them?
+
+25:17.400 --> 25:19.720
+How good are your e-vals internally?
+
+25:19.720 --> 25:23.920
+Because if you can evaluate longer and better, and how good the code base is, you can
+
+25:23.920 --> 25:25.520
+let it work for longer.
+
+25:25.520 --> 25:27.600
+So how good are your e-vals internally?
+
+25:27.600 --> 25:28.920
+And then let's set a mark.
+
+25:28.920 --> 25:35.560
+Are you letting this thing go for an hour, four hours, three days, one sentence, 16 seconds,
+
+25:35.560 --> 25:36.920
+based on whatever you're trying to solve?
+
+25:36.920 --> 25:38.440
+And that's a really interesting new heuristic.
+
+25:38.440 --> 25:42.000
+I found a couple of different product innovations from startups I'm working with come out of,
+
+25:42.000 --> 25:44.080
+literally just that thought exercise.
+
+25:44.080 --> 25:51.320
+And so I would say the interesting thing about Replit is it generally works far less than
+
+25:51.320 --> 25:55.840
+Devon, which I think we found Devon, for most people they find Devon to be like, it breaks
+
+25:55.840 --> 25:56.840
+a lot.
+
+25:56.840 --> 25:57.840
+It's a little slow.
+
+25:57.840 --> 25:58.840
+It's a little slow.
+
+25:58.840 --> 26:01.040
+It will be an amazing product over time.
+
+26:01.040 --> 26:02.160
+They've made a long bet.
+
+26:02.160 --> 26:06.240
+But right now, they probably set the mark a little bit too long on how they let each
+
+26:06.240 --> 26:07.240
+to go.
+
+26:07.240 --> 26:13.080
+I find for me, Replit agents, even though the models probably aren't as smart and so
+
+26:13.080 --> 26:18.080
+and so forth, the kind of like time variants they give before they come back and ask questions
+
+26:18.080 --> 26:24.280
+is like a little bit longer than Windsorff, a little bit shorter than some others.
+
+26:24.280 --> 26:28.880
+They just set the right, Michele, who's the head of AI there, and our president just
+
+26:28.880 --> 26:31.920
+did a great job setting a variance.
+
+26:31.920 --> 26:34.320
+And really, that sounds simple.
+
+26:34.320 --> 26:37.600
+They do a bunch of really other good things about the product they want good right now.
+
+26:37.600 --> 26:42.680
+Just literally that, setting the right altitude of reasoning is everything for getting really
+
+26:42.680 --> 26:43.680
+good results out of it.
+
+26:43.680 --> 26:46.600
+Because they're all using, well, most all of them are using cloud of the back in anyway.
+
+26:46.600 --> 26:51.160
+That's all cloud and full disclosure, you know, we're like, it's all cloud, they're great.
+
+26:51.160 --> 26:55.120
+We're an investor in Anthropic, love it, build more things on top of the cloud.
+
+26:55.120 --> 26:57.360
+So I'm going to loop that back to Wordware.
+
+26:57.360 --> 26:58.680
+Yeah, please.
+
+26:58.680 --> 27:06.200
+So Wordware is starting from a different orthogonal, which is what do I have to give this thing
+
+27:06.200 --> 27:09.920
+for it to be able to understand what I really mean?
+
+27:09.920 --> 27:15.920
+And it turns out if you open up, I don't know, Windsorff or if you open up cursor or if you
+
+27:15.920 --> 27:18.360
+open up repolate agents, it's a chatbot.
+
+27:18.360 --> 27:20.040
+Like it looks like a chat window.
+
+27:20.040 --> 27:24.720
+And so what is the normal thing that a person who doesn't talk to chat to PT or cloud all
+
+27:24.720 --> 27:26.400
+day long, like you and me do?
+
+27:26.400 --> 27:32.760
+They type in one, three sentences, two sentences, which is like plenty, just enough room for
+
+27:32.760 --> 27:33.760
+a model to hang itself.
+
+27:33.760 --> 27:34.760
+Yeah, yeah, yeah.
+
+27:34.760 --> 27:35.760
+Right?
+
+27:35.760 --> 27:36.760
+Yeah.
+
+27:36.760 --> 27:41.440
+It's exactly the wrong amount of information to give a model, to go then code and make a bunch
+
+27:41.440 --> 27:42.440
+of things.
+
+27:42.440 --> 27:50.800
+The thing is like I find with like the Windsorff or Kirchers of the world, like the agent experience,
+
+27:50.800 --> 27:58.200
+it will just start without like, I kind of wanted to start in a like, we're going to define
+
+27:58.200 --> 28:02.960
+together a little bit more precisely what I actually mean before you could start coding,
+
+28:02.960 --> 28:04.960
+but it just wants to write code.
+
+28:04.960 --> 28:09.440
+I'm like, I often like at the end of the initial prompt, I'm like, if anything's unclear,
+
+28:09.440 --> 28:14.760
+like ask me questions before, which helps, but my other very common prompt there is give
+
+28:14.760 --> 28:16.520
+me five ways to solve this.
+
+28:16.520 --> 28:17.520
+Oh, interesting.
+
+28:17.520 --> 28:22.720
+I, like, I would say every second or third prompt into one of these code agencies, give
+
+28:22.720 --> 28:26.880
+me five options so that it doesn't run ahead.
+
+28:26.880 --> 28:31.680
+And so as word where like, is it like a Google Docs instead where it's like a, a big, like
+
+28:31.680 --> 28:38.960
+empty sheet of space, and then does it like prompt you with how to fill that in?
+
+28:38.960 --> 28:44.280
+Like, is there some sort of, um, yeah, they're, it is working on that as a second stage
+
+28:44.280 --> 28:45.280
+right now.
+
+28:45.280 --> 28:48.680
+Right now, the way it approaches you, I would say the first big trick it does, that's
+
+28:48.680 --> 28:53.920
+very simple, is by approaching with a blank doc, um, and maybe, maybe there's a commonality
+
+28:53.920 --> 29:03.440
+between descript and word where and granola that I think blanks, blanks, there's something
+
+29:03.440 --> 29:09.320
+about a blank page, man, that then I help you fill out.
+
+29:09.320 --> 29:15.800
+But, but word where just literally the conceit of, um, please just write down in plain English,
+
+29:15.800 --> 29:20.120
+the way that you would maybe write a long email to an engineer on your team, what you
+
+29:20.120 --> 29:21.120
+want built.
+
+29:21.120 --> 29:22.560
+Let's start with that.
+
+29:22.560 --> 29:26.040
+You can already imagine your brain can do all of the things that word where is going
+
+29:26.040 --> 29:31.560
+to do over time, which is right now you have to do at symbols to call different functions
+
+29:31.560 --> 29:33.440
+and say which inputs and outputs you want.
+
+29:33.440 --> 29:37.160
+And honestly, word where, and the founders would say this, it's like a little overly technical
+
+29:37.160 --> 29:38.360
+today.
+
+29:38.360 --> 29:42.120
+But the thread that you'll, they will pull with their customers over the next couple
+
+29:42.120 --> 29:43.120
+of years.
+
+29:43.120 --> 29:47.320
+And this is why they're saying so many people use it right now, is that once you have
+
+29:47.320 --> 29:51.200
+that blank page filled, it's pretty easy, which, and then learn the syntax of how to use
+
+29:51.200 --> 29:54.120
+word where, how to call certain functions, how to fill it out, and how to really build
+
+29:54.120 --> 29:55.120
+like a usable product.
+
+29:55.120 --> 29:59.840
+And is it like intended for programmers or is it intended for like, pms who are sort
+
+29:59.840 --> 30:04.240
+of like, have, you know, they take a coding class in college or is it intended for like,
+
+30:04.240 --> 30:08.600
+uh, 18 year old who's never coded before, and it's just like, I want to get, I would
+
+30:08.600 --> 30:13.680
+say today's level of functionality is very good for somebody who is just slightly technical.
+
+30:13.680 --> 30:18.480
+I don't think you need to have been a coder, but you, it is better if you understand what
+
+30:18.480 --> 30:22.720
+an input is, and an output is, and you think an if-then statement's just a little bit,
+
+30:22.720 --> 30:24.840
+like that's going to help you an awful lot.
+
+30:24.840 --> 30:27.160
+That stuff gets glossed over time, pretty easily.
+
+30:27.160 --> 30:30.640
+Coming back to that, um, that spectrum that we were talking about, like the age, agentic
+
+30:30.640 --> 30:35.520
+spectrum, um, which it, it sort of reminds me of, you know, those dogs that, like, the
+
+30:35.520 --> 30:42.440
+dog leashes that, like, they extend out, and it's like, how much leashes do you have?
+
+30:42.440 --> 30:44.000
+How do you find the right setting?
+
+30:44.000 --> 30:48.840
+Um, like, are you just trying different things or, um, yeah, how are you when you're working
+
+30:48.840 --> 30:52.640
+with people or what are you finding for people when, how do they find that sweet spot?
+
+30:52.640 --> 30:57.280
+Oh, uh, isn't that the wonderful journey that we're all on with AI?
+
+30:57.280 --> 30:59.640
+Is that changes like every quarter?
+
+30:59.640 --> 31:00.640
+Yeah.
+
+31:00.640 --> 31:04.600
+Uh, like, I have a company right now that will go nameless because they're about to release
+
+31:04.600 --> 31:09.880
+a pretty awesome new thing that actually had an aha moment relatively recently about
+
+31:09.880 --> 31:12.000
+this, that they, they've been in AI for a while.
+
+31:12.000 --> 31:17.080
+They're doing really well, but they realize like that it, like, it's a short leash product,
+
+31:17.080 --> 31:21.400
+and they kind of had the epiphany a month and a half ago, like, oh, these models are
+
+31:21.400 --> 31:25.400
+good enough that if we just stitched them slightly differently, what would a longer
+
+31:25.400 --> 31:26.520
+leash product version?
+
+31:26.520 --> 31:28.680
+And it's like, and it's not, I say just longer leash.
+
+31:28.680 --> 31:29.920
+It's not just that it thinks differently.
+
+31:29.920 --> 31:33.720
+It's like, oh, that makes different demands of the UI and the UX, like, it just is a different
+
+31:33.720 --> 31:34.720
+thing.
+
+31:34.720 --> 31:37.920
+It's a whole flow is a different flow and it'll feel like a different product.
+
+31:37.920 --> 31:40.200
+So we got to, I mean, if you are, try it out, see if it works.
+
+31:40.200 --> 31:42.720
+And then like in three months when a new model comes out, like, try again.
+
+31:42.720 --> 31:47.760
+If, yeah, if you aren't reevaluating, how would I destroy my own startup six months
+
+31:47.760 --> 31:52.480
+later, every six months right now, during this, like, Cambrian explosion of stuff, like,
+
+31:52.480 --> 31:54.680
+that's the way you have to navigate things today.
+
+31:54.680 --> 31:56.120
+Have you gotten a three yet?
+
+31:56.120 --> 31:57.320
+I do not have a three.
+
+31:57.320 --> 31:59.080
+We have somebody on the team who has a three.
+
+31:59.080 --> 32:00.080
+What is, what do they say?
+
+32:00.080 --> 32:04.920
+What are the early, early signs if not, that is not, that is not, that is not, that
+
+32:04.920 --> 32:07.080
+is not a conversation we're having.
+
+32:07.080 --> 32:08.080
+Okay.
+
+32:08.080 --> 32:11.960
+That's not my, that's not my place.
+
+32:11.960 --> 32:13.320
+I have to try.
+
+32:14.080 --> 32:15.600
+Okay.
+
+32:15.600 --> 32:20.640
+And then, and I know you're playing around with, so you're, you're doing a lot of working
+
+32:20.640 --> 32:24.760
+with these sort of like coding agents and, and, and thinking a lot about agentic workflows.
+
+32:24.760 --> 32:28.720
+Like, what also are you learning, or what else are you excited about in, in that whole space?
+
+32:28.720 --> 32:32.520
+Well, the first thing that I've noticed in my own behavior over the last six months,
+
+32:32.520 --> 32:38.320
+and this is definitely how you're running every, is like, because we can code so quickly
+
+32:38.320 --> 32:41.360
+and make so quickly, we just make so much more.
+
+32:41.360 --> 32:42.360
+Yeah.
+
+32:42.440 --> 32:47.400
+I am simultaneously working harder on Spark than I've ever worked.
+
+32:47.400 --> 32:52.360
+And also, I'm building a card game with my kids.
+
+32:52.360 --> 32:56.520
+I'm also opening a board game library with a handful of friends.
+
+32:56.520 --> 32:57.520
+Wow.
+
+32:57.520 --> 32:58.520
+Like, it's not just code.
+
+32:58.520 --> 33:00.880
+Like, like, I'm opening a freaking retail space.
+
+33:00.880 --> 33:02.200
+We'll see if that works at all.
+
+33:02.200 --> 33:03.200
+That's annoying.
+
+33:03.200 --> 33:04.200
+For, for board games?
+
+33:04.200 --> 33:05.200
+For the board game.
+
+33:05.200 --> 33:06.200
+Yeah, for board games.
+
+33:06.200 --> 33:07.200
+For private library.
+
+33:07.200 --> 33:08.200
+It's a, it's called tabletop library.
+
+33:08.200 --> 33:11.440
+It's a private library for people who would play board games together.
+
+33:11.440 --> 33:12.440
+Where is it?
+
+33:12.440 --> 33:13.440
+Berkeley?
+
+33:13.440 --> 33:14.440
+Of course it is.
+
+33:14.440 --> 33:15.440
+Of course it is.
+
+33:15.440 --> 33:17.120
+It's actually, it's on a block in Berkeley.
+
+33:17.120 --> 33:21.920
+The other things on the block are a science fiction and fantasy bookstore and a comic bookstore.
+
+33:21.920 --> 33:23.720
+It's like the nerdiest block in America.
+
+33:23.720 --> 33:24.720
+That's the best.
+
+33:24.720 --> 33:25.720
+Do you live in Berkeley?
+
+33:25.720 --> 33:26.720
+I live in Berkeley.
+
+33:26.720 --> 33:27.720
+Yeah, yeah, yeah.
+
+33:27.720 --> 33:29.320
+But, like, that's a good example of, like, there's no way that I have enough available
+
+33:29.320 --> 33:30.320
+time.
+
+33:30.320 --> 33:31.320
+Yeah.
+
+33:31.320 --> 33:33.800
+And, uh, and the other people involved in the product are all startup people.
+
+33:33.800 --> 33:38.040
+Like, there's no way any of us have available time to ever do this before AI.
+
+33:38.040 --> 33:40.920
+And so, like, that's a strange thing because it's not like an AI project.
+
+33:41.000 --> 33:41.920
+Yeah.
+
+33:41.920 --> 33:44.480
+What part of it is AI making more efficient for you?
+
+33:44.480 --> 33:51.160
+Literally, every single thing from the beginning, from the more boring bits that are like,
+
+33:51.160 --> 33:55.360
+oh, we just got a lease draft in on retail.
+
+33:55.360 --> 33:56.360
+I've never looked at this.
+
+33:56.360 --> 33:58.360
+I'm going to drop it and chat GPT and ask questions.
+
+33:58.360 --> 33:59.360
+That's the normal stuff.
+
+33:59.360 --> 34:01.360
+Are you, are you, you're going to chat GPT for that?
+
+34:01.360 --> 34:02.360
+Are you going to O1?
+
+34:02.360 --> 34:03.360
+Are you doing cloud?
+
+34:03.360 --> 34:06.720
+Like, what's your, who's your, who's your legal advisor right now?
+
+34:06.720 --> 34:08.640
+Legal advisor would be O1.
+
+34:08.640 --> 34:09.640
+Okay.
+
+34:10.040 --> 34:11.040
+Not O1 pro.
+
+34:11.040 --> 34:12.040
+Not.
+
+34:12.040 --> 34:13.040
+No one pro.
+
+34:13.040 --> 34:14.040
+Okay.
+
+34:14.040 --> 34:15.040
+Okay.
+
+34:15.040 --> 34:16.040
+Legal advisor O1 pro.
+
+34:16.040 --> 34:17.040
+Yeah.
+
+34:17.040 --> 34:18.040
+I mean, come on.
+
+34:18.040 --> 34:19.040
+It's a real contract.
+
+34:19.040 --> 34:20.040
+Yeah.
+
+34:20.040 --> 34:23.880
+Uh, most everything else where I actually care about the output in terms of its language,
+
+34:23.880 --> 34:26.840
+the way it speaks to me, uh, things I might reuse.
+
+34:26.840 --> 34:27.840
+That's all cloud.
+
+34:27.840 --> 34:28.840
+Everything's cloud.
+
+34:28.840 --> 34:29.840
+All coding's also cloud.
+
+34:29.840 --> 34:30.840
+Everything's cloud.
+
+34:30.840 --> 34:34.960
+Um, but so that's the obvious one is just like, please analyze a contract.
+
+34:34.960 --> 34:38.000
+But like, I'll give you example, like, oh, I make it show you the code.
+
+34:38.000 --> 34:44.320
+Like over Christmas break, we started to get square, like, a floor plan back of the
+
+34:44.320 --> 34:45.320
+space.
+
+34:45.320 --> 34:49.400
+And so like, I fed the floor plan into cloud, started coding.
+
+34:49.400 --> 34:54.680
+That turned into a windsurf project, which turned into an actual, like, demand model
+
+34:54.680 --> 35:01.360
+to try and, uh, project how many members we would have in the space before we maxed
+
+35:01.360 --> 35:06.800
+out demand, which then boiled into like, oh, well, we have six to eight personas for
+
+35:06.800 --> 35:10.080
+different types of people that come at different times, and that turned into a price sensitivity
+
+35:10.080 --> 35:11.080
+test.
+
+35:11.080 --> 35:15.800
+These are all Python apps now, like, this is all a model that then I can go fix and change
+
+35:15.800 --> 35:20.280
+and rerun and like, that would have never, I mean, you could have done that before, but
+
+35:20.280 --> 35:23.840
+you would have had to like hire people and think about it and like, or you just had to
+
+35:23.840 --> 35:27.480
+spend your own time like, you know, hours and hours and hours and hours and hours.
+
+35:27.480 --> 35:30.360
+And now you can just be like, I want to see what's the sensitivity analysis and you're
+
+35:30.360 --> 35:31.360
+like, oh, here it is.
+
+35:31.360 --> 35:32.360
+Yeah.
+
+35:32.360 --> 35:33.360
+Yeah.
+
+35:33.360 --> 35:34.360
+That's the best.
+
+35:34.360 --> 35:40.560
+One thing project, just a rat hole on board game clubs is like, we went through a process
+
+35:40.560 --> 35:45.720
+when we then talked to all of the, like, SaaS companies that exist out there, like vertical
+
+35:45.720 --> 35:50.080
+SaaS companies that exist out there that help you, you know, run a membership club, run
+
+35:50.080 --> 35:56.200
+a co-working space, you know, there's that kind of thing, like, and all of them after evaluating
+
+35:56.200 --> 36:00.000
+them, they do what all SaaS software does, which is kind of good.
+
+36:00.000 --> 36:02.600
+They're not ever perfect for me, so and so forth.
+
+36:02.600 --> 36:05.760
+About halfway through, we realized, like, I don't know, the four of us could just build
+
+36:05.760 --> 36:07.160
+this ourselves.
+
+36:07.160 --> 36:13.280
+And so we were building all the customer books off there for running the space.
+
+36:13.280 --> 36:18.200
+And so now you can do things like make a voice phone call and say, hey, I want to play
+
+36:18.200 --> 36:24.840
+arcs with three friends Wednesday at 3 p.m., it checks an air table, agentically booked the
+
+36:24.840 --> 36:26.840
+thing, writes it in the table, like all of it.
+
+36:26.840 --> 36:27.840
+It's just all bespoke.
+
+36:27.920 --> 36:32.960
+What does this do in your mind to, like, funding models for software businesses, now that
+
+36:32.960 --> 36:35.200
+software is so much cheaper to make?
+
+36:35.200 --> 36:36.200
+I mean, I don't know.
+
+36:36.200 --> 36:42.400
+I think the precise amount of people that should work at any company is eight.
+
+36:42.400 --> 36:48.680
+We're just past that, so.
+
+36:48.680 --> 36:52.880
+But I think around where we are, I love it, it's so much fun.
+
+36:52.880 --> 36:59.680
+And by the, I've been an operator and founder everywhere from, you know, one to 100, it's
+
+36:59.680 --> 37:06.080
+like, you know, and like it's, there's something incredibly magical about that, you know,
+
+37:06.080 --> 37:09.160
+one pizza stage.
+
+37:09.160 --> 37:11.120
+And that's where it feels like a team.
+
+37:11.120 --> 37:16.880
+That's where it feels like a literally just one cohesive pod team.
+
+37:16.880 --> 37:17.880
+And so I don't know.
+
+37:17.880 --> 37:25.560
+I think the challenge is how much can we use AI to solve all of the things that are really
+
+37:25.560 --> 37:29.920
+just faster, horses, problems?
+
+37:29.920 --> 37:37.440
+You know, I have this story that stuck in my head for many years.
+
+37:37.440 --> 37:40.600
+It's a polish year, the designer.
+
+37:40.600 --> 37:45.440
+She has a story we should talk about the different things, art and craft and how, and she's a very
+
+37:45.440 --> 37:50.400
+famous graphic designer, logo designer, back in the day, she did some really famous record
+
+37:50.400 --> 37:54.080
+covers in the 70s, and you fast forward and she did like Shake Shack logo and stuff like
+
+37:54.080 --> 37:55.080
+that.
+
+37:55.080 --> 37:59.680
+So just like legendary logo designer, she used to talk about back in the day, someone
+
+37:59.680 --> 38:04.000
+would come in with an album cover and they'd be like, oh, it's a new, let's have an album,
+
+38:04.000 --> 38:05.440
+we need a cover for it, blah, blah, blah.
+
+38:05.440 --> 38:08.720
+And then she talked about what it would take to get that done.
+
+38:08.720 --> 38:13.120
+And you know, back then, this is obviously pre-Adobe, pre-photo shop.
+
+38:13.120 --> 38:17.840
+And she's like, there's a person that's spent a whole week just on the lettering, just
+
+38:17.840 --> 38:21.960
+like literally hand drawing every single letter on this cover.
+
+38:21.960 --> 38:24.360
+There's 20 people working on that project.
+
+38:24.360 --> 38:29.080
+And she's like, listen, the truth is that only one to two of those was actually, they
+
+38:29.080 --> 38:33.040
+were all quote-unquote artists and they all quote-unquote went through art school.
+
+38:33.040 --> 38:34.840
+All that's craft.
+
+38:34.840 --> 38:39.360
+There's really only one person making artistic decisions and making the core decisions.
+
+38:39.360 --> 38:41.400
+Everybody else is just execution.
+
+38:41.400 --> 38:45.480
+And the execution goes away when the craft is not covered by software.
+
+38:45.480 --> 38:46.480
+That's already happened.
+
+38:46.480 --> 38:50.880
+Now I open up Illustrator and I pick from fonts and maybe I tweak a font or I custom a font,
+
+38:50.880 --> 38:54.080
+but it like it all happens in a day or two.
+
+38:54.080 --> 38:58.640
+And instead I get faster iteration cycles where we then work on this to make it better.
+
+38:58.640 --> 39:01.280
+If you fast forward today, it's the same thing in a company level.
+
+39:01.280 --> 39:06.760
+Like if I'm at 16 people, you have to ask yourself, or 20 or 200, you have to ask yourself
+
+39:06.760 --> 39:10.680
+like how many of those people are actually making the core decisions of that company and
+
+39:10.680 --> 39:15.680
+how much of them are involved in just literally whittling the wood?
+
+39:15.680 --> 39:16.840
+Yeah.
+
+39:16.840 --> 39:24.400
+That's sort of where we are internally is like everyone at every is like a generalist who
+
+39:24.400 --> 39:28.120
+is multi-dimensional, many of them are technical.
+
+39:28.120 --> 39:33.600
+And we have like, we have three products that we run internally aside from the media product.
+
+39:34.240 --> 39:41.040
+There's that whole other thing where we're writing some of the best stuff in the industry that
+
+39:41.040 --> 39:49.480
+you should all subscribe to, but also that's, that was not a paid promotion.
+
+39:49.480 --> 39:52.840
+And each one of those has a GM.
+
+39:52.840 --> 39:58.880
+And the GM is doing everything from writing the code, like writing the release notes to
+
+39:58.920 --> 40:04.440
+like whatever that we have some, we have our creative lead who does all the design for
+
+40:04.440 --> 40:06.440
+everybody.
+
+40:06.440 --> 40:10.560
+And then we have writers who will go in and do some reporting on like what are we releasing
+
+40:10.560 --> 40:15.160
+this week and then write that up in our in context when to which is our Sunday newsletter.
+
+40:15.160 --> 40:18.320
+And then we have a bunch of writers.
+
+40:18.320 --> 40:25.920
+But it's interesting like it feels like it feels very cohesive, but everybody has their
+
+40:25.920 --> 40:31.400
+like little domain or their little universe where they're responsible for a lot of things.
+
+40:31.400 --> 40:38.320
+Instead of like one person who just their job is just like to tweak this like one knob basically.
+
+40:38.320 --> 40:44.600
+And I really love working with with those kinds of like multi-dimensional people.
+
+40:44.600 --> 40:48.560
+And it's it's quite common, I think for like early stage startups to like have a bunch
+
+40:48.560 --> 40:51.960
+of generalists and you replace them with specialists and whatever.
+
+40:51.960 --> 40:53.840
+But I think it's quite uncommon.
+
+40:53.840 --> 40:57.880
+I think A will be able to get further than we would have before with the sort of like
+
+40:57.880 --> 41:04.440
+generalist vibe, but it's also quite uncommon for a really early stage company to like be
+
+41:04.440 --> 41:09.360
+able to have three products and a media product that it can do like I think we can do them
+
+41:09.360 --> 41:11.400
+at a high level.
+
+41:11.400 --> 41:18.600
+And that's like totally new and it and and it allows us to like and it's driven by generalists
+
+41:18.600 --> 41:22.440
+who have these like special power tools that can like do all of the like execution work
+
+41:22.440 --> 41:26.520
+so that they just need to know what to do and then they can get it done really quick.
+
+41:26.520 --> 41:33.320
+Like we've done like I think three feature like real releases for chorus so far this
+
+41:33.320 --> 41:34.320
+week.
+
+41:34.320 --> 41:37.840
+And like that's one one guy here and he's super talented.
+
+41:37.840 --> 41:42.240
+It's one guy and oh one pro to be clear.
+
+41:42.240 --> 41:49.280
+It's also this mini dot billion dollar model doing a thing in the background.
+
+41:49.280 --> 41:53.200
+But yeah, I just it's I think there's a there's something new happening where those kinds
+
+41:53.200 --> 41:57.720
+of like eight person one pizza companies can and do you always use a long pro by the way
+
+41:57.720 --> 42:05.200
+is that your go to well, it's interesting I so I use oh one oh one is like my go to
+
+42:05.200 --> 42:10.040
+model I rarely use cloud anymore, which is really interesting because I was a big cloud
+
+42:10.040 --> 42:13.400
+guy for like a long time.
+
+42:13.400 --> 42:17.120
+Actually the place where I use cloud the most frequently is actually not in cloud itself
+
+42:17.120 --> 42:23.640
+it's in Lex which is the AI writing up to incubated and that that default model is cloud.
+
+42:23.640 --> 42:28.160
+So I do use it a bit but I'm mostly I'm mostly oh one I use oh one pro a little bit like
+
+42:28.160 --> 42:33.840
+I am I do this exercise every year where I like reflect on things that I've learned
+
+42:33.840 --> 42:37.360
+and like I set goals and like do all that stuff right yeah, it's really cool because
+
+42:37.360 --> 42:41.080
+I've been doing it for five years and I can just like go back it's like right before
+
+42:41.080 --> 42:43.840
+I started every is when I started doing it so I can just go back and just like look
+
+42:43.840 --> 42:47.160
+through each year and there's so much like juicy stuff in there.
+
+42:47.160 --> 42:50.920
+So I just like took that and I put it in I put it in cloud I put it in oh one and I put
+
+42:50.920 --> 42:56.400
+it in oh one pro and oh one pro is definitely the best like I I cried I cried a little
+
+42:56.400 --> 43:03.120
+yeah because especially like the like oh one and oh one pro because they can do the kind
+
+43:03.120 --> 43:06.240
+of like chain of thought and they can like retrace their steps or whatever they're much
+
+43:06.240 --> 43:11.840
+better at following a progression and like seeing and like seeing how something changes
+
+43:11.840 --> 43:15.600
+and like playing together in narrative that they find that's right and clouds a little
+
+43:15.600 --> 43:19.800
+just a little more like because it's just like it just sang what it sees like it's just
+
+43:19.800 --> 43:23.880
+it's less good at that yeah deeper deeper reasoning that's what it should be at it's it's
+
+43:23.880 --> 43:27.720
+got a whole bunch of without going through the whole oh one structure like that's just
+
+43:27.720 --> 43:31.600
+literally what it's programmed to do it's nothing else I'm gonna do that more so of course
+
+43:31.600 --> 43:36.640
+it does that more it's not like magic yeah but I haven't I you know like some of some
+
+43:36.640 --> 43:40.520
+of the people that that work at every that are doing more coding than I am like they're
+
+43:40.520 --> 43:45.120
+definitely like just they can just one shot a file and it like it will fix all the bugs
+
+43:45.120 --> 43:52.080
+and it's like it's crazy you know I've had that a little bit like I I'm doing some some
+
+43:52.080 --> 43:57.080
+like apps that are I wouldn't they're like they're light incubations like maybe they'll
+
+43:57.080 --> 44:01.320
+be coming they can every product or maybe not and yeah I get like one of those a week yeah
+
+44:01.320 --> 44:06.680
+yeah we have we have actually for a while we don't have one right now but for a while we had
+
+44:06.680 --> 44:11.880
+a AI hacker and residents at spark for the same reason that that you guys have people like that
+
+44:11.880 --> 44:15.960
+which is just like because the number of particular things that you just want to take like a quick
+
+44:15.960 --> 44:19.800
+one shot is like more than I have available time in the day exactly so like please can we play
+
+44:19.800 --> 44:24.680
+with whatever's new build things out half of them will get thrown away but you got to be playing yeah
+
+44:25.400 --> 44:30.200
+and so like sometimes like I'll build something with o1 or with cloud or whatever and like this
+
+44:30.200 --> 44:34.040
+the particular example I'm thinking give it like had some it had some like more complex stats that
+
+44:34.040 --> 44:37.880
+it was doing that I like I'm not like a big stats guy so like I was just like I think this looks
+
+44:37.880 --> 44:42.280
+right but I don't know and I just put it into o1 pro and I was like check the work here and I just
+
+44:42.280 --> 44:47.480
+trust that if o1 pro says it's okay that it's it's because there's a trust problem right it's
+
+44:47.480 --> 44:53.000
+like it's the same thing for like a manager when like a human manager is managing someone to do
+
+44:53.000 --> 44:57.560
+work that they don't know how to do themselves it's why technical managers have a much easier time
+
+44:57.560 --> 45:07.640
+managing engineers and what's really interesting about about AI right now is I can really cheaply
+
+45:07.640 --> 45:12.760
+manage an intelligence to do a lot of things that I'm not qualified to do and there's a question of
+
+45:12.760 --> 45:19.400
+like how do I know if it's right and that's a really that's a really interesting question to figure
+
+45:19.400 --> 45:25.480
+out but that's trust based on like have you ever tried have you ever found a set of prompts that are
+
+45:25.480 --> 45:31.000
+good at asking the model whether it thinks its previous work was good and getting a good response
+
+45:31.000 --> 45:35.640
+out of that because obviously if you say hey are you sure that that tilts the model towards not
+
+45:35.640 --> 45:39.960
+being sure so to almost always come back like no now that I've rethought it and it gives you almost
+
+45:39.960 --> 45:44.680
+like the wrong answer yeah that is interesting I mean I'm mostly I'm like I do say are you sure
+
+45:44.760 --> 45:48.920
+so maybe I shouldn't do that or like I will take it and put into another model and I'll just be like
+
+45:49.960 --> 45:53.320
+like do you see any problems with this this is what I'm trying to accomplish like are there any
+
+45:53.320 --> 45:57.720
+issues in this code basically or in this the way this is set up do you have anything like that
+
+45:58.840 --> 46:05.400
+I have trended towards asking for confidence intervals and pluses and minuses like how confident
+
+46:05.400 --> 46:09.160
+are you in your answer give me a reason why you could be right and give me a reason why you could
+
+46:09.160 --> 46:14.360
+be wrong again kind of chain of thoughty which is and that usually gives me enough information
+
+46:14.360 --> 46:18.520
+which is again proxying back to human behavior if you don't understand something get somebody to
+
+46:18.520 --> 46:22.040
+explain their logic around it a little bit more and you can kind of try to figure out whether they
+
+46:22.040 --> 46:26.920
+made an error or not is this for code or like what for what kind of problems literally everything
+
+46:26.920 --> 46:30.600
+like whenever I'm unsure about a response back because you're talking about trust and one way of
+
+46:30.600 --> 46:36.040
+talking about it is you know use a model you have more trust in but we're always going to be
+
+46:36.040 --> 46:40.520
+wandering into weird territories and so you kind of have to develop some techniques for trying to
+
+46:40.520 --> 46:43.400
+figure out what they're right about that's interesting because the reason I ask is one of the things
+
+46:43.400 --> 46:48.600
+I found with cloud like what if you ask it for editing feedback and you're like can you grade this
+
+46:48.600 --> 46:52.680
+it pretty much always gives you like a b plus a minus no matter what that's right it does um
+
+46:52.680 --> 46:56.760
+and then even if you only change a little bit I'll give you like oh now it's an a or whatever that's
+
+46:56.760 --> 47:01.960
+right and that if you give it a rubric like it still does the a minus thing and so I think oh one's
+
+47:01.960 --> 47:08.440
+a bit better at that um but yeah I haven't I haven't yet had a lot of success with like
+
+47:08.440 --> 47:13.240
+getting accurate confidence in the rules so I find that it's right it's better it's very bad at
+
+47:13.240 --> 47:20.760
+grading its own work that way how how good was this writing subjective reads um objective logic
+
+47:20.760 --> 47:27.160
+I see it's quite good at yeah yeah yeah so hey you just answered a question about um the history of
+
+47:27.160 --> 47:32.600
+startups and that I like how correct were you about that first give me your reasoning and then
+
+47:32.600 --> 47:37.560
+afterwards give me give me a confidence interval um usually in that order and it's quite good at
+
+47:37.560 --> 47:41.640
+that um for yeah but again like all these models it's like trying to figure out what they're good
+
+47:41.640 --> 47:49.400
+and they're bad at I find if I care about the answer being like specific then maybe oh one is
+
+47:49.400 --> 47:52.920
+better right now because it basically because it's doing reflection thinking about it longer so
+
+47:52.920 --> 47:56.680
+like great think about it longer awesome you saved me five more chats to get you to think about
+
+47:56.680 --> 48:02.760
+along to get the right answer sure shortcut um if I actually care about the words that are being used
+
+48:03.960 --> 48:08.840
+like I might reuse those words or I'm literally trying to brainstorm how to talk about something
+
+48:08.840 --> 48:14.280
+or storytell something a clot is still so much better at it yeah I think I think I think you're right
+
+48:14.280 --> 48:20.840
+I guess I don't really but you might not be using it that way right now right I do I so I'm
+
+48:20.840 --> 48:28.840
+using when I use Claude uh it's in Lex and I do use it to sort of like I'll often like I'll be
+
+48:28.840 --> 48:32.920
+writing something and I'll have it like sort of complete Lex does like the it's it's sort of
+
+48:32.920 --> 48:38.120
+copiality so it'll complete like maybe three more sentences or whatever and I find that to be helpful
+
+48:38.120 --> 48:43.400
+um but I think oh one is getting better at writing um like if you give it a big enough sample
+
+48:44.120 --> 48:49.240
+it'll be it'll be much better than I think it used to be somehow I don't know it's I know it
+
+48:49.240 --> 48:52.440
+I know that that doesn't make any sense but like that's my experience
+
+48:54.200 --> 48:57.080
+are you sure that's not just a skill issue you've gotten better at feeding it still
+
+48:58.600 --> 49:03.000
+um but I know you I know you you probably used I know you saw the like oh one like had a prompt oh
+
+49:03.000 --> 49:07.320
+one article you you mentioned or that was going around how do you have any specific like things
+
+49:07.320 --> 49:14.440
+you've learned about oh one pro that has have gotten you better results no I'm just a student there
+
+49:14.440 --> 49:21.720
+honestly like I like I I will say well actually I'll put it this way uh I read the tweets about
+
+49:21.720 --> 49:26.760
+how to use well oh one and I read the guides on how to use oh one it was like basically give it
+
+49:26.760 --> 49:30.680
+more context it's not a chat model is that's still like just yeah that's just just give it more
+
+49:30.680 --> 49:34.680
+context and tell it what you want give it an example what you want you're whatever yeah
+
+49:34.680 --> 49:40.600
+yeah yeah yeah and and you know for anybody who plays with these things every single day and
+
+49:40.600 --> 49:44.040
+is really out on the edge like I was already starting to that anyway so mostly it was like a head
+
+49:44.040 --> 49:49.800
+knob like yeah I should probably do that more you're right um more than it was some kind of like
+
+49:49.800 --> 49:53.400
+big epiphany or some unlock I'll let you know if I get an unlock on on no one pro
+
+49:55.960 --> 50:03.480
+any other like uh startups or products or like researchy type advances that you're like thinking
+
+50:03.480 --> 50:10.680
+about or interested in right now the the areas that I really think about right now and we'll go
+
+50:10.680 --> 50:16.440
+back to this earlier you you I'll give you an example directly from earlier you you have you do
+
+50:16.440 --> 50:22.440
+every year like annual review yeah thing yeah is it the same like five questions or 10 questions
+
+50:22.440 --> 50:27.240
+or something like that do you ask yourself or is it just more an exploratory conversation um the
+
+50:27.240 --> 50:37.240
+format is I will do um uh goals right like I'll do I'll do some like value exploration of like
+
+50:37.240 --> 50:43.960
+what do I want to like uh move toward in my life like what is important to me and then I'll also
+
+50:43.960 --> 50:51.880
+do like a bunch of uh uh like what are the things that I learned about myself or about the world
+
+50:51.880 --> 51:00.040
+or or whatever um and so it's not necessarily like a pre-prescribed set of questions but it is a
+
+51:00.040 --> 51:04.520
+sort of prescribed output format and then I'll like use a bunch of different questions in a bunch
+
+51:04.520 --> 51:11.800
+of different ways to get to those answers yep so like it's quite possible that existing out there
+
+51:11.800 --> 51:19.160
+in the world is a best practices for how to do your annual review and it's quite possible that
+
+51:20.360 --> 51:25.000
+there's no one answer there would be one that's better for you than somebody else but there's
+
+51:25.000 --> 51:31.080
+probably people that have really really thought about this and the reason one of the reasons the
+
+51:31.080 --> 51:37.240
+coding models work as well as they do is because we actually have lots of books about best practices
+
+51:37.240 --> 51:43.080
+in coding we have we have popped up one altitude and we don't just have a bunch of samples of code
+
+51:43.080 --> 51:48.920
+that get fed into a model we actually have a bunch of examples of PRDs and descriptions and documents
+
+51:48.920 --> 51:54.360
+that describe how to do coding well and how to make this thing well and then the output afterwards
+
+51:54.440 --> 52:03.000
+and I am looking for markets where either a company or or somehow we have that and so like it is
+
+52:03.000 --> 52:09.080
+one thing for instance to build the AI therapist it's another thing for me to start an exploration
+
+52:09.080 --> 52:14.200
+into altitude one level above that where I get to figure out what the right therapist is for me with
+
+52:14.200 --> 52:20.600
+what like area of knowledge that I want to bring to bear for this journey and there's very little
+
+52:20.600 --> 52:25.640
+that operates at that altitude most of them try to get to solution really really fast and let you
+
+52:25.640 --> 52:31.080
+like wander very very low in the altitude you know the same as just starting to give you code without
+
+52:31.080 --> 52:35.400
+saying to go back to the wordbury example like why don't you write down all the things you want here
+
+52:35.400 --> 52:39.000
+yeah and then we'll get started interesting well there's a I mean like let's take therapy for
+
+52:39.000 --> 52:43.000
+example like there's a lot of like books about how to do therapy how to be a bear of course
+
+52:43.000 --> 52:47.160
+is that an example of the kind of yes that it fueled your interest that's why I picked it okay
+
+52:47.160 --> 52:51.080
+like I picked it because there are is an incredible amount of academic literature and other literature
+
+52:51.080 --> 52:56.520
+about ways to do therapy that are more effective and not effective and so and so forth now that has
+
+52:56.520 --> 53:00.600
+to be translated into model language and so and so forth I'll tell you another area that's actually
+
+53:00.600 --> 53:08.920
+quite hard what makes a game fun like if I pick up and in fact there's there's no they call
+
+53:08.920 --> 53:14.040
+ludology there's no great ludology that would explain super Mario brothers on a spreadsheet like I
+
+53:14.040 --> 53:19.160
+can't look at super Mario brothers and we don't have a language for even describing how you
+
+53:19.160 --> 53:25.800
+would get to fun there yeah I think that that touches on some of the like some of the stuff we've
+
+53:25.800 --> 53:32.360
+talked about in previous conversations about like okay so for for therapy like one of the problems
+
+53:32.360 --> 53:37.160
+is that there's there's no one answer to that because the thing that like makes therapy effective
+
+53:37.160 --> 53:42.760
+is the therapy therapeutic alliance yeah it's like is like do you like your therapist that they like
+
+53:42.760 --> 53:47.080
+you like is there a fit right yeah the form in the context is a fit you think it's literally
+
+53:47.080 --> 53:53.240
+just personality fit I don't I you could bring any theory of therapy to practice but if we if we
+
+53:53.240 --> 54:11.000
+vibe we're good what I yes what I think is that really skilled clinicians can can reduce some part
+
+54:11.000 --> 54:18.360
+of their skill to rules and and and ways that they make decisions but actually like what's going
+
+54:18.360 --> 54:25.400
+on is like totally sub symbolic and it's it's totally intuitive and and the way that a non-skilled
+
+54:25.400 --> 54:30.760
+clinician would apply that rule is very different from the way that actual skilled one will apply it
+
+54:31.480 --> 54:40.840
+and so the the way to like for example to create a model that does really get therapy
+
+54:41.000 --> 54:47.400
+is I think to some degree like the methodology or whatever can be helpful but it's really to capture
+
+54:47.400 --> 54:52.120
+all of the nuances of a lot of really high quality interactions and then have the model learn all
+
+54:52.120 --> 54:56.280
+the like little sub symbolic rules that no one can really talk about to apply in the appropriate
+
+54:56.280 --> 55:03.640
+contexts it's very contextual and it's it's there's no there's no answer to that to those questions
+
+55:03.640 --> 55:08.120
+of like what should you do in in this situation that is like that can be made explicit it's like
+
+55:09.000 --> 55:14.200
+it's thousands and thousands of different answers that you apply at the right moment which is
+
+55:14.840 --> 55:21.480
+exactly what AI models are really good at and exactly what was previously incredibly hard to transfer
+
+55:22.280 --> 55:27.560
+between humans and that's why we're we love like rules and logic and like scientific explanations
+
+55:27.560 --> 55:31.480
+and all that kind of stuff okay so we so we kind of agree there but let me disagree a little bit
+
+55:31.480 --> 55:36.120
+please disagree so yeah you're pulling on a thread that that that we've talked about before
+
+55:36.120 --> 55:42.280
+and I actually do agree with which is like there's this incredible opportunity by capturing enough
+
+55:42.280 --> 55:49.320
+knowledge that the model itself will understand things about the world that we can't understand
+
+55:49.320 --> 55:53.720
+like the only way we pass down science and the way science works is because I found a way to verbalize
+
+55:53.720 --> 55:56.840
+the things so I could tell you about it and then you can go do the thing again and so there
+
+55:56.840 --> 56:00.680
+are just going to be a new set of things that we still don't have the words for and it's awesome
+
+56:00.680 --> 56:04.440
+there's new knowledge it's being created even if we can't describe it awesome love that
+
+56:05.320 --> 56:09.000
+um I think that's quite different than the point I'm trying to make I think the point that I'm
+
+56:09.000 --> 56:14.520
+trying to make is there are times where the user's choice about the knowledge that they want to
+
+56:14.520 --> 56:20.120
+navigate or use themselves has value and so a good example of this is just thinking about the key
+
+56:20.120 --> 56:26.040
+words that we use sometimes when we're trying to tell a model to go somewhere can you please rewrite
+
+56:26.040 --> 56:31.640
+this essay in the style of Paul Graham like we're using a keyword to try to normalize to a bunch of
+
+56:31.640 --> 56:39.560
+behaviors and to try to give it an indication but where is the Wikipedia of all of the APIs that
+
+56:39.560 --> 56:45.640
+exist in the world and all of the like chains of thought that exist in the world so that I can
+
+56:45.640 --> 56:52.680
+navigate and look at that library myself I don't necessarily trust Chatsy BT to pick the right
+
+56:52.680 --> 57:00.760
+modality of therapy or whatever it is just as much as I don't really trust them to like pick the
+
+57:00.760 --> 57:06.680
+restaurant for me I want to talk about the theory of why I what kind of restaurant I want and
+
+57:06.680 --> 57:12.200
+similarly like there's millions of things in the world where there's like there's like a set of
+
+57:12.200 --> 57:17.080
+five different ways you could go do the task and certainly sometimes it's like just pick whatever
+
+57:17.080 --> 57:23.560
+but many many times incorporating that into a flow where me as a user now has control just tell
+
+57:23.560 --> 57:28.600
+me what tell me not tell me the five different best practices for how this could be done and let me
+
+57:28.600 --> 57:36.600
+pick that versus your you know weirdly amalgamated you know LLM version of best practices all
+
+57:36.600 --> 57:42.840
+merged together yeah you want to be able to like allow like me you can't make the entire terrain
+
+57:42.840 --> 57:50.680
+of possibilities explicit because it's going to be too big basically but you do want to make I think
+
+57:50.680 --> 57:56.040
+what you're saying is like rather than have the LLM like zoom right into a specific answer I'm
+
+57:56.040 --> 58:01.000
+supposed to give you the answer like yeah get better at making some of the implicit stuff
+
+58:01.000 --> 58:06.760
+explicit so you can like you can explore within reason and then dive dive a little bit more deeply
+
+58:06.760 --> 58:10.840
+yeah I'll give you a really a really a simple side project you said yeah great but I think it was
+
+58:10.840 --> 58:14.520
+actually like real startup archery a business opportunity here but like my mental side project was
+
+58:14.520 --> 58:21.880
+the first thing I ever built in wordwear was a startup advice like it was like a I don't know
+
+58:22.840 --> 58:29.240
+was it like a startup investment or so basically a little web page you go to that you say this is
+
+58:29.240 --> 58:34.040
+the startup decision I'm trying to make right now it just says like what decision you're trying to
+
+58:34.040 --> 58:39.720
+make what in your gut do you think it should be and then hit go and then instead of just doing the
+
+58:39.720 --> 58:44.920
+chat you be T thing which is just like I'm just going to split out an answer I fed it very simply
+
+58:44.920 --> 58:51.000
+like a bunch of PDFs of like HBS articles and like a bunch of other stuff which is basically
+
+58:51.000 --> 58:58.760
+decision theory like what are the 20 to 30 best practice decision theory SWAT analysis blah blah blah
+
+58:58.760 --> 59:04.120
+and so the first order of business it does is actually just trying to figure out three or four
+
+59:04.120 --> 59:08.840
+decision theories that you could use to come to decision make a recommendation on those and then
+
+59:08.840 --> 59:12.600
+walk you through the steps that those things do to get you to the answer it's that it's like pop up
+
+59:12.600 --> 59:18.680
+one altitude help me learn from the things other people have used a structure whatever discipline
+
+59:18.680 --> 59:22.840
+they have been working on for 100 or 200 300 years I love that that's really interesting what
+
+59:22.840 --> 59:27.800
+what it what it makes me think of it actually brings me back to the the agent to continue me
+
+59:27.800 --> 59:31.800
+were talking about it's like how much of a leash it's exactly the same thing where I was thinking
+
+59:31.800 --> 59:39.080
+it's like it's it's maybe a related continuum which is like how like do you want it to have like a
+
+59:39.080 --> 59:42.600
+microscope like go right in or do you want to like look through binoculars or do you want to look
+
+59:42.680 --> 59:49.000
+through like panoramic like theater you know glasses or whatever you know and you need both you
+
+59:49.000 --> 59:55.080
+need to get those both those dimensions dialed in and right now like the models are like only doing
+
+59:55.080 --> 59:59.560
+the microscope thing they're only zooming in right away for you unless you ask it specifically
+
+59:59.560 --> 01:00:03.960
+don't do that like give me start with the like you know decision theories or whatever
+
+01:00:04.920 --> 01:00:09.160
+but yeah I love that I think that's really cool are people working on that I come across it very
+
+01:00:09.160 --> 01:00:15.640
+rarely okay I would love to if you're if you're thinking that way let's jam great
+
+01:00:18.520 --> 01:00:25.400
+cool well that's actually a really good place to start to wrap it up if if people are
+
+01:00:25.400 --> 01:00:29.400
+looking to jam with you on on any of these ideas where can they find you
+
+01:00:30.200 --> 01:00:35.000
+you can email me and to be able to spark capital you I'm on the web it's not hard to get to
+
+01:00:35.160 --> 01:00:39.800
+you great thanks so much for coming this is awesome yeah and thanks so much for doing what you're
+
+01:00:39.800 --> 01:00:50.440
+doing we need more multimodal media companies in the world I appreciate that
+
+01:00:52.360 --> 01:00:57.800
+oh my gosh folks you absolutely positively have to smash that like button and subscribe to AI
+
+01:00:57.800 --> 01:01:03.000
+and I why because this show is the epitome of awesomeness it's like finding a treasure chest in your
+
+01:01:03.000 --> 01:01:09.240
+backyard but instead of gold it's filled with pure unadulterated knowledge bombs about chat GPT
+
+01:01:09.960 --> 01:01:15.080
+every episode is a roller coaster of emotions insights and laughter that will leave you on the
+
+01:01:15.080 --> 01:01:20.600
+edge of your seat craving for more it's not just a show it's a journey into the future with
+
+01:01:20.600 --> 01:01:27.560
+Dan Shipper as the captain of the spaceship so do yourself a favor hit like smash subscribe
+
+01:01:27.560 --> 01:01:32.520
+and strap in for the ride of your life and now without any further ado let me just say Dan
+
+01:01:32.520 --> 01:01:40.120
+I'm absolutely hopelessly in love with you
+

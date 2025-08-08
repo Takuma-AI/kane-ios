@@ -1,0 +1,2674 @@
+WEBVTT
+
+1
+00:00:00.190 --> 00:00:01.880
+Neal Sáles-Griffin: With this workshop
+
+2
+00:00:02.040 --> 00:00:16.020
+Neal Sáles-Griffin: any important announcements or questions from the group. Cause I feel like it's been a while like I. I know we like hung out on Monday, but like at least for my connection to you, I feel like it's been a minute because I was in Chicago for a week, which was a lot of fun, but I got kind of
+
+3
+00:00:16.610 --> 00:00:20.339
+Neal Sáles-Griffin: I don't know, like not homesick for the place, but homesick for the people.
+
+4
+00:00:20.995 --> 00:00:40.889
+Neal Sáles-Griffin: So it's good to be back, and hopefully I'll see some of you all. I'll be in the office today, and then I think I've got some meetings with some folks next week, so definitely down to reconnect with folks went on a nice walk with near it recently, that was good. Gonna see George later today, and then I think I have a couple of sessions with you all on Monday. But if anybody's missing some meal time.
+
+5
+00:00:41.230 --> 00:00:42.090
+Neal Sáles-Griffin: I don't.
+
+6
+00:00:42.090 --> 00:00:47.370
+Lilliana Robinson: I don't know if you guys have seen. But we're having like a an event tonight for perspective
+
+7
+00:00:47.410 --> 00:00:51.190
+Lilliana Robinson: founders like for people who are thinking about applying.
+
+8
+00:00:51.750 --> 00:00:54.959
+Lilliana Robinson: Chloe's not on the call right now, George, you're gonna be there right.
+
+9
+00:00:55.670 --> 00:00:58.379
+George Haikal: Yup, I'll be there. Me Kevin Akadina will.
+
+10
+00:00:58.600 --> 00:01:14.570
+Lilliana Robinson: Okay, do you have the event, Page? You want to put it in the chat because Neil will be speaking at that. And if you guys want to come hang out. I think there's gonna be like, we have 300 other founders registered like prospective founders. If you guys are like burnt out. And you're like, I don't want to talk to people who are. Gonna ask me about being in tech.
+
+11
+00:01:14.570 --> 00:01:15.290
+Neal Sáles-Griffin: Yeah, yeah.
+
+12
+00:01:15.290 --> 00:01:22.959
+Lilliana Robinson: Really cool. But if you want to see our team or get some in person time Neil will be there. That's just where we're gonna be today.
+
+13
+00:01:22.960 --> 00:01:29.949
+Neal Sáles-Griffin: That's more of a give 1st choice on your end. And there's no pressure to do that, because what's gonna happen is a bunch of times are gonna come up to ask you how to get in.
+
+14
+00:01:30.110 --> 00:01:31.579
+Neal Sáles-Griffin: so you gotta watch out.
+
+15
+00:01:31.580 --> 00:01:32.260
+Lilliana Robinson: Yes.
+
+16
+00:01:33.200 --> 00:01:37.239
+Lilliana Robinson: but but Neil won't be there in person. If you feel like you haven't seen him, you can. You can.
+
+17
+00:01:37.240 --> 00:01:41.570
+Neal Sáles-Griffin: Yeah, I can. Just I can just run off with you all, and then I don't have to talk to them. That'd be great.
+
+18
+00:01:42.880 --> 00:01:43.490
+Neal Sáles-Griffin: Let's do it.
+
+19
+00:01:43.490 --> 00:01:45.569
+Dave Scott: You know. Are you playing dragon age at all?
+
+20
+00:01:46.290 --> 00:01:47.760
+Neal Sáles-Griffin: I haven't played anything.
+
+21
+00:01:48.890 --> 00:01:53.589
+Neal Sáles-Griffin: So I would like to play things. Someday Dave very soon.
+
+22
+00:01:54.100 --> 00:01:55.289
+Neal Sáles-Griffin: that would be great.
+
+23
+00:01:58.490 --> 00:02:00.110
+Neal Sáles-Griffin: cool anything else.
+
+24
+00:02:02.370 --> 00:02:03.239
+Neal Sáles-Griffin: oh, you're muted.
+
+25
+00:02:03.240 --> 00:02:04.869
+Lilliana Robinson: Questions from you guys.
+
+26
+00:02:09.669 --> 00:02:14.619
+Lilliana Robinson: Okay, now, I'll let you kick it off. Do you have do you have the agenda?
+
+27
+00:02:15.020 --> 00:02:21.260
+Neal Sáles-Griffin: Yep, yep, I'm gonna I'm hitting play on the the deck now. I'm gonna share my screen because I'm gonna start it off with my 1st question.
+
+28
+00:02:21.410 --> 00:02:22.900
+Neal Sáles-Griffin: as you might remember.
+
+29
+00:02:23.030 --> 00:02:26.580
+Neal Sáles-Griffin: Let's see, am I doing full screen? Let's see. Allow for one room.
+
+30
+00:02:26.860 --> 00:02:28.769
+Neal Sáles-Griffin: this window.
+
+31
+00:02:28.800 --> 00:02:30.520
+Neal Sáles-Griffin: Hopefully, this will work.
+
+32
+00:02:30.590 --> 00:02:32.280
+Neal Sáles-Griffin: How about that. There we go.
+
+33
+00:02:32.730 --> 00:02:35.330
+Neal Sáles-Griffin: So does anybody remember
+
+34
+00:02:35.740 --> 00:02:40.620
+Neal Sáles-Griffin: what I said when we decided to add the Q&A format? The why.
+
+35
+00:02:44.520 --> 00:02:46.870
+Neal Sáles-Griffin: what's the why behind the Q&A format.
+
+36
+00:02:47.050 --> 00:02:47.740
+Neal Sáles-Griffin: Yeah.
+
+37
+00:02:48.010 --> 00:02:59.830
+Dominique Harrison-Bentzen: I don't remember your exact words, but I think around the idea of any preconceptions that people have, you can already address them in the QA. So then afterwards you can just get down to
+
+38
+00:03:00.840 --> 00:03:02.940
+Dominique Harrison-Bentzen: down to the concrete.
+
+39
+00:03:03.156 --> 00:03:04.020
+Neal Sáles-Griffin: Yeah, I was like.
+
+40
+00:03:04.020 --> 00:03:11.130
+George Reed - Noetic: Pre-addressing the most common objections and questions. Right? Like having your running, Doc, and then pre addressing them. Wasn't that what you said.
+
+41
+00:03:11.926 --> 00:03:14.229
+Neal Sáles-Griffin: Yep, absolutely anything else.
+
+42
+00:03:17.430 --> 00:03:39.079
+Dominique Harrison-Bentzen: I think any skepticism in the room from if there's investors of things that they just thinking back to to Jake's around virality, or his go to market? Or what things have you been working on during textiles? It kind of the burning questions or skepticisms and doubts you can kind of hit them head on.
+
+43
+00:03:39.490 --> 00:03:40.450
+Dominique Harrison-Bentzen: Hmm.
+
+44
+00:03:40.450 --> 00:03:43.610
+Dave Scott: Yeah. Address any vulnerabilities in your story
+
+45
+00:03:43.790 --> 00:03:47.350
+Dave Scott: be able to answer what are what they're thinking about in their head.
+
+46
+00:03:47.730 --> 00:03:49.320
+Dave Scott: I think you said something like that.
+
+47
+00:03:49.680 --> 00:03:53.459
+Neal Sáles-Griffin: 100%. So it's all about a few things. One is.
+
+48
+00:03:53.630 --> 00:03:55.199
+Neal Sáles-Griffin: One thing was just like
+
+49
+00:03:55.420 --> 00:03:57.470
+Neal Sáles-Griffin: traditional demo day formats are boring.
+
+50
+00:03:58.330 --> 00:04:01.589
+Neal Sáles-Griffin: They're boring now because everybody's doing it. So how do you
+
+51
+00:04:01.770 --> 00:04:08.409
+Neal Sáles-Griffin: like switch to? You know the the style in a way that keeps everything engaging right and interesting.
+
+52
+00:04:08.520 --> 00:04:09.515
+Neal Sáles-Griffin: So
+
+53
+00:04:10.970 --> 00:04:13.940
+Neal Sáles-Griffin: this largely highlights
+
+54
+00:04:13.950 --> 00:04:15.339
+Neal Sáles-Griffin: the importance
+
+55
+00:04:15.390 --> 00:04:16.860
+Neal Sáles-Griffin: of the CEO
+
+56
+00:04:17.920 --> 00:04:25.689
+Neal Sáles-Griffin: of an early stage business, particularly for either investors or for closing those early stage customers, especially on the b 2 b side when it comes to
+
+57
+00:04:28.050 --> 00:04:33.900
+Neal Sáles-Griffin: sub like making your yourself presenting yourself as a substantial business owner and operator.
+
+58
+00:04:33.960 --> 00:04:36.120
+Neal Sáles-Griffin: So with that being said.
+
+59
+00:04:36.900 --> 00:04:37.830
+Neal Sáles-Griffin: I think
+
+60
+00:04:38.920 --> 00:04:46.989
+Neal Sáles-Griffin: the biggest like unexpected value add, is how much time it has saved founders from those initial meetings.
+
+61
+00:04:47.860 --> 00:04:53.509
+Neal Sáles-Griffin: So I think we gave this feedback to Morgan at 1 point during this, but the whole idea was.
+
+62
+00:04:54.280 --> 00:04:58.269
+Neal Sáles-Griffin: you don't have to cater this Q. And a to the entire room.
+
+63
+00:04:58.930 --> 00:05:05.450
+Neal Sáles-Griffin: This QA should be directed towards the people that you want to speak to or have these types of conversations with.
+
+64
+00:05:05.660 --> 00:05:08.939
+Neal Sáles-Griffin: And what's nice is that? Because sometimes you're talking
+
+65
+00:05:09.070 --> 00:05:20.590
+Neal Sáles-Griffin: with certain jargon, or at a different level of substance or awareness than what everyone has in the room. It makes some people curious about what you do, because you seem exceptionally knowledgeable.
+
+66
+00:05:21.115 --> 00:05:32.900
+Neal Sáles-Griffin: Whereas most people in the room are only gonna pick up part of what you're talking about. And that's okay. So I just want you all to know, like sometimes I've had founders go. Oh, well, not everyone's gonna understand what I'm saying. I'm like. That's not the point.
+
+67
+00:05:33.250 --> 00:05:43.200
+Neal Sáles-Griffin: The point is for you to speak to the people who do understand what you're saying. Now, I will caution that with you don't want to get so technical that not even the person you're talking to knows what you're talking about.
+
+68
+00:05:43.280 --> 00:05:47.959
+Neal Sáles-Griffin: So you have to be reasonable about that. But I do like you demonstrating your expertise and your knowledge.
+
+69
+00:05:48.950 --> 00:05:49.770
+Neal Sáles-Griffin: Cool.
+
+70
+00:05:50.010 --> 00:05:52.779
+Neal Sáles-Griffin: All right. Go ahead, Leanne. You want to add something.
+
+71
+00:05:52.780 --> 00:06:22.259
+Lilliana Robinson: Yeah, a couple of things to add here. So like, Neil said. If you have 4 min to get rid of all of the hesitations that the audience might have. It's usually 4 to 6 questions. So a lot of people ask, like, how many questions should I have? Each of you has your own speaking style. Some of you speak faster than others. I recommend all of you try to speak slowly. Some of you are also more concise than others. I also recommend more questions and shorter answers.
+
+72
+00:06:22.430 --> 00:06:25.340
+Lilliana Robinson: then less questions and longer answers.
+
+73
+00:06:25.694 --> 00:06:48.669
+Lilliana Robinson: Because you will lose people's attention if you're just droning on and on for an answer. If you have a longer answer, just have the Eir ask you a follow up question and break it in half. It's so much more engaging, because really the entire point of the Q&A is audience, engagement and attention, and getting them to really listen to your to the things you're saying, and to not have them zone out.
+
+74
+00:06:49.140 --> 00:06:50.895
+Lilliana Robinson: Others. Other things
+
+75
+00:06:52.310 --> 00:07:14.380
+Lilliana Robinson: like, I said in the pre work for this, consider the top 3 points you want them to take away from this. QA. Sec. Section. Troy will say this, but in each of the segments they're only gonna remember 3 things. And honestly, they might even just remember 3 things from the whole 6 min like from all 3 parts. So just know that and prioritize what you would want them to remember if they only remember 3 things from the whole time you're on stage.
+
+76
+00:07:14.878 --> 00:07:19.850
+Lilliana Robinson: And the last thing a common question I get is like, How do the Eirs work with us on this
+
+77
+00:07:20.720 --> 00:07:22.360
+Lilliana Robinson: for this one?
+
+78
+00:07:22.630 --> 00:07:24.370
+Lilliana Robinson: You guys are working
+
+79
+00:07:24.380 --> 00:07:26.560
+Lilliana Robinson: with each other and with us
+
+80
+00:07:26.640 --> 00:07:44.850
+Lilliana Robinson: all the way until the like the week before Demo Day. So you won't have your eir assignment for this until probably like week 12, and you'll have 2 to 3 practice sessions with your eir once they choose you, but they're not here working with you from like right now, week 9
+
+81
+00:07:45.310 --> 00:08:06.540
+Lilliana Robinson: onward. They're coming in at the later stages where you should have it pretty finalized. They might tweak a couple of questions, tweak a couple of answers, but it's pretty much the the concrete version is there? So that's how I want you guys to think of this is that you're gonna have pretty much all of it done before you even get the ir. Who's asking you the question.
+
+82
+00:08:07.830 --> 00:08:09.820
+Neal Sáles-Griffin: More time than I expected.
+
+83
+00:08:09.980 --> 00:08:17.900
+Neal Sáles-Griffin: coaching founders in their QA. On succinctly answering a question, and then having the Eir follow up for more detail.
+
+84
+00:08:18.900 --> 00:08:25.139
+Neal Sáles-Griffin: So just want to coach you all. Your. Your habit is going to be asked this important question, and then have this really elaborate answer.
+
+85
+00:08:25.210 --> 00:08:30.690
+Neal Sáles-Griffin: That's not how you should approach any of your investor conversations, nor should it be how you approach it for our Q. And a
+
+86
+00:08:30.820 --> 00:08:35.209
+Neal Sáles-Griffin: answer the question very tight, very succinctly, very clearly.
+
+87
+00:08:35.520 --> 00:08:41.809
+Neal Sáles-Griffin: allow them to draw out more information in detail from you, so it feels more conversational and less rehearsed.
+
+88
+00:08:42.690 --> 00:08:52.009
+Lilliana Robinson: Yeah, some like tactical things on that of what Neil saying a lot of people every time that the Eir ask them a question. They say good question, and then they give their answer.
+
+89
+00:08:52.010 --> 00:08:52.819
+Neal Sáles-Griffin: And I hate that.
+
+90
+00:08:52.820 --> 00:09:15.329
+Lilliana Robinson: You. Wanna you even want to practice those things, because when you're when you neglect that on stage like you get nervous, and you just kind of have ticks. So you even want to practice like the the response to like receiving the question. You want it to be written in your own language like, don't write it like you would write up a report if you're like applying to something where the paragraph would be like way more formal than you would actually say.
+
+91
+00:09:15.330 --> 00:09:25.229
+Lilliana Robinson: because the whole idea here is that you're actually speaking to the Eir, even though it's scripted, it should feel like a conversation. So the way you write it shouldn't be overly formal language
+
+92
+00:09:25.230 --> 00:09:30.999
+Lilliana Robinson: that's just going to make it harder to memorize, and it's going to make it feel really stiff and kind of unbelievable.
+
+93
+00:09:31.280 --> 00:09:41.339
+Lilliana Robinson: So practice saying it, and if it doesn't sound like you change the words, I will also say that memorizing the responses takes longer than expected.
+
+94
+00:09:41.370 --> 00:09:50.959
+Lilliana Robinson: Traditionally, the founders will like really think the pitch takes a long time to memorize. Like you all seem very aware that you need a lot of time to memorize the pitch, but then
+
+95
+00:09:51.100 --> 00:10:09.869
+Lilliana Robinson: a lot of founders will neglect memorizing their answers until like the week before, and it's a lot harder than they think, because it is a lot to remember. But the sooner you can get them locked in the sooner you can start practicing the more natural it'll seem if you're not just like trying to recall the word. It should come out naturally, because you've practiced it so much.
+
+96
+00:10:11.970 --> 00:10:15.000
+Lilliana Robinson: Yeah, those were like the main pitfalls I've seen.
+
+97
+00:10:15.090 --> 00:10:19.400
+Lilliana Robinson: Is there anything else that usually ha happens like to most founders? Now.
+
+98
+00:10:19.590 --> 00:10:22.010
+Neal Sáles-Griffin: I'm checking the chat real quick. See if I miss anything.
+
+99
+00:10:24.420 --> 00:10:25.320
+Neal Sáles-Griffin: Nope.
+
+100
+00:10:25.480 --> 00:10:30.530
+Neal Sáles-Griffin: I'm not seeing anything here. Cool something. Something's cute.
+
+101
+00:10:34.170 --> 00:10:36.390
+Neal Sáles-Griffin: so let's see
+
+102
+00:10:36.550 --> 00:10:41.169
+Neal Sáles-Griffin: one trick for making your speech sound more casual, user or conversational in an AI chat. Prompt.
+
+103
+00:10:41.830 --> 00:10:42.170
+Fabio Caironi: Yeah.
+
+104
+00:10:42.170 --> 00:10:42.490
+Neal Sáles-Griffin: Oh!
+
+105
+00:10:42.490 --> 00:10:43.629
+Lilliana Robinson: Interesting. Okay.
+
+106
+00:10:43.630 --> 00:10:45.090
+Neal Sáles-Griffin: Steady. You're writing, I guess.
+
+107
+00:10:45.710 --> 00:10:46.960
+Fabio Caironi: Yeah, I was gonna say.
+
+108
+00:10:47.190 --> 00:10:47.829
+Fabio Caironi: because I'm.
+
+109
+00:10:47.830 --> 00:10:53.629
+Neal Sáles-Griffin: So to be clear, Fabio, just like my tip on writing. And I learned this. Actually, this is another Jason freed Tip
+
+110
+00:10:53.820 --> 00:10:54.960
+Neal Sáles-Griffin: is.
+
+111
+00:10:55.280 --> 00:10:57.900
+Neal Sáles-Griffin: I don't write, I will speak.
+
+112
+00:10:58.320 --> 00:11:00.259
+Neal Sáles-Griffin: I will talk out my answer.
+
+113
+00:11:00.450 --> 00:11:11.230
+Neal Sáles-Griffin: because that is actually more conversational than the written version of it. So if you're pre, if you're writing down what you think your answer is before you're saying it out loud to someone. It's gonna come out differently.
+
+114
+00:11:11.720 --> 00:11:19.229
+Neal Sáles-Griffin: So I advise you all to like, try to track what you would say as opposed to what you would write, because we tend to write slightly differently than how we speak.
+
+115
+00:11:20.290 --> 00:11:21.920
+Lilliana Robinson: Do you like record it now, or are you.
+
+116
+00:11:21.920 --> 00:11:22.600
+Neal Sáles-Griffin: Yeah.
+
+117
+00:11:22.600 --> 00:11:24.749
+Lilliana Robinson: Description at in real time.
+
+118
+00:11:24.750 --> 00:11:37.000
+Neal Sáles-Griffin: Yeah, I'm recording it. But I'm having conversations with people. I I discovered a a feature that may have been with Boxer for a long time, but I just discovered it a few weeks ago, and I've had a lot of fun with it, which is voice memos to yourself.
+
+119
+00:11:37.760 --> 00:11:43.579
+Neal Sáles-Griffin: So you can actually just send a voxer to yourself in your own private thread. I've I've been using that so much
+
+120
+00:11:43.854 --> 00:11:53.859
+Neal Sáles-Griffin: cause. I have all these ideas and thoughts, and I like to just drop them somewhere if I'm on the move, or if I'm walking or thinking, or something like that. So I I recommend you all to like.
+
+121
+00:11:54.050 --> 00:11:57.829
+Neal Sáles-Griffin: Talk out your lines if you can, with each other or with other people.
+
+122
+00:11:59.050 --> 00:12:02.840
+Lilliana Robinson: Well, I think I think this is a good place to just pause for general questions about.
+
+123
+00:12:02.840 --> 00:12:03.500
+Neal Sáles-Griffin: Sure.
+
+124
+00:12:03.500 --> 00:12:04.360
+Lilliana Robinson: Format
+
+125
+00:12:04.890 --> 00:12:07.630
+Lilliana Robinson: because we're gonna go into some examples and things.
+
+126
+00:12:09.042 --> 00:12:11.859
+Annie Brown: What is the what is the process of
+
+127
+00:12:13.067 --> 00:12:16.619
+Annie Brown: selecting the eir having the Eir select? You.
+
+128
+00:12:17.450 --> 00:12:23.510
+Lilliana Robinson: There. You guys don't do anything. They just have a safe private meeting with them, and they'll select you guys.
+
+129
+00:12:23.680 --> 00:12:24.720
+Annie Brown: Okay. Cool.
+
+130
+00:12:25.230 --> 00:12:25.910
+Lilliana Robinson: Yep.
+
+131
+00:12:26.190 --> 00:12:44.179
+Lilliana Robinson: but it'll probably be like the week before. So remember that you're doing all of this. And you're really working on this with our team and with each other, so each other. Are your most valuable assets, so like pairing up with somebody, asking each other the questions, tweaking them like really working together in teams. It will help a lot.
+
+132
+00:12:46.330 --> 00:12:47.220
+Annie Brown: Okay. Great.
+
+133
+00:12:48.990 --> 00:12:50.299
+Lilliana Robinson: Any other questions.
+
+134
+00:12:52.060 --> 00:12:55.049
+Nirat Attri: And I guess one thing which I
+
+135
+00:12:55.130 --> 00:13:04.310
+Nirat Attri: I was trying to figure out on my side is like as we refine the pitch. I feel like some questions go into the Q&A. And like, when some questions within the Q&A. Can be included in the pitch.
+
+136
+00:13:05.930 --> 00:13:09.600
+Nirat Attri: I'm just thinking what's the right time to like? Lock it
+
+137
+00:13:09.970 --> 00:13:15.909
+Nirat Attri: down? I mean, is it? Is it a good idea, by the way, like just to move certain elements of the pitch away and like, just take them up in the Q&A.
+
+138
+00:13:15.910 --> 00:13:31.840
+Lilliana Robinson: Yeah, it's an art, I would say a lot of your pitches were way too long when we did it with Troy last week. A lot of that stuff is gonna get moved to your QA, so that's correct. That's that's the right way to think about it. Like, basically, you shouldn't be like. These are the things I want to hit.
+
+139
+00:13:31.840 --> 00:13:52.790
+Lilliana Robinson: These are my 3 buckets of where I can put it. Where do I want to allocate each of those things. That's how I would think about it that way. All of your priorities are in there, and then you want to weave it like a story so like what's best to start with, what does someone need to know what's best to end with, or what's best, to go more into depth with with my Eir versus saying it
+
+140
+00:13:52.890 --> 00:14:07.410
+Lilliana Robinson: in my pitch? Or what do I need to say in my pitch for them to understand my video, or to grab their attention right. There are different objectives for each section. And when you said, when you said like, When do you need to lock it down? Was that your question.
+
+141
+00:14:07.410 --> 00:14:14.320
+Nirat Attri: Yeah, I mean, what would be the prescribed situation? Because, like, you mentioned that the Q. And a. Should be ready like slightly before the last week. So that gives us.
+
+142
+00:14:14.320 --> 00:14:18.029
+Lilliana Robinson: Everything needs to be ready before the last week. You guys are gonna have a hard
+
+143
+00:14:18.060 --> 00:14:37.130
+Lilliana Robinson: approval slot like a hard deadline, and if it's not approved during that. It's not going in the demo day, like we'll we'll send you out there without a video if it's not approved the week before. So you guys should be planning to have this stuff done very, very early, like, I'm talking week, 11 week 12.
+
+144
+00:14:37.320 --> 00:14:48.189
+Lilliana Robinson: We do not wait till the last minute because it is a disaster. When that happens we used to be way more lenient, and people were borderline going up with nothing like because they had.
+
+145
+00:14:48.190 --> 00:14:49.510
+Neal Sáles-Griffin: Or they wouldn't go up.
+
+146
+00:14:49.870 --> 00:14:51.520
+Lilliana Robinson: Oh, yeah, that's happened, too.
+
+147
+00:14:51.520 --> 00:14:52.190
+Neal Sáles-Griffin: Yep.
+
+148
+00:14:53.400 --> 00:14:54.999
+Neal Sáles-Griffin: So we don't do that anymore.
+
+149
+00:14:55.000 --> 00:14:55.670
+Lilliana Robinson: Yeah.
+
+150
+00:14:55.880 --> 00:15:03.030
+Lilliana Robinson: because it's not good for you guys for us to be lenient. It's much better to have like really strict deadlines. And to make sure you guys are completely prepared.
+
+151
+00:15:03.660 --> 00:15:17.080
+Lilliana Robinson: And then the last week is just preparing. So like it's all locked in, it's all already sent. You're just practicing those final things, the intonation, the body language getting comfortable, not forgetting, you know, all of that which is really important.
+
+152
+00:15:17.290 --> 00:15:21.290
+Neal Sáles-Griffin: And to bring this all home. The why, again, behind this Q. And a format is
+
+153
+00:15:21.400 --> 00:15:27.629
+Neal Sáles-Griffin: the true way that progress is made, especially from an investor standpoint, and with sales and closing deals.
+
+154
+00:15:28.040 --> 00:15:29.619
+Neal Sáles-Griffin: is a conversation
+
+155
+00:15:29.650 --> 00:15:31.020
+Neal Sáles-Griffin: with another person.
+
+156
+00:15:31.220 --> 00:15:41.469
+Neal Sáles-Griffin: So each of you, demonstrating your ability to have a very effective and confidence, instilling conversation with someone of stature. Any one of your eirs
+
+157
+00:15:41.560 --> 00:15:51.789
+Neal Sáles-Griffin: is such a huge opportunity for you to demonstrate why you are founding this business. Why, you're a great CEO, and why people would be excited to want to get coffee with you or talk to you afterwards.
+
+158
+00:15:51.930 --> 00:15:53.430
+Neal Sáles-Griffin: That's what this is all for.
+
+159
+00:15:54.030 --> 00:16:03.910
+Neal Sáles-Griffin: So each of you all are interesting people in your own right, and our job is to put you in the best possible position to be impressive to a lot of other folks that not only will be in that room.
+
+160
+00:16:04.050 --> 00:16:08.070
+Neal Sáles-Griffin: but that you'll use as a resource, as you share this video with them afterwards.
+
+161
+00:16:08.170 --> 00:16:23.270
+Neal Sáles-Griffin: I honestly think it's a equal, if not greater value, to have the high quality produced video afterwards, to share to people who didn't see it. I think that is like it's such a great 6 min like quick bite to get to know you better and understand why they would be excited to talk to you.
+
+162
+00:16:24.380 --> 00:16:30.639
+Neal Sáles-Griffin: Cool? Very good. So can I move on to my other question, lilliana, or is there.
+
+163
+00:16:31.085 --> 00:16:31.530
+Lilliana Robinson: Yeah.
+
+164
+00:16:31.530 --> 00:16:37.570
+Neal Sáles-Griffin: Yeah, so alright. I know I like pretty much like almost broke the ground when I was with Jake.
+
+165
+00:16:37.890 --> 00:16:42.629
+Neal Sáles-Griffin: like kind of getting finger wavy at you all about this question. Bank. Who has it?
+
+166
+00:16:43.450 --> 00:16:58.519
+Neal Sáles-Griffin: Who's got it? Now, Monica, I'm looking at you. You don't got the question back yet, do you. It's alright. I'm not in the room with you, so I can't like, you know. Extend all of my malicious aura. But I I definitely want you all to like. Take this seriously, because
+
+167
+00:16:58.980 --> 00:17:03.560
+Neal Sáles-Griffin: if you had this right now, you'd already have 50% of your progress for your Q&A done.
+
+168
+00:17:05.099 --> 00:17:07.430
+Neal Sáles-Griffin: So yeah, go ahead. Sorry.
+
+169
+00:17:07.599 --> 00:17:10.289
+Lilliana Robinson: When we were in the Demo day prep. With Troy. Neil.
+
+170
+00:17:10.449 --> 00:17:14.009
+Lilliana Robinson: I think you were traveling at that time, but I was telling them all.
+
+171
+00:17:14.049 --> 00:17:19.959
+Lilliana Robinson: they would give a pitch, and Troy would start by asking them a question about their business, meaning that it wasn't covered in.
+
+172
+00:17:19.960 --> 00:17:20.800
+Neal Sáles-Griffin: That down.
+
+173
+00:17:20.800 --> 00:17:35.980
+Lilliana Robinson: And I kept saying, Write it down. So if you didn't, it was recorded. So go back and see what his 1st question was. It's like, I mean, you guys should have questions from like mentor madness and everything else. But if you didn't, that's a great starting place for those who didn't raise their hands.
+
+174
+00:17:36.590 --> 00:17:59.219
+Neal Sáles-Griffin: Now, and it's not true for everyone. But I gotta say, like the people that I have become in league with over the years, maybe the past 1015 years, Eric Severing house merit, Isari like a lot of the friends that pulled in, that you all have met who's spoken at techstars. Something strange has happened, whereas I've interacted with them and hung out casually, it comes up that they all did the same type of stuff when they were getting started.
+
+175
+00:17:59.230 --> 00:18:07.719
+Neal Sáles-Griffin: and one of the things that was the most consistent was, everyone had a way of tracking what questions they were being asked, and had a habit of obsessively tracking what those questions were.
+
+176
+00:18:08.060 --> 00:18:15.849
+Neal Sáles-Griffin: So I'm I'm merely sharing that as something that I think not only is a resource for this Demo day format. But it's also just a general
+
+177
+00:18:16.230 --> 00:18:25.740
+Neal Sáles-Griffin: intuition and habit that you should be instilled, that you should have instilled in yourself as an entrepreneur right now, which is every question you get asked is worth documenting
+
+178
+00:18:25.810 --> 00:18:38.789
+Neal Sáles-Griffin: to better understand what people want to know and how you're communicating about your business. So that's my final plug for that. But I really really hope that each of you, as of this moment, decide to to start doing it.
+
+179
+00:18:40.170 --> 00:18:42.810
+Neal Sáles-Griffin: cool. Any questions about the Question bank.
+
+180
+00:18:46.197 --> 00:18:54.679
+Dominique Harrison-Bentzen: Neil, would you recommend putting these into the data room as well? Like, just in terms of having a or how do you.
+
+181
+00:18:55.240 --> 00:19:06.249
+Neal Sáles-Griffin: I think part of it. Your best hits can become the QA. Like an FAQ. Doc. In the data room is good. I think it's slightly different than what I'm describing as a question bank, because this would be robust
+
+182
+00:19:06.310 --> 00:19:12.019
+Neal Sáles-Griffin: meaning every question you're asked which isn't necessarily important for an investor to see or to know.
+
+183
+00:19:12.567 --> 00:19:14.930
+Neal Sáles-Griffin: I think it's more curated for them.
+
+184
+00:19:15.590 --> 00:19:16.390
+Dominique Harrison-Bentzen: Thank you.
+
+185
+00:19:16.580 --> 00:19:17.390
+Dominique Harrison-Bentzen: Yeah.
+
+186
+00:19:17.390 --> 00:19:18.440
+Neal Sáles-Griffin: That's a good question.
+
+187
+00:19:21.100 --> 00:19:28.789
+Neal Sáles-Griffin: But you all remember the Clay Christensen quote that Bob cited multiple times when he met with you all a couple of weeks ago. Questions create spaces in the brain for answers to fall into.
+
+188
+00:19:29.210 --> 00:19:32.560
+Neal Sáles-Griffin: It's all about questions and answers. This whole business.
+
+189
+00:19:32.810 --> 00:19:35.760
+Neal Sáles-Griffin: The sales side and the venture capital side.
+
+190
+00:19:35.880 --> 00:19:45.559
+Neal Sáles-Griffin: And eventually, as you scale your own internal organization, the questions you ask your employees, the questions you ask, your management team, the questions you ask everyone. It's all gonna be super important.
+
+191
+00:19:46.040 --> 00:19:46.770
+Neal Sáles-Griffin: So
+
+192
+00:19:47.060 --> 00:19:52.640
+Neal Sáles-Griffin: cool. Okay, examples. After I have them do my little exercise. lilliana.
+
+193
+00:19:52.640 --> 00:19:53.890
+Lilliana Robinson: I think before.
+
+194
+00:19:54.660 --> 00:19:56.740
+Neal Sáles-Griffin: So we'll do the examples before I do. My next part.
+
+195
+00:19:57.035 --> 00:19:58.809
+Lilliana Robinson: The breakouts before the breakouts. Yeah.
+
+196
+00:19:58.810 --> 00:20:00.612
+Neal Sáles-Griffin: Oh, well, well, I'm gonna have them.
+
+197
+00:20:01.600 --> 00:20:03.669
+Neal Sáles-Griffin: I have them thinking about a few things.
+
+198
+00:20:03.670 --> 00:20:06.030
+Lilliana Robinson: Oh, okay, let's do the thought exercise first.st
+
+199
+00:20:06.030 --> 00:20:14.309
+Neal Sáles-Griffin: Alright. So I have 3 3 prompts for you all. It's not gonna take long. But I want you all to think about and write down a few things I'm gonna give you about a minute or 2 for each one.
+
+200
+00:20:15.400 --> 00:20:17.119
+Neal Sáles-Griffin: So question number one.
+
+201
+00:20:17.490 --> 00:20:19.690
+Neal Sáles-Griffin: I want you to think about and write down
+
+202
+00:20:20.290 --> 00:20:30.070
+Neal Sáles-Griffin: what questions for this Demo day? Would you be most excited to answer that? You think you would just knock out the park, you think would be a phenomenal, really fun thing for you to respond to.
+
+203
+00:20:30.610 --> 00:20:31.850
+Neal Sáles-Griffin: You can take a minute
+
+204
+00:21:38.510 --> 00:21:39.810
+Neal Sáles-Griffin: all right.
+
+205
+00:21:43.210 --> 00:21:46.369
+Neal Sáles-Griffin: Did anyone think of one? They're willing to share real, quick.
+
+206
+00:21:46.590 --> 00:21:47.790
+Neal Sáles-Griffin: Just one example.
+
+207
+00:21:52.550 --> 00:21:55.840
+Dominique Harrison-Bentzen: Happy to share. I think
+
+208
+00:21:56.220 --> 00:22:03.149
+Dominique Harrison-Bentzen: I'm most excited about answering what? How we know that banks or wealth managers will pay for content.
+
+209
+00:22:05.760 --> 00:22:08.110
+Neal Sáles-Griffin: You're excited because you know them so well.
+
+210
+00:22:08.110 --> 00:22:08.635
+Dominique Harrison-Bentzen: Yeah.
+
+211
+00:22:09.360 --> 00:22:20.380
+Neal Sáles-Griffin: Right? So it's like, this is a a conduct like, I have a connection to this group. We're from this place we can speak and have like deep connections already. There's a lot of authenticity that can come with a response to that.
+
+212
+00:22:20.380 --> 00:22:24.319
+Dominique Harrison-Bentzen: Yeah, and a lot of data points as well. So I think this one would be.
+
+213
+00:22:24.847 --> 00:22:29.850
+Dominique Harrison-Bentzen: yeah, we could lead with data which I think is is the most convincing.
+
+214
+00:22:30.080 --> 00:22:30.960
+Dominique Harrison-Bentzen: But
+
+215
+00:22:31.150 --> 00:22:35.209
+Dominique Harrison-Bentzen: yeah, that's what we're thinking.
+
+216
+00:22:35.210 --> 00:22:52.939
+Neal Sáles-Griffin: Play to your strengths like, identify something that's really gonna set you up to to look really impressive and successful. And I I love that. And I mean honestly, a majority of of these questions can do that. But there's also a few other things that I've obviously hinted at that I want you all to focus on. So here's my second of my 3 prompts for you.
+
+217
+00:22:55.100 --> 00:22:59.849
+Neal Sáles-Griffin: What question are you most unsure how to answer? But it's important for you to get asked
+
+218
+00:23:00.250 --> 00:23:08.429
+Neal Sáles-Griffin: like you're like. I don't know how to answer this, but I know I need to answer this because I've been asked this question a lot, or I know it's going to be a question that they're gonna have for me eventually or soon.
+
+219
+00:23:08.690 --> 00:23:11.470
+Neal Sáles-Griffin: And if I answer it during this session. It's gonna help
+
+220
+00:23:11.510 --> 00:23:12.760
+Neal Sáles-Griffin: and save me time.
+
+221
+00:23:14.460 --> 00:23:15.720
+Neal Sáles-Griffin: maybe another minute
+
+222
+00:24:11.990 --> 00:24:15.099
+Neal Sáles-Griffin: I give you like 10 more seconds, 15 more seconds.
+
+223
+00:24:37.060 --> 00:24:38.580
+Neal Sáles-Griffin: Alright! Let's do it.
+
+224
+00:24:38.690 --> 00:24:40.340
+Neal Sáles-Griffin: Who's got one they want to share.
+
+225
+00:24:42.320 --> 00:24:43.249
+Monica Roy (Seascape Clinical): I have one.
+
+226
+00:24:43.250 --> 00:24:44.180
+George Reed - Noetic: On, the.
+
+227
+00:24:44.930 --> 00:24:45.870
+Neal Sáles-Griffin: Yes, you're both.
+
+228
+00:24:45.870 --> 00:24:58.910
+Monica Roy (Seascape Clinical): Okay, Tam, like, I'm getting all kinds of conflicting advice like you should show top down and bottom up, or you should speak to top down and bottom up. Different ways to calculate each
+
+229
+00:24:58.940 --> 00:25:11.149
+Monica Roy (Seascape Clinical): bottom up always seems really limited to me. Do you just calculate, based on the segment you're targeting now or in the future. What if you add modules to your product? The price is gonna change. So I'm like totally confused.
+
+230
+00:25:11.413 --> 00:25:26.440
+Neal Sáles-Griffin: Interesting. Okay, there's a few ways that we can work with you on that for your QA. Style, Monica. But one idea I have immediately, as I hear you and and I could be wrong, so we'll we'll play with it to see if it makes sense. But one idea is to start with the vision.
+
+231
+00:25:27.340 --> 00:25:35.449
+Neal Sáles-Griffin: So you paint the picture for what life looks like. 5 to 10 years from now, when your business is exactly at the point that you would like eyes and investor would be excited to hear about.
+
+232
+00:25:35.460 --> 00:25:38.149
+Neal Sáles-Griffin: And you go. But let me walk you through how we would even get there.
+
+233
+00:25:38.440 --> 00:25:39.989
+Neal Sáles-Griffin: Right? So here's what we'll be
+
+234
+00:25:40.300 --> 00:25:43.149
+Neal Sáles-Griffin: 10 years from now. This is what seascape clinical is gonna look like.
+
+235
+00:25:43.430 --> 00:25:54.559
+Neal Sáles-Griffin: But over the next 5 to 10 years here are all the different milestones and important evolutions that would be required for that. And there's a few variations as well, so we could end up at this vision still, but there's a few paths to get there.
+
+236
+00:25:55.700 --> 00:25:56.410
+Monica Roy (Seascape Clinical): Okay. Here's the.
+
+237
+00:25:56.410 --> 00:25:58.719
+Neal Sáles-Griffin: One. I'm most excited about, right? Yeah.
+
+238
+00:25:59.790 --> 00:26:04.030
+Lilliana Robinson: Monica. We're gonna have market data very soon
+
+239
+00:26:04.370 --> 00:26:32.520
+Lilliana Robinson: for the data room. And it's gonna have you guys do bottom up. But it's gonna have you guys think about Tam, Sam? And some? I'm not sure if you're familiar with this. But basically like your question, where you're like, is it everything. Is it just what I can do? That's kind of the difference between your serviceable, addressable market and your serviceable, obtainable market, that link I put in the chat kind of explains it. But we'll get into that with the data room in like a week. So that's a really good question.
+
+240
+00:26:35.950 --> 00:26:40.640
+Neal Sáles-Griffin: And I and I actually agree with I don't know if anybody ever saw this but I
+
+241
+00:26:41.240 --> 00:26:49.510
+Neal Sáles-Griffin: I like a lot of the content that the Y combinator people put out. So I tend to try to be a student of it myself, to make sure I'm well versed in what other people are saying
+
+242
+00:26:49.530 --> 00:26:57.950
+Neal Sáles-Griffin: and what they teach. And one thing that I really appreciated from their camp, that I think Sam Altman Altman led the the thought leadership on for a while was
+
+243
+00:26:59.130 --> 00:27:11.620
+Neal Sáles-Griffin: almost counterintuitive around market size, because investors and founders tend to obsess over big enough market, and they tend to disqualify opportunities based on the market potential and opportunity.
+
+244
+00:27:11.650 --> 00:27:13.420
+Neal Sáles-Griffin: But to be honest with you, if
+
+245
+00:27:14.460 --> 00:27:23.480
+Neal Sáles-Griffin: there are so many successful stories of founders who built businesses that had quote small markets that found ways to evolve or expand or open up
+
+246
+00:27:23.620 --> 00:27:37.380
+Neal Sáles-Griffin: of their business or their technology to a much larger market segment over time. Once they had product market fit within that little bitties market segment that, like, it really takes an astute investor to see past what would be limited about the initial market.
+
+247
+00:27:37.540 --> 00:27:51.099
+Neal Sáles-Griffin: So I think, Dave, and evil genius is a really good example for this, because he has to deal with that a lot of the time. But you have to be able to see beyond it. So a a real estate investor would do that, and the ones that you still want that don't see it. You can almost like
+
+248
+00:27:51.390 --> 00:27:57.379
+Neal Sáles-Griffin: inadvertently coach them to understanding how small market opportunities become big market opportunities over time.
+
+249
+00:27:59.280 --> 00:28:05.850
+Neal Sáles-Griffin: But you do have to give them that language because they have to bring that language to their investment committee to advocate on your behalf to get the deal done.
+
+250
+00:28:06.760 --> 00:28:07.330
+Neal Sáles-Griffin: Okay.
+
+251
+00:28:07.330 --> 00:28:13.839
+Lilliana Robinson: That's why analogous markets or analogous companies are so important, like we keep driving that point home like Jake did
+
+252
+00:28:14.130 --> 00:28:20.440
+Lilliana Robinson: find companies who did the similar path that you're trying to do in a different market to help people understand and believe.
+
+253
+00:28:21.670 --> 00:28:22.330
+Lilliana Robinson: Annie.
+
+254
+00:28:22.700 --> 00:28:31.419
+Annie Brown: Yeah, I guess that was that was sort of my question is like I I liked Jake's approach. But I I've been working on that a bit, and I've been struggling a little bit about
+
+255
+00:28:31.650 --> 00:28:37.369
+Annie Brown: how exactly to do that. So so the way that Jake did it was that
+
+256
+00:28:37.590 --> 00:28:45.520
+Annie Brown: he found apps in different markets that were doing like the training. So are you kind of looking for
+
+257
+00:28:46.140 --> 00:28:48.359
+Annie Brown: things in different markets that are
+
+258
+00:28:48.480 --> 00:28:51.040
+Annie Brown: doing something similar to yours, or or.
+
+259
+00:28:51.520 --> 00:28:53.330
+Neal Sáles-Griffin: You need parallel success stories.
+
+260
+00:28:53.710 --> 00:28:54.050
+Annie Brown: Parallel.
+
+261
+00:28:54.050 --> 00:28:59.720
+Neal Sáles-Griffin: You need. Yeah, you need, you need examples of folks that have done something like what you want to do with reliable.
+
+262
+00:29:00.720 --> 00:29:10.349
+Neal Sáles-Griffin: And you need to be able to tell and refer to those stories and examples to go. I have studied the playbooks of these stories. I'm developing my own, my own path, with how I'm doing this in my industry.
+
+263
+00:29:10.380 --> 00:29:16.590
+Neal Sáles-Griffin: But I have paid close attention to how it's been done elsewhere, because I'm motivated to get that to that outcome, both for me and for you.
+
+264
+00:29:17.540 --> 00:29:18.940
+Annie Brown: Okay, that's helpful.
+
+265
+00:29:18.940 --> 00:29:26.619
+Neal Sáles-Griffin: The whole energy here for those of you. All that want to fundraise is, Hey, investor, you and I want this exact same thing. We're on the same page.
+
+266
+00:29:26.700 --> 00:29:30.140
+Neal Sáles-Griffin: I have the strategy to get to what you want, because it's what I want.
+
+267
+00:29:30.510 --> 00:29:38.369
+Neal Sáles-Griffin: If you get on the same page with the investor about those outcomes and how you're gonna get there. It's good stuff. Now, if you're not on the same page, and you're telling them what they want to hear.
+
+268
+00:29:38.620 --> 00:29:41.490
+Neal Sáles-Griffin: but you know in your mind it's kind of not what you want.
+
+269
+00:29:41.660 --> 00:29:55.400
+Neal Sáles-Griffin: Then you and I should have a conversation, because I think we can talk about that, and I could help near it, and I had a good chat on our walk about it. I know I've talked to Andy about it. Some of you, all, you know, have different motivations, and what approach you want to take with your business.
+
+270
+00:29:55.470 --> 00:30:10.150
+Neal Sáles-Griffin: and I'm happy to adapt my advice to any of your those preferences, but just know that you should be getting direct advice from someone like me, or one of your eirs, or something. If you're toggling between catering to what they want to hear versus what you feel like inside is what's right for you or your business.
+
+271
+00:30:11.540 --> 00:30:15.469
+Neal Sáles-Griffin: and I want what's right for you and your business to come out in this Demo day conversation.
+
+272
+00:30:17.610 --> 00:30:19.700
+Neal Sáles-Griffin: Cool, George, you were. Gonna say something.
+
+273
+00:30:19.700 --> 00:30:29.839
+George Reed - Noetic: Oh, yeah, thanks. Yeah. So I was, gonna say, the unsure how to answer would be, how do you know that your target vertical are going to pay on us on a recurring basis for this.
+
+274
+00:30:29.840 --> 00:30:30.220
+Neal Sáles-Griffin: Yeah.
+
+275
+00:30:30.220 --> 00:30:37.700
+George Reed - Noetic: Of market research is project based. So it's like trying to make something differentiated enough to say, you need this all the time. You know.
+
+276
+00:30:37.700 --> 00:30:39.269
+Neal Sáles-Griffin: Yeah, where? Where's the repeatability in your mind?
+
+277
+00:30:39.270 --> 00:30:39.839
+George Reed - Noetic: Yeah, exactly.
+
+278
+00:30:39.840 --> 00:30:42.440
+Neal Sáles-Griffin: Like. It's like a 1 off thing for people to buy.
+
+279
+00:30:42.440 --> 00:30:44.590
+George Reed - Noetic: Don't have any recurring revenue yet. Project.
+
+280
+00:30:44.590 --> 00:30:55.849
+Neal Sáles-Griffin: Great. That's a great one. Okay? Good. And you're unsure how to answer it. So that's interesting, right? Because there, there's there's some things that you'd you'd need data, wise reference. Wise Jtbd. Wise to be able to speak
+
+281
+00:30:56.360 --> 00:30:57.269
+Neal Sáles-Griffin: would help you. There.
+
+282
+00:30:57.680 --> 00:30:58.400
+George Reed - Noetic: So.
+
+283
+00:30:58.400 --> 00:30:59.286
+Neal Sáles-Griffin: Okay, good.
+
+284
+00:30:59.830 --> 00:31:01.279
+Neal Sáles-Griffin: All right. Last prompt.
+
+285
+00:31:01.980 --> 00:31:03.919
+Neal Sáles-Griffin: Anybody want to guess what my last prompt is.
+
+286
+00:31:09.080 --> 00:31:10.450
+George Reed - Noetic: Afraid to answer because you get.
+
+287
+00:31:10.450 --> 00:31:14.369
+Neal Sáles-Griffin: Bam. Look at you. Good job, George. You're figuring me out.
+
+288
+00:31:14.910 --> 00:31:16.219
+Neal Sáles-Griffin: When are you afraid to answer?
+
+289
+00:31:16.240 --> 00:31:18.790
+Neal Sáles-Griffin: What's the what's the scariest question that you get asked.
+
+290
+00:31:20.480 --> 00:31:21.549
+Neal Sáles-Griffin: You got a minute.
+
+291
+00:31:32.450 --> 00:31:37.090
+Fabio Caironi: Wait this. This shouldn't be a question that we want to get asked right.
+
+292
+00:31:37.410 --> 00:31:40.339
+Neal Sáles-Griffin: I wanna know if you're afraid to like a question you're afraid to answer.
+
+293
+00:31:40.340 --> 00:31:45.900
+Lilliana Robinson: I want you to be asked the things you're afraid to answer. That's exactly what should be asked.
+
+294
+00:31:46.300 --> 00:31:46.815
+Fabio Caironi: Okay.
+
+295
+00:31:49.640 --> 00:31:51.479
+Lilliana Robinson: This is your opportunity in a
+
+296
+00:31:51.490 --> 00:31:57.629
+Lilliana Robinson: very safe way to do that. Instead of getting into an investor meeting and being a deer in headlights.
+
+297
+00:32:34.500 --> 00:32:36.260
+Neal Sáles-Griffin: Give me 15 more seconds.
+
+298
+00:32:55.060 --> 00:32:59.190
+Neal Sáles-Griffin: Alrighty! We already got some hands raised. I like this, Dave.
+
+299
+00:33:01.500 --> 00:33:03.980
+Dave Scott: You guys already know what this one is? Can you guys guess?
+
+300
+00:33:06.360 --> 00:33:12.380
+Dave Scott: Yeah, my net. My employee issue the the hip piece.
+
+301
+00:33:15.200 --> 00:33:18.419
+Neal Sáles-Griffin: So. So the question you're afraid to get asked is what exactly Dave.
+
+302
+00:33:19.890 --> 00:33:23.779
+Dave Scott: Oh, gosh! What happened there? What happened with that situation?
+
+303
+00:33:24.097 --> 00:33:29.179
+Dave Scott: What happened with Netflix? What happened, you know? Is any of the stuff that's in that article. True.
+
+304
+00:33:30.340 --> 00:33:31.539
+Dave Scott: that kind of stuff.
+
+305
+00:33:32.210 --> 00:33:38.060
+Neal Sáles-Griffin: Yeah, yeah, I mean, important to to take it. Take it head on right? Like we talked about
+
+306
+00:33:38.380 --> 00:33:42.019
+Neal Sáles-Griffin: right? Is anything in there true? Is anything in there valid?
+
+307
+00:33:42.240 --> 00:33:59.200
+Neal Sáles-Griffin: Sure. Yeah, there's a couple of nuggets of truth, and these are what they are. But there's a lot of things that you know, like there's a way to answer that where you have enthusiasm and excitement about what's next, you focus on the future. You don't do the political thing, and just like very smoothly ignore the fact that the question was asked.
+
+308
+00:33:59.200 --> 00:33:59.770
+Dave Scott: Spin it.
+
+309
+00:33:59.770 --> 00:34:04.839
+Neal Sáles-Griffin: You said you, you take it head on. You don't spin it, but like face it, but then power right through it.
+
+310
+00:34:04.940 --> 00:34:06.850
+Neal Sáles-Griffin: because it's not even what's important anymore.
+
+311
+00:34:07.140 --> 00:34:08.010
+Neal Sáles-Griffin: Right?
+
+312
+00:34:08.300 --> 00:34:10.429
+Neal Sáles-Griffin: So don't give it too much credit
+
+313
+00:34:10.580 --> 00:34:24.839
+Neal Sáles-Griffin: to suck up energy or attention, but at the same time acknowledge that it's there because it it will be seen by anybody who does their proper due diligence to invest. But I believe you can overcome it, and I believe we can help you come up with a really encouraging and thoughtful answer.
+
+314
+00:34:25.820 --> 00:34:26.449
+Dave Scott: Thank you.
+
+315
+00:34:26.790 --> 00:34:27.620
+Neal Sáles-Griffin: Fabio.
+
+316
+00:34:28.958 --> 00:34:32.169
+Fabio Caironi: What traction did you get so far?
+
+317
+00:34:34.060 --> 00:34:36.950
+Fabio Caironi: Very afraid to get asked this question.
+
+318
+00:34:37.010 --> 00:34:38.219
+Fabio Caironi: and
+
+319
+00:34:39.000 --> 00:34:40.429
+Fabio Caironi: I
+
+320
+00:34:41.280 --> 00:34:45.110
+Fabio Caironi: I would lean into not getting that asked, because
+
+321
+00:34:45.290 --> 00:34:49.160
+Fabio Caironi: the answer to that question is none.
+
+322
+00:34:49.199 --> 00:34:52.400
+Fabio Caironi: And the explanation is.
+
+323
+00:34:52.739 --> 00:34:56.310
+Fabio Caironi: you know, cloud infrastructure, infrastructure companies
+
+324
+00:34:56.340 --> 00:35:10.149
+Fabio Caironi: take from like one or 3 years to get a products of the workshops, and it's a very code intensive activity before you can ship even just you know your 1st dollar of revenue.
+
+325
+00:35:10.280 --> 00:35:11.660
+Fabio Caironi: So
+
+326
+00:35:11.970 --> 00:35:17.710
+Fabio Caironi: it sounds like it sounds like giving a bunch of excuses, and I don't wanna answer that.
+
+327
+00:35:19.900 --> 00:35:21.749
+Neal Sáles-Griffin: Well, what's the non excuse?
+
+328
+00:35:21.840 --> 00:35:26.420
+Neal Sáles-Griffin: Filled answer like, what's the version of that? That? Isn't you giving an excuse.
+
+329
+00:35:27.660 --> 00:35:38.360
+Fabio Caironi: Yeah, I guess I should collect some data about similar companies that have such a complex infrastructure and and explain how long it took to them to get to the market and then compare it to
+
+330
+00:35:38.590 --> 00:35:49.790
+Fabio Caironi: to what we are. You know it's a team of of me and a bunch of other collaborators. So compare that and say, Hey, like this is how much it took us to get here and like
+
+331
+00:35:49.800 --> 00:35:53.909
+Fabio Caironi: it was, we got even here, even like faster than expected. But
+
+332
+00:35:54.390 --> 00:35:56.159
+Fabio Caironi: in order to get traction.
+
+333
+00:35:56.450 --> 00:36:02.250
+Fabio Caironi: we need to unlock the next level of our business, which is, you know, security, etc, etc.
+
+334
+00:36:02.440 --> 00:36:07.099
+Neal Sáles-Griffin: Well, I've got a couple of tips for you. One is even how you're answering right now makes it seem like
+
+335
+00:36:07.630 --> 00:36:30.790
+Neal Sáles-Griffin: it's almost like you you. It feels small. It feels like you're giving a very sheepish answer to it like you're you're almost retreating back into what you're saying rather than delivering it with gusto, with confidence, with certainty, like, there's a reason why I've taken this approach and why we don't have traction yet, because it requires a lot of a really important upfront intensive work technically. And also we're doing a ton of work to make sure that we're building for the right customer.
+
+336
+00:36:30.860 --> 00:36:37.690
+Neal Sáles-Griffin: so that when it's ready it's ready for the right people in the right way. And here's how we're lining them up so that we have those ready. Once the technology is done
+
+337
+00:36:38.210 --> 00:36:48.730
+Neal Sáles-Griffin: like just in my delivery just now. I just made all that up off the top of my head. But I hope you realize like. There's a way to grab what you have to say and like. Let people know that you have control of the situation.
+
+338
+00:36:49.740 --> 00:36:51.360
+Neal Sáles-Griffin: So we'll coach you to do that.
+
+339
+00:36:51.360 --> 00:36:53.409
+Fabio Caironi: Yeah, it gives off a lot of confidence definitely
+
+340
+00:36:54.310 --> 00:36:55.430
+Fabio Caironi: pick you up in that.
+
+341
+00:36:55.620 --> 00:36:57.070
+Neal Sáles-Griffin: Yeah, let's do it.
+
+342
+00:36:58.110 --> 00:36:59.610
+Neal Sáles-Griffin: Alright, true.
+
+343
+00:37:00.910 --> 00:37:05.610
+Çoruh | CogniScope: So mine is. Do you have any proof that your way is the right way to solve this problem?
+
+344
+00:37:05.750 --> 00:37:06.800
+Neal Sáles-Griffin: Hmm!
+
+345
+00:37:07.200 --> 00:37:08.140
+Neal Sáles-Griffin: Do you.
+
+346
+00:37:09.680 --> 00:37:12.360
+Çoruh | CogniScope: This is a new way of doing things, and.
+
+347
+00:37:12.670 --> 00:37:15.400
+Neal Sáles-Griffin: Gaming. But it's not a new way of doing things for other industries.
+
+348
+00:37:17.490 --> 00:37:25.249
+Çoruh | CogniScope: kinda like, there are some qualitative research. But this is something different. Like, we take a lot a deeper step.
+
+349
+00:37:25.250 --> 00:37:25.800
+Neal Sáles-Griffin: Hmm.
+
+350
+00:37:25.800 --> 00:37:31.510
+Çoruh | CogniScope: And try to analyze different things that the other people were much concerned about.
+
+351
+00:37:31.870 --> 00:37:32.910
+Çoruh | CogniScope: But
+
+352
+00:37:32.920 --> 00:37:35.500
+Çoruh | CogniScope: yeah, this is new for gaming as well, and.
+
+353
+00:37:35.820 --> 00:37:38.550
+Neal Sáles-Griffin: So wait a second. Let me make sure I'm I'm hearing you right.
+
+354
+00:37:38.990 --> 00:37:44.639
+Neal Sáles-Griffin: You're saying that what you're doing is entirely novel and has never been done anywhere. Is that what you're saying?
+
+355
+00:37:44.640 --> 00:37:45.840
+Çoruh | CogniScope: Not much.
+
+356
+00:37:45.840 --> 00:37:54.880
+Neal Sáles-Griffin: Okay. So that so that that's why I'm pushing back. Because, like, when I hear you say that it's a trap that a lot of founders fall into that is immediately not impressive to an investor.
+
+357
+00:37:55.020 --> 00:38:01.999
+Neal Sáles-Griffin: because when you claim that no one's doing it, the way you've that you're doing it, and no one's ever done it the way you're doing it.
+
+358
+00:38:02.050 --> 00:38:04.050
+Neal Sáles-Griffin: I already know that that's not true, right.
+
+359
+00:38:04.610 --> 00:38:06.640
+Neal Sáles-Griffin: So. So I know that by default
+
+360
+00:38:06.810 --> 00:38:15.790
+Neal Sáles-Griffin: and usually entrepreneurs think that they're the most unique beings on earth with whatever they're building, and we know better, since we see thousands of deals. So with that being said.
+
+361
+00:38:16.230 --> 00:38:20.159
+Neal Sáles-Griffin: it's more impressive if you show that you're a true student of the game.
+
+362
+00:38:20.210 --> 00:38:24.279
+Neal Sáles-Griffin: and what I mean by student of the game is exactly what we demonstrated with Jake.
+
+363
+00:38:25.010 --> 00:38:39.600
+Neal Sáles-Griffin: Right he goes. I know how brilliant did it here. I know how Duolingo did it here. I know how like he, he had, like 5 different examples of companies, that he demonstrated mastery of understanding their trajectory, of how they applied this success model in a different space.
+
+364
+00:38:40.720 --> 00:38:51.849
+Neal Sáles-Griffin: I think you're gonna have to do that with cogniscope. So I'll give you an example. I did lilliana and myself did debriefs with Furona, since she checked in with almost all of you for your financial models.
+
+365
+00:38:53.490 --> 00:39:02.530
+Neal Sáles-Griffin: There were almost no greens. There was a lot of Chartreuse, and there was a lot of yellow. There was a few Reds, and all of you know who you are for the most part, but
+
+366
+00:39:02.620 --> 00:39:08.069
+Neal Sáles-Griffin: the one green. I think maybe there was more than one, but at least one green went to cogniscope.
+
+367
+00:39:08.310 --> 00:39:16.440
+Neal Sáles-Griffin: She was very impressed with your financial modeling meeting, so if anybody needs help with the financial model. Apparently, whatever cogniscope did impress Verona enough to go tell us, and that was great.
+
+368
+00:39:16.901 --> 00:39:20.280
+Neal Sáles-Griffin: But I say all that to say. She says I think they're agreeing to financial model.
+
+369
+00:39:20.520 --> 00:39:30.630
+Neal Sáles-Griffin: but I don't understand their business. I don't understand what they do still, and I'm still confused by it. So it's so interesting that she gave you a green for the financial model, but doesn't understand what cognit scope does.
+
+370
+00:39:31.570 --> 00:39:36.959
+Neal Sáles-Griffin: So I know that there's a gap for you to close for, how you're talking about the business, to make it more palatable
+
+371
+00:39:37.020 --> 00:39:39.560
+Neal Sáles-Griffin: to everybody when you share what it is.
+
+372
+00:39:39.570 --> 00:39:43.099
+Neal Sáles-Griffin: so we'll work with you on that for the Q. And a. And for the overall pitch as well.
+
+373
+00:39:43.530 --> 00:39:53.810
+Lilliana Robinson: I think, Tra, when you said like, when we asked you, okay, well, who is doing this in another place? And you said, no one. I think you just need to expand your like
+
+374
+00:39:54.040 --> 00:40:14.310
+Lilliana Robinson: the the limit to what you would see as an analogy to you like, yeah, no one's doing exactly what you're doing, just like brilliant doesn't do exactly what Jake does on zest. That's actually a completely different learning model. And like, he doesn't do like multiple choice questions or anything like that, but it's close enough that the idea is there, and that you can use it as proof.
+
+375
+00:40:14.310 --> 00:40:16.929
+Dave Scott: I actually know 2 companies that do this.
+
+376
+00:40:16.930 --> 00:40:17.690
+Lilliana Robinson: Oh, there you go!
+
+377
+00:40:17.690 --> 00:40:20.970
+Dave Scott: Identical to what you guys are doing for the marketing space.
+
+378
+00:40:21.390 --> 00:40:25.170
+Lilliana Robinson: For the marketing space well, and are either of them extremely successful, like.
+
+379
+00:40:25.170 --> 00:40:27.439
+Dave Scott: Yeah. Well, yeah. One went. Public.
+
+380
+00:40:28.020 --> 00:40:28.670
+Lilliana Robinson: Great.
+
+381
+00:40:29.070 --> 00:40:31.045
+Dave Scott: And the other one
+
+382
+00:40:32.100 --> 00:40:35.020
+Dave Scott: is is got acquired.
+
+383
+00:40:35.330 --> 00:40:37.320
+Lilliana Robinson: That's great. Can you? DM, them to Chura?
+
+384
+00:40:37.320 --> 00:40:37.900
+Dave Scott: Yeah.
+
+385
+00:40:37.900 --> 00:40:54.390
+Lilliana Robinson: That's great. But all of you, probably, who are thinking like, oh, there isn't like a parallel success story. You just need to widen what you're willing to see as parallel to you, because I know each of you. Your babies are like extremely unique, and no one can be like them. But if you widen it a little bit, it helps you.
+
+386
+00:40:55.680 --> 00:41:02.160
+Lilliana Robinson: Okay. Last one, Karim, did you want to say what you're afraid to answer? We we can have you say it really quick, but we gotta move on.
+
+387
+00:41:02.160 --> 00:41:04.719
+Kirimgeray Kirimli: What sets you apart from your competitors?
+
+388
+00:41:05.134 --> 00:41:13.829
+Kirimgeray Kirimli: We are in a fairly crowded market. I mean, there are a lot of other companies trying to solve the same problem. They haven't solved it.
+
+389
+00:41:14.160 --> 00:41:16.340
+Kirimgeray Kirimli: But there are a lot of companies
+
+390
+00:41:16.500 --> 00:41:19.349
+Kirimgeray Kirimli: with tens of millions of dollars of funding.
+
+391
+00:41:20.130 --> 00:41:22.689
+Kirimgeray Kirimli: attempting to solve what sets us apart.
+
+392
+00:41:23.280 --> 00:41:34.810
+Kirimgeray Kirimli: And oftentimes my answer is, you know, we put AI on it. But that's not really an like. I genuinely think it actually does like make our product a better one. But at the end of the day
+
+393
+00:41:36.838 --> 00:41:38.929
+Kirimgeray Kirimli: that alone is not enough.
+
+394
+00:41:39.580 --> 00:41:47.909
+Lilliana Robinson: That's great. I think most of you should make sure that you answer some sort of differentiation piece. It's really important, because most people will wonder that after seeing your set
+
+395
+00:41:48.320 --> 00:41:49.190
+Lilliana Robinson: okay.
+
+396
+00:41:50.220 --> 00:41:52.249
+Lilliana Robinson: do we want to jump into examples.
+
+397
+00:41:52.250 --> 00:42:02.679
+Neal Sáles-Griffin: Yeah, I think that would be best before we do breakouts. So we're gonna do breakouts for you all to practice with each other. Some of the questions you wrote down, and any others that you have. But before that we wanna do a few live
+
+398
+00:42:02.928 --> 00:42:07.720
+Neal Sáles-Griffin: examples. You've seen a few already, but we picked out a few more that we thought would be good to share.
+
+399
+00:42:08.050 --> 00:42:11.439
+Neal Sáles-Griffin: So we'll have a conversation after you watch these.
+
+400
+00:42:12.060 --> 00:42:15.019
+Lilliana Robinson: Do you want to talk after each one, and just talk about what they did? Well.
+
+401
+00:42:15.020 --> 00:42:21.530
+Neal Sáles-Griffin: Yeah, briefly, yeah, just right. I mean, as you're watching drop in the chat. Your thoughts. I want everyone's full undivided attention.
+
+402
+00:42:21.700 --> 00:42:23.879
+Neal Sáles-Griffin: right? So that we can engage
+
+403
+00:42:24.653 --> 00:42:31.730
+Neal Sáles-Griffin: with each other and you will pick up on certain subtleties and and and nuance, and try your best
+
+404
+00:42:32.210 --> 00:42:33.480
+Neal Sáles-Griffin: to remove
+
+405
+00:42:34.370 --> 00:42:37.999
+Neal Sáles-Griffin: your understanding of of what happens behind the curtain.
+
+406
+00:42:38.440 --> 00:42:44.899
+Neal Sáles-Griffin: like watch as a participant in an audience rather than as the founder who already knows that we've like chiseled these questions and answers.
+
+407
+00:42:46.020 --> 00:43:11.259
+Lilliana Robinson: 2 disclaimers. 2 out of the 3 of these their QA. Is 6 min long. But we realized that didn't work as well, and we cut it. So 4 min is the sweet spot where everyone listens and they're locked in, and they get every single thing. So this one's a little longer. Also, when we showed examples. Last time, when Neil and I were introducing Demo Day they were mostly B to C, so these all 3 are b 2 b, so we chose them just for those who are asking.
+
+408
+00:43:13.040 --> 00:43:14.999
+Lilliana Robinson: Sorry, dame. I see you.
+
+409
+00:43:15.320 --> 00:43:16.200
+Lilliana Robinson: Okay.
+
+410
+00:43:28.890 --> 00:43:30.250
+Lilliana Robinson: All right.
+
+411
+00:43:31.830 --> 00:43:37.550
+Lilliana Robinson: In the eighties. My dad sold half a million cans of baked beans.
+
+412
+00:43:38.380 --> 00:43:41.629
+Lilliana Robinson: It was a gag gift called Jacuzzi in a can.
+
+413
+00:43:41.830 --> 00:43:47.450
+Lilliana Robinson: That's a fart joke, yeah. And it even made it on to the Johnny Carson show.
+
+414
+00:43:48.920 --> 00:43:52.489
+Lilliana Robinson: So when he died in a plane crash a year ago.
+
+415
+00:43:54.110 --> 00:44:00.729
+Lilliana Robinson: I wasn't surprised how many people told me they wanted to live with the level of joy and generosity as he had.
+
+416
+00:44:01.910 --> 00:44:05.199
+Lilliana Robinson: Death is a rare moment when we step back and reflect
+
+417
+00:44:05.400 --> 00:44:07.090
+Lilliana Robinson: on how we want to live.
+
+418
+00:44:07.820 --> 00:44:19.160
+Lilliana Robinson: I'm Ali Briggs, Carvalho, CEO of Lifeweb, 360, where we help communities honor a loved one that has passed away by sharing memories and make meaning in their own lives in the process.
+
+419
+00:44:19.600 --> 00:44:25.030
+Lilliana Robinson: We do that with a community engagement platform where people can share stories, photos and videos.
+
+420
+00:44:25.740 --> 00:44:43.179
+Lilliana Robinson: When someone dies, the family's in shock, and everyone else is feeling awkward, but wants to do something. So at life web, we're connecting the real life communities that the person was a part of. So everyone can acknowledge how that person impacted their life and learn about them from different perspectives.
+
+421
+00:44:44.070 --> 00:44:45.919
+Lilliana Robinson: On my dad's life web.
+
+422
+00:44:46.020 --> 00:44:49.200
+Lilliana Robinson: I learned just how many people he made laugh.
+
+423
+00:44:50.010 --> 00:44:51.900
+Lilliana Robinson: and how many more he inspired.
+
+424
+00:44:52.620 --> 00:44:53.790
+Lilliana Robinson: So.
+
+425
+00:44:54.020 --> 00:44:55.830
+Lilliana Robinson: however much time we get.
+
+426
+00:44:56.550 --> 00:44:59.600
+Lilliana Robinson: let's live the hell out of it, like my dad did.
+
+427
+00:45:03.260 --> 00:45:04.649
+Lilliana Robinson: He seized the moment
+
+428
+00:45:05.070 --> 00:45:06.480
+Lilliana Robinson: every moment he had.
+
+429
+00:45:06.950 --> 00:45:09.489
+Lilliana Robinson: and I'll always remember the ways he taught me to let go
+
+430
+00:45:10.150 --> 00:45:15.570
+Lilliana Robinson: with lifelove 3, 60. Anyone could create a tribute page to honor someone that has passed away
+
+431
+00:45:15.580 --> 00:45:20.039
+Lilliana Robinson: and spread the word to the communities they were a part of, like their high school.
+
+432
+00:45:20.830 --> 00:45:23.710
+Lilliana Robinson: their church, or their fraternity
+
+433
+00:45:24.330 --> 00:45:26.830
+Lilliana Robinson: and gather memories from everyone who knew them and
+
+434
+00:45:27.050 --> 00:45:27.880
+Lilliana Robinson: ways.
+
+435
+00:45:29.880 --> 00:45:32.659
+Lilliana Robinson: That's why we start with organizations.
+
+436
+00:45:33.880 --> 00:45:39.009
+Lilliana Robinson: We're creating an interconnected network through these real life communities.
+
+437
+00:45:39.090 --> 00:45:51.080
+Lilliana Robinson: beginning with fraternities, sororities, universities, and private schools, where we're already reaching 775,000 fraternity members. And that's just 5%.
+
+438
+00:45:53.660 --> 00:45:54.670
+Lilliana Robinson: So we can remember
+
+439
+00:46:09.900 --> 00:46:10.700
+Lilliana Robinson: 1, 2.
+
+440
+00:46:11.550 --> 00:46:12.279
+Lilliana Robinson: It might
+
+441
+00:46:13.190 --> 00:46:13.880
+Lilliana Robinson: got you
+
+442
+00:46:15.040 --> 00:46:16.849
+Lilliana Robinson: dead, Mike. Get it
+
+443
+00:46:21.960 --> 00:46:27.809
+Lilliana Robinson: all right. Let's put up a tribute page for that microphone. All right.
+
+444
+00:46:28.130 --> 00:46:37.449
+Lilliana Robinson: I get to talk to the most bubbly, colorful person about death. But I want to ask you first, st obviously, this is a product more about life.
+
+445
+00:46:37.590 --> 00:46:42.369
+Lilliana Robinson: Who's this for? Who's paying for it. Talk to me about who your initial customers are.
+
+446
+00:46:42.630 --> 00:46:58.360
+Lilliana Robinson: Yeah. So membership-based organizations pay us an annual subscription for a branded website with lifeweb tribute pages for all their members that have passed away, and the reason that they do that is, for alumni or member engagement, and also for fundraising.
+
+447
+00:46:59.080 --> 00:47:03.800
+Lilliana Robinson: Talk to me about that? Why engagement and fundraising? And and
+
+448
+00:47:04.080 --> 00:47:06.249
+Lilliana Robinson: how does that relate to the celebration of life?
+
+449
+00:47:06.610 --> 00:47:29.519
+Lilliana Robinson: Yeah. So if you think about most membership based organizations like a church or a fraternity, they're nonprofits. And so the whole goal of a nonprofit is to self perpetuate. But if there's not a strong community, there's no donors, and the whole thing collapses and a couple things happen when a member of that community dies. So first, st people are going to start reflecting on why they were a member of that
+
+450
+00:47:29.520 --> 00:47:41.950
+Lilliana Robinson: organization in the 1st place, and they're also going to reflect on their own legacy and how they'll be remembered. So it becomes this really organic opportunity for the nonprofit to introduce planned giving, which is, when you write them into your will.
+
+451
+00:47:42.200 --> 00:48:00.340
+Lilliana Robinson: almost a reflection point of the impact the organization had on me. Because I'm having to remember all these memories absolutely. So me as an individual end user, is there a fee for me? Or is it coming from the organization totally free for the end? Users for anybody that's coming to the page to share our view. Memories got it.
+
+452
+00:48:00.370 --> 00:48:05.469
+Lilliana Robinson: and I don't want to alarm anyone in the room. But we're all going to die.
+
+453
+00:48:05.660 --> 00:48:11.979
+Lilliana Robinson: So your market is basically 100% of the wow. That's
+
+454
+00:48:12.100 --> 00:48:19.480
+Lilliana Robinson: it's really big. So since everyone's going to die, who are you focused on? 1st
+
+455
+00:48:20.150 --> 00:48:33.519
+Lilliana Robinson: great question? Stu, so we're focused on sororities and fraternities first.st And, by the way when I say we, I'm talking about my co-founder, Rochelle, somewhere in here.
+
+456
+00:48:33.520 --> 00:48:57.820
+Lilliana Robinson: my co-founder, Rochelle, and I met in business school at Kellogg, and now we're up to a full-time team of 5, and we partnered with a bunch of different types of organizations trying to find our beachhead fraternities, had a few things going for them first.st They already have formal systems in place to track when one of their members has passed away and share that out with the community. So usually an In Memoriam section in their alumni magazine. And we're essentially digitizing that.
+
+457
+00:48:57.880 --> 00:49:23.479
+Lilliana Robinson: And then they're a really phenomenal aggregator. So one of our partners, Lambda Chi. They have over 300,000 members, and the affinity between those members is really strong. That's sort of the whole point of brotherhood, and the Kicker fraternities have a relatively short sales cycle? Yeah, that's always good, you know. Are there more communities you're trying to reach? Obviously, this is just the beginning. But where do you see the expansion?
+
+458
+00:49:24.200 --> 00:49:47.059
+Lilliana Robinson: Any community-based organization anywhere in the world we can help. So we're aiming to lock up the fraternity and sorority market, you know. Besides Lambda Chi, we're already working with Sigma Alpha Mu. So that's Sammy Deke and Alpha Phi Omega. And we're actually on track to have 10% of men's fraternities as customers by the end of the month. Wow! Yeah, congratulations.
+
+459
+00:49:47.410 --> 00:49:48.550
+Lilliana Robinson: Thank you.
+
+460
+00:49:48.600 --> 00:50:15.370
+Lilliana Robinson: Coming to an alumni magazine near you, and what we think is really neat about starting with fraternities. Is it positions us really? Well to go after colleges next? Because if you were a member of a fraternity, it means that you went to college. And so we're already starting with a large number of lifewebs honoring college alumni, and then also going after private high schools. So we already have 3 partners there, including Stuyvesant High School in New York City. Got it
+
+461
+00:50:15.550 --> 00:50:40.249
+Lilliana Robinson: so as I just think of my own life, and if I were to die, and hopefully, not anytime soon. You're looking at multiple organizations that I've been a part of. Is there an individual life web or tribute page for me in each of these orgs, or are they interconnected in some way? So there would just be one life web tribute, page, honoring you where everyone would share memories. But there would be multiple entry points to Stu's life web
+
+462
+00:50:40.250 --> 00:51:06.629
+Lilliana Robinson: from the different communities that you were a part of. So that could be your faith group, your employer, union or professional association. All of these types of organizations are on our go-to-market roadmap as well. And what's pretty neat is, if somebody from your high school passes away. You're looking at their life web learning about what they were like later in life you can really see what they were like in another context, like, Wow, that guy really really grew up and matured.
+
+463
+00:51:06.630 --> 00:51:19.579
+Lilliana Robinson: That's what they'll say about me. Possibly, you know. Obviously, there's a lot of inherent virality. When you start linking together these organizations, how are you guys thinking about that? And taking advantage of that.
+
+464
+00:51:19.580 --> 00:51:38.990
+Lilliana Robinson: there's a ton of virality here. So each partner really strengthens this interconnected network that we're building makes it easier to acquire. The next partner. And the partners are essentially paying us to market lifeweb services to their hundreds of thousands of members that inevitably will lose a loved one and hopefully use life web to honor them.
+
+465
+00:51:39.870 --> 00:51:45.670
+Lilliana Robinson: as if the celebration of life of every person on the planet wasn't enough. What is the big vision for you?
+
+466
+00:51:45.790 --> 00:52:08.669
+Lilliana Robinson: So it's entirely about the living. Let's say that a friend of mine dies if I didn't tell them that they were important to me. I'm going to wish that I had, and so I'm going to call up my other friends. I'm going to call my mom, and I'm going to tell them I love them. Death has this ripple effect of acknowledgement, and in that way. I like to think about lifeweb as the inverse of social media, so social media is my life told by me.
+
+467
+00:52:08.670 --> 00:52:31.909
+Lilliana Robinson: Lifeweb is my life told by others. It's all about acknowledgement and connection, and you know we're in the middle of a loneliness epidemic. One in 2 Americans has reported feeling lonely, and if I do my job correctly. Lifeweb helps. People feel reconnected to the communities that are already a part of them, helps them feel part of something bigger than themselves and helps them realize that
+
+468
+00:52:31.960 --> 00:52:33.220
+Lilliana Robinson: surprise.
+
+469
+00:52:33.280 --> 00:52:45.600
+Lilliana Robinson: They're going to die one day, so they should stop scrolling and make the most of their time on earth with the people that they love. Lifeweb is all about life and helping people live with more joy and intention and connection.
+
+470
+00:52:45.690 --> 00:52:48.249
+Lilliana Robinson: and death is just the side door that gets us there.
+
+471
+00:52:48.480 --> 00:52:54.739
+Lilliana Robinson: I love that I love especially what you said about the inverse of social media. I think telling each other stories is really powerful.
+
+472
+00:52:55.070 --> 00:53:01.940
+Lilliana Robinson: as we're all gathered today for a little bit of a celebration of life, how can we help?
+
+473
+00:53:02.590 --> 00:53:18.399
+Lilliana Robinson: So I would like to ask everybody here to just reflect on the organizations that are really important to you, the ones that you really identify with. And if you want to help those organizations thrive, refer them to us so that we can help them strengthen their community of supporters.
+
+474
+00:53:18.400 --> 00:53:36.219
+Lilliana Robinson: So if you have an organization in mind, especially if it's a private high school, please drop us your email at the QR. Code here, and I'll send you more information. And as an added bonus I will send you the clip of Jacuzzi in a can on the Johnny Carson show cool beans.
+
+475
+00:53:40.480 --> 00:53:43.950
+Lilliana Robinson: So she also had our funniest eir, which helped
+
+476
+00:53:44.730 --> 00:53:51.039
+Lilliana Robinson: 1 point I wanted to make here is that Ali was really intentional about what
+
+477
+00:53:51.270 --> 00:53:57.889
+Lilliana Robinson: she wanted to use each segment for. So can anyone point out what the purpose of the pitch was for her.
+
+478
+00:54:00.510 --> 00:54:03.450
+Annie Brown: I think emotional connection with the audience.
+
+479
+00:54:03.450 --> 00:54:04.180
+Lilliana Robinson: Yes.
+
+480
+00:54:04.410 --> 00:54:05.580
+Lilliana Robinson: exactly
+
+481
+00:54:05.958 --> 00:54:15.490
+Lilliana Robinson: and like attention grabbing in a sense, and what about the video? It wasn't as much a product, Demo. What was it what she kind of focus on.
+
+482
+00:54:17.680 --> 00:54:19.020
+Çoruh | CogniScope: It was like about
+
+483
+00:54:19.060 --> 00:54:24.300
+Çoruh | CogniScope: explaining what they're doing and how it can get like bigger as a go to market strategy.
+
+484
+00:54:24.300 --> 00:54:25.266
+Neal Sáles-Griffin: Just market,
+
+485
+00:54:25.750 --> 00:54:44.239
+Lilliana Robinson: Yup. It was all market. It was like a little bit of like pipeline, and who they're targeting and then market. And that was because she really didn't talk about the business and the pitch at all. And so she needed. She knew she needed to get right away like right down to brass tacks like, Hey, this is serious as well. And then the QA.
+
+486
+00:54:44.250 --> 00:54:48.750
+Lilliana Robinson: I would say, like she delved into all the in-between and everything that was left unsaid.
+
+487
+00:54:49.513 --> 00:55:02.179
+Lilliana Robinson: And then Annie, I think she did get to talking about her and Rochelle, and how they met at Kellogg, mba and stuff. So it was cool that you were wondering that in the middle. She knew you were wondering that. And so she put it in there
+
+488
+00:55:02.420 --> 00:55:08.060
+Lilliana Robinson: any other things? We put a lot of stuff in the chat, so I don't want to take too much time, maybe just like one comment.
+
+489
+00:55:14.390 --> 00:55:22.100
+Neal Sáles-Griffin: I've got one. So I think overall Ali. What Allie really had going for her and still does is her just like bubbly personality and energy.
+
+490
+00:55:22.400 --> 00:55:25.030
+Neal Sáles-Griffin: But she's just like a very endearing positive.
+
+491
+00:55:25.040 --> 00:55:31.659
+Neal Sáles-Griffin: like funny person to interact with and and and communicate. So for her business to be about death is like, almost like
+
+492
+00:55:31.830 --> 00:55:37.120
+Neal Sáles-Griffin: a contrast to how she carries herself and how she interacts. So she used that to her advantage.
+
+493
+00:55:37.140 --> 00:55:40.869
+Neal Sáles-Griffin: like even to the choice of of her, her colorful skirt.
+
+494
+00:55:41.090 --> 00:55:45.410
+Neal Sáles-Griffin: like everything there was. She thought, about all of those things going into that conversation.
+
+495
+00:55:46.440 --> 00:56:10.610
+Lilliana Robinson: Yeah, the dancing was intentional. I saw you guys kind of like making fun in the chat like she did that for a reason. Same with snow. The one I interviewed that I showed you guys last time he danced, probably because he was kind of nervous about his language barrier. That's something he was really insecure about. So he opened by like connecting with the audience and like singing with them. And that was something that helped. If that's not something that's gonna like, you know. Lend well to you. You don't have to do that.
+
+496
+00:56:11.233 --> 00:56:14.870
+Lilliana Robinson: Neil, we have time for only one more. Do you want to do Rhonda, or Fresh X.
+
+497
+00:56:16.110 --> 00:56:17.100
+Neal Sáles-Griffin: Rule.
+
+498
+00:56:17.790 --> 00:56:18.890
+Neal Sáles-Griffin: Yeah, let's
+
+499
+00:56:20.220 --> 00:56:21.779
+Neal Sáles-Griffin: let's do Rhonda.
+
+500
+00:56:21.780 --> 00:56:22.480
+Lilliana Robinson: Okay.
+
+501
+00:56:22.480 --> 00:56:23.939
+Neal Sáles-Griffin: Let's do. Rhonda. Yeah.
+
+502
+00:56:41.150 --> 00:56:53.980
+Neal Sáles-Griffin: the dental industry is in dire need of innovation. A dentist who owns a practice isn't just providing oral care. They're running a business. So as a business owner, a dentist needs to think about maximizing revenue.
+
+503
+00:56:54.100 --> 00:56:56.879
+Neal Sáles-Griffin: how can they schedule as many appointments as possible?
+
+504
+00:56:57.400 --> 00:56:59.740
+Neal Sáles-Griffin: This is true for my co-founder. Alan's dad.
+
+505
+00:57:00.000 --> 00:57:10.199
+Neal Sáles-Griffin: Alan's dad owns 2 clinics and pays each of his receptionists over $40,000 a year to manually schedule appointments over the phone one by one.
+
+506
+00:57:10.480 --> 00:57:22.060
+Neal Sáles-Griffin: When he looked at the numbers he realized that over 30% of incoming calls were being missed by his receptionist, and they just didn't have enough time during the day to call every person due for an appointment.
+
+507
+00:57:23.660 --> 00:57:30.959
+Neal Sáles-Griffin: So Alan's dad has a problem. He needs to maximize appointments scheduled. But there's a major bottleneck in the process. His receptionist
+
+508
+00:57:31.370 --> 00:57:41.860
+Neal Sáles-Griffin: in any other industry technology has replaced this role because when it comes to manual and repetitive tasks like this, technology is almost always cheaper and more efficient.
+
+509
+00:57:42.200 --> 00:57:44.019
+Neal Sáles-Griffin: It's why restaurants have open table
+
+510
+00:57:44.230 --> 00:57:45.639
+Neal Sáles-Griffin: barbers have squire.
+
+511
+00:57:45.800 --> 00:57:47.320
+Neal Sáles-Griffin: and drivers have uber.
+
+512
+00:57:47.510 --> 00:57:51.010
+Neal Sáles-Griffin: but dentists like Alan's dad don't have anything.
+
+513
+00:57:51.730 --> 00:58:00.349
+Neal Sáles-Griffin: My name is Burhan, and I'm the CEO of Rhonda AI. My team and I built Rhonda, an AI receptionist for dentists to solve Alan's Dad's problem.
+
+514
+00:58:00.780 --> 00:58:04.569
+Neal Sáles-Griffin: Rhonda works 24, 7 can take hundreds of calls at once.
+
+515
+00:58:04.720 --> 00:58:11.359
+Neal Sáles-Griffin: schedules appointments efficiently and does all this work at a fraction of the cost of a human receptionist.
+
+516
+00:58:11.440 --> 00:58:17.790
+Neal Sáles-Griffin: Here's a video unscripted, unedited, a real life conversation of how Rhonda works.
+
+517
+00:58:21.100 --> 00:58:24.819
+Neal Sáles-Griffin: Hello! This is Rhonda from Avenue Dental Center. How can I assist you today.
+
+518
+00:58:25.010 --> 00:58:28.520
+Neal Sáles-Griffin: hey? I'm looking to get my teeth cleaned sometime early next week.
+
+519
+00:58:28.690 --> 00:58:33.479
+Neal Sáles-Griffin: Great! We can definitely help with that. Are you a new patient or an existing patient with us.
+
+520
+00:58:33.730 --> 00:58:35.230
+Neal Sáles-Griffin: I'm an existing patient.
+
+521
+00:58:35.560 --> 00:58:42.760
+Neal Sáles-Griffin: perfect. Before we schedule your appointment, I need to verify some information. Could you please provide your 1st name, last name and date of birth.
+
+522
+00:58:43.210 --> 00:58:46.609
+Neal Sáles-Griffin: Yep, Daniel Porter, March 26, th 1999.
+
+523
+00:58:46.820 --> 00:58:52.889
+Neal Sáles-Griffin: Thanks, Daniel. Let's find a suitable time for your cleaning appointment early next week. How does Monday or Tuesday work for you?
+
+524
+00:58:53.270 --> 00:58:54.710
+Neal Sáles-Griffin: Can we do Tuesday?
+
+525
+00:58:55.150 --> 00:58:59.380
+Neal Sáles-Griffin: Sure thing, we have openings on Tuesday? Sorry, actually, can we do Monday morning instead?
+
+526
+00:58:59.620 --> 00:59:03.710
+Neal Sáles-Griffin: No problem at all. Let's check for Monday morning. How does 10 am. Sound?
+
+527
+00:59:04.310 --> 00:59:06.139
+Neal Sáles-Griffin: Yep, that's perfect. Let's put that in
+
+528
+00:59:06.550 --> 00:59:12.500
+Neal Sáles-Griffin: awesome. I'll book your cleaning appointment for Monday at 10 Am. One moment while I finalize that for you.
+
+529
+00:59:12.950 --> 00:59:17.280
+Neal Sáles-Griffin: Great. Your appointment is set for Monday at 10 Am. Have a wonderful day, Daniel.
+
+530
+00:59:23.140 --> 00:59:24.150
+Neal Sáles-Griffin: all right.
+
+531
+00:59:24.360 --> 00:59:27.769
+Neal Sáles-Griffin: So before we get started, I just want to clarify
+
+532
+00:59:27.850 --> 00:59:51.620
+Neal Sáles-Griffin: like that was a live call. Yeah, that wasn't a mock up with a voice and an actor. No, that was a live call, and the computer was the woman or the man, because she sounded much more natural and clear than he did? No, the computer was a woman. The man was my co-founder and CTO Muhammad. He's an absolute genius. Wow, all right. And you didn't like speed stuff up and skip over things. No, like all right.
+
+533
+00:59:51.740 --> 01:00:00.120
+Neal Sáles-Griffin: So my 1st question was going to be, would patients accept talking to an AI instead of a human receptionist? But like that was pretty good.
+
+534
+01:00:00.390 --> 01:00:09.050
+Neal Sáles-Griffin: Yeah, I mean, I'm going to make a bold claim. Not only do I think patients will accept talking to an AI over a human receptionist. I actually think they'll prefer it
+
+535
+01:00:09.590 --> 01:00:17.090
+Neal Sáles-Griffin: level with me. Real, quick, biggest issues with customer service, in my opinion, are long wait times and language barriers.
+
+536
+01:00:17.270 --> 01:00:22.109
+Neal Sáles-Griffin: AI solves both these problems. Rhonda doesn't have wait times. She immediately answers the phone.
+
+537
+01:00:22.180 --> 01:00:26.960
+Neal Sáles-Griffin: You speak a different language. Great Rhonda speaks over 50 different languages.
+
+538
+01:00:27.100 --> 01:00:41.519
+Neal Sáles-Griffin: So the most important thing to focus on here is that we've built Rhonda to be very smart. She can have nuanced conversations, understand human sentiment, and can act accordingly, and we've made it so that she makes the appointment scheduling process as smooth and seamless as possible.
+
+539
+01:00:42.010 --> 01:00:53.790
+Neal Sáles-Griffin: Wow! All right. But you got to get to market share fast like you're not the only one who's going to be doing this and scaling is going to take time. You got to go to every single dentist office like, how are you going to get this done?
+
+540
+01:00:54.130 --> 01:01:00.589
+Neal Sáles-Griffin: We actually don't plan on going one by one to every clinic. In fact, our focus isn't even on individual practices.
+
+541
+01:01:00.680 --> 01:01:08.129
+Neal Sáles-Griffin: Our focus is purely on Dsos. For context, Dsos are private equity firms that own dozens, if not hundreds, of clinics.
+
+542
+01:01:08.615 --> 01:01:15.179
+Neal Sáles-Griffin: The advantage of Dsos is that we can scale very quickly because we can capture a large number of clinics in one deal.
+
+543
+01:01:15.650 --> 01:01:23.540
+Neal Sáles-Griffin: It's also worth mentioning in terms of go to market, that my co-founder, Alan, comes from a family of dentists, and his father is one of the most respected dentists in North America.
+
+544
+01:01:23.920 --> 01:01:28.249
+Neal Sáles-Griffin: Our unfair advantage is the distribution that his family name brings to the table.
+
+545
+01:01:28.410 --> 01:01:35.849
+Neal Sáles-Griffin: and I think we've done a pretty good job of using these advantages to our benefit. We pivoted into Rhonda about a month into techstars.
+
+546
+01:01:35.970 --> 01:01:42.100
+Neal Sáles-Griffin: and in the 6 to 7 weeks since we've built an end-to-end product that's live with our 1st customer.
+
+547
+01:01:42.170 --> 01:01:47.010
+Neal Sáles-Griffin: We've signed 5 clinics that will be paying us $36,000 in annual recurring revenue.
+
+548
+01:01:47.300 --> 01:01:50.750
+Neal Sáles-Griffin: and we've built a 7.8 million dollars worth of late. Stage pipeline.
+
+549
+01:01:50.980 --> 01:02:05.820
+Neal Sáles-Griffin: Wow! All right, that's impressive. Those are some big numbers in a short period of time, but it's still hard to see how you're going to build a unicorn in the dental industry. It's just not that big. How do you plan to turn this into a business that's worth over a billion dollars.
+
+550
+01:02:08.010 --> 01:02:15.910
+Neal Sáles-Griffin: I think we're going to build a billion dollar business or a billion dollar valuation business because we're planning on going after the entire healthcare industry as a whole.
+
+551
+01:02:17.760 --> 01:02:43.990
+Neal Sáles-Griffin: using a bottoms up approach. Our tam is estimated to be about 45 billion dollars across healthcare, and the reason we're starting with dental is A, we have an unfair distribution advantage, and B. Dsos allow us to scale very quickly, and this trend of Dsos, where a bunch of clinics are being brought up by one entity. It's a trend that's moving across the entire industry within healthcare. So we're starting with dental as a wedge to enter this market segment.
+
+552
+01:02:44.170 --> 01:02:48.590
+Neal Sáles-Griffin: prove out our thesis, and as soon as we do, we plan on immediately targeting the rest of the industry.
+
+553
+01:02:48.770 --> 01:02:55.000
+Neal Sáles-Griffin: Okay, so that makes sense. But you know, AI agents generative AI seems to be
+
+554
+01:02:55.580 --> 01:03:09.199
+Neal Sáles-Griffin: becoming more and more accessible, easier and easier for people to do. How, you know, is there a real barrier to entry here? You built this thing in a couple of months. How are you going to create a mode? How are you going to prevent others from getting in.
+
+555
+01:03:10.860 --> 01:03:21.660
+Neal Sáles-Griffin: Healthcare is a pretty complicated space. You can't just build a voice AI agent that plugs into every major practice management system and is also complying with the various healthcare regulations overnight. It's just not possible.
+
+556
+01:03:21.970 --> 01:03:33.249
+Neal Sáles-Griffin: The thing is Dsos, are these enterprise clients with a lot of legacy it systems. So we actually had to go in and build connectors to all the major practice management systems that they use.
+
+557
+01:03:33.490 --> 01:03:38.909
+Neal Sáles-Griffin: And we've had to architect our platform to allow for rapid onboarding of clinics at scale.
+
+558
+01:03:39.260 --> 01:03:45.600
+Neal Sáles-Griffin: It's also worth mentioning that we actually benefit from, and very much welcome the changes in generative AI.
+
+559
+01:03:45.810 --> 01:03:50.000
+Neal Sáles-Griffin: Not only will this allow Rhonda to get smarter faster and cheaper.
+
+560
+01:03:50.060 --> 01:03:57.099
+Neal Sáles-Griffin: but it'll also allow us to enhance the development of our product, and at an accelerated rate because of improvements in Gen. AI
+
+561
+01:03:57.670 --> 01:04:00.459
+Neal Sáles-Griffin: awesome. So one last time I get to ask.
+
+562
+01:04:00.730 --> 01:04:04.569
+Neal Sáles-Griffin: How can the audience help you? What do you want from us today?
+
+563
+01:04:05.790 --> 01:04:17.420
+Neal Sáles-Griffin: So as of right. Now we are raising a 1 million dollars. Precede round with some commitments already made. So if you're interested in investing in the future of healthcare. And AI. Come, find me. I'm wearing a white T-shirt.
+
+564
+01:04:18.030 --> 01:04:20.069
+Neal Sáles-Griffin: Thank you very much, Rhonda.
+
+565
+01:04:21.210 --> 01:04:22.090
+Neal Sáles-Griffin: See you.
+
+566
+01:04:25.580 --> 01:04:28.230
+Lilliana Robinson: Okay, we have, like 3 min to discuss.
+
+567
+01:04:28.850 --> 01:04:31.783
+Annie Brown: I? I have a question about the ask at the end.
+
+568
+01:04:32.770 --> 01:04:40.249
+Annie Brown: Does every eir question have to end with the ask? Or do you suggest that cause? I think I mean
+
+569
+01:04:40.630 --> 01:04:43.129
+Annie Brown: because I liked. I like to ask
+
+570
+01:04:43.610 --> 01:04:53.039
+Annie Brown: from the previous one because it was a little bit unique. But I feel like a lot of us are going to be asking for raises, so we don't want to get repetitive. Do you have any suggestions on that.
+
+571
+01:04:53.040 --> 01:05:00.230
+Lilliana Robinson: Yeah, everyone closes with a, we call it a closing statement so that it won't count as one of your questions. But the Eir will have.
+
+572
+01:05:00.410 --> 01:05:20.819
+Lilliana Robinson: Basically, we'll play it out and practice with you guys the last 10 seconds the Eir will say, All right. How can the audience help you today, and you'll have an ask. And that's your closing statement like 10 seconds. How can the audience help you? Thank them for their time? And then you get up and you leave. And that's how we've always ended it. It doesn't get repetitive. If you guys make sure you're specific.
+
+573
+01:05:20.950 --> 01:05:32.580
+Lilliana Robinson: So you're not just saying, oh, I'm raising you say I'm looking for strategic angels in the AI space. Who can really help us move our vision along, you know, like you're not just saying, like I'm looking for checks.
+
+574
+01:05:32.580 --> 01:05:32.900
+Annie Brown: Right.
+
+575
+01:05:32.900 --> 01:05:42.119
+Lilliana Robinson: You're also not saying like, I'm looking for b 2 b intros. You would say exactly what you're looking for. If you're looking for like customer intros. So the more specific the more people can help you.
+
+576
+01:05:42.890 --> 01:05:46.680
+Neal Sáles-Griffin: Yeah, even more than what lilliana just said, just to elaborate a little bit.
+
+577
+01:05:47.430 --> 01:05:53.439
+Neal Sáles-Griffin: the closing ask is a way to really differentiate yourself as far as like. How thoughtful you can be about it.
+
+578
+01:05:53.440 --> 01:05:53.880
+Annie Brown: Okay.
+
+579
+01:05:53.880 --> 01:06:09.149
+Neal Sáles-Griffin: So, even if it is for investors, like all of you are asking. Each of you want different kinds of investors on your cap table. You don't want the same person on everyone's cap table. You're not just looking for an investor. You're looking for the right people with the right experience, with ways that can help you with more than just your capital.
+
+580
+01:06:09.230 --> 01:06:13.329
+Neal Sáles-Griffin: So you should be able to like, speak to that in a way that's very, very considerate
+
+581
+01:06:13.770 --> 01:06:17.679
+Neal Sáles-Griffin: and demonstrates how intentional you're being with your fundraise or otherwise.
+
+582
+01:06:17.860 --> 01:06:23.309
+Annie Brown: Do you suggest? We pick one or the other like the investor, one or customer intros.
+
+583
+01:06:23.550 --> 01:06:24.290
+Neal Sáles-Griffin: Yes.
+
+584
+01:06:24.520 --> 01:06:25.180
+Annie Brown: Okay.
+
+585
+01:06:26.280 --> 01:06:37.140
+Neal Sáles-Griffin: Like honestly like my preference is not to talk about fundraising for most of you. What you want is to show how focused you are on business progress which makes people want to come and talk to you
+
+586
+01:06:37.650 --> 01:06:47.659
+Neal Sáles-Griffin: like you want investors to convince you, to fundraise and to take your money rather than going around saying, Hey, I'm like every other company in this entire, like
+
+587
+01:06:47.870 --> 01:06:49.480
+Neal Sáles-Griffin: geographic area.
+
+588
+01:06:49.530 --> 01:06:52.870
+Neal Sáles-Griffin: and all we want is for you to write us checks. Duh. Of course.
+
+589
+01:06:52.870 --> 01:06:53.220
+Annie Brown: Sneezing.
+
+590
+01:06:53.220 --> 01:06:55.000
+Neal Sáles-Griffin: You want that that's easy.
+
+591
+01:06:55.190 --> 01:06:56.780
+Neal Sáles-Griffin: Make yourself more interesting.
+
+592
+01:06:57.510 --> 01:07:00.850
+Annie Brown: And investors would probably usually have customer interest. So.
+
+593
+01:07:00.850 --> 01:07:04.430
+Dave Scott: I've I've got. I've got a question about that, because, like for me, like
+
+594
+01:07:05.810 --> 01:07:11.789
+Dave Scott: my non fundraising ask is connections to Hollywood because we do Hollywood license material. But
+
+595
+01:07:11.920 --> 01:07:16.280
+Dave Scott: the you'd probably count on one hand, how many people in the audience would know someone
+
+596
+01:07:16.310 --> 01:07:23.209
+Dave Scott: in Hollywood like, you know, I just had a copy of the day about a guy who actually knows Seth Macfarlane, and I was like so excited. But like.
+
+597
+01:07:23.210 --> 01:07:23.920
+Neal Sáles-Griffin: You never know.
+
+598
+01:07:24.430 --> 01:07:25.870
+Neal Sáles-Griffin: Never know, Dave.
+
+599
+01:07:26.030 --> 01:07:46.659
+Neal Sáles-Griffin: you can say like, I know, this is a big, lofty ask, and most people don't have connections to these types of folks. But I gotta be honest with you all. I'm laser focused on what I need to do to make my business successful. And this is what it is. So maybe there's a non 0 chance that one of the 200 people in this room have a connection to one of these studios or firms, or these types of folks. I really like that connection above all else, because I'm trying to close customers right now.
+
+600
+01:07:47.590 --> 01:07:49.919
+Neal Sáles-Griffin: hey? All right, Dave's on the money
+
+601
+01:07:50.060 --> 01:07:53.569
+Neal Sáles-Griffin: I bet on. I bet with some money on that guy I like his focus.
+
+602
+01:07:53.690 --> 01:08:00.259
+Neal Sáles-Griffin: So like, that's what I'm saying. You can indirectly get investors interested in you by demonstrating how excited you are to move forward with your business.
+
+603
+01:08:05.320 --> 01:08:06.280
+Neal Sáles-Griffin: Cool.
+
+604
+01:08:06.280 --> 01:08:08.830
+Lilliana Robinson: Okay, are we good to jump into our last exercise.
+
+605
+01:08:09.130 --> 01:08:15.309
+Neal Sáles-Griffin: Yeah, any final questions about the Q&A format. We've said all we had to say about it essentially, to get you prepped with the individual sessions.
+
+606
+01:08:15.310 --> 01:08:19.479
+Dave Scott: Can I ask one more dumb question? Can I? Can I give away giveaway giveaway product.
+
+607
+01:08:19.800 --> 01:08:20.510
+Neal Sáles-Griffin: You can.
+
+608
+01:08:20.510 --> 01:08:24.769
+Dave Scott: Like, can I sit there and go? Hey, listen! If you guys have any friends that actually have playing Dnd.
+
+609
+01:08:24.810 --> 01:08:26.659
+Dave Scott: I have a giveaway bag for you, or something like that.
+
+610
+01:08:26.660 --> 01:08:31.849
+Neal Sáles-Griffin: Look under your chair. You get a giveaway bag. You get a giveaway bag you get, you know.
+
+611
+01:08:31.859 --> 01:08:34.219
+Lilliana Robinson: The cocktail hour. So.
+
+612
+01:08:34.340 --> 01:08:37.949
+Dave Scott: But then that way, then maybe that's it. That's an ask to get people who may not be.
+
+613
+01:08:37.950 --> 01:08:38.600
+Neal Sáles-Griffin: Yeah.
+
+614
+01:08:38.930 --> 01:08:47.979
+Lilliana Robinson: I love that we've we had a we have a baking kit like a that you order a kit, and then you can bake at home. That's 1 of our companies, and she passed out cake
+
+615
+01:08:48.109 --> 01:08:52.210
+Lilliana Robinson: like she from one of her recipes. She like gave it out in the cocktail hour. So
+
+616
+01:08:52.229 --> 01:09:12.719
+Lilliana Robinson: whatever is. And usually most of our companies don't have anything to give out, because a lot of them are sas so. But if that does apply to you. You can do that. Other people like bring stickers. You also don't have to bring anything. Just be creative. You're not gonna have like a station. It's not like an expo style. It's going to be like a networking room for the cocktail hour, but you can like bring stuff with you.
+
+617
+01:09:12.720 --> 01:09:16.989
+Dave Scott: Can we have a station like if we have, I mean, can we get a table and let's put.
+
+618
+01:09:16.990 --> 01:09:24.240
+Lilliana Robinson: I I don't have any promises about the room, but if when you get up there, you just want to commandeer a corner or something I can't stop you.
+
+619
+01:09:24.510 --> 01:09:25.210
+Dave Scott: Okay.
+
+620
+01:09:26.430 --> 01:09:37.979
+Lilliana Robinson: Okay. But you won't really be able to get up there before, because this is Google. So we don't have our jurisdiction like they will not scan you up until we're allowed to be up there. So you're not going to be able to like, go before or do any sort of prep.
+
+621
+01:09:39.340 --> 01:09:40.050
+Lilliana Robinson: Yeah.
+
+622
+01:09:40.279 --> 01:09:51.199
+Lilliana Robinson: okay, now, we're going to jump into breakout rooms. I've put you guys into breakouts. With a partner. So one partner company. And I want you guys to take
+
+623
+01:09:52.319 --> 01:09:54.090
+Lilliana Robinson: 6 min each
+
+624
+01:09:54.918 --> 01:10:16.680
+Lilliana Robinson: to. So you're gonna be in there for 12 min. Total. Keep track of your own time, for when to switch and brainstorm. What? 4 to 6 questions you should be asked on stage during your QA. You don't have to think about the answers. Yet I want you guys to help each other try in those 6 min each to jot down your 4 to 6 questions. Think about the questions you wrote down for Neil's exercises earlier.
+
+625
+01:10:16.680 --> 01:10:34.060
+Lilliana Robinson: Think about what your objective is for the Q&A portion as opposed to the pitch or the video, and try and write your list of questions. This will change, it'll fluctuate. It's just a 1st draft. But I want you guys to have something by the end of this call. So I'm going to open these up. Remember? 6 min each, and then I'll close the rooms.
+
+626
+01:10:54.680 --> 01:10:55.900
+Lilliana Robinson: Okay, cool.
+
+627
+01:10:56.520 --> 01:10:57.730
+Lilliana Robinson: I'm gonna pause. The recording.
+
+628
+01:10:57.730 --> 01:10:58.440
+Neal Sáles-Griffin: Hey?
+
+629
+01:10:59.970 --> 01:11:03.670
+Neal Sáles-Griffin: I want to hear more about this. What was the genius of Monica in your session, Danny.
+
+630
+01:11:04.000 --> 01:11:07.949
+Annie Brown: Oh, well, just you know, I I basically
+
+631
+01:11:08.230 --> 01:11:10.549
+Annie Brown: just kind of rambled
+
+632
+01:11:11.180 --> 01:11:32.530
+Annie Brown: some questions. And then she basically like 2 senses, wrote my whole. QA. Script like, she's like, yeah, just have it flow from one to the other. Do this, this, this and this and that'll be great. I was like, Oh, yeah, cool. So Monica did my homework for me. So I promised, and we we ran out of time. So we're gonna have another another session to talk through her questions more.
+
+633
+01:11:32.530 --> 01:11:36.629
+Neal Sáles-Griffin: Got it. So if I'm hearing this right, if anybody wants their homework done for them, they need to hit up Monica.
+
+634
+01:11:37.250 --> 01:11:39.699
+Neal Sáles-Griffin: That's what I'm hearing. That's what I would do.
+
+635
+01:11:39.700 --> 01:11:41.270
+Nirat Attri: And doing that myself. So.
+
+636
+01:11:41.270 --> 01:11:41.900
+Neal Sáles-Griffin: Okay. Good.
+
+637
+01:11:41.900 --> 01:11:43.889
+Nirat Attri: I can. I can vouch for that. Yeah.
+
+638
+01:11:43.890 --> 01:11:52.240
+Neal Sáles-Griffin: Understood. I like this. I like this any other good sessions, any other good breakthroughs with questions to be asked, or anything. Anybody's willing to share.
+
+639
+01:11:54.980 --> 01:11:59.039
+Morgan Stanton: I have a comment. I didn't get to finish the questions with neerat, but I can
+
+640
+01:11:59.190 --> 01:12:07.639
+Morgan Stanton: pose it to the group. I wanted to end the questions on potentially like not trying to be
+
+641
+01:12:07.900 --> 01:12:17.009
+Morgan Stanton: raise too many flags, but say, like, in the current political environment, like, what do you think is the state of like women's health like, or where do you think it will go from here like after the.
+
+642
+01:12:17.010 --> 01:12:17.580
+Neal Sáles-Griffin: Okay.
+
+643
+01:12:17.580 --> 01:12:21.010
+Morgan Stanton: I'm not trying to call out anyone Republicans or Democrats, but just to talk about.
+
+644
+01:12:21.010 --> 01:12:22.230
+Neal Sáles-Griffin: There's real implications.
+
+645
+01:12:22.230 --> 01:12:33.460
+Morgan Stanton: Yeah, the future of women's health, and like where I think it should go like whether you know, it doesn't matter. We're still here, no matter what party you voted for. So yeah, to end it. But I didn't know if it would be too upsetting.
+
+646
+01:12:33.890 --> 01:12:35.610
+Neal Sáles-Griffin: I think that's very appropriate.
+
+647
+01:12:35.610 --> 01:12:36.010
+Morgan Stanton: Okay.
+
+648
+01:12:36.010 --> 01:12:40.930
+Neal Sáles-Griffin: Relevant. It affects business, right? So it's important to acknowledge.
+
+649
+01:12:40.930 --> 01:12:46.230
+Annie Brown: Well, I think, and you can frame it in a positive way, saying, like, you know, when
+
+650
+01:12:46.310 --> 01:13:04.720
+Annie Brown: a lot of times when when government falls behind. Business has to step up to kind of fill the gap. So actually you could frame it as as an opportunity and also frame it as part of your ask saying like, if you're passionate about women's health and the future of women's health. Come, talk to me.
+
+651
+01:13:05.470 --> 01:13:06.279
+Morgan Stanton: I love that.
+
+652
+01:13:11.100 --> 01:13:12.320
+Neal Sáles-Griffin: That's a great question.
+
+653
+01:13:12.860 --> 01:13:15.699
+Neal Sáles-Griffin: We got room for one more final comment or question
+
+654
+01:13:16.320 --> 01:13:17.639
+Neal Sáles-Griffin: before we wrap up.
+
+655
+01:13:20.030 --> 01:13:27.440
+Neal Sáles-Griffin: Does everyone feel like adequately? Not prepared, but at least expectation set about what preparation looks like going forward.
+
+656
+01:13:28.100 --> 01:13:29.699
+Neal Sáles-Griffin: What would you need to do.
+
+657
+01:13:29.700 --> 01:13:31.530
+Dave Scott: Can I advocate 6 min.
+
+658
+01:13:31.970 --> 01:13:32.650
+Neal Sáles-Griffin: Nope.
+
+659
+01:13:33.694 --> 01:13:39.180
+Neal Sáles-Griffin: like Dave, I think you have to realize that we're doing you a favor by limiting the amount of time.
+
+660
+01:13:39.780 --> 01:13:40.630
+Neal Sáles-Griffin: Because
+
+661
+01:13:41.078 --> 01:13:44.809
+Neal Sáles-Griffin: people are gonna stop listening and stop paying attention if it takes too much time.
+
+662
+01:13:45.060 --> 01:13:48.529
+Neal Sáles-Griffin: Trust us. 6 min is more than enough for you to get your point across.
+
+663
+01:13:48.740 --> 01:13:54.640
+Lilliana Robinson: You can plan your extra 2 by having pre-prepared answers, for when you talk to people in the cocktail hour.
+
+664
+01:13:56.060 --> 01:13:56.800
+Neal Sáles-Griffin: There you go!
+
+665
+01:13:56.980 --> 01:14:00.229
+Lilliana Robinson: I wrote some closing thoughts for you guys. So let this marinate.
+
+666
+01:14:00.350 --> 01:14:19.860
+Lilliana Robinson: as you kind of just like, go about the rest of your week you'll probably think of other questions, you know. You'll be like shampooing. Oh, that would be a good one. Write it down. Keep working on your list and start stubbing out the responses like Neil said, like talk through the responses. Have someone ask you, and then give an honest answer. Write that down, and then just keep tweaking it
+
+667
+01:14:20.101 --> 01:14:32.160
+Lilliana Robinson: and then make sure the 3 segments work together. So don't just do this in a silo. But think about how it works together with your video that we're going to talk about tomorrow with your pitch that we talked about last week and make sure that they're all a cohesive narrative.
+
+668
+01:14:32.550 --> 01:15:00.059
+Lilliana Robinson: So it's up to you guys. Now go work on it. Keep iterating. You'll talk to us in probably 2 or 3 weeks. We don't have as many check ins for QA. But we're here. If you want to talk through so like, send us your list. Send us what you're thinking about. You can schedule time. So it's up to you for QA. We don't kind of handhold you as much as we do for the video and pitch for this. So just be working on it. I'll stick around for any other questions. But we're at time. So thank you, guys.
+

@@ -1,0 +1,809 @@
+WEBVTT
+
+00:00.000 --> 00:04.800
+I want to suggest that most of us are using AI a little bit backwards.
+
+00:04.800 --> 00:07.400
+Stay with me, this is worth it.
+
+00:07.400 --> 00:11.720
+We are using AI primarily for information compression.
+
+00:11.720 --> 00:16.560
+So take my meeting notes and turn them into really neat outputs.
+
+00:16.560 --> 00:20.320
+Take this large product requirements doc, turn it into this for engineers,
+
+00:20.320 --> 00:22.720
+and this for my executive stakeholders.
+
+00:22.720 --> 00:26.360
+Take this 100-page PDF, and turn it into something succinct.
+
+00:26.360 --> 00:29.880
+Take Nate's super long sub-stack and make it into something I can digest.
+
+00:29.880 --> 00:33.160
+I kid you not people do that, it's kind of hilarious.
+
+00:33.160 --> 00:36.680
+The point is we're using it to compress information.
+
+00:36.680 --> 00:41.080
+But something that I heard that's been really sticking with me
+
+00:41.080 --> 00:47.800
+is the idea that the brain doesn't process compressed information in the same way.
+
+00:47.800 --> 00:51.360
+And one of the things that we need to learn to think about
+
+00:51.360 --> 00:58.840
+is when do we want to tolerate less brain time on a subject
+
+00:58.840 --> 01:05.200
+versus when do we want to actually optimize our partnership with AI?
+
+01:05.200 --> 01:08.840
+So we spend more brain time marinating in what really matters.
+
+01:08.840 --> 01:12.680
+So a lot of the learning that you get,
+
+01:12.680 --> 01:18.000
+when you read a large book, a deep book on a big subject,
+
+01:18.000 --> 01:21.720
+it comes from your brain forming new connections
+
+01:21.720 --> 01:24.840
+as it spends extended time in the subject.
+
+01:24.840 --> 01:29.240
+If you get, and you can, a very short one-pager,
+
+01:29.240 --> 01:32.480
+you will get a precee, a summary,
+
+01:32.480 --> 01:35.840
+an executive briefing on the book.
+
+01:35.840 --> 01:39.520
+You are unlikely to have the kind of life-changing experience
+
+01:39.520 --> 01:41.920
+that you had if you really dipped into it.
+
+01:41.920 --> 01:45.480
+Now, there are people who will take that insight and say,
+
+01:45.480 --> 01:47.720
+wow, so AI is the problem.
+
+01:47.720 --> 01:53.400
+I actually think the way we use it is the problem.
+
+01:53.400 --> 01:55.680
+Not that it's bad to use it for compression.
+
+01:55.680 --> 01:58.280
+I too use it for adjusting my meeting notes.
+
+01:58.280 --> 02:02.240
+I too use it for sending different messages to different stakeholders
+
+02:02.240 --> 02:04.600
+for routine business communication.
+
+02:04.600 --> 02:08.880
+But if you need to do really deep thinking,
+
+02:08.880 --> 02:11.440
+you need to spend time on a subject.
+
+02:11.440 --> 02:15.200
+You need to optimize your cognitive workload
+
+02:15.200 --> 02:17.840
+to enable you to do your best thinking.
+
+02:17.840 --> 02:20.080
+And AI actually can really help with that.
+
+02:20.080 --> 02:23.080
+And I'll give you a specific example.
+
+02:23.080 --> 02:26.560
+I am contemplating writing a book on AI.
+
+02:26.560 --> 02:28.120
+Writing a book is a hard task.
+
+02:28.120 --> 02:30.160
+It's much harder, exponentially harder
+
+02:30.160 --> 02:32.520
+than a single article.
+
+02:32.520 --> 02:35.000
+It needs to be useful, especially with AI,
+
+02:35.000 --> 02:36.960
+some of the challenges in having something
+
+02:36.960 --> 02:39.080
+that stands the test of time, et cetera.
+
+02:39.080 --> 02:43.160
+And I find that when I'm contemplating writing a book,
+
+02:43.160 --> 02:47.000
+the thing that is most difficult for me,
+
+02:47.000 --> 02:49.040
+it's not the information compression.
+
+02:49.040 --> 02:51.960
+It's not that I need it to go out and tell me all the news
+
+02:51.960 --> 02:52.800
+about AI.
+
+02:52.800 --> 02:55.440
+I already get plenty of news, trust me.
+
+02:55.440 --> 02:58.400
+It's that I need to work with AI in a way
+
+02:58.400 --> 03:03.600
+that helps my brain expand and kick around the subject matter.
+
+03:03.600 --> 03:06.360
+And we don't really optimize for that
+
+03:06.360 --> 03:08.920
+when we only talk about prompting.
+
+03:08.920 --> 03:10.800
+Because prompting really optimizes
+
+03:10.800 --> 03:13.120
+for one way communication.
+
+03:13.120 --> 03:16.200
+Learning how to prompt well is a skill,
+
+03:16.200 --> 03:19.440
+but it's sort of like learning to write a bicycle
+
+03:19.440 --> 03:22.200
+versus learning to drive a car.
+
+03:22.200 --> 03:23.400
+Both are helpful.
+
+03:23.400 --> 03:25.000
+The car is going to take you farther
+
+03:25.000 --> 03:27.000
+if you learn how to do it well.
+
+03:27.000 --> 03:28.760
+And I think increasingly prompting
+
+03:28.760 --> 03:30.200
+is like the bicycle skill.
+
+03:30.200 --> 03:32.440
+It's an incredibly efficient if you master it.
+
+03:32.440 --> 03:34.280
+Everybody should know how to do it.
+
+03:34.280 --> 03:36.400
+It should be a universal skill.
+
+03:36.400 --> 03:38.200
+I do think we're going to need it for a while.
+
+03:38.200 --> 03:39.760
+I think it provides a durable edge
+
+03:39.760 --> 03:42.480
+if you can write well, if you can prompt well.
+
+03:42.480 --> 03:44.720
+And I love it.
+
+03:44.720 --> 03:48.080
+But if you can learn to actually cognitively partner
+
+03:48.080 --> 03:50.880
+beyond an individual prompt with AI,
+
+03:50.880 --> 03:52.360
+that's like driving a car.
+
+03:52.360 --> 03:54.280
+That's like actually going farther.
+
+03:54.280 --> 03:57.720
+And so in my case with the book, just a circle back,
+
+03:57.720 --> 04:02.720
+I spent 25 minutes in advanced voice mode
+
+04:03.520 --> 04:07.200
+talking with open AI.
+
+04:07.200 --> 04:09.280
+And it was, I think they used like a variant
+
+04:09.280 --> 04:12.320
+of their 40 model in advanced voice mode.
+
+04:12.320 --> 04:13.760
+And you might be waiting for me to say,
+
+04:13.760 --> 04:16.360
+I had the most profound insights.
+
+04:16.360 --> 04:17.760
+Like the AI really helped me.
+
+04:17.760 --> 04:19.920
+It really wasn't that.
+
+04:19.920 --> 04:22.440
+In fact, I sometimes told that this is really vanilla.
+
+04:22.440 --> 04:24.440
+I don't love this.
+
+04:24.440 --> 04:27.760
+What it was that was distinct and special
+
+04:27.760 --> 04:32.000
+was it was there when I needed to talk out loud.
+
+04:32.000 --> 04:34.480
+It would let me talk out loud for a while.
+
+04:34.480 --> 04:35.640
+It actually listened.
+
+04:35.640 --> 04:36.960
+It actually took notes.
+
+04:36.960 --> 04:40.880
+And it actually responded with just enough interest,
+
+04:40.880 --> 04:44.960
+engagement and riffing to keep my brain flowing.
+
+04:44.960 --> 04:47.200
+So I could keep the idea coming.
+
+04:47.200 --> 04:49.400
+Because I had an idea that I wanted to talk out.
+
+04:49.400 --> 04:53.640
+I knew I couldn't just dictate into the transcription device
+
+04:53.640 --> 04:55.840
+for 25 minutes and get it.
+
+04:55.840 --> 04:59.200
+But if I had someone talk back to me in the right cadence,
+
+04:59.200 --> 05:01.360
+I'd probably be able to fish it out of my brain
+
+05:01.360 --> 05:03.160
+because we're conversational people.
+
+05:03.160 --> 05:07.280
+And so a conversational AI was the right choice.
+
+05:07.280 --> 05:10.280
+In this case, advanced voice mode really has gotten better
+
+05:10.280 --> 05:14.400
+since they shipped that update that makes it, you know,
+
+05:14.400 --> 05:16.840
+more aware of when it interrupts you.
+
+05:16.840 --> 05:21.240
+It uses more discontinuities verbally like it just sounds
+
+05:21.240 --> 05:23.240
+more natural and it allows you to forget it's there
+
+05:23.240 --> 05:26.440
+and just focus on the subject, which is what I needed to do.
+
+05:26.440 --> 05:27.960
+That's just step one.
+
+05:27.960 --> 05:29.240
+I did the verbal piece.
+
+05:29.240 --> 05:33.320
+And then the second piece was I really needed to wrestle
+
+05:33.320 --> 05:37.160
+with what the terrain of the idea looked like.
+
+05:37.160 --> 05:40.240
+And I knew 40 wasn't strong enough to do it.
+
+05:40.240 --> 05:44.200
+And so instead of trying to force it inside that conversation,
+
+05:44.200 --> 05:47.800
+I literally pulled the transcript out into a Google doc
+
+05:47.800 --> 05:51.000
+and I stuck it into O3 as a raw transcript.
+
+05:51.000 --> 05:53.080
+And I said, this is a transcript.
+
+05:53.080 --> 05:54.960
+This is my perspective on the transcript.
+
+05:54.960 --> 05:57.200
+This was the intent I had with this idea.
+
+05:57.200 --> 06:00.880
+Really, this is where I iteratively arrived
+
+06:00.880 --> 06:03.320
+because I find that a lot of time when you're talking out loud,
+
+06:03.320 --> 06:05.840
+you're sort of naming the work as you go.
+
+06:05.840 --> 06:07.560
+And that's part of the cognitive journey
+
+06:07.560 --> 06:10.600
+that we've kept inside our heads for 200,000 years.
+
+06:10.600 --> 06:13.040
+And now we have a partner to do it with.
+
+06:13.040 --> 06:16.520
+And it's true that sometimes if you did paired work together
+
+06:16.520 --> 06:18.280
+with humans, you could kind of get to this.
+
+06:18.280 --> 06:22.120
+But I actually think it's a distinct dynamic with AI.
+
+06:22.120 --> 06:25.440
+I have not worked, and I have worked in offices.
+
+06:25.440 --> 06:27.040
+I've worked in person with teams.
+
+06:27.040 --> 06:28.120
+I love that dynamic.
+
+06:28.120 --> 06:30.880
+I don't want it to go away when we work well together
+
+06:30.880 --> 06:33.520
+with good human colleagues.
+
+06:33.520 --> 06:36.560
+But it's not the same as a good AI colleague,
+
+06:36.560 --> 06:40.480
+an AI colleague that you can brainstorm with in that way,
+
+06:40.480 --> 06:43.160
+where they listen and just riff with you.
+
+06:43.160 --> 06:46.560
+It's like this crossover between the way a therapist listens
+
+06:46.560 --> 06:48.120
+to you and the way a colleague listens to you,
+
+06:48.120 --> 06:50.480
+and you'd never expect a human to do that.
+
+06:50.480 --> 06:52.600
+But it's super helpful for your thinking.
+
+06:52.600 --> 06:53.360
+So we do that.
+
+06:53.360 --> 06:54.480
+We name the work.
+
+06:54.480 --> 06:58.000
+We get to O3 through the Google Doc.
+
+06:58.000 --> 07:00.360
+O3, and honestly, it's not just O3.
+
+07:00.360 --> 07:02.400
+I don't want to just rep open AI here, right?
+
+07:02.400 --> 07:07.920
+Like you can go and do this in Opus, the Cloud Model, Opus 4.
+
+07:07.920 --> 07:10.320
+You could do this in Gemini 2.5 Pro.
+
+07:10.320 --> 07:11.720
+You'd get similar results.
+
+07:11.720 --> 07:18.080
+The idea is you want to think deeply and critique
+
+07:18.080 --> 07:23.280
+the model results that you get from the 4.0 conversation.
+
+07:23.280 --> 07:27.280
+Basically, take my intent, take what I was able to articulate,
+
+07:27.280 --> 07:30.680
+take the riffing that Advanced Voice Mode did,
+
+07:30.680 --> 07:33.480
+and help me get to a crystal clear understanding
+
+07:33.480 --> 07:35.840
+of the heart of the idea.
+
+07:35.840 --> 07:37.280
+That's what you want in the next step.
+
+07:37.280 --> 07:40.200
+It's basically help me to define the coordinates
+
+07:40.240 --> 07:43.920
+of the terrain that I'm in, now that I've named the work.
+
+07:43.920 --> 07:46.880
+And once we do that, this sky becomes the limit.
+
+07:46.880 --> 07:49.080
+We can open up to understanding what
+
+07:49.080 --> 07:52.000
+are the partnership dynamics that work from here.
+
+07:52.000 --> 07:54.600
+So as a specific example, I thought
+
+07:54.600 --> 07:59.360
+O3 did a good job getting to the heart of the thesis
+
+07:59.360 --> 07:59.960
+for the book.
+
+07:59.960 --> 08:02.760
+I thought the outline felt a little bit heavy.
+
+08:02.760 --> 08:04.720
+I need to go into a different model.
+
+08:04.720 --> 08:07.640
+I'll probably choose Opus 4 for this
+
+08:07.640 --> 08:09.440
+to start to refine what that looks
+
+08:09.480 --> 08:10.560
+like a little bit more.
+
+08:10.560 --> 08:13.560
+I need to pick a different cognitive partner.
+
+08:13.560 --> 08:16.000
+And if you're wondering, how do I pick models?
+
+08:16.000 --> 08:17.680
+I put a whole thing up on subsdeck
+
+08:17.680 --> 08:20.040
+on how I sort of pick models for different tasks.
+
+08:22.280 --> 08:25.960
+To me, I think the piece that I keep coming back to,
+
+08:25.960 --> 08:28.920
+stepping back, reflecting on all of this,
+
+08:28.920 --> 08:32.640
+is that I find the most value.
+
+08:32.640 --> 08:34.480
+This is real expense, right?
+
+08:34.480 --> 08:38.080
+I'm on pro subscribers to open it, right?
+
+08:38.080 --> 08:40.320
+Like I pay my 200 bucks a month.
+
+08:40.320 --> 08:42.040
+Not everybody has to, I don't think you have to
+
+08:42.040 --> 08:43.280
+to go ton of value out of it.
+
+08:43.280 --> 08:45.160
+I saw the article that said is free,
+
+08:45.160 --> 08:46.680
+so good that you don't need plus.
+
+08:46.680 --> 08:48.880
+I think for a lot of people it is.
+
+08:48.880 --> 08:53.880
+But for me, whatever your investment level is in AI,
+
+08:54.920 --> 08:58.680
+the value you get is so much greater
+
+08:58.680 --> 09:01.280
+if you use it in this way.
+
+09:01.280 --> 09:05.520
+As a way of giving your brain time on subject,
+
+09:05.520 --> 09:08.800
+optimizing for time on subject,
+
+09:08.800 --> 09:13.320
+versus optimizing for just compressing
+
+09:13.320 --> 09:15.560
+and repurposing information.
+
+09:15.560 --> 09:18.080
+Most of the use cases I see from companies
+
+09:18.080 --> 09:20.680
+if they are not super fluent in AI,
+
+09:20.680 --> 09:22.520
+end up being around compressing
+
+09:22.520 --> 09:24.600
+and repurposing information, which is fine.
+
+09:24.600 --> 09:26.920
+There are some cost savings there.
+
+09:26.920 --> 09:28.680
+But helping your brain work better
+
+09:28.680 --> 09:31.440
+has a lot more upside over time.
+
+09:31.440 --> 09:35.960
+And I think we talk about it a whole lot less.
+
+09:35.960 --> 09:39.120
+And I wish we would talk about it more.
+
+09:39.120 --> 09:41.080
+I wish we would not get so far
+
+09:41.080 --> 09:43.200
+into the compression trap that we don't think
+
+09:43.200 --> 09:46.960
+about this idea that AI can help us map
+
+09:46.960 --> 09:50.000
+and expand the cognitive territory that we work in
+
+09:50.000 --> 09:54.120
+by partnering with us in a way that is somewhat reminiscent
+
+09:54.120 --> 09:56.560
+of what we would do with a human, but also distinct.
+
+09:56.560 --> 10:00.120
+I also, just as I said, I wouldn't ask a human
+
+10:00.120 --> 10:02.280
+to do the kind of listening that I asked
+
+10:02.280 --> 10:04.160
+advanced voicemode to do.
+
+10:04.160 --> 10:06.760
+I also wouldn't really ask a human to work
+
+10:06.760 --> 10:10.080
+on sharpening my thesis for an outline
+
+10:10.080 --> 10:11.800
+the way I would ask a three to do it.
+
+10:12.760 --> 10:16.840
+I wouldn't ask a human to go and like necessarily do
+
+10:16.840 --> 10:19.320
+the research and do the thinking
+
+10:19.320 --> 10:21.920
+and the, for lack of a better term,
+
+10:21.920 --> 10:25.920
+cognitive shaping on the thesis with me,
+
+10:25.920 --> 10:28.280
+it's not just doing it on its own,
+
+10:28.280 --> 10:31.000
+that I would ask of Opus 4.
+
+10:31.000 --> 10:33.000
+Opus 4 is great for shaping ideas
+
+10:33.000 --> 10:34.840
+and really thinking through concepts.
+
+10:34.840 --> 10:37.760
+And so I'm finding in a sense that my brain
+
+10:37.760 --> 10:41.080
+is able to think better by spending more time
+
+10:41.080 --> 10:44.760
+with AI models if they're carefully modulated.
+
+10:44.760 --> 10:46.920
+It's not just throwing prompts in there.
+
+10:46.920 --> 10:49.640
+There's no secret prompt to this.
+
+10:49.640 --> 10:52.440
+It's deciding the kind of task I need
+
+10:53.440 --> 10:57.440
+and then making sure that I approach AI
+
+10:59.520 --> 11:04.520
+and ask myself what is the model that I can choose
+
+11:05.440 --> 11:09.440
+that will most help me to optimize
+
+11:09.440 --> 11:12.280
+for getting my brain deeply into the subject matter
+
+11:12.280 --> 11:15.680
+so that I become someone who truly understands it.
+
+11:15.680 --> 11:18.600
+That in and of itself is opposed to.
+
+11:18.600 --> 11:22.040
+It's antithetical to this idea
+
+11:22.160 --> 11:25.640
+that AI lets you go cheap on your brain, right?
+
+11:25.640 --> 11:27.200
+It lets you skip the brain power,
+
+11:27.200 --> 11:28.400
+it lets you not do the work,
+
+11:28.400 --> 11:31.480
+it lets you read the one page or not the full book.
+
+11:31.480 --> 11:32.560
+I don't think it has to.
+
+11:32.560 --> 11:34.880
+I think it can actually help you to think better.
+
+11:34.880 --> 11:39.560
+I find it does, but it's how you use it.
+
+11:39.560 --> 11:41.840
+And it's not to say at all that like, again,
+
+11:41.840 --> 11:44.320
+I started this by saying I use the compression stuff too.
+
+11:44.320 --> 11:45.800
+I think we all do, we all will.
+
+11:45.800 --> 11:47.240
+It helps us save time.
+
+11:47.240 --> 11:50.520
+It's about knowing when to sort of pull the thinking button
+
+11:50.520 --> 11:53.160
+and say I want to use this to actually expand my time
+
+11:53.160 --> 11:55.640
+thinking about this because this is really important.
+
+11:55.640 --> 11:59.320
+This is work that needs and deserves the cream of my brain
+
+11:59.320 --> 12:02.000
+and I need to orient my approach to AI
+
+12:02.000 --> 12:05.920
+so that I can spend more time marinating
+
+12:05.920 --> 12:07.520
+on this in a way that works for my brain.
+
+12:07.520 --> 12:09.680
+And part of why there's no magic prompt for this
+
+12:09.680 --> 12:12.160
+is our brains are wired pretty uniquely.
+
+12:12.160 --> 12:16.040
+The way I choose to like walk around and talk
+
+12:16.040 --> 12:19.080
+and like talk my ideas out loud may not work for everybody.
+
+12:19.080 --> 12:22.000
+There are people for whom they need to write it out by hand.
+
+12:22.000 --> 12:24.000
+Take a picture of it, get a transcription
+
+12:24.000 --> 12:27.600
+and maybe that's the way they start.
+
+12:27.600 --> 12:29.200
+I think your mileage is going to vary
+
+12:29.200 --> 12:32.520
+because your brain varies, but the concept of optimizing
+
+12:32.520 --> 12:34.920
+for having your brain in the subject
+
+12:34.920 --> 12:38.480
+is something that allows us to view AI as an expander
+
+12:38.480 --> 12:40.640
+not just as a compression tool.
+
+12:40.640 --> 12:44.520
+It's something that optimizes for what we can create
+
+12:44.520 --> 12:47.800
+not just how we can cut costs by compressing information,
+
+12:47.800 --> 12:49.000
+even if that's useful.
+
+12:49.040 --> 12:50.760
+So thinking about this was helpful for me.
+
+12:50.760 --> 12:52.640
+I hope it kind of turns the wheels for you
+
+12:52.640 --> 12:55.600
+maybe helps you think about AI a bit differently
+
+12:55.600 --> 12:57.600
+and try out advanced voice mode, it's fun.
+

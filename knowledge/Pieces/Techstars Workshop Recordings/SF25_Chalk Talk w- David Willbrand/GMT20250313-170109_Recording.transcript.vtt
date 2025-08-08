@@ -1,0 +1,3882 @@
+WEBVTT
+
+1
+00:00:00.220 --> 00:00:27.129
+George Haikal: Thank you for being here. Hello, everybody! This is the difference between being a lawyer and showing free and being a lawyer and charging you a thousand dollars, you would have been much more on the spot, I'm sure. And then you would have said, Can we do this in 6 min?
+
+2
+00:00:27.500 --> 00:00:37.357
+George Haikal: Alright, so this is our chalk talk. We David has kindly done this for us in one of program since I started at techstars.
+
+3
+00:00:37.830 --> 00:01:00.550
+George Haikal: It's a really great way to think about longer term understanding of how different funding mechanisms will affect your be will affect your your business longer term. Really, really talking shop? Ask lots of questions. This is a really really phenomenal visual representation of how things are going to work out in the long term. Lots of colorful. We've got lots of whiteboards.
+
+4
+00:01:00.570 --> 00:01:26.350
+George Haikal: Thanks, yes, frustrated artist, this is my way to demonstrate. So my name is David Wilbrand. I have been doing this talk with various techstars cohorts for probably 15 years. I did it with Chicago for a long time. Detroit. Their programs come in and out, did it in Kansas City once done it in New York, and I've been here today since techstars
+
+5
+00:01:27.050 --> 00:01:35.066
+George Haikal: set its foundation here. I'm also an eir with the program. So we're gonna get to spend a lot of time together. So
+
+6
+00:01:35.630 --> 00:01:51.744
+George Haikal: If you enjoy the next hour and a half with me. That's a good sign for the next several weeks, if you don't enjoy the next hour and a half week with me. Well, I apologize, but there's just gonna be a lot more. So I can't. You know. Sometimes in life there are challenges and obstacles that we need to work.
+
+7
+00:01:52.540 --> 00:02:10.569
+George Haikal: I graduated from law school in 1996, very long time ago, and I have been practicing law in this area ever since to sort of set the stage a little bit. Does anybody know what happened this week? 25 years ago?
+
+8
+00:02:12.810 --> 00:02:16.110
+George Haikal: Who's younger than 25? By the way, okay.
+
+9
+00:02:16.460 --> 00:02:25.280
+George Haikal: yeah. So before you were born 25 years ago. Yeah, yes, I absolutely know. Tell me
+
+10
+00:02:25.580 --> 00:02:30.230
+George Haikal: the Nasdaq. It's it's all time high of the time.
+
+11
+00:02:30.760 --> 00:02:36.452
+George Haikal: Wow, yes, yes.
+
+12
+00:02:41.528 --> 00:02:49.800
+George Haikal: right for them to say, absolutely.
+
+13
+00:02:50.020 --> 00:03:01.530
+George Haikal: I'm pretty sure that's correct. So this was a way of putting it is. This was when.com bubble burst 25 years ago this week. What else happened 25 years ago this week
+
+14
+00:03:02.670 --> 00:03:04.089
+George Haikal: I joined a.com.
+
+15
+00:03:04.680 --> 00:03:29.340
+George Haikal: So follow me for more clear advice. I was a lawyer. Yeah, that's definitely not a fist pump that's that's more weeping than gnashing of teeth. And nobody wants to see that I left my law firm job and joined a joined a.com this week 25 years ago. My 1st week
+
+16
+00:03:29.570 --> 00:03:47.019
+George Haikal: we were meeting with Goldman Sachs to talk about our Ipo. We had no business model. We had no revenue. We didn't even know what things like product market fit Tam. We didn't know what that was. We had a website that was really had a lot of eyeballs. Those were the things that people looked to.
+
+17
+00:03:47.020 --> 00:04:02.645
+George Haikal: And so we started. My 1st week we were talking about the Ipo. By the time one year passed we were raising money at a 5 million dollar valuation from friends and family, and that valuation was probably $4,999,999 too high.
+
+18
+00:04:03.380 --> 00:04:19.190
+George Haikal: And I left that company. I joined A. b 2 b Saas Company. That was before. We use phrases like B, 2 B and Sas, and it's called an application service provider in asp, which is a lot less fun, and certainly doesn't include words like cloud. I did that for 3 years.
+
+19
+00:04:19.190 --> 00:04:43.930
+George Haikal: I joined that company when it was 115 employees, and I was supposed to be the Gc. And take it public. I wrote it down to 15 employees, was able to not only be the Clo, but I was also the Cfo. I was the Chro. I was the Chief business development officer. I made coffee. I made sure that the machine worked. I did all those sorts of things, and then rejoined, a law firm was there for
+
+20
+00:04:43.930 --> 00:04:48.669
+George Haikal: long time. And then what happened around this time 4 years ago?
+
+21
+00:04:49.900 --> 00:04:54.430
+George Haikal: But you know, sort of April this timeframe. 2021.
+
+22
+00:04:55.160 --> 00:05:04.250
+George Haikal: Oh, yeah. End of the Zerp era. So that was when you know the good times the the hot Bull Market crashed. You know what else happened
+
+23
+00:05:04.380 --> 00:05:06.540
+George Haikal: 4 years ago. Around this time
+
+24
+00:05:07.090 --> 00:05:17.682
+George Haikal: I left my law firm job, and I joined Picasso. So again, if I were here to talk about career, instruction and advice, you should leave
+
+25
+00:05:18.300 --> 00:05:26.992
+George Haikal: Fortunately, that's not my area of subject matter. Expertise. Clearly, you say but I've been at Picasso for the last 4 years.
+
+26
+00:05:27.530 --> 00:05:29.820
+George Haikal: Picasso is a prop tech
+
+27
+00:05:29.910 --> 00:05:59.679
+George Haikal: company. We are in the real estate space, and we facilitate second home ownership through the use of technology. We are a hard asset company. We actually run and sell real estate. And we also are a tech company. We wrap it in some fairly elaborate and sophisticated technology. We've raised 3 rounds of venture capital series A, B and C approximately 250 million dollars in total, we've raised about a billion dollars in debt capital.
+
+28
+00:05:59.950 --> 00:06:15.670
+George Haikal: We put all that to work. We have seen the economy go like this, and we've seen the economy go like that in the this phase, which hopefully, we're starting to come out of, we've got much better. Operationally, we've gotten much better in terms of getting a sense of our
+
+29
+00:06:15.670 --> 00:06:38.260
+George Haikal: of our who our customer is, and what our product really is, and what our Pmf really is, and what our channel is, what our unit economics really are. And all those things that you're gonna be working on over the next several weeks. That's what we've been doing in Paso, really honing and refining because it's no longer an era of just go go grow, grow money things. We're we're past that but it's better.
+
+30
+00:06:38.300 --> 00:07:00.739
+George Haikal: And I'm pleased to say that I'm pleased to say that we're still in business. Finally, to the extent that you're interested. If any of you want to talk about it. We're actually in the process of raising money under regulation A, which is a form of crowdfunding. There are 2. If you've done anything around capital formation and fundraising. We'll talk about some of this shortly. You've probably heard of. Break the
+
+31
+00:07:01.120 --> 00:07:09.878
+George Haikal: regulation D, which is the the tried and true securities, exemptions that companies like yours tend to rely on when you're fixing capital.
+
+32
+00:07:11.100 --> 00:07:29.329
+George Haikal: that shows up with a safe. It shows up with the verbal notes it shows up with. See preferred. It shows up a series of they're great. They're great exemptions. And they work really, really well. When Congress passed the Jobs Acts 1012 years ago they added regulation cf.
+
+33
+00:07:29.330 --> 00:07:44.409
+George Haikal: which now lets you raise up to about 5 million dollars through classic crowdfunding. And then what they did is they also enhanced, and they tinkered with something called regulation, a, that depending upon which aspect of regulation a you use. And we're using tier 2,
+
+34
+00:07:44.410 --> 00:08:01.949
+George Haikal: you can raise up to 75 million dollars. And that's what we're in. The process of doing. It makes you sort of a quasi public quasi private company, which is an interesting process, but it's been. It's been a fun journey and a fun experiment for us. I've never done one of these before, and so I'd be happy to talk with any of you if you're interested in that
+
+35
+00:08:02.080 --> 00:08:11.750
+George Haikal: mechanism for raising capital. So before we jump in, you're like, I thought we were jumping in. This is a really long presentation, Buddy.
+
+36
+00:08:12.070 --> 00:08:22.860
+George Haikal: I used to just start talking, and you know no one loves the sound of their own voice more than I do. So I really appreciate the opportunity to just talk. But over time I realized,
+
+37
+00:08:23.730 --> 00:08:51.069
+George Haikal: gee, this isn't for me. This is for you, and maybe I'd ask the audience actually what they want to learn about. That was a bracing insight that I had but I absorbed it. And so I want to open the open the floor. I'm pretty sure this has been my experience that no one founds a company starts a company, becomes becomes an entrepreneur, because they say to themselves, you know, in my corporate job
+
+38
+00:08:51.160 --> 00:09:20.269
+George Haikal: I just haven't had the opportunity to get close enough to a cap table. I haven't had a real reason to really understand how a safe works and how it's different from a note. And what does it mean to have a price round, and and what is what is capital formation and and valuation? I just maybe I'll just like make up an AI company so that I have an excuse to like. Learn about these sorts of things. If that's you, you are my person.
+
+39
+00:09:20.690 --> 00:09:33.029
+George Haikal: If it's not you, and I suspect it's not. You started a company for lots of other really good reasons. Those aren't any of the reasons why you did. But you realize, and I'm sure at this point that that's important information.
+
+40
+00:09:33.030 --> 00:09:56.310
+George Haikal: And it's just part of the process about being an entrepreneur and being a founder. You've got to have at least some surface understanding of these sorts of concepts and issues because it gets to the guts of the matter. You know, you're trying to solve a problem. You're trying to add value. You're trying to build something that has some sense of legacy for you and changes. It's innovative and disruptive. And that's what this is really all about.
+
+41
+00:09:56.310 --> 00:10:17.800
+George Haikal: But there's nothing wrong with at the end of the day, you know, wanting to walk away with, you know at least a little bit of money for your trouble, and part of what this talk is about is ensuring that you understand how that aspect of the company works and the financials work, so that you can have enough insight to kind of track where you sit and what you're doing, and how the process is unfolding. So with that, as the actual privilege
+
+42
+00:10:18.221 --> 00:10:22.440
+George Haikal: does anybody have anything that they want to make sure that we talk about today?
+
+43
+00:10:23.480 --> 00:10:25.260
+George Haikal: Yes.
+
+44
+00:10:30.110 --> 00:10:33.160
+George Haikal: I don't know what else. In short, I'll
+
+45
+00:10:33.840 --> 00:10:35.660
+George Haikal: yeah, how how- how to let it.
+
+46
+00:10:36.210 --> 00:10:40.080
+George Haikal: How it fits in with what?
+
+47
+00:10:40.220 --> 00:10:52.310
+George Haikal: What? How do you get like that? Yeah, that gets right to it. Yes, all right. You saw. Did you watch the social network last night or something?
+
+48
+00:10:52.540 --> 00:10:57.730
+George Haikal: Okay, that's a good question. Yeah, yeah.
+
+49
+00:10:57.850 --> 00:11:04.390
+George Haikal: average terms for like functions like, what are the valuations? What are the
+
+50
+00:11:09.630 --> 00:11:21.599
+George Haikal: sell a company? And what are like the industry like is that bad? Are you getting leverage? Kind of have an understanding of like
+
+51
+00:11:21.930 --> 00:11:26.669
+George Haikal: what? And then they offer algorithms.
+
+52
+00:11:32.620 --> 00:11:35.140
+George Haikal: oops, jerks.
+
+53
+00:11:36.180 --> 00:11:52.520
+George Haikal: company evaluation. Maybe we don't think we have any systematic way of like evaluating company. How we can see the value of your company. So this type of like negotiation
+
+54
+00:11:52.630 --> 00:11:53.770
+George Haikal: sounds good.
+
+55
+00:11:55.410 --> 00:12:09.069
+George Haikal: How else we can balance venture capital with other forms of capital in the sense like, can you pay around with maybe some like typical back loans could you use like a contract
+
+56
+00:12:10.130 --> 00:12:14.060
+George Haikal: back and get no money in immediately, like those kind of
+
+57
+00:12:14.420 --> 00:12:15.900
+George Haikal: there's creative ways to get it?
+
+58
+00:12:19.230 --> 00:12:28.470
+George Haikal: Good questions, helpful questions. Yeah.
+
+59
+00:12:29.870 --> 00:12:30.540
+George Haikal: Yeah.
+
+60
+00:12:32.160 --> 00:12:41.599
+George Haikal: Thinking with you. Now, from other accelerators, slash indicators calls, yep.
+
+61
+00:12:41.740 --> 00:12:45.009
+George Haikal: how to do this. If we are going to do it.
+
+62
+00:12:45.710 --> 00:12:51.049
+George Haikal: Yep, yep, happens a lot.
+
+63
+00:13:08.950 --> 00:13:12.000
+George Haikal: Yep, yep, good question.
+
+64
+00:13:12.510 --> 00:13:14.610
+George Haikal: It's a thoughtful group. Anything else.
+
+65
+00:13:15.730 --> 00:13:21.720
+George Haikal: maybe, like benchmarks that like how much I think it's too much
+
+66
+00:13:25.010 --> 00:13:27.649
+George Haikal: questions. Yep, anything else?
+
+67
+00:13:28.710 --> 00:13:33.209
+George Haikal: Okay, great. So I hope we packed a lunch because we're gonna be here for 6 h.
+
+68
+00:13:33.400 --> 00:13:37.059
+George Haikal: But let's let's jump into it. So
+
+69
+00:13:37.160 --> 00:13:57.069
+George Haikal: really good questions, we will get to all of that over the course of the next 9 min. I'm also happy to stick around. I've got some time that I built into my schedule today. So if you have some one off questions like, I hate my founder, what's the best way to get rid of them. Let's not put that forward to the people here. It becomes really awkward to have that kind of.
+
+70
+00:13:57.070 --> 00:14:11.589
+George Haikal: you know. You know, real housewives of Salt Lake City stuff happened in real time. We can. We can talk about that by the coffee machine. But if you do have other more generic questions like these, of general applicability, you know. Raise your hand and stop me a long way.
+
+71
+00:14:12.760 --> 00:14:38.720
+George Haikal: we're going to start super basic it may be so basic that all of you already know this stuff, but just kind of bear with me because you don't want to. I don't want to start moving too quickly, and and having left out certain foundational peers, find out that there are people that we lost along the way. I gave a very intense venture. Capital talk. Once I was about 2 and a half hours into it. I was talking about
+
+72
+00:14:38.730 --> 00:14:49.620
+George Haikal: weighted average anti dilution protection, which is a deeply esoteric and highly technical point that hopefully, none of you will ever have to deal with. And someone raised their hand, and they said.
+
+73
+00:14:49.810 --> 00:15:01.510
+George Haikal: what is stock? Okay? So roll back the last 120 min. And maybe we can start from basic. So I learned, so
+
+74
+00:15:02.350 --> 00:15:05.979
+George Haikal: a couple of quick things. Here's my email address.
+
+75
+00:15:06.900 --> 00:15:12.859
+George Haikal: Feel free to always hit me up at david@picasso.com.
+
+76
+00:15:13.040 --> 00:15:24.893
+George Haikal: I don't make much, but I do have a 1st name email address, which proves that I'm an Og, and you know why else work with a startup unless you can get that kind of nomenclature. That's the whole point.
+
+77
+00:15:25.900 --> 00:15:28.350
+George Haikal: I wrote a book called Seed Deals.
+
+78
+00:15:28.520 --> 00:15:31.060
+George Haikal: which is based on a version of this talk.
+
+79
+00:15:32.670 --> 00:15:36.570
+George Haikal: Just expanded, includes more things around stock options and
+
+80
+00:15:36.720 --> 00:15:50.775
+George Haikal: Usps global 2, those sorts of issues, covers a lot of items that we're not going to be able to get to today. It definitely. The fact that it sort of is close to venture deals is not an accident.
+
+81
+00:15:51.110 --> 00:16:07.911
+George Haikal: part of the idea was, you know, venture deals is kind of a classic book in the space. But I wanted to give a little bit more attention to what happened in the phase before that, and also just make things a little simpler. For newbies. And so that's what I tried to do there. The real reason I wrote C. Deals was
+
+82
+00:16:08.500 --> 00:16:18.886
+George Haikal: It was during Covid. I was tired of just doing nothing but watching Netflix and wiping down my Amazon packages. I was getting sick of my family, and I needed a distraction, and so I wrote a book.
+
+83
+00:16:19.450 --> 00:16:22.729
+George Haikal: don't tell them, I said, that although I think we need to be removed so
+
+84
+00:16:23.040 --> 00:16:33.512
+George Haikal: and this is why I'm on my second marriage. So again follow me for more life tips. I'm really setting myself up. This is not how you build credibility with the audience.
+
+85
+00:16:33.920 --> 00:17:01.420
+George Haikal: I also teach a startups class and a venture class at the University of Michigan Law School. I put that up there. If there are any wolverines in the room. Hello! Who's that? Yeah, yeah. I took Latin in college, and the very 1st lecture, Professor, said something about Cincinnatus, or, as he said, and I was like, Oh!
+
+86
+00:17:01.500 --> 00:17:12.213
+George Haikal: And he was like, Oh, you know about Pikinachis, I was like, no, I've never heard them back from Cincinnati, and he was so disappointed. It's not a great, it's not a great 1st impression.
+
+87
+00:17:12.720 --> 00:17:27.300
+George Haikal: but I I raised this to note that every week on Linkedin. I create a summary of my lecture notes, and you can. You can sort of back search. Those. Linkedin is terrible with, you know, kind of searching hashtags. But
+
+88
+00:17:27.420 --> 00:17:45.959
+George Haikal: you can go into my profile or you can try. You know, hashtag, Ew, Prof. But I I provide a lot of information around startup issues, venture issues and feel free to follow me there and maybe pick up some more information. So, getting into this a little bit, I think it's always helpful to start with a balance sheet
+
+89
+00:17:47.080 --> 00:17:59.019
+George Haikal: balance sheets, assets on the left, liabilities over equity on the right. If we express it as an equation, it looks like this assets equal liabilities plus equity.
+
+90
+00:17:59.380 --> 00:18:20.230
+George Haikal: If we really exercise our stem muscles and engage in some radical algebraic maneuvers, we can move the liabilities to the left. So we have assets minus liabilities. Equity. Why is this important? Well, it's important, because this gets to the final phase of the game one of our ultimate points of aspiration which is exit.
+
+91
+00:18:22.070 --> 00:18:26.270
+George Haikal: and more
+
+92
+00:18:27.330 --> 00:18:38.216
+George Haikal: call them operating businesses, main street businesses, small businesses. Sometimes people call them lifestyle companies. I never like that expression, because it suggests they're easy. They're not
+
+93
+00:18:38.840 --> 00:19:07.879
+George Haikal: But there's this this kind of mechanic or this kind of outline of what happens inside the balance sheet is more relevant on a day-to-day basis, because they may be making distributions or paying out dividends or otherwise releasing cash from the mothership into the hands of the stakeholders on a day-to-day week to week, month to month, quarter quarter basis. That's of course, not the way things go in Startup Land and Startup Land is relevant to us because this is functionally what happens in an M and a transaction?
+
+94
+00:19:07.880 --> 00:19:09.640
+George Haikal: There are 2 ways.
+
+95
+00:19:09.900 --> 00:19:22.510
+George Haikal: fundamentally, that you are going to exit, or that you are going to achieve a point of liquidity for your investors. One. It's rare, but it happens sometimes is an Ipo.
+
+96
+00:19:22.710 --> 00:19:27.790
+George Haikal: an initial public offering. That's not so much an exit as it is a transformation.
+
+97
+00:19:28.970 --> 00:19:40.639
+George Haikal: What happens with an Ipo is you go from being a privately held company which you are today? Which is a very efficient and very effective means by which
+
+98
+00:19:40.640 --> 00:20:02.519
+George Haikal: you can operate in compliance with the corporate laws and with the relevant securities laws. You can build your business, you can raise capital, and you can do so relatively easily. No must, no fuss. The downside is is that there are heavy restrictions on your ability to market and sell your securities to the public
+
+99
+00:20:02.961 --> 00:20:12.440
+George Haikal: to classic retail investors. And that's fine when you are preced seed series. ABC, but there comes a point in time where the company is so large
+
+100
+00:20:12.800 --> 00:20:16.800
+George Haikal: that the investors, the existing stockholders, want the chance to sell their stock.
+
+101
+00:20:16.900 --> 00:20:23.170
+George Haikal: and you, as a company want the opportunity to raise capital in huge blocks.
+
+102
+00:20:23.270 --> 00:20:36.069
+George Haikal: and to do so from retail investors and an initial public offering to do that. It's the means by which you go from being a privately held company to being a publicly traded company ticker symbol. You're on the Nasdaq or the New York Stock exchange
+
+103
+00:20:36.070 --> 00:20:55.069
+George Haikal: it comes with. It's a lot of overhead, a lot of administrative headaches. There's a lot of back office work that needs to be done, a lot of compliance work that needs to be done. This is oftentimes perceived as as the brass ring, and that's a great. It's a great transition, a great transformation that's taking place at that point in time. Once you become a public company, your existing stakeholders, including you.
+
+104
+00:20:55.420 --> 00:21:02.860
+George Haikal: have an opportunity to sell your stock and actually get some money for the time and energy that you put into this thing. But
+
+105
+00:21:03.230 --> 00:21:15.440
+George Haikal: 99.9 9% of the time the way exit is achieved is through M and a mergers and acquisitions. You sell your company. Okay? Instagram sells Meta, so on and so forth.
+
+106
+00:21:15.914 --> 00:21:20.870
+George Haikal: You are a big fish, and you get swallowed up by a bigger fish.
+
+107
+00:21:21.010 --> 00:21:26.619
+George Haikal: M. And a transactions are legally intense.
+
+108
+00:21:26.720 --> 00:21:54.910
+George Haikal: financially intense. They can take lots of different forms. I used to teach M. And A. It was a 3 credit hour class, and we spent 12 weeks digging into the details and even then only scratched the surface. I'm going to do it in 30 seconds. So this is even 30,000 feet. This is like at the level of the upper atmosphere of the earth. What functionally and fundamentally happens in an M. And a transaction is, you are selling your assets to a whale. This is going to be my effort to draw a whale
+
+109
+00:21:55.380 --> 00:21:57.670
+George Haikal: sort of well.
+
+110
+00:21:58.020 --> 00:22:15.820
+George Haikal: yeah, it's it's it's such a big whale. It goes for infinity. Apparently. So again, not great at career stuff not really great at like relationships, and and my artwork is suspect. But I promise that that I'm good at the legal stuff.
+
+111
+00:22:16.120 --> 00:22:41.459
+George Haikal: You have no reason to believe me, but I'm going to go with your approach. Absolutely good at the legal stuff. So you sell all the good stuff to the whale. You know the assets are what you think the assets are. It's your intellectual property, it's your customers, it's cash on hand, etc, etc, etc. All the good stuff you're selling to a whale. The whale is swallowing it, the liabilities, all bad stuff. Okay.
+
+112
+00:22:42.770 --> 00:22:50.930
+George Haikal: It's what you owe your employees and your contractors, your landlord, your lawyers, your accountants. Okay, the bank.
+
+113
+00:22:51.770 --> 00:22:55.470
+George Haikal: when you take the gross, proceeds
+
+114
+00:22:58.870 --> 00:23:01.660
+George Haikal: that the whale gives you for your assets.
+
+115
+00:23:02.390 --> 00:23:05.320
+George Haikal: and then you take from those gross proceeds.
+
+116
+00:23:05.780 --> 00:23:13.119
+George Haikal: you reduce those gross proceeds by the amount of the liabilities you pay those off. Your net proceeds
+
+117
+00:23:15.140 --> 00:23:23.470
+George Haikal: Gross proceeds. None of your liabilities, your net proceeds are available for distribution to those parties
+
+118
+00:23:23.650 --> 00:23:31.189
+George Haikal: who have claims on equity. Who are those people, you among others? Okay, the owners.
+
+119
+00:23:33.050 --> 00:23:55.080
+George Haikal: And so the question is, is who gets what right. So you've reached the end of the line. Year 2 year 3 year 7 year 12. Whatever it is, if there's 1 owner solo founders still never raise capital. It's pretty easy. Okay, they get 100% of the proceeds. But what if there are 2 stakeholders? What if there are 12. What if they're 100? What if there are 2,000?
+
+120
+00:23:55.680 --> 00:24:17.329
+George Haikal: How do we know who gets what? Who gets? What allocation of the net proceeds? And it's pretty important, right? This is why you're in the deal. This is why those other investors are in the deal. That's why those employees who have an equity stake in the deal. They want to have a portion of net proceeds, and this is why we place so much emphasis on maintaining a true, accurate and complete cap table.
+
+121
+00:24:19.830 --> 00:24:33.969
+George Haikal: Okay, cap table is short for capitalization table. You can tell that it's owned by lawyers and accountants because they exercise their creativity by cutting off capitalization made in a cap table. Brilliant brand name. It's about as good as we get
+
+122
+00:24:34.890 --> 00:24:38.769
+George Haikal: very simple cap table, which you probably started with.
+
+123
+00:24:39.450 --> 00:24:42.339
+George Haikal: You have founder A, B and C,
+
+124
+00:24:42.910 --> 00:24:46.789
+George Haikal: you have common shares here. Put a PIN in that. We'll come back to it.
+
+125
+00:24:46.940 --> 00:24:48.770
+George Haikal: You have ownership percentage.
+
+126
+00:24:49.240 --> 00:24:59.479
+George Haikal: Add ultimately whether you did so intentionally or unintentionally, accidentally or otherwise, you started with the ownership percentage column
+
+127
+00:25:00.750 --> 00:25:02.709
+George Haikal: has to add up to a hundred percent.
+
+128
+00:25:03.780 --> 00:25:11.530
+George Haikal: no matter how much effort. You give some respects to 0, some game, a hundred percent. And you allocated that equity among the crew.
+
+129
+00:25:11.640 --> 00:25:12.960
+George Haikal: Maybe it was
+
+130
+00:25:13.120 --> 00:25:20.840
+George Haikal: 40, 30 30. The good news is that adds up to 100%. So so far, so good, well done, good. In addition.
+
+131
+00:25:21.670 --> 00:25:23.920
+George Haikal: the little things you gotta celebrate the little games.
+
+132
+00:25:24.210 --> 00:25:31.720
+George Haikal: Then you translate that into common shares. You could do it by doing 4 shares, 3 shares, 3 shares for 10 shares.
+
+133
+00:25:32.070 --> 00:25:33.160
+George Haikal: No problem.
+
+134
+00:25:33.410 --> 00:25:36.310
+George Haikal: You could do 40, 30, 30
+
+135
+00:25:36.440 --> 00:25:41.638
+George Haikal: for a hundred. Usually, though, we like to work with big numbers in venture.
+
+136
+00:25:42.230 --> 00:25:44.109
+George Haikal: So you probably didn't know this.
+
+137
+00:25:44.550 --> 00:25:49.210
+George Haikal: So you have 4 million 3 million 3 million. 10 million. That's fine, too. Okay.
+
+138
+00:25:49.450 --> 00:25:53.430
+George Haikal: the benefit of using big numbers number one
+
+139
+00:25:53.680 --> 00:26:08.109
+George Haikal: is, it is psychologically edifying. When you're going through this starvation phase of being a brand new founder, slash, entrepreneur, and everything else in your life feels scarce. You can at least say, well, I own 4 million shares.
+
+140
+00:26:08.500 --> 00:26:14.469
+George Haikal: I've got a massive stake in this radical startup, and that's exciting
+
+141
+00:26:14.600 --> 00:26:25.209
+George Haikal: as you eat ramen for the 400th day in a row. But at least you've got your baller level there. The other piece of it gets to
+
+142
+00:26:25.990 --> 00:26:31.289
+George Haikal: the value of the underlying shares. And this is where we start to have evaluation conversation.
+
+143
+00:26:31.790 --> 00:26:35.659
+George Haikal: So let's put it up on the board, and then we'll play around with this a little bit
+
+144
+00:26:37.210 --> 00:26:38.590
+George Haikal: we have.
+
+145
+00:26:39.240 --> 00:26:41.750
+George Haikal: I'm gonna write it up, and then we will unpack it.
+
+146
+00:26:42.010 --> 00:26:56.550
+George Haikal: Free money valuation, bye-bye, free money, total equity equals price per share.
+
+147
+00:26:58.370 --> 00:27:01.609
+George Haikal: By the way, sacrificial pancake story.
+
+148
+00:27:02.150 --> 00:27:07.499
+George Haikal: just a joke among divorced people. They always say that 1st marriages are like pancakes. You throw away. The 1st one
+
+149
+00:27:08.679 --> 00:27:10.419
+George Haikal: looks bad, though.
+
+150
+00:27:10.780 --> 00:27:24.970
+George Haikal: if you are on your 1st marriage, don't share that account. So we all have a different approach to the sacrificial pancake. To me it feels very different.
+
+151
+00:27:26.430 --> 00:27:28.040
+George Haikal: invested enough.
+
+152
+00:27:32.040 --> 00:27:37.099
+George Haikal: divided by price per share, because the number of shares.
+
+153
+00:27:38.330 --> 00:27:46.560
+George Haikal: Okay? So when you're in the process of raising money at some point in time, you need to convert
+
+154
+00:27:46.870 --> 00:27:50.220
+George Haikal: the amount that's being invested into a share number.
+
+155
+00:27:50.470 --> 00:27:55.150
+George Haikal: and the reason that you need to convert it into a share number is because you have to know
+
+156
+00:27:55.440 --> 00:27:59.170
+George Haikal: how these columns are going to change, because the
+
+157
+00:27:59.420 --> 00:28:06.200
+George Haikal: the tweaking, the calibration or recalibration of these columns is going to impact the tweaking and the recalibration of the ownership.
+
+158
+00:28:06.440 --> 00:28:13.559
+George Haikal: And we want these to remain up to date. We want those to remain accurate, because that tells us how we chop up net proceeds.
+
+159
+00:28:14.030 --> 00:28:17.070
+George Haikal: which is the whole point of this exercise.
+
+160
+00:28:17.530 --> 00:28:33.020
+George Haikal: you know, particularly people who are investing money for you. You have other things that you're trying to get at. Yes, you want to make some money, but there are other psychological and emotional rewards and benefits that you'll derive from this experience. Your investors not the same. They just want to make money.
+
+161
+00:28:33.200 --> 00:28:43.929
+George Haikal: so they need to understand what percentage of net proceeds they have the opportunity to swallow, and they know that from the ownership percentage column, which is derived from the share.
+
+162
+00:28:44.120 --> 00:28:50.170
+George Haikal: So solving for number of shares is critical. Now.
+
+163
+00:28:50.290 --> 00:29:06.310
+George Haikal: working bottom up, you're gonna know the investment amount right? They're investing $50,000, or they're investing $500,000, or they're investing 5 million dollars, whatever it is. So this is 50 million dollars. That's a great deal. But let's start with 5 million
+
+164
+00:29:06.660 --> 00:29:08.609
+George Haikal: so invested 5 million dollars.
+
+165
+00:29:09.290 --> 00:29:11.219
+George Haikal: But you don't know what the price per share is
+
+166
+00:29:11.780 --> 00:29:12.980
+George Haikal: to know how to solve it.
+
+167
+00:29:13.990 --> 00:29:15.829
+George Haikal: As this equation tells you.
+
+168
+00:29:16.260 --> 00:29:24.299
+George Haikal: Now unpacking this equation, you realize very quickly when you start doing the startup stuff that people throw around free money, post money.
+
+169
+00:29:24.630 --> 00:29:33.879
+George Haikal: dilution, full dilution, like everybody understands what it means, and many people don't, and there's no reason that you would. Don't teach this in kindergarten.
+
+170
+00:29:34.200 --> 00:29:39.310
+George Haikal: But if you unpack the language you can get there pretty quickly, Frank.
+
+171
+00:29:39.500 --> 00:29:41.060
+George Haikal: Meetings for 4.
+
+172
+00:29:43.700 --> 00:29:53.209
+George Haikal: If you don't know that already. I have some bad news about the rest of the startup experience for you, but I think you're probably tracking before. So before before what?
+
+173
+00:29:53.340 --> 00:29:54.570
+George Haikal: For 4 months?
+
+174
+00:29:54.950 --> 00:29:56.720
+George Haikal: Which? One this month?
+
+175
+00:29:57.020 --> 00:30:04.390
+George Haikal: Okay, so this is the value of the company, what it's worth before the investment is made.
+
+176
+00:30:05.040 --> 00:30:07.220
+George Haikal: What do we think post money is
+
+177
+00:30:07.550 --> 00:30:10.849
+George Haikal: the value of the company after the investment is made?
+
+178
+00:30:11.080 --> 00:30:20.720
+George Haikal: That's a very easy equation, your free money valuation plus your investment amount is your post on evaluation.
+
+179
+00:30:21.420 --> 00:30:22.540
+George Haikal: Super simple.
+
+180
+00:30:22.720 --> 00:30:27.850
+George Haikal: Okay? Again, fun with numbers. You can turn that around. But this is gonna be relevant.
+
+181
+00:30:28.510 --> 00:30:35.050
+George Haikal: Close money valuation minus the investment amount equals your pre-money valuation.
+
+182
+00:30:35.860 --> 00:30:37.130
+George Haikal: Hold on to that.
+
+183
+00:30:38.040 --> 00:30:42.590
+George Haikal: We will return to that shortly denominator
+
+184
+00:30:42.930 --> 00:30:48.260
+George Haikal: before the investment, total equity. What are we talking about here? Well, equity.
+
+185
+00:30:48.390 --> 00:30:57.410
+George Haikal: First, st to this box which refers to our cap table total shares before the money is invested
+
+186
+00:30:57.630 --> 00:31:02.949
+George Haikal: in this equation and this hypothetical. It's 10 million.
+
+187
+00:31:03.520 --> 00:31:04.440
+George Haikal: Okay.
+
+188
+00:31:05.050 --> 00:31:08.320
+George Haikal: Now, something to keep in mind with the share. Count
+
+189
+00:31:08.660 --> 00:31:12.219
+George Haikal: is oftentimes people assume that this is fixed
+
+190
+00:31:12.350 --> 00:31:23.729
+George Haikal: like there's not. There's not a conversation to be had. I mean your free money. Equity is your pre money, equity, your pre money shareholdings are your pre money shareholders. But someone might ask the question, well.
+
+191
+00:31:24.600 --> 00:31:26.710
+George Haikal: our founder shares are subject to vesting
+
+192
+00:31:27.180 --> 00:31:31.319
+George Haikal: so founder A has 4 million founder shares.
+
+193
+00:31:31.510 --> 00:31:36.969
+George Haikal: They're vested into 1 million, but they still have 3 million subject, and so on and so forth.
+
+194
+00:31:37.570 --> 00:31:41.250
+George Haikal: Do we include all 4 million?
+
+195
+00:31:41.630 --> 00:31:43.510
+George Haikal: Or do we only include one link?
+
+196
+00:31:43.630 --> 00:31:55.249
+George Haikal: The shares that we're fully invested in. There's an argument to be made that only the fully vested shares should be included, because those are only those are the shares that are actually active and real and meaningful and impactful. Right now.
+
+197
+00:31:55.360 --> 00:32:02.969
+George Haikal: these are still in some respects hypothetical. You only get them if you invest into them over time, should they be included in this calculation? And it matters.
+
+198
+00:32:03.600 --> 00:32:05.009
+George Haikal: why does it matter?
+
+199
+00:32:06.290 --> 00:32:14.089
+George Haikal: Well, people fixate on valuation? And they should. And we're gonna get to that as a founder. Of course.
+
+200
+00:32:14.250 --> 00:32:20.079
+George Haikal: the higher the valuation, the higher the numerator, the higher your price per, share.
+
+201
+00:32:20.730 --> 00:32:23.080
+George Haikal: the higher your price per share
+
+202
+00:32:23.460 --> 00:32:27.240
+George Haikal: the denominator here. The lower the number of shares.
+
+203
+00:32:28.470 --> 00:32:30.890
+George Haikal: which means when we put in our investor.
+
+204
+00:32:31.480 --> 00:32:35.780
+George Haikal: they won't be getting as many shares, which means they're a percentage
+
+205
+00:32:35.990 --> 00:32:44.860
+George Haikal: will be lower, which means you won't be diluted as much. Instead of going from 40% to 20%. Maybe you go from 40% to 35%. It's a big difference.
+
+206
+00:32:45.760 --> 00:32:50.250
+George Haikal: Valuation drives that. Of course, investors are motivated just the opposite directions.
+
+207
+00:32:50.810 --> 00:32:54.729
+George Haikal: Lower the valuation, lower the price per share.
+
+208
+00:32:55.010 --> 00:33:00.529
+George Haikal: Lower the price per share. More shares, they get more shares, they get
+
+209
+00:33:01.360 --> 00:33:08.079
+George Haikal: the higher their ownership percentage, which means the more dilution you incur, and when it comes time to chop up the net proceeds.
+
+210
+00:33:09.510 --> 00:33:10.690
+George Haikal: what do they got?
+
+211
+00:33:11.430 --> 00:33:15.979
+George Haikal: So this frames the conversation. That's why it matters, and it matters a lot. But
+
+212
+00:33:17.260 --> 00:33:18.809
+George Haikal: this is in play, too.
+
+213
+00:33:19.450 --> 00:33:20.490
+George Haikal: Okay?
+
+214
+00:33:21.180 --> 00:33:28.210
+George Haikal: Because the lower this denominator, the higher price per share.
+
+215
+00:33:28.490 --> 00:33:30.460
+George Haikal: the higher the price per share
+
+216
+00:33:30.720 --> 00:33:32.499
+George Haikal: the lower the number of shares.
+
+217
+00:33:32.620 --> 00:33:35.240
+George Haikal: So as a founder. You're motivated.
+
+218
+00:33:35.750 --> 00:33:40.139
+George Haikal: Push this number down again. It's the reverse
+
+219
+00:33:40.490 --> 00:33:48.109
+George Haikal: from an investor's perspective. The higher the denominator lower the price per share, lower the price per share.
+
+220
+00:33:48.390 --> 00:33:49.720
+George Haikal: the more shares they get.
+
+221
+00:33:51.120 --> 00:34:00.870
+George Haikal: So this, yes, know that sometimes it might be.
+
+222
+00:34:00.920 --> 00:34:24.300
+George Haikal: you know, a strategy to not have the valuation too high to not have a downer, because sometimes people hide you like. If you have, say it's a good solution, right? If you don't feel like you can.
+
+223
+00:34:24.852 --> 00:34:31.257
+George Haikal: Right? Yeah, yeah, no, that's it's it's a great point, and we will.
+
+224
+00:34:32.480 --> 00:34:37.490
+George Haikal: we'll slide into that shortly, so we'll finish up this denominator conversation, and then we'll jump into the new room.
+
+225
+00:34:38.980 --> 00:34:44.139
+George Haikal: This is the safe space, absolutely a good question
+
+226
+00:34:44.320 --> 00:34:50.339
+George Haikal: and comment. We will definitely, we will definitely get into that. Okay, so
+
+227
+00:34:50.889 --> 00:34:53.320
+George Haikal: we see that this total equity
+
+228
+00:34:53.550 --> 00:35:04.450
+George Haikal: input can move, that it's not necessarily as determined or as concrete as we might think or assume. That, being said
+
+229
+00:35:06.090 --> 00:35:09.810
+George Haikal: historically through custom and practice.
+
+230
+00:35:10.140 --> 00:35:19.600
+George Haikal: It is not as fluid, and it's more fixed. And that's not because it has to be. It's just because this is the way venture culture has grown up.
+
+231
+00:35:19.820 --> 00:35:25.070
+George Haikal: And this is what it means when we say that something is fully dilute.
+
+232
+00:35:26.020 --> 00:35:28.340
+George Haikal: So you're gonna see things like
+
+233
+00:35:28.530 --> 00:35:34.319
+George Haikal: the fully diluted free money valuation, or the fully diluted pre money, total equity.
+
+234
+00:35:34.780 --> 00:35:39.940
+George Haikal: What fully diluted means is that the investor is saying.
+
+235
+00:35:40.130 --> 00:35:44.200
+George Haikal: I want to see the maximum number of shares
+
+236
+00:35:44.920 --> 00:35:48.909
+George Haikal: it could ever, under any set of circumstances, show up
+
+237
+00:35:50.130 --> 00:35:59.939
+George Haikal: in the Pre. Money selecting category. We are going to include everything that's full dilution. So no, you don't need to limit this to 1 million shares.
+
+238
+00:36:00.710 --> 00:36:09.940
+George Haikal: It's gotta be all 4 million shares. And, by the way, we're not just gonna say 4 million plus 3 million plus 3 million. If you have options outstanding.
+
+239
+00:36:10.070 --> 00:36:13.929
+George Haikal: let's say that somebody got 100,000 options.
+
+240
+00:36:14.880 --> 00:36:18.919
+George Haikal: 20,000 are vested 80,000 or not.
+
+241
+00:36:19.960 --> 00:36:30.409
+George Haikal: You will include the 20,000 vested options those could turn into stock at any point in time if the person chooses to exercise. But guess what you're also going to include the 80,000 unvested options.
+
+242
+00:36:30.560 --> 00:36:36.869
+George Haikal: It's like you're including these 3 million shares, full dilution. And in fact, it goes even beyond that. Do you have a pool
+
+243
+00:36:37.450 --> 00:36:42.780
+George Haikal: with extra shares that haven't even been awarded yet that gets included.
+
+244
+00:36:44.510 --> 00:36:45.670
+George Haikal: So
+
+245
+00:36:45.890 --> 00:36:59.419
+George Haikal: anything relating to cap, table, and share ownership, either directly or indirectly best or invested, or even just hypothetically, contingently available or potentially available, shows up
+
+246
+00:37:00.120 --> 00:37:04.050
+George Haikal: in an omni the only place.
+
+247
+00:37:04.200 --> 00:37:10.690
+George Haikal: And I share this from the point of view of explanation, so that you can understand what can move inside of a negotiation.
+
+248
+00:37:11.190 --> 00:37:15.160
+George Haikal: You're not gonna get very far if you're fighting about this, this.
+
+249
+00:37:15.650 --> 00:37:22.029
+George Haikal: this for this. The one place where you have some maneuverability is around an available tool.
+
+250
+00:37:22.390 --> 00:37:30.859
+George Haikal: Okay, it's in the interest of the venture capital investor. It's in their interest to make this as big as possible.
+
+251
+00:37:31.620 --> 00:37:32.640
+George Haikal: Why?
+
+252
+00:37:33.000 --> 00:37:34.830
+George Haikal: Because the bigger this is
+
+253
+00:37:35.310 --> 00:37:43.280
+George Haikal: bigger, this is the bigger this is the lower this, and so on and so forth. They want to load as much equity into this option pool
+
+254
+00:37:43.950 --> 00:37:45.770
+George Haikal: for the investors. They can.
+
+255
+00:37:46.130 --> 00:37:51.999
+George Haikal: because then that's all available for future employees, and it has the benefit, pushing down the price for sure.
+
+256
+00:37:52.780 --> 00:37:57.919
+George Haikal: You certainly want to have shares available in your pool. You want to grow your company.
+
+257
+00:37:58.090 --> 00:38:04.349
+George Haikal: and you don't want to be penny wise and pound foolish. But you're not benefited by making this excessive.
+
+258
+00:38:04.940 --> 00:38:12.829
+George Haikal: And so what I typically find works well in these negotiations is to sit with the investor. Maybe the investor says something like
+
+259
+00:38:15.130 --> 00:38:16.920
+George Haikal: the way we want this to look
+
+260
+00:38:17.360 --> 00:38:20.430
+George Haikal: when the dust settles on this whole transaction.
+
+261
+00:38:21.570 --> 00:38:29.539
+George Haikal: you've got your existing equity, and we have the option holders. And I put in my money, and I want there to be available a pool
+
+262
+00:38:29.860 --> 00:38:36.000
+George Haikal: that represents 20% of total equity.
+
+263
+00:38:36.200 --> 00:38:42.630
+George Haikal: Okay, it's unallocated. It's unawarded. It's sitting on the shelf.
+
+264
+00:38:43.030 --> 00:38:48.570
+George Haikal: And we want to have 20% total ownership available to go forth and recruit
+
+265
+00:38:48.680 --> 00:38:57.190
+George Haikal: future employees, executives, contributors, etcetera. And of course, if they negotiate this as part of this investment transaction gonna be the denominator
+
+266
+00:38:57.400 --> 00:39:00.709
+George Haikal: pushing that number up what you can say
+
+267
+00:39:00.850 --> 00:39:04.190
+George Haikal: is, I appreciate the fact that we need a full. I want a pool.
+
+268
+00:39:04.700 --> 00:39:27.719
+George Haikal: you know. I want to go recruit more people. I want to grow this company. I want to add heads. But let me show you my hiring plan, because the general idea is this, pool should be big enough to get you to the next minutes. That's the general rule of thumb general tradition, the general practice. So if this is a series, a transaction, this needs to be big enough to get you to the series. B. If this is a seed round
+
+269
+00:39:28.290 --> 00:39:31.819
+George Haikal: big enough to get you to the series a. It doesn't need to get you open.
+
+270
+00:39:32.250 --> 00:39:36.959
+George Haikal: So what you may be able to say is, we think this money is gonna carry us for 2 years.
+
+271
+00:39:37.610 --> 00:39:39.770
+George Haikal: Take us from point A to Point B
+
+272
+00:39:39.990 --> 00:39:45.930
+George Haikal: over that 2 year period. Here's our hiring plan. And we think that this pool only needs to be 10%.
+
+273
+00:39:47.300 --> 00:39:49.630
+George Haikal: And if you can demonstrate that as the investor.
+
+274
+00:39:49.880 --> 00:39:57.800
+George Haikal: you will probably carry the day which will help you, because what you're doing is is you're pushing down this number instead of it being 20%, it's 10%.
+
+275
+00:39:58.260 --> 00:40:00.410
+George Haikal: It's gonna nudge up price per show.
+
+276
+00:40:00.630 --> 00:40:08.079
+George Haikal: So don't ignore this. Input it matters. Everybody focuses on this. And that's the good one. And I get we're gonna spend a lot of time talking about.
+
+277
+00:40:08.240 --> 00:40:21.880
+George Haikal: But don't ignore this. Input. And this is the place in a negotiation where you can flex. You're not. It won't sound as if you're saying this isn't fair. Okay, if you're ever negotiating, and you're buying on fairness, you lost. That's not a good argument.
+
+278
+00:40:22.000 --> 00:40:25.799
+George Haikal: but demonstrating how the hiring plan is gonna work.
+
+279
+00:40:25.920 --> 00:40:30.540
+George Haikal: So before we slide into valuation, any questions, yes.
+
+280
+00:40:31.871 --> 00:40:38.190
+George Haikal: So when it comes to right outside of the yeah.
+
+281
+00:40:39.280 --> 00:40:55.509
+George Haikal: if you say you were like, we're bringing on employee. And you're like, Hey, we don't want this person to fit into the option
+
+282
+00:40:55.910 --> 00:41:10.939
+George Haikal: right? Instead, we want them to get maybe what we call a founder level equity. Or is that obviously something you probably have to talk to your investors about anything. But is that something you see happen like, where it's okay with 10% pool
+
+283
+00:41:11.050 --> 00:41:12.110
+George Haikal: is.
+
+284
+00:41:12.680 --> 00:41:21.240
+George Haikal: you know, we, it's 4 employees. But there's 1 special kind of person is that something that the best is gonna be like? No, right like, completely.
+
+285
+00:41:21.470 --> 00:41:42.810
+George Haikal: It's like you have to take it out of the option pool without hiring that person. Yeah. So chances are the investors going in position, and they're going to say great. We're super excited. That's awesome. More talent the better. You never have too much. Okay, but because you're already thinking about it, you know you need it. Starting to frame it up, you should be included in the pre-money public.
+
+286
+00:41:43.280 --> 00:42:10.350
+George Haikal: Okay, so it shouldn't delude us as the investor. We want that to show up all in the initial pool. What you could say is, I hear you. But this isn't going to happen for 6 months. It's not going to happen for a year. It's down the road. This isn't in our pre. It should show up in the post. I don't want to include it here. No, let's just kick the can down the road a little bit, and maybe you can get them to agree. But the point is, it's a conversation. You can have that conversation.
+
+287
+00:42:10.530 --> 00:42:14.890
+George Haikal: and it can impact the support which can drive economic value.
+
+288
+00:42:16.820 --> 00:42:17.780
+George Haikal: It's good question.
+
+289
+00:42:18.560 --> 00:42:22.480
+George Haikal: Okay, so let's talk about valuation for a second.
+
+290
+00:42:24.290 --> 00:42:27.200
+George Haikal: Valuation, of course, is
+
+291
+00:42:27.530 --> 00:42:36.730
+George Haikal: a very, very hard topic to address with any kind of real vigor or discipline in this space. And at this stage. Yes.
+
+292
+00:42:36.940 --> 00:42:45.930
+George Haikal: just to the point about taking it down the the road you don't agree on, but it's
+
+293
+00:42:46.570 --> 00:42:58.019
+George Haikal: you don't agree on that. You could. You could, I mean, I think, that it's have seen that happen before
+
+294
+00:42:58.300 --> 00:42:59.609
+George Haikal: where I have.
+
+295
+00:42:59.810 --> 00:43:05.869
+George Haikal: Here's the way I would make learning. I would make the argument and say, this person doesn't exist here now.
+
+296
+00:43:06.410 --> 00:43:25.739
+George Haikal: okay, so we shouldn't hypothetically include them in the free money equity. And, in fact, we're not going to be able to recruit this person until we actually close this financing transaction and start spending your money to build the company to a point where it's going to be attracted to recruit members.
+
+297
+00:43:25.990 --> 00:43:32.090
+George Haikal: Okay? Which means your money is a key input to this. We can't do it without you.
+
+298
+00:43:32.300 --> 00:43:36.569
+George Haikal: which means you need to sort of share in this exercise to get to that point.
+
+299
+00:43:36.850 --> 00:43:39.899
+George Haikal: So don't put all the dilution on me.
+
+300
+00:43:40.070 --> 00:43:43.919
+George Haikal: You should know some of that, too, because we're in this neighborhood.
+
+301
+00:43:44.943 --> 00:43:48.840
+George Haikal: Not sure I would die on that beach. But it's a conversation that you can have.
+
+302
+00:43:49.260 --> 00:43:52.840
+George Haikal: particularly if you're talking about, you know, like 10% or 50% of the company
+
+303
+00:43:53.050 --> 00:43:56.050
+George Haikal: talking about 1% of the company probably don't spend a lot of sweat.
+
+304
+00:43:57.740 --> 00:43:58.800
+George Haikal: Everything's wrong.
+
+305
+00:44:04.436 --> 00:44:17.840
+George Haikal: Don't spend the whole thing right? Okay, be hired. I don't know.
+
+306
+00:44:18.300 --> 00:44:25.030
+George Haikal: 1st engineer. And we actually hit all our goals in 6% of the time
+
+307
+00:44:25.360 --> 00:44:29.529
+George Haikal: that next round, we generally now conclude.
+
+308
+00:44:29.820 --> 00:44:35.200
+George Haikal: you basically take the pool. And you're like 4% that was left to sign no longer
+
+309
+00:44:35.630 --> 00:44:44.820
+George Haikal: accounted for and create a new option pool at that time. You'll add to it. You'll just add to it correct, and that's just something that's gonna happen at the time on.
+
+310
+00:44:45.240 --> 00:44:47.549
+George Haikal: That's right. That's right. So
+
+311
+00:44:47.730 --> 00:44:54.489
+George Haikal: the next round might say, we want to see this be 10% after the series. B, now, you're 2%.
+
+312
+00:44:58.620 --> 00:45:02.700
+George Haikal: So if you are, if you have, like a dry cleaning business.
+
+313
+00:45:03.730 --> 00:45:06.329
+George Haikal: something that cash flows, give a law firm.
+
+314
+00:45:06.490 --> 00:45:11.749
+George Haikal: These are the sorts of things you can value. You know, there's just kind of cash flow there one space to do that
+
+315
+00:45:11.880 --> 00:45:17.760
+George Haikal: kind of classic, tried and true evaluation mechanics that work and work really well.
+
+316
+00:45:18.340 --> 00:45:28.120
+George Haikal: Late stage venture. Back companies, late stage tech or biotech companies are also valuable
+
+317
+00:45:28.290 --> 00:45:46.850
+George Haikal: from the perspective of those companies at that stage have got. They've got something. They've got customers. They've got mature tech they're in the market. They have competitors. So through comps and the other means and mechanics. You can work to
+
+318
+00:45:47.750 --> 00:45:51.409
+George Haikal: some kind of valuation that's tied to the spreadsheet tied to reality
+
+319
+00:45:51.980 --> 00:45:54.840
+George Haikal: at the early stage. It's just not possible.
+
+320
+00:45:55.220 --> 00:45:59.040
+George Haikal: Okay, so what we're talking about is we're valuing opportunity.
+
+321
+00:45:59.580 --> 00:46:01.760
+George Haikal: We're valuing possibility.
+
+322
+00:46:02.240 --> 00:46:06.219
+George Haikal: We're valuing hopes and dreams, and it's hard
+
+323
+00:46:06.570 --> 00:46:09.310
+George Haikal: to bake that into an excel spreadsheet.
+
+324
+00:46:10.450 --> 00:46:14.690
+George Haikal: So there are a couple of different ways to approach it
+
+325
+00:46:15.710 --> 00:46:21.590
+George Haikal: one way to approach it, and you're going to have to do this one way or the other. But I would try not to leave with this.
+
+326
+00:46:21.700 --> 00:46:49.309
+George Haikal: and I would use this as just a way to sort of support. Where you ultimately end up with your valuation is what I would call a bottom up valuation, where you're valuing the company as it sits today, and you're valuing the team and your value tech to the extent that you've got some revenue. You're valuing that. But a bottom up valuation is not going to serve you very if that's the only place where you're hanging your hat, because an investor can easily say
+
+327
+00:46:49.480 --> 00:47:09.340
+George Haikal: you have half built out team. You have half built out tech. You don't have any real customers yet. You're losing a lot of money. You don't know what package yet. You don't really know which product market is yet you don't really have a full sense of. It's just so easy to put rules in it. It's not the place. It's not going to be the sort of the one stop shop that you're gonna go on.
+
+328
+00:47:09.530 --> 00:47:16.069
+George Haikal: So I would encourage you to go to really lean hard on 2 spots, one is top down
+
+329
+00:47:18.010 --> 00:47:29.320
+George Haikal: and the other is what I would call sort of so custom and practice.
+
+330
+00:47:31.800 --> 00:47:38.059
+George Haikal: So what the top down look like, what a top down looks like is- is looking at your tam.
+
+331
+00:47:38.250 --> 00:47:42.460
+George Haikal: and it's the it's not easy, bumpy, but you know.
+
+332
+00:47:42.790 --> 00:48:05.890
+George Haikal: Ham Samsung, practice and approach. It's tricky. It's hard to get a good handle on it. But it's an important exercise for you to go through, because the more precision that you apply to it, the more definition that you apply to it the more credibility that you can establish that this is a real number, not just something that I just kind of grab and do a slide on the way to the pitch.
+
+333
+00:48:06.020 --> 00:48:08.099
+George Haikal: It's easier for you to say, Look.
+
+334
+00:48:08.840 --> 00:48:17.260
+George Haikal: and I'm just. This is simplified. But the conversation would go. Something like our town is X.
+
+335
+00:48:17.850 --> 00:48:30.319
+George Haikal: We looked at other similar companies in and around our space, adjacent or otherwise director indirect, who have had, who have been selling to similar customers with a similar.
+
+336
+00:48:30.890 --> 00:48:36.729
+George Haikal: And we've seen that their assets. And if you find 2 or 3 that's great or A, B, and C,
+
+337
+00:48:36.870 --> 00:48:47.269
+George Haikal: okay, so this is our aspirational goal. We think we can sell this company for a billion dollars, or 500 million dollars, or 200 million dollars, or whatever it is.
+
+338
+00:48:47.990 --> 00:48:49.659
+George Haikal: And then you say to them.
+
+339
+00:48:50.030 --> 00:48:52.310
+George Haikal: okay, so if you believe me.
+
+340
+00:48:53.400 --> 00:49:01.379
+George Haikal: and we can sell this company for 500 million dollars, to say 50, say 500 million dollars in net proceeds.
+
+341
+00:49:01.930 --> 00:49:07.509
+George Haikal: So we've taken away the liabilities. So we're just focusing on what's available for distribution.
+
+342
+00:49:08.330 --> 00:49:12.570
+George Haikal: We can sell this company for 500 million dollars.
+
+343
+00:49:13.150 --> 00:49:18.499
+George Haikal: And you right now are investing $500,000.
+
+344
+00:49:18.910 --> 00:49:20.569
+George Haikal: And you want a 10 x.
+
+345
+00:49:21.050 --> 00:49:26.850
+George Haikal: That means I need to get you 5 million dollars 5 million dollars
+
+346
+00:49:27.330 --> 00:49:30.270
+George Haikal: out of 500 million dollars. It's 1%.
+
+347
+00:49:30.780 --> 00:49:37.229
+George Haikal: So you only need to own 1% of this company at exit to get what you need to drive it to an extra job.
+
+348
+00:49:37.850 --> 00:49:40.020
+George Haikal: Now they can poke all kinds of holes at this.
+
+349
+00:49:40.370 --> 00:50:06.140
+George Haikal: They can say, I'm not really sure about a 500 million dollar exit. We've got a whole lot of assumptions buried into that to suggest that I'm going to give you $500,000 for 1% of your company today, when I know that it's going to be time. That's a problem. So it probably needs to be more than 5%. But at least, if if I'm a startup, and if I'm a founder, I'd rather have these sorts of conversations than me talking about the quality of my tech on March 15, th
+
+350
+00:50:07.020 --> 00:50:08.269
+George Haikal: 2025.
+
+351
+00:50:08.910 --> 00:50:16.310
+George Haikal: I'd rather be building the story, building, the narrative, building, the dream. This is a better. This is a better playing field
+
+352
+00:50:16.420 --> 00:50:17.420
+George Haikal: for you.
+
+353
+00:50:17.620 --> 00:50:35.219
+George Haikal: This is a place where you can do better, I think, when it comes to valuation. This is a useful exercise, and I think it's useful for you, too. It's part of what I've seen some, the what happens with some entrepreneurs and founders when they get to this process. If they don't, 500 million dollar exit is not possible. They really look at it. And they're like, probably the best we can do is 50.
+
+354
+00:50:35.350 --> 00:50:37.009
+George Haikal: That's important for you to know.
+
+355
+00:50:37.560 --> 00:50:48.850
+George Haikal: Because if if what you're really looking at and getting to aspirationally is a $15 exit doesn't mean this is bad company. This could be a great company. You could make a lot of people for your investors. But you can't raise a hundred 1 million dollars.
+
+356
+00:50:49.800 --> 00:50:51.929
+George Haikal: Okay, you're gonna have to figure out
+
+357
+00:50:52.560 --> 00:50:57.760
+George Haikal: how to build your company and finance at your company with a lot less money, because there's just not as as
+
+358
+00:50:58.040 --> 00:51:15.000
+George Haikal: good to know that today, and they'll learn that in 10 years I've I've worked with founders, and I've worked with investors. We learned that the hard way they overestimated what they thought the opportunity was, and they ended up with a cap table, the cap structure. It was highly problematic.
+
+359
+00:51:15.810 --> 00:51:22.930
+George Haikal: So this is, this is a top down approach. But but where most people look to
+
+360
+00:51:23.500 --> 00:51:53.349
+George Haikal: is they look to customer practice. And this is where someone like Peter Walker will be very helpful. And you should ask him these questions when he's speaking to you, and you should follow him on Linkedin because he shares all kinds of great data. Peter Walker is the head data scientist at Carta. Carta, as you probably know, is the essentially they have the, for all intents and purposes, the monopoly on startup cap tables, which means they have access to a treasure trove information and data when it comes to ha! When it comes to what's happening
+
+361
+00:51:53.350 --> 00:52:04.799
+George Haikal: in early stage, Charlotte and one of the things that we see happen repeatedly, particularly in the seed stage and the series A and the series B is that the rough dilution
+
+362
+00:52:06.440 --> 00:52:07.940
+George Haikal: is 20%.
+
+363
+00:52:09.570 --> 00:52:12.669
+George Haikal: Now, this can change a little bit industry to industry.
+
+364
+00:52:13.090 --> 00:52:15.810
+George Haikal: This could change a little bit round around.
+
+365
+00:52:16.130 --> 00:52:20.940
+George Haikal: but it's remarkable how consistent 20% shows up.
+
+366
+00:52:21.520 --> 00:52:27.000
+George Haikal: And what that means is is it means this, if I'm raising
+
+367
+00:52:30.180 --> 00:52:39.800
+George Haikal: 1 million dollars, that's my investment amount and this 1 million dollars, it's going to represent
+
+368
+00:52:40.200 --> 00:52:41.990
+George Haikal: 20% of the company.
+
+369
+00:52:42.480 --> 00:52:44.600
+George Haikal: Then that means that my post.
+
+370
+00:52:44.960 --> 00:52:46.480
+George Haikal: It's 5 million dollars.
+
+371
+00:52:47.830 --> 00:52:49.442
+George Haikal: Okay, 1 million.
+
+372
+00:52:50.400 --> 00:52:53.240
+George Haikal: It's 1 5, th 20% of 5 million.
+
+373
+00:52:53.840 --> 00:52:59.780
+George Haikal: 5 million, minus 1 million 4 million. That's my pre money valuation. That's my endpoint, right?
+
+374
+00:53:01.430 --> 00:53:03.279
+George Haikal: Everything else flows from there.
+
+375
+00:53:04.310 --> 00:53:15.260
+George Haikal: This is this is, we haven't even had a conversation about customers, technology stage tam bottom up, top down. Nothing. This is just pure cowboy man
+
+376
+00:53:15.450 --> 00:53:19.610
+George Haikal: solving for this 20% piece to the size of it.
+
+377
+00:53:20.600 --> 00:53:24.539
+George Haikal: Okay, this is why, and it's so counterintuitive.
+
+378
+00:53:24.660 --> 00:53:32.469
+George Haikal: But it can be true that sometimes it's better and less diluted to you over time to raise more than to raise less.
+
+379
+00:53:32.730 --> 00:53:38.519
+George Haikal: which doesn't seem to make sense, because you would think to yourself, well, the more I raise the more dilution, not necessarily
+
+380
+00:53:38.630 --> 00:53:41.049
+George Haikal: because these numbers are so arbitrary.
+
+381
+00:53:41.290 --> 00:53:43.149
+George Haikal: Who knows what the company is worth?
+
+382
+00:53:43.500 --> 00:53:45.500
+George Haikal: You raise a million dollars now.
+
+383
+00:53:46.230 --> 00:53:56.470
+George Haikal: total. And those investors believe that they should be sitting at 20% because they've seen the data, too, and that seems to be on a post basis where they're gonna end up.
+
+384
+00:53:56.640 --> 00:53:58.439
+George Haikal: These numbers are what flow from you.
+
+385
+00:53:58.820 --> 00:54:00.759
+George Haikal: But what if this is 5 million dollars.
+
+386
+00:54:01.800 --> 00:54:05.020
+George Haikal: Well, if you raise 5 million dollars, and this is 25 million dollars.
+
+387
+00:54:07.950 --> 00:54:11.829
+George Haikal: you've just increased the value of your company by 5 x by raising more money.
+
+388
+00:54:12.590 --> 00:54:17.029
+George Haikal: which makes no sense. Okay, this is this is Benjamin.
+
+389
+00:54:17.500 --> 00:54:24.450
+George Haikal: So there's real value to be thinking about the round size. Too often I find founders are trying to reduce this
+
+390
+00:54:24.940 --> 00:54:36.090
+George Haikal: limit the amount of money that they're raising, and I get it, you know, and there's there's a truth to that, and I don't want you to over learn the lesson or over index at this against this point. But there can also be value of raising more.
+
+391
+00:54:36.640 --> 00:54:45.559
+George Haikal: because what someone is gonna say is, if you raise 5 million dollars, they're not gonna say that your post money valuation is 5 million dollars, because that means your free money valuation is 0.
+
+392
+00:54:46.830 --> 00:54:48.390
+George Haikal: No investor is gonna make that
+
+393
+00:54:48.930 --> 00:54:54.339
+George Haikal: they're gonna live inside the equation. And it's gonna flow accordingly, this 5 to this 20%.
+
+394
+00:54:54.500 --> 00:54:58.970
+George Haikal: So think about this dynamic and think about how these processes then impact each other.
+
+395
+00:54:59.210 --> 00:55:00.960
+George Haikal: But this 20%.
+
+396
+00:55:01.120 --> 00:55:07.809
+George Haikal: It's pretty important. One of the ways that I find it to be very useful for founders is
+
+397
+00:55:08.010 --> 00:55:17.219
+George Haikal: when you think about the way you're raising, particularly at the pre-seed stage. And even into the seed stage. The rounds tend not to be coherent
+
+398
+00:55:17.360 --> 00:55:21.110
+George Haikal: or easily contained, like. By the time you're getting to series A,
+
+399
+00:55:23.280 --> 00:55:31.000
+George Haikal: it may close over, you know, one closing, 2 closing, 3 closing. But you know how much you're now. You're raising 10 million dollars.
+
+400
+00:55:32.070 --> 00:55:34.489
+George Haikal: If we're gonna say that, that's 20%.
+
+401
+00:55:35.570 --> 00:55:40.410
+George Haikal: Okay, then we know that our post money is 50 million.
+
+402
+00:55:41.250 --> 00:55:43.989
+George Haikal: which means our free money is 40 million.
+
+403
+00:55:45.190 --> 00:55:48.139
+George Haikal: We can put that here and the map runs.
+
+404
+00:55:50.970 --> 00:56:06.829
+George Haikal: You've got it, you can come to grips with that. But how much are you gonna raise at the Pre seat level? Well, you know, you kind of raising $50,000, and then you're raising $10,000, and then you're raising a hundred $1,000. Then you're raising $125,000. I mean, it sort of drifts
+
+405
+00:56:07.260 --> 00:56:08.500
+George Haikal: over time.
+
+406
+00:56:08.670 --> 00:56:18.169
+George Haikal: and then you sort of close it, and then you do your seed round, and maybe that's a million dollars. And then later on, it's 2 million dollars, and later on it's $500,000.
+
+407
+00:56:18.390 --> 00:56:21.459
+George Haikal: And then you close it. Part of what the challenge you have
+
+408
+00:56:22.040 --> 00:56:28.200
+George Haikal: is trying to come up with valuations or caps. We're gonna talk about these in a second like for this safe
+
+409
+00:56:28.740 --> 00:56:33.569
+George Haikal: or for this node, or for this price round, or whatever. What's the valuation?
+
+410
+00:56:34.590 --> 00:56:40.250
+George Haikal: Part of what I encourage you to try to do is see if you can contain it.
+
+411
+00:56:42.500 --> 00:56:51.799
+George Haikal: So say to yourself. I'm raising 50,000 right now in this pre seed. But my goal for my pre seed is 1.5 million dollars.
+
+412
+00:56:52.370 --> 00:56:57.509
+George Haikal: That's what I'm aspiring as that's my plan that becomes your input
+
+413
+00:57:00.300 --> 00:57:06.509
+George Haikal: and you're gonna drive a post money from there and a pre money from there. And that's something you can share with your investor.
+
+414
+00:57:07.080 --> 00:57:10.769
+George Haikal: so your investor might come at you with a very low cap
+
+415
+00:57:10.980 --> 00:57:19.529
+George Haikal: for a $50,000 investment. They might say. You know the cap is $500,000, essentially means the valuation is $500,000,
+
+416
+00:57:19.690 --> 00:57:22.730
+George Haikal: and you can say, I understand why you would say that
+
+417
+00:57:22.840 --> 00:57:30.670
+George Haikal: super early I get it. But this is going to be way, too. Dilutive over time. I can't keep raising money against that cap
+
+418
+00:57:30.790 --> 00:57:38.430
+George Haikal: or changing the cap every time I do it. It's too complicated, too convoluted. What I'm aspiring to do is raise round
+
+419
+00:57:39.280 --> 00:57:42.539
+George Haikal: 1.5 million dollars. You are it? You've been part of that
+
+420
+00:57:43.820 --> 00:57:46.840
+George Haikal: that 1.5 million dollars is gonna be 20%
+
+421
+00:57:48.320 --> 00:57:51.959
+George Haikal: on a post money basis of the total equity of the company.
+
+422
+00:57:52.100 --> 00:57:58.420
+George Haikal: I'm working back from that to what my post money and my free money valuation is. That's what I'm going to use as my cap.
+
+423
+00:57:58.770 --> 00:58:12.739
+George Haikal: And frequently investors will respond to that. They're not necessarily going to say, like Great, we're done. They're going to want to have a conversation, but you have a principle basis on which to build a valuation conversation. It also helps you keep this in sight.
+
+424
+00:58:13.490 --> 00:58:27.309
+George Haikal: and helps you avoid some of the trauma which can really happen at the pre seed of the seed stage, where, just through incremental raises each happen on a 1 off basis, you find that ultimately, when you add them all together, it's actually 35% increment
+
+425
+00:58:27.690 --> 00:58:32.639
+George Haikal: or 40% income that could be a hard place to be. You didn't do it on purpose.
+
+426
+00:58:32.850 --> 00:58:34.689
+George Haikal: It just happened through nibbles.
+
+427
+00:58:35.740 --> 00:58:38.420
+George Haikal: You can try to think, what am I doing at a high level
+
+428
+00:58:38.750 --> 00:58:41.299
+George Haikal: and then breaking it down into these little chunks?
+
+429
+00:58:41.880 --> 00:58:51.480
+George Haikal: You've got a you've got a kind of a conversational anchor and a narrative, and a story and a basis and principles on which sort of establish valuation.
+
+430
+00:58:52.000 --> 00:58:53.970
+George Haikal: Okay? So this has been alive.
+
+431
+00:58:54.680 --> 00:59:02.296
+George Haikal: Take a breath. Yes.
+
+432
+00:59:05.230 --> 00:59:06.950
+George Haikal: Well, you're always gonna have to post money.
+
+433
+00:59:08.310 --> 00:59:14.699
+George Haikal: So you have a pre money valuation of 4 million dollars.
+
+434
+00:59:14.950 --> 00:59:19.739
+George Haikal: You raise a million dollars. That's your investment amount. So pre money, 4 million
+
+435
+00:59:19.890 --> 00:59:23.419
+George Haikal: plus your investment amount 1 million. Your post money is 5 million.
+
+436
+00:59:23.590 --> 00:59:30.870
+George Haikal: Okay? So anytime that you raise money in a price round. You're gonna end up one way or the other with a pre money valuation
+
+437
+00:59:31.040 --> 00:59:32.129
+George Haikal: in a postman.
+
+438
+00:59:33.060 --> 00:59:39.509
+George Haikal: What I'm suggesting is, if you look at the investment amount.
+
+439
+00:59:40.580 --> 00:59:56.300
+George Haikal: And you say you say to yourself, and you say to the investor, this investment amount is going to represent 20%. You can derive from that what the post money evaluation? Right? So if you're selling 20%, just do the math. So if you're raising 2 million dollars.
+
+440
+00:59:57.060 --> 01:00:03.029
+George Haikal: that is 20% of 10 million. So that means 10 million is your post money valuation.
+
+441
+01:00:03.640 --> 01:00:04.570
+George Haikal: It doesn't.
+
+442
+01:00:06.670 --> 01:00:31.850
+George Haikal: You've sort of just made that evaluation. And then from there, you know, that's like your Christmas tree. And then you're going to have all these other conversations about Tam Sam and customers and tech and team and all that. But really, what's happened is you're just. It's somewhat arbitrary. But you're really anchoring on that 20%. And the 20% isn't. It feels super weird and arbitrary. Why would everybody sort of center and organize around 20%? It kind of makes sense. When you think about it.
+
+443
+01:00:32.080 --> 01:00:34.269
+George Haikal: it gives the investors enough stake
+
+444
+01:00:34.710 --> 01:00:39.089
+George Haikal: to feel like they have a real opportunity, a real ownership Chunk, to make some money.
+
+445
+01:00:39.230 --> 01:00:41.089
+George Haikal: but it's not so much.
+
+446
+01:00:41.420 --> 01:01:00.359
+George Haikal: Then it feels abusive to the founder. The founder still has a lot of opportunity and a lot of room to grow and make a lot of money inside this venture. The 20% is kind of a nice compromise position. It's kind of why nobody sat down and did this intentionally just sort of through natural selection. It kind of moved that
+
+447
+01:01:06.310 --> 01:01:07.490
+George Haikal: other questions.
+
+448
+01:01:10.130 --> 01:01:25.680
+George Haikal: So you had asked a question about save some notes? Yeah. So the the very long story short with saves and notes is that I told you that I started in 96. So I started in the.com.
+
+449
+01:01:25.960 --> 01:01:33.370
+George Haikal: And what happened in Dot during the.com era is that we weren't able to do price rounds because no one could agree on.
+
+450
+01:01:33.870 --> 01:01:36.940
+George Haikal: Okay, you had investors saying.
+
+451
+01:01:37.140 --> 01:01:46.439
+George Haikal: I think this dotcom thing is probably worth something, but nobody really knows, because no one's really done it before. There's a whole bunch of risk. I think your company's worth a million dollars. And
+
+452
+01:01:46.850 --> 01:01:49.259
+George Haikal: these founders were like, no
+
+453
+01:01:49.400 --> 01:01:57.829
+George Haikal: Internet is awesome, and thank you outdoor for inventing it. And you know, I think my company is worth a hundred 1 million dollars.
+
+454
+01:01:58.170 --> 01:02:03.760
+George Haikal: you know that's not a that's not a deal that's gonna be done. The gap between a million dollars and a hundred 1 million dollars. It's unbridgeable.
+
+455
+01:02:04.530 --> 01:02:08.540
+George Haikal: So we were stuck. And, by the way you have to have a free money valuation.
+
+456
+01:02:09.450 --> 01:02:15.370
+George Haikal: You can't, because without every money valuation you can't figure out a price per share without a price per share. You don't know how many shares.
+
+457
+01:02:15.840 --> 01:02:17.069
+George Haikal: And you're stuck.
+
+458
+01:02:17.440 --> 01:02:22.439
+George Haikal: And so the way that we solve for that was through the note.
+
+459
+01:02:26.560 --> 01:02:28.770
+George Haikal: we basically just said, Let's punt.
+
+460
+01:02:29.510 --> 01:02:33.780
+George Haikal: It's really early. We can't decide. We want to do this deal.
+
+461
+01:02:34.223 --> 01:02:37.060
+George Haikal: But we don't want to have to value the company.
+
+462
+01:02:37.290 --> 01:02:40.670
+George Haikal: Well, if we're not valuing the company. We can't sell stock.
+
+463
+01:02:41.270 --> 01:02:42.829
+George Haikal: We're not in equity.
+
+464
+01:02:43.230 --> 01:02:50.279
+George Haikal: But there's another quadrant on that side of the balance sheet. It's liabilities. It's what a notice okay, it's dead.
+
+465
+01:02:50.940 --> 01:02:54.259
+George Haikal: So you give me a hundred $1,000
+
+466
+01:02:56.090 --> 01:03:01.179
+George Haikal: and then I will spend it. I'm gonna build this company. I will give you a note.
+
+467
+01:03:01.600 --> 01:03:07.430
+George Haikal: It'll have an interest rate because you have to get everything straight. Irs insists on it. If it's that
+
+468
+01:03:08.050 --> 01:03:13.670
+George Haikal: 8% is sort of where we landed could be 10 could be 20 could be 2. It's usually 8 ish.
+
+469
+01:03:14.400 --> 01:03:21.370
+George Haikal: You have to give it a maturity date, let's say 2 years. That means when you pay it back, and the Irs insists on that. If it's going to be dead.
+
+470
+01:03:22.140 --> 01:03:27.679
+George Haikal: And this isn't like a car note, you're not paying principal and interest every month. This is it. Just all comes due at the end.
+
+471
+01:03:28.920 --> 01:03:30.379
+George Haikal: That's where we started.
+
+472
+01:03:30.770 --> 01:03:33.140
+George Haikal: Well, a couple of things happen.
+
+473
+01:03:33.630 --> 01:03:36.659
+George Haikal: One thing that happened is what you were saying
+
+474
+01:03:37.600 --> 01:03:39.470
+George Haikal: it was actually a successful.com.
+
+475
+01:03:39.780 --> 01:03:44.200
+George Haikal: So in 1997, they raised a hundred $1,000 on a note.
+
+476
+01:03:44.550 --> 01:03:50.120
+George Haikal: and then in 1999. They had a 10 million dollar series, a and a hundred 1 million dollar valuation or something.
+
+477
+01:03:50.900 --> 01:03:57.710
+George Haikal: and they said, great good news investor. Here's your $100,000 plus 8% interest over 2 years. I'm going to pay you back.
+
+478
+01:03:57.850 --> 01:04:03.380
+George Haikal: And the investors were like, what the hell! That wasn't the deal like, I didn't take this incredible risk
+
+479
+01:04:03.540 --> 01:04:06.200
+George Haikal: just for a little bit of interest. I wanted to be in stock.
+
+480
+01:04:06.340 --> 01:04:07.640
+George Haikal: And
+
+481
+01:04:08.030 --> 01:04:21.400
+George Haikal: and you say, Yeah, I hear you. But you know this is kind of the deal. You know we're this is what the contract says. I don't know what to tell you. That happened like once, and then the whole investor community was like, no.
+
+482
+01:04:21.590 --> 01:04:23.210
+George Haikal: we can't let that happen anymore.
+
+483
+01:04:23.510 --> 01:04:33.599
+George Haikal: So what's built into basically every note, unless the investor or the lawyer is just incredibly negligent is that it can't be repaid in cash without their consent.
+
+484
+01:04:34.220 --> 01:04:37.069
+George Haikal: Okay, so you can't just force it. You could ask.
+
+485
+01:04:37.410 --> 01:04:39.029
+George Haikal: But they have to say, Okay.
+
+486
+01:04:40.205 --> 01:04:45.220
+George Haikal: it's generally the way that it's that it's going to work and be and be set up.
+
+487
+01:04:46.350 --> 01:04:56.819
+George Haikal: yeah, because they want stock. That's really the deal. So indirectly or directly. You know, it's going to be very difficult for you to find a note that you can just repay when you feel
+
+488
+01:04:57.070 --> 01:04:59.459
+George Haikal: because they want stock.
+
+489
+01:04:59.590 --> 01:05:03.790
+George Haikal: Okay, that's the basic. That's the basic principle.
+
+490
+01:05:05.123 --> 01:05:16.169
+George Haikal: Yeah. So what what also happened was initially, these were set up so that they would just convert
+
+491
+01:05:16.350 --> 01:05:18.600
+George Haikal: on a dollar for dollar basis
+
+492
+01:05:18.730 --> 01:05:26.319
+George Haikal: into into equity. So when you raise money from the Vc you've worked in this equation.
+
+493
+01:05:26.550 --> 01:05:36.870
+George Haikal: you get a price per share, you know, based in $1999 valuation, or whatever, and that $100,000 would convert at the same price.
+
+494
+01:05:37.100 --> 01:05:42.039
+George Haikal: So if your Vc. Was paying a dollar a share your note was converting in a dollar share.
+
+495
+01:05:42.260 --> 01:05:46.469
+George Haikal: Well, note owners didn't like that, either. They said we took 2 years of risk.
+
+496
+01:05:46.570 --> 01:05:50.669
+George Haikal: and I'm glad we're getting stock. We didn't want to get cash, but
+
+497
+01:05:51.120 --> 01:05:58.690
+George Haikal: for us to be converting a dollar for our basis that doesn't make sense. We wanna we need some juice. And initially, it was a discount.
+
+498
+01:05:59.110 --> 01:06:06.099
+George Haikal: And usually it's 20%. And the whole idea was, if the Vcs are paying a dollar a share, we should only have to pay 80 cents a share
+
+499
+01:06:10.540 --> 01:06:20.860
+George Haikal: it? Yeah, you can calculate a couple of different ways. But yes, that's that's a way. And it's good to track that, because sometimes people mess that up particularly safe sort of confusing setup.
+
+500
+01:06:21.292 --> 01:06:25.097
+George Haikal: But that's the way discount works, and that worked for a long time.
+
+501
+01:06:25.880 --> 01:06:29.339
+George Haikal: but then particularly coming out of the odds
+
+502
+01:06:29.620 --> 01:06:39.349
+George Haikal: investors. Once the great recession was over, and we started to get into the brave new world of that raging bull market in the teens. There was a sense that the discount wasn't.
+
+503
+01:06:39.960 --> 01:06:44.970
+George Haikal: that they really needed even getting 20% off what the Vcs paid.
+
+504
+01:06:45.230 --> 01:06:49.090
+George Haikal: they actually should be converting in an even lower price because they took so much.
+
+505
+01:06:49.240 --> 01:06:50.589
+George Haikal: That's where the cap came.
+
+506
+01:06:50.920 --> 01:06:56.359
+George Haikal: And so the cap is functional evaluation. They're basically saying.
+
+507
+01:06:56.470 --> 01:07:00.360
+George Haikal: you need to come up with a valuation number at the stage that I'm investing.
+
+508
+01:07:00.920 --> 01:07:06.220
+George Haikal: Now, it's ironic because we started this whole process because we couldn't value
+
+509
+01:07:06.370 --> 01:07:08.460
+George Haikal: the company. And that's why we did notes.
+
+510
+01:07:08.990 --> 01:07:15.490
+George Haikal: Now, we're coming forward, you know, going from 1996 to 2012, 15 years, or whatever.
+
+511
+01:07:15.640 --> 01:07:19.420
+George Haikal: But that was enough time for sort of software, the Internet.
+
+512
+01:07:19.910 --> 01:07:29.619
+George Haikal: the world in general to sort of come and and reach points around valuation. So there were more data points. We're now at a place where we can come up with caps, and that's what you find. And you find them in notes
+
+513
+01:07:29.860 --> 01:07:31.520
+George Haikal: and you find them in safes.
+
+514
+01:07:35.080 --> 01:07:45.330
+George Haikal: When Y combinator invented the safe, they basically said, Let's just get rid of the interest rate from the note, because it's confusing. Get rid of maturity date because it's never right.
+
+515
+01:07:45.510 --> 01:07:52.319
+George Haikal: Let's just have something that will allow companies to accept money, and eventually that will defer to stop.
+
+516
+01:07:52.780 --> 01:07:56.149
+George Haikal: do it in a discount, and or we can do it in a cap.
+
+517
+01:07:56.420 --> 01:07:59.350
+George Haikal: It's not debt because it doesn't have an interest, rate
+
+518
+01:07:59.660 --> 01:08:04.450
+George Haikal: or maturity day. But it's a type of equity depending on who you believe.
+
+519
+01:08:04.670 --> 01:08:11.459
+George Haikal: Cyber stock, which is what my commentator says. But very few people actually believe them. It's really an option.
+
+520
+01:08:12.410 --> 01:08:18.859
+George Haikal: So it's a right down the road to convert into stock, and that's what a safer, but otherwise it looks just like.
+
+521
+01:08:19.479 --> 01:08:23.899
+George Haikal: In fact. Sometimes people call them safe notes, which they really shouldn't. That makes lawyers.
+
+522
+01:08:24.700 --> 01:08:38.409
+George Haikal: Their spine is compressed, but it's fine, but it's it's a form of echo, but it works the same way. Yeah.
+
+523
+01:08:38.700 --> 01:08:45.229
+George Haikal: has a right, the conventional person united statement
+
+524
+01:08:45.500 --> 01:08:50.970
+George Haikal: along with the vexar's convertible. They also have pro radarites.
+
+525
+01:08:51.560 --> 01:09:13.686
+George Haikal: What we want to understand. Obviously, the the legal, every every note is gonna be different, like the average case scenario, understanding what those rights look like. What the is, I guess I mean, we understand that you know there are certain what it is, but also what is the
+
+526
+01:09:15.020 --> 01:09:18.100
+George Haikal: downside to founders in this case?
+
+527
+01:09:18.250 --> 01:09:22.949
+George Haikal: How how preferred shares get converted to court seats.
+
+528
+01:09:23.279 --> 01:09:25.800
+George Haikal: Yeah, to kind of go from there. Yeah.
+
+529
+01:09:26.040 --> 01:09:31.820
+George Haikal: So the original rationale for the node
+
+530
+01:09:32.330 --> 01:09:49.530
+George Haikal: was that we couldn't agree on free money valuation because the.com era was so new and there just weren't comps, and we didn't have enough experience with it. So we came up with the note as a way to allow for pre seed and seed stage investments without valuing the company, basically kicking that.
+
+531
+01:09:49.910 --> 01:09:51.439
+George Haikal: And then over time.
+
+532
+01:09:51.740 --> 01:09:57.750
+George Haikal: we had more experience and more data, and we had notes. And then the introduction of the safe.
+
+533
+01:09:57.860 --> 01:09:59.509
+George Haikal: And there was a sense of
+
+534
+01:10:00.150 --> 01:10:10.669
+George Haikal: well, we have. We can value these things because we do have enough experience, and that's going to show up as the cap. So the note of the safe will never convert
+
+535
+01:10:10.870 --> 01:10:15.189
+George Haikal: at a value higher than the cap. The cap is the simplicity.
+
+536
+01:10:16.020 --> 01:10:17.490
+George Haikal: Okay, if you have a tab.
+
+537
+01:10:17.630 --> 01:10:20.949
+George Haikal: it's the numerator. So it takes the place of the free money valuation.
+
+538
+01:10:22.110 --> 01:10:30.549
+George Haikal: So now the rationale for the note or the safe has to change, because we're not doing a note or a safe to avoid valuation.
+
+539
+01:10:30.870 --> 01:10:31.605
+George Haikal: And if we're
+
+540
+01:10:32.090 --> 01:10:40.410
+George Haikal: if we're including valuation because we're including a cap question becomes, why don't we just go to preferred stock? Right? Why don't we just sell stock?
+
+541
+01:10:41.040 --> 01:10:45.559
+George Haikal: And the general argument is is, we don't do that because
+
+542
+01:10:45.680 --> 01:10:50.509
+George Haikal: selling preferred stock is a more transactionally intensive process. It's expensive.
+
+543
+01:10:50.720 --> 01:11:08.439
+George Haikal: So if we can avoid it and wait until there's more money in the room, more activity in the mix. Let's do it, and the safe are just very light instruments. They're really easy instruments you fill in like 3 blanks, and you're done, you know, with a safe.
+
+544
+01:11:08.580 --> 01:11:10.579
+George Haikal: It's how much is being invested.
+
+545
+01:11:10.690 --> 01:11:16.290
+George Haikal: Are we doing a discount and or a cap. What are those inputs? And then you're basically done.
+
+546
+01:11:16.610 --> 01:11:18.040
+George Haikal: And then you wait
+
+547
+01:11:18.220 --> 01:11:27.770
+George Haikal: until you have that preferred stock financing. And that's when they convert the same time that you're taking the new money with a note. Same thing that you also need an interest rate.
+
+548
+01:11:28.010 --> 01:11:33.990
+George Haikal: but very simple to do so with that being said. What's so complex about preferred stock.
+
+549
+01:11:34.550 --> 01:11:39.760
+George Haikal: The the trick with preferred stock
+
+550
+01:11:41.800 --> 01:11:47.539
+George Haikal: is that you have to think about 2 things
+
+551
+01:11:48.210 --> 01:11:50.170
+George Haikal: you have to think about economics.
+
+552
+01:11:51.930 --> 01:11:54.219
+George Haikal: and you have to think about control.
+
+553
+01:11:57.080 --> 01:12:02.389
+George Haikal: Now these appear and save some notes as well. It's just the decision has been made
+
+554
+01:12:03.350 --> 01:12:11.069
+George Haikal: intentionally or unintentionally, consciously or subconsciously or unconsciously, that we're going to go pretty basic on the economics.
+
+555
+01:12:11.250 --> 01:12:13.769
+George Haikal: And we're gonna have very little in the way of control.
+
+556
+01:12:14.390 --> 01:12:19.980
+George Haikal: But that's not the way preferred stock typically works preferred stock tends to be a little more intense.
+
+557
+01:12:22.870 --> 01:12:29.980
+George Haikal: 1st place where it's more intense with economics is you need to think about participation and liquidation.
+
+558
+01:12:36.020 --> 01:13:03.546
+George Haikal: When you see a term sheet it will talk about the stock being participating or not participating in liquidation, or if it doesn't say that it will be defined in such a way that it's 1 of those 2 things, and it's tied to liquidation. Now, liquidation can be bad. That's usually the common sense understanding of what liquidation is going out of business sale. We've seen people on the street with the plaque which they're spinning. Come by the rest of my stuff because
+
+559
+01:13:03.930 --> 01:13:07.940
+George Haikal: nobody buys stereos anymore, and I'm going out of business with my stereo shop.
+
+560
+01:13:08.900 --> 01:13:13.889
+George Haikal: But in venture we define liquidation as any M. And A.
+
+561
+01:13:14.460 --> 01:13:19.350
+George Haikal: So if you sell your company for a billion dollars, that's a liquidation event.
+
+562
+01:13:19.500 --> 01:13:24.729
+George Haikal: So that triggers this issue, too. So the point is, if we really care about exit.
+
+563
+01:13:25.460 --> 01:13:34.049
+George Haikal: And if 99.9 9% of of exits are M and a transactions and an M. And a transaction is liquidation, then this matters.
+
+564
+01:13:34.800 --> 01:13:37.410
+George Haikal: Better pay attention to it and understand what it means.
+
+565
+01:13:37.620 --> 01:13:46.742
+George Haikal: Okay, so what do we have when I mentioned participating versus not participating?
+
+566
+01:13:50.490 --> 01:13:55.739
+George Haikal: Well, in both cases they're gonna have something called a liquidation preference.
+
+567
+01:13:58.700 --> 01:14:03.750
+George Haikal: And this is expressed as a multiple of the purchase price.
+
+568
+01:14:04.190 --> 01:14:10.510
+George Haikal: And your term sheet ought to say, one X of the investment amount
+
+569
+01:14:10.710 --> 01:14:16.890
+George Haikal: could just say, purchase price could say, original purchase price could say, original issue price. These all mean the same thing.
+
+570
+01:14:17.030 --> 01:14:18.789
+George Haikal: but the one X is key.
+
+571
+01:14:18.950 --> 01:14:26.320
+George Haikal: Peter Walker will tell you. Somewhere north of 95% of all venture capital transactions are done in a 1 x.
+
+572
+01:14:26.780 --> 01:14:29.339
+George Haikal: Now it's not a hundred percent.
+
+573
+01:14:29.720 --> 01:14:34.290
+George Haikal: So occasionally you might see a 1.5 x or a 2 x
+
+574
+01:14:34.480 --> 01:14:42.080
+George Haikal: that matters, and we'll explain why in a second. But the point of understanding that data is to say that if your term sheet says one X,
+
+575
+01:14:42.860 --> 01:14:45.730
+George Haikal: leave it alone. Move on to the next issue.
+
+576
+01:14:45.840 --> 01:14:50.960
+George Haikal: If it says something higher than one X. That's a conversation you need to have, you need to understand. Why?
+
+577
+01:14:51.250 --> 01:14:57.680
+George Haikal: Why is it? 2 x. Why is it? 3 X. Does the investor have a good argument for that? They better
+
+578
+01:14:58.210 --> 01:15:02.250
+George Haikal: because they're stretching the realm of of what's considered market.
+
+579
+01:15:02.620 --> 01:15:03.990
+George Haikal: Sometimes they do.
+
+580
+01:15:04.680 --> 01:15:06.150
+George Haikal: Oftentimes they don't.
+
+581
+01:15:06.390 --> 01:15:07.970
+George Haikal: But you should ask the question.
+
+582
+01:15:08.510 --> 01:15:10.520
+George Haikal: So you have the liquidation preference.
+
+583
+01:15:10.790 --> 01:15:17.759
+George Haikal: Now the difference appears when you're talking about participating preferred, you're gonna see. And
+
+584
+01:15:18.670 --> 01:15:22.320
+George Haikal: when you talk about non participating, preferred, you're going to see or
+
+585
+01:15:23.300 --> 01:15:27.500
+George Haikal: and what this means is is what happens in liquidation.
+
+586
+01:15:29.590 --> 01:15:34.470
+George Haikal: Participating, preferred works like this. It says in liquidation.
+
+587
+01:15:34.780 --> 01:15:42.359
+George Haikal: You have your assets, those are your gross proceeds. You turn those into gross proceeds, you pay off
+
+588
+01:15:42.590 --> 01:15:52.990
+George Haikal: the liabilities, then you pay my liquidation preference, my one X or whatever, and then
+
+589
+01:15:53.790 --> 01:15:57.749
+George Haikal: the rest is left for the stockholders, including me.
+
+590
+01:16:00.490 --> 01:16:04.720
+George Haikal: And this gets chopped up based on ownership percentages.
+
+591
+01:16:05.230 --> 01:16:07.100
+George Haikal: So the Vc.
+
+592
+01:16:07.490 --> 01:16:13.880
+George Haikal: As a 5 million dollar liquidation preference because they invested 5 million dollars, one X,
+
+593
+01:16:14.110 --> 01:16:16.760
+George Haikal: and they own 20% of the company.
+
+594
+01:16:18.090 --> 01:16:20.619
+George Haikal: They're gonna get their 5 million dollars here.
+
+595
+01:16:21.040 --> 01:16:25.220
+George Haikal: and then they'll get 20% of what's left here. That's the end.
+
+596
+01:16:26.220 --> 01:16:31.209
+George Haikal: This was very, very common in the early nineties and through the nineties.
+
+597
+01:16:31.900 --> 01:16:35.579
+George Haikal: and then it became less and less common to the odds.
+
+598
+01:16:35.790 --> 01:16:37.670
+George Haikal: And now it's reached a point
+
+599
+01:16:37.770 --> 01:16:53.539
+George Haikal: coming out of the Zerp era that this only appears participating, preferred in fewer than 5% of all total venture capital transactions. It's very rare. It's as rare to see participating, preferred as it is to see something higher than
+
+600
+01:16:53.650 --> 01:16:56.129
+George Haikal: if your term sheets has an and
+
+601
+01:16:56.440 --> 01:17:04.009
+George Haikal: they get their liquidation preference, and they get to participate on a pro rata basis based on ownership percentage. You should ask the question
+
+602
+01:17:05.410 --> 01:17:07.580
+George Haikal: sometimes there's a good reason for it.
+
+603
+01:17:07.840 --> 01:17:18.479
+George Haikal: Frequently there's not. But you should ask, which means, okay, if this shows up in fewer than 5% of all deals. What's showing up in more than 95% of all deals not participating.
+
+604
+01:17:18.960 --> 01:17:24.700
+George Haikal: This is an or the investor has the choice.
+
+605
+01:17:25.230 --> 01:17:30.271
+George Haikal: They can play here and get their money back and then walk away.
+
+606
+01:17:31.370 --> 01:17:33.239
+George Haikal: and then they won't play here.
+
+607
+01:17:34.250 --> 01:17:41.450
+George Haikal: Their ownership percentage is ignored, and whatever's left. It's split up among the other stakeholders, and
+
+608
+01:17:42.000 --> 01:17:46.660
+George Haikal: they can ignore their preference and just take their pro rata share.
+
+609
+01:17:47.800 --> 01:17:50.819
+George Haikal: How does this show up in real life.
+
+610
+01:17:51.290 --> 01:17:55.360
+George Haikal: not participating, preferred is oftentimes referred to as downside protection.
+
+611
+01:17:56.990 --> 01:18:00.189
+George Haikal: You're going to take advantage of this if it's a bad outcome.
+
+612
+01:18:00.670 --> 01:18:03.890
+George Haikal: Okay, they invested 5 million dollars.
+
+613
+01:18:04.960 --> 01:18:09.219
+George Haikal: And once you get through this stage there's only 6 million dollars left.
+
+614
+01:18:10.070 --> 01:18:15.180
+George Haikal: they're probably gonna take their liquidation preference all 5 million dollars of it and walk away.
+
+615
+01:18:15.350 --> 01:18:18.220
+George Haikal: It only leaves 1 million dollars for this group over here.
+
+616
+01:18:18.640 --> 01:18:23.220
+George Haikal: But if the outcome was 6 billion dollars.
+
+617
+01:18:23.580 --> 01:18:26.440
+George Haikal: yeah, they're not gonna take their liquidation preference. Forget it.
+
+618
+01:18:26.770 --> 01:18:28.570
+George Haikal: You know, I think they're 20%
+
+619
+01:18:29.470 --> 01:18:30.940
+George Haikal: on this side of the equation.
+
+620
+01:18:31.070 --> 01:18:39.440
+George Haikal: So non participating, preferred is only meaningful in a downside scenario upside where things go. Well, good M. And a outcome
+
+621
+01:18:39.770 --> 01:18:42.160
+George Haikal: not participating, preferred looks just like your company.
+
+622
+01:18:42.780 --> 01:18:50.269
+George Haikal: A share is a share is a share is a share is a share for purposes of calculating. This is marketing.
+
+623
+01:18:50.400 --> 01:19:01.650
+George Haikal: So market is not participating. Preferred with a 1 x liquidation process. Okay, paid and liquidation. Other words, an M. And a event. This is good.
+
+624
+01:19:01.790 --> 01:19:16.530
+George Haikal: Okay, this has been a good evolution for founders. It's a more appropriate balance of opportunity and rights and privileges. But this is where we sit. If you see a term sheet, but not participating. One X preferred. Just keep on moving.
+
+625
+01:19:16.760 --> 01:19:23.330
+George Haikal: Okay, if you see something else, if it's participating and or it's got a higher multiple. You need to have a conversation
+
+626
+01:19:23.940 --> 01:19:31.430
+George Haikal: right? So no shares. Right? So the shares that you get are considered preferred shares. One of the motives
+
+627
+01:19:32.090 --> 01:19:33.310
+George Haikal: that's controlled.
+
+628
+01:19:34.500 --> 01:19:39.200
+George Haikal: So the default rule. And you probably know this
+
+629
+01:19:40.230 --> 01:19:43.690
+George Haikal: is that one share equals one vote.
+
+630
+01:19:44.390 --> 01:19:50.079
+George Haikal: Okay, stockholders who sit at the top of our kingdom.
+
+631
+01:19:52.120 --> 01:19:58.100
+George Haikal: The ultimate owners don't get to vote on very many things, but what they vote on is really important.
+
+632
+01:19:58.440 --> 01:20:00.740
+George Haikal: They vote on liquidation and M. And A.
+
+633
+01:20:01.080 --> 01:20:04.650
+George Haikal: So sale of the company or other exit.
+
+634
+01:20:04.900 --> 01:20:21.069
+George Haikal: They're going to vote on amendments to the certificate of incorporation. That's your basic organizational document that your constitution, that's where all the terms of the stock are tied up. It's a really important document to get some. Say there, when you decide you're going to change it, and stockholders get to elect the Board of directors.
+
+635
+01:20:24.730 --> 01:20:37.250
+George Haikal: Board of directors is important. They act on behalf of the stockholders, and while while or whereas the stockholders largely passive, your board is pretty active, and one of the things your board does
+
+636
+01:20:38.140 --> 01:20:43.360
+George Haikal: is, it oversees the officers, it hires and fires. The officers.
+
+637
+01:20:43.710 --> 01:20:49.760
+George Haikal: Okay, you, as a founder, are going to need to live in one or more of these boxes.
+
+638
+01:20:50.180 --> 01:21:00.870
+George Haikal: being a founder, is something that is transcendently and existentially important. I mean, you're baked into the DNA of your company. Everybody in the field understands that you're critical.
+
+639
+01:21:01.318 --> 01:21:07.759
+George Haikal: It's really hard to think of you being extricated from that or separate from. But it's not a legal
+
+640
+01:21:08.010 --> 01:21:10.580
+George Haikal: capacity. It's not a legal rule.
+
+641
+01:21:11.380 --> 01:21:13.519
+George Haikal: You have a role as a stockholder.
+
+642
+01:21:14.350 --> 01:21:19.970
+George Haikal: Your ownership of common shares. If you're on the board, you have a role as a director.
+
+643
+01:21:20.610 --> 01:21:30.919
+George Haikal: and then, of course, what's important is on a day to day basis your role as an officer or an active principle in the business. CEO, coo CTO, whatever you are.
+
+644
+01:21:31.440 --> 01:21:34.079
+George Haikal: But of course, and this was the question made.
+
+645
+01:21:35.480 --> 01:21:44.680
+George Haikal: You can be the CEO, and the Board can fire it, which case you've been
+
+646
+01:21:45.420 --> 01:21:51.329
+George Haikal: escorted out of your company. You might still be on the board. You probably are still a stockholder.
+
+647
+01:21:51.850 --> 01:21:56.090
+George Haikal: but you're not actively involved in the business anymore, and that hurts.
+
+648
+01:21:56.430 --> 01:22:02.890
+George Haikal: which is why founders understandably so are very sensitive to the composition of the Board of Director.
+
+649
+01:22:04.250 --> 01:22:07.419
+George Haikal: So how does that relate to voting rights?
+
+650
+01:22:08.010 --> 01:22:16.080
+George Haikal: Okay, we've been talking about how investors buy around 20% of the company, right? Because that's a good number.
+
+651
+01:22:16.530 --> 01:22:21.759
+George Haikal: If they were to buy 80% of the number, the company, you wouldn't feel incentive anymore to stick around.
+
+652
+01:22:21.920 --> 01:22:26.120
+George Haikal: But 20% is less than 50%. And I know that because I'm really good at math.
+
+653
+01:22:27.140 --> 01:22:35.060
+George Haikal: 50% is what it takes over 50% to get a shareholder vote past.
+
+654
+01:22:35.460 --> 01:22:36.160
+George Haikal: So
+
+655
+01:22:37.340 --> 01:22:45.049
+George Haikal: if I own more than 50% of the total shares, I can control whatever it is that we're voting on, including who's on board.
+
+656
+01:22:45.920 --> 01:22:49.229
+George Haikal: or the sale of the company, or the amendment of the certificate.
+
+657
+01:22:49.670 --> 01:22:53.910
+George Haikal: If I have less than 50% of the company, my vote is essentially meaningless.
+
+658
+01:22:54.370 --> 01:22:59.250
+George Haikal: I can yell, and I can holler, and I can scream, but my vote doesn't have any power
+
+659
+01:23:00.150 --> 01:23:17.840
+George Haikal: venture. Capitalists learn that early. You know, people just have one bad experience and figure this out. This is figured out in the sixties, they said, we've got to do something about this. We want to take the minority interest, because that's appropriate economically. But it leaves us extremely naked from a control perspective.
+
+660
+01:23:18.600 --> 01:23:21.290
+George Haikal: So what do we do? And this is where we're gonna end this session.
+
+661
+01:23:21.880 --> 01:23:26.640
+George Haikal: One thing that they do is they have a list of what are called protective provisions.
+
+662
+01:23:27.280 --> 01:23:31.910
+George Haikal: and this is in the certificate of incorporation that sounds super benign.
+
+663
+01:23:32.430 --> 01:23:38.300
+George Haikal: protective provisions, so easy to ignore. You get the 6 page term sheet you're all you're focused on is the valuation.
+
+664
+01:23:38.540 --> 01:23:43.389
+George Haikal: Hopefully. Now, you know, you should be looking at liquidation. You should also be looking at protected provisions.
+
+665
+01:23:43.790 --> 01:23:45.510
+George Haikal: Those are veto rights.
+
+666
+01:23:46.060 --> 01:23:47.590
+George Haikal: They're blocking rights.
+
+667
+01:23:48.620 --> 01:23:56.420
+George Haikal: preferred. Investors have said. We know that we're naked from a control or a governance perspective. Here's a way, here's a way to make ourselves relevant.
+
+668
+01:23:57.530 --> 01:24:06.049
+George Haikal: If the company, if the Board and management want to amend the certificate of incorporation because they want to create a series B to go sell.
+
+669
+01:24:06.580 --> 01:24:10.320
+George Haikal: and they need to amend the certificate. To do that. You need board approval.
+
+670
+01:24:11.090 --> 01:24:17.070
+George Haikal: You need general stockholder approval, but you also are going to need preferred soccer.
+
+671
+01:24:18.070 --> 01:24:27.660
+George Haikal: The preferred stockholders can't make you do it. It's not an affirmative right? They can't force you to raise money. They can't force you to amend the certificate of incorporation, but they can block you from doing it.
+
+672
+01:24:28.090 --> 01:24:29.780
+George Haikal: You want to sell the company.
+
+673
+01:24:30.570 --> 01:24:36.350
+George Haikal: Delaware law says you need board approval, get stockholder approval.
+
+674
+01:24:37.640 --> 01:24:40.540
+George Haikal: The protected provisions will also say you need preferred stockholder.
+
+675
+01:24:41.100 --> 01:24:48.480
+George Haikal: They're generally about 6 items that comprise the solicit protective provisions. It's amendment of the certificate of incorporation.
+
+676
+01:24:49.080 --> 01:25:12.040
+George Haikal: It is sale of the company or the liquidation, and then it's other matters that involve money. It would be like the payment of dividends might be taking on a big loan, but big organic economic issues. And then it might include the composition of the Board of directors. This is very typical. If you see a list in your term sheet of 4, 5, 6 things you're probably stuck with like it or not.
+
+677
+01:25:12.320 --> 01:25:14.510
+George Haikal: If you see a list of 12 things.
+
+678
+01:25:15.220 --> 01:25:21.750
+George Haikal: look at those closely. They're probably getting into tactics. They're probably getting into operations. You might be able to push the Vc. Back.
+
+679
+01:25:21.930 --> 01:25:24.589
+George Haikal: What I would say to try to put you somewhat at ease
+
+680
+01:25:25.040 --> 01:25:32.220
+George Haikal: is in 30 years of legal practice. I've actually, never, ever seen a protective provision actually execute.
+
+681
+01:25:32.480 --> 01:25:52.949
+George Haikal: It happens, I mean, I'm not the only lawyer who's ever played who's ever swum in these waters, but it's extraordinarily rare. I've seen lots of things it's hard to say, never. It's hard to say, absolutely. But I can tell you that in my experience we've done thousands of deals. I've actually never seen a stockholder for stockholder do it
+
+682
+01:25:53.180 --> 01:25:57.029
+George Haikal: now. A founder might say great. That means we don't need it.
+
+683
+01:25:57.240 --> 01:26:00.020
+George Haikal: If it's never going to be used. Then why have it?
+
+684
+01:26:00.650 --> 01:26:10.970
+George Haikal: The response is, that's the whole point. A Vc doesn't want to actually exercise a protective. They don't want to block you from doing something they want that you want to do. That disalignment is toxic
+
+685
+01:26:11.330 --> 01:26:14.350
+George Haikal: what they are. What they want to do is use this as a forcing function
+
+686
+01:26:14.740 --> 01:26:16.570
+George Haikal: to make you come to them early.
+
+687
+01:26:16.800 --> 01:26:18.989
+George Haikal: So if you want to go, raise more money.
+
+688
+01:26:19.140 --> 01:26:24.820
+George Haikal: don't just try to bulldoze them at the end and say, Hey, we just need your approval for this. And they're like what's happening.
+
+689
+01:26:25.160 --> 01:26:30.950
+George Haikal: You know, you know, you're gonna need to get their approval. So go to them early. You want to sell the company, go to them early.
+
+690
+01:26:31.590 --> 01:26:33.069
+George Haikal: You want to
+
+691
+01:26:33.330 --> 01:26:37.850
+George Haikal: take on a big loan, borrow a lot of money, go to them early. That's the point of the protective provision.
+
+692
+01:26:38.090 --> 01:26:41.959
+George Haikal: So that's control. Right? Number one, control, right? Number 2 is a board seat.
+
+693
+01:26:43.820 --> 01:26:55.509
+George Haikal: They will oftentimes hardwire a board seat into your deal documents. Now, it would be really rare for them to structure it in such a way that they would have majority control of the board.
+
+694
+01:26:55.620 --> 01:27:00.139
+George Haikal: If you do see that you need to have that conversation, because that makes you very vulnerable.
+
+695
+01:27:00.760 --> 01:27:06.980
+George Haikal: and that would generally be inappropriate, they better have a really good reason to do, but usually, you know, they might have
+
+696
+01:27:07.300 --> 01:27:11.330
+George Haikal: one seat of 3, so the founders would have 2,
+
+697
+01:27:11.660 --> 01:27:20.700
+George Haikal: or maybe they have 2 seats of 5 founders have 2 or 3, and then maybe there's an independent. There are lots of different ways to chop it up.
+
+698
+01:27:21.840 --> 01:27:36.569
+George Haikal: They're not looking to control the board, but they want to be in the conversation. It's another forcing function. It's a way for them to get access to information. It's a way for them to have your attention. It's a way for them to drive some discipline and rigor around governance and process.
+
+699
+01:27:36.790 --> 01:27:38.419
+George Haikal: That's why they want to be in the market.
+
+700
+01:27:38.530 --> 01:27:42.630
+George Haikal: They don't want to control the vote. They're not looking for ways to push you out.
+
+701
+01:27:42.990 --> 01:27:54.619
+George Haikal: They just want to make sure that they've got deep insights around what's happening with the business, how things are going, and the opportunity to offer some some coaching and some input 99 times out of 100 having a Vc on your board is a blessing.
+
+702
+01:27:55.130 --> 01:28:01.810
+George Haikal: Okay, it's they. They have a network. They have expertise, they have experience that can be of real value to you.
+
+703
+01:28:02.000 --> 01:28:06.709
+George Haikal: And if this is somebody that you feel really good about, and you've partnered with, this could be an incredible benefit.
+
+704
+01:28:07.000 --> 01:28:10.889
+George Haikal: And there is real benefit, too, to the sort of structure and discipline that they force.
+
+705
+01:28:11.400 --> 01:28:36.889
+George Haikal: But one time out of 100, you know, they can be bad. They can be toxic. They could be. They could be a problem. They can slow you down. And you need to be sensitive to that and really get, think long and hard about that before you necessarily agree to this provision in the context of that negotiation. Okay, we have talked about a lot. We're at 1129. So why don't we stop? I'm happy to hang around. So if anybody has any further questions. But if you need to go go, I know you're busy.
+
+706
+01:28:37.010 --> 01:28:39.967
+George Haikal: Looks like you need to go.
+
+707
+01:28:41.325 --> 01:28:42.595
+George Haikal: Thank you.
+
+708
+01:28:44.542 --> 01:28:45.327
+George Haikal: It was
+
+709
+01:28:47.360 --> 01:28:54.730
+George Haikal: But standing okay, awesome.
+
+710
+01:28:55.571 --> 01:29:03.390
+George Haikal: You put a PIN in something. Do you want to unpin it.
+
+711
+01:29:04.560 --> 01:29:14.089
+George Haikal: 16 pins. The main PIN is the one about accelerator investments.
+
+712
+01:29:14.500 --> 01:29:15.470
+George Haikal: Okay?
+
+713
+01:29:15.900 --> 01:29:20.880
+George Haikal: So it's like with, because textile is so well known.
+
+714
+01:29:21.220 --> 01:29:25.819
+George Haikal: we are receiving lots of proposals to invest.
+
+715
+01:29:28.120 --> 01:29:30.249
+George Haikal: And what should we look at that?
+
+716
+01:29:31.528 --> 01:29:33.621
+George Haikal: You should think about them?
+
+717
+01:29:34.700 --> 01:29:46.029
+George Haikal: Yeah, do you? I mean, it depends, does so hypothetically, 200 k. At a
+
+718
+01:29:47.260 --> 01:29:52.379
+George Haikal: similar topic in the similar kind of.
+
+719
+01:29:53.000 --> 01:30:05.080
+George Haikal: And the convertible note can be about 5% good to remove that well, 50% discount. So
+
+720
+01:30:05.300 --> 01:30:12.430
+George Haikal: number one, you know, you always do. You need the money? That's the 1st question to ask and answer, probably. Yes. Okay. Now move on to the next thing
+
+721
+01:30:12.690 --> 01:30:23.820
+George Haikal: I always would say, you know, point 2 is absolutely need. The money absolutely could use it, but absolutely
+
+722
+01:30:23.930 --> 01:30:38.920
+George Haikal: not just extends the runway experimentation. It's not transformational, but it does kind of it triples the amount of cash in the
+
+723
+01:30:38.930 --> 01:30:55.479
+George Haikal: I mean. So you know, and plenty of starters find themselves in the situation. If you've got to meet payroll on Thursday, and it's Tuesday, and you don't have enough money, and somebody shows up, and they're willing to give you money, and then you take it. That's like the offering. That's the analysis, right? But that's not where you are. Then I would say the next question
+
+724
+01:30:55.540 --> 01:31:05.279
+George Haikal: you need to. You need to make sure that you buy with this investor making sure that you have that kind of connectivity and respect
+
+725
+01:31:05.410 --> 01:31:08.170
+George Haikal: between you and early stage investors is critical
+
+726
+01:31:08.320 --> 01:31:16.589
+George Haikal: because it's this is such a. These waters are so uncertain. You want to make sure that you've got partners that are gonna be with you.
+
+727
+01:31:17.294 --> 01:31:28.779
+George Haikal: That's certainly important at Series D, but it's not as important, because now you're just you're executing. You're growing at the early stage. You really want to make sure that you. So if you feel that way, then okay.
+
+728
+01:31:28.960 --> 01:31:38.220
+George Haikal: you could use the money. You don't necessarily have to have it. You like them good track record. You like the way they think they're they're aligned with you, and you start thinking about terms
+
+729
+01:31:38.620 --> 01:31:40.419
+George Haikal: and are the terms tolerable.
+
+730
+01:31:40.580 --> 01:31:58.789
+George Haikal: you know, if if you if you want the money and you're vibing with them, but they want a 3 x liquidation preference with participating preferred at a 1 million dollar pre money valuation, and they want to control the board. You're not going to do that transaction like
+
+731
+01:31:58.990 --> 01:32:03.410
+George Haikal: so board seats is a no, no, at this point.
+
+732
+01:32:05.650 --> 01:32:13.130
+George Haikal: Any more favorable terms than textiles, I guess, is a normal at this point.
+
+733
+01:32:14.785 --> 01:32:26.779
+George Haikal: trying to look at other. No, no. So liquidation, preference renegotiated at the at the next round
+
+734
+01:32:26.940 --> 01:32:28.990
+George Haikal: from my standpoint into your room.
+
+735
+01:32:30.088 --> 01:32:35.759
+George Haikal: What's what am I missing? I think you're thinking about it the right way. I mean, I would use.
+
+736
+01:32:35.940 --> 01:32:46.659
+George Haikal: You know, the tech stars terms is your floor, not your ceiling. And so, you know, there's there's benefit to either giving them the same terms or the terms that need to be a little bit better.
+
+737
+01:32:46.900 --> 01:32:50.370
+George Haikal: But try to avoid worse.
+
+738
+01:32:51.070 --> 01:32:58.490
+George Haikal: And you know, it's that's part of the benefit to having tech stars in the mix is they're a credible investor, you know. Sometimes
+
+739
+01:32:58.610 --> 01:33:07.830
+George Haikal: you take a $50,000 check from someone, and then you want that to become the foundational point. And then a future investors like, yeah. But they're not credible.
+
+740
+01:33:08.130 --> 01:33:16.705
+George Haikal: I don't. I don't like their cap.
+
+741
+01:33:19.330 --> 01:33:20.910
+George Haikal: Good night. Okay.
+
+742
+01:33:21.400 --> 01:33:33.600
+George Haikal: So there's no. And the reason why making that like the specified, I, as an investor.
+
+743
+01:33:34.450 --> 01:33:39.680
+George Haikal: would be a little concerned, be investing in a company that has
+
+744
+01:33:39.800 --> 01:33:41.950
+George Haikal: take. Some have to be included.
+
+745
+01:33:42.170 --> 01:33:52.470
+George Haikal: or textile, and and 500 startups on the capital, etcetera, because they would say
+
+746
+01:33:52.590 --> 01:34:03.079
+George Haikal: kind of difficulty, you know. And and I specifically said textiles, first, st because I'm very proud of having tech start. But I could see
+
+747
+01:34:03.210 --> 01:34:10.150
+George Haikal: I'm I'm trying to think of what are the issues associated and having these kinds of of
+
+748
+01:34:10.510 --> 01:34:16.580
+George Haikal: yeah. So I disagree with your premise a little bit. Okay? So I do think
+
+749
+01:34:16.930 --> 01:34:34.619
+George Haikal: number one, you know, maintaining a clean cap, table and unlimited cap table is highly beneficial, right? I mean, the fewer the investors at this stage the better. But you don't it? It would be ideal to not have 150 investors on your cap table going into a series. A
+
+750
+01:34:35.140 --> 01:34:53.780
+George Haikal: okay, but don't. I wouldn't arbitrarily limit yourself, you know. Sometimes people are like, well, I can't have more than 2. No, I mean, maybe you need 3, 4, maybe you need 12. I mean, it can depend on what it takes to raise money. Now, you're asking specifically about accelerators and incubators. I mean.
+
+751
+01:34:54.000 --> 01:35:04.280
+George Haikal: people are gonna be thrilled with techstars and be thrilled with yc, you know, like, so they're gonna get that? No one's gonna challenge that. That's a stamp of credibility where sometimes companies can run into trouble
+
+752
+01:35:04.640 --> 01:35:06.210
+George Haikal: is if they have.
+
+753
+01:35:06.360 --> 01:35:14.799
+George Haikal: if okay, they have tech stars, that's great. But then they have, like 4 other regional or unknown
+
+754
+01:35:14.910 --> 01:35:23.930
+George Haikal: accelerators or incubators, because sometimes the the question from an investor's perspective is, is this a person that is just like addicted to business planning competitions?
+
+755
+01:35:24.180 --> 01:35:28.899
+George Haikal: Or is this a person who's really serious about building the business, and
+
+756
+01:35:29.350 --> 01:35:38.640
+George Haikal: I would say that in a perfect world you would limit yourself to globally known.
+
+757
+01:35:38.960 --> 01:36:02.130
+George Haikal: highly credible accelerators. Right? But I've also at the precede stage in particular, these sorts of incubators and accelerators are increasingly becoming ways that people raise money. So I've had plenty of great clients who did have 4 or 5 of these regional accelerators on their account table, and it wasn't because they were addicted to business planning competition. They didn't even need the accelerator. They need the money.
+
+758
+01:36:02.954 --> 01:36:05.230
+George Haikal: And this was where they could get it.
+
+759
+01:36:05.840 --> 01:36:32.520
+George Haikal: I had that conversation with investors, I mean, it was, you know, it was definitely an objection that an investor would raise, but it was an objection you could get through. You would sort of say I needed that $100,000 check, and I spent it, and it took me from point A to Point B. And then I needed that $200,000 check. And now here I am today, and they don't have trailing rights. And you know I know how to build a business, and I can do all these sorts of things, but that's what was required. You can have that conversation.
+
+760
+01:36:33.280 --> 01:36:35.720
+George Haikal: Nice question, and then I'll I'll
+
+761
+01:36:37.450 --> 01:36:46.100
+George Haikal: so if and the- and the discount what you do?
+
+762
+01:36:47.440 --> 01:36:49.720
+George Haikal: Which means Hi opt out.
+
+763
+01:36:50.590 --> 01:36:51.610
+George Haikal: Oh.
+
+764
+01:36:52.350 --> 01:37:01.040
+George Haikal: which one would you pick? Or would you go? After negotiating both? Well, more and more discounts are disappearing from these instruments.
+
+765
+01:37:01.160 --> 01:37:20.899
+George Haikal: Okay? So we can, we can just say, like, Hey, guys, I'm sorry they got a discount. Yeah, most. And if you if you even look at the way Yc has sort of set up the forms. You know, the one that most people gravitate to is the one that's just capital.
+
+766
+01:37:22.090 --> 01:37:27.249
+George Haikal: No discount but you can include a discount. I mean, that's a very traditional approach.
+
+767
+01:37:27.620 --> 01:37:38.791
+George Haikal: cap and discount. I would stick with the discount around 20%. I mean.
+
+768
+01:37:41.352 --> 01:37:47.850
+George Haikal: set that as a reference point.
+
+769
+01:37:48.380 --> 01:37:54.559
+George Haikal: And and so, if anything, I want to remove the discount.
+
+770
+01:37:54.930 --> 01:37:57.139
+George Haikal: and I want to increase the cap. Yeah.
+
+771
+01:37:57.610 --> 01:38:20.599
+George Haikal: And so you can have that conversation. And so I I just I start by moving the discount because you have a higher cap because it's later. There's been some risk taken out of the company. Also techstars got in at a favorable cap because they were bringing more than just money to the table.
+
+772
+01:38:20.650 --> 01:38:36.050
+George Haikal: You know they bring brand, and they bring support and coaching to the network. And you know you're just an investor. I love you. I mean, you have to be careful how you say that you don't be consulting, but I mean I don't. That's not a that's not a conversation that's hard for an investor to get their head wrapped. Yeah.
+
+773
+01:38:36.460 --> 01:38:39.049
+George Haikal: now they might say great points.
+
+774
+01:38:39.320 --> 01:38:47.270
+George Haikal: But I want the 3 million dollar cap, you know. I mean, they don't have to agree with you, but they will respect. I know I know
+
+775
+01:38:48.670 --> 01:38:51.965
+George Haikal: it usually works better. If you tie them down with duct tape.
+
+776
+01:38:52.930 --> 01:38:55.759
+George Haikal: keep them in a basement bag of their head. They'll be much more agreeable.
+
+777
+01:38:56.300 --> 01:39:00.870
+George Haikal: But it's hard to build a company from prison. So that's the same.
+
+778
+01:39:02.938 --> 01:39:09.050
+George Haikal: So the context is.
+
+779
+01:39:14.815 --> 01:39:18.590
+George Haikal: you're going to get us.
+
+780
+01:39:20.250 --> 01:39:23.290
+George Haikal: And then
+
+781
+01:39:23.845 --> 01:39:43.229
+George Haikal: the valuation is like 7 million. So then, for investor here. So I guess, like going from our current valuation of 3 million, and now saying like, if we're going to raise 2, 50 to 500,000. And the Median valuation is 8 million. So 3 to 8,
+
+782
+01:39:44.120 --> 01:39:56.049
+George Haikal: yeah, so 3 to 8, a big jump. I mean, it feels like a big jump. But it's not a big jump.
+
+783
+01:39:56.370 --> 01:40:13.910
+George Haikal: not for these stage of companies. No, it's not like you're going from 300 million to 800 million at the series d. Which means, boy, you better show some serious customer revenue right? 3 to 8 million at this stage is just going through. Step through. Techstars can be can justify.
+
+784
+01:40:14.260 --> 01:40:19.520
+George Haikal: But I would. I would think about how much you're raising and how much total dilution that is to do that math.
+
+785
+01:40:20.171 --> 01:40:30.460
+George Haikal: And I would also think about other comps, you know. So other comps might show 7 million 8 million, 10 million, which seems to be a lot of companies like yours are landing.
+
+786
+01:40:31.185 --> 01:40:39.430
+George Haikal: The question was asked before. And you're asking a little bit, too, about what can be too much. I had, you know, the.com company that I joined. We were
+
+787
+01:40:39.800 --> 01:40:48.490
+George Haikal: when I joined that company. We had been raising money at 60 million dollars, which is very high valuation at that point in time, for ultimately we're raising it 5 million dollars.
+
+788
+01:40:48.710 --> 01:40:52.870
+George Haikal: We we were able to raise 60, but that doesn't mean that we should have been raising it. 60
+
+789
+01:40:53.285 --> 01:41:00.130
+George Haikal: we should have been exercising a little bit more restraint, because, having those conversations later was tough because you do want to show forward.
+
+790
+01:41:00.240 --> 01:41:09.020
+George Haikal: So you know, you're at 3. If someone comes along and they say I'm I'll invest in a 50 million dollar valuation. You probably don't do it for 50 million dollars.
+
+791
+01:41:12.330 --> 01:41:20.440
+George Haikal: but because you're gonna have hard conversations with them later. And it's also, you know, down rounds. What we call those when you have something lower is also better.
+
+792
+01:41:21.260 --> 01:41:23.670
+George Haikal: It's not catastrophic, but it's challenging.
+
+793
+01:41:23.920 --> 01:41:28.189
+George Haikal: It sometimes appears when people want us to do it.
+
+794
+01:41:29.830 --> 01:41:36.949
+George Haikal: Yeah, it's hard because you're you're sort of. You're in a damned if you do. Damned if you don't stage, you don't want to be too high, because then you look
+
+795
+01:41:37.414 --> 01:41:45.280
+George Haikal: smug and arrogant and narcissistic and like you don't understand market. You don't want to go too low, because then people think you're not credible.
+
+796
+01:41:45.740 --> 01:41:55.600
+George Haikal: Why is she willing to leave so much money on the table? You're looking for that sweet spot, that middle path, and it's not always easy to find where it is. That's where the Peter Walker data becomes super important
+
+797
+01:41:56.170 --> 01:41:57.650
+George Haikal: change points of market.
+
+798
+01:41:57.840 --> 01:42:03.650
+George Haikal: Say, like, you know, companies at this stage in the Bay area this kind of tech
+
+799
+01:42:04.290 --> 01:42:05.860
+George Haikal: 10 million dollar valuations.
+
+800
+01:42:12.190 --> 01:42:12.950
+George Haikal: this
+
+801
+01:42:15.994 --> 01:42:17.969
+George Haikal: when you follow up.
+
+802
+01:42:18.110 --> 01:42:23.560
+George Haikal: So when for fundraising, we're saying like, we're raising 1.5, and we do. All of that
+
+803
+01:42:24.783 --> 01:42:40.630
+George Haikal: is like you. Tell the investor and raise the 50,000 at this valuation. But then you said that it's part of the bigger valuation.
+
+804
+01:42:41.650 --> 01:42:44.639
+George Haikal: What happens with a lot of companies is
+
+805
+01:42:45.050 --> 01:42:52.379
+George Haikal: they will, and I'm sure my math is going to be wrong, because I don't. I can't keep up with it in real time. This is just for illustrious purposes.
+
+806
+01:42:52.570 --> 01:42:53.910
+George Haikal: They raise.
+
+807
+01:42:54.110 --> 01:43:06.269
+George Haikal: you know, $50,000 at a 500 million dollar cap and $75,000 at a million dollar cap, and then a million dollars at a 3 million dollar cap. And they keep doing these one off deals, and then they get to the end of it.
+
+808
+01:43:06.560 --> 01:43:19.019
+George Haikal: And they decide, okay, I guess it's been our precede. Wouldn't even call it around. You call it precede experience or something right? And then, by the time you run all the math you're like, wait a minute. If all these little one off investments.
+
+809
+01:43:19.590 --> 01:43:23.389
+George Haikal: these investors now represent 35% of my cap team.
+
+810
+01:43:23.920 --> 01:43:26.240
+George Haikal: You, you know that's too much equity.
+
+811
+01:43:26.410 --> 01:43:44.129
+George Haikal: like every decision you made in the moment, wasn't wrong. There was probably rational and made sense. But there was. There was a cumulative impact that you weren't thinking of day to day, but became pretty profound when you got to the end of that all the time starting.
+
+812
+01:43:44.590 --> 01:44:04.020
+George Haikal: And so what I encourage founders to do is to try to think, Macro, so think about your $50,000 check, not as being like a 1 off standalone investment. Think about it as part of a larger financing, and you want that larger financing when it's totally complete to represent 20% of the cap tape.
+
+813
+01:44:04.180 --> 01:44:08.280
+George Haikal: and you'll be able to work the math back to what that $50,000
+
+814
+01:44:08.520 --> 01:44:10.859
+George Haikal: should be. Does that make sense?
+
+815
+01:44:11.030 --> 01:44:18.259
+George Haikal: And then you can. And sometimes, you know, investors, I've seen it. I've seen it work that way. If you say to an investor, says, I think the cap should be 2 million.
+
+816
+01:44:18.650 --> 01:44:25.339
+George Haikal: and you think the cap should be 8, and they're like, Whoa! How did you get there? Say, simple. I understand why you would say 2 million. You're not crazy.
+
+817
+01:44:25.650 --> 01:44:28.329
+George Haikal: But you know, I think I'm gonna raise this much money.
+
+818
+01:44:28.460 --> 01:44:30.820
+George Haikal: and that's gonna be 20% of the company.
+
+819
+01:44:31.060 --> 01:44:32.630
+George Haikal: and you're going to be part of that.
+
+820
+01:44:32.840 --> 01:44:38.289
+George Haikal: And in order. And the way it's all gonna work, and you don't need an 8 million dollar validation. Otherwise it's gonna be too dilutive.
+
+821
+01:44:38.390 --> 01:44:44.370
+George Haikal: Yeah, I don't want to be too late. I don't want, you know you're the you're the jockey. You're the person I'm betting.
+
+822
+01:44:44.690 --> 01:44:50.890
+George Haikal: and so, you know, they can be that can resonate rather than just. I deserve a higher valuation, because I'm awesome.
+
+823
+01:44:59.140 --> 01:45:01.120
+George Haikal: and they're not like
+
+824
+01:45:01.360 --> 01:45:22.170
+George Haikal: understood. Well, there's a way you can solve for that. Write a bigger check. No, and that is, it's a very big response, because sometimes they'll sit there and say, my $50,000 is only going 8% of the company.
+
+825
+01:45:22.900 --> 01:45:28.660
+George Haikal: And you know, I I get that. But you're saying I can't. I can't give you 10% of the
+
+826
+01:45:28.920 --> 01:45:30.530
+George Haikal: $1,000. I'm looking at anything.
+
+827
+01:45:31.622 --> 01:45:38.680
+George Haikal: You have to think about this as part, you know, really holistically. And if if you're doing investments like this. You got to be comfortable
+
+828
+01:45:38.870 --> 01:45:44.059
+George Haikal: with those sorts of those sorts of numbers. Sometimes it works and sometimes it doesn't. And then you have our decisions to make.
+
+829
+01:45:46.010 --> 01:45:54.950
+George Haikal: You know all this complications that you said it would come along the way. So I'm just wondering, like it would be like possible to renegotiate
+
+830
+01:45:55.270 --> 01:45:59.759
+George Haikal: some deals actually with the previous investors, like we already signed something.
+
+831
+01:45:59.930 --> 01:46:18.650
+George Haikal: But then so you want to always like, keep the key members motivated. And then, so you want to renegotiate. They can't really like make something like out of that. Is it possible? Or is it happens all happens all the time. Okay? And the way that I describe it is is this, there are new investors
+
+832
+01:46:19.120 --> 01:46:22.560
+George Haikal: care. They're they're 3 parts of every captain.
+
+833
+01:46:23.030 --> 01:46:25.260
+George Haikal: and new investors care about 2 points.
+
+834
+01:46:25.530 --> 01:46:29.049
+George Haikal: They care about themselves, and they care about you.
+
+835
+01:46:29.400 --> 01:46:35.790
+George Haikal: Okay, they wanna make money and they want you incentive. They don't care about all the investors at all.
+
+836
+01:46:36.380 --> 01:46:39.160
+George Haikal: So what happens all the time is
+
+837
+01:46:39.440 --> 01:46:44.630
+George Haikal: new, investors will show up. Let's use our example. Let's say you sold 35% of the company.
+
+838
+01:46:45.030 --> 01:46:53.580
+George Haikal: Okay? And you're talking to a senior investor. And they look at that. And they say, That's that's too much. We're not. We're not going to allow the Pre seat to represent 35% of capital.
+
+839
+01:46:53.760 --> 01:47:00.579
+George Haikal: You know, we're a new investor. We want 20%. We think they should be at 20% because we want the founders at 60%.
+
+840
+01:47:01.150 --> 01:47:03.149
+George Haikal: Okay, we can't be at 20
+
+841
+01:47:03.400 --> 01:47:06.810
+George Haikal: and have founders at 60 have them at 35.
+
+842
+01:47:07.220 --> 01:47:09.459
+George Haikal: That doesn't work. It's more than 90%.
+
+843
+01:47:09.570 --> 01:47:11.759
+George Haikal: So now you've got an issue.
+
+844
+01:47:11.980 --> 01:47:15.019
+George Haikal: Your old investors are permitted to 35%.
+
+845
+01:47:15.200 --> 01:47:17.630
+George Haikal: But you're asking them to only take 20%.
+
+846
+01:47:18.910 --> 01:47:22.660
+George Haikal: It happens all the time where new investors will say in condition to this transaction.
+
+847
+01:47:22.920 --> 01:47:26.199
+George Haikal: is it? The the old investors agree to modify the terms
+
+848
+01:47:26.480 --> 01:47:29.230
+George Haikal: so that they'll fit into 20% rather than 35%.
+
+849
+01:47:29.520 --> 01:47:44.810
+George Haikal: And you know there will be a hue and a cry like Mom and Dad, you promised we were going to Disney World. Now you're you know. Now we're going to 6 Flags, and it's not the same. Just some bullshit. And but you say I understand your disappointment. But we're still gonna have cotton candy, and it's still gonna be a great time. And
+
+850
+01:47:45.670 --> 01:47:50.280
+George Haikal: and they say fine, because the option is new. Money says we're not doing the deal.
+
+851
+01:47:51.000 --> 01:47:52.940
+George Haikal: This 35% is is too much.
+
+852
+01:47:53.490 --> 01:47:59.579
+George Haikal: And I've I've only seen it happen one time where the old investor dug in and said no.
+
+853
+01:48:00.130 --> 01:48:02.239
+George Haikal: and not surprisingly, that company ended up doing it.
+
+854
+01:48:02.880 --> 01:48:08.664
+George Haikal: The the old investor was just. They were so principled that they weren't prepared to
+
+855
+01:48:09.210 --> 01:48:12.859
+George Haikal: to accommodate for firms. And they, you know, committed versus
+
+856
+01:48:13.370 --> 01:48:18.311
+George Haikal: is tech start open to renegotiate as well, or
+
+857
+01:48:19.660 --> 01:48:22.289
+George Haikal: I think I mean, everything is everything depends.
+
+858
+01:48:22.410 --> 01:48:31.350
+George Haikal: You know, everything is everything is circumstantial. And it depends. It depends the reason and the rationale. But you know, I I it's it's
+
+859
+01:48:31.800 --> 01:48:42.409
+George Haikal: I guess this is a good point to make cap tables. These are ongoing conversations. They're never done. They're never fixed. They're never in concrete. They can always be changed. And they do.
+
+860
+01:48:42.850 --> 01:48:47.780
+George Haikal: you know, both because of the terms of the deal, and also because of the negotiations that can take place
+
+861
+01:48:48.040 --> 01:48:49.165
+George Haikal: after the fact.
+
+862
+01:48:50.870 --> 01:49:00.806
+George Haikal: 2 questions, one is. Are you gonna correct me? I've taken off my lawyer cap long ago, so don't worry.
+
+863
+01:49:01.740 --> 01:49:07.106
+George Haikal: for when you bring on a new founder, is there ever a conversation where?
+
+864
+01:49:07.700 --> 01:49:21.030
+George Haikal: the investors or folks in the cap table for you to do share transfer of existing shares, or versus like bringing on new equity and giving that to the founder like we're trying to navigate like
+
+865
+01:49:21.190 --> 01:49:32.562
+George Haikal: you can. You can do that. Typically people don't, because there are oftentimes tax challenges associated with share transfers. And it's easier to structure
+
+866
+01:49:34.090 --> 01:49:43.120
+George Haikal: from a tax perspective. It's easier to get equity in people's hands through new issuances. So a point that's being made, which I think is also. And indeed this
+
+867
+01:49:43.500 --> 01:49:47.860
+George Haikal: this nail really hard. But it's a good time to do it. Generally speaking, these
+
+868
+01:49:48.260 --> 01:49:55.629
+George Haikal: these numbers stick like, you know, when you're bringing on new people, whether it's employees or as investors, it's additive.
+
+869
+01:49:55.980 --> 01:50:01.179
+George Haikal: Okay, you're gonna have your 4 million forever. What's gonna happen is your percentage is gonna drift.
+
+870
+01:50:01.290 --> 01:50:06.400
+George Haikal: because the more stock you add the more this denominator grows and strives at your memberships.
+
+871
+01:50:06.520 --> 01:50:10.439
+George Haikal: But usually what happens in these cases is you get there optional warrants.
+
+872
+01:50:10.560 --> 01:50:15.719
+George Haikal: or you know, new issuances of restricted stock or restricted sock.
+
+873
+01:50:16.230 --> 01:50:20.879
+George Haikal: I have seen it where you'll where you peel it out usually.
+
+874
+01:50:21.080 --> 01:50:28.860
+George Haikal: and this is not to go too too far down the well. But- but one way to do it, that sort of bridges it would be. You make a new issuance.
+
+875
+01:50:29.100 --> 01:50:36.000
+George Haikal: and then you might be asked to give up some of your staff. That's really unusual, but it can happen.
+
+876
+01:50:36.210 --> 01:50:45.860
+George Haikal: You know, I've I've seen it happen where someone would say, Look, in order to make all this work. It's really complicated cash table. We're gonna need you to go from 4 million to 3 million and then use our decision?
+
+877
+01:50:45.970 --> 01:50:55.129
+George Haikal: And does the new shares that go into this company? Are they typically restricted stock, or is it come out of the option? It well, so
+
+878
+01:50:56.130 --> 01:51:01.649
+George Haikal: it. There are 2 ways that you can structure your pool. A lot of companies will have a pool for everything.
+
+879
+01:51:01.930 --> 01:51:09.759
+George Haikal: restricted stock, restricted stock units and options. Some will just do it for options. So that's the 1st question. But the larger question is is just
+
+880
+01:51:10.496 --> 01:51:25.400
+George Haikal: what form of instrumenting or awarding, and usually they'll do restricted stock until the value of the company gets so high with the tax impact.
+
+881
+01:51:25.700 --> 01:51:37.659
+George Haikal: You know, you're going to evaluate it through the election. And so you're accelerating the tax liability. If the stock is only worth a hundred dollars ideal, right. The Irs $30 check, and you're good. What if the stocks worth a million dollars
+
+882
+01:51:37.770 --> 01:51:40.699
+George Haikal: now they have to come up with $300,000,
+
+883
+01:51:40.740 --> 01:52:03.309
+George Haikal: so you can do options. Sorry? One more question. I was really interested in the crowdfunding thing that you mentioned. Interested to see what that looks like. Is it like a crowdfund like this? Crowdfunding ends up, becoming safe, like where everyone's in there, or is it? And then another citations like, are you these like for all the vehicles and stuff.
+
+884
+01:52:03.310 --> 01:52:22.819
+George Haikal: So with with regulation. Cf, you can do what are called Spvs. Special purpose vehicles kind of roll everybody into a single entity. It helps keep the cap table clean, so you might raise like small investments from a hundred people, but instead of having a hundred people on your cap table and just have one, you know. It's
+
+885
+01:52:23.080 --> 01:52:29.829
+George Haikal: it's like apples and oranges, comma Llc. And everybody invests in apples and ridges. Llc. And
+
+886
+01:52:30.610 --> 01:52:31.990
+George Haikal: it's almost like a picture of my
+
+887
+01:52:32.150 --> 01:52:43.350
+George Haikal: okay. But with regulation a what we're doing you can't do. So right now. We've so far in our campaign, you know, we've raised for about 4,000 investors. Those are all on our captain.
+
+888
+01:52:43.490 --> 01:52:44.380
+George Haikal: Oh.
+
+889
+01:52:44.810 --> 01:52:49.349
+George Haikal: so I mean, when you just when you decide to do something like that, you're really making it leap
+
+890
+01:52:50.520 --> 01:52:52.170
+George Haikal: from a cap table perspective.
+
+891
+01:52:54.350 --> 01:52:59.629
+George Haikal: How hard is that to me? I mean, how hard is it to me that many
+
+892
+01:53:00.180 --> 01:53:04.829
+George Haikal: it it's not. I mean, you know, you're you're taking on a
+
+893
+01:53:05.070 --> 01:53:16.039
+George Haikal: administrative. But there are lots of you. You're just gonna basically be spending for back office assistance, you know, with carta or otherwise, it just costs more.
+
+894
+01:53:16.200 --> 01:53:26.420
+George Haikal: So, you know, to kind of maintain communications and interaction incoming questions, making sure your cap tables accurate. So you know who gets what? But you know it's doable.
+
+895
+01:53:26.610 --> 01:53:40.599
+George Haikal: Everything's over money. That's 1 thing we were thinking about, like it might be a track of opportunity, and then they can. I don't disagree with that. The best angel investors
+
+896
+01:53:40.770 --> 01:53:43.420
+George Haikal: our subject matter experts
+
+897
+01:53:44.880 --> 01:53:58.770
+George Haikal: because they're, you know, they get with the problem you're trying to solve, and they oftentimes can. You know, they can get there really quickly. They don't need a lot of evangelism, and then oftentimes they have a good network, they can hopefully reach your customers. More money.
+
+898
+01:53:59.120 --> 01:54:00.950
+George Haikal: Yeah, no, I think that's a great idea.
+
+899
+01:54:01.370 --> 01:54:09.909
+George Haikal: And now you, you know, you don't necessarily need to go to like something like a true crowdfunding approach. For that you probably do it just through a traditional offering.
+
+900
+01:54:10.250 --> 01:54:17.070
+George Haikal: you know, if you're just doing, you're thinking about raising like 10 if you want to raise 10,000
+
+901
+01:54:17.630 --> 01:54:18.500
+George Haikal: got it.
+
+902
+01:54:19.230 --> 01:54:26.840
+George Haikal: That makes sense. That makes sense. Yeah. Yeah. But I think I think that's that's a great idea. That's something that's like.
+
+903
+01:54:26.960 --> 01:54:41.470
+George Haikal: you know. People talk about family friends and fools, you know. Try to avoid fools because it's never worth it. Family and friends for sure, and then, I will say, is the 3, rd you know, instead of fools subject matter experts, it's always great.
+
+904
+01:54:43.090 --> 01:54:45.919
+George Haikal: I'd also talked to Antonio.
+
+905
+01:54:46.070 --> 01:54:55.220
+George Haikal: We came in experimented with crowdfunding. I don't think it went super. Well, I don't think it was
+
+906
+01:54:57.430 --> 01:55:10.540
+George Haikal: It's not like it's a lot you have to have the level of disclosure that you provide is
+
+907
+01:55:10.960 --> 01:55:16.543
+George Haikal: not. It's a lot of work. Yeah. So I think
+
+908
+01:55:17.640 --> 01:55:19.750
+George Haikal: should talk to him. Figure out what?
+
+909
+01:55:20.460 --> 01:55:21.230
+George Haikal: Yes.
+
+910
+01:55:21.400 --> 01:55:28.640
+George Haikal: got it. Yeah, I I did for my last last start I was at. We use a company called Republic, and they did a lot of the.
+
+911
+01:55:28.810 --> 01:55:30.010
+George Haikal: It's helpful for me.
+
+912
+01:55:31.660 --> 01:55:42.340
+George Haikal: But I think, you know, like, but if you're just talking about lawyers as angels, they're you're gonna be fine. They're accredited investors, probably, and you just are doing it like casually, sort of
+
+913
+01:55:42.920 --> 01:55:45.190
+George Haikal: close network. Correct? Yes.
+
+914
+01:55:46.900 --> 01:55:49.630
+George Haikal: Yep, yeah.
+
+915
+01:55:50.200 --> 01:55:52.830
+George Haikal: Did you negotiate the 3 years?
+
+916
+01:55:53.580 --> 01:55:56.080
+George Haikal: Negotiate the way of the Nordics?
+
+917
+01:55:56.290 --> 01:55:59.990
+George Haikal: Negotiate the 2 years. The term
+
+918
+01:56:00.150 --> 01:56:07.920
+George Haikal: yeah. The the idea is- is that the term is supposed to be enough time
+
+919
+01:56:08.160 --> 01:56:20.590
+George Haikal: for you to get to the qualified financing conversion moment, but a lot of times, you know. They always say it takes twice as much money and twice as much time, so it's not uncommon to get to the end. And the problem is.
+
+920
+01:56:21.370 --> 01:56:24.909
+George Haikal: if you get it to the end of the term
+
+921
+01:56:25.060 --> 01:56:28.530
+George Haikal: based on the terms of the node, you have to pay all that back.
+
+922
+01:56:28.790 --> 01:56:31.079
+George Haikal: you know. That's usually the way the note is set up.
+
+923
+01:56:31.190 --> 01:56:33.830
+George Haikal: Of course you're in a position where you're like. We don't have the money.
+
+924
+01:56:34.440 --> 01:56:39.269
+George Haikal: And so now the note holder can do one of 2 things they can foreclose on your business and shut you down.
+
+925
+01:56:39.570 --> 01:56:44.070
+George Haikal: That tends not to be that attractive, you know, because there's nothing there, and it's bad for everybody.
+
+926
+01:56:44.200 --> 01:56:48.350
+George Haikal: or they can extract better terms.
+
+927
+01:56:48.740 --> 01:56:57.110
+George Haikal: you know. So they can say, Okay, we'll extend this by 2 years or a year. But our discount is gonna be 40% instead of 20%. So the cap is gonna be 2 million. So forth.
+
+928
+01:56:57.790 --> 01:57:06.170
+George Haikal: That's why, when Yc. Introduced the safe, they well, that's why they introduced the safe, because they saw that it was creating too much
+
+929
+01:57:06.290 --> 01:57:11.890
+George Haikal: arbitrary and unnecessary and unnatural leverage for note holders
+
+930
+01:57:12.220 --> 01:57:18.700
+George Haikal: having the ability at that maturity date to renegotiate. So if you just get rid of it, then you know founders are never subject to that.
+
+931
+01:57:20.020 --> 01:57:23.122
+George Haikal: And so in the States don't have it.
+
+932
+01:57:34.900 --> 01:57:40.609
+George Haikal: Is there a value in negotiating the majority of these additional notes?
+
+933
+01:57:41.050 --> 01:57:43.449
+George Haikal: Yeah, I mean, the longer the better.
+
+934
+01:57:43.740 --> 01:57:52.139
+George Haikal: the longer the better. Now I mean part of it. And and I would also say that I don't want to hit this too hard, so like, you know, investors like tech stars that hold notes are not going to be at risk
+
+935
+01:57:52.270 --> 01:57:59.289
+George Haikal: most, most, won't they? What I described is like the nightmare situation is super fair. Most investors are like we get it.
+
+936
+01:57:59.420 --> 01:58:03.289
+George Haikal: You know. You've been talking to us. You're trying hard. You need another 6 months. Nope.
+
+937
+01:58:03.580 --> 01:58:20.409
+George Haikal: not an issue. You know, it's it's a 2 sentence amendment super easy. And that's 99% of the time. It's just the 1% where you can have you. Just you need to be careful. But that also gets to like making sure you're really vibing with this investor. And do you negotiate your coupon, and then I'm good.
+
+938
+01:58:21.030 --> 01:58:24.150
+George Haikal: But like which parts, when you said the coupon, the interest rate.
+
+939
+01:58:24.620 --> 01:58:36.149
+George Haikal: yeah, I mean you, you can. It turns out to be that impactful. So I it tends not to be an issue that I would spend a lot of time. You know. I've seen investors. I've seen founders get really upset. They're like.
+
+940
+01:58:36.330 --> 01:58:40.810
+George Haikal: 10% is too high. It really needs to be 7%. Do you really want to like
+
+941
+01:58:40.920 --> 01:58:44.329
+George Haikal: create a lot of animosity and antagonism around that
+
+942
+01:58:44.730 --> 01:58:48.710
+George Haikal: about, you know, saving 3% interest on a $50,000 note. Probably not.
+
+943
+01:58:49.130 --> 01:58:54.020
+George Haikal: But you know it can matter at scale. So if it's a big enough node.
+
+944
+01:58:54.190 --> 01:58:59.620
+George Haikal: and if the interest rates high enough, maybe you do spend some like, you know, they're they're like
+
+945
+01:59:00.940 --> 01:59:10.719
+George Haikal: 15 possible things to negotiate. But you really want to focus on 3. It's probably not whatever. Yeah, that's why I was asking. So it's really no discount
+
+946
+01:59:10.910 --> 01:59:16.850
+George Haikal: and higher cap. That's all the yeah, I mean, I would dilution or cap, for sure.
+
+947
+01:59:16.990 --> 01:59:21.120
+George Haikal: you know, is- is one to think about board seats.
+
+948
+01:59:22.350 --> 01:59:31.760
+George Haikal: Yeah, I mean, I think it's just. I'm not an anti board seat person, but I want to make. I want to really be careful about the composition of my board.
+
+949
+01:59:31.980 --> 01:59:36.380
+George Haikal: you know, so I'm not a person who would say, Never give a board seat to a season investor.
+
+950
+01:59:36.720 --> 01:59:39.740
+George Haikal: Sometimes you should, but you know it's
+
+951
+01:59:40.330 --> 01:59:46.290
+George Haikal: frequently it's a place where you do want to drive. It's too early. We're not ready for it. We don't want to have a board like that yet.
+
+952
+01:59:48.290 --> 02:00:06.399
+George Haikal: Yeah. Anything else on the same topic. You spent time in Detroit. My wife used to work for one.
+
+953
+02:00:06.800 --> 02:00:10.430
+George Haikal: Yes, she was in the supply chain.
+
+954
+02:00:10.960 --> 02:00:15.029
+George Haikal: I mean, she is a human was out of the supply chain they had, they had to break apart.
+
+955
+02:00:15.200 --> 02:00:16.120
+George Haikal: Budget.
+
+956
+02:00:18.900 --> 02:00:24.350
+George Haikal: There's a company called Mirator, which has since been acquired. Can't remember who bought them.
+
+957
+02:00:26.655 --> 02:00:27.480
+George Haikal: Careful.
+
+958
+02:00:28.470 --> 02:00:32.640
+George Haikal: Yeah. But so you're in the auto insurance. Okay?
+
+959
+02:00:36.700 --> 02:00:38.000
+George Haikal: Nice. What does it do?
+
+960
+02:00:41.808 --> 02:00:53.839
+George Haikal: And it helps them.
+
+961
+02:00:54.330 --> 02:01:03.309
+George Haikal: So they have it.
+
+962
+02:01:03.880 --> 02:01:09.920
+George Haikal: So we're gonna give everything they need to know about inventory if it has certain features so that they don't know.
+
+963
+02:01:10.040 --> 02:01:12.432
+George Haikal: Yep, nice. I know.
+
+964
+02:01:13.750 --> 02:01:18.570
+George Haikal: I have a good friend who has worked at dealership in Cleveland for 25 years.
+
+965
+02:01:18.780 --> 02:01:19.520
+George Haikal: Yep.
+
+966
+02:01:20.968 --> 02:01:28.460
+George Haikal: yes, we can. Yeah, connect with me. And I can. I can see if I can set that up. He's he's sold a lot of Bmws.
+
+967
+02:01:29.560 --> 02:01:34.049
+George Haikal: Yep, sure, it's cool anything else.
+
+968
+02:01:35.360 --> 02:01:37.638
+George Haikal: Alright, I'm gonna go pass out, and
+
+969
+02:01:38.902 --> 02:01:48.590
+George Haikal: it was good to be here. Don't hesitate to reach out. I'm excited to the eir thing with all of you, and if you have some project questions I can hang
+
+970
+02:01:49.560 --> 02:01:53.280
+George Haikal: alright. You are released to the wild. Thanks, everybody!
+

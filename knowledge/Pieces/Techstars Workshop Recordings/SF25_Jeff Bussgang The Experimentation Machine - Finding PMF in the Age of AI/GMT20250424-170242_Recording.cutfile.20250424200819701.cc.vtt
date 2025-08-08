@@ -1,0 +1,1663 @@
+WEBVTT
+
+1
+00:00:01.875 --> 00:00:18.875
+Appreciate you. Kurti, thank you for having me. Folks may know i've known Kurti's husband for over three decades. We were classmates at business school And I've been a part of the Techstars community for Since the beginning, I was one of the early, early investors and supporters of Techstars Boston and then
+
+
+2
+00:00:18.875 --> 00:00:25.875
+Techstars New York. And so just really thrilled to be here. And we've backed a number of Techstars alumni at Flybridge over the years.
+
+
+3
+00:00:25.875 --> 00:00:34.875
+That's awesome. Even you shouted out ClassPass too as one of your examples in your book. So that was a Techstars company from a few years back.
+
+
+4
+00:00:34.875 --> 00:00:42.875
+So that's super. Guys, I'm going to kick off with a couple of opening questions, and then I want to open it up to you.
+
+
+5
+00:00:42.875 --> 00:00:56.875
+To let you ask as many as you want. I sent a copy, Jeff, and I think I might have told you this, of the experimentation machine to all the CEOs in my current program.
+
+
+6
+00:00:56.875 --> 00:01:24.875
+And I really consider it to be the new startup Bible, incorporating AI along with all the basics of starting a business. And the book's subtitle is Finding Product Market Fit in the Age of AI. So maybe we can kick it off with a summary of how AI is literally changing the landscape the traditional path to starting a business and finding product market fit. You want to start with that?
+
+
+7
+00:01:24.875 --> 00:01:25.875
+Sure.
+
+
+8
+00:01:25.875 --> 00:01:34.875
+Yeah. And look, I'll say a few things that many people here know, I'm sure, but just to kind of summarize, there are a series of timeless methods for finding product market fit.
+
+
+9
+00:01:34.875 --> 00:01:41.875
+Customer discovery, nailing down your ideal customer profile, starting narrow. Doing things that don't scale.
+
+
+10
+00:01:41.875 --> 00:01:48.875
+Running a series of experiments. I could have written about those things. I mean, I've been teaching about those things for the last 15 years.
+
+
+11
+00:01:48.875 --> 00:02:05.875
+So I put that in the book because it's important to, I felt, synthesize a lot of those lessons from decades of working with startups, investing in startups and teaching thousands and thousands of HBS students who went on to start companies. So that's there. Those are the timeless methods.
+
+
+12
+00:02:05.875 --> 00:02:14.875
+But now all of you have this amazing opportunity to be 10x founders leveraging the modern timely AI tool set.
+
+
+13
+00:02:14.875 --> 00:02:25.875
+And that's what's really new. Because the modern AI toolset allows you to design and run experiments more effectively and efficiently than ever before.
+
+
+14
+00:02:25.875 --> 00:02:37.875
+And so as founders, you now need to exercise that muscle and develop that skill And that, by the way, those tools are dynamic and changing all the time with every new release that comes out every few weeks.
+
+
+15
+00:02:37.875 --> 00:02:54.875
+Whether it's Maness or DeepSeek or whatever the next thing is And you want to make sure that you're still being very strategic about the timeless methods, about picking the right hair on fire problem and value proposition, finding high willingness to pay.
+
+
+16
+00:02:54.875 --> 00:03:08.875
+Building a sustainable, profitable economic model, finding old-fashioned competitive advantage and competitive moats. So that's really the interesting let's call it two-eye seeing that you as founders need to be able to do.
+
+
+17
+00:03:08.875 --> 00:03:11.875
+Between the timeless methods and the timely tools.
+
+
+18
+00:03:11.875 --> 00:03:22.875
+Awesome. Awesome. I think that's, you know, you're hitting on what everyone is going through right now. So they're in the middle of this and I think they are sharing quite a bit with each other.
+
+
+19
+00:03:22.875 --> 00:03:29.875
+But getting a start and understanding what frameworks to use is so, so important. So that's great.
+
+
+20
+00:03:29.875 --> 00:03:45.875
+One of the things that we also got to read about and also, you know we've been discussing is What is the future of business models in the age of AI, right? So SAS had its run, has had, maybe it still does.
+
+
+21
+00:03:45.875 --> 00:04:04.875
+But we're looking at a Gentic AI now coming in. So maybe you can share a little bit about business models in the age of AI, again, an overview to get everyone warmed up, thinking about specifics.
+
+
+22
+00:04:04.875 --> 00:04:05.875
+Okay.
+
+
+23
+00:04:05.875 --> 00:04:17.875
+Yeah. I could give you a tactical answer and a strategic answer to that question, Kurti. The tactical answer as you note, is that SAS has had an amazing multi-decade run and we all are very accustomed, both vendors and buyers of SaaS software to a certain pricing model.
+
+
+24
+00:04:17.875 --> 00:04:24.875
+And that's the standard monthly upfront, sometimes quarterly, sometimes annual recurring revenue pricing model.
+
+
+25
+00:04:24.875 --> 00:04:39.875
+Well, the AI world requires more of a usage-based or perhaps even a value-based model. And so there are some fascinating experiments going on around the ecosystem and our portfolio around usage-based and value-based. So we could speak more about that but as founders
+
+
+26
+00:04:39.875 --> 00:05:04.875
+I think you have to be very strategic about thinking about value, willingness to pay, and capturing as much of that value as possible in the context of a cost of goods inference models and cloud and usage of data that has a real bite to it. And so you want to create some sort of usage-based pricing model that matches revenue with expenses.
+
+
+27
+00:05:04.875 --> 00:05:18.875
+On a strategic level where that question can also lead one is the fundamental question of Look, if software is so easy to build, if millions of lines of code can be generated in a few hours or maybe at most a few days.
+
+
+28
+00:05:18.875 --> 00:05:23.875
+Where's the competitive edge? How do I define a competitive moat in this environment?
+
+
+29
+00:05:23.875 --> 00:05:29.875
+And at Flybridge, we talk a lot about that when we evaluate the companies that we invest in.
+
+
+30
+00:05:29.875 --> 00:05:42.875
+And I'll rattle off four areas of competitive moat, just briefly, just to seed, as you said, the conversation that we talk about internally and maybe some of you can reflect on. One is.
+
+
+31
+00:05:42.875 --> 00:05:58.875
+Do you have proprietary data sets? So for example, we have an AI company in the legal space called Noetica that ingests thousands and thousands of legal documents around corporate finance transactions between banks and companies.
+
+
+32
+00:05:58.875 --> 00:06:05.875
+And they use that to train their model to help in negotiating future deals and benchmarking terms.
+
+
+33
+00:06:05.875 --> 00:06:13.875
+Well, that's a proprietary data set in the vaults of top law firms that OpenAI and Anthropic will never get access to.
+
+
+34
+00:06:13.875 --> 00:06:23.875
+So the fear of will OpenAI kill my startup? Am I just going to be a GPT rapper? That's a fear we don't have with them because of that proprietary data set that is then self-reinforcing.
+
+
+35
+00:06:23.875 --> 00:06:30.875
+The second area that we talk about internally is being that system of record and owning the workflow of the worker.
+
+
+36
+00:06:30.875 --> 00:06:39.875
+Now, in some cases, that might be a consumer, but in many cases, that's the business. So for example, one of our portfolio companies There's a company called Allspice.
+
+
+37
+00:06:39.875 --> 00:06:49.875
+And allspice is the GitHub for hardware engineers. It's a collaboration and a training platform, engineering platform for hardware engineers.
+
+
+38
+00:06:49.875 --> 00:07:16.875
+To build out and design their products. Well, the hardware engineers are now in allspice six, seven hours a day collaborating and sharing designs. And now as they layer actions and AI driven designs into their platform it's very clear that they both have a proprietary data set to my earlier point, which are these proprietary designs that Blue Origin and Waymo and some of their other customers are using.
+
+
+39
+00:07:16.875 --> 00:07:21.875
+But also now they've owned the workflow of the worker that's living in that platform.
+
+
+40
+00:07:21.875 --> 00:07:30.875
+Because humans, there's friction. We all know this. We all got trained on Google and now we're all trying to get trained on these chat bots and how to interact with them and prompt with them effectively.
+
+
+41
+00:07:30.875 --> 00:07:37.875
+And your customers also have a sense of inertia and need to be trained on these new workflows. So you have to be really good at the workflow.
+
+
+42
+00:07:37.875 --> 00:07:53.875
+And then the third is the human AI interface, being really clever about the design of how the AI manifests itself to you.
+
+
+43
+00:07:53.875 --> 00:07:54.875
+Or no.
+
+
+44
+00:07:54.875 --> 00:07:59.875
+Openai got this brilliantly right two and a half years ago when they launched chat gpt It's kind of funny to remember the history, but GPT-1 APT2, GPT3, nobody used those platforms because they were just SDKs.
+
+
+45
+00:07:59.875 --> 00:08:06.875
+But when they launched GPT 3.5, they said, hey, just for fun, let's throw this chat bot on it and let's run the experiment.
+
+
+46
+00:08:06.875 --> 00:08:11.875
+To see if we can expose this to the common user. And of course, the chatbot was this killer app.
+
+
+47
+00:08:11.875 --> 00:08:17.875
+Understanding what the killer app is and the killer human AI interface is a really important third criteria.
+
+
+48
+00:08:17.875 --> 00:08:22.875
+And then the fourth and final is when we talk about teams.
+
+
+49
+00:08:22.875 --> 00:08:34.875
+We ask ourselves Is there an earned secret that this team has? And is there some edge that they have where we believe they will stay ahead of the very, very, very competitive environment?
+
+
+50
+00:08:34.875 --> 00:08:41.875
+We just made an investment decision this week in a company that's in a category that's relatively cluttered and hot.
+
+
+51
+00:08:41.875 --> 00:08:52.875
+But we have a thesis that this team is so good and has such a great vision that we believe their roadmap will continue to allow them to stay ahead for the next couple years.
+
+
+52
+00:08:52.875 --> 00:09:01.875
+So those four things we talk a lot about in terms of competitive advantage and edge in this age of AI, which is sort of the strategic answer to that question about business models, Curti.
+
+
+53
+00:09:01.875 --> 00:09:18.875
+Yeah, fantastic. You also hit on something that's very, very current in everyone's minds right now, which is fundraising and thinking about what VCs are looking for. So you shared some frameworks. One thing I would love to ask before I turn it over to the group.
+
+
+54
+00:09:18.875 --> 00:09:32.875
+Is how do you think about exits in the age of AI? Are they any different or, you know, a VC, obviously you invest and you expect to see an exit at some point. Are there any differences from traditional investing?
+
+
+55
+00:09:32.875 --> 00:09:44.875
+When I was a founder in 1996, my company went public with $1.8 million of trailing revenue and a $1.2 billion market cap.
+
+
+56
+00:09:44.875 --> 00:10:00.875
+That world doesn't exist anymore. The threshold for public companies today is not a few million of revenue. It's not even 100 million of revenue, which was what we looked at eight, 10 years ago. It's not 200 million of revenue. It's three, four, 500 million of revenue.
+
+
+57
+00:10:00.875 --> 00:10:06.875
+People may have seen Circle filed to go public recently if you read their S-1, they're over a billion of revenue.
+
+
+58
+00:10:06.875 --> 00:10:17.875
+People know Klaviyo was one of the most successful IPOs recently, a Boston-based company. When they went public, they were profitable in four or 500 million of revenue. Circle is also profitable.
+
+
+59
+00:10:17.875 --> 00:10:23.875
+The threshold to be a public company is very, very high right now. Very, very few companies can hit that threshold.
+
+
+60
+00:10:23.875 --> 00:10:29.875
+So we are definitely more engaged in the M&A market than ever before.
+
+
+61
+00:10:29.875 --> 00:10:35.875
+Yesterday, we announced the acquisition of one of our portfolio companies, Metaplane, by Datadog.
+
+
+62
+00:10:35.875 --> 00:10:47.875
+And these big public companies that are north of 10, 20 billion of market cap, they want to buy AI assets. They want to buy teams and capabilities that extend their footprint.
+
+
+63
+00:10:47.875 --> 00:10:54.875
+And the number of 10 billion plus public company tech franchises has grown dramatically.
+
+
+64
+00:10:54.875 --> 00:11:02.875
+Yeah, there's definitely greater interest in founders who can navigate to value and exits in the M&A market.
+
+
+65
+00:11:02.875 --> 00:11:07.875
+And every now and then maybe there's somebody who can build a public company and that would be wonderful and marvelous.
+
+
+66
+00:11:07.875 --> 00:11:16.875
+We had that experience at MongoDB, which was one of our flagship portfolio companies out of New York, but it's really, really rare and increasingly difficult.
+
+
+67
+00:11:16.875 --> 00:11:27.875
+Yeah, no, great. Those are great thoughts. All right. Everyone's had a chance to percolate on their thoughts. What we're going to do, everyone, is Gary's already got the memo.
+
+
+68
+00:11:27.875 --> 00:11:37.875
+You're going to do the raise hand function and I'll just call you from left to right. And then team, if you see any questions there, can you just chat with whoever that is and tell them to raise their hand?
+
+
+69
+00:11:37.875 --> 00:11:40.875
+So Gary, we'll turn it over to you first. Please enter your name and your company, too.
+
+
+70
+00:11:40.875 --> 00:12:04.875
+Awesome. Yeah, so I'm Gary Stark. I'm the founder and CEO of a company called Valio. So what we do is we find lost rebate revenue for health systems. Health systems get around $30 million in rebates every year from their supply chain. And it's a total black box of value. They have no clue about accuracy or if they could have strategically managed their spend to earn more. So we do that for them to save them money and time.
+
+
+71
+00:12:04.875 --> 00:12:27.875
+So to do that, we get… two critical pieces of information from the health system. One is every single thing that they've bought. So we manage their entire purchase order history, number one. But number two, we get their contracts. So you sparked my interest when you told me about the moat of a proprietary data set. So we have the identical thing.
+
+
+72
+00:12:27.875 --> 00:12:28.875
+Yeah.
+
+
+73
+00:12:28.875 --> 00:12:41.875
+My question is. Right now, I built a custom GPT to do that. It helps… to pull out the critical details that we need in order to get it into our platform.
+
+
+74
+00:12:41.875 --> 00:12:58.875
+And we're also meeting with Google about potentially using Gemini to do something to do just that. What concerns me, though, is that if I'm using the I guess, for lack of a better term, the out of the box um uh ai
+
+
+75
+00:12:58.875 --> 00:13:02.875
+Yes.
+
+
+76
+00:13:02.875 --> 00:13:11.875
+Are we losing that competitive moat unless, and I think Google told me that they don't train their model on our data.
+
+
+77
+00:13:11.875 --> 00:13:18.875
+But can you just share, because I think that's fascinating what you said about the competitive moat being your data.
+
+
+78
+00:13:18.875 --> 00:13:26.875
+But I want to, before we get too far along, I don't want to start training something that, oh man, I wish I just, I did it the right way to start.
+
+
+79
+00:13:26.875 --> 00:13:31.875
+Yeah. It's a great question, Gary.
+
+
+80
+00:13:31.875 --> 00:13:42.875
+Look, I'm not going to give… product architecture advice in too much detail here, but I'll try to generalize it. The platforms today and the three main platforms Google, Gemini.
+
+
+81
+00:13:42.875 --> 00:13:44.875
+No second, please, please wait. Please wait a second
+
+
+82
+00:13:44.875 --> 00:13:46.875
+Sorry, we'll mute that.
+
+
+83
+00:13:46.875 --> 00:13:51.875
+And google slash Gemini Anthropic and OpenAI.
+
+
+84
+00:13:51.875 --> 00:13:59.875
+Those platforms keep getting better and better and better. And this is my comment about not being a GPT wrapper and OpenAI killing my startup.
+
+
+85
+00:13:59.875 --> 00:14:20.875
+That said, you want to build on those platforms and leverage those platforms and plug into their APIs because as they get better and better and better, your application gets free feature rich improvements. So what you just want to make sure you're doing is that the wrapper you put on that is not a thin wrapper, but rather a wrapper that really
+
+
+86
+00:14:20.875 --> 00:14:40.875
+Adds value to your end user, in your case, the health plans and the actual, I don't know, in the case of rebates, but who the actual user might be really owning the workflow around that individual So that plus leveraging the proprietary data, and yes, all these platforms are very now strict about data
+
+
+87
+00:14:40.875 --> 00:14:45.875
+Moats and being very careful about shielding the data from the general public.
+
+
+88
+00:14:45.875 --> 00:15:00.875
+And of course, you want to validate that, but that's really going to be, I think, a key thing for you to think about is the detailed specific workflows that get that last mile, if you can nail the last mile, plug into the platforms, benefit from the rising tide that exists.
+
+
+89
+00:15:00.875 --> 00:15:06.875
+Reap the AI dividend, much like all of you have been reaping the cloud dividend over the last 10 years.
+
+
+90
+00:15:06.875 --> 00:15:07.875
+I think that's the formula for success.
+
+
+91
+00:15:07.875 --> 00:15:10.875
+Okay. Okay. Thank you.
+
+
+92
+00:15:10.875 --> 00:15:14.875
+All right, Seamus.
+
+
+93
+00:15:14.875 --> 00:15:20.875
+Hey, Jeff, thanks for meeting with us today. I'm Seamus, founder, CEO at Secure AI.
+
+
+94
+00:15:20.875 --> 00:15:28.875
+We're building a private AI platform. That operates on premise and on edge devices.
+
+
+95
+00:15:28.875 --> 00:15:42.875
+So I'm curious how you would think about pricing product like this because the traditional SaaS model maybe doesn't make much sense and the usage-based model also is challenging.
+
+
+96
+00:15:42.875 --> 00:15:45.875
+We're not paying for the usage.
+
+
+97
+00:15:45.875 --> 00:15:59.875
+It's a great question, Seamus. I'll say more generally. These models, obviously everyone's focused on the scale and the size of the big models and the main models, but the small models and the open source models and the ability to put those on the edge I think are
+
+
+98
+00:15:59.875 --> 00:16:04.875
+A fascinating, fantastic area. So I really love the general trend you're working on.
+
+
+99
+00:16:04.875 --> 00:16:13.875
+And I would also say that on-prem is very thought-provoking. It's a business to business customer, I assume?
+
+
+100
+00:16:13.875 --> 00:16:14.875
+Yes, yes.
+
+
+101
+00:16:14.875 --> 00:16:25.875
+Yeah, because obviously businesses are very sensitive, as Gary pointed out, to having their data be shared broadly and their models and various tuning that they might do. So I think that's also really interesting.
+
+
+102
+00:16:25.875 --> 00:16:31.875
+Look, I think value-based pricing is the best way to go. You have to think about if I were in my customer's shoes.
+
+
+103
+00:16:31.875 --> 00:16:39.875
+What would be my ROI calculation? And then how much of that value can I claim versus give?
+
+
+104
+00:16:39.875 --> 00:16:53.875
+So, for example. Pick your number if it's a million dollars of value you think you're creating for them then you can say, well, I'll give two thirds of that and i'll try to claim one third of that or 300 plus thousand.
+
+
+105
+00:16:53.875 --> 00:16:58.875
+And then you have to argue for how do you scale that relative to your cost? Maybe it's seat-based.
+
+
+106
+00:16:58.875 --> 00:17:17.875
+Maybe it's not usage-based, but maybe there's some metering that you can do. Maybe it's data scale based, even though they're smaller models maybe there's some tiering that you can do. So I think those are the types of things that we're going to see more and more. And of course, there's the classic functionality based, dividing up the product into various modules.
+
+
+107
+00:17:17.875 --> 00:17:28.875
+Base module, silver, gold, platinum, et cetera. So I think those types of more creative pricing models are going to be the future. And maybe those are some ideas that will spark some thinking for you, Seamus.
+
+
+108
+00:17:28.875 --> 00:17:29.875
+Okay, thank you.
+
+
+109
+00:17:29.875 --> 00:17:37.875
+Awesome. All right. Andrea, you're up next. Oh, you're on mute.
+
+
+110
+00:17:37.875 --> 00:17:48.875
+Hi, I'm Andrea Gwendelman. I am the founder of Speak, which provides signals to help recruiters find real qualified humans in a world of resumes.
+
+
+111
+00:17:48.875 --> 00:18:15.875
+And red flags. So I guess my question is the commoditization of ai and how how we go to market these days the traditional, I mean, we are experiencing so much more competition than it used to be and also we're experiencing
+
+
+112
+00:18:15.875 --> 00:18:33.875
+Over you know overloads in emails and and sort of like the traditional email marketing campaigns. They're still working, but they're not as effective as they used to be. And so what are you seeing in terms and also like because of the competition, the pricing is going down. So how are you seeing
+
+
+113
+00:18:33.875 --> 00:18:37.875
+The best examples of go-to-market. I mean, if that's You know.
+
+
+114
+00:18:37.875 --> 00:18:46.875
+Great question, Andrea. First, I'll say I talk a little bit about this in my book. I have a chapter on go-to-market experiments and I give some case studies.
+
+
+115
+00:18:46.875 --> 00:18:55.875
+On this topic. I'll also say I like your category as well. I'm an investor in BrightHire, which is this interview intelligence platform. You may be familiar with them.
+
+
+116
+00:18:55.875 --> 00:18:58.875
+Yes, I know. I know Benjamin, yes.
+
+
+117
+00:18:58.875 --> 00:19:09.875
+Yes, I think this whole world of talent acquisition, filtering management is going to be radically transformed with AI. So I really love this category.
+
+
+118
+00:19:09.875 --> 00:19:23.875
+So look, this is The other thing we talk about internally in my partnership when we're in our investment committee meeting, when the doors are closed when the the founders leave the room and we say, what's the go-to-market edge? Does this founder have a
+
+
+119
+00:19:23.875 --> 00:19:26.875
+An approach or a point of view that gives them an edge on go to market.
+
+
+120
+00:19:26.875 --> 00:19:37.875
+And what we have seen is that thought leadership and um category defining products are critical.
+
+
+121
+00:19:37.875 --> 00:19:41.875
+Often the founder needs to be that spokesperson and that thought leader.
+
+
+122
+00:19:41.875 --> 00:19:57.875
+You saw this, if you know BrightHire, you see this a little bit with BrightHire's content on LinkedIn. You see this with almost every major B2B software company where the CEO and the co-founders are out in front sharing interesting data, interesting insights.
+
+
+123
+00:19:57.875 --> 00:20:10.875
+Aggregated and anonymized about what's going on. And in your world, maybe it's about candidate flow and filtering and different criteria that people are using to help surface and filter candidates.
+
+
+124
+00:20:10.875 --> 00:20:22.875
+So thought leadership. And then the first thing you have to do for many of you who are in that zero to one phase is get 10 customers who love you if you're in the B2B world and maybe a thousand customers if you're in the B2C world.
+
+
+125
+00:20:22.875 --> 00:20:40.875
+So that can be hand-to-hand combat founder selling. Then you have to find the repeatable sales playbook often making outside hires and marketing and sales and making them successful. And so we often look and evaluate founders and their ability to make that transition from founder selling
+
+
+126
+00:20:40.875 --> 00:20:50.875
+To building a sales and marketing repeatable machine. And showing evidence of that, I think is going to be quite critical as well.
+
+
+127
+00:20:50.875 --> 00:20:51.875
+Okay. All right, Meg, you're up next.
+
+
+128
+00:20:51.875 --> 00:20:55.875
+Thank you.
+
+
+129
+00:20:55.875 --> 00:21:00.875
+Hey, Jeff. So everything you were just saying definitely aligns with my company, Sales PlayX.
+
+
+130
+00:21:00.875 --> 00:21:27.875
+And so my question to you is about more about um your what you mentioned about pricing, right? So I haven't really heard that take on it that before And I think my fear, and I've thought about doing value-based pricing, particularly if you were to help them capture some of that spend. And like, let's say I help them bring in $20 million, they would pay us like $2 million or something like that. Like you figured out like whatever percentage that is for value-based pricing.
+
+
+131
+00:21:27.875 --> 00:21:37.875
+But I think the fear is, is like investors wouldn't be interested in some kind of a pricing model like that because it's less repeatable than just getting an annual contract.
+
+
+132
+00:21:37.875 --> 00:21:47.875
+So what are your thoughts on that? And do you think that as an investor that would scare you off if somebody didn't have an annual contract that has guaranteed recurring SAS.
+
+
+133
+00:21:47.875 --> 00:21:52.875
+It's a great question. And it's not just investors, it's also your customers because they want to budget.
+
+
+134
+00:21:52.875 --> 00:22:02.875
+In a well-defined, predictable way and so how do they budget when it's going to have this variability But of course, they're all used to that in the cloud world.
+
+
+135
+00:22:02.875 --> 00:22:06.875
+And they're all used to that in the compute and storage world.
+
+
+136
+00:22:06.875 --> 00:22:18.875
+There are precedents for this. I think as an investor, assume your investors are sophisticated good investors are sophisticated and will dream along with you on that point.
+
+
+137
+00:22:18.875 --> 00:22:25.875
+I would also say if your strategy is land and expand, which many of our portfolio companies pursue.
+
+
+138
+00:22:25.875 --> 00:22:41.875
+You have to show early evidence of the land and expand strategy playing out. You can't just land and say in the future These will expand to these massive contracts. You have to show the early, early bits of Expand, even if it's from
+
+
+139
+00:22:41.875 --> 00:22:52.875
+One unit to three units or one department to three departments or one user to five users and two case studies, just a little bit of land and expand Proofpoint and evidence will go a long way with investors.
+
+
+140
+00:22:52.875 --> 00:23:03.875
+And the final thing I'll say is many of our companies that are experimenting with usage-based pricing have a baseline that SAS and then usage on top.
+
+
+141
+00:23:03.875 --> 00:23:04.875
+I got it.
+
+
+142
+00:23:04.875 --> 00:23:27.875
+So Noetica, as an example, has a baseline monthly fee to the law firms and then a per contract usage-based pricing. And so investors can sort of predict and the companies can predictably show, okay, there's skin in the game. This is real. We're investing in this thing. It's costing us money. We better use it. And then you can see that early evidence of usage grow over time.
+
+
+143
+00:23:27.875 --> 00:23:29.875
+Great. Thank you.
+
+
+144
+00:23:29.875 --> 00:23:34.875
+Awesome. All right, Marcia.
+
+
+145
+00:23:34.875 --> 00:23:42.875
+Hi, Jeff. I'm Marsha Wisely, CEO of Athion. We do modern CAD for modern manufacturing.
+
+
+146
+00:23:42.875 --> 00:23:49.875
+Enhancing your static drawings with prototyping concepts so that you can better understand and communicate.
+
+
+147
+00:23:49.875 --> 00:23:57.875
+And reduce the risk of lost production and manufacturing like oil and gas, pharma and chemical.
+
+
+148
+00:23:57.875 --> 00:24:12.875
+And so in this space, it's kind of dusty and, you know, even SAS is still new and shiny for us. And so it's interesting kind of hearing these different models and, you know, maybe as things change, we'll continue to move into the future.
+
+
+149
+00:24:12.875 --> 00:24:18.875
+There's a lot of growth for that industry. I guess one of the things that you said earlier was like.
+
+
+150
+00:24:18.875 --> 00:24:32.875
+You know, one of the things that makes something sticky is if it changes your workflow and it's part of like your day-to-day I have some ideas like in my case, there are operators that run these facilities. And so when I think about my pricing model, I'm like.
+
+
+151
+00:24:32.875 --> 00:24:37.875
+I want as many operators touching this as possible so that it's like, take it out of my cold dead hands.
+
+
+152
+00:24:37.875 --> 00:24:55.875
+But just kind of curious from your perspective, like how do you get that stickiness and get into those workflows? Are there any strategies that work really well for companies like specifically uh hardware engineering company you talked about earlier, specifically pretty curious about that.
+
+
+153
+00:24:55.875 --> 00:24:58.875
+Yeah. Yeah. Yeah, you can look up Allspice was that company.
+
+
+154
+00:24:58.875 --> 00:25:01.875
+Yes, yes.
+
+
+155
+00:25:01.875 --> 00:25:04.875
+Can I show a slide, Kurti? I hope you don't mind. This doesn't feel… At risk. Yeah.
+
+
+156
+00:25:04.875 --> 00:25:08.875
+Sure. You should be able to share away. There you go.
+
+
+157
+00:25:08.875 --> 00:25:09.875
+Can you see it? Okay, this is at the risk of feeling like a Harvard lecturer, so I apologize in advance.
+
+
+158
+00:25:09.875 --> 00:25:15.875
+Yep.
+
+
+159
+00:25:15.875 --> 00:25:28.875
+I will say something. You made something, a comment about the kind of dusty industries. And I love that reference. And I have this thesis on this that I wanted to share with you. So look, you all know that there's this massive opportunity, multi-trillion dollar opportunity that AI represents and you all know
+
+
+160
+00:25:28.875 --> 00:25:39.875
+That there exists this model that most people talk about in the technology lifecycle adoption curve of crossing the chasm, a Gaussian distribution where you have innovators that are a very small percentage.
+
+
+161
+00:25:39.875 --> 00:25:52.875
+That will try out your product and then early adopters, early majority and your comment about dusty industries, you know, there are a bunch of industries which are just full of late majority and laggards. Luddites, I dare say.
+
+
+162
+00:25:52.875 --> 00:26:05.875
+And one of my theses of the AI moment we're in is that it's bending the curve, that there's a moment now where even the dusty industries, and I see this across oil and gas and manufacturing and chemicals and other
+
+
+163
+00:26:05.875 --> 00:26:21.875
+Verticals that some of my portfolio companies are pursuing. That they're all bending the curve because they all realize that if they are in the late majority or laggard category, they will be dramatically disrupted and their business will disappear. They're all afraid of being blockbuster
+
+
+164
+00:26:21.875 --> 00:26:26.875
+And so that's the dynamic. It feels like we're in now.
+
+
+165
+00:26:26.875 --> 00:26:50.875
+Those late majority customers, they may aspire to be innovators, but they skip the cloud wave, like you said, and now they're jumping on this wave, but it takes time to get them to there. So you need to do a lot of handholding, but I do believe we're in a moment where dusty segments and industries are going to be awesome ones because there is this hunger to be innovative and a recognition that maybe the standard technology lifecycle adoption curve
+
+
+166
+00:26:50.875 --> 00:26:57.875
+Is dangerous to wait around for. And then the second thing on sticky, I love that question as well.
+
+
+167
+00:26:57.875 --> 00:27:05.875
+Another set of language I like to use is entangled. So you want to make sure that your customer is entangled in your product.
+
+
+168
+00:27:05.875 --> 00:27:11.875
+And that may be that there takes some time to load up some data so you slow down to speed up, so to speak.
+
+
+169
+00:27:11.875 --> 00:27:16.875
+It may be that you take a little time to train them on the platform so they get addicted to the workflows.
+
+
+170
+00:27:16.875 --> 00:27:22.875
+It may be that you take a little time to connect to their existing systems and you build some connectors. And by the way.
+
+
+171
+00:27:22.875 --> 00:27:38.875
+The modern code generation tools like Cursor and others are incredibly effective at building these connectors very quickly. It used to be that You didn't have the time and the engineering bandwidth, but now you can build those connectors extremely quickly into their ERP systems or CRM systems.
+
+
+172
+00:27:38.875 --> 00:27:46.875
+And so then you walk in and you say, hey, I've got these connectors with your existing systems. I've got this ability to ingest your data and then enrich your data.
+
+
+173
+00:27:46.875 --> 00:27:57.875
+I've got these workflows that your users have to use and now suddenly they're entangled. And so those are the types of things you might consider emphasizing in the upfront implementation.
+
+
+174
+00:27:57.875 --> 00:28:00.875
+Okay. Yeah, no, that's very helpful. Thank you.
+
+
+175
+00:28:00.875 --> 00:28:03.875
+Great. All right. Fabio.
+
+
+176
+00:28:03.875 --> 00:28:10.875
+Excellent. Hi, Jeff. Thanks for being here today. My name is Fabio Sorio. I'm the co-founder and head of product at Arbol.
+
+
+177
+00:28:10.875 --> 00:28:19.875
+We are a financial planning platform based in Buffalo, New York. We help colleges reduce the staff workload and improve student retention.
+
+
+178
+00:28:19.875 --> 00:28:39.875
+My question for you is, what are your thoughts on how product teams should approach The use of synthetic personas and AI generated data for validation. Where do you see the biggest opportunities and what risks Should teams watch out for?
+
+
+179
+00:28:39.875 --> 00:28:44.875
+First of all, I am going to answer your question despite being a Patriots fan, just for the record.
+
+
+180
+00:28:44.875 --> 00:28:45.875
+Thank you.
+
+
+181
+00:28:45.875 --> 00:29:00.875
+Secondly, I think that the use of AI customer personas is a fantastic use case for helping find product market fit and leveraging the modern AI tools. I do talk about it in the book.
+
+
+182
+00:29:00.875 --> 00:29:13.875
+I think you can train. I know, because I see it all the time you can train these personas, you can create a notebook LM, which is a free Google tool, throw your actual transcribed call notes from or videos from
+
+
+183
+00:29:13.875 --> 00:29:32.875
+Customer discovery interviews. Throw a bunch of research papers about your customer profile, add a bunch of your internal notes, and then suddenly you have a a tool where you can have it act like a customer and that tool is available 7x24 to everybody on your team. There used to be that engineers would say, gosh, I don't really understand our customer or
+
+
+184
+00:29:32.875 --> 00:29:37.875
+Maybe I'll build something this way or that way and they'll make decisions without full context.
+
+
+185
+00:29:37.875 --> 00:29:52.875
+Well, now you can have that context available to them at their fingertips, 7 by 24. So I think there's some really powerful ways And you can also in your training and iterating with the customer UI persona, if it's out of whack, I mean, you're the best judge of
+
+
+186
+00:29:52.875 --> 00:29:56.875
+How close it is to reality. If it's out of whack, you tell it it's out of whack and then it adjusts.
+
+
+187
+00:29:56.875 --> 00:30:06.875
+And so I would develop a custom GPT or a notebook LM or a RAG based system for people who know the RAG-based technique and retrieval, augmented generation.
+
+
+188
+00:30:06.875 --> 00:30:10.875
+Which allows you to train the models on a finite corpus of data.
+
+
+189
+00:30:10.875 --> 00:30:15.875
+Pull the corpus of all your transcribed insights and customer data set.
+
+
+190
+00:30:15.875 --> 00:30:24.875
+And then go to town. And look, there's no, there are these nuanced insights and there's no substitute for the emotional connection that you're going to have with your customer.
+
+
+191
+00:30:24.875 --> 00:30:36.875
+But it's an and, you know, whereas you might have had sort of, you know, 10 units of customer exposure, you're now going to give your entire team 100 units of customer exposure.
+
+
+192
+00:30:36.875 --> 00:30:42.875
+10 will be real people and 90 will be synthetic AI driven.
+
+
+193
+00:30:42.875 --> 00:30:46.875
+Very quickly. Yes. Thank you.
+
+
+194
+00:30:46.875 --> 00:30:52.875
+Great. All right. Daniel. And Fabio, you can lower your hand if you want.
+
+
+195
+00:30:52.875 --> 00:31:07.875
+Hey, Jeff, Dan Badley, founder, CEO of Best Defense. So we developed an AI-driven platform that unifies automated penetration testing with remediation infrastructure network and application stress testing.
+
+
+196
+00:31:07.875 --> 00:31:26.875
+And real-time network threat intelligence. It's a dual use platform that we developed for like MSPs, telcos, and public sector organizations So kind of going towards what you were mentioning about like the way to stand apart is proprietary data sets, right? What is the novel things that you've uncovered in the industry?
+
+
+197
+00:31:26.875 --> 00:31:43.875
+To be able to help set yourself apart With the advent of AI and essentially being able to use it to be able to create permutations of pretty much anything and eventually everything And we talk about what protections do you have as a business when you get patents on hardware when
+
+
+198
+00:31:43.875 --> 00:31:50.875
+The AI system might be able to make slight alterations to that to be able to get around patents and now you can potentially lose that.
+
+
+199
+00:31:50.875 --> 00:32:07.875
+Or it can directly replicate other products on the market How much emphasis would you put on go-to-market strategy and partnerships with vendors like Verizon and, you know, partnerships and collaboration with like government agencies and things like that.
+
+
+200
+00:32:07.875 --> 00:32:20.875
+And how much would investors look at that as like a plus one knowing that basically in the future you know all software systems could be replicated And potentially even hardware.
+
+
+201
+00:32:20.875 --> 00:32:37.875
+Yeah, thanks. It's a great question. By the way, I think this is a super category. We're investors in Netbox Labs, if you're familiar with them, which is this open source platform in the telecom network sort of network topography space. And we've also done a number of investments in the cybersecurity space
+
+
+202
+00:32:37.875 --> 00:32:46.875
+Recognizing that AI is generating more threat vectors and requiring an even greater spend in the cyberspace.
+
+
+203
+00:32:46.875 --> 00:32:52.875
+So I think it's really terrific that you're working in this area. So to answer your question on distribution.
+
+
+204
+00:32:52.875 --> 00:33:06.875
+We're big believers in avoiding gatekeepers in the early days. So that you're maintaining direct contact with customers so that you're seeing those insights Again, just in the early days.
+
+
+205
+00:33:06.875 --> 00:33:14.875
+Because only you will know how to sell and learn the best how to sell and those customer Insights will feed your product roadmap.
+
+
+206
+00:33:14.875 --> 00:33:20.875
+So we don't like the idea of gatekeepers and third party organizations selling on your behalf.
+
+
+207
+00:33:20.875 --> 00:33:23.875
+Until you yourself learn how to sell. Once you learn how to sell, you can teach someone else to sell.
+
+
+208
+00:33:23.875 --> 00:33:26.875
+Okay.
+
+
+209
+00:33:26.875 --> 00:33:39.875
+Ideally, you teach an employee to sell, someone you control that's in-house that's shoulder to shoulder with you. Once you prove you can do that once or twice, then you can teach a channel partner to sell.
+
+
+210
+00:33:39.875 --> 00:33:44.875
+But going right to step three, teaching a channel partner to sell is a recipe for disaster.
+
+
+211
+00:33:44.875 --> 00:33:52.875
+Because you've never gone through the training playbook and step zero, you've never even sold yourself and learned how to sell yourself.
+
+
+212
+00:33:52.875 --> 00:34:04.875
+So that's sort of how we think about the progression from founder selling to expeditionary reps doing the selling for you that you control to channel and scalable selling.
+
+
+213
+00:34:04.875 --> 00:34:08.875
+And that's the framework I refer to in the book as the sales learning curve.
+
+
+214
+00:34:08.875 --> 00:34:17.875
+That I just highly recommend you read up on. Once you've broken through and gotten someone like Verizon to sell for you.
+
+
+215
+00:34:17.875 --> 00:34:38.875
+That's incredible. That's an amazing way to accelerate and leverage distribution And as you noted in the age of AI, competitive advantage is going to be about brand and distribution as much, if not more than product So I think that's a really great strategy. Eventually, you just have to walk
+
+
+216
+00:34:38.875 --> 00:34:45.875
+Crawl, run your way there or crawl, walk, run your way there as opposed to jump to run and stumble.
+
+
+217
+00:34:45.875 --> 00:34:50.875
+I appreciate that. And it was really just coming down to the fact that it was like.
+
+
+218
+00:34:50.875 --> 00:34:59.875
+Based off of what you were saying, we were trying to find the ways when we were presenting this to investors, right, for like what is the most valuable part of the system today?
+
+
+219
+00:34:59.875 --> 00:35:11.875
+And what are the sustainable differentiators in the future? And it really just came down to, well, if all things being equal and everybody can generate anything, then it our thoughts were maybe it would come down to the relationships that we've developed.
+
+
+220
+00:35:11.875 --> 00:35:18.875
+Yeah, and you just have to make sure those relationships are productive and sticky, that they can't swap you out or that they don't do what I used to call a Barney.
+
+
+221
+00:35:18.875 --> 00:35:21.875
+Relationship. Have you ever heard of that expression? You ever remember the big purple dinosaur, Barney?
+
+
+222
+00:35:21.875 --> 00:35:26.875
+No. I do remember Barney, yeah.
+
+
+223
+00:35:26.875 --> 00:35:29.875
+I love you. You love me. We're all one big happy family.
+
+
+224
+00:35:29.875 --> 00:35:48.875
+So those are the relationships that go nowhere. They're just sort of high level, very surface and And there's no actual tangible oomph behind it so we as many investors, we see through the Barney relationships, we see through the press releases, and we go right to like, where's the beef to quote another ad
+
+
+225
+00:35:48.875 --> 00:35:55.875
+From Wendy's, you know, where's the really the substantive, tangible impact of these relationships on the ground?
+
+
+226
+00:35:55.875 --> 00:35:58.875
+So show me the money. Thank you. I appreciate it.
+
+
+227
+00:35:58.875 --> 00:36:01.875
+You got it, Tom Cruise.
+
+
+228
+00:36:01.875 --> 00:36:10.875
+Good call. All right. We have a whole room of Techstars Columbus. Do we have one or a couple questions?
+
+
+229
+00:36:10.875 --> 00:36:11.875
+Yeah, we have two in the room if it's okay, if we can do both.
+
+
+230
+00:36:11.875 --> 00:36:15.875
+Go ahead. Sounds great.
+
+
+231
+00:36:15.875 --> 00:36:38.875
+Awesome. Well, thank you, Jeff, for speaking with us. I'm Cameron. I'm the founder and CEO of When we're developing an AI stylus, so helping people to style clothes they already own so they're not feeling the need to constantly be buying new clothes, leveraging AI to frictionlessly create digital twins of the wardrobe and then provide outfit recommendations.
+
+
+232
+00:36:38.875 --> 00:36:53.875
+Wanted to touch on your book a little bit. Fortunately, I haven't had the opportunity to read it just yet, but I'm looking forward to doing it because this is what we're talking about right now as a business. And I'm curious if you have a rule of thumb for what you consider to be rapid.
+
+
+233
+00:36:53.875 --> 00:37:09.875
+In the sense that like. You are thinking about a hypothesis that you want to test and it's going to take three weeks, but your cutoff as a company is typically two weeks to ensure that you are rapidly experimenting. Do you then
+
+
+234
+00:37:09.875 --> 00:37:19.875
+Break that experiment up or do you say three weeks is fine, it's just a little bit more than two? Do you have a process for that?
+
+
+235
+00:37:19.875 --> 00:37:24.875
+Yeah, first, I should note that my mom grew up in Delaware, Ohio, just down the street from you.
+
+
+236
+00:37:24.875 --> 00:37:27.875
+Yes, yeah. Good luck.
+
+
+237
+00:37:27.875 --> 00:37:33.875
+So I have fond childhood memories of visiting my grandparents in Columbus.
+
+
+238
+00:37:33.875 --> 00:37:36.875
+Well, thank you. I'll get a good enough rep.
+
+
+239
+00:37:36.875 --> 00:37:52.875
+And so on your question of like how how rapid is rapid and kind of the fidelity of the customer feedback So there's this which I talk about in the book of, and this is a quote from Paul Graham when he was giving
+
+
+240
+00:37:52.875 --> 00:37:59.875
+The founder of Airbnb, Brian Chesky, some advice, you know, get 100 people to love you. It's more valuable than a million people to like you.
+
+
+241
+00:37:59.875 --> 00:38:10.875
+And so it's less to me about how rapid are your iterating well rapid iterations are, yes, incredibly important because they show your velocity and your trajectory.
+
+
+242
+00:38:10.875 --> 00:38:20.875
+But it's also the early signs of product market fit in that first hundred first 500, first thousand And I have this framework in the book I call the hunch framework.
+
+
+243
+00:38:20.875 --> 00:38:34.875
+Which I'll rattle through super quickly. And the reason I use the word hunch is that in the early days when you're a founder and the data is unclear and very nascent, you have a hunch, like you're not exactly sure you have product market fit, but you have some instincts.
+
+
+244
+00:38:34.875 --> 00:38:50.875
+And then this is a rubric that helps you validate those instincts. And so the H is for hair on fire value proposition to really test yourself as to whether this is an important value prop. In the case of your AI stylist, is this a top one, two, or three thing
+
+
+245
+00:38:50.875 --> 00:39:04.875
+On the mind of your ideal customer profile. Or are they too busy with other things with their Instagram accounts and TikToks and whatever else. So really trying to break through the clutter and convincing yourself that you have a hair on fire value prop that
+
+
+246
+00:39:04.875 --> 00:39:16.875
+Gets to the top of the priority line. The U is usage once you give the product to your customer or get it in front of them, are they using it? It sounds very simple, but tracking usage behavior over time
+
+
+247
+00:39:16.875 --> 00:39:30.875
+And back to your point about rapid cycles. Is that usage enduring or does it drop off rapidly? We all know that there are thousands of apps that we have on our phones that we downloaded and never use anymore. And there are only a few dozen that we use
+
+
+248
+00:39:30.875 --> 00:39:37.875
+Repeatedly. Sergey Brin and Larry Page from Google had this great test I talk about in the book, the toothbrush test.
+
+
+249
+00:39:37.875 --> 00:39:46.875
+Which is it must be not only a must-have hair on fire value prop, but also something you use daily or weekly like a toothbrush we all use daily or twice a day.
+
+
+250
+00:39:46.875 --> 00:39:53.875
+So Google would always talk about new products and whether they could pass the toothbrush test. So that's the use, the U and usage.
+
+
+251
+00:39:53.875 --> 00:40:15.875
+N is NPS score. It's a measure of customer love and willingness of customers to refer to other people. It's a way of capturing virality. So in your example, after your hundred customers use your product and it solves a big problem and they seem to love it. Do they tell their friends about it? Do they really want to share how beautiful it is?
+
+
+252
+00:40:15.875 --> 00:40:35.875
+C is churn. That's a negative number. Make sure the churn is low. It's kind of tied to usage and frequency, but also often tied to the specifics of either payments or re logins and re-app spin ups. And then the final one, H is is a high LTV to CAC ratio, which is just a reminder
+
+
+253
+00:40:35.875 --> 00:40:51.875
+The agent hunch that you need to make sure you're watching your unit economics. And if it's bad unit economics, then it's going to be a bad outcome um this week a couple days ago, I was in a board meeting with a 10-year-old company north of 100 million of revenue in my portfolio.
+
+
+254
+00:40:51.875 --> 00:40:58.875
+And we're still struggling with our unit economics. We still can't seem to get to that profitable point.
+
+
+255
+00:40:58.875 --> 00:41:16.875
+10 years later, it's a very frustrating point to be even at the scale that we're at. So really trying to think and anticipate whether you've got a acquisition and lifetime value formula that leads to a profitable positive unit economics business and seeing that in advance. So those are the
+
+
+256
+00:41:16.875 --> 00:41:25.875
+The hunch metrics. I know I'm kind of giving you a side answer to the rapid prototype and rapid iteration, but hopefully that gives you maybe kind of answers the question through another vector.
+
+
+257
+00:41:25.875 --> 00:41:33.875
+Yeah, it's very helpful. I kind of figured it wasn't going to be just a straight like two weeks is the rule of thumb, but that was super helpful. Thank you.
+
+
+258
+00:41:33.875 --> 00:41:34.875
+Sure.
+
+
+259
+00:41:34.875 --> 00:41:37.875
+And we had one more from Columbus.
+
+
+260
+00:41:37.875 --> 00:41:46.875
+Correct. Yeah, so I'm Chris Paliel from Pull to Refresh. And our goal is to replace landfills with nature reserves.
+
+
+261
+00:41:46.875 --> 00:41:58.875
+And pay for that with high quality carbon credits that we can sell to major corporations that want to offset their carbon emissions from AI.
+
+
+262
+00:41:58.875 --> 00:42:17.875
+And so I think what you said about sort of the value is in the data is something that we really need to think about. And I guess even coming into this meeting, our assumption was that our data should be public because it's all about reporting. And so through improved transparency.
+
+
+263
+00:42:17.875 --> 00:42:32.875
+We can sell these carbon credits through trust. And the fact that we do things like use AI to use AI to improve the trust by making sure that no one can cheat the carbon credit process. But I'm wondering if what
+
+
+264
+00:42:32.875 --> 00:42:55.875
+We're saying if we maybe should be saying if we should less… open about it, maybe really have that data available. But I wonder if to really maximize the value of our company, we need to be maybe not default to the open thing and maybe sort of make sure that there's better controls
+
+
+265
+00:42:55.875 --> 00:43:11.875
+On our data to make sure that we capture the full value of our company. But we actually use vm.com as our IoT, which is Elliot Horowitz's After giving you guys a great return, he's swinging for the fences again.
+
+
+266
+00:43:11.875 --> 00:43:28.875
+Yes, that's a great reference. Thanks, Chris. I appreciate it. I think that's a great question. And look, only you will know the best way to answer that question, the trade-off between if the data is open Is it higher likelihood of usage and can you get the flywheel spinning because of the openness and open source and other
+
+
+267
+00:43:28.875 --> 00:43:39.875
+Techniques have shown that can be incredibly powerful and valuable. Or do you keep it proprietary and try to protect it from the crawlers and everyone else so that people really have to come to you?
+
+
+268
+00:43:39.875 --> 00:43:51.875
+And in the middle strategy might be you provide some of the data for free, but then maybe some of the enriched data or analytics around the data or comparative benchmarks relative to the individual data.
+
+
+269
+00:43:51.875 --> 00:43:55.875
+Come with a price and are behind a paywall of some kind.
+
+
+270
+00:43:55.875 --> 00:44:13.875
+The other thing I'd say is I've never met a student In my 15 years of teaching, 2,500 students who has been interested in landfills except for this year, this semester, I have a student who's obsessed with landfills. She worked at Ginkgo bio
+
+
+271
+00:44:13.875 --> 00:44:22.875
+And she's now thinking about and ideating on a startup in the landfill sector. I would love to connect you with her if you're at all interested. So hit me up on email.
+
+
+272
+00:44:22.875 --> 00:44:25.875
+And I'll see if I can affect the connection.
+
+
+273
+00:44:25.875 --> 00:44:26.875
+Great.
+
+
+274
+00:44:26.875 --> 00:44:32.875
+Awesome. All right. Drew, we'll move back to virtual world.
+
+
+275
+00:44:32.875 --> 00:44:39.875
+Not the virtual world. Hey, Jeff. My name is Drew Sholdens. I'm the head of operations for a company called Auditosity.
+
+
+276
+00:44:39.875 --> 00:44:55.875
+In fact, you're about to meet my founder over here to my left. It's Gia. She's next. Autonocity is a HR… diagnostics platform. So we give any organization the opportunity to be able to do a self audit of their HR compliance and best practices
+
+
+277
+00:44:55.875 --> 00:45:02.875
+Without a costly consulting engagement if they don't want one. And frankly, probably better than their consulting engagement. We've done all the research.
+
+
+278
+00:45:02.875 --> 00:45:13.875
+And present a really holistic solution. I'm going to build on Dan's question from earlier. So we're going to go back to Dan. In fact, before this call, I was on the call with Seamus, who you met.
+
+
+279
+00:45:13.875 --> 00:45:21.875
+About five questions ago. And he reminded me of the four pages in your book about channel partners. And we were talking about channel partners. We have been barn.
+
+
+280
+00:45:21.875 --> 00:45:34.875
+To borrow your term. And it isn't such a bad thing. It's what I call good problems, right? These are the kind of problems But before we ever pushed any code to production, we had signed a huge channel partner in the space of HR tech.
+
+
+281
+00:45:34.875 --> 00:45:40.875
+They love the vision. They loved Gia, and they took a runner on us and brought us into the marketplace.
+
+
+282
+00:45:40.875 --> 00:45:45.875
+We were very excited and we kind of thought, well. We've succeeded. Yay.
+
+
+283
+00:45:45.875 --> 00:45:50.875
+However, Barney, they love us. We love them, but like not a whole lot of movement.
+
+
+284
+00:45:50.875 --> 00:46:03.875
+We pivoted late last year as the product finally matured. Into going direct sales. We're building up that pathway. But any suggestions, I get to ask a very A specific question because Dan kind of set me up earlier. Thank you, Dan.
+
+
+285
+00:46:03.875 --> 00:46:14.875
+What are some great suggestions to unbarnify yourself, right? When I want to graduate from Barney to Sesame Street, how do I get off that into something real.
+
+
+286
+00:46:14.875 --> 00:46:17.875
+Using Barney as a verb gives me the heebie-jeebies. I'm just going to say that.
+
+
+287
+00:46:17.875 --> 00:46:19.875
+Comment section agrees.
+
+
+288
+00:46:19.875 --> 00:46:31.875
+I'm just going to leave it at that. Look, to make a channel partner successful One of the key unlocks is field engagement.
+
+
+289
+00:46:31.875 --> 00:46:42.875
+And you as a startup probably don't have the resources to do this out of the box, but maybe over time and using AI tools and maybe with a director of channels, you could pull this off.
+
+
+290
+00:46:42.875 --> 00:46:57.875
+But what tends to happen is you get this, the reason these agreements go nowhere is you get corporate to corporate energy and enthusiasm And then it goes down to the field and the field says, well, what's my incentive to bring this thing along or sell this thing? I'm not getting paid. I'm purely a commission-based rep.
+
+
+291
+00:46:57.875 --> 00:47:11.875
+And I've got these targets and I'm fired if I don't hit these targets and I put food on my table and gas in my car or electricity in my EV, if I hit the targets, but what do I get if I sell on audacity like there's no incentive here.
+
+
+292
+00:47:11.875 --> 00:47:17.875
+So you have to get some incentive structure in place that makes it worth their while and you have to have field to field engagement.
+
+
+293
+00:47:17.875 --> 00:47:26.875
+You have to have a couple wins. So get out of the top corporate to corporate conversation, get down into the field and make two or three reps or regions.
+
+
+294
+00:47:26.875 --> 00:47:33.875
+Wildly successful and show that they have a win because they brought you in.
+
+
+295
+00:47:33.875 --> 00:47:47.875
+And then they share that with their friends and now it's a case study and you can brag about it at their conference and user gatherings and sales kickoffs and fancy places and beautiful spots in the Caribbean. So that's the
+
+
+296
+00:47:47.875 --> 00:47:57.875
+The key that you really have to go is the key grassroots, one or two case studies, build a win, make it worth their while, maybe even overcompensate them to pull through.
+
+
+297
+00:47:57.875 --> 00:48:01.875
+And then use that as a rinse, repeat playbook.
+
+
+298
+00:48:01.875 --> 00:48:03.875
+Interesting. All right. I appreciate that.
+
+
+299
+00:48:03.875 --> 00:48:07.875
+Any advice. All right. Gia.
+
+
+300
+00:48:07.875 --> 00:48:23.875
+Well, since he's already introduced us, I don't have to do that part. Hi, Jeff. I'm the CEO of Audacity. Just kind of leaning into that a little bit. One of the things that we're doing right now is we're integrating an agentic AI to like enhance user engagement.
+
+
+301
+00:48:23.875 --> 00:48:38.875
+We've also recently discovered that like one of our biggest value props to the larger market and to tech partners is actually the amount of data that we're going to receive as we have over 500 questions inside of our audits.
+
+
+302
+00:48:38.875 --> 00:48:50.875
+And so we're able to isolate like who the HRS provider is, who the payroll provider is. And so that is definitely one of our competitive modes.
+
+
+303
+00:48:50.875 --> 00:48:59.875
+And so when we use that, it helps us to be able to bring more value, of course, for like the scoring and best practices for our users.
+
+
+304
+00:48:59.875 --> 00:49:09.875
+But also, we have data sets that nobody else can get. So we know exactly how these people who use this payroll provider, this HRS system.
+
+
+305
+00:49:09.875 --> 00:49:15.875
+Answer questions specifically inside of an audit around different HR related categories.
+
+
+306
+00:49:15.875 --> 00:49:19.875
+And so it's information that they're not going to be able to get anywhere else.
+
+
+307
+00:49:19.875 --> 00:49:29.875
+One of our problems as we're introducing Audacity to the greater world is that the word audit is not sexy. It freaks people out. They start to get the sweats.
+
+
+308
+00:49:29.875 --> 00:49:45.875
+And the heebie-jeebies as you know, you started to talk about a little bit earlier My question is, how do you recommend that we position the fact that we have this enormous ability to have this data set, right? And I mean, the data set it can be
+
+
+309
+00:49:45.875 --> 00:49:51.875
+Absolutely massive with a thousand customers, even 500 customers, it would be ridiculous.
+
+
+310
+00:49:51.875 --> 00:50:05.875
+How do we position this as a competitive mode to enterprise level customers as well as investors and tech partners to really kind of drive them to a yes.
+
+
+311
+00:50:05.875 --> 00:50:08.875
+First, I love your background, the Forbes Next 1000 poster. Congratulations.
+
+
+312
+00:50:08.875 --> 00:50:10.875
+Thank you. Thank you.
+
+
+313
+00:50:10.875 --> 00:50:14.875
+The branding top notch Love it.
+
+
+314
+00:50:14.875 --> 00:50:30.875
+And I apologize, Kurti, this is going to be, I think, our last question because I got to jump right at the hour. But I think that I mentioned this human AI interface and the power that the chat bot provided to manifest the open AI underlying
+
+
+315
+00:50:30.875 --> 00:50:39.875
+Gpt capabilities. Is there a way for you to manifest the power of this data set for your target customer.
+
+
+316
+00:50:39.875 --> 00:50:50.875
+And visually or intellectually engage them in the art of the possible and allow them to dream a little bit about what the future might look like if they had this data set at their fingertips.
+
+
+317
+00:50:50.875 --> 00:51:04.875
+And I think this notion of using agentic tooling is so comfortable for those of us who are immersed in the startup ecosystem and living in startup land, but so foreign and scary.
+
+
+318
+00:51:04.875 --> 00:51:13.875
+For our users and so for our users showing them in a way that doesn't freak them out what the future looks like and why it's going to make their lives easier.
+
+
+319
+00:51:13.875 --> 00:51:30.875
+Putting yourself in their shoes, which I'm sure you and Chris can do, you and Drew can do because you guys seem like you've got incredible empathy So having that empathetic view, put yourself in the customer's shoes, think about how you make their lives better as a result of your tool, and then show that to them. That would be the
+
+
+320
+00:51:30.875 --> 00:51:32.875
+The guidance I might give.
+
+
+321
+00:51:32.875 --> 00:51:46.875
+That's great. Amazing. And I know you have to jump. So there were a couple of questions and maybe you answered it in the chat, but some of the folks wanted to get in touch with you. Have you shared your email or what's your preferred way? Okay, great. Perfect.
+
+
+322
+00:51:46.875 --> 00:51:48.875
+Yeah. Yeah, feel free. Yeah.
+
+
+323
+00:51:48.875 --> 00:51:50.875
+All right, everyone. Yeah, go
+
+
+324
+00:51:50.875 --> 00:51:58.875
+No, I was going to say, feel free to follow me on LinkedIn. And I shared my email so that you can link up with me on LinkedIn and shoot me an email if you have any questions.
+
+
+325
+00:51:58.875 --> 00:52:01.875
+And I should say one other thing, and I know this sounds a little odd.
+
+
+326
+00:52:01.875 --> 00:52:18.875
+But I created a clone of myself through Delphi. Delphi AI is this incredible tool and i created this AI clone and I've trained it on all my writings and books and blog posts and my students have been using it to get seven by 24 office hour access to me.
+
+
+327
+00:52:18.875 --> 00:52:28.875
+It's video as well as voice and text. And I'm getting rave reviews from my students on it. So I'm sharing it with the Techstars community. Feel free to use that as well.
+
+
+328
+00:52:28.875 --> 00:52:36.875
+What a gift. Thank you so much. All right, everyone, hand a round of applause for Jeff. Thanks for joining us. Really appreciate it.
+
+
+329
+00:52:36.875 --> 00:52:37.875
+All right. Take care.
+
+
+330
+00:52:37.875 --> 00:52:38.875
+Thank you. Thanks very good to see you.
+
+
+331
+00:52:38.875 --> 00:52:40.875
+Thanks, Chad.
+
+
+332
+00:52:40.875 --> 00:52:45.715
+Thanks
+
+
+

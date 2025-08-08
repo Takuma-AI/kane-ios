@@ -1,0 +1,1574 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:27.739
+Chloe Lannert: But basically, this session, we've always done the intros and the initial expectation session. But in the past few cohorts we've realized that you all are curious about each other's businesses, and want to learn more sooner and learn more about the problems each of you are solving the way you're approaching different solutions want to get a better picture of the teams that you're working with. So we added this session.
+
+2
+00:00:27.740 --> 00:00:41.409
+Chloe Lannert: I think 2 cohorts ago to give everyone a chance to really sit down and take some time to better understand where each company is at, what you're doing, and how you can plug in and be helpful to each other, so
+
+3
+00:00:41.520 --> 00:01:04.043
+Chloe Lannert: I'll drop in the chat the key things we want to go over. If you guys have decks that's awesome. If you don't. That's also totally okay. In the chat are the key things we want to sort of spend time on. So we can start really leaning in and helping each other out, especially when we get base camp access. Later today you'll be able to start pinging each other. Start connecting more directly.
+
+4
+00:01:04.470 --> 00:01:17.180
+Chloe Lannert: I'll go ahead and let you guys just put in the chat when you want to go, and I'll sort of just run through the chat. I know optifab is going first, st but beyond that
+
+5
+00:01:17.480 --> 00:01:31.399
+Chloe Lannert: order you want to go. Just drop a message in the chat and I'll run through there. I'm going to give each company around 4 min, and then a couple minutes for Q, and a. And pretty casual just answering those key questions and learning more about each other.
+
+6
+00:01:32.610 --> 00:01:35.650
+Chloe Lannert: So any other announcements from the team.
+
+7
+00:01:37.380 --> 00:01:40.620
+Neal Sáles-Griffin: Nothing that I can think of. I think we're smooth sailing.
+
+8
+00:01:41.070 --> 00:01:44.879
+Chloe Lannert: Awesome. Let's jump in, Peru. You can take it from here.
+
+9
+00:01:45.110 --> 00:02:08.460
+Paria: Sure. Hi, everyone very nice to meet you again today. My name is Paria. And I'm a city of our our company optifab technologies. Actually, Smail is our CEO who is in business trip right now, and I mean he. He was supposed to be here and present about the company. But I'm trying to be here for this purpose.
+
+10
+00:02:08.460 --> 00:02:18.830
+Paria: So basically, my background is in mechanical and manufacturing engineering. And I started working with advanced manufacturing for almost a decade right now.
+
+11
+00:02:18.830 --> 00:02:32.089
+Paria: So, being in this field and understanding the language of this business, and the current challenges led us to launch this company from 2023, February.
+
+12
+00:02:32.380 --> 00:02:47.240
+Paria: and so I, together with this smile, we were working at University of Waterloo as a professors there in mechanical engineering department, and then in 2024 January, we started to be full time in our own company.
+
+13
+00:02:47.590 --> 00:03:00.769
+Paria: So basically, what we are doing at Optifab is more about solving the inefficiencies in manufacturing workflows which is caused by repetitive tasks, human errors
+
+14
+00:03:00.810 --> 00:03:27.380
+Paria: and costly post-processing. So in industries, basically where the precision is very much critical traditional manufacturing processes rely heavily on manual inspection. A lot of tries and errors, adjustments as well as like time consuming reworks which these are leading a lot of like defects, wasted material and increased cost for the like manufacturers.
+
+15
+00:03:27.560 --> 00:03:54.040
+Paria: So what we have built we have been building so far is using or developing AI driven solutions that we enable manufacturers to achieve consistent reliable products. At the end of the day we eliminate the need for extensive manual inspection, where we can have, like faster, reliable and cost effective production at the end of the day.
+
+16
+00:03:54.639 --> 00:04:16.619
+Paria: So when it comes to our team me, I mean, I'm CTO, we have spent as our CEO, who will join? Who who will join from the next week to this program? And we also have 4 part time engineers working on the like software development, AI models development. And also
+
+17
+00:04:17.070 --> 00:04:28.659
+Paria: another like test that we have in the company. So what I am great at it. If it's about the superpower, I would say.
+
+18
+00:04:28.750 --> 00:04:50.810
+Paria: I believe myself. I'm a little like stubborn about the goals which I always define for myself, or anything which I have I have to do. I'm so much stubborn. I always try to do my best to make that things happen, and and when it comes to the help. I guess that's a blast kind of the portion of this part. So
+
+19
+00:04:51.313 --> 00:05:10.730
+Paria: help for our company, we believe that in terms of technical. We have, I mean, great people in our team in in terms of technical knowledge. But when it comes to like, you know, being in the like sales and marketing size. We feel that we are a little bit like lacking behind. And we need to improve or boost our
+
+20
+00:05:10.740 --> 00:05:30.310
+Paria: sales and marketing activities in a better format. So learning from the like other people in this cohort, or from the mentors, from everybody who is better in this in this aspect will help us to make our skills better and to to make our business successful. Hopefully.
+
+21
+00:05:30.660 --> 00:05:46.250
+Neal Sáles-Griffin: And and pari, just to kind of kick this off as far as like giving room for questions for everyone. Can you share a little bit about where the company is today, when it comes to your growth and trajectory like, where do you all stand? Do you already have customers? Are you in market. Help them understand exactly. You know where you where you are.
+
+22
+00:05:47.207 --> 00:06:14.320
+Paria: Yes, so 1st of all, our company is incorporated in Canada, in a city in a city, Waterlook, close to Toronto. So in terms of like so we have like in terms of like trajectory. We have 5 pilot customers so we have early stage revenue, and we got like around 150 K as a revenue.
+
+23
+00:06:14.320 --> 00:06:17.910
+Paria: So that's about like the business side
+
+24
+00:06:18.254 --> 00:06:46.170
+Paria: but the thing is we stopped like working with like couple of these pilot customers from last December, because we wanted to kind of. There was some expectation from our customers to work on this software that we are developing. So we we made a pause there to to kind of pivot a little bit like the the past that we are working to like to, or the the features that we wanted to have in our solutions.
+
+25
+00:06:46.220 --> 00:07:05.531
+Paria: So but yeah, I mean, where we are right now we are still working on the like technical side to add more features to our solutions to the software that we are developing, for, like the manufacturers. And after that we are hoping to add more pilot customers. And like,
+
+26
+00:07:06.270 --> 00:07:08.720
+Paria: yeah, more pilot customers basically.
+
+27
+00:07:10.720 --> 00:07:13.240
+Chloe Lannert: Awesome any questions in the group.
+
+28
+00:07:15.140 --> 00:07:16.339
+Chloe Lannert: Yeah, jump in.
+
+29
+00:07:16.990 --> 00:07:43.257
+Antoine: Yeah, that's great. Thanks. This is super clear at least for the the at the at the high level. Do you? Do you? Do you have a pipeline of future pilot customers? Or are you trying to build a pipeline, or are you trying to identify. Kind of what? What kind of what's the next batch of of pilot customers
+
+30
+00:07:44.950 --> 00:08:08.920
+Paria: That's a very good question, Antoin. Yeah, we have building a list of our customers, potential customers. And that's the reason that Esmael is right now here he's not. He's not here, I mean, we have to kind of travel for, you know, to to discuss this type of, you know discussions with potential customers mainly oems. I mean the suppliers of the the machines that
+
+31
+00:08:08.920 --> 00:08:15.010
+Paria: the manufacturing machines that we are working with them. So we have to be there show the capability of our software to them.
+
+32
+00:08:15.010 --> 00:08:22.781
+Paria: So we have a list of them still working on that to kind of, you know, extend our list, and potentially add them to the like
+
+33
+00:08:23.460 --> 00:08:27.799
+Paria: or convert them to the like the actual customers.
+
+34
+00:08:30.870 --> 00:08:31.860
+Paria: Thank you.
+
+35
+00:08:32.179 --> 00:08:50.129
+Paria: I'm sorry, since I am like not so much into the like business side like a smile, is more in that side. So likely I'm missing a lot of information here. Hopefully, he will join here from the next week, and he will answer that like, if you have more question, he can also answer for those questions.
+
+36
+00:08:50.130 --> 00:08:51.019
+Neal Sáles-Griffin: You're doing great.
+
+37
+00:08:51.020 --> 00:08:51.520
+Alex Nativelle: Yeah, yeah.
+
+38
+00:08:51.520 --> 00:08:51.929
+Paria: Thank you.
+
+39
+00:08:51.930 --> 00:08:53.519
+Alex Nativelle: Yeah, that was great presentation.
+
+40
+00:08:53.740 --> 00:08:54.450
+Paria: Thank you.
+
+41
+00:08:56.560 --> 00:08:59.470
+Chloe Lannert: Any other questions we have time for maybe one more quick one.
+
+42
+00:09:00.480 --> 00:09:11.619
+Anthony De Silva: Oh, I guess I'll I'll ask. I'm not sure if you are like can tell us more about how the competition looks like. Is there a lot of competition in the space for you guys? Or.
+
+43
+00:09:12.310 --> 00:09:16.170
+Anthony De Silva: yeah, if you could tell us a little bit more about the competitive landscape that'd be helpful.
+
+44
+00:09:16.170 --> 00:09:35.589
+Paria: Yeah, of course, there are like a couple of companies that they are kind of working in a similar past that we are right now. But since, like most of the like, we started this journey with like focusing on the 3D printers or id manufacturing machines.
+
+45
+00:09:35.670 --> 00:10:02.459
+Paria: so and then we noticed that most of the like oems, the suppliers are suppliers are towards the hardware side, but the software side is a kind of missing there. So the machines are just. I mean, there are a lot of 3D printers into the market right now, but in terms of like their capabilities, their reliability when it comes to production, they are lacking behind, because the proper software for the like error, detection, and prevention
+
+46
+00:10:02.460 --> 00:10:13.390
+Paria: is not there. So there are a couple of cost, like companies right now in the market. They are working on this aspect, but none of them are working on the real time, error.
+
+47
+00:10:13.390 --> 00:10:25.169
+Paria: detection, and prevention. As this is our value proposition right now. So this is something that we are working, and we don't see any or other competitors to touch this point.
+
+48
+00:10:27.480 --> 00:10:28.270
+Chloe Lannert: Awesome. Thank you.
+
+49
+00:10:28.270 --> 00:10:28.840
+Paria: This.
+
+50
+00:10:29.164 --> 00:10:39.540
+Chloe Lannert: That is time. Yeah, I'm gonna let's do our our Indian folks next. So neural defend. And then, Trina, I'm gonna pick you out and and have you go after neural defend.
+
+51
+00:10:39.860 --> 00:10:42.699
+Chloe Lannert: I'll let you. You guys take it from here.
+
+52
+00:10:43.870 --> 00:10:49.129
+piyushverma: Sure. Hi, hi! Everyone! As you all know, we are team, neural defend.
+
+53
+00:10:49.240 --> 00:10:56.019
+piyushverma: And for the presentation. We have a special friend who will do the presentation for you
+
+54
+00:11:00.000 --> 00:11:02.110
+piyushverma: one. This is Neil.
+
+55
+00:11:02.110 --> 00:11:03.550
+Neal Sáles-Griffin: That is so creepy.
+
+56
+00:11:03.930 --> 00:11:04.970
+Neal Sáles-Griffin: Freshman.
+
+57
+00:11:05.180 --> 00:11:19.649
+piyushverma: Deep fake technology. Deep fake attacks can threaten privacy, security, and trust in media. But there's hope. Neural defend technologies helps us detect and mitigate these these threats.
+
+58
+00:11:19.750 --> 00:11:28.829
+piyushverma: Their goal is to ensure that innovation fosters safety and accountability. Let's work together to harness AI responsibly. Thank you.
+
+59
+00:11:31.310 --> 00:11:34.979
+piyushverma: Yeah, it's a problem.
+
+60
+00:11:35.080 --> 00:11:57.510
+piyushverma: Yeah. So basically in today's world, it's very easy to create a defect with a single, you know, single photo. And also like, it's we just anybody in the world. Just recommend 10 seconds of your audio so that they can pretend like you. And they can attend this kind of meeting. So in neural defend. What we're doing is to we are building an defect detection solution.
+
+61
+00:11:57.550 --> 00:12:13.610
+piyushverma: you know, that can be integrated into any video verification platform or these kind of Zoom or Gmail kind of platforms. So we are building a product for that. In fact, like we, we can do the live demo. Also that what we are building currently
+
+62
+00:12:13.980 --> 00:12:14.820
+piyushverma: yeah.
+
+63
+00:12:14.890 --> 00:12:19.780
+Neal Sáles-Griffin: Do you want to show them what it looks like when you turn it off? Because I'm not sure they can even tell the difference.
+
+64
+00:12:19.910 --> 00:12:24.999
+Neal Sáles-Griffin: I think some people can recognize that that's my face, and others are like that. They just think that's your face right now.
+
+65
+00:12:25.670 --> 00:12:27.499
+piyushverma: Yeah. So I'm turning off.
+
+66
+00:12:31.230 --> 00:12:34.421
+piyushverma: Yeah, this is, yeah. See, I'm not a Neil.
+
+67
+00:12:36.280 --> 00:12:37.499
+piyushverma: We can switch.
+
+68
+00:12:39.470 --> 00:12:40.160
+piyushverma: Yeah.
+
+69
+00:12:41.230 --> 00:12:45.639
+piyushverma: So now we can detect shedding the screen. And
+
+70
+00:12:49.170 --> 00:12:55.679
+piyushverma: yeah, so now, what we'll do is, as you see here, we will detect that this is a deep fake, real time.
+
+71
+00:12:55.790 --> 00:13:05.719
+piyushverma: So here, as you know, Shiva has impersonated himself as Neil. Now we'll go. This is our website. We will go to our website. We will log in.
+
+72
+00:13:07.630 --> 00:13:11.059
+piyushverma: This is my Google account. So I'm logging in
+
+73
+00:13:11.260 --> 00:13:18.860
+piyushverma: now we will go to our product and we will show you
+
+74
+00:13:19.290 --> 00:13:29.780
+piyushverma: real time detection. So now we will go to the webcam. And yeah, that's good.
+
+75
+00:13:38.440 --> 00:13:40.310
+piyushverma: What? This is me
+
+76
+00:13:40.520 --> 00:13:47.879
+piyushverma: today, I want to address a pressing issue, deep fake technology, deep fake attack can threaten privacy.
+
+77
+00:13:51.610 --> 00:13:57.379
+piyushverma: So we have built a product. So with our neural defender proprietary algorithm.
+
+78
+00:13:59.930 --> 00:14:04.192
+piyushverma: we can deduct. You know, real time defects within
+
+79
+00:14:04.620 --> 00:14:31.070
+piyushverma: high accuracy. Not only that we are providing an frame by frame analysis on which frame the defect directed, or which the voice or the words, the defects has changed, you know, like trump can say, I love America, but people can change it to like, I hate America kind of thing. So we can do that. We are directing that. So that's about our startup. Yeah. Yeah. So
+
+80
+00:14:31.350 --> 00:14:43.830
+piyushverma: yeah, Hi, this is me as Neil. Now so as you can see here, this is the report and the con, we have a 99% confidence that this is not Neil.
+
+81
+00:14:44.301 --> 00:14:49.369
+piyushverma: So essentially, this is what we are doing. So we are giving a report to our clients here.
+
+82
+00:14:50.150 --> 00:14:52.849
+piyushverma: This is an analysis report.
+
+83
+00:14:53.430 --> 00:15:01.510
+piyushverma: And what basically happens is we do this kind of a
+
+84
+00:15:02.120 --> 00:15:06.469
+piyushverma: time by time framing just a second, I'll share my screen again.
+
+85
+00:15:13.060 --> 00:15:18.689
+piyushverma: Yeah. So this is the kind of report that we generate after detecting the deep fake.
+
+86
+00:15:18.920 --> 00:15:23.180
+piyushverma: So you can see here we give a prediction, analysis, confidence score.
+
+87
+00:15:23.440 --> 00:15:30.496
+piyushverma: And then, it's kind of a attention map, visualization visualizations. All of this.
+
+88
+00:15:31.130 --> 00:15:47.969
+piyushverma: I mean this, this is all technical stuff. But essentially what we are doing is we are giving the information about the frames. How many of the how much how much of the video is fake in terms of the total frames. And we also give the timestamp of all the the fakeness in the video.
+
+89
+00:15:48.120 --> 00:15:52.260
+piyushverma: So yeah, so thank you so much. This was our presentation.
+
+90
+00:15:52.850 --> 00:15:53.530
+Chloe Lannert: That's awesome.
+
+91
+00:15:53.530 --> 00:15:55.950
+Neal Sáles-Griffin: So so give him a lens on like.
+
+92
+00:15:56.120 --> 00:16:04.350
+Neal Sáles-Griffin: who is this for like? Who needs this the most? What's your business strategy going forward through techsars to take this to the next level.
+
+93
+00:16:05.380 --> 00:16:28.270
+piyushverma: Sure. So I'll now switch on to the main camera. So we are right now. Looking at 2 primary use cases, one is for verification industry. So companies that do. Kyc video verification onboarding it can be financial institutions, large banks. So these kind of people that need
+
+94
+00:16:28.624 --> 00:16:51.999
+piyushverma: a verification before they on board their customers. Through a video. So they are our primary clients right now. That's our 1st Gtm, the second Gtm, or the second use case is calls like this. So zoom Zoom calls or Google meet calls or Microsoft teams. Any of the video conferencing platforms where there can be an AI deepfake intervention is our second use case.
+
+95
+00:16:52.302 --> 00:17:12.587
+piyushverma: And we are trying to create a plugin for platforms like Zoom, and you know, sell it to enterprise clients and B, 2 B use case. So yeah, these are the 2 use cases, and there are many more use cases. For example, you know, dating apps need a video verification these days. Even for telemedicine, there is a video verification for online interviews.
+
+96
+00:17:14.038 --> 00:17:22.839
+piyushverma: yeah, onboarding any kind of virtual clients. Virtually so. There are a lot of use cases for deep fake detection solution.
+
+97
+00:17:23.135 --> 00:17:48.230
+piyushverma: But primarily, we are focusing only on 2 right now. But after the techstars program, we want to identify more use cases. We want to focus on customer discovery during the program, so that we identify what all use cases exist in the market by talking to to more and more people. And and then we will kind of design the product according to the needs of the of the industry. And I think right now, most of it is just our assumption.
+
+98
+00:17:48.360 --> 00:17:49.590
+piyushverma: So thank you.
+
+99
+00:17:50.190 --> 00:17:55.190
+Chloe Lannert: Awesome. Are you guys live yet? Do you have customers? What's the what's the stage.
+
+100
+00:17:56.160 --> 00:18:12.700
+piyushverma: So we have a couple of design partners right now. They are not paying us. They're just helping us build the product based on their needs. So right now, we have a verification company in based in New York.
+
+101
+00:18:12.820 --> 00:18:25.719
+piyushverma: They are. yeah, they are a document verification company. So we are working with them. Then there is, another Fin Fintech company based out of Singapore. We are also doing a unpaid Poc with them.
+
+102
+00:18:26.148 --> 00:18:51.770
+piyushverma: So yeah, again. So the the target through textures is to get paying clients paying paid pilot, you know, paid pilot projects so that we have some credibility. To kind of move towards the next fundraise, and then eventually we will do more R&D work, you know, increase the accuracy of the product, and then we will go towards scaling it. Yes.
+
+103
+00:18:51.980 --> 00:19:06.420
+Chloe Lannert: Awesome. So we're over time, folks, you can dump questions for neural defend in the chat, Trina. I'm going to tap you next. So our folks who are on the other side of the world can go to bed and review the recording later. If you want to go ahead and jump in
+
+104
+00:19:07.650 --> 00:19:09.330
+Chloe Lannert: thanks, guys, that was awesome.
+
+105
+00:19:10.200 --> 00:19:10.880
+piyushverma: Thank you.
+
+106
+00:19:18.180 --> 00:19:19.710
+Trina Das: Hello! Can you hear me?
+
+107
+00:19:20.300 --> 00:19:20.880
+Chloe Lannert: Yep.
+
+108
+00:19:22.130 --> 00:19:23.040
+Trina Das: Hi!
+
+109
+00:19:25.060 --> 00:19:30.060
+Trina Das: Hi! I'm billing 3.
+
+110
+00:19:32.640 --> 00:19:33.680
+Chloe Lannert: Oh, I'm losing you.
+
+111
+00:19:33.680 --> 00:19:42.760
+Trina Das: It's a so trins is basically building the data in AI models work with.
+
+112
+00:19:46.070 --> 00:19:48.530
+Trina Das: I'm so sorry. Just one. Sec.
+
+113
+00:19:49.060 --> 00:19:52.710
+Trina Das: can you please have someone else and I'll just
+
+114
+00:19:52.710 --> 00:19:53.889
+Trina Das: sure sure let's do it. No problem.
+
+115
+00:19:53.900 --> 00:19:55.379
+Trina Das: I think it's breaking.
+
+116
+00:19:55.610 --> 00:19:58.939
+Alex Nativelle: You want me to? Yeah, for sure.
+
+117
+00:19:58.940 --> 00:19:59.730
+Chloe Lannert: Let's do it.
+
+118
+00:20:00.350 --> 00:20:06.019
+Alex Nativelle: Hey, guys, how many of you had a bad hiring experience?
+
+119
+00:20:08.290 --> 00:20:21.840
+Alex Nativelle: Yeah, thank you, Neil. All right, all right. All right. That's kind of the thank you for for raising him. Right now, the the problem we're trying to assess is this bad hiring experience?
+
+120
+00:20:22.120 --> 00:20:34.590
+Alex Nativelle: We realized that you know people are not prepared to go through interviews they usually try to prepare, but they don't know how to do it. They're stressed. The job market is increasingly difficult.
+
+121
+00:20:34.830 --> 00:21:04.169
+Alex Nativelle: I'm not talking only about like officials and government people from the Us. But that might be the case as well. But all over the world, and it's kind of the same for recruiters. They are drowned in applications, because now it's so easy to apply to something based on AI, and they don't know how to go into like building a diverse and competent workforce, so they rely on shortcuts, like schools, or certain awards.
+
+122
+00:21:04.700 --> 00:21:12.160
+Alex Nativelle: instead of like, only hiring for like real competencies. And so that's the problem we want to solve. At brio.
+
+123
+00:21:12.360 --> 00:21:37.389
+Alex Nativelle: we started as a coach. So we realized that technology and AI are not making you learn anything here, but could really be a great, powerful tool for job seekers 1st of all. So we built an AI powered interview coach that is like reliable, personalized, tailored, and of course friendly and challenging.
+
+124
+00:21:38.290 --> 00:21:45.880
+Alex Nativelle: And we started with that because it made the most sense to build the product and to create the technology behind it.
+
+125
+00:21:46.000 --> 00:21:54.920
+Alex Nativelle: We started to partner with schools so that the students can use this to prepare for the job interview coming up.
+
+126
+00:21:55.590 --> 00:22:11.390
+Alex Nativelle: And now we? We used a lot of, you know, partnership with the schools to build the product up coaches, etc. And now we're moving more into the hiring phase on that. So the the 1st product is fully.
+
+127
+00:22:11.430 --> 00:22:41.009
+Alex Nativelle: let's say, fledged. We have, like 10 clients, which are mainly schools and coaching firms. We have a bit more than 10 clients. So it has been like, there's more than 5,000 interviews on the platform, etc. And now we moved into another product which will help qualify candidates. So the idea is that you apply for a role. You get an interview with AI, and you say, Wow! This is so dehumanizing.
+
+128
+00:22:41.160 --> 00:23:04.479
+Alex Nativelle: No, it's not the case. The idea is that we will be able to provide feedback to all of the people going through this interview have something that is really transparent about what we're going. And the alternative is not, you know, between talking to a human or an AI. It's like talking to an AI and having the chance to like. Yeah, maybe I don't have the schools or all the qualifications. But trust me.
+
+129
+00:23:04.480 --> 00:23:13.169
+Alex Nativelle: if you get me on the call, I will show you that I'm the best person for this job, or just hearing crickets, you know, not hearing back from the company.
+
+130
+00:23:13.330 --> 00:23:25.679
+Alex Nativelle: And so that's the product that we've been building lately, which haven't been, which hasn't been sold yet. We have a few people looking into it testing it.
+
+131
+00:23:25.970 --> 00:23:32.540
+Alex Nativelle: but we are on the verge of like signing our 1st clients on that to give you a bit of an idea of like where we are.
+
+132
+00:23:34.380 --> 00:23:53.269
+Alex Nativelle: And so we really want for this program to sign more clients, accelerate on the 1st product it would be great to like, still generate more revenue, and then get clearer on who our customers are for the second product, because we have a lot of people interested.
+
+133
+00:23:53.360 --> 00:24:10.210
+Alex Nativelle: And we want to make sure that you know. Okay, we're like 10 people who said, Oh, this is amazing. We tried it. It's great. We just need this and that, and and that would be awesome. And we want to make sure that we have the right exact customers. And we can focus down on something and scale out of this.
+
+134
+00:24:12.750 --> 00:24:36.129
+Alex Nativelle: do I need a team? Yeah, the team. So you've all met Antoine. The story of how we met is actually quite funny, because we did the same school in France, Hc. And he was my mentor back in in 2020. We met in 2020, and we just stayed in touch, and when I graduated it is like, have a very cool project I think you'll like, can we talk about it? I was like.
+
+135
+00:24:36.370 --> 00:24:49.670
+Alex Nativelle: of course, and that's how the story of like kind of brio was created. And there are 2 other people are, Paul. Some of you met him yesterday, and who you'll meet. They'll be in Sf. For like a month a month and a half.
+
+136
+00:24:51.370 --> 00:24:53.759
+Alex Nativelle: And what are you? Great at?
+
+137
+00:24:54.310 --> 00:25:08.880
+Alex Nativelle: Tough question? I think what we've been great at is learning curve. I feel like we've been. Our philosophy is really trying a lot of things, trying a lot of things out and giving feedback to each other. So if you want
+
+138
+00:25:09.110 --> 00:25:15.787
+Alex Nativelle: constructive feedback, I'll be happy to to help with that. And what do you need help with?
+
+139
+00:25:16.480 --> 00:25:30.014
+Alex Nativelle: I don't know, Antoine, if you have any people who wants to be clients of ours with great pleasure. I don't know. Probably Sherma and Paul would love to talk technical stuff with you guys.
+
+140
+00:25:30.980 --> 00:25:32.690
+Alex Nativelle: And besides that, I don't know.
+
+141
+00:25:34.400 --> 00:25:35.310
+Antoine: Yeah, when you're saying.
+
+142
+00:25:35.310 --> 00:25:40.160
+Trina Das: Parameters like cycles and target accuracy training, fine tune. It.
+
+143
+00:25:42.820 --> 00:25:43.660
+Neal Sáles-Griffin: That's interesting.
+
+144
+00:25:45.250 --> 00:25:46.590
+Neal Sáles-Griffin: Good answer.
+
+145
+00:25:47.320 --> 00:25:55.309
+Antoine: That's that's so cool. When I started the audio it played I don't know if it's I did it, or if it's kind of a.
+
+146
+00:25:55.310 --> 00:25:56.129
+Neal Sáles-Griffin: Not do it.
+
+147
+00:25:57.355 --> 00:25:58.865
+Antoine: The the
+
+148
+00:25:59.740 --> 00:26:04.519
+Antoine: This is not fake the
+
+149
+00:26:04.890 --> 00:26:25.610
+Antoine: one thing. So so it's a huge market, the recruiting market, or the job, transition market, etc, and there it's a market that has been kind of in tech forever. There are ats all over there. There's Linkedin. There's plenty plenty of players.
+
+150
+00:26:25.610 --> 00:26:38.370
+Antoine: and even if we narrow it down to our market, there are lots of solution providers already. And so where the really focus is really important for us.
+
+151
+00:26:38.380 --> 00:27:03.580
+Antoine: and also at this point I would say, we are less interested in accelerating on the revenue piece, because we do have, like some traction, etcetera, than in kind of finding the the most, the smoothest go to market motion that that we can deploy.
+
+152
+00:27:03.610 --> 00:27:07.559
+Antoine: and there's a chance that it is with our current product.
+
+153
+00:27:07.650 --> 00:27:27.210
+Antoine: But one of the reasons why we're looking into recruiting is because we think it might be on the on the recruiting side and and and for any of this we need to do a lot more work technical work than what than what we've done today. We do have a backlog of features we need to develop
+
+154
+00:27:27.520 --> 00:27:28.530
+Antoine: so.
+
+155
+00:27:28.770 --> 00:27:37.170
+Chloe Lannert: Awesome that time. I'm gonna ask anyone with questions to leave them in the chat and then jump off for whoever wants to go next.
+
+156
+00:27:42.053 --> 00:27:42.880
+Trina Das: I can.
+
+157
+00:27:43.659 --> 00:27:46.270
+Chloe Lannert: Okay, let's give it another. Go.
+
+158
+00:27:46.980 --> 00:27:57.839
+Trina Das: Hi, I'm Triena. I'm building trains. So at trains, we empower enterprise biomedical data teams to build deploy and track accurate AI models.
+
+159
+00:27:57.840 --> 00:28:17.459
+Trina Das: So there is a lot of biomedical AI models that are getting built today, right? And a lot of these AI models are based on imaging data data like X-ray, MRI, Ct scan, like B comic data. So we are actually working with, like, you know, teams who are working with these data to build AI models.
+
+160
+00:28:17.480 --> 00:28:29.140
+Trina Das: So the problem that we are addressing is that today, 80% of the AI models that are actually getting customized and fine tuned are not even making it to production
+
+161
+00:28:29.140 --> 00:28:49.830
+Trina Das: due to data and deployment challenges. So AI biomedical AI requires a very flawless structured data foundation to work. If the data layer is broken, then the AI model cannot work. So at Thrins, we are actually solving the data problems by giving data teams.
+
+162
+00:28:49.830 --> 00:29:15.349
+Trina Das: the infrastructure to structure the data to annotate the data to like, you know, simulate the data and other do various other things in order to ensure that the data foundation is super solid, that can power the AI model. We are doing 2 things, we are providing the infrastructure. And we are also providing the companies with end-to-end annotation and data tracking services
+
+163
+00:29:15.903 --> 00:29:20.880
+Trina Das: which helps companies to ensure a solid data foundation.
+
+164
+00:29:21.000 --> 00:29:26.709
+Trina Das: So that's what we are doing. I'd like to show like a quick demo of our product.
+
+165
+00:29:32.540 --> 00:29:34.460
+Trina Das: Can you see my screen.
+
+166
+00:29:34.960 --> 00:29:36.190
+Chloe Lannert: Yep. Looks good.
+
+167
+00:29:38.530 --> 00:29:42.489
+Trina Das: Okay, so just one second.
+
+168
+00:29:58.570 --> 00:29:59.720
+Chloe Lannert: We lost her.
+
+169
+00:30:01.710 --> 00:30:07.320
+Neal Sáles-Griffin: Oh, it just like crashed out, wow! Alright! That's tough.
+
+170
+00:30:08.330 --> 00:30:10.649
+Neal Sáles-Griffin: Maybe we can get like a video or something afterwards.
+
+171
+00:30:11.070 --> 00:30:15.699
+Chloe Lannert: Yeah, harvest. You want to jump in and we can finish where we where we started. After.
+
+172
+00:30:15.930 --> 00:30:23.269
+Ankur Toshniwal: Sounds good. Yeah, perfect andrew joined as well. Let me go ahead and share my screen
+
+173
+00:30:31.880 --> 00:30:32.840
+Ankur Toshniwal: right?
+
+174
+00:30:33.292 --> 00:30:39.457
+Ankur Toshniwal: Yeah, cool. I'm just gonna do a couple of slides? And then we'll go from there. So
+
+175
+00:30:40.520 --> 00:31:07.990
+Ankur Toshniwal: yeah, I mean, at the highest level harvest. What we, what we do is, we are helping especially small teams. Gather and structure real time web data at scale using AI chat, the 1st step and the thing that we're launching we've launched right now is the fastest agentic web scraper for gathering and extracting web data. The next thing we want to do is build out a specialized search that's optimized for agentic data collection. Basically, Google is meant for humans. We need a Google for agents.
+
+176
+00:31:08.410 --> 00:31:18.499
+Ankur Toshniwal: and then ultimately a marketplace that actually coordinates agents and websites. So they can basically Rev share across the actual process.
+
+177
+00:31:18.769 --> 00:31:47.899
+Ankur Toshniwal: There's a huge problem. Because, basically, websites are like, don't steal our data. Web scrapers are like, it's public data. We don't. We're not trying to steal it. But like we need a better, we need a better protocol for this right? And so websites have an incentive to be able to share their data if they're going to be paid for it. The problem isn't that people are taking data. It's a problem is that they're not being paid for it. So we want to set up that's our. That's our process to get to basically a marketplace for connecting agents with websites.
+
+178
+00:31:49.059 --> 00:32:03.459
+Ankur Toshniwal: Team. It's Andrew. And I. yeah, I'm basically found an AI Browser Automation Company. Andrew has built data, manage data pipelines at a hedge fund previously. The core problem is.
+
+179
+00:32:03.460 --> 00:32:08.119
+Neal Sáles-Griffin: I want to jump in on that real quick. Just just sorry to double tap. Why do you care?
+
+180
+00:32:08.840 --> 00:32:12.980
+Neal Sáles-Griffin: Why isn't important to you guys, yeah, like, what's what's the what's the energy.
+
+181
+00:32:13.854 --> 00:32:40.130
+Ankur Toshniwal: Well, yeah. So I think the one of the big things, for I guess for me personally, is, I think, essentially big companies have a huge leg up against small companies. Because they have data engineers. They have huge infrastructure to run like massive analysis across competitors. Market research. Be able to just do stuff real time across the entire Internet. And small teams just don't have that capability
+
+182
+00:32:40.450 --> 00:32:48.140
+Ankur Toshniwal: and for and for and because of AI chat because of agentic workflows. We have the opportunity to put that directly in small businesses.
+
+183
+00:32:48.190 --> 00:32:56.900
+Ankur Toshniwal: and we can serve big businesses as well. But we we really can make a much more democratized kind of playing field for this type of work.
+
+184
+00:32:57.740 --> 00:32:58.710
+Andrew Fernandes: You know.
+
+185
+00:32:58.710 --> 00:33:13.600
+Andrew Fernandes: Yeah, as I came from large quantitative hedge funds previously, and I saw literally hundreds of hours of engineer time and millions of dollars, of trading profits lost because of delays that we are fixing right now.
+
+186
+00:33:13.860 --> 00:33:18.960
+Andrew Fernandes: problems that we're fixing right now are going to be so on that order of magnitude. We're solving.
+
+187
+00:33:21.990 --> 00:33:39.810
+Ankur Toshniwal: Sweet. So the problem ultimately gathering web data at scale is time consuming expensive the Internet. While we all like to think that perplexity, or Google or or Chatgpt has covered the Internet. Actually, they've covered less than 5%. There are
+
+188
+00:33:40.040 --> 00:34:09.789
+Ankur Toshniwal: exabytes of data on the Internet. And basically for a lot of teams. The problem is sourcing precise, having getting precise control over specific web pages or specific domains that they want to actually collect data from is being able to get around particular like logins, you know, using sorts and chats and particular web pages. So sourcing, extracting, and cleaning and exporting all that data and getting it into the data uses. For example, like model training outreach market research.
+
+189
+00:34:11.330 --> 00:34:20.240
+Ankur Toshniwal: I'm gonna I'll I'll show you the demo after. But the core differentiation kind of talking about. But basically a no code. Usable interface is really important. We have a lot of options, things like
+
+190
+00:34:20.239 --> 00:34:45.200
+Ankur Toshniwal: firecrawl and bright data that are great for developers. But there's nothing that's really accessible for non-developers. And so we want to be that we're going to be basically the biggest team to do that. We also going to support an Api, but we are focused on the No code usable interface. We want to have support complex website navigation, it needs to be fast and cost effective. So if you've seen operator or browser use.
+
+191
+00:34:45.199 --> 00:35:02.649
+Ankur Toshniwal: or any of the other ones, if you try them. They're just slow. They're super slow. And this is a big problem. If you want to do web data collection at scale, they don't really have search engines connected to them. The results are pretty limited. If you look at, even if you use perplexity's deep research, you'll get a good report. But you're not going to get.
+
+192
+00:35:02.650 --> 00:35:07.024
+Ankur Toshniwal: hey? Like, give me a hundred, you know. 100 like
+
+193
+00:35:08.170 --> 00:35:22.009
+Ankur Toshniwal: you know particular companies of this kind right? And get all the kind of id like all the different tables out of it. So we wanna provide really comprehensive results. And ultimately we give you hosted infrastructure. So you don't have to run it yourself.
+
+194
+00:35:23.489 --> 00:35:50.330
+Ankur Toshniwal: Yeah, our our initial customers. I think we kind of break break them out into 3 sections. 3 sections of non technical, semi technical and technical. Our where we're starting is what we call like a non technical semi technical but we have right now. Sdr, AI, Sdr or a not an AI, a real Sdr, a sales development representative who uses harvest. Not just to like, you know, get emails and find leads.
+
+195
+00:35:50.622 --> 00:35:57.650
+Ankur Toshniwal: But also to actually create, like to to understand, like in a conference, that he's going to which conference and they all have directories
+
+196
+00:35:57.990 --> 00:36:23.039
+Ankur Toshniwal: go through the entire conference and find the actual like the top links for me right here, right? And the top top boots for me personally to go visit, and that's how he used it. A researcher at a hedge fund, he, which I'll show you the example for shows shows people, helps people. Helps him be able to collect Gpu cloud Gpu usage for him to be able to. You know. Then decide on like whether or not. He. They want to actually train at a particular time.
+
+197
+00:36:23.386 --> 00:36:48.870
+Ankur Toshniwal: And yeah. So our go to Mark. We launched in Jan. 20 second, I think I got a message. I assume I'm over time. Or, yeah, we launched a a prototype in a Jan 20. Second, we're gonna be launching to product hunt, which is actually kind of why we missed yesterday been really swamped with that we're gonna be launching to product hunt. this week. We'll put the teaser up, we'll launch it to next week. And 2 to yeah, and basically
+
+198
+00:36:49.547 --> 00:36:58.770
+Ankur Toshniwal: focus on small teams enterprise after that. And yeah, I don't. I don't know if there's other questions. We have some. Why, now, and stuff like that. But yeah, cool.
+
+199
+00:37:00.890 --> 00:37:04.009
+Chloe Lannert: Awesome any questions from the cohort.
+
+200
+00:37:08.350 --> 00:37:11.487
+Chloe Lannert: Beautiful? Let's go. We've got 30 seconds.
+
+201
+00:37:12.380 --> 00:37:17.849
+Chloe Lannert: let's go to the what are you really good at what's really hard for you right now, and see if we can.
+
+202
+00:37:18.619 --> 00:37:47.409
+Ankur Toshniwal: We? I think we we have. Alright. So what we're really good at, I think. We're good. We're really good at just being fast. I think velocity is super important and obviously pretty. Competitive space. So we're good at cranking, I would say. spending 16 HA day, just coding if we need to, or just making calls all day if we need to. I think the most help with is, we understand, this is a pretty competitive space. We want to make sure that we are
+
+203
+00:37:47.580 --> 00:38:09.330
+Ankur Toshniwal: focusing in on a specific user to start with and really, really solving their problem. So we know, like, for example, we've actually gotten a lot of interest from government agencies and lawyers. And because they kind of use public data and public public information. And they again, they don't want reddit information. They're like, I want this website and this particular information, I want to go down.
+
+204
+00:38:09.330 --> 00:38:21.190
+Ankur Toshniwal: And so we want to make sure that we want to refining a repeatable user. That we can really lock in on and build a platform just like our initial product around that person, and so
+
+205
+00:38:21.190 --> 00:38:33.179
+Ankur Toshniwal: kind of making sure that it's that person's big enough. And the problem that use case is big enough and that that user is faces the problem intensely enough. Is probably what the discovery process is right now for us.
+
+206
+00:38:33.640 --> 00:38:46.500
+Chloe Lannert: Love it. Trina. Thank you guys so much. Trina, do you wanna drop your demo in the chat so people can revisit it after the call, and then who wants to jump in and present next.
+
+207
+00:38:48.410 --> 00:38:49.040
+Anthony De Silva: Yeah.
+
+208
+00:38:49.710 --> 00:38:51.040
+Chloe Lannert: Yeah, Meg, let's go.
+
+209
+00:38:51.470 --> 00:38:57.579
+Meg Hall: Okay, Hi, guys, it. I'm excited to be working with all of you guys and get to know all of you.
+
+210
+00:38:57.580 --> 00:39:22.549
+Meg Hall: So I am the founder of sales. Play, and let me go ahead and just put in slideshow mode. And we'll we'll do a demo also, because our products really easy to understand when you actually get in there. But a little bit about me is that I this is my second tech company. And after I built my 1st tech company to Profitability and sold it, I moved up to the Bay Area, got my executive Mba. And then started working for oracle where I was a global sales
+
+211
+00:39:22.550 --> 00:39:28.090
+Meg Hall: play leader. And this is where I started thinking about, how do you run an organized go to market motion?
+
+212
+00:39:28.090 --> 00:39:53.049
+Meg Hall: Where, whether that be like selling new products to your existing customers. Or when I went over to Cooper for the last 6 years, I ran their vertical and industries go to market. So like, how do you position your company when you're talking to somebody to use like their industry vernacular, use the right use cases, name drop the right clients things like that. So I've been thinking about how to run and structure organized selling motions for b 2 b tech companies. For the last 10 years.
+
+213
+00:39:53.480 --> 00:40:14.629
+Meg Hall: and on the call. You'll also see that Michael and my and Sweater are both here, my 2 co-founders, and then we have another person on our team who you guys will meet later at like Demo Week, which his name's Jan. So we've all been working together for over a year and a half now on this company and the reason why we're starting this and like
+
+214
+00:40:14.940 --> 00:40:29.539
+Meg Hall: how we're different from others like sales tech companies is enterprise. Selling is very different than B, 2 B, like small business selling. Right? If you guys only have one persona and one industry, you can just find a list
+
+215
+00:40:29.900 --> 00:40:41.179
+Meg Hall: and spam that list right? And I think that that's happening way too much now compared to our platform and our team, we're really taking all of the account research that a sales Rep has to do if they're going after only
+
+216
+00:40:41.180 --> 00:41:06.170
+Meg Hall: 10 accounts. Right? So for enterprise, sale selling, they an enterprise sales Rep might spend the entire year only talking to 20 companies, right? So they need to know those companies inside and out. And so we pull together all the research about that company. We run a sales, play with their industry, their persona, their region, their partner, and create messaging and a unique point of view. And then we actually generate all those enterprise sales, documents.
+
+217
+00:41:06.170 --> 00:41:15.590
+Meg Hall: So we can create their Powerpoint slides, their proposals, their one pagers, all these documents that support a sales cycle. We spit out personalized versions of those documents.
+
+218
+00:41:16.159 --> 00:41:24.249
+Meg Hall: So you can kind of think of us like as the missing messaging and strategy layer that sits in between their Crm and their sales automation tool.
+
+219
+00:41:24.380 --> 00:41:38.249
+Meg Hall: And yeah, let me just show you guys our platform because I think it'll make a lot more sense. So this is smart communications. Who's 1 of our customers and their insurance team is only going after 91 companies total
+
+220
+00:41:38.250 --> 00:41:57.499
+Meg Hall: right for all these reps. And they need to really be making sure that they're talking to each of these companies researching them. And so what we're tracking is for this. For let's say, for Chris Rapfield. He has 15 accounts, and we found him 132 people he should be talking to, and then it's keeping track of how many of those people he's reached out to.
+
+221
+00:41:57.730 --> 00:42:23.400
+Meg Hall: And when you get in here you can see if it does all the account research, and like the account. Research is tailored to that company so specifically like what smart communications would care about. Right? So it figures out if they've had data, breaches and things like that. Then it uses that information to create custom like a point of view on like, why does that come? Why does pan life? America need smart communications, specific examples of how they can help.
+
+222
+00:42:23.600 --> 00:42:40.459
+Meg Hall: And then you come down here. It finds people along with their contact information. It pulls in like the news sentiment it assigns the top customer stories to name drop, and then it pulls it all together with a Powerpoint slide, a 1 pager to use in that account. And then, if you go into the people.
+
+223
+00:42:47.760 --> 00:43:01.880
+Meg Hall: it shows us it gives us sample emails that he can send that are all really personalized for outbounding to this person. And it specifically is keeping keeping in mind like that person's role. Right? So the messaging matches the role of the person.
+
+224
+00:43:02.437 --> 00:43:09.019
+Meg Hall: Yeah. So that's our platform. And then let me kind of go back. So currently, we have.
+
+225
+00:43:09.467 --> 00:43:27.599
+Meg Hall: You know, here's a customer example. So for bassware, they were one of our very 1st customers, and in 4 months they created 15 million dollars worth of new opportunities, and our platform literally spits out personalized value cases for any public company, so that that way they can lead with value as they're going after the sales for that account.
+
+226
+00:43:28.160 --> 00:43:46.330
+Meg Hall: And currently, we have over a hundred $1,000 of contracts and 9 customers, and we just signed our 1st public company, which is ringcentral and ringcentral, wants for us to make a version of this for their marketing department. That's so that they can basically spin up new ebooks for all of their partners.
+
+227
+00:43:48.310 --> 00:43:51.490
+Meg Hall: Yeah, so that's it.
+
+228
+00:43:52.450 --> 00:43:56.729
+Chloe Lannert: Awesome any immediate cohort questions.
+
+229
+00:43:58.360 --> 00:44:08.590
+Ankur Toshniwal: Yeah, for sure. So I guess in some ways, I think. You know, a lot of kind of bigger companies and stuff are.
+
+230
+00:44:09.060 --> 00:44:23.860
+Ankur Toshniwal: I mean, I'm 1 to talk. But they're all kind of like leaning into this space. so like. Where do you think? Kind of again that like, where do you feel that your kind of edge will be? And where do you think that you guys can? How how do you plan on like navigating that? I guess.
+
+231
+00:44:25.520 --> 00:44:28.070
+Meg Hall: So you're talking about like like Salesforce Einstein, and things like that.
+
+232
+00:44:28.070 --> 00:44:52.090
+Ankur Toshniwal: Yeah, I mean, like, I think there's there's probably like 2 or 3 different levels right? Like to this, what level one, which is like, okay, I kind of just use like deep research. Right? That's not gonna give me nearly enough depth. So I think that makes sense how you're how you're like that. But then against like other yeah, like, Sdr, kind of platforms. you know. Where do you think your edge? Why, why, where do you? Where do you guys stay on that now.
+
+233
+00:44:52.670 --> 00:45:09.660
+Meg Hall: Yeah. So I think a lot of the other sales tech out out there is very tactical. Right? It's on you to go look up that company and either pull the research or it's finding a list and spamming list right? But our platform is really like an operating system of how the sales team is
+
+234
+00:45:09.900 --> 00:45:31.819
+Meg Hall: organized about who they're gonna go after what they're gonna say and like, it's more of like a long term strategic plan. And what it does. Is it? Actually, you can refresh the news cycles to see, as your account evolves right because you should be talking like you think about an enterprise. Sales deal can take 2 or 3 years to close, so they need to continue to know, like what the latest news is on that account. Throughout those 3 years
+
+235
+00:45:31.820 --> 00:45:51.159
+Meg Hall: it takes to close a deal. So our platform is more about. You know the team, knowing who their big accounts are and what the statuses of those accounts and then having their messaging and the team evolve. So it's more of like we are not like a tactical little tool like it's like, it's the the foundational go to market strategy. If that makes sense.
+
+236
+00:45:52.470 --> 00:45:54.129
+Ankur Toshniwal: Gotcha? Yeah. Thanks.
+
+237
+00:45:54.910 --> 00:45:55.430
+Meg Hall: Yeah.
+
+238
+00:45:57.780 --> 00:45:58.180
+Chloe Lannert: That's.
+
+239
+00:45:58.180 --> 00:46:05.560
+Anthony De Silva: A quick follow up. Question, Meg, if I have time like, how do you compile the research, or where do you get the research from? It's pretty interesting.
+
+240
+00:46:06.250 --> 00:46:20.969
+Meg Hall: Yeah, I mean, Michael can kind of give you a little bit more information under the hood for that. But basically we have a ton of Apis going out like a crazy amount. And so we're basically like for every one call we do like for refreshing an account. We have like
+
+241
+00:46:21.020 --> 00:46:45.879
+Meg Hall: 30 plus apis that are going out and fetching like their financial reports and everything else like. So we have all these things coming out. And then basically, the insights from all that goes into the AI, and then the AI spits out different pieces of it. So it's it's pretty complicated. I don't know we. It's it's taken a little while to evolve. We use link views for our AI development, Michael. Anything else you want to add? There.
+
+242
+00:46:46.640 --> 00:47:03.730
+Michal Kowalkowski: Yeah, no. Like, as Meg said, it's it's just bunch of different Apis that provide data enrichment. And we have workflows to basically pull data in kind of waterfall format. So like, if one of them doesn't have what we need, we go to next one and so on.
+
+243
+00:47:05.530 --> 00:47:09.539
+Chloe Lannert: Awesome. Alright! That's time. Who wants to jump in next.
+
+244
+00:47:09.970 --> 00:47:14.970
+Anthony De Silva: I guess we'll go. We'll go next. Yeah, let me share my screen as well.
+
+245
+00:47:22.280 --> 00:47:24.939
+Anthony De Silva: Can you guys, can you guys see my screen.
+
+246
+00:47:24.940 --> 00:47:25.710
+Chloe Lannert: Good.
+
+247
+00:47:26.160 --> 00:47:26.740
+Alex Nativelle: Yep.
+
+248
+00:47:28.890 --> 00:47:56.569
+Anthony De Silva: yeah. So to kind of set the stage in the Us. If you're buying a home, there are 2 key things that you do after you make an offer. So there's a home inspection where a qualified inspector goes out and inspect the home to find any issues. And then the second step is the bank sending out an appraiser. That's if you're getting a mortgage to also kind of do a more superficial inspection. And this is to like establish the value of the home.
+
+249
+00:47:57.360 --> 00:48:08.539
+Anthony De Silva: So at really, we're building the 1st property condition and valuation data platform. What we're doing is we're we're providing inspections. And we're leveraging that home inspection data for appraisals.
+
+250
+00:48:08.750 --> 00:48:16.480
+Anthony De Silva: eliminating the need for onsite appraisers. And this will. This can save up to 3 weeks in closing time while saving money.
+
+251
+00:48:16.670 --> 00:48:38.169
+Anthony De Silva: So we face this problem, both of us face this problem when we became recent 1st time homeowners. So our approach to this was, Hey, like, let's dig deep into this problem and figure out what like. Let's innovate across both inspections and appraisals. So as we dug deep more into inspections.
+
+252
+00:48:38.850 --> 00:48:50.330
+Anthony De Silva: what we found out is that like inspection reports are typically 50 plus page long. Pdfs, I can show an example of what one looks like. So this is
+
+253
+00:48:50.770 --> 00:49:15.479
+Anthony De Silva: an inspection report that we received. It's it's really long, and it's difficult for the user to read and understand. And it's you're not going to remember all of the things, and another piece of that is, you also wouldn't know if you're especially for a 1st time, homeowner. You don't know what you need to pay attention to which items are critical or how much things are going to cost to get repaired. So
+
+254
+00:49:16.231 --> 00:49:45.840
+Anthony De Silva: yeah, going back to the problem. So the key problem is prolonged transactions because there are 2 separate processes and long Pdfs and the lack of repair price estimates. So at really, we're solving those problems. We started with home inspections. We launched our home inspection a product about 7 months ago in the Dfw. Area. And so if you have any realtor connections or anyone who's looking to buy a home. Let us let us know we're happy to help them.
+
+255
+00:49:46.396 --> 00:50:02.530
+Anthony De Silva: With our inspections. You get an easy to reach digital report that simplifies the regular Pdf categorizes severity, gives you the recommendations and also gives you repair. Price estimates.
+
+256
+00:50:02.975 --> 00:50:14.629
+Anthony De Silva: For example, here are so. These are some of the properties that we've inspected. We're close to like completing 50 inspections now. And here's what a digital report would look like.
+
+257
+00:50:15.532 --> 00:50:27.530
+Anthony De Silva: So you know what to pay attention to. Tells you how much it's gonna cost. And we've received feedback that this is a great tool for negotiating, especially like the the repair costs.
+
+258
+00:50:27.600 --> 00:50:46.059
+Anthony De Silva: On top of that we've built more realtor tools to simplify their lives. So a step in that process is, once they figure out if they're going to negotiate, they build what's called. They have to send out a repair addendum. We've really simplified that like with a few clicks they can build that now.
+
+259
+00:50:49.130 --> 00:50:51.469
+Anthony De Silva: Yeah. And in terms of
+
+260
+00:50:52.400 --> 00:50:58.780
+Anthony De Silva: think, I talked about the problems that we're solving in terms of like the market size, we estimate, it's about a 5 billion
+
+261
+00:50:58.900 --> 00:51:21.830
+Anthony De Silva: dollar market. And in terms of the revenue model, we use independent contractors to complete these inspections. For us, the repair estimates based on feedback that it's a really good product. We've now made it into a standalone product. And we also are looking more into completing some of those appraisal products using the inspection data.
+
+262
+00:51:22.583 --> 00:51:40.250
+Anthony De Silva: This is our team. Don and I are full time participating in this program. We also have a front end co-founder. Who's he will join us for some of the events. Did any. Did I miss anything? I think you got almost all of it here.
+
+263
+00:51:41.030 --> 00:51:44.250
+Chloe Lannert: Yeah. What do you grade out? And what's really hard right now.
+
+264
+00:51:45.670 --> 00:51:49.269
+Anthony De Silva: Great. I think we're great at
+
+265
+00:51:49.470 --> 00:51:53.749
+Anthony De Silva: you got the drive and the motivation that's for sure. Complementary skill sets
+
+266
+00:51:53.880 --> 00:52:01.630
+Anthony De Silva: what's hard like on the overall thing is as an industry. Real estate is very slow to embrace change, especially technology.
+
+267
+00:52:02.040 --> 00:52:07.510
+Anthony De Silva: And then also, communication. Wise, like getting everyone on the same page.
+
+268
+00:52:07.890 --> 00:52:10.860
+Anthony De Silva: because people are like thinking of different things.
+
+269
+00:52:11.220 --> 00:52:24.339
+Anthony De Silva: and also like aligning the incentives for for realtors versus a home buyer. It's there, I don't know if you guys have been following sort of like the the National Association of Realtors case where
+
+270
+00:52:24.500 --> 00:52:45.749
+Anthony De Silva: the seller used to pay the commission for the buyer. So there's like an alignment of incentives even. For as we're doing inspect inspections right? So an inspection can really kill the deal for the the buying agent. So there's also like these conversations like, I don't want the inspector to find all of these issues like and or to like scare the buyer away. So
+
+271
+00:52:45.750 --> 00:52:58.300
+Anthony De Silva: it's it's it's been a challenge in negotiate and navigating some of those conversations like, we want to do a good job for the buyer. But yeah, so that's 1 of the one of the challenges that we're we're facing like market adoption
+
+272
+00:52:59.221 --> 00:53:09.619
+Anthony De Silva: in terms of like sales like we've done 50 inspections close to 50 inspections, and we have about 3 to 4,000 recurring revenue monthly.
+
+273
+00:53:12.200 --> 00:53:15.179
+Chloe Lannert: So any questions from the group got about a minute.
+
+274
+00:53:21.440 --> 00:53:22.050
+Antoine: Yeah.
+
+275
+00:53:22.050 --> 00:53:40.949
+Antoine: So have you tried to to go through inspectors? People who? Because they already know. And they're called by the realtors? And they they do inspections. And is there value to them in switching to your platform?
+
+276
+00:53:42.440 --> 00:53:51.340
+Antoine: as opposed to kind of using your your inspectors using insp outside inspectors as your Legion.
+
+277
+00:53:52.754 --> 00:53:56.499
+Anthony De Silva: So with that, I think a a
+
+278
+00:53:56.620 --> 00:54:24.559
+Anthony De Silva: a roadblock that we face is, we are unable to monetize that opportunity because they already have realtor relationships with their realtors that they perform inspection. So if we were to go and ask them, hey, like, join our platform. And we're going to take 10 or 20% from your inspection as a fee. They're probably like won't be on board with it. But that's not not really a path we explore. Maybe maybe there's some incentives we can provide
+
+279
+00:54:24.630 --> 00:54:30.320
+Anthony De Silva: value adds, we can provide and and probably explore that. But yeah, no thanks for thanks for finding that out.
+
+280
+00:54:30.860 --> 00:54:34.620
+Antoine: Yeah. The-the. What I was thinking is, oh, yeah, it's.
+
+281
+00:54:35.120 --> 00:54:42.450
+Chloe Lannert: That's time. Yeah, but you can keep going in the chat, and we'll get you all in base camp together today.
+
+282
+00:54:43.000 --> 00:54:47.169
+Chloe Lannert: All right. Last 2 on the call. Who wants to take it?
+
+283
+00:54:47.660 --> 00:54:48.940
+Chloe Lannert: Chris? Let's go.
+
+284
+00:54:49.330 --> 00:54:52.530
+Chloe Lannert: Oh, sorry so, Chris. First, st Vivian. We'll we'll finish with you.
+
+285
+00:54:52.530 --> 00:54:53.040
+Vivian: Okay.
+
+286
+00:54:55.890 --> 00:55:13.190
+Chris Wong: Cool. Yeah. So the problem that we're solving is particularly in the legal law firms and lawyers. So I used to be a startup lawyer at Cooley, which is a big law firm that advises to startups. I used to have a startup Vc. And capital markets practice.
+
+287
+00:55:13.190 --> 00:55:34.790
+Chris Wong: I did it for about 5 years, and I, and in the legal industry for lawyers they have to track their time in 6 min increments. They call it like 0 point 1 h is what they usually it's standard. And so for those of you who've ever worked with a lawyer, you may have seen your bills, and you see like what they do, and all the tasks that they do and what they charge for, and then it equates into like 0 point 1 h.
+
+288
+00:55:35.075 --> 00:55:50.120
+Chris Wong: So when I was a lawyer I used to work like a crazy like work schedule, where I would actually just delay my timekeeping until the end of the month, and I'd then spend the entire day mapping, looking at my old emails just to triangulate what I did. And then bill my clients for the activities. I did.
+
+289
+00:55:50.170 --> 00:55:56.420
+Chris Wong: and oftentimes I'd actually miss hours that I could have billed my clients so missed revenue and spending the entire day doing it.
+
+290
+00:55:57.680 --> 00:56:13.500
+Chris Wong: And this is not just a story that I experienced. This is a story that we've like my brother and I. We've interviewed a lot of lawyers, and we started to see. This is a common story among law firms in different practices, and also like different size law firms as well. And so, and we also noticed that lawyers spend
+
+291
+00:56:13.500 --> 00:56:25.890
+Chris Wong: really about 12 HA month doing timekeeping and billing. And so what we're trying to do is we're trying to create a solution that automates that process and save them an hour like, reduce that all the way to an hour of time.
+
+292
+00:56:25.890 --> 00:56:49.590
+Chris Wong: So we're doing this by building an AI billing agent for law firms, and what it does is it tracks your activity in real time, associates it to the right client matters, and then you can actually use AI to draft what your narrative is that can go into your client invoices so that the lawyer can actually just like with a few clicks of a button, and like an hour of review they can then send out their invoices and track them to all the clients that they to all their clients.
+
+293
+00:56:50.037 --> 00:57:04.490
+Chris Wong: Right now, this is a pretty big problem in the industry, and it's always been one. If you ever talk to any lawyer, you'll know that like this is like super frustrating and stuff that they hate doing because they'd rather spend their time doing substantive law work than administrative law work. And so
+
+294
+00:57:04.793 --> 00:57:31.529
+Chris Wong: yeah, that's how that's why we how how we got jumped into the problem there, and what we noticed about the legal industry so. And then our solution right now. We right now have an Mvp. That we developed around December. We've been. We started this company in October last year, built an Mvp. Have it out around mid December, and we've been just working with a few pilots and have one. We have 2 paying customers and then a few active users.
+
+295
+00:57:31.851 --> 00:57:41.338
+Chris Wong: What we're trying to do is have have them use it on a daily basis. They use it every so often, but we're trying to increase the rate at what they use it.
+
+296
+00:57:41.910 --> 00:57:57.619
+Chris Wong: aside from that, the reason why, and part of the reason why we're jumping into. This is because, a lot of legal tech companies right now are using AI to solve substantive law problems like contract draft provisions like, I'm drafting a contract. I want AI to help me draft this. But
+
+297
+00:57:57.620 --> 00:58:14.359
+Chris Wong: what we're what we're realizing is that lawyers are still going to spend a lot of time looking at it, and and then also like sending it out, there's still a lot of sensitivity in terms of accuracy there. So there's still a long ways to get there, we see a huge opportunity in using AI to actually solve legal administrative work. So all the backend office stuff.
+
+298
+00:58:14.360 --> 00:58:36.600
+Chris Wong: And so that's where the vision that we're trying to take legally is once once we do the timekeeping and billing. That's kind of a wedge into this broader market into a kind of full solution for lawyers that they can run their business in behind the scenes. We're currently tracking startup lawyers because we know that startup lawyers work with a lot of different clients have to switch back between emails. And they're constantly going back and forth in different things. So
+
+299
+00:58:36.600 --> 00:58:51.139
+Chris Wong: that's why they feel the pain the most. And one of the things we're really particularly fat, like interested in joining techstars is you? All probably work with lawyers would love to get in connected with those lawyers to kind of help them with their work, and then kind of build connections there.
+
+300
+00:58:51.470 --> 00:59:20.758
+Chris Wong: And let's see why, see, going back to the prompt. So our team. So my brother and I are working on this. It's just us 2 right now. We have a. We have really deep empathy with understanding the problem. I've talked to a lot of lawyers understand their workflow. There's a lot of like complexity in the plot problem. So every lawyer, when they're like working with their clients. They have different rules that, and different words they have to use in their bills. So this AI has to learn and adopt the writing style of that lawyer and the firm's policies.
+
+301
+00:59:21.100 --> 00:59:42.409
+Chris Wong: on top of that. My brother's he's like. He's great with tech. He can hack things together. He's built like products from 0 to one for a lot of different other founders. Yeah, we came together thinking that, hey, this is like our moment to kind of work together and build something amazing. And so, yeah, I think, what do we need help with? Yeah, I think
+
+302
+00:59:42.410 --> 00:59:58.240
+Chris Wong: one of the one of the things that we're here for techstars is really kind of learning this the steps of building a startup. I think me me and my brother 1st time founders. And then the other thing is that yeah, we'd love to connect with lawyers. Across the entire techstars ecosystem, because
+
+303
+00:59:58.270 --> 01:00:23.710
+Chris Wong: getting into the like. Getting like getting into the lawyer like market is really tough. It's not very easy. It's a very like it's. It's a very like a sales driven process right now. But we're seeing right now that lawyers there's this one of our theses that we're playing out is that we think that lawyers are going to be better, like better adopters over time, as millennial lawyers are becoming the heads of their firms. They're going to be way more adopted to technology. So we're seeing this like
+
+304
+01:00:23.840 --> 01:00:36.769
+Chris Wong: unique opportunity where lawyers are being more engaged with software and open to using it. And so which has historically been a really tough market to crack crack into. You see? Very. It's a very hard market to crack into. So but yeah, I
+
+305
+01:00:37.010 --> 01:00:37.969
+Chris Wong: that's it.
+
+306
+01:00:39.100 --> 01:00:44.080
+Chloe Lannert: Awesome. We've got about a minute for questions. If anyone wants to jump in.
+
+307
+01:00:44.880 --> 01:00:49.689
+Andrew Fernandes: Yeah, I've got one can legalese lower our billable hours.
+
+308
+01:00:50.040 --> 01:00:50.760
+Ankur Toshniwal: Please.
+
+309
+01:00:50.760 --> 01:00:53.529
+Andrew Fernandes: Just so I will recommend you guys this second.
+
+310
+01:00:54.260 --> 01:00:55.210
+Ankur Toshniwal: So.
+
+311
+01:00:55.680 --> 01:01:10.319
+Chris Wong: Yeah, I I can't comment on that right now, because we just only have a couple of active users. But we are trying to head toward that industry, towards that direction, to saving saving hours. Yeah, saving hours for everyone, and letting lawyers spend
+
+312
+01:01:10.650 --> 01:01:18.809
+Chris Wong: most of their time just on substantive stuff, so you won't get charged for like the, you know, the the business administrative stuff that they actually do for you. So.
+
+313
+01:01:19.370 --> 01:01:25.609
+Ankur Toshniwal: I I guess I I have a question. Maybe I guess it's a little bit on the other side of the the thing, like from the
+
+314
+01:01:26.010 --> 01:01:47.753
+Ankur Toshniwal: the client side, from the lawyers. Thing. Things that we we definitely are curious about is like kind of transparency. I guess it's like kind of a it's kind of a tough thing. It's like, Hey, an email took 30 min like, how I'm not, you know, I don't know like, or it took an hour. And so like, I'm curious if, like, there's a version, maybe. Where?
+
+315
+01:01:48.550 --> 01:02:02.319
+Ankur Toshniwal: you know you, that transparency is shown deeper to like not just like the lawyer, but also helps just create a more efficient kind of a workflow for everyone. I don't know if that's something you've thought about, or is it something that lawyers don't want at all?
+
+316
+01:02:03.230 --> 01:02:21.569
+Chris Wong: Yeah, it's a good question. We've talked to a few clients. We also talked to lawyers on both sides of the kind of transparency. Some it depends. There's a range. There's a spectrum of what's what's out there. You know, you have some that have really great relationships with their lawyers, and you can send them whatever you want in that bill, and they'll just prove it
+
+317
+01:02:21.570 --> 01:02:35.839
+Chris Wong: on the other end of the spectrum. You do have folks that are more cost, conscious. And they really want to understand, like what went into that email or what went into like the the task and so that for that to occur. I think the the conversation needs to be had between the client and the and the lawyer. But if
+
+318
+01:02:35.900 --> 01:02:38.929
+Chris Wong: the lawyer needs to report that kind of detailed information.
+
+319
+01:02:39.350 --> 01:02:46.479
+Chris Wong: What we can, our our solution, what we can do is is what we will. Our 1 1 method of getting there is like being able to
+
+320
+01:02:46.780 --> 01:03:00.179
+Chris Wong: pick up all that information and gather it in real time, so they don't have to do that, and then use it as a narrative that they can then draft as a narrative and create it as a policy that they enforce within every bill that you get. If it's your bill that you want.
+
+321
+01:03:00.560 --> 01:03:02.609
+Ankur Toshniwal: I think it's very legit, very, very cool.
+
+322
+01:03:03.990 --> 01:03:07.530
+Chloe Lannert: Awesome. Okay, that is time, Vivian. You wanna take it from here.
+
+323
+01:03:08.090 --> 01:03:24.419
+Vivian: Hi, everyone. The problem that we're solving at May is that car shopping sucks. It is the second largest purchase for most people, and it is often the most painful one. The experience and sentiment hasn't changed, for, like the last century, it is overwhelming, and it's not personalized.
+
+324
+01:03:24.420 --> 01:03:44.019
+Vivian: And we actually started off as building kind of like a. It was like we call it online dating. But for cars. So we match people's profiles to vehicles. And we helped a bunch of people buy cars this way, using the tools that we created, we really paid attention to how they were making the decision and what information they were trying to compare for. And we provided them with a visual decision making system
+
+325
+01:03:44.200 --> 01:04:09.380
+Vivian: and along the way realize that it actually sucks for salespeople as well. So salespeople have to actually learn a ton of product knowledge. They have a lot of manual sales processes, and they're expected to deliver this amazing customer experience, using the same tools they've had for decades. I know this because I worked in the industry for a decade, and dealerships have a pen and paper system where they have to fill out these paper guest sheets, and it looks like an interview when you walk into a dealership, and
+
+326
+01:04:09.380 --> 01:04:26.720
+Vivian: dealerships are meant to be experience centers, but the experience is very outdated. So we really took a look at what the sales experience looks like, and it's not great. It takes 3 years for them to hit peak productivity, and their average tenure is only 18 months. So it's a huge gap. It's a big problem in the industry.
+
+327
+01:04:27.290 --> 01:04:54.129
+Vivian: So our solution is how we went from matching people to cars and building resources and comparison tools and turn it into b 2 b system. So we've taken like 12 years of vehicle data, inventory, different dealerships and match that with our customer profiling system. So we've created, it's like part sales enablement tool and part vehicle presentation tool, and it personalizes the experience for both the customer and the salesperson for currently in store experiences.
+
+328
+01:04:54.270 --> 01:05:15.509
+Vivian: So instead of the paper guest sheet. We've essentially digitized this process, and we've been able to match them to vehicles really, quickly show them which are the right vehicles to share with the customer, and using data to tailor their sales pitch and personalizing it from there. All this information we have about the customer, we built other workflows that can help automate.
+
+329
+01:05:15.802 --> 01:05:28.077
+Vivian: The the manual part of the process, like capturing the customer's information, putting into the Crm manually scanning your driver's license front and back and then putting it into a folder, we found a way to standardize that process for them.
+
+330
+01:05:28.370 --> 01:05:37.099
+Vivian: So it's meant to. It's meant to really help in dealership experiences. Right now, before we expand to online experiences as well.
+
+331
+01:05:37.849 --> 01:06:01.749
+Vivian: And right now we are in market, we have 2 paying pilot customers paying between 500 to a thousand dollars per month. Currently piloting for our 1st auto group. We have letters of intent signed for other stores and in the industry. It's like, once you get into an auto group they have anywhere from like 10 to 80 dealerships. You can scale really quickly, especially if you're going for, like oem partnerships, which is something that we're focusing on as well through techstars.
+
+332
+01:06:02.317 --> 01:06:26.479
+Vivian: One of the things that we learned really quickly in our 1st pilots is that we've been able to help brand new salespeople go from 5 to 7% close ratio to 20% 26%. And after just one month of use, so increasing their close ratio by 20%, they're spending 20 min to 30 min less per customer. They're actually collecting a 2 to 3 times more customer information than the traditional serum entry with less time and less effort.
+
+333
+01:06:26.480 --> 01:06:45.439
+Vivian: What we've seen is a lot of times like the salesperson or the manager doesn't even know that the vehicle arrived. But because we have that information we can show them that the vehicle that just arrived that no one else has seen is the right vehicle for them. We've also had customer testimonies of people who actually purchased vehicles with our system, coming back from the test, drives with the resources that we give them.
+
+334
+01:06:45.440 --> 01:07:02.019
+Vivian: and they say that this is the fastest they've ever made a decision, because everything they wanted to know is already on the paper and the salesperson. If they never sold that vehicle before, or they just started in the industry, they don't actually have to memorize anything. We have built them a system where they can use that as the tool to run their entire book of business off of.
+
+335
+01:07:02.686 --> 01:07:31.129
+Vivian: We have talked to a bunch of people in the industry. We've been to auto conferences. There's actually nothing like this. The industry focuses on the actual purchase, the vehicle or enterprise tools, and we like to stick to our belief that it should be for the customers for the end users, and creating a better experience overall. The entire industry is doing a shift into digital tools and AI systems. And we think that we've carved ourselves a very interesting niche and a lot of partnership opportunities.
+
+336
+01:07:31.570 --> 01:07:47.060
+Vivian: The team is myself and Jacket. We're both full time. We'll be there in San Francisco doing hybrid. So we're excited to meet you all. We have a bunch of people working with us. But we're really excited. Hopefully to bring some more people on full time as well.
+
+337
+01:07:47.790 --> 01:08:16.345
+Vivian: The things that we're really good at is my background is in marketing Japanese and coding since she was 11. So she's a whiz, and we're so grateful to have her. We've had a lot of success back. When we were doing b 2 c. Marketplace. We had a ton of success with like organic events. Pr we would run like one or 2 events that would get us like 15 million in earned media impressions like in a matter of like 2 weeks. So we got interviewed. And we have a lot of coverage that way. It's really great at social media.
+
+338
+01:08:16.609 --> 01:08:20.980
+Vivian: and where we need help is similar to what Chris was saying with legalese.
+
+339
+01:08:21.395 --> 01:08:46.790
+Vivian: This is we focus on quality over as quantity. And because we've we found a really great use case. But as we spend more time in the dealership, there's different entry points for how you start the customer experience. And we went from having, like really great usage. And now we wanna maintain that. And we've seen differences. When there's new use cases that come into the system. So we've been having to balance between like
+
+340
+01:08:47.186 --> 01:09:02.220
+Vivian: building more features, not knowing if those are the necessarily the ones that would make the biggest difference in their usage. So we're trying to learn and understand and how to diagnose, that to ensure they follow the behavior as we're relying on salespeople to use our product.
+
+341
+01:09:04.000 --> 01:09:06.230
+Chloe Lannert: Awesome about a minute for questions.
+
+342
+01:09:10.327 --> 01:09:25.849
+Meg Hall: I like your brand. I went to your website yesterday after you introduced yourself, and I love your guys, brand and stuff. But I tried to use the online matchmaker, and it said that there was no cars available for me. So where are you guys at? Currently with like the status of like the company.
+
+343
+01:09:25.969 --> 01:09:37.089
+Vivian: Yeah, that website is our consumer facing pro website. So we don't use that anymore because we don't market our system is, we have a dealership website, and it's only the experiences in dealership. Only right now.
+
+344
+01:09:37.510 --> 01:09:39.010
+Meg Hall: Got it? Okay? Yeah, I mean.
+
+345
+01:09:39.010 --> 01:09:41.522
+Vivian: I can show what that looks like, too. I know we only have a minute.
+
+346
+01:09:47.290 --> 01:09:48.819
+Chloe Lannert: Awesome, any final thoughts.
+
+347
+01:09:50.430 --> 01:09:52.219
+Chloe Lannert: Beautiful? Alright! Thank you so much.
+
+348
+01:09:52.229 --> 01:09:54.579
+Neal Sáles-Griffin: I'm just curious to see if you all
+
+349
+01:09:54.849 --> 01:09:59.699
+Neal Sáles-Griffin: like each other's companies a little bit like, how are you feeling about this class?
+
+350
+01:09:59.819 --> 01:10:01.009
+Neal Sáles-Griffin: Intrigued enough?
+
+351
+01:10:02.309 --> 01:10:02.839
+Neal Sáles-Griffin: Yeah.
+
+352
+01:10:02.840 --> 01:10:04.799
+Alex Nativelle: So, much. So, yeah.
+
+353
+01:10:04.800 --> 01:10:06.170
+Neal Sáles-Griffin: Good, good, good.
+
+354
+01:10:08.760 --> 01:10:10.890
+Chloe Lannert: Love it. So
+
+355
+01:10:11.440 --> 01:10:35.049
+Chloe Lannert: last little, thought Carlo. Let us know that he wouldn't be able to make it today. But exhorty in the chat is our final company. You all met him yesterday. Reminder. This is all confidential. We're not sharing outside of this group. The techstars acceptance or any of your info. We'll share that all together on March 10, th and I'll see you all in basecamp this evening.
+
+356
+01:10:35.220 --> 01:10:38.281
+Neal Sáles-Griffin: I've got one other thing I can add before we drop
+
+357
+01:10:38.730 --> 01:10:39.480
+Neal Sáles-Griffin: Just
+
+358
+01:10:40.110 --> 01:10:59.709
+Neal Sáles-Griffin: I, I think, in preparation for tomorrow, because I'm doing the kick off to understanding your customer. I know we asked you all to revisit the mattress interview, so if you have a chance to go back through that, please. This is a little bit of a another like secret sauce offering. So it's not a part of the core. Techstars. Prescription
+
+359
+01:11:00.070 --> 01:11:17.389
+Neal Sáles-Griffin: techstars doesn't have any other like program, you know. Teach the stuff. It's something that is more proprietary to something I do, and I'll explain more about why tomorrow. But hopefully for those of you who can make it. We can go pretty deep and get you all started on some customer discovery work and then.
+
+360
+01:11:17.550 --> 01:11:23.639
+Neal Sáles-Griffin: lastly, I also just wanted to remind you that the way that you all were chosen
+
+361
+01:11:24.352 --> 01:11:36.037
+Neal Sáles-Griffin: was somewhat unique to how techsars has operated in the past. So this class and the most recent San Francisco class that recently graduated were actually chosen by
+
+362
+01:11:36.560 --> 01:11:39.810
+Neal Sáles-Griffin: the CEO of Techstars, David Cohen.
+
+363
+01:11:40.425 --> 01:11:49.519
+Neal Sáles-Griffin: One of our Lead Board members, Bradfeld, another co-founder of the company, our chief investment officer, Andrew Cleland. And then there's 1, 2,
+
+364
+01:11:50.040 --> 01:11:57.500
+Neal Sáles-Griffin: 3 Mds. Who are on the investor committee as well who oversee the investment decisions across our accelerator programs.
+
+365
+01:11:57.950 --> 01:12:27.390
+Neal Sáles-Griffin: I am one of those Mds, so I actually review all the other deals across other programs as well. And then there's 2 other Mds that were chosen along with myself to do that. So I just want you all to know, like it wasn't just my personal choice anymore, like literally, like the heads of our company, are placing bets on the 10 of you to to be great for San Francisco. So there's something even more that we see than what was even presented in these 5 or 6 min for each of you that I'm excited for all of you all to uncover over time and get to know about one another.
+
+366
+01:12:27.840 --> 01:12:30.419
+Neal Sáles-Griffin: Everybody's pretty special. What's that.
+
+367
+01:12:30.420 --> 01:12:33.259
+Ankur Toshniwal: Mind if I ask a question about like that itself.
+
+368
+01:12:33.960 --> 01:12:36.129
+Neal Sáles-Griffin: Sure. Yeah, you guys can ask me anything you want.
+
+369
+01:12:36.130 --> 01:12:40.709
+Ankur Toshniwal: How come what changed? Why did they start doing that like.
+
+370
+01:12:40.710 --> 01:12:44.700
+Neal Sáles-Griffin: Yeah. Great question. Oh, yeah. So I'm I can answer that. And again, this is like.
+
+371
+01:12:45.140 --> 01:12:49.785
+Neal Sáles-Griffin: you know, confidence, bubble zone of confidence, like confidentiality. Whatever
+
+372
+01:12:50.340 --> 01:13:11.780
+Neal Sáles-Griffin: the the ultimate shift. There was techsars last year, and the past few years has been scaling a lot like we've been expanding. We're operating in 30 different markets, which is beneficial for the founders in the network, but creates a strain organizationally right? Because now you're hiring more. Mds, you're hiring more staff. You're building up more offices. And because of that.
+
+373
+01:13:11.860 --> 01:13:29.179
+Neal Sáles-Griffin: there needs to be more scrutiny and oversight on quality control and decision making and investment due diligence. So the lps of techstars, I think, had a role in influencing an additional layer to the decision making process, because up until then.
+
+374
+01:13:30.230 --> 01:13:33.149
+Neal Sáles-Griffin: investors like myself, I just chose you
+
+375
+01:13:33.450 --> 01:13:51.470
+Neal Sáles-Griffin: without. No one told me like whether I could invest in you or not. I decide the 10 that I'm investing in. I actually really like this extra layer of accountability, because I had to get even deeper with each of you all know your businesses well enough, and I had to like pitch on your behalf
+
+376
+01:13:51.620 --> 01:13:57.200
+Neal Sáles-Griffin: to this committee to prove that it was a good investment, not just because you proved it to me, but I need to prove it to them.
+
+377
+01:13:57.540 --> 01:14:01.469
+Neal Sáles-Griffin: So I actually think it's a really healthy you know, addition to the process.
+
+378
+01:14:01.754 --> 01:14:07.149
+Ankur Toshniwal: It makes a lot of sense. So is that just for techstars, sf, or all of techstars now.
+
+379
+01:14:07.150 --> 01:14:15.159
+Neal Sáles-Griffin: It's for not all of techstars, some of techstars. So there's there's there's separate funds
+
+380
+01:14:15.280 --> 01:14:29.109
+Neal Sáles-Griffin: that techsars, operates, and the fund that you all are a part of is like our bread and butter. It's our core. It's the one that's the Og fund, so we call it the tsa, the techsars. What does Tsa stand for? Techsars?
+
+381
+01:14:29.500 --> 01:14:30.390
+Neal Sáles-Griffin: What is it.
+
+382
+01:14:30.390 --> 01:14:31.640
+Chloe Lannert: Just accelerator.
+
+383
+01:14:32.280 --> 01:14:35.319
+Neal Sáles-Griffin: Tsa. Why do we call it Tsa, anyway? We call it Tsa.
+
+384
+01:14:35.320 --> 01:14:35.890
+Alex Nativelle: That's it was.
+
+385
+01:14:35.890 --> 01:14:36.715
+Neal Sáles-Griffin: On.
+
+386
+01:14:38.000 --> 01:14:43.820
+Neal Sáles-Griffin: what is the S. I'm like? Brain farting? Whatever bottom line is. That's the core City fund.
+
+387
+01:14:43.820 --> 01:14:48.399
+Antoine: Chloe, Chloe said it. It's accelerator. If I heard Chloe.
+
+388
+01:14:48.400 --> 01:14:49.559
+Neal Sáles-Griffin: No, but what is S.
+
+389
+01:14:49.560 --> 01:14:50.480
+Chloe Lannert: Stars.
+
+390
+01:14:50.760 --> 01:14:51.180
+Antoine: Sorry.
+
+391
+01:14:51.180 --> 01:14:51.830
+Chloe Lannert: Accelerator.
+
+392
+01:14:51.830 --> 01:15:04.559
+Neal Sáles-Griffin: Oh, there you go. Okay, got it? Duh so anyway, there's a corporate fund as well. We have corporate partners and university partners and stuff like that. That's a little more annoying because you
+
+393
+01:15:04.800 --> 01:15:10.110
+Neal Sáles-Griffin: alright, I mean, I say, annoying. But it's it's cool. It's just you. You need.
+

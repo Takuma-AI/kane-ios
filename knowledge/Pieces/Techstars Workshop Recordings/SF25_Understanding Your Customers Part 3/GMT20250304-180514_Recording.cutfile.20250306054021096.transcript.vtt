@@ -1,0 +1,2647 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.780
+Chloe Lannert: Let's go.
+
+
+2
+00:00:02.090 --> 00:00:10.819
+NSG: Alright. So you all got my message last night, and the instantiated to do lists in your respective base camps
+
+
+3
+00:00:10.940 --> 00:00:13.130
+NSG: with the understanding your customers. Playbook
+
+
+4
+00:00:13.993 --> 00:00:35.320
+NSG: given that, we could just be done right now, technically speaking, right? Cause you have what you need. You know what it says in there, and I can clarify anything on a case by case basis. But I did want to wrap up covering Jtvd, by giving you a couple of anecdotes of some successful use cases as well as potentially
+
+
+5
+00:00:35.500 --> 00:00:36.990
+NSG: a live demonstration.
+
+
+6
+00:00:37.240 --> 00:00:43.449
+NSG: So we'll see if everyone's up for that. But that might be fun to do during this call. It's always a good time when I do that.
+
+
+7
+00:00:43.610 --> 00:01:07.400
+NSG: and then I can also answer any questions and talk through specific implementation strategies, for you know each of you as needed, so I don't suspect that we'll need all of the time. But I'll try to go through a few points that I've extracted from demand side sales, one on one that I think are worth highlighting. From the book. I was a small part of, you know the development of that book? I reviewed it for the author, Bob. And
+
+
+8
+00:01:08.470 --> 00:01:20.530
+NSG: yeah, it's the. It's the the 1st of many resources that he and I are kind of collaborating on to to cover more jobs to be done work for startups. So cool. All right, I'm gonna get started
+
+
+9
+00:01:21.200 --> 00:01:26.629
+NSG: with the final phase of this pre-program content.
+
+
+10
+00:01:27.140 --> 00:01:30.810
+NSG: Let's see sharing screen
+
+
+11
+00:01:34.480 --> 00:01:35.540
+NSG: ready to go.
+
+
+12
+00:01:35.980 --> 00:01:49.879
+NSG: So we left off here with the questions to ask during the interview. This will take form, as you all like, iterate and practice. But I also wanted to just give a quick nod to Jason. Freed the founder and CEO of Basecamp.
+
+
+13
+00:01:50.010 --> 00:01:59.069
+NSG: He is the one who introduced me to jobs to be done thinking so. I met Bob Mesta at 37 Signals office in Chicago
+
+
+14
+00:01:59.780 --> 00:02:05.289
+NSG: 13 years ago, and we've been friends and working together ever since.
+
+
+15
+00:02:05.739 --> 00:02:13.479
+NSG: And this was shortly after Jason and his company basecamp invested in my business which I'll tell you guys a story of next week.
+
+
+16
+00:02:14.060 --> 00:02:25.220
+NSG: But given the way that they thought and everything that they've written about and worked on like. It was a natural connection for me to know that one of their secret sauces on the back end was
+
+
+17
+00:02:25.240 --> 00:02:50.149
+NSG: consulting and working with these jobs to be done experts. So I don't know if any of you all have read any of base Camp's books, but you know they have a bunch of bestsellers we work remote doesn't have to be crazy at work, is probably my favorite second only to getting real, which is their book that they came out with in 2,006 to kind of pioneer web development techniques and strategies and product development. And they have another book that they came out with called shape up
+
+
+18
+00:02:50.150 --> 00:03:02.060
+NSG: that. I'm also going to be introducing you all to during month. 2 of this program to talk about ways that techsars companies have been successful in implementing that product, strategy and framework.
+
+
+19
+00:03:02.540 --> 00:03:06.650
+NSG: So that, all being said, we've used basecamp already in our program.
+
+
+20
+00:03:07.080 --> 00:03:10.060
+NSG: Some of you may know this. I know Antoine probably knows.
+
+
+21
+00:03:10.400 --> 00:03:33.244
+NSG: There's a rumor going around that I ran for Mayor of Chicago a few years ago. That's probably true. So I ran my campaign using basecamp as well, which is a lot of fun. But there's a lot of different use cases for base camp that people activate. And I had the pleasure to do jobs to be done with Bob and Jason for base camp. A number of years ago, around the time I was actually going to run for mayor and
+
+
+22
+00:03:33.660 --> 00:03:38.369
+NSG: We came up with some insights that have now become one of the bedrock
+
+
+23
+00:03:38.590 --> 00:03:45.059
+NSG: artifacts that we actually have founders complete to demonstrate that they've successfully completed jobs to be done.
+
+
+24
+00:03:45.310 --> 00:04:04.860
+NSG: So I'll introduce you to the article it's called. Why Before the Why, by Jason freed, there's a link to it in the to do list that you have. But there were 4 images that came from that article that I've extracted here to kind of show you what the outcome of a jobs to be done. Analysis looks like. So when we were doing these interviews for base camp, we interviewed like 15 people.
+
+
+25
+00:04:05.030 --> 00:04:10.320
+NSG: They were people who'd recently signed up for basecamp past the free trial and who started paying.
+
+
+26
+00:04:10.520 --> 00:04:23.970
+NSG: And there were 4 main jobs that emerged from those conversations and from the larger pattern that existed with the user base. So this was the 1st one, as you can imagine here on fire. Right? So we can't keep working like this.
+
+
+27
+00:04:24.050 --> 00:04:43.459
+NSG: That was the outcome that we realized for people who would sign up for basecamp, they were essentially saying before I had threads in multiple places, conference calls, people having meaningless conversations and meetings, long email threads and chains, notification buttons and indications on my phone and on my laptop, and everywhere else.
+
+
+28
+00:04:43.550 --> 00:04:51.739
+NSG: It was an untenable situation in some way, shape or form, and we have to do something about it across. That cluster of conversations. So this was the biggest one
+
+
+29
+00:04:52.169 --> 00:05:11.630
+NSG: another one that came out was, We can't mess up like that again. So a lot of people use basecamp for client projects and working with, you know, external parties, and in doing so, whenever there was a a mishap or an issue, we found people would gravitate to base camp or research it in some way and and find it and adopt the tool.
+
+
+30
+00:05:11.630 --> 00:05:23.640
+NSG: So this is another circumstance. Where, if we know what they're currently going through. We can be the answer for them, and time ourselves to, you know. Welcome them or find them. Whenever they're they're dealing with that kind of a challenge.
+
+
+31
+00:05:24.620 --> 00:05:25.720
+NSG: 3, rd
+
+
+32
+00:05:25.870 --> 00:05:41.560
+NSG: this project isn't getting off the ground. So you're talking about doing something you're trying to move forward with something. Whether it's a small business or a project with a larger team within a corporation. There's something about discussing something and not making it like the green light
+
+
+33
+00:05:41.922 --> 00:05:47.179
+NSG: signing up for basecamp and and joining it became the green light for the people that fit into this cluster.
+
+
+34
+00:05:47.910 --> 00:05:49.499
+NSG: And then, last, but not least.
+
+
+35
+00:05:49.600 --> 00:06:06.450
+NSG: how am I gonna pull this off. So it's someone who's anticipating a big challenge or needing a lot more structure or support to get something important done. So they're hiring technology, an additional tool base camp to do it. So given those 4 kind of extracted insights at the time.
+
+
+36
+00:06:06.600 --> 00:06:28.649
+NSG: it culminated into 2 dimensions of progress as we talked about marketing and sales as well as with product. So on the marketing front, it got directly implemented at the time. So this is old. This is really old, like you'd have to use way back machine to get this screenshot of the homepage of Base Camp. But I remember coming off of those Jtbd interviews having that brainstorm and implementation discussion, and then seeing
+
+
+37
+00:06:28.750 --> 00:06:42.980
+NSG: how their language and how they talked about their product like evolving, and not only did it evolve, but it became less about the team and what they thought the words were, and more about the language that we were getting from those conversations that we had had.
+
+
+38
+00:06:44.000 --> 00:06:48.960
+NSG: So that's the marketing front that worked really well. By the way, I will.
+
+
+39
+00:06:50.260 --> 00:06:54.990
+NSG: if you pause it, pause the recording for one second Chloe at anecdote.
+
+
+40
+00:06:55.905 --> 00:07:21.619
+NSG: And if you all have questions about it, feel free. We can talk about it in person next week, or, you know, separately or whatever. But I thought that that's like one of the craziest things I've ever seen happen. But it was a big bet on Jason's part just to do that based off of insights from like 15 people and a hunch. So also with product. So this is old right? This is an old. This is Base Camp 3, I think, but it hasn't changed much. It has very similar functionality today.
+
+
+41
+00:07:21.710 --> 00:07:27.870
+NSG: but from those interviews a lot of the language and the framing of what these tools do and replace came from
+
+
+42
+00:07:27.930 --> 00:07:57.259
+NSG: when we're both communicating to users, but also making product changes and decisions. So replacing slack and hipchat. Status meetings stand ups things like that not necessary anymore with automatic check. Ins messy email. Threads are no longer necessary with message board. All of your files in one place. So replacing Dropbox and Google and other file storage systems and consolidating them all, it was pretty effective. I think, messaging, but also at the company itself.
+
+
+43
+00:07:57.320 --> 00:08:01.899
+NSG: It forced everyone down a path to focus on what the customers
+
+
+44
+00:08:02.000 --> 00:08:08.600
+NSG: actually needed as opposed to our more subjective opinions about what feels right or what might make sense.
+
+
+45
+00:08:09.260 --> 00:08:35.929
+NSG: So there's a separate application of this that I think is helpful to know. While I was at Base camp. I also implemented my own version of a product. I did it because I wanted to learn from them, and I also wanted to build a tool for the school that I was running at the time. So I mentioned job stories before. But this is the formula that all of you all can follow to kind of get to the same idea of Jason's summary of his customer insights from Jtbd. And that's when I
+
+
+46
+00:08:36.350 --> 00:08:44.759
+NSG: well, when I want to. So I can. So situation, motivation, desired. Outcome is the magic formula of a jobs to be done. Statement.
+
+
+47
+00:08:45.080 --> 00:08:57.670
+NSG: It's not the only way to define a jobs to be done. Statement like you saw with Jason's. Those are just quotes that represent the job. Jake took a similar approach to Jason in that regard. But if you aren't sure where to start.
+
+
+48
+00:08:57.840 --> 00:09:14.669
+NSG: this structure will get you most of the way there, and you can modify it as you see fit, so I'll give you an example that I implemented myself with a product management sorry learning management system that I built called Lantern for my school way back in the day. It's not around anymore, but it was called lantern.
+
+
+49
+00:09:14.720 --> 00:09:33.529
+NSG: and with it, there were 3 kind of jobs that extracted from the professors that I interviewed, and I was using the tool myself as well. But there's prep for the class itself, curriculum and syllabus. So when I'm prepping for my class. I want to make changes based on what I learned, so I can have a plan and stick to it. So I kind of image
+
+
+50
+00:09:33.770 --> 00:09:38.260
+NSG: a mise en place to kind of help out with representing this job
+
+
+51
+00:09:38.738 --> 00:10:00.970
+NSG: next, was the audible. So the you know, part of class doesn't go as planned. I need to make an adjustment. And then I want to make sure my students feel engaged and not disorganized. So that was another thing that came out as an underlying pattern from the jobs interviews I did with professors who hired various learning management tools and did class prep for their courses.
+
+
+52
+00:10:01.080 --> 00:10:08.210
+NSG: And then, did I teach a successful class today? So when I'm done with class, what went well, what could be better? So I can make adjustments for the next class.
+
+
+53
+00:10:08.330 --> 00:10:29.760
+NSG: Those are the 3 jobs that I wanted. You know, this tool to do, and that kind of imagery, and this kind of understanding, along with a deeper narrative, is what we're going to be asking from each of you to present about your businesses and insights in the coming weeks. So just thought I would give you all a quick sneak preview of what that looks like. But ultimately what this is. It's about product design and sales. So you understand the job
+
+
+54
+00:10:29.880 --> 00:10:52.090
+NSG: you take in patterns from technology and from existing successful tools or other inspirations in your life. As you all are building product, and then you can develop concepts and iterations from there. But applying it has even more going on. So the notion here is that you're in a position where you all can ingrain these additional insights into your company's DNA.
+
+
+55
+00:10:52.430 --> 00:10:53.540
+NSG: And
+
+
+56
+00:10:54.280 --> 00:11:03.129
+NSG: when you bring people into your business they're not gonna care or understand the language jobs to be done, nor is anyone externally so again, I recommend not talking about it.
+
+
+57
+00:11:03.290 --> 00:11:04.090
+NSG: But
+
+
+58
+00:11:05.870 --> 00:11:13.140
+NSG: what you need to do, though, is make sure that everybody understands in a canonical way who you're there to serve.
+
+
+59
+00:11:13.360 --> 00:11:31.999
+NSG: So Jake's notion was a good sneak preview of that. I don't know if any of you all do that already. With team members that you've brought on. But just imagine, like the perfect team member slash employee onboarding experience and try to empathize with them, and think of the best possible way to get them up, to speed on what you all are here to do.
+
+
+60
+00:11:33.180 --> 00:11:46.549
+NSG: And then, with the clusters that you'll make. So this is after you kind of gather the 15 interviews and insights. It also helps a lot. Whenever you're thinking about a new product, a new direction, or something to enact growth.
+
+
+61
+00:11:46.790 --> 00:12:13.599
+NSG: So when it comes to solving for them, I recommend going back to the drawing board, evaluating all your existing product assumptions and then making sure that you guys have done the mala the more about less about analysis. And in doing so it allows you to essentially challenge yourselves about whether you're using your personal subjective assumptions to drive product decisions relative to the data that you've collected.
+
+
+62
+00:12:15.940 --> 00:12:32.489
+NSG: I'm gonna jump through a little bit more here this is covered in the book. The opportunity opportunity solution tree. I don't think we need to talk about it now. I think the most important thing to talk about here is how to communicate in marketing and sales, so we'll share this stuff afterwards. But I'll jump through that so I can get to the demo.
+
+
+63
+00:12:33.120 --> 00:12:34.160
+NSG: So
+
+
+64
+00:12:34.600 --> 00:12:55.839
+NSG: when you think about your landing page exercise again, do that test because I'm going to do it live with you all in week 5. So between now and then I would love to see some significant changes in how you talk about and sell your business, but even if not, we'll help you then, because it's not the end of the world. But it's just a really good exercise to demonstrate whether you've actually gotten over the line with the job
+
+
+65
+00:12:56.627 --> 00:13:15.030
+NSG: your one liner, your company materials. Asking yourself, you know, in the in the simplest way, how to describe your company going into mentor madness. This is going to be really important. So before we kind of left jobs to be a really loosey goosey like activity that people did but now we've essentially required it, because by the time you meet
+
+
+66
+00:13:15.030 --> 00:13:29.210
+NSG: the techstars, mentors, and the global network, some founders have their act together, and many don't when it comes to talking about themselves and their customers. So one fun bonus hour we had, I think, when Jake was here on Friday was with anchor.
+
+
+67
+00:13:29.210 --> 00:13:45.279
+NSG: He stuck around, and then between me, Jake and Ankar. It was interesting to hear Jake give the feedback of him, not being able to properly articulate his business succinctly, or even understand it. But it was exciting, nonetheless. So that's a good example of of somebody who could probably use that to refine it further.
+
+
+68
+00:13:45.915 --> 00:13:46.944
+NSG: And then
+
+
+69
+00:13:47.660 --> 00:14:07.440
+NSG: you can go back and go through all of your marketing materials or anything that you're saying online or any of your sales, collateral or emails messaging. And you can now filter it. Once you have these insights through the lens of jobs so incorporating that language is really powerful. Copy and copywriting and using customers. Language is one of the big bedrocks here.
+
+
+70
+00:14:07.660 --> 00:14:18.760
+NSG: and then also, as far as where you're finding customers where you're identifying the right people. The job is gonna illuminate different channel strategies and what you can activate there, too.
+
+
+71
+00:14:20.920 --> 00:14:37.409
+NSG: I have a to do at the very bottom of the list that I made for you all yesterday. That says, after you've done all of this, you've had multiple meetings with our team. You're excited about it. You feel good about the jobs and the insights. Make a list of action items for yourself or what you're gonna do next with you and your team to like. Get this done.
+
+
+72
+00:14:37.580 --> 00:14:48.660
+NSG: I just gave you a menu of some ideas and suggestions, but you all know better than me what you need and what to implement from the insights. But this is assuming that we get over the line most people do. But it takes
+
+
+73
+00:14:49.010 --> 00:14:51.100
+NSG: longer than you typically expect.
+
+
+74
+00:14:51.220 --> 00:14:55.939
+NSG: So Chris asked the question. I think in base camp today, when is this due?
+
+
+75
+00:14:56.140 --> 00:15:00.730
+NSG: It's not ever due, like, there's this isn't like a homework assignment.
+
+
+76
+00:15:00.890 --> 00:15:06.349
+NSG: This is just for your business and your prosperity, and if you like it, do it.
+
+
+77
+00:15:06.590 --> 00:15:17.460
+NSG: However, we will check in with you next week on progress, and we will check in again after mentor. Madness on progress. For those of you that do get over the line
+
+
+78
+00:15:18.330 --> 00:15:19.580
+NSG: you get to meet pop.
+
+
+79
+00:15:20.180 --> 00:15:46.610
+NSG: So Bob, is somebody who's flown into San Francisco to help founders and work with them. He always joins us at some point on a zoom call only for the people who kind of get over a certain level of of thinking around this and then sometimes I'll even fly out to him and and get some work done and do some work. But he and I are quite close, and that's a unique offering that we have for our founders in this class and program.
+
+
+80
+00:15:48.050 --> 00:15:54.000
+NSG: Yeah, I'll keep going. This is just more copy from the book that I thought was helpful.
+
+
+81
+00:15:54.590 --> 00:16:12.070
+NSG: but lastly, I just wanted to pull up a quick quote from him. So the struggling moment is a seed for all innovation. Find where people struggle, and if they're not struggling. They're not buying so bitching ain't switching in fancier words. But the biggest thing that I got from Bob is this quote.
+
+
+82
+00:16:12.460 --> 00:16:24.840
+NSG: contrast creates meaning. So every time I've thought about making a tough decision with the business, with the team member as CEO, with a product with the direction I want to go.
+
+
+83
+00:16:25.480 --> 00:16:53.690
+NSG: This is one of my key mantras that I've never lost or taken away, you know. Emphasis on so for jobs to be done. It can inform your business decisions. It can change the way you market your company. It can influence the language you use to describe your products. It can change where you advertise who you're selling to. But it's not about a particular industry yet. It's not about demographics, and it's not even about your competitors. It's all about the situation that your ideal customer is in
+
+
+84
+00:16:53.830 --> 00:16:57.030
+NSG: the reality that they're trying to wrangle, and the progress that they're trying to make.
+
+
+85
+00:16:57.290 --> 00:16:59.140
+NSG: So that's the end of my little
+
+
+86
+00:16:59.600 --> 00:17:05.729
+NSG: jobs preamble stuff. But now I would like to get into something real. So let's talk about
+
+
+87
+00:17:06.170 --> 00:17:08.649
+NSG: who has struggled to purchase something recently.
+
+
+88
+00:17:13.119 --> 00:17:17.560
+NSG: Antoine. Now, now, just to be clear, you you you had to have purchased it.
+
+
+89
+00:17:18.410 --> 00:17:22.530
+NSG: and I want to know how much cool.
+
+
+90
+00:17:23.000 --> 00:17:27.300
+Antoine: Yeah, does Cal, work.
+
+
+91
+00:17:27.630 --> 00:17:29.810
+NSG: A car. How much did you pay for the car?
+
+
+92
+00:17:32.350 --> 00:17:36.609
+Antoine: Before after taxes, I mean 1010 to 15.
+
+
+93
+00:17:37.480 --> 00:17:40.379
+NSG: Got it. So okay, like, roughly, 15 k.
+
+
+94
+00:17:42.300 --> 00:17:44.079
+NSG: right? What car did you buy.
+
+
+95
+00:17:45.730 --> 00:17:58.689
+Antoine: You will have the pleasure of seeing it at the off site, and an old Audi station wagon, perfect for the ski.
+
+
+96
+00:17:59.680 --> 00:18:03.330
+NSG: Cool. Okay, yeah, what? What's the model? I'm actually just curious. I have an audi.
+
+
+97
+00:18:03.330 --> 00:18:05.789
+Antoine: It's an a 4, a station wagon. Now.
+
+
+98
+00:18:05.790 --> 00:18:06.390
+NSG: Workstation.
+
+
+99
+00:18:06.390 --> 00:18:10.439
+Antoine: On road. It's a 2,012 model. So it.
+
+
+100
+00:18:10.440 --> 00:18:10.780
+NSG: Cool.
+
+
+101
+00:18:10.780 --> 00:18:13.810
+Antoine: Pretty much the the
+
+
+102
+00:18:14.800 --> 00:18:23.570
+Antoine: it it it doesn't. It doesn't drive itself, but it allows you to see that. You're that you're backing up.
+
+
+103
+00:18:24.480 --> 00:18:30.940
+NSG: Understood. Okay, that's helpful. I own in a I own a 2014 audi s. 4.
+
+
+104
+00:18:32.300 --> 00:18:32.710
+Antoine: That's.
+
+
+105
+00:18:32.710 --> 00:18:33.030
+Chloe Lannert: Okay.
+
+
+106
+00:18:33.030 --> 00:18:35.540
+Antoine: Mine. Mine is a cheaper version of yours.
+
+
+107
+00:18:37.483 --> 00:18:38.189
+NSG: Close enough.
+
+
+108
+00:18:38.190 --> 00:18:43.120
+Chloe Lannert: But, Neil, before we keep going with this, do you want to double tap on? Contrast creates meaning.
+
+
+109
+00:18:43.460 --> 00:18:45.930
+NSG: Oh, sure, yeah. Was there a question in the chat about it?
+
+
+110
+00:18:45.930 --> 00:18:46.570
+Chloe Lannert: Yeah.
+
+
+111
+00:18:46.570 --> 00:18:53.780
+NSG: Okay, cool. Yeah. So for contrast creates meaning. Sorry to not elaborate on that. Further.
+
+
+112
+00:18:54.920 --> 00:19:02.129
+NSG: when you have a set of similar options. It doesn't make that much of a difference what you're deciding between.
+
+
+113
+00:19:02.470 --> 00:19:06.400
+NSG: But when you have more polarity.
+
+
+114
+00:19:06.800 --> 00:19:28.060
+NSG: so when you see something in in like, there's, there's 1 perspective like you, you have a job that fits a certain category or cluster, and then you have something like very contrasting with it. I found that that pattern exists at every stage of a company's life cycle. So I've only been around at the early stages like I sold my company pretty early. But what I've learned is that both in product dev
+
+
+115
+00:19:28.440 --> 00:19:49.710
+NSG: CEO decision making as well as with sales and marketing, by understanding and drawing a line in the sand, and having more controversy, I guess, between a position as opposed to trying to find, like the average or the neutral position. You tend to make more progress. So having a stronger position on something is key.
+
+
+116
+00:19:50.410 --> 00:20:06.440
+NSG: I guess when I think of an example, there's a book called the End of average that comes to mind. So one quick anecdote here is one thing that the Air Force learned and made a huge mistake around. Is they designed a fighter jet based on the average height
+
+
+117
+00:20:06.660 --> 00:20:12.159
+NSG: of the the pilots, and I think they were. This was for male pilots or something like that.
+
+
+118
+00:20:12.300 --> 00:20:15.440
+NSG: and it turns out when they developed it, and they started to test it.
+
+
+119
+00:20:15.700 --> 00:20:19.120
+NSG: None of the pilots fit into the
+
+
+120
+00:20:19.820 --> 00:20:21.590
+NSG: to the plane, into their seat.
+
+
+121
+00:20:22.200 --> 00:20:33.939
+NSG: because by designing it for the average, it literally did not accommodate any one person given the the clusters. So I use that anecdote and reference just to say that when you all are thinking about
+
+
+122
+00:20:34.170 --> 00:20:37.229
+NSG: all aspects of your business. Don't try to be
+
+
+123
+00:20:38.120 --> 00:20:56.449
+NSG: average. Try to find ways to provide that contrast. And then, when you're making decisions, and when you're assessing jobs, don't try to do all the jobs. Try to pick the one that you think is going to best serve the group that you can deliver on the most, or that could be the most informative to your long term, vision or growth.
+
+
+124
+00:20:56.710 --> 00:21:00.130
+NSG: Does that make sense cool.
+
+
+125
+00:21:03.480 --> 00:21:06.590
+Anthony De Silva: Hey, Neil? Had a quick question for.
+
+
+126
+00:21:06.590 --> 00:21:08.999
+NSG: I didn't mean to jump past questions. Y'all, I just didn't want to bore you.
+
+
+127
+00:21:10.000 --> 00:21:11.166
+Anthony De Silva: Yeah, I
+
+
+128
+00:21:12.050 --> 00:21:38.059
+Anthony De Silva: I would really appreciate if we could use a like as we're doing this demonstration if we could. Lean on a software product that someone has purchased recently. Because I know, like the mattress in interview, and also in the book, there's a couple of like physical products or more of like the traditional products. So I fail to see how that translates to software products. So if if we have an opportunity, I would love that.
+
+
+129
+00:21:38.060 --> 00:21:56.454
+NSG: Oh, yeah, and there's additional materials to share, like, maybe if it's not for this live interview. But I can follow up with some other examples, too, that would be helpful for you to look at. Because, like I said, like, this is, this is, I mean one. We have base camp right? Which I use as an example during the talk. So hopefully, that's a start to software product examples. But then, on top of that,
+
+
+130
+00:21:57.200 --> 00:22:12.650
+NSG: I think intercom is probably one of the best ones. I think their case study is publicly available. So you might be able to look that up directly, but if not, I'll find it afterwards and post it. But if someone gets it before me, drop it in there for others to see but intercom is a really good example, Anthony, that I think you'd appreciate.
+
+
+131
+00:22:13.410 --> 00:22:14.440
+Anthony De Silva: Awesome. Thanks.
+
+
+132
+00:22:15.280 --> 00:22:27.609
+Antoine: And just for the purpose of this live discussion. I know I don't know if Alex is still here, but we purchased copper the Crm system. And so maybe we went. We want to talk about.
+
+
+133
+00:22:27.610 --> 00:22:28.080
+Alex Nativelle: Yeah.
+
+
+134
+00:22:28.080 --> 00:22:33.000
+Antoine: Ince we can. We can swap my audi for copper, or what.
+
+
+135
+00:22:33.190 --> 00:22:39.860
+Alex Nativelle: I didn't struggle much on that, I mean, I struggled on the process of choosing a Crm.
+
+
+136
+00:22:39.980 --> 00:22:44.009
+Alex Nativelle: But the actual purchase was all right. I guess it could actually.
+
+
+137
+00:22:44.010 --> 00:22:49.490
+NSG: To be my question, Alex. I'm so glad that you clarified that that so the key here's the key. Y'all, it's not enough to buy.
+
+
+138
+00:22:49.780 --> 00:23:12.339
+NSG: You have to struggle. And Alex's clarifying response there to Antoine suggestion was fantastic. Because I want you all to keep that discipline of making sure that you're identifying a struggling moment in someone you interview, because sometimes people do this and they're interviewing around a hypothetical or around a like slightly inconvenient subject. And that's not enough.
+
+
+139
+00:23:13.830 --> 00:23:14.569
+Alex Nativelle: I you
+
+
+140
+00:23:14.570 --> 00:23:37.449
+Alex Nativelle: you mean the struggling moment of actually buying, or like the struggling moment of figuring out things because I had a struggling moment of like I need a Crm. I have no idea which one to choose. I'm trying out some things. I'm not really convinced I'm fearing it might be a I'm making a bad decision. That's real struggle. But then the process of buying it is
+
+
+141
+00:23:37.560 --> 00:23:38.910
+Alex Nativelle: fairly easy.
+
+
+142
+00:23:39.670 --> 00:23:40.359
+Alex Nativelle: I know. If him.
+
+
+143
+00:23:40.360 --> 00:23:48.069
+NSG: Yeah. What? What I'm hearing is. So it was easy to buy to say, yes. Once you found the right thing right, you needed it.
+
+
+144
+00:23:50.120 --> 00:23:57.600
+NSG: There's there's there's a there's a nuance, I think, in what you're describing. There. It sounds like you did have a struggling moment of a of a need, and then you went shopping.
+
+
+145
+00:23:58.160 --> 00:24:03.809
+NSG: and then you addressed it. So you were willing to pay whatever it took to to make the progress. It sounds like or not.
+
+
+146
+00:24:04.507 --> 00:24:07.430
+Alex Nativelle: No price was a factor in it.
+
+
+147
+00:24:07.430 --> 00:24:08.469
+NSG: It was okay.
+
+
+148
+00:24:09.130 --> 00:24:09.940
+NSG: So what did you say?
+
+
+149
+00:24:09.940 --> 00:24:24.279
+Alex Nativelle: I don't know if you want to expand on this, but like we had a Crm as a Crm. We had notion like notion database, and I was like, this is not cutting like we have too many things to do to time on this.
+
+
+150
+00:24:24.590 --> 00:24:31.370
+Alex Nativelle: and I need a proper crm to track clients, but then it was like so many offers.
+
+
+151
+00:24:32.150 --> 00:24:33.020
+Alex Nativelle: So I.
+
+
+152
+00:24:33.020 --> 00:24:34.369
+NSG: How much did you guys pay?
+
+
+153
+00:24:35.090 --> 00:24:41.669
+Alex Nativelle: For so copper is, I think, $30 per seat. So it's gonna be like 60 or 50 per month.
+
+
+154
+00:24:42.040 --> 00:24:54.420
+NSG: Got it. Okay? Alright, that's good. So I'm taking a survey right now of different things people have purchased. And then I'm gonna decide which one we're going to do an interview on. So let's hear a few more.
+
+
+155
+00:24:54.420 --> 00:24:56.236
+Ankur Toshniwal: Yeah. So we we've been
+
+
+156
+00:24:56.780 --> 00:25:24.479
+Ankur Toshniwal: buying basically proxy server data kind of basically a proxy server for us to be able to run you know, high high volume web scraping. And we were really really trying to figure out what which one to buy. I think there's a couple of pain points prices by far the number one thing. but there's also the available or the
+
+
+157
+00:25:24.480 --> 00:25:48.089
+Ankur Toshniwal: kind of performance or availability. We were willing to pay premium kind of a little bit of a premium, but it was unclear as to which ones were actually better. So performance is, was like the metric, for it was like we didn't have a good metric to be able to compare them side by side, and everyone creates kind of like their own one. So performance wasn't, it was comparing them was difficult. Price
+
+
+158
+00:25:48.090 --> 00:25:55.520
+Ankur Toshniwal: was a big sticking point, and then another one was kind of like.
+
+
+159
+00:25:55.560 --> 00:26:14.256
+Ankur Toshniwal: they all have kind of restrictions on. Okay, we don't allow these particular domains, or we don't allow this type of website or whatever right? And they're also not totally upfront or top like, it's not clear which ones are being restricted by different providers. So transparency on
+
+
+160
+00:26:14.640 --> 00:26:29.269
+Ankur Toshniwal: the it's not really. I mean, it could be considered a feature set but transparency on what was allowed and what was not allowed on different providers was, was really difficult to to get through, and we spent a lot of time figuring it out.
+
+
+161
+00:26:30.260 --> 00:26:32.149
+NSG: How much did you pay? End up paying.
+
+
+162
+00:26:32.740 --> 00:26:49.460
+Ankur Toshniwal: A lot. Well, it's like we paid. It's a base fee of $275 a month, and then nearly $7 50 cents per gigabyte of data, which? Okay? For if you're not technical, it's a lot of it's a lot of money and it translates.
+
+
+163
+00:26:49.460 --> 00:26:49.880
+NSG: I get it.
+
+
+164
+00:26:49.880 --> 00:26:56.929
+Ankur Toshniwal: We're just providing that are like 50 cents per gigabyte or a dollar per gigabyte and we paid. We're paying 7 50.
+
+
+165
+00:26:57.590 --> 00:27:01.409
+NSG: Okay? And then how much? Oh, what's the name of the service?
+
+
+166
+00:27:01.750 --> 00:27:02.880
+Ankur Toshniwal: Massive, provide.
+
+
+167
+00:27:02.880 --> 00:27:10.279
+NSG: Okay. Alright, that's helpful. Okay, it sounds like you really did struggle with that. That's that's a that's a good one.
+
+
+168
+00:27:10.660 --> 00:27:12.100
+NSG: Anyone else.
+
+
+169
+00:27:17.860 --> 00:27:25.159
+NSG: Everybody just spending money easy. No, no problems in our life. We're just we're just spending it. We're not struggling to spend it. We just spend it.
+
+
+170
+00:27:38.880 --> 00:27:40.740
+NSG: Your old defend. I saw you on mute.
+
+
+171
+00:27:49.240 --> 00:27:54.820
+NSG: Alright. So we've got a car. And we got some a couple of software tools. Alex, what was the name of the Crm.
+
+
+172
+00:27:55.800 --> 00:27:56.540
+Alex Nativelle: Copper.
+
+
+173
+00:27:57.610 --> 00:28:01.199
+NSG: Hopper, massive or copper.
+
+
+174
+00:28:03.850 --> 00:28:06.850
+NSG: $30 a month, 2 50.
+
+
+175
+00:28:10.226 --> 00:28:11.340
+NSG: I'm torn.
+
+
+176
+00:28:12.830 --> 00:28:16.229
+Antoine: I think Anthony should choose, because he's the one who prompted the.
+
+
+177
+00:28:16.230 --> 00:28:20.029
+NSG: Yeah, Anthony, which one do you want? Which one cause we'll do it together?
+
+
+178
+00:28:22.550 --> 00:28:24.269
+Anthony De Silva: Massive, I think.
+
+
+179
+00:28:24.490 --> 00:28:25.850
+NSG: All right, we're gonna go with massive.
+
+
+180
+00:28:25.850 --> 00:28:26.550
+Anthony De Silva: Struggle.
+
+
+181
+00:28:26.890 --> 00:28:32.059
+NSG: Okay. Alright. Anthony, you're gonna you're gonna be my my number 2. Here.
+
+
+182
+00:28:32.200 --> 00:28:32.850
+Anthony De Silva: Alright!
+
+
+183
+00:28:33.010 --> 00:28:38.319
+NSG: Since you you wanted you wanted this. So we're going to join forces. Alanka, are you ready.
+
+
+184
+00:28:39.410 --> 00:28:40.410
+Ankur Toshniwal: Yep.
+
+
+185
+00:28:40.410 --> 00:29:07.849
+NSG: Alright, so I'll I'll need some guidance here, since I think what we're interviewing around is probably beyond my pay grade. But I'd love for you to, you know. Treat me like a layman, and and educate me as we go. And then, Anthony, your job in this is to essentially drive things and and questions and follow ups that I'm missing. If everyone else on the call, you all are on the team, too, but you can drop ideas and suggestions in the chat of what to ask
+
+
+186
+00:29:08.233 --> 00:29:22.589
+NSG: and then we'll go from there and then afterwards we'll do a quick debrief. But before we begin. Just remember, it's less about surveys and scripted interviews, and it's more about the forces at play, right? Functional, social, and emotional, that we're looking for with ankers. Purchase decision here.
+
+
+187
+00:29:22.680 --> 00:29:42.739
+NSG: So with the interview, try to follow along and guess what's going to be asked next, or what should be asked next. Listen carefully, try to identify the forces of progress as they come up, because we're gonna map them together afterwards. And then the timeline as well, and then write down any questions that you think are missing, that we should address
+
+
+188
+00:29:43.880 --> 00:29:44.830
+NSG: cool.
+
+
+189
+00:29:45.680 --> 00:29:47.810
+NSG: Alright. Let's do this.
+
+
+190
+00:29:48.030 --> 00:29:54.209
+NSG: Pull up my notes here, and then I have a little visual here, too.
+
+
+191
+00:29:55.250 --> 00:30:05.589
+NSG: so I'll I'll leave this up as we have this conversation, and then I will PIN you all right.
+
+
+192
+00:30:05.810 --> 00:30:18.299
+NSG: Cool. Well, I've got all the pleasantries out of the way you've already said yes to me, recording, you understand the the details and nuances of all of our specific questions on Ker, tell me about this massive product purchase. When did you buy it?
+
+
+193
+00:30:19.845 --> 00:30:25.499
+Ankur Toshniwal: We bought it in. I guess that would be end of January.
+
+
+194
+00:30:25.920 --> 00:30:31.529
+NSG: End of January. Okay. And January, oh, January 21, st you just looked it up.
+
+
+195
+00:30:32.010 --> 00:30:46.489
+Ankur Toshniwal: Well, I know. Yeah, I know, because I, our our launch date is Jan. 20 second, or on like Linkedin and we were really trying to figure out what to do like which one to go with up ahead of it. So I know that it was like the day before.
+
+
+196
+00:30:46.700 --> 00:30:59.169
+NSG: Got it. And then what? What were the options? What? What kind of first, st if you don't mind like, explain to me like what what massive is for you, and what it can do for for your business. And then, like, what does the landscape look like of options you were considering.
+
+
+197
+00:30:59.170 --> 00:31:15.990
+Ankur Toshniwal: Sure the core problem they solve is that most websites that you visit they they will kind of track Ips, and they will kind of prevent Ips that visit them, and they believe it's like a robot. often. This is because people are actually trying to
+
+
+198
+00:31:15.990 --> 00:31:29.500
+Ankur Toshniwal: steal data or do nefarious kind of actions in our case. We're not trying to do nefarious stuff, but it's hard for the defender, I guess, to make it to decide between them.
+
+
+199
+00:31:29.500 --> 00:31:53.819
+Ankur Toshniwal: And what a proxy server provides you is the ability to basically anonymously visit a website right? And so what they provide you is they have a network of people's phones, computers, laptops that allow you to kind of send requests through them, and they provide that network. They provide that service to give you access to use other people's devices to access websites and content.
+
+
+200
+00:31:54.160 --> 00:31:59.399
+NSG: Okay, this sounds like a potentially like a a tricky thing to to navigate.
+
+
+201
+00:32:00.173 --> 00:32:01.279
+Ankur Toshniwal: Very hard.
+
+
+202
+00:32:01.280 --> 00:32:06.549
+NSG: Have you? Have you dealt with this problem already before signing up for massive like like, what what issues have you been facing.
+
+
+203
+00:32:06.550 --> 00:32:25.339
+Ankur Toshniwal: Yep. So we we were getting blocked. We're getting blocked by websites that we, you know users wanted at wanted access to one of the big ones that we we realized was getting blocked consistently was actually government websites. That's actually when that prompted us to look into a new proxy service. Because
+
+
+204
+00:32:25.500 --> 00:32:32.720
+Ankur Toshniwal: I we had a previous proxy service and we were getting blocked. On government websites. For, like, okay, we need to figure out why
+
+
+205
+00:32:33.530 --> 00:32:36.170
+NSG: Have you always had a proxy service.
+
+
+206
+00:32:36.170 --> 00:33:05.830
+Ankur Toshniwal: No, before that, even before no proxy service. I didn't even know this was a problem. I had no idea this was even a thing, and so I started to when I started to build, I just started, you know, hitting websites with like my own local computer. And I, we were getting. And then my own computer was getting blocked. And I was like, Okay, what's going on? I asked. Chat Gpt and various sources find out that the reason for it is often because IP that made that led me to buy a super cheap hobby plan on a different provider called data impulse.
+
+
+207
+00:33:06.580 --> 00:33:13.060
+NSG: Okay, so you chose data impulse, first, st to do this job for you. And how did that go.
+
+
+208
+00:33:14.530 --> 00:33:15.970
+Ankur Toshniwal: It was
+
+
+209
+00:33:16.140 --> 00:33:23.619
+Ankur Toshniwal: okay. Let's be concrete here. My, at that time it was experimental. So I was looking literally just for the pure, cheapest
+
+
+210
+00:33:24.290 --> 00:33:25.500
+Ankur Toshniwal: option.
+
+
+211
+00:33:25.690 --> 00:33:27.089
+NSG: When? When was this?
+
+
+212
+00:33:27.450 --> 00:33:30.860
+Ankur Toshniwal: That was maybe the 1st time in
+
+
+213
+00:33:31.000 --> 00:33:34.330
+Ankur Toshniwal: I was prototyping back in like December, November.
+
+
+214
+00:33:34.670 --> 00:33:37.879
+NSG: Okay. So you you were working on on your idea.
+
+
+215
+00:33:38.160 --> 00:33:51.280
+NSG: And you ran into this issue of being blocked on websites from your manual computer with no like proxy service enacted. You realize that you needed to overcome that. And then you did a chat, Gpt search to help you figure out what the issue was, and what you needed to hire.
+
+
+216
+00:33:51.450 --> 00:33:57.729
+Ankur Toshniwal: Yeah, something like that. That's probably that's probably that sounds close enough. I don't know the exact. I don't remember the exact thing. But yeah.
+
+
+217
+00:33:58.400 --> 00:33:59.949
+NSG: Oh, okay, yeah. I just wanna make sure.
+
+
+218
+00:33:59.950 --> 00:34:11.020
+Ankur Toshniwal: It was like Chatgpt, or like I meant, maybe I went to Reddit, or something, and like looked looked up like like what what is happening because there's actually some good subreddit stuff. Yeah.
+
+
+219
+00:34:11.020 --> 00:34:15.060
+NSG: And and was this all just in your own head on your own? Or did you end up talking to someone else about it?
+
+
+220
+00:34:15.370 --> 00:34:20.219
+Ankur Toshniwal: Yeah, no, I I build everything alone. So I have to. Yeah, I have to do it alone. Yeah.
+
+
+221
+00:34:20.730 --> 00:34:23.530
+NSG: Alright. So you know it's a lonely life, for now.
+
+
+222
+00:34:23.810 --> 00:34:26.670
+Ankur Toshniwal: For now. Yeah, it's changing right now. So it's awesome.
+
+
+223
+00:34:26.679 --> 00:34:32.159
+NSG: Okay. So you were using the the original service. I forgot the name of it. What was it called?
+
+
+224
+00:34:32.340 --> 00:34:33.149
+Ankur Toshniwal: Data, impulse.
+
+
+225
+00:34:33.159 --> 00:34:40.519
+NSG: Data impulse. So in November, December, you're using that. And then, somehow, between then and January 21, st
+
+
+226
+00:34:41.479 --> 00:34:42.579
+NSG: something.
+
+
+227
+00:34:42.929 --> 00:34:44.039
+Ankur Toshniwal: We changed.
+
+
+228
+00:34:44.040 --> 00:34:59.339
+Ankur Toshniwal: We launched. We had a prototype out with some beta, you click basic closed beta users and we noticed, like we have mixed panel events. So I was. You know I I am compulsive about checking those. So I noticed a couple of launches that users did, and like
+
+
+229
+00:34:59.830 --> 00:35:14.030
+Ankur Toshniwal: we know every launch that happens. We track like every row that is extracted from a web page, and I see a whole bunch of web pages get launched, and there's nothing being extracted from them. So I go check to see what's happening. And then I see that they're allgov websites.
+
+
+230
+00:35:14.380 --> 00:35:38.265
+Ankur Toshniwal: So I'm like, okay, what something is happening about some.gov website. And then I went to go look deeper. And I thought maybe it was a 1 off. So I actually, I I looked I don't know how I tracked to see other code. Yeah, that's what I did, for at 1st I thought it was my mistake. It was like my own issue, like something in my code, was blocking this particular part of the website. And
+
+
+231
+00:35:38.740 --> 00:36:04.530
+Ankur Toshniwal: I couldn't came up empty, and then so we just kind of left it. And then later down the line. It happened again. And probably the second, maybe 3rd occurrence, where I noticed, like all of the same domain, websites were getting blocked. So then that prompted me and Andrew, Andrew, and kind of suggested it too, and so I went and looked on the data impulse website to see if they have blocked websites. I didn't even know that was a thing. Again. I didn't know that
+
+
+232
+00:36:04.610 --> 00:36:13.910
+Ankur Toshniwal: some proxy servers or providers block websites. And then we found out that listed on their thing. Says they, they do not allow access to.gov websites.
+
+
+233
+00:36:14.350 --> 00:36:19.459
+NSG: Okay, just to make sure I have it so far, cause that was really helpful. It sounds like you spoke to Andrew
+
+
+234
+00:36:19.840 --> 00:36:23.470
+NSG: about it at some point when you notice that there was a problem. Right?
+
+
+235
+00:36:24.410 --> 00:36:31.909
+NSG: Okay? But that was after you had the 1st flag of seeing the.gov sites, not going and thinking that it was your. The problem was on your end.
+
+
+236
+00:36:31.910 --> 00:36:33.459
+Ankur Toshniwal: I'd say, 2 flags. Yeah.
+
+
+237
+00:36:33.460 --> 00:36:37.710
+NSG: Okay, 2 flags. So so in in earlier in January is when that happened, or some other time.
+
+
+238
+00:36:39.770 --> 00:36:41.310
+Ankur Toshniwal: I don't know. Maybe Andrew remembers.
+
+
+239
+00:36:41.540 --> 00:36:45.310
+Ankur Toshniwal: I don't fully remember the exact timeline. But yeah.
+
+
+240
+00:36:45.310 --> 00:36:45.800
+Andrew Fernandes: Yeah, we.
+
+
+241
+00:36:45.800 --> 00:36:52.009
+NSG: I didn't know if it was at the start of the year, or for your you know you said you used it in November. December is when you signed up for data impulse. Right?
+
+
+242
+00:36:52.010 --> 00:37:02.860
+Ankur Toshniwal: Yeah, it's probably January. It's probably right. Maybe. January, December. Yeah, it was after after we started after we put the beta out to users.
+
+
+243
+00:37:03.200 --> 00:37:05.629
+NSG: And how many users are are on your platform.
+
+
+244
+00:37:06.711 --> 00:37:08.700
+Ankur Toshniwal: Right now, or at that time.
+
+
+245
+00:37:09.220 --> 00:37:09.810
+NSG: Both.
+
+
+246
+00:37:10.988 --> 00:37:13.430
+Ankur Toshniwal: At that time we probably had about
+
+
+247
+00:37:14.021 --> 00:37:16.490
+Ankur Toshniwal: maybe like 5 to 10 users.
+
+
+248
+00:37:16.490 --> 00:37:23.428
+NSG: Okay? So there was, there was a smaller number. But even that smaller number presented this this issue with the.gov access.
+
+
+249
+00:37:24.150 --> 00:37:25.949
+NSG: Okay, pretty cool, and
+
+
+250
+00:37:25.950 --> 00:37:33.570
+NSG: and then once you had the second conversation with Andrew, or you had the second flag, and then you end up speaking to Andrew about it. Can can we pick up from there.
+
+
+251
+00:37:34.940 --> 00:37:36.109
+Ankur Toshniwal: Sure I mean
+
+
+252
+00:37:36.790 --> 00:38:03.229
+Ankur Toshniwal: I don't remember who. Yeah, I I basically told him, I was like, Hey, like, it looks like these.gov websites or or something's happening with these.gov websites. I checked the code. I don't see anything wrong with them. I think Andrew is kind of like, hey? Like, you know, I'll look. I'll look into some other providers or see what's going on. And I think I think it wasn't like, he suggested. Hey, go look at this. But it was just the fact that we talked about it that made me think like, you know, maybe something's.
+
+
+253
+00:38:03.230 --> 00:38:04.040
+NSG: Yeah.
+
+
+254
+00:38:04.040 --> 00:38:19.210
+Ankur Toshniwal: With our provider, not our code, because we talked about the the proxy providers as a as a service. And so then, that's what I think something about that prompted me to go look at their own like dashboard or their own kind of the data impulse. Like
+
+
+255
+00:38:19.420 --> 00:38:21.950
+Ankur Toshniwal: regulation or guideline kind of stuff.
+
+
+256
+00:38:22.070 --> 00:38:22.720
+Ankur Toshniwal: Okay.
+
+
+257
+00:38:22.720 --> 00:38:26.959
+NSG: So when you looked at the data impulse, Guideline, what? What did you see? What happened.
+
+
+258
+00:38:26.960 --> 00:38:38.300
+Ankur Toshniwal: Yeah. So it it specifically says, like, here the here are the websites that we do not allow. We block on domains and listed, probably the 5th one down was like the.gov websites.
+
+
+259
+00:38:38.300 --> 00:38:41.359
+NSG: Oh, so you're like, okay. But we need to be able to get through to those.
+
+
+260
+00:38:41.360 --> 00:38:47.839
+Ankur Toshniwal: Yeah, no like this is like a huge requirement for our, for our users, like one of the top ones, is literally government websites.
+
+
+261
+00:38:48.430 --> 00:38:52.349
+NSG: Okay, got it. So once you realize that, what what'd you do next.
+
+
+262
+00:38:52.910 --> 00:38:58.010
+Ankur Toshniwal: We looked, we were like, Hey, is this? Is there some legal stuff about this? 1st off we're like, Hey, is there like? Is.
+
+
+263
+00:38:58.010 --> 00:38:58.660
+NSG: Just click.
+
+
+264
+00:38:58.660 --> 00:39:06.040
+Ankur Toshniwal: A off limits. Thing? Is it like, you know, something that we just can't do? So we confirmed to make sure that that wasn't the case.
+
+
+265
+00:39:06.040 --> 00:39:07.180
+NSG: How did you confirm that.
+
+
+266
+00:39:08.064 --> 00:39:17.200
+Ankur Toshniwal: That was a mix. Yeah, you know, like perplexity. Chat Gpt, I read a couple read a couple of like lawsuits that happened, and, you know, kind of like.
+
+
+267
+00:39:17.360 --> 00:39:30.560
+Ankur Toshniwal: I'm not a lawyer, but I was able to kind of like, at least again, with these tools parts together. Hey, are we like in completely hot water? Kind of thing, right? And it was clear that we're not. It's it's it's only if, like, you're using it to kind of
+
+
+268
+00:39:30.680 --> 00:39:36.900
+Ankur Toshniwal: scheme people out of like government contracts. And like, you know, if you're using it in a nefarious way, that's when it's like illegal.
+
+
+269
+00:39:37.750 --> 00:39:41.577
+NSG: Understood. Okay, so once you got to that, that clarity
+
+
+270
+00:39:43.380 --> 00:39:50.460
+NSG: you decided as a team that you wanted to transition from data impulse? Or were you evaluating a way to keep it.
+
+
+271
+00:39:50.690 --> 00:39:56.359
+Ankur Toshniwal: Yeah, that was that was that was, I would say, actually a good point. It's a team thing we were like, Hey, our, you know.
+
+
+272
+00:39:57.420 --> 00:40:09.810
+Ankur Toshniwal: it was a team thing, but both of us were in alignment like, Hey, we have to support government websites like, isn't that no brainer must be done. We have to figure out something else like we have. We have to find another solution to see what we can do. Yeah.
+
+
+273
+00:40:09.810 --> 00:40:12.249
+NSG: And were you chatting about it, or did you all have a meeting about it?
+
+
+274
+00:40:14.950 --> 00:40:15.800
+Ankur Toshniwal: Chatting.
+
+
+275
+00:40:15.800 --> 00:40:23.889
+NSG: Like I don't know, like I don't know if you had a dedicated time where you all had this conversation, or if this was just more like you all company chat something like that.
+
+
+276
+00:40:24.040 --> 00:40:32.169
+Ankur Toshniwal: Yeah, I think it's I think it's I mean, we we do have. We have dedicated time. But we we didn't set a dedicated time for this. It was just one of the action items we had to pick. We had to solve. Yeah.
+
+
+277
+00:40:32.400 --> 00:40:37.049
+NSG: Okay. And then was this leading up to the 21, st the day of or around? Then.
+
+
+278
+00:40:37.250 --> 00:40:58.450
+Ankur Toshniwal: No leading up. I I think we already knew we already knew. We probably knew for almost 10 days that this was an issue. And we already had a proxy service. I okay, maybe some follow up to that is the CEO of Massive reached out to me to be like, hey? I met him. I met him at some kind of
+
+
+279
+00:40:58.600 --> 00:41:21.480
+Ankur Toshniwal: dinner, or whatever from founder dinner, and he was like, Hey, I'll I'll throw you he was like, I'll get you signed up. No, it's what it was. I met him through a Whatsapp group. He was like, hey? I told I posted my web. My product, I was like, Hey, we're in close, Beta, right now would love some users, he he said. He responded to me, saying, hey? I live in proxy service. If you guys need proxy servers, I'd love to help right and sorry.
+
+
+280
+00:41:21.570 --> 00:41:25.220
+NSG: So so Whatsapp group is where it started? What's the Whatsapp group.
+
+
+281
+00:41:26.010 --> 00:41:28.580
+Ankur Toshniwal: Nyc. Something Nyc. Founders.
+
+
+282
+00:41:28.580 --> 00:41:40.520
+NSG: Okay, it's like a founder Whatsapp group with Nyc. Founders. You posted about your business. And then all of a sudden, this founder from massive, who happens to be building something that is a need of yours, introduces himself.
+
+
+283
+00:41:40.820 --> 00:41:41.440
+Ankur Toshniwal: Yep.
+
+
+284
+00:41:42.650 --> 00:41:46.040
+NSG: Okay? And then from there you ended up. Did you mention a dinner as well.
+
+
+285
+00:41:46.420 --> 00:41:55.400
+Ankur Toshniwal: That was later. That was later. That that was I. We're actually not not related to this, but we did. He did invite us to a dinner, and we went. And it was it was dope. Yeah.
+
+
+286
+00:41:55.400 --> 00:41:56.980
+NSG: But that was you already a customer by then.
+
+
+287
+00:41:56.980 --> 00:41:59.180
+Ankur Toshniwal: Yeah, that was that we became custom already. Yeah.
+
+
+288
+00:41:59.180 --> 00:42:05.840
+NSG: Okay, okay, cool. So you got this message in the Whatsapp group. Alright, let's take it from there. So you get the message in the Whatsapp group. Do you sign up immediately?
+
+
+289
+00:42:06.580 --> 00:42:22.719
+Ankur Toshniwal: No, I didn't. I didn't sign up. I responded to him immediately. But you know I I said, Hey, I'd love to hop on a call like we're we have a lot of. We have so many questions and so many problems with our service right now. And so I hopped on a call with him directly. On on Zoom, I think, and
+
+
+290
+00:42:23.440 --> 00:42:29.880
+Ankur Toshniwal: we talked about it. He told me about the about their their product, and he's like. Listen, I'll just throw you
+
+
+291
+00:42:30.020 --> 00:42:33.290
+Ankur Toshniwal: like a hundred dollars worth right now. Just
+
+
+292
+00:42:33.540 --> 00:42:43.679
+Ankur Toshniwal: get started, like, you know, like, don't don't worry, don't even worry about it. I. You know, it's nice to meet you. I'm gonna just give you the thing for free. And we can talk later, like, just just go, yeah.
+
+
+293
+00:42:43.880 --> 00:42:45.819
+Ankur Toshniwal: And I was like, sweet.
+
+
+294
+00:42:46.530 --> 00:42:50.608
+NSG: Okay, I wanna pause it here really, quickly. Game off is what Bob calls it.
+
+
+295
+00:42:51.120 --> 00:42:54.740
+NSG: Ankar. You're doing great, 1st of all. But for the room.
+
+
+296
+00:42:55.020 --> 00:42:59.880
+NSG: Does anyone have any questions, anything I haven't asked yet that you want to dig into Anthony.
+
+
+297
+00:43:00.480 --> 00:43:08.150
+Anthony De Silva: Yeah, I'm just curious to hear if, like if any of the users pointed this out initially, when you know, you said like the 5 users couldn't
+
+
+298
+00:43:08.450 --> 00:43:09.809
+Anthony De Silva: like you saw that the data.
+
+
+299
+00:43:09.810 --> 00:43:10.850
+Ankur Toshniwal: Yeah, no, they do.
+
+
+300
+00:43:10.850 --> 00:43:11.607
+NSG: Give you feedback
+
+
+301
+00:43:11.860 --> 00:43:33.809
+Ankur Toshniwal: We did. We did. We got feedback like, hey? At that time it was early on, so like we didn't have a now we have we live, stream the websites to the users. So it's a lot clearer. Now, if you're getting blocked because it will show you will see this. The actual web page. At that time there was no screenshot. So it just looked like our service was just not working. And so they're like, yeah, okay, we tried it, and you know
+
+
+302
+00:43:34.310 --> 00:43:36.295
+Ankur Toshniwal: something's broken and
+
+
+303
+00:43:38.920 --> 00:43:51.810
+Ankur Toshniwal: yeah. So there there was, there was, I would say, the 1st occurrence. Users did not reach out, but one of the users that we're I'm very close to. He texted me, saying, Hey, these websites didn't work. So I just got a text.
+
+
+304
+00:43:53.000 --> 00:44:00.380
+NSG: And how did you handle the hearing that feedback, I'm curious to know, like what you responded with, or if you had a conversation with them about it.
+
+
+305
+00:44:00.720 --> 00:44:17.420
+Ankur Toshniwal: I was like, Hey, I'm going to look at it right now. I'm getting immediately looking at this. This is, I'm sorry about that. I'll throw you a couple. I'll throw you some extra free credits for any web pages that you that didn't work. I'm gonna you know. I'll add that right now, and I'm gonna go look at. Figure out what's going on wrong. What's going wrong with this.
+
+
+306
+00:44:19.080 --> 00:44:20.710
+NSG: Good, Alex.
+
+
+307
+00:44:20.710 --> 00:44:41.719
+Alex Nativelle: Yeah, I guess one of the things that it's like game of right. One of the thing was like, seems to me like there was some kind of struggle, but then the solution was, it seems like it was. It didn't look too much into it like right? Someone like messages on on Whatsapp. And it's like, all right, let's do it. So as an interviewer, I don't know how you handle that.
+
+
+308
+00:44:41.720 --> 00:44:51.710
+NSG: Yeah. Well, well, so if you remember, Alex, in the beginning, I think the description was that there was a lot of struggle about assessing the right tool right? And then what we've learned
+
+
+309
+00:44:51.920 --> 00:45:18.389
+NSG: it like changes the story a little bit. At least so far we haven't gotten to the point where we know encore put in the payment info, and started paying for it, and said, yes, we're about to get there and ask those questions. So maybe there's more that will unpack that we don't know. But you're right, that our initial impression was that there was a lot of analysis going into massive, but it turns out, the the data impulse hire, at least so far, was where a lot of the analysis went into.
+
+
+310
+00:45:19.010 --> 00:45:23.610
+Ankur Toshniwal: Well, well, the reason it wasn't that much analysis, because he gave it to us for free.
+
+
+311
+00:45:23.730 --> 00:45:24.600
+Alex Nativelle: Yeah.
+
+
+312
+00:45:24.750 --> 00:45:25.610
+Ankur Toshniwal: It was like.
+
+
+313
+00:45:25.610 --> 00:45:35.600
+NSG: Well, so okay. So I want to stop it right there. Okay, what you just said, Ankur. Let's just everybody take notice of what he just said he said, well, the reason it wasn't that hard is because it was for free.
+
+
+314
+00:45:35.890 --> 00:45:36.850
+Ankur Toshniwal: At that time.
+
+
+315
+00:45:36.850 --> 00:45:40.549
+NSG: Do you do you do? You? Does anyone like, do you guys believe that?
+
+
+316
+00:45:40.880 --> 00:46:00.380
+NSG: Or are we gonna take in all of the information that we just heard that he told us about how important it was for him to go from no proxy to data impulse to knowing how important it is to getting feedback from customers of things not working, and then saying, Oh, massive is a better potential alternative to the problem I'm facing.
+
+
+317
+00:46:00.400 --> 00:46:11.260
+NSG: So when you say it was easy, because it was free. No, no, no! There were all these other things that happened leading up to that that demonstrated how important this was for your business, you understand?
+
+
+318
+00:46:12.070 --> 00:46:20.179
+NSG: That's the important distinction. When you're interviewing a potential customer or a customer, because in their mind they'll tell you. Oh, well, I just did it. For this reason.
+
+
+319
+00:46:20.320 --> 00:46:32.170
+Ankur Toshniwal: I would actually even I would plus one you on that, because when when he gave it to me for free at that time I didn't start the trial until probably a week or 10 days later.
+
+
+320
+00:46:32.170 --> 00:46:36.120
+NSG: I was about to find that out. But I'm glad you just volunteered that information to me. This is great.
+
+
+321
+00:46:36.120 --> 00:47:05.780
+Ankur Toshniwal: I didn't again. This the timeline of like when I faced I was I was like, Hey again. I wasn't totally sure what the problem was what the foundational issue was, and so it was only until it failed again, maybe a second. That second flag or 3rd flag where I was like, something's wrong with our proxy server, like something says some kind of issue going on with our existing one. Let me try this this free one or this free one that I got to see if it will solve the problem, and I switched it, and it immediately solved it
+
+
+322
+00:47:06.270 --> 00:47:07.479
+Ankur Toshniwal: like in my code.
+
+
+323
+00:47:07.720 --> 00:47:13.440
+Ankur Toshniwal: That's when, like there was a there was. I actually put that into into into play.
+
+
+324
+00:47:13.440 --> 00:47:14.070
+Alex Nativelle: Meet.
+
+
+325
+00:47:15.790 --> 00:47:25.120
+Alex Nativelle: I don't know if you would ask this question, but I would love to know why you didn't discuss it. Live with like your teammates, or why wasn't it such
+
+
+326
+00:47:25.230 --> 00:47:28.639
+Alex Nativelle: more of like big decisions we need to make now.
+
+
+327
+00:47:30.720 --> 00:47:41.120
+Alex Nativelle: maybe I didn't understand you correctly on that. But it felt like it was just another item on the agenda rather than an actual important discussion. We need to tackle now.
+
+
+328
+00:47:41.620 --> 00:47:51.043
+Ankur Toshniwal: Well, I think I think a part of it is like we don't. It was UN. It was really unclear as to whether or not
+
+
+329
+00:47:52.030 --> 00:47:53.960
+Ankur Toshniwal: It was something that was like
+
+
+330
+00:47:54.710 --> 00:48:23.879
+Ankur Toshniwal: like what the problem was. So there's a lot of different variables. In in kind of the that. This like kind of this process, right? So we didn't know if we were getting blocked by some website. We didn't know. If, like, you know, Linkedin has really strong pop blockers. We don't know if we were getting blocked by websites. We didn't know if it was a proxy server problem I had at that point found that it was not our code, so I knew it wasn't like I wasn't sure I didn't. Didn't seem like it was in my control from a development perspective. We just
+
+
+331
+00:48:24.240 --> 00:48:37.319
+Ankur Toshniwal: the pattern of it being the same domain had not like shown up yet. So it was like, Oh, like, you know, we, I'm gonna I'm gonna improve. We have all these other things to, you know, 90. Still, like 90% of web pages are working.
+
+
+332
+00:48:37.780 --> 00:48:38.270
+Alex Nativelle: Yeah.
+
+
+333
+00:48:38.270 --> 00:48:44.889
+Ankur Toshniwal: So we're like, okay, it's 90%, is there? We have to. There's other stuff we have to solve right now. And we're going to come back to this particular problem.
+
+
+334
+00:48:46.270 --> 00:48:47.080
+Alex Nativelle: All right.
+
+
+335
+00:48:47.080 --> 00:49:02.399
+Ankur Toshniwal: And there wasn't enough kind of load on the. There wasn't enough traffic on the product yet where that that percentage of you know that we're losing that the government websites, being a top kind of asked for users, had not shown up yet.
+
+
+336
+00:49:03.270 --> 00:49:10.080
+Alex Nativelle: Okay. And so the moment you realized this was a proxy server was the moment that you chatted with the founder of massive.
+
+
+337
+00:49:10.980 --> 00:49:17.759
+Ankur Toshniwal: No, the the when I found it was when I I talked to Andrew and I discussed it, and then we I looked up.
+
+
+338
+00:49:18.000 --> 00:49:18.439
+Alex Nativelle: Oh, my good.
+
+
+339
+00:49:18.550 --> 00:49:21.820
+Ankur Toshniwal: Dot Gov. Websites are blocked by this particular.
+
+
+340
+00:49:22.020 --> 00:49:22.630
+Alex Nativelle: All right.
+
+
+341
+00:49:25.450 --> 00:49:27.320
+NSG: So you meet the CEO of Massive.
+
+
+342
+00:49:27.570 --> 00:49:31.090
+NSG: or you don't meet them. You you get the the link in the Whatsapp group.
+
+
+343
+00:49:31.260 --> 00:49:33.550
+NSG: You said it was 10 days later
+
+
+344
+00:49:34.510 --> 00:49:35.700
+NSG: when you signed up for it.
+
+
+345
+00:49:35.700 --> 00:49:41.369
+Ankur Toshniwal: I did talk to him. I talked to him the next day over Zoom. And then, yeah, probably 10 days later, when I
+
+
+346
+00:49:41.510 --> 00:49:46.519
+Ankur Toshniwal: actually signed up and implemented into our system probably 7, 7, 10 days yet.
+
+
+347
+00:49:46.680 --> 00:49:49.259
+NSG: And was that January 21, st or sometime before then.
+
+
+348
+00:49:49.260 --> 00:49:50.460
+Ankur Toshniwal: That was before then.
+
+
+349
+00:49:51.200 --> 00:49:52.340
+NSG: How long before?
+
+
+350
+00:49:53.916 --> 00:50:02.490
+Ankur Toshniwal: Probably to maybe beginning of Jan and.
+
+
+351
+00:50:02.490 --> 00:50:09.850
+NSG: Okay? So it was the weeks ahead, weeks ahead of time. So that like earlier that month, you decided to implement this. Okay?
+
+
+352
+00:50:09.970 --> 00:50:16.799
+NSG: So so when you set it up, everything was all good. You switched out from data impulse over to it. Massive, no hitch.
+
+
+353
+00:50:17.140 --> 00:50:36.700
+Ankur Toshniwal: Yeah, it was. It was a pretty straightforward from a integration perspective. I had because I had implemented data impulse before. I kind of know how it works. It's pretty easy to do and set up and when I tested it locally it that all the dot government websites all started working. So I was like, Whoa, like, I didn't even know that that was
+
+
+354
+00:50:37.110 --> 00:50:46.359
+Ankur Toshniwal: that was going to happen. But I just wanted to see what was happening. I was. And then when it started working on massive, I was like we were kind of just like, Oh, man, data impulse is just a piece of shit.
+
+
+355
+00:50:46.500 --> 00:51:01.909
+Ankur Toshniwal: That's we. We thought that that was the problem. It's just data impulses, a piece of shit. And like they don't, they don't. There, we're getting blocked or whatever lack, we didn't even understand. The technology fully didn't know that there was a restriction at that time. Until until yeah.
+
+
+356
+00:51:02.150 --> 00:51:04.819
+NSG: So was that true? Like, do you feel that way with data input.
+
+
+357
+00:51:05.132 --> 00:51:10.749
+Ankur Toshniwal: It's actually on their website, like, it's on data impulse's website that we don't allow.gov websites.
+
+
+358
+00:51:10.750 --> 00:51:13.099
+NSG: Oh! So they set that expectation.
+
+
+359
+00:51:13.100 --> 00:51:32.159
+Ankur Toshniwal: Yeah, but they didn't. They didn't set it up at the time that I was buying it, or the time that I was doing it right? It was. It's something that you had to read auxiliary like, hey, these are not. These are these are blocked by us. It's not like in the process of purchasing in the process of like, there's no education to the user. Yeah.
+
+
+360
+00:51:32.360 --> 00:51:39.529
+NSG: So what happened with your usage of massive between early January and the 21? st What's the significance of the 21st is that when you started paying for it.
+
+
+361
+00:51:40.070 --> 00:51:41.460
+Ankur Toshniwal: That's when we started paying for it.
+
+
+362
+00:51:41.750 --> 00:51:45.949
+NSG: Okay, so how are you able to use it up until then? Just in a test environment or.
+
+
+363
+00:51:45.950 --> 00:52:02.599
+Ankur Toshniwal: No production they gave. They gave us like a terabyte of data for free, which is a lot of data. And so we use it almost exclusively during that time until the until the trial ended, which was for, I think, it was either 2 weeks, 3 weeks, 2 weeks up, until.
+
+
+364
+00:52:03.590 --> 00:52:17.339
+NSG: And then and then, as I understand it, the the pricing structure is is, there's there's some nuance to how the pricing model works for the tool? Right? So when you decided to do it, how how much did you have to pay? And how did you decide to to move forward.
+
+
+365
+00:52:17.530 --> 00:52:44.399
+Ankur Toshniwal: Yeah, just for context. so data impulse was, I have the numbers here. It was. There's no fixed cost, I think. Oh, no, there there is. So it's $50 for 10 GB of data, right? So that's the numbers on on data impulse, for context, and you can kind of buy as much as you want. Proxy or massive is $275 for base package.
+
+
+366
+00:52:44.530 --> 00:52:57.839
+Ankur Toshniwal: That's that's with no data. $275, with no data. And then on top of that, it's 10 GB of, or it's a $7 and 50 cents per gigabyte
+
+
+367
+00:52:58.520 --> 00:53:00.370
+Ankur Toshniwal: of data after that.
+
+
+368
+00:53:02.750 --> 00:53:04.149
+Ankur Toshniwal: So it's a lot.
+
+
+369
+00:53:04.150 --> 00:53:10.350
+NSG: Yes, so so. It sounds like not an insignificant cost to you and your business. Did you
+
+
+370
+00:53:10.880 --> 00:53:18.599
+NSG: have any like resistance to moving forward? Or did you realize this was something that you just had to sign up for and pay for.
+
+
+371
+00:53:19.872 --> 00:53:44.250
+Ankur Toshniwal: Yeah, we had a lot of resistance. We're like, Hey, do we have like, if we can, we find another service right now? That has a supporting.gov kind of websites and we know is gonna be the best and we, you know, we looked at it. And we basically were like we couldn't find I think you know, Andrew was looking as well at that point. Andrew's helping me as well.
+
+
+372
+00:53:44.250 --> 00:53:47.500
+NSG: So you all team up and say, Hey, let's see if there's an alternative here.
+
+
+373
+00:53:47.500 --> 00:53:55.020
+Ankur Toshniwal: You look for an alternative that's cheaper and more cost effective, but also supports like, has no restrictions on websites
+
+
+374
+00:53:55.850 --> 00:53:56.585
+Ankur Toshniwal: and
+
+
+375
+00:53:57.320 --> 00:53:58.320
+NSG: Where did you look?
+
+
+376
+00:53:59.890 --> 00:54:07.030
+Ankur Toshniwal: Well, it was a mix. So I mean, Frank, just Google starting with Google, starting with proxy things like even with perplexity. And just.
+
+
+377
+00:54:07.030 --> 00:54:10.180
+NSG: I was gonna say, like, I feel like this is a perplexity. Search again right.
+
+
+378
+00:54:10.180 --> 00:54:29.859
+Ankur Toshniwal: Yeah. Yeah. And so for sure we would, we would start there and go kind of down the rabbit hole to find out. Hey, like what are? And and basically, they're everyone's trying to sell it to you. That's the thing. It's like they're all trying to sell their service. But they're as a result, they're also not transparent on what they allow and don't allow
+
+
+379
+00:54:30.788 --> 00:54:35.179
+Ankur Toshniwal: and so, like, you have to go deeper into each one to find out. Okay, it's like.
+
+
+380
+00:54:35.720 --> 00:54:56.819
+Ankur Toshniwal: there's more to it, like, there's, there's different types of proxy services for each service. So here's Oxylabs. Oxylabs has proxies, has residential proxies they have ISP proxies. They have commercial proxies. Each one has its own restrictions. So you have to do a lot of digging for each one and say which one has blocks which one doesn't, which one is the best best use case for us.
+
+
+381
+00:54:57.040 --> 00:55:02.249
+Ankur Toshniwal: And I think one thing that happened for us there's so many variables that we're like, listen.
+
+
+382
+00:55:02.370 --> 00:55:18.786
+Ankur Toshniwal: we are just getting to launch. We know this works. We have a little bit of. We have a little bit of capital in the bank. Let's just we gotta. We just we know this works. We have to. We have to do it right now. When cost becomes a problem. We will do another kind of look through and
+
+
+383
+00:55:19.180 --> 00:55:46.969
+Ankur Toshniwal: we will just like we'll come back and and reduce costs when we kind of have time, because there's just too many variables like, there's like, literally 3 different types of potential options. There's depth of like there's lack of transparency. So you don't know if there's these are gonna work and they're so I, the this, our product does not work without this service. And so it's such a high
+
+
+384
+00:55:48.680 --> 00:56:02.559
+Ankur Toshniwal: friction kind of purchase that. And this is this is where I think you know, some of that pricing stuff makes makes a difference. It's like the fact that it was expensive made us feel like, all right, we felt a little bit more like, Okay, we're paying a premium.
+
+
+385
+00:56:03.080 --> 00:56:06.140
+Ankur Toshniwal: Maybe it's it's that it is truly better.
+
+
+386
+00:56:06.900 --> 00:56:28.590
+Ankur Toshniwal: right? Like that. There's some level of psychology there, too, where we're like, okay, there's some level of this here. And we couldn't get clarity on, hey? Which ones are not blocking.gov websites we saw on massive that they don't. We saw an oxy labs. I think that they say they don't. But then there were reports saying, Hey, we still get blocked on like Reddit, and stuff like that. And so
+
+
+387
+00:56:29.170 --> 00:56:31.401
+Ankur Toshniwal: there was. There was a lot of
+
+
+388
+00:56:31.860 --> 00:56:36.559
+NSG: Of uncertainty on whether or not these things were accurate on what
+
+
+389
+00:56:36.560 --> 00:56:43.160
+NSG: but it it sounds like you used a mixture of of of search queries in places right to to dig in and and find.
+
+
+390
+00:56:43.160 --> 00:56:45.900
+Ankur Toshniwal: And test this actual experimentation actually.
+
+
+391
+00:56:45.900 --> 00:56:47.899
+NSG: Oh, you you actually signed up for a few of them.
+
+
+392
+00:56:47.900 --> 00:56:54.849
+Ankur Toshniwal: Yeah, I did. I signed up for a couple more. We actually still have a couple more that we're that are following up with us that we're gonna probably yeah.
+
+
+393
+00:56:55.060 --> 00:57:01.519
+NSG: Okay. So one, I I would love to know which ones you signed up for, and and what's different about them, and why you didn't go with them.
+
+
+394
+00:57:02.759 --> 00:57:07.620
+Ankur Toshniwal: We signed up for oxy
+
+
+395
+00:57:08.590 --> 00:57:16.280
+Ankur Toshniwal: oxy labs, Andrew, do you remember some of the the ones with like oxy octane? There's like a couple of different providers.
+
+
+396
+00:57:16.280 --> 00:57:18.650
+NSG: So there were like 2 or 3 others that you signed up for.
+
+
+397
+00:57:18.770 --> 00:57:34.200
+NSG: Okay? So typically I would dig in on that y'all. But I'll say I'll spare some time. And then one other question I had is, did you talk to anyone, or did you primarily just between you and Andrew search online? Or did you have conversations or ask anyone else you knew for any guidance or tips.
+
+
+398
+00:57:34.620 --> 00:57:54.850
+Ankur Toshniwal: Well, one of the big things was I did. I frankly. Not a lot of people know about this stuff. It's like super niche and specific I did actually talk to, I mean, that's why I wanted to. When when Jason invited us to dinner. I was like, I want to go talk to him. I know that he's he's not even like trying to sell us necessarily his particular service. I want to understand
+
+
+399
+00:57:55.050 --> 00:57:56.559
+Ankur Toshniwal: what they do. I didn't even understand.
+
+
+400
+00:57:56.560 --> 00:57:58.159
+NSG: Jason is the CEO of masses.
+
+
+401
+00:57:58.160 --> 00:58:10.480
+Ankur Toshniwal: Of massive. I was like, I don't really what I'm reading online about, like what proxy providers do. It's like a lot of them are reselling other proxy providers. Some of them actually provide the network and.
+
+
+402
+00:58:10.480 --> 00:58:11.060
+NSG: Got it.
+
+
+403
+00:58:11.354 --> 00:58:31.659
+Ankur Toshniwal: Transparent or clear on their websites. So I wanted to go find out about how this stuff works. Actually, so it was really important to me to go to that dinner, to go talk to him directly, and there's like 8 or 10 people who all use, you know, these different services. So we learned a lot. And that's what learned how the actual product works and what they.
+
+
+404
+00:58:31.660 --> 00:58:43.209
+NSG: Got it. Okay? So last my last question here, and then we'll open the room up and then we can debrief. But my last question is, how's it going? Is it working.
+
+
+405
+00:58:43.660 --> 00:58:54.489
+Ankur Toshniwal: It is working, but we are it on our our in our expense list, our usage list. It is the number one thing we are trying to replace.
+
+
+406
+00:58:56.400 --> 00:58:58.960
+NSG: The number. One thing you're trying to replace. Why.
+
+
+407
+00:58:58.960 --> 00:59:01.009
+Ankur Toshniwal: Trying to replace with a cheaper product.
+
+
+408
+00:59:02.540 --> 00:59:09.832
+Ankur Toshniwal: It's just it's it's it's way too expensive. And and we can't. We're not gonna be able to give users the type of
+
+
+409
+00:59:10.300 --> 00:59:14.860
+Ankur Toshniwal: service they need unless we bring down costs.
+
+
+410
+00:59:16.770 --> 00:59:26.149
+NSG: So it's impacting like you, you're not. You're not making money. And in fact, you're burning a lot of money with this tool right now, and that could become a problem with additional usage.
+
+
+411
+00:59:26.480 --> 00:59:27.320
+Ankur Toshniwal: Exactly.
+
+
+412
+00:59:27.650 --> 00:59:34.370
+NSG: Okay, cool? All right. Well, anyone else want to ask a few more bonus questions to anchor before we debrief.
+
+
+413
+00:59:37.360 --> 00:59:42.610
+Antoine: I do have a follow up question. Did you share that statement with with massive.
+
+
+414
+00:59:44.330 --> 00:59:53.240
+Ankur Toshniwal: To share the feedback with massive about the price. I I told him, yeah, I mean, I I
+
+
+415
+00:59:53.480 --> 01:00:07.259
+Ankur Toshniwal: not this, not this recent, most recent feedback. No, no, I did not. But I did tell him like, Hey, man, can you help me with Price? He's like, Hey, like, if you scale up to certain amount I'll I'll let's let's let's chat, and I'll I'll I'll see what I can do
+
+
+416
+01:00:07.600 --> 01:00:09.940
+Ankur Toshniwal: with like volume stuff.
+
+
+417
+01:00:09.940 --> 01:00:10.780
+NSG: Good question.
+
+
+418
+01:00:12.710 --> 01:00:13.769
+NSG: Anyone else?
+
+
+419
+01:00:17.110 --> 01:00:28.879
+NSG: Great? Alright! Well, let's talk about it 1st of all, Agar, thank you for humoring us. That was hopefully helpful for everyone to hear Anthony. Was that a good start to getting a little demo.
+
+
+420
+01:00:29.060 --> 01:00:31.159
+NSG: of having a little conversation there.
+
+
+421
+01:00:31.430 --> 01:00:42.130
+Anthony De Silva: Yeah, absolutely. That was super helpful story changed from oh, I just got it off of Whatsapp to? Oh, no, we actually did some more research. We tried it, this other bunch of
+
+
+422
+01:00:42.760 --> 01:00:45.369
+Anthony De Silva: proxy servers, and then we pick this.
+
+
+423
+01:00:45.930 --> 01:00:59.269
+NSG: So here's the thing. There's a few small things that you all got to see there, right? So one is, if you anchor around the switch moments like, what were you doing before? Oh, data impulse! Okay. And before that you didn't have anything. No, I didn't think I needed anything all of a sudden. Now we have a timeline.
+
+
+424
+01:00:59.590 --> 01:01:27.019
+NSG: right? So we have November, for when he's working on the Startup project, realizing that there's a data need in, in, you know, signing up for data impulse while doing the search. And do he did a deeper search. So it sounds like when he was ready for massive. He already knew a lot about. You know what he was looking for and not looking for, and had some experience with these 5 to 10 users. So there's a whole story that we could. We could tell here. But let's actually do a little bit of a debrief exercise, and I'll do less talking now. So
+
+
+425
+01:01:27.375 --> 01:01:32.710
+NSG: what did we hear with respect to the forces of progress? Was there a push
+
+
+426
+01:01:32.720 --> 01:01:35.760
+NSG: in this situation? Was there any type of push force
+
+
+427
+01:01:36.300 --> 01:01:38.629
+NSG: that you all identified for anchor's story.
+
+
+428
+01:01:39.570 --> 01:01:45.479
+Alex Nativelle: Their customers who said they didn't have. They didn't get the the results.
+
+
+429
+01:01:45.660 --> 01:01:50.670
+NSG: Yeah, he got a text from one of his customers and said, Hey, this isn't working right?
+
+
+430
+01:01:50.990 --> 01:01:52.809
+NSG: Okay? Anything else.
+
+
+431
+01:01:59.340 --> 01:02:10.860
+Ankur Toshniwal: Also want to be clear that one of the big things there is it was actually a customer is someone who's paying us. So I'm like, extremely like, no like you. Your stuff needs to be solved. So that's fair point.
+
+
+432
+01:02:10.860 --> 01:02:12.799
+NSG: Yeah, that's a heck of a push, for sure.
+
+
+433
+01:02:16.330 --> 01:02:18.430
+NSG: No other pushes identified.
+
+
+434
+01:02:20.670 --> 01:02:23.390
+Alex Nativelle: Seems like we should identify others.
+
+
+435
+01:02:23.810 --> 01:02:30.060
+Alex Nativelle: There are that is is the text from his one customer the only push that he had the only thing that drove him to.
+
+
+436
+01:02:30.270 --> 01:02:31.220
+NSG: Change.
+
+
+437
+01:02:31.740 --> 01:02:35.979
+Alex Nativelle: And also, like noticed himself that the websites didn't work
+
+
+438
+01:02:37.170 --> 01:02:42.770
+Alex Nativelle: like he checked the routes. And so that, like 10% of the website didn't did not work.
+
+
+439
+01:02:44.320 --> 01:02:48.249
+Anthony De Silva: I guess, further down, when he had data impulse.
+
+
+440
+01:02:48.530 --> 01:02:49.890
+Anthony De Silva: The pressure is that
+
+
+441
+01:02:50.260 --> 01:02:57.320
+Anthony De Silva: they didn't allow visits to to government websites. So I guess that's kind of a push, too.
+
+
+442
+01:02:57.990 --> 01:02:59.370
+NSG: Sure. Yes.
+
+
+443
+01:03:01.690 --> 01:03:08.030
+Antoine: Yeah, I mean, there was a clear from the get go. He knew that he had the problem.
+
+
+444
+01:03:08.400 --> 01:03:11.499
+Antoine: because that's the reason why he used data in purse.
+
+
+445
+01:03:11.710 --> 01:03:18.659
+Antoine: He he kind of. He discovered it very early on that. He's going to get blocked.
+
+
+446
+01:03:19.730 --> 01:03:25.870
+Antoine: And and then he kind of. He attempted to solve the problem and then realized that it wasn't solved.
+
+
+447
+01:03:27.790 --> 01:03:37.891
+Antoine: so that's kind of the push was, I think it was kind of several several pushes. The interesting piece that that really struck me was
+
+
+448
+01:03:38.520 --> 01:03:49.140
+Antoine: He knew it was important, but it wasn't clear to me that he was kind of measuring the
+
+
+449
+01:03:49.480 --> 01:03:58.260
+Antoine: the kind of whether his solution was working versus that particular criteria, at least not at the beginning.
+
+
+450
+01:03:58.520 --> 01:04:09.690
+Ankur Toshniwal: Yeah, I would. I would add maybe a little bit more color to that. Is that when we have like 5 to 10 users. It's it's it's kind of unclear as to like what is, gonna be the
+
+
+451
+01:04:09.880 --> 01:04:19.860
+Ankur Toshniwal: the composition of requests that people use harvest for. And as that became clear when we scaled up to like maybe 2050 people. Now using the product
+
+
+452
+01:04:21.120 --> 01:04:49.570
+Ankur Toshniwal: patterns start to arise that are like, okay, actually, this is a bigger than just a 5%, 2% problem. This is actually a common use case for some, for our, some, our cohort of users. And as that started to grow. And you know, it's not just a percentage. It's just a raw number, too, like once you have over, you know, 100 web pages being blocked or like 50 web pages being blocked. It's like there's a pattern arising here. It's not just random, because there's other web pages that do get blocked as well.
+
+
+453
+01:04:49.850 --> 01:05:09.230
+Ankur Toshniwal: So the pattern is, there's noise in that in that, and it's not totally clear. But then, when we have a clear signal enough signal that's showing that it's the same thing happening over and over again. There's like, you know, that that's what prompted that, I guess. And so usage of the product also prompted. That was probably, I would say, a push for me as well.
+
+
+454
+01:05:10.630 --> 01:05:13.589
+NSG: Great any pull forces.
+
+
+455
+01:05:14.500 --> 01:05:16.979
+NSG: Was there anything drawing him to a better way.
+
+
+456
+01:05:17.840 --> 01:05:21.289
+Alex Nativelle: In the CEO offering credits no.
+
+
+457
+01:05:21.630 --> 01:05:33.729
+NSG: Yeah, yeah. There was a little bit of a little bit of a tug there. Right? Okay? And then, also, knowing the CEO right of the of the company gives you a lot more kind of credibility, any habits or anxieties.
+
+
+458
+01:05:33.960 --> 01:05:35.370
+NSG: There's something else that I'm thinking.
+
+
+459
+01:05:35.370 --> 01:05:57.299
+Antoine: On the pool on the pool. It was also kind of it was on the Reddit subreddit. It's kind of where he went for expertise, he found the solution. And so there was a lot of social proof, or whatever you want to call it, kind of it, felt like he was talking to a pro, to a professional of his, of his problem.
+
+
+460
+01:05:57.690 --> 01:06:19.789
+NSG: Right. And and I I think it may be important to remind everyone you want to enter the minds of like, think about who would be doing an interview like this? Who would want to interview anchor on this subject? Probably someone who works at massive, probably someone who works at data impulse. Probably someone who's doing some sort of proxy server, similar service or whatnot. Think about what information and insights they're gaining from hearing anchor story.
+
+
+461
+01:06:19.900 --> 01:06:43.729
+NSG: right? It's different than ours, because we're just curious to know one of our fellow class members here. But for one of them they're like, oh, so he's searching Google perplexity. Reddit. He's going to these places. He's evaluating on the website whether there's credibility or trust about what we do or don't do. And why? So you're learning all these things about anchor. And if you interviewed 9 or 10 other people in a similar situation as him who are your potential customers.
+
+
+462
+01:06:43.730 --> 01:06:52.579
+NSG: patterns might emerge with similar insights or different contrasting insights about what it is they're looking to hire it for, and what the trade-offs are.
+
+
+463
+01:06:52.680 --> 01:07:12.580
+NSG: So that's the value of this analysis of having this timeline mapped out of Ankara's journey of knowing since November to now he switched from one product to another, from no product to one product, to potentially a superior product for what he needs it for. But then, on top of that, we understand the forces that are moving him towards saying yes, and the things that are resisting him
+
+
+464
+01:07:12.867 --> 01:07:29.520
+NSG: from from saying yes, and it sounds like the anxiety is price related? That's what I was hearing right? There's a lot of concern right now about pulling back from being on massive because of these pricing issues. So unless that gets addressed, that force of progress is going to pull him backwards or in a different direction.
+
+
+465
+01:07:30.110 --> 01:07:51.020
+NSG: So again, this is like this is a a tougher example, right? A proxy server like higher tools, like a more or niche jobs to be done, Demo. But it sounds like all of you all were with us on that. So I I wanted to thank you all for humoring that process, but that's what essentially a Jtvd interview would be constituted with Antoine. And then Alex.
+
+
+466
+01:07:52.080 --> 01:07:55.719
+Antoine: Yeah. And and the thing that I love about the price is
+
+
+467
+01:07:56.420 --> 01:08:17.389
+Antoine: it's free. It's expensive. There's a solution. And it's basically you want. I I it feels to me that Massive is doing exactly things exactly right. They have a high value price. That kind of conveys the quality of the solution.
+
+
+468
+01:08:17.390 --> 01:08:40.180
+Antoine: Now, Price, is not the issue to get it to try. And the thing that I would do if I were having done this interview is, I would say, Okay, so that means that after 30 days or 60 days I need to do a round of hey? How is that working? Let's talk about kind of the implications for your business model. How can we help you grow as much as possible.
+
+
+469
+01:08:40.189 --> 01:08:53.190
+Antoine: and and and that is super super helpful. And and again, I don't think I would have gotten that level of. I would have said, this is too expensive had I not known the path
+
+
+470
+01:08:53.500 --> 01:09:04.849
+Antoine: versus. Now, I'm thinking, wow, this is exactly the right price, because that was, he actually bought it to a set to to some extent, because it was expensive.
+
+
+471
+01:09:05.729 --> 01:09:13.509
+NSG: Yeah. It gave him a sense of of almost security to know that. Hey? I'm I'm I'm spending big on this. So I know it's gonna work it better work.
+
+
+472
+01:09:13.790 --> 01:09:33.669
+Antoine: Yeah, it's a big, it's a big problem. It's worth paying any price to solve it, because otherwise you're not in business. And then you want to optimize the price. And you want to make sure that you're because at the end of the day there are so many providers that there has to be some providers that are a lot cheaper. But but that, that's
+
+
+473
+01:09:34.050 --> 01:09:42.399
+Antoine: yeah. Really. Again, the the depth on understanding of what, when the price needs to be I think is a kind of
+
+
+474
+01:09:42.830 --> 01:09:46.899
+Antoine: I would have completely missed it with a typical customer interview.
+
+
+475
+01:09:47.540 --> 01:10:11.919
+NSG: That's exactly right. And and I think the pain point here, Antoine, is that it does take effort to have these conversations. A 30 min conversation, unpacking all these nitty, gritty details, and then coding that information manually afterwards. It it feels like this is like, how could I ever, you know, gather enough data for this to be meaningful. That's why it's really important to also, you know, rest it in the fact that you only need to do 10 to 15, if you structure properly.
+
+
+476
+01:10:12.460 --> 01:10:15.780
+NSG: So it's it's a it's a worthy trade-off.
+
+
+477
+01:10:15.990 --> 01:10:16.760
+NSG: Alex.
+
+
+478
+01:10:16.760 --> 01:10:23.390
+Alex Nativelle: Yeah, I wanted to ask about more like the kind of what Antoine started doing, like the implications for massive.
+
+
+479
+01:10:23.390 --> 01:10:24.020
+NSG: Hmm.
+
+
+480
+01:10:24.020 --> 01:10:51.339
+Alex Nativelle: Like during the interview. I had a lot of thinking about like, oh, if I'm massive, I should really educate people, you know, like, because someone as knowledgeable as encore didn't even know about those things before starting right? And so I should probably put like something like most providers do not allow you to scrape through like government websites? We do? Or is it something that you take from this interview, or is it
+
+
+481
+01:10:51.690 --> 01:10:52.220
+Alex Nativelle: way too.
+
+
+482
+01:10:52.220 --> 01:11:09.640
+NSG: Sure. Well, so so again, like I've mentioned this before. But one thing that's dangerous, that you have to be careful of is, and we're doing it now because we're supposed to. So we're doing the right thing as a conversation topic. But usually, when you do one interview you'll do the debrief, and you'll go. Oh, wow! We've got these ideas of we should do it. This we should do that, and we heard this.
+
+
+483
+01:11:09.640 --> 01:11:10.340
+Alex Nativelle: Now.
+
+
+484
+01:11:10.340 --> 01:11:18.509
+NSG: And it's important to wait because you gotta gather the more info, and then you look at it as a as a whole set
+
+
+485
+01:11:18.740 --> 01:11:21.280
+NSG: right? So when you do the the rest.
+
+
+486
+01:11:21.400 --> 01:11:23.250
+NSG: then you get to go. Okay.
+
+
+487
+01:11:23.540 --> 01:11:42.529
+NSG: given this, there's a pattern here around this area around like anxiety of government websites. There's another pattern that exists over here around pricing. And and you know this being a challenge. And then you have a brainstorm that's dedicated to coming up with all the possible ways you can address. You know these needs or these issues, and what the implications could be.
+
+
+488
+01:11:42.630 --> 01:11:46.040
+NSG: So. But yeah, Alex, it happens all the time
+
+
+489
+01:11:46.366 --> 01:11:56.480
+NSG: founders, especially in this program. They'll hear they'll get one good interview. They'll message me and go. Neil. I know you said not to do this. But we're gonna build a new feature now, because we heard this one customer. And they said this thing. And it's really good.
+
+
+490
+01:11:56.810 --> 01:11:59.850
+NSG: So I'm like. You know, just trust the process.
+
+
+491
+01:12:01.750 --> 01:12:07.050
+NSG: It's cool, alright. Well, I think
+
+
+492
+01:12:07.390 --> 01:12:29.536
+NSG: that about covers it. But I figured I pull this up really quick, just to like visualize what I'm talking about and show you all like all the steps and what we talked about. So you all are at this part right here, the screening criteria. There's a little additional detail here in each section. We kind of I, you know. We clipped out some of the stuff that I presented to you all in the presentation, and
+
+
+493
+01:12:30.380 --> 01:12:41.010
+NSG: have it all summarized. So if you go through these steps, you should be fine to do this. And then also everybody on my team is familiar with this process. So if you need any feedback or help.
+
+
+494
+01:12:41.308 --> 01:13:03.781
+NSG: Sylvia Chloe myself can can offer an assist, and then we have a lot of other founders that are at the ready that would love to help you guys as well. So a lot of our Ceos, who evaluated your applications when you apply to techstars and fellow alumni love helping out with jobs to be done, interviews with in program founders. So all you need to do is just let us know what kind of support you need, and we're down for it. But
+
+
+495
+01:13:04.260 --> 01:13:05.760
+NSG: yeah, this is like.
+
+
+496
+01:13:06.010 --> 01:13:24.509
+NSG: this is my secret weapon, guys. So I hope this was a good introduction to it. I hope you feel encouraged to utilize it to its full extent. Like I said, I have companies that are valued at tens of millions of dollars now that are much further along and have dozens. If some in one case a hundred employees
+
+
+497
+01:13:24.510 --> 01:13:44.190
+NSG: and they're just now getting serious about jobs and realizing how important and valuable this was to implement earlier on. So the sooner you all can like. Take this seriously and incorporate it into how you run your business, I think the better off you'll be, and the more confident you'll be to navigate discussing your customer insights with investors and other stakeholders.
+
+
+498
+01:13:47.900 --> 01:13:49.330
+NSG: So now you know jobs
+
+
+499
+01:13:50.085 --> 01:13:59.719
+NSG: so roughly you don't quite know it. But now you know how to go, practice it and apply it, and then you meet with me afterwards, and we do our analysis together. Then I can tell you if you know it.
+
+
+500
+01:14:00.292 --> 01:14:06.230
+NSG: But yeah, that's I think that's it. Is there anything else to cover Chloe, or did we end super duper early.
+
+
+501
+01:14:07.260 --> 01:14:09.010
+Chloe Lannert: Alright. I think we're good.
+
+
+502
+01:14:09.150 --> 01:14:13.140
+NSG: I think we crushed it. Okay, any final questions about this guys.
+
+
+503
+01:14:15.846 --> 01:14:16.820
+Andrew Fernandes: Yeah. So
+
+
+504
+01:14:17.530 --> 01:14:26.130
+Andrew Fernandes: what are tips on kind of condensing it? Because I I like, I'm not disputing the usefulness. But I I worry that, particularly for some clients
+
+
+505
+01:14:26.240 --> 01:14:30.919
+Andrew Fernandes: customers they won't want to spend this much time going that deep.
+
+
+506
+01:14:31.740 --> 01:14:34.189
+NSG: It takes about 20 min. If you're good at it.
+
+
+507
+01:14:34.690 --> 01:14:45.380
+NSG: It's a 20 min conversation. Typically now, I recommend scheduling 30, because when you're starting. You probably won't be as good, so you'll have to learn how to drive the conversation properly.
+
+
+508
+01:14:45.500 --> 01:14:48.759
+NSG: But if you are good it's about a 20 min call
+
+
+509
+01:14:49.290 --> 01:14:52.370
+NSG: 20 to 25. Yeah, that's what I would say.
+
+
+510
+01:14:52.570 --> 01:14:54.300
+NSG: But, Andrew, just to be clear.
+
+
+511
+01:14:54.500 --> 01:14:58.389
+NSG: it's worth it, man, like, even if it is 1 h each.
+
+
+512
+01:14:58.750 --> 01:15:00.170
+NSG: It's worth it
+
+
+513
+01:15:00.320 --> 01:15:20.779
+NSG: like you and and you, you're gonna have to take my word for it until you do it yourself. But I know when you do it on the other end. There's never been a time where someone told me. Hey, this jobs to be done thing you made me do didn't work. I hate it like. Why, why did you make me do this? There's better ways to do it like I've literally never heard that in my entire life. So I I guarantee this as a value. Add for you.
+
+
+514
+01:15:21.890 --> 01:15:30.880
+Andrew Fernandes: I totally believe that. Yeah. Actually, I didn't time. How long? The 25 min? Yeah.
+
+
+515
+01:15:31.330 --> 01:15:35.389
+Andrew Fernandes: Okay, 20 min. 25 is totally doable. I think most people will be fine with that.
+
+
+516
+01:15:41.860 --> 01:15:49.720
+NSG: great. Okay? Well, I think what's happening next is we've got a session tomorrow, I think that Sylvia is going to be leading
+
+
+517
+01:15:50.310 --> 01:15:57.339
+NSG: that'll be great. And then I'm excited to meet you all in real life. That'll be fun next week.
+
+
+518
+01:15:58.510 --> 01:16:03.720
+Chloe Lannert: Yeah, along with the Sylvia session. We've got our founder welcome call with David Cohen. If you want.
+
+
+519
+01:16:03.720 --> 01:16:04.870
+NSG: Oh, yeah.
+
+
+520
+01:16:04.870 --> 01:16:09.280
+Chloe Lannert: Bean, virtually, before he shows up, buys us dinner in a couple weeks.
+
+
+521
+01:16:09.280 --> 01:16:20.989
+NSG: That's a global call. That's with all the techstars program. So that's cool. Yeah, I think people are gonna be interested in knowing the the techstar. San Francisco founders so definitely represent us. Well, on that call, if you have a chance to
+
+
+522
+01:16:21.250 --> 01:16:24.080
+NSG: ask a question, ask a thoughtful question.
+
+
+523
+01:16:26.220 --> 01:16:26.750
+Chloe Lannert: Yeah.
+
+
+524
+01:16:28.850 --> 01:16:51.370
+NSG: All right. Y'all. Well, I will drop in at some point this week. My voxer link into your basecamp projects. Some of you have already found me on voxer, which is great. So if you want to start having conversations, I'm available for that. We're also available in basecamp. If you want to get any feedback or dig in anything. I have it on my list to get back to those of you who did submit your screening criteria in the thread.
+
+
+525
+01:16:51.480 --> 01:17:07.829
+NSG: So, Vivian Antoine, a bunch of you did it. So just know that I I do plan on following up with you all about my feedback there. But going forward. If you want to engage with me on jobs to be done, go through the the checklist, and underneath each of the to do's is a comment, the ability to to comment on it.
+
+
+526
+01:17:07.980 --> 01:17:17.409
+NSG: I'm tagged on those comment threads. So I will be with you any any step along the way that you would like to that, you would have me. So let's also do that as a next step.
+
+
+527
+01:17:18.990 --> 01:17:19.820
+NSG: sweet.
+
+
+528
+01:17:20.630 --> 01:17:21.530
+NSG: See you later.
+
+
+529
+01:17:21.530 --> 01:17:22.207
+Alex Nativelle: Have a good day, guys.
+
+

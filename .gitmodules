@@ -1,0 +1,6 @@
+[submodule "labs/kane/codebase"]
+	path = labs/kane/codebase
+	url = https://github.com/kateleext/kane.git
+[submodule "labs/hashi/codebase"]
+	path = labs/hashi/codebase
+	url = https://github.com/kateleext/hashi.git

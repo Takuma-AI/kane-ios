@@ -1,0 +1,2970 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.660
+NSG: What's that?
+
+2
+00:00:02.490 --> 00:00:03.020
+Alex Nativelle: Oh!
+
+3
+00:00:03.653 --> 00:00:08.089
+Ankur Toshniwal: well, okay, I I think alright. What we'll do. What I'll do is I'll
+
+4
+00:00:08.920 --> 00:00:28.080
+Ankur Toshniwal: give you kind of high level of what we're trying to cause. I think that I think the from the demo day pitches you showed us the biggest one. The biggest thing I saw is that the best ones had a complete narrative through the whole thing through all 3 parts. And I think actually for us, mapping out that whole narrative brings the product demo into context. And that's actually.
+
+5
+00:00:28.100 --> 00:00:31.389
+NSG: Sure let's do it, whatever is most helpful to you. Let's talk about that.
+
+6
+00:00:31.390 --> 00:01:01.319
+Ankur Toshniwal: So I'll I'll throw. I'll talk through at least that high, level narrative. And then Andrew can take a second to go talk about the actual product demo itself. And then we'll kind of go from there. So essentially, the opening and like, what is our objective? Our objective is to illustrate the unique pain points that software teams face when they're trying to deliver insights from unstructured web data like to their customers and then demonstrate our unique insight from a sales and kind of
+
+7
+00:01:01.630 --> 00:01:13.392
+Ankur Toshniwal: targeting perspective, of going after insights, providing teams that are providing insights rather than teams that are consuming insights. Our objective is to like showcase those things in the opening as like,
+
+8
+00:01:14.050 --> 00:01:16.390
+Ankur Toshniwal: what have we kind of? Both
+
+9
+00:01:16.530 --> 00:01:27.401
+Ankur Toshniwal: understood the pain point of this workflow that other people don't really know about like sh! Show the insight. Show the secret that we've discovered and show
+
+10
+00:01:29.030 --> 00:01:47.379
+Ankur Toshniwal: how we have discovered the way to approach it like, how? How we're gonna actually penetrate it. And like who who to actually target through it in the opening, I guess, is like, that's kind of like the objective of it outside of introducing ourselves. And and you know the the company as a whole. So that's kind of like the point of the intro for us. I think.
+
+11
+00:01:47.490 --> 00:01:52.610
+NSG: So can you just restate that as simply as you can, just to make sure I can wrap my head around it.
+
+12
+00:01:52.610 --> 00:01:57.239
+Ankur Toshniwal: Illustrate the unique pain points for the teams that we're solving this problem for.
+
+13
+00:01:57.470 --> 00:02:02.390
+Ankur Toshniwal: and then demonstrate the unique insight that we have on how to approach, targeting them.
+
+14
+00:02:02.390 --> 00:02:05.709
+NSG: Okay, got it. Got it? Here's who we help. Here's our unique insight.
+
+15
+00:02:06.120 --> 00:02:06.530
+Ankur Toshniwal: That's.
+
+16
+00:02:06.530 --> 00:02:07.380
+NSG: Minute, one.
+
+17
+00:02:07.530 --> 00:02:08.199
+Ankur Toshniwal: Yep.
+
+18
+00:02:08.419 --> 00:02:08.889
+NSG: Okay.
+
+19
+00:02:08.889 --> 00:02:20.069
+Ankur Toshniwal: Do is showcase how our product fits into the software teams, internal workflows like, who is the user and how it actually works in real time
+
+20
+00:02:20.389 --> 00:02:25.399
+Ankur Toshniwal: and then show it side by side, crushing basically perplexity and chat gpt in a in that way.
+
+21
+00:02:25.400 --> 00:02:27.960
+NSG: You. You want to do like a head on comparison.
+
+22
+00:02:28.440 --> 00:02:29.660
+Ankur Toshniwal: Yeah, we.
+
+23
+00:02:29.660 --> 00:02:30.090
+NSG: Okay.
+
+24
+00:02:30.090 --> 00:02:31.010
+Ankur Toshniwal: Yeah, yeah, we would think.
+
+25
+00:02:31.010 --> 00:02:33.010
+NSG: Yeah, what you found has been the most effective.
+
+26
+00:02:33.360 --> 00:02:35.479
+Ankur Toshniwal: It's the biggest question that's on people's minds.
+
+27
+00:02:35.480 --> 00:02:40.140
+NSG: Got it. Got it. So you're kind of removing that big question mark that people have about it.
+
+28
+00:02:40.839 --> 00:02:41.189
+Ankur Toshniwal: and.
+
+29
+00:02:41.190 --> 00:02:52.520
+NSG: The other the other temptation. The only reason I'm asking you that is, the other temptation is to maybe not focus as much on competitors, but instead deliver like an example of like real value.
+
+30
+00:02:52.650 --> 00:02:58.439
+NSG: like a real use case that's very, very powerful and helpful. You could do the same like. Maybe at the same time you could probably.
+
+31
+00:02:58.440 --> 00:03:21.940
+Ankur Toshniwal: We'll do it at the same time, and we'll keep. We'll keep the competitors short. And yeah. So our our thought process is we would just upfront again, introduce the problem upfront, show perplexity, chat, gpt, don't do this to show it, crash and burn, and then go right into the demo of what harvest does, and then show the consequence for the business, the the results for the business, and the customer of using harvest.
+
+32
+00:03:22.298 --> 00:03:51.880
+Ankur Toshniwal: How much it simplifies the workflow. We'll introduce how long they spend on it. We'll show in the workflow what harvest does, how short it is, and then briefly show the consequence to them, the consequences being the final endpoint of where it shows up in the product for the user, for the customer, for our customer, how it has improved their final product like, that's the main thing, right for sales play. We want to show this is the before harvest of sales play, and then the after of sales play with with harvest.
+
+33
+00:03:52.260 --> 00:03:54.549
+Ankur Toshniwal: and how much time it we save them.
+
+34
+00:03:56.350 --> 00:03:57.269
+NSG: Has something to say.
+
+35
+00:03:57.270 --> 00:04:00.169
+Alex Nativelle: Yeah, I kind of agree with, like Neil. And I want
+
+36
+00:04:00.440 --> 00:04:04.199
+Alex Nativelle: I would challenge you like the. The 1st thing that comes to mind is like
+
+37
+00:04:04.430 --> 00:04:16.940
+Alex Nativelle: your speech is, we are not competitors of chatgpt and publicity. Here's why. And if you come back to the product Demo showing, hey? We don't do the same as this like, are you competitors or not like? I don't understand.
+
+38
+00:04:18.180 --> 00:04:20.749
+Alex Nativelle: You know what I mean. That's why I want to challenge that.
+
+39
+00:04:22.160 --> 00:04:48.920
+Ankur Toshniwal: Yeah, it makes sense. I think the way we we would wanna maybe phrase it in that demo part. And we can work it out. Also, if, yeah, if it feels like, actually, it's not needed, I'm down to next it. I think the main thing we would want to show is what has failed. These customers like they've tried these things, and that's why they've failed. Rather. Why, why, this workflow is needed rather than It being like, okay.
+
+40
+00:04:49.390 --> 00:04:54.750
+Ankur Toshniwal: you just want to show like, why, you guys are like, slightly better than.
+
+41
+00:04:54.750 --> 00:04:55.160
+Alex Nativelle: Yeah.
+
+42
+00:04:55.160 --> 00:05:06.439
+Ankur Toshniwal: It's that they've tried. Our customers use perplexity and chat, gpt, and it still takes them 7 to 10 h to do their work. So the reason why that is is because it doesn't do what they need.
+
+43
+00:05:06.770 --> 00:05:25.029
+Alex Nativelle: Okay. So I guess I think it comes down to like how you present it. And so for me, it's like, your topic is kind of hard to understand, right? Like you're having difficulty with the timeline, etc. Because this is not a something you you find out in something. So in a 1 min product video. I would love to see like this in action. What are we
+
+44
+00:05:25.419 --> 00:05:45.690
+Alex Nativelle: doing? Exactly to help those people? And then if you come back to like. Oh, they've tried this and this and this, and it hasn't worked. And here we come. Then I'm like, all right, and then Chatgpt and can be a part of the things that they've tried rather than showing them side by side, which means, like, you're conf like directly facing them. You know what I mean.
+
+45
+00:05:45.690 --> 00:05:51.780
+Ankur Toshniwal: Yeah, also, just time. Wise, I'm thinking. Now, we have a we have 60 seconds. I don't know if it's best spent showcasing our competitors.
+
+46
+00:05:52.030 --> 00:05:57.760
+Ankur Toshniwal: Yeah, yeah, I don't know. It's it's a good. It's a good good feedback. We'll we'll we'll we'll storyboard it a little bit.
+
+47
+00:05:57.760 --> 00:06:02.420
+NSG: Try both. See how it feels. Right? We can. We can fill it out. Okay?
+
+48
+00:06:02.780 --> 00:06:06.190
+NSG: And that would be back. You guys want or reactions to anything you want to share more.
+
+49
+00:06:09.810 --> 00:06:18.159
+Carlo Scaglia: I was just gonna add, also lined with Alex's point, is that a bit what I wrote on your website as well? And this is what if you guys want, I can help a little bit with, like
+
+50
+00:06:18.300 --> 00:06:22.739
+Carlo Scaglia: the storyboarding of a video and how you can frame it in 60 seconds. But
+
+51
+00:06:23.020 --> 00:06:33.349
+Carlo Scaglia: I wouldn't go as neck to neck with the competitors. But it's just painting. The pictures like this is what's happening now, and these are the solutions that are being used now.
+
+52
+00:06:33.650 --> 00:06:37.460
+Carlo Scaglia: which still means people have to suffer this problem.
+
+53
+00:06:37.870 --> 00:06:42.929
+Carlo Scaglia: We're creating a different world like a different reality. Where
+
+54
+00:06:43.730 --> 00:06:54.470
+Carlo Scaglia: it's this only problem that we're addressing right? So you don't focus about everything else, and, like you don't try to go into like a checklist thing of what
+
+55
+00:06:54.750 --> 00:06:57.529
+Carlo Scaglia: Chat Gpt does and what harvest does? It's like.
+
+56
+00:06:57.810 --> 00:07:01.149
+Carlo Scaglia: this is one reality. Harvest is creating
+
+57
+00:07:01.380 --> 00:07:03.460
+Carlo Scaglia: a different reality. So you shouldn't
+
+58
+00:07:03.670 --> 00:07:08.690
+Carlo Scaglia: compete about this. And it's like the examples that I was making with the website. Feedback is like
+
+59
+00:07:08.840 --> 00:07:15.799
+Carlo Scaglia: Turo versus Hertz, like, even though they're both car rentals, there are different realities, or like Airbnb and booking.com
+
+60
+00:07:16.050 --> 00:07:19.759
+Carlo Scaglia: sorry. Different realities. They don't go head to head, so I think it's like
+
+61
+00:07:20.060 --> 00:07:25.020
+Carlo Scaglia: I can. I can help with this one. That's what I was saying, for like a Thursday session, if you guys want just to how to like.
+
+62
+00:07:25.590 --> 00:07:26.800
+Carlo Scaglia: create the right narrative.
+
+63
+00:07:26.800 --> 00:07:47.310
+Ankur Toshniwal: Definitely want to position ourselves orthogonally to them. Right? Not as like separate as like as like competitors. Really, it's like, actually, we just solve a different thing, and it would be very useful to help to help us put into perspective the other companies, not as a means of hey like, look how much better we are. It's just
+
+64
+00:07:47.390 --> 00:08:05.144
+Ankur Toshniwal: in perspective of how different we are, how like we're just solving a different thing. And if that means not including them. Then game for that, too, and that would be really helpful. Carlo. Appreciate it. I think the. And then okay, just to close the loop. The last half is going to be kind of hard questions about
+
+65
+00:08:05.950 --> 00:08:32.320
+Ankur Toshniwal: why won't other 1 billion dollar companies go do these things and kind of at least like our our answers to those. Alex has helped us a lot with kind of some of that is, you know, Openai is pursuing Agi. This is a very niche, very specific workflow that you have to go deep into a company to understand. And, you know, like answering, making sure we have good answers to some of those really important questions is what the latter half will be. So
+
+66
+00:08:32.600 --> 00:08:34.259
+Ankur Toshniwal: our unique insight.
+
+67
+00:08:35.020 --> 00:08:44.096
+Ankur Toshniwal: how we provide a unique or a compressed workflow that really solves a concrete problem for insights, providers, and then
+
+68
+00:08:45.210 --> 00:08:54.549
+Ankur Toshniwal: Why, we why, we believe we're both the right team to do it. And what's the you know why other people won't necessarily do it, or what our answer is to that, at least.
+
+69
+00:08:58.560 --> 00:09:00.459
+NSG: Any final thoughts or comments.
+
+70
+00:09:01.460 --> 00:09:09.410
+NSG: I thought it was interesting in the in the chat thread with Chloe and Alex. I I agree that's where my head went immediately as well. When I heard you describe
+
+71
+00:09:09.853 --> 00:09:13.800
+NSG: that encore, it was like, if you talk about the head to head.
+
+72
+00:09:14.230 --> 00:09:24.670
+NSG: it's and it may be too much of a leap for for any layman, but, like usually they go. Okay. Well, they don't do what you're saying. You do better now, but they will.
+
+73
+00:09:25.730 --> 00:09:34.819
+NSG: so I'm sure you get that a lot. So you know how to deal with that and address that, and sounds like a great tee up for a QA conversation right off the bat. But things to work through with. You guys.
+
+74
+00:09:35.130 --> 00:09:35.800
+Ankur Toshniwal: Nice.
+
+75
+00:09:39.066 --> 00:09:41.250
+Andrew Fernandes: Apologies. We wanted to.
+
+76
+00:09:41.250 --> 00:09:41.790
+Ankur Toshniwal: No.
+
+77
+00:09:42.290 --> 00:09:49.240
+Ankur Toshniwal: I won't be able to join for the rest. But if you guys want to ping us offline or meet offline, we're happy to after tomorrow afternoon.
+
+78
+00:09:49.240 --> 00:09:50.890
+NSG: Your 1 billion dollar customer.
+
+79
+00:09:51.290 --> 00:09:53.480
+Ankur Toshniwal: Alright, we'll do our best. Alrighty.
+
+80
+00:09:53.660 --> 00:09:55.660
+Ankur Toshniwal: Let's crush. Okay, thanks, guys. See? You.
+
+81
+00:09:55.660 --> 00:09:56.740
+NSG: Who's up next.
+
+82
+00:09:59.380 --> 00:10:00.350
+Carlo Scaglia: I'm happy to go.
+
+83
+00:10:00.960 --> 00:10:01.909
+NSG: Let's do it.
+
+84
+00:10:04.080 --> 00:10:05.830
+Carlo Scaglia: Obviously, I made a presentation.
+
+85
+00:10:08.170 --> 00:10:08.950
+Carlo Scaglia: So.
+
+86
+00:10:09.470 --> 00:10:11.560
+NSG: Any prepared, fond, or would.
+
+87
+00:10:15.070 --> 00:10:16.820
+Carlo Scaglia: Alright cool. So
+
+88
+00:10:18.140 --> 00:10:28.840
+Carlo Scaglia: kind of my my goal with Demo Day is not not after funding, and things like that, but it's really to attract clients, creators, and rally people to our cause
+
+89
+00:10:29.250 --> 00:10:41.129
+Carlo Scaglia: something as a secondary thing. Obviously, we don't wanna go and spend too much money or anything like that on on the demo day part. But I still wanna look wanted to look nice, because for me it gives me 3 core assets. One of them is like
+
+90
+00:10:41.310 --> 00:10:53.710
+Carlo Scaglia: a 1 min video that I can use for website or any other form of assets. The other one is also like my pitch, and then the Q. And a session that could be an interesting like FAQ. Section. So I still wanted to like, look good and be nice
+
+91
+00:10:53.900 --> 00:10:58.880
+Carlo Scaglia: personally. For me, it's about impact and inspiration that are just about information.
+
+92
+00:10:59.080 --> 00:11:06.320
+Carlo Scaglia: So I've divided up the approach into 3 sections, one of them being like the 1st video is really what the video I start with the video.
+
+93
+00:11:06.740 --> 00:11:10.660
+Carlo Scaglia: and that one is a tee up exhaustion. Obviously showcase what it is.
+
+94
+00:11:11.050 --> 00:11:23.780
+Carlo Scaglia: but create a sense of inspiration behind it. The 1 min picture pitch is a clarification as to what we do, and then the QA. Is to go into a little bit more detail as well. So this for me, is mainly the
+
+95
+00:11:24.220 --> 00:11:29.429
+Carlo Scaglia: The presentation for for the video to set the scene I want to stop by.
+
+96
+00:11:29.800 --> 00:11:38.219
+Carlo Scaglia: It's resetting the scene, and I want to start it with the notion that it's the stories that we tell and the passions that we share that allow us to connect
+
+97
+00:11:38.400 --> 00:11:44.220
+Carlo Scaglia: the goal of this part is to position kind of passion as the main connector, as like the hidden hero.
+
+98
+00:11:44.870 --> 00:11:58.669
+Carlo Scaglia: and then go into creating the fight, in other words, saying that, like true passion, has been drowned out by the flood of empty content that we see every day. Now the goal isn't to position. Social media is bad, but rather it's just showing that
+
+99
+00:11:58.820 --> 00:12:05.920
+Carlo Scaglia: the content that we see and that most brands are trying to fight against is very hollow, and it fails to to connect.
+
+100
+00:12:06.320 --> 00:12:11.830
+Carlo Scaglia: and that we all know there's something deeper. We just don't know what it is, and we don't know why it is.
+
+101
+00:12:12.270 --> 00:12:17.549
+Carlo Scaglia: and so exordious kind of creating this new world. What I was trying to tell the harvest guys
+
+102
+00:12:17.750 --> 00:12:27.449
+Carlo Scaglia: answering like, what if there is like a definitive space where creators that are obsessed about their craft can can thrive right, and the goal of this scene is to hint of this new world.
+
+103
+00:12:27.630 --> 00:12:31.399
+Carlo Scaglia: while my passion and raw talent thrive above anything else.
+
+104
+00:12:31.900 --> 00:12:35.570
+Carlo Scaglia: and to show there is a possibility to create content that connects.
+
+105
+00:12:35.820 --> 00:12:42.080
+Carlo Scaglia: And then we kind of hint at the different possibilities. And it's like, look. All of these people can come together to create
+
+106
+00:12:42.250 --> 00:12:45.190
+Carlo Scaglia: incredible content, ridiculously easy.
+
+107
+00:12:45.460 --> 00:12:55.059
+Carlo Scaglia: And the goal is to establish how passion can drive content that inspires action. And that's exactly what brands want. And that's exactly what they're after.
+
+108
+00:12:55.640 --> 00:13:22.310
+Carlo Scaglia: We wrap that up by showing how it's all made possible through the platform, especially because now we just got our hands on the staging environment. That includes also chats, contracts, and payments. So if we can show how it's an all in one place. And so we show to potential clients that this is not just like a romanticized dream. State like this is a tangible weapon that you can have, and you can use. And you can access right now
+
+109
+00:13:23.050 --> 00:13:25.830
+Carlo Scaglia: and then. We sort of like wrap it up with
+
+110
+00:13:26.060 --> 00:13:29.120
+Carlo Scaglia: an existential question around phone. It's like whether
+
+111
+00:13:30.280 --> 00:13:37.920
+Carlo Scaglia: you want to fit in or stand out. And naturally people gravitate towards the standing out part. And that's where it's already comes in.
+
+112
+00:13:38.510 --> 00:13:44.619
+Carlo Scaglia: So that was my process and thoughts around the video.
+
+113
+00:13:48.050 --> 00:13:59.620
+Alex Nativelle: I think I would like to have a goal a bit more clearly defined. So I think I know we talked about this. So I wanted just to say, Is it like an because the people
+
+114
+00:13:59.780 --> 00:14:09.020
+Alex Nativelle: in the event are probably not going to be your clients rights? So is this like you want to have the video as an asset to like website or showing to people.
+
+115
+00:14:09.140 --> 00:14:12.030
+Alex Nativelle: I think that what what was understood but.
+
+116
+00:14:12.030 --> 00:14:14.139
+NSG: They're gonna have connections to his clients, though.
+
+117
+00:14:14.140 --> 00:14:14.820
+Alex Nativelle: Hmm.
+
+118
+00:14:15.170 --> 00:14:20.000
+NSG: For sure, there's at least gonna be a few people in the room that could introduce them to the potential customer. I bet.
+
+119
+00:14:20.210 --> 00:14:23.189
+Carlo Scaglia: Yeah. And it's exactly that. And I think
+
+120
+00:14:24.220 --> 00:14:31.520
+Carlo Scaglia: it. It needs to be that kind of thing where people understand it. That's probably a lot of like follow up questions that they want to have.
+
+121
+00:14:31.680 --> 00:14:37.390
+Carlo Scaglia: But their meat association is like this is the gateway for creating
+
+122
+00:14:38.360 --> 00:14:45.200
+Carlo Scaglia: through content that connects, and probably someone in that audience thinks like, Oh, I know someone that works in a brand. I know someone that works in agency
+
+123
+00:14:45.340 --> 00:14:55.139
+Carlo Scaglia: that needs this kind of solution. And because the positioning of it is quite high level, they'll be like, Okay, this is good stuff, right? This isn't. This isn't fiver or something like that.
+
+124
+00:14:57.103 --> 00:15:01.349
+Meg Hall: Carla, can I give a small piece of feedback? I think.
+
+125
+00:15:01.640 --> 00:15:15.860
+Meg Hall: But when I listened to that it sounded more like a social media media network for creators. It didn't sound like it was an online place for me to find videographers and producers in every single region.
+
+126
+00:15:15.960 --> 00:15:30.119
+Meg Hall: So I would kind of maybe be a little bit more focused on, like what's in it for the people who are your your buyers and customers, because it's not that they're trying to join a community. It's that they want to be able to.
+
+127
+00:15:30.770 --> 00:15:38.340
+Meg Hall: you know, find like they probably have more tactical need, which is, they need a buyer, a photographer in a certain region, right? So I think, like
+
+128
+00:15:38.500 --> 00:15:43.910
+Meg Hall: being a little bit more focused on, less, on the less on the Grant vision, and more on, like
+
+129
+00:15:44.060 --> 00:15:45.540
+Meg Hall: what you help them. Do.
+
+130
+00:15:46.950 --> 00:16:04.669
+Carlo Scaglia: So I think, for for this one, and thanks for the feedback, it is something considered, and this is how I approached it, that yes, there is obviously the need around it. But for me, I wanted the video to be more the sense of inspiration. Because a big part when it comes to content is the authenticity and the ability to
+
+131
+00:16:04.920 --> 00:16:16.179
+Carlo Scaglia: like the relatability to an industry. And then this is followed by, like the 1 min pitch where it would be like like, this is the platform. We can find all the people. So I go into the clarification right after. But I wanted
+
+132
+00:16:16.680 --> 00:16:20.529
+Carlo Scaglia: the 1st 1 min to kind of hit hard and
+
+133
+00:16:20.910 --> 00:16:27.199
+Carlo Scaglia: leave a bit of a wow factor. And that's why I also wanted to have the platform towards the end, but, like
+
+134
+00:16:27.340 --> 00:16:34.649
+Carlo Scaglia: ties of everything in together, be like. This is a platform where you can connect and find the best possible people.
+
+135
+00:16:37.310 --> 00:16:40.709
+Meg Hall: Sorry can we clarify? Is the video 1 min or 2 min.
+
+136
+00:16:41.010 --> 00:16:41.730
+Carlo Scaglia: What minute.
+
+137
+00:16:43.140 --> 00:16:44.680
+Meg Hall: Okay. Sorry. Okay.
+
+138
+00:16:57.280 --> 00:17:00.600
+NSG: Any other thoughts, comments, or feedback for Carlo.
+
+139
+00:17:01.950 --> 00:17:13.909
+Alex Nativelle: I think, like I'm I'm this is more like a question. I feel like one of the things that are impressive about you is is, you know where you are right now with the business that goes really well, and I think you haven't talked about that.
+
+140
+00:17:13.920 --> 00:17:41.140
+Alex Nativelle: I'm like this is helpful more for investor, maybe, but also that it adds credibility to who you are, and people are going to probably be wondering about that. So I don't know if you want to put that into the Q&A part. But I feel like just a little sentence about like what you've done, or maybe just showcasing, like one of the production that you've seen. I've I've seen one like this morning that was quite awesome. So I'm maybe just integrate this into the message that people are like, oh, this sounds great. He has great vision. Oh, yeah.
+
+141
+00:17:41.403 --> 00:17:47.199
+Alex Nativelle: What's his credibility? Oh, yeah, he works with a lot of times cool. Yeah, I can connect it because he has credibility.
+
+142
+00:17:47.300 --> 00:17:49.070
+Alex Nativelle: Just a thought in my mind.
+
+143
+00:17:49.780 --> 00:17:50.159
+Carlo Scaglia: Yeah,
+
+144
+00:17:51.200 --> 00:17:56.559
+Carlo Scaglia: that's probably one thing I didn't convey as well. And it's like, this is where I want to separate. The things like this for me is the video.
+
+145
+00:17:56.850 --> 00:18:02.449
+Carlo Scaglia: And I, the video for me is one asset, and then it's followed by like this, 1 min pitch from like.
+
+146
+00:18:02.700 --> 00:18:26.009
+Carlo Scaglia: And over the past year we've worked with like XY and Z. Clients, because if I start listing those in the video and then maybe we got a cooler client. I wanna list. I have to go back and change the whole video. And in the part in the section that was talking about showcasing the possibilities. That's where we start like adding snippets of our work. And I know in that presentation, like, it was the 3 second video. So it didn't quite show. But
+
+147
+00:18:26.600 --> 00:18:37.180
+Carlo Scaglia: I want to showcase all the different parts of the campaigns that we've done to have like a wild fact around it. And then in the 1 min pitch I'm like, look! And we've worked with like with Airbnb, with sky scanner, Zurich insurance. We've worked across like
+
+148
+00:18:37.320 --> 00:18:39.900
+Carlo Scaglia: Portugal, Indonesia, Malaysia, Hong Kong
+
+149
+00:18:40.140 --> 00:18:48.499
+Carlo Scaglia: career doesn't matter where, and that's why I use the pitch to like. Show the depth of clients and kind of the breadth of locations
+
+150
+00:18:48.740 --> 00:18:49.920
+Carlo Scaglia: that we cover.
+
+151
+00:18:51.890 --> 00:18:52.710
+Chloe Lannert: Yeah, I think you can.
+
+152
+00:18:52.710 --> 00:18:54.429
+Meg Hall: Just throwing out one more idea.
+
+153
+00:18:55.737 --> 00:18:56.509
+Chloe Lannert: Yeah. Go ahead.
+
+154
+00:18:58.010 --> 00:19:21.409
+Meg Hall: Okay. I was just gonna say, if I were you, Carlo, I would do an actual customer case study from like Airbnb and like, have a videographer video them and say, like, Oh, this is actually you shot with exorty. But like, maybe, as they're talking about their experience, and how you guys helped have, like the video on top of them like the overlay, actually be your network, you know, like your platform.
+
+155
+00:19:25.100 --> 00:19:26.860
+Carlo Scaglia: Yeah, that's a good idea.
+
+156
+00:19:29.580 --> 00:19:35.159
+Chloe Lannert: Slightly alternative perspective that you don't have to take. I think you can get away with the video just being memorable
+
+157
+00:19:35.440 --> 00:19:39.589
+Chloe Lannert: and getting people's attention and just being really, really beautiful. Obviously, they're
+
+158
+00:19:39.640 --> 00:20:05.460
+Chloe Lannert: has to be more narrative in there. But if like for your background slide during the QA. You put up a bunch of Logos there? As long as people understand like the vision. And then how the platform works. That's 1 thing that's really hard to articulate outside of visually. I think that'll set you up for a really good Q&A. Where you can dive in and and pitch as well where you can dive into the. This is what we've done on the business side. I will say. I
+
+159
+00:20:05.610 --> 00:20:16.330
+Chloe Lannert: think you'll have to do a bit more sort of audience education about how this content production thing works. I think people have this idea of like, what working with influencers look looks like. And you might have to
+
+160
+00:20:16.640 --> 00:20:27.330
+Chloe Lannert: teach the audience a bit more about what those negotiation looks look like, what the stakeholders are like. You'll have to outline that a little bit. But
+
+161
+00:20:28.180 --> 00:20:32.889
+Chloe Lannert: yeah, just another. You don't have to take it. But another perspective.
+
+162
+00:20:33.340 --> 00:20:43.619
+Carlo Scaglia: No, I like personally like that perspective, because it gives me like 3 approaches between video pitch and QA. To kind of like work my way through those, especially in a way that
+
+163
+00:20:43.820 --> 00:20:50.690
+Carlo Scaglia: builds up the education piece, I think, in the audience. Rather than kind of like word vomiting everything at once.
+
+164
+00:20:50.980 --> 00:20:58.110
+Carlo Scaglia: It's like, here's something cool. Here's a pitch to give a bit more substance. Here's a Q&A to add the cherry on top with the understanding.
+
+165
+00:21:02.050 --> 00:21:11.410
+NSG: What do you want? The few people in the room that are gonna help you get connected to potential customers or clients to retain and say about you afterwards.
+
+166
+00:21:15.620 --> 00:21:20.569
+Carlo Scaglia: The immediate part. I want them to understand that exhort is directly tied to content
+
+167
+00:21:20.710 --> 00:21:28.149
+Carlo Scaglia: creation, obviously through a platform, and it's very easy, and all the benefits. But I want them to understand that this is like a different league, right? Like.
+
+168
+00:21:28.570 --> 00:21:33.429
+Carlo Scaglia: I think Alex also saw on the productions that we just did. And it's like the outcome
+
+169
+00:21:33.560 --> 00:21:43.300
+Carlo Scaglia: done at that speed done at that budget is something that no agency, no other platform can compete with.
+
+170
+00:21:43.430 --> 00:21:45.959
+Carlo Scaglia: And they're like, Okay, they're like.
+
+171
+00:21:46.300 --> 00:21:49.220
+Carlo Scaglia: these guys are the top dogs in this. It's kind of like.
+
+172
+00:21:49.380 --> 00:21:56.140
+Carlo Scaglia: I always make this example. But it's like when rebel shows up to an event. You're like, okay, the best in class. This isn't
+
+173
+00:21:56.280 --> 00:22:01.200
+Carlo Scaglia: just some drink. It's Red Bull in the house. And that's what I want people to come away.
+
+174
+00:22:01.200 --> 00:22:01.550
+Carlo Scaglia: Okay.
+
+175
+00:22:01.550 --> 00:22:02.130
+Carlo Scaglia: Audio.
+
+176
+00:22:02.470 --> 00:22:07.839
+NSG: So yeah, if it's a if it's a quality like kind of play here, which is what I'm gathering.
+
+177
+00:22:08.566 --> 00:22:13.960
+NSG: I think Chloe's comment about demonstrating, like
+
+178
+00:22:14.350 --> 00:22:35.049
+NSG: the the high quality production and the beauty behind. How you know differentiated, you know your work is is an opportunity. Probably I think the memorability is a opportunity for at least for the video piece. Right? And then you have this 4 min practical conversation about the substance of your business. What makes you better, and all that. But for the purpose of this session and the storyboard
+
+179
+00:22:35.683 --> 00:22:45.059
+NSG: I I'd be. I'm I'm really interested in seeing how you can take those, you know steps. You just walked us through visually and condense that into 1 min.
+
+180
+00:22:48.980 --> 00:22:49.550
+Carlo Scaglia: Yeah.
+
+181
+00:22:49.550 --> 00:22:50.710
+NSG: It makes sense. It makes sense.
+
+182
+00:22:50.710 --> 00:22:51.120
+Carlo Scaglia: Doesn't matter.
+
+183
+00:22:51.120 --> 00:22:58.829
+NSG: I'd be, I'd be interested in seeing you know you run with that and make it work if it feels right to you. And they're representative of your brand and business.
+
+184
+00:23:00.270 --> 00:23:04.223
+Carlo Scaglia: Cool thanks guys.
+
+185
+00:23:07.290 --> 00:23:11.850
+NSG: Alright, Carla, I'll I'll let you just pick on somebody, since people are volunteering. Oh, Vivian, I'm muted.
+
+186
+00:23:11.850 --> 00:23:13.360
+Chloe Lannert: We already volunteered.
+
+187
+00:23:13.360 --> 00:23:18.639
+Vivian: Yeah, okay. So
+
+188
+00:23:19.170 --> 00:23:42.840
+Vivian: I have. So my objective, I I thought, was, You know, the reality is like, the people in the room are not going to be making introduction introductions to dealerships. And even if I don't ask for that, it's the natural progression like, if they have dealerships in mind, they generally will recommend them to me anyway. So my thought was, okay.
+
+189
+00:23:43.320 --> 00:23:47.989
+Vivian: maybe like the warm introductions to the specific type of investor would make sense. But
+
+190
+00:23:48.110 --> 00:24:10.440
+Vivian: having 2 different objectives of like, I want people to feel like they can really see the vision of the future of car buying, and they want to see it change, and they can see our place in it, and then, having the objective of them being able to make the introductions to the types of investors who would invest in this space and have done something like this in the past. Again, this is, I haven't like fixed on this just yet.
+
+191
+00:24:10.690 --> 00:24:29.429
+Vivian: I have a couple of themes that I want to cover, and you've probably heard me say a bunch of these in the past. So like. Yes, the industry is very manual. It's broken. Their tools are lagging. The turnover is really high and costly. Process is broken, meaning their data is incomplete. And ultimately they're just missing opportunities because of everything you just mentioned.
+
+192
+00:24:29.470 --> 00:24:49.080
+Vivian: So I'm thinking of starting with the 1 min pitch and then leaving to video. So the pitch would probably be more around the why. Now, because most people relate with being a car buyer, not a car seller. I would probably start with something like you would have seen in my previous pitch of
+
+193
+00:24:49.080 --> 00:24:58.119
+Vivian: like. Here is why this is so necessary, like how they're so behind, where it breaks down for them, and use a couple examples
+
+194
+00:24:58.120 --> 00:25:22.940
+Vivian: so they can paint the picture of like last time they purchased a vehicle, or they can imagine themselves in a dealership, and they can wonder like, why is it still really shitty like this? And then in the which leads into the video of kind of like the before and after to showcase like how you know. Yes, we're all feeling this way, but it could be like this. It could look like this way in the future, since I know that a lot of the questions that we get is like, well.
+
+195
+00:25:22.940 --> 00:25:43.619
+Vivian: like are, why are we? Why are they still salespeople? Why are there even dealerships so want to tie in that vision? I would probably get a little bit more specific into. I'd probably use the opportunity to talk a little bit about the stats, and like what the feedback is from all these different stakeholders, and how it really benefits them.
+
+196
+00:25:44.058 --> 00:26:03.780
+Vivian: If I have time I like how Jake showed like some numbers. So maybe showing how like, yes, salespeople are adopting it, and it's actually giving them better results than if the salesperson were to talk with them up to the customer without these tools. So that's what I'm envisioning for the video. And ultimately, I want their takeaways to be like.
+
+197
+00:26:03.930 --> 00:26:27.079
+Vivian: yeah, holy shit like this, like the entire industry needs this. It's not just a tool. It's not a feature. It's a product. It's a platform and like I wanted, if maybe for my Q&A is to to have them, one have to them see, like the bigger vision of like how it's not just dealerships. It's also manufacturers. It could be customers. And the data that we have is so incredibly powerful.
+
+198
+00:26:27.447 --> 00:26:39.590
+Vivian: And because Tam was always a concern to be able to demonstrate the vision and the different stakeholders, meaning that there is more opportunity if that's what they think is holding them back.
+
+199
+00:26:42.100 --> 00:26:43.360
+Vivian: That's my presentation.
+
+200
+00:26:44.430 --> 00:27:05.866
+NSG: I mean, 1st of all, Vivian, thank you for putting like so much thought and time into preparing. You know how to very clearly articulate what you're thinking. I I think this is a great template for others to follow. If you're not sure what you wanted to share or say. The other thing that came out to me right away, because this all makes sense and I like it is
+
+201
+00:27:06.730 --> 00:27:11.770
+NSG: on your ask and your call to action with the intros.
+
+202
+00:27:13.870 --> 00:27:23.900
+NSG: like, can you elaborate a little bit on what you're actually hoping for? Like I I wanna almost like, think back, I wanna I wanna fast forward like through, you know, June or July.
+
+203
+00:27:24.280 --> 00:27:38.449
+NSG: And we're looking back. And you're thinking about Demo Day. Obviously, you have your video. You're sharing it. You're sending it to people, but I would just want to check in with you like what would make it feel like it was totally worth it for you to really put in all your effort to prepare and do a great job at Demo Day.
+
+204
+00:27:40.049 --> 00:27:44.719
+Vivian: I actually don't feel confident about that objective. It it feels like I'm forcing it a little bit.
+
+205
+00:27:44.720 --> 00:27:45.570
+NSG: Right.
+
+206
+00:27:45.975 --> 00:27:49.220
+Vivian: I'm having a hard time answering that question.
+
+207
+00:27:49.800 --> 00:27:55.779
+NSG: Okay, that's yeah. And that's that's that I asked for, you know, with the sneaking suspicion that it might be the case.
+
+208
+00:27:55.780 --> 00:27:56.330
+NSG: So
+
+209
+00:27:57.860 --> 00:28:22.850
+NSG: I, I wanna think about what would make it more worthwhile to you, because, like, I think, it's a great opportunity one for you to like, get a lot of people excited about your vision for the business. And if there are other stakeholders that you're trying to appeal to there's a way to almost not even prioritize the people in the room. But it said, prioritize this these 6 min for the purposes of what you would use it for afterwards.
+
+210
+00:28:22.930 --> 00:28:33.489
+NSG: right? Potentially as as a as a conversation starter with key partners, strategic partners, potential Cvc stuff like that. I can imagine you with some strategic investors.
+
+211
+00:28:33.854 --> 00:28:56.660
+NSG: Potentially. So we might want to get a little bit more serious about targeting and identifying who those might be. Who would be helpful to your business disproportionately and like, maybe even think about sending messages that are coded through these 6 min that unlock your ability to appeal to them even more. So and that could be investment. But that could also be other strategic opportunities and distribution and channel strategy stuff.
+
+212
+00:28:56.660 --> 00:28:57.860
+Vivian: Yeah, I like that a lot.
+
+213
+00:28:58.400 --> 00:29:04.960
+NSG: So just just just like I'm I'm off the top of my head here. But, like, obviously, you know, you and I are gonna meet tomorrow and talk more about all this, too. So.
+
+214
+00:29:04.960 --> 00:29:05.590
+Vivian: Yeah.
+
+215
+00:29:07.110 --> 00:29:08.379
+NSG: Alex, you were gonna say something.
+
+216
+00:29:08.620 --> 00:29:18.519
+Alex Nativelle: I think I'm aligned with you like the feeling I have is, I think this is inspirational, but not very actionable, like the goal that you have. I'm like getting people inspired is.
+
+217
+00:29:18.810 --> 00:29:30.259
+Alex Nativelle: yeah. I mean, I think you're gonna do a great job of that. I think you're really good at that. But I feel like, what's the next step like if people oh! The presentation of May was amazing. Vivian's top notch.
+
+218
+00:29:30.280 --> 00:29:59.670
+Alex Nativelle: and then they come back to their life right? Like, what do you actually want? And I feel this is going to impact a lot what you're going to show and what how you're going to say things right like, Do I need investors? It's going to be probably a little bit different. They're going to still be inspired. Right? I like the the top idea. But like depending on what you want to get exactly and getting clear into like, okay, I need 5 intros for like, go to markets, distribution channels, because that's what I like. This is a bad example. But you know what I mean.
+
+219
+00:30:00.050 --> 00:30:05.365
+Alex Nativelle: And I feel like just inspiring people is gonna be
+
+220
+00:30:06.220 --> 00:30:09.899
+Alex Nativelle: Just. You might be disappointed because you don't see the results afterwards.
+
+221
+00:30:11.070 --> 00:30:28.419
+Vivian: And I think that that's where I have a hard time is because, like I, it's not necessarily that I have. I'm looking for a go to market person like I. There's people in my network that I'm meeting in the automotive industry. That's probably gonna do that better. But like to Neil's point.
+
+222
+00:30:28.460 --> 00:30:49.090
+Vivian: If I can use this as something grander like being able to sign on an oem, for example. I feel like that would, and maybe having the opportunity to like. Maybe someone in the group in like in front, sorry in the audience, would have a connection to that as opposed to like an immediate need.
+
+223
+00:30:49.880 --> 00:30:51.870
+Vivian: But I see what you're saying. So yeah.
+
+224
+00:30:53.860 --> 00:30:58.399
+Carlo Scaglia: If I if I can also just, I guess, add on that one, but on slightly different
+
+225
+00:30:58.530 --> 00:31:01.429
+Carlo Scaglia: notes. My thought was
+
+226
+00:31:02.140 --> 00:31:09.410
+Carlo Scaglia: it? It sounded like you knew the outcome that you wanted to get so like who inspiration. I get it. But I think
+
+227
+00:31:09.940 --> 00:31:20.370
+Carlo Scaglia: I didn't. It's it would be good to know how you wanna show those things like, show you what you said like. Show that we have great data like how you gonna show it like, what's your way to show that
+
+228
+00:31:20.630 --> 00:31:26.150
+Carlo Scaglia: May isn't just a tool, but it's a platform like, what story are you trying to tell? Like I think you got
+
+229
+00:31:26.390 --> 00:31:35.319
+Carlo Scaglia: you had, like 4 slides of objectives, you know, which is like the kind of outcome that you want, which I think that totally great things, because it paints a really cool picture of me.
+
+230
+00:31:35.700 --> 00:31:44.630
+Carlo Scaglia: But I think what was lacking was, how are you gonna show those? What are you gonna say? What's the story gonna tell what's the kind of path of the narrative you're gonna use
+
+231
+00:31:44.880 --> 00:31:48.270
+Carlo Scaglia: for that to be like clear and not for just to be like.
+
+232
+00:31:48.750 --> 00:31:51.739
+Carlo Scaglia: Here's my time, like, if time has always been a problem.
+
+233
+00:31:52.050 --> 00:32:02.470
+Carlo Scaglia: I think, like, what have you been doing before? That made it sound like a problem. And so how can you pitch it now to show that it's like, not a problem. That's a huge thing. So you wanna show that it's not a tool.
+
+234
+00:32:02.610 --> 00:32:04.449
+Carlo Scaglia: but a hole in one platform
+
+235
+00:32:04.590 --> 00:32:10.129
+Carlo Scaglia: again. What have you been doing now that makes it perceived like a tool? And what can you do differently to make it perceived
+
+236
+00:32:10.360 --> 00:32:16.630
+Carlo Scaglia: like an actual game changing platform that's desperately needed, you know. So I think
+
+237
+00:32:17.630 --> 00:32:20.040
+Carlo Scaglia: there needs kind of that storyline
+
+238
+00:32:20.170 --> 00:32:22.619
+Carlo Scaglia: from start to finish on how you're gonna pitch this.
+
+239
+00:32:23.190 --> 00:32:34.710
+Vivian: Yeah, I appreciate the feedback. So maybe like, I wasn't clear. But in the so the it would start off with me talking about the problem essentially. And then the way that I would.
+
+240
+00:32:35.040 --> 00:32:58.505
+Vivian: the way that I would see the video is I would show visuals, and maybe, like we'll act it out in a dealership of like what is actually being happening. It's in front of the salesperson. It's like this interrogative thing. It's uncomfortable. And then it moves to like the like. It's a tech they have now, like the right tools. And what that experience looks like in the showroom at home at the dealership lot.
+
+241
+00:32:59.130 --> 00:33:18.229
+Vivian: so it's having like the feelings of like uncomfortable and then transforming that into something that does feel like progressive react like not reactive, progressive, and exciting. I think that's kind of like the the vision of what I was trying to to show.
+
+242
+00:33:20.950 --> 00:33:23.362
+Vivian: But I need to break that down more. Obviously.
+
+243
+00:33:25.820 --> 00:33:30.230
+Vivian: I spoke so much in my meeting yesterday that my voice reverted back and.
+
+244
+00:33:30.230 --> 00:33:39.230
+NSG: Yeah, I I was gonna say, like, I don't want to belabor things, Vivian, if you if you're if you want to like chill or whatever. I don't know if you're still recovering from sickness last week.
+
+245
+00:33:39.460 --> 00:33:43.319
+Vivian: Yeah, no, I'm I'm fine to keep talking about it. If there's more feedback.
+
+246
+00:33:44.820 --> 00:33:45.760
+NSG: Any others.
+
+247
+00:33:51.480 --> 00:33:52.250
+Vivian: Thanks.
+
+248
+00:33:52.860 --> 00:33:53.560
+NSG: Cool.
+
+249
+00:33:55.000 --> 00:33:56.520
+NSG: All right. Brio!
+
+250
+00:34:12.040 --> 00:34:15.480
+antoinecarriere: Can you? Can you see that, or is that too small.
+
+251
+00:34:21.840 --> 00:34:24.730
+NSG: I'll leave it up to the room. I can see it.
+
+252
+00:34:25.370 --> 00:34:26.170
+antoinecarriere: Okay?
+
+253
+00:34:28.805 --> 00:34:46.040
+antoinecarriere: So so just our, our overall objective is to get introduction to law schools law school decision makers, lawyers from top law school law firms, law school students. So it's super super targeted that way.
+
+254
+00:34:46.540 --> 00:34:49.350
+antoinecarriere: The.
+
+255
+00:34:49.510 --> 00:35:10.840
+antoinecarriere: the, the general kind of presentation upfront is really kind of the objective is to focus on on our role for job seekers make it super easy to relate position schools as long term partners and have a little bit of contrast from the competition.
+
+256
+00:35:11.120 --> 00:35:21.560
+antoinecarriere: Then our product video will be kind of, hey, let's look at what it's what we're doing for law students. And it's a low student offering product video.
+
+257
+00:35:22.020 --> 00:35:30.879
+antoinecarriere: And the the questions are, Edu market is slow and hard. Tell us about the team.
+
+258
+00:35:31.618 --> 00:35:34.889
+antoinecarriere: What's different from Chat Gpt. What's your mode?
+
+259
+00:35:35.130 --> 00:35:37.520
+antoinecarriere: Why, now, where are you going?
+
+260
+00:35:38.620 --> 00:36:00.909
+antoinecarriere: And right now we have like a so so the product video is is really kind of not not started. We do have a walkthrough for the for the monologue. That, I, I think, is way too long for 1 min. Monologue. But we we we can shorten it
+
+261
+00:36:02.820 --> 00:36:08.580
+antoinecarriere: and and we do have some content. For each of the questions.
+
+262
+00:36:10.160 --> 00:36:15.199
+antoinecarriere: So very targeted. Ask, we're not asking for money.
+
+263
+00:36:16.060 --> 00:36:22.660
+antoinecarriere: And we're not focusing too much on what what we are, because it's so easy for people to understand what we are.
+
+264
+00:36:27.030 --> 00:36:44.895
+NSG: Got it. Okay, couple couple of thoughts here. Antoine, one is the original intent of this storyboard was, I think, this is great. By the way, like I love that you laid it out like this because it allows us to see the whole picture, which is similar to what I think Ankle was trying to talk us through when he started talking about this at the beginning of the call.
+
+265
+00:36:45.900 --> 00:36:54.650
+NSG: The the emphasis for this, and in general. From this session is to emphasize how important it is to spend time thinking through the video.
+
+266
+00:36:54.830 --> 00:37:00.769
+NSG: right? So the storyboard for the video itself, in addition to this overall narrative, which I think is helpful and important to share too.
+
+267
+00:37:01.090 --> 00:37:07.099
+NSG: So have you all done much thinking on the video specifically, and thinking about the storyboard components.
+
+268
+00:37:07.100 --> 00:37:10.270
+Alex Nativelle: No, we thought it was more focused towards like.
+
+269
+00:37:10.270 --> 00:37:10.790
+NSG: I understand.
+
+270
+00:37:10.790 --> 00:37:15.880
+Alex Nativelle: We wanted to have like a clear objective. We were like, what do we need out of this? And so that.
+
+271
+00:37:15.880 --> 00:37:18.570
+NSG: Yeah, that's that's most important. Yeah, that makes total sense.
+
+272
+00:37:18.570 --> 00:37:20.679
+Alex Nativelle: And then thought about the whole.
+
+273
+00:37:20.860 --> 00:37:27.599
+Alex Nativelle: You know, presentation and but rather like overview. And then, yeah, we didn't focus on the storyboard for the video itself.
+
+274
+00:37:28.030 --> 00:37:32.919
+NSG: That's okay, I mean, but and and just consider, this is your your-, your call to action, to like.
+
+275
+00:37:32.920 --> 00:37:33.290
+Alex Nativelle: Yeah.
+
+276
+00:37:33.290 --> 00:37:44.929
+NSG: Make sure you guys prioritize that because that's in our experience where founders tend to get really tripped up and they get really stressed out towards the final week of program because they realize like they haven't finished their video. And then they're
+
+277
+00:37:44.960 --> 00:38:12.780
+NSG: they're scrambling to get someone to help them finish it, and it gets really messy. So that's the only warning that we have on that front since we're way ahead of the curve right now. Now is the perfect time to make sure. You guys thought that through these questions. Just so, you know, I will work with each team to make these awesome and make them sound really good and smooth, and you'll work with, you know the eir that chooses to work with you on all of this as well, which is the most important, I think. Dynamic. For that conversation, too.
+
+278
+00:38:13.830 --> 00:38:34.869
+Alex Nativelle: For those questions. What we thought about was like, let's tie everything that we're doing to the objective we had. And so the questions were meant also for that objective. So some of the questions we're thinking about more from an investor point of view, we discarded them because we're like this is not our objective. So that's also. And we didn't like put the exact wording of the questions. Just an idea of like what we want to convey.
+
+279
+00:38:35.480 --> 00:38:36.120
+NSG: Yeah.
+
+280
+00:38:37.090 --> 00:38:46.040
+NSG: yeah. And it's it's never like. And I can help you guys with this. But like one option you have on that front is to like you can tease out that like you're open. You'll take a call.
+
+281
+00:38:46.080 --> 00:39:07.500
+NSG: you know, if somebody does want to reach out, and they're interested in talking to you. I'm not saying you will, but you could at least allude to the possibility that, like we're busy, we're making. We're earning revenue. We're getting customers. We're focused on that. Our business is sound. We're excited for it to grow. When we're ready we'll open the door to have conversation with investors, but if anybody's really interested in the meantime, and has something they can do to be helpful to us, we're happy to entertain that.
+
+282
+00:39:07.990 --> 00:39:10.049
+NSG: you know something, something along those lines.
+
+283
+00:39:10.510 --> 00:39:12.589
+Alex Nativelle: Yeah, that's that's what we have. Yeah.
+
+284
+00:39:13.389 --> 00:39:33.539
+antoinecarriere: Towards the end, as we crack that note, could probably think about raising additional funding to take the company to the next level. But for now. And so the point is also to kind of say, we're not fundraising. But we have a milestone to get to fundraising. And so this way. It's kind of. It's
+
+285
+00:39:36.210 --> 00:39:48.419
+antoinecarriere: the the kind of taking taking in what we, what we heard in prior presentations is we need to kind of speak with investors telling them we don't want to fundraise
+
+286
+00:39:48.650 --> 00:39:53.519
+antoinecarriere: until we do and and
+
+287
+00:39:53.740 --> 00:39:58.960
+antoinecarriere: or kind of there's there's some sort of unlock that needs to happen, so that the one.
+
+288
+00:39:58.960 --> 00:40:16.630
+NSG: You don't want to fundraise until it it makes sense to like until there's there's it. Yeah, I get it. And you can. You can say that in the right way. Now, going back to the video, though. Like, I guess we could spend just a few minutes thinking now with you all on what you're thinking for this, because it might be helpful and important for you all to
+
+289
+00:40:17.150 --> 00:40:18.880
+NSG: put that on the priority list.
+
+290
+00:40:21.350 --> 00:40:21.950
+antoinecarriere: Yep.
+
+291
+00:40:24.760 --> 00:40:30.740
+antoinecarriere: Do you guys do you guys want to? Kind of? I mean, we'd love to kind of have you
+
+292
+00:40:31.010 --> 00:40:34.309
+antoinecarriere: kind of give us some thoughts right now.
+
+293
+00:40:35.550 --> 00:40:44.989
+Anthony De Silva: A question here. Like nothing about the pitch. But why are we targeted specifically to law students.
+
+294
+00:40:46.840 --> 00:40:52.120
+antoinecarriere: So the way the way we look at that is the
+
+295
+00:40:53.990 --> 00:40:59.078
+antoinecarriere: the the way we look at that is the the law students are.
+
+296
+00:41:00.460 --> 00:41:13.399
+antoinecarriere: it's a very specific implementation of our product where we are selling directly to the student as opposed to through a university.
+
+297
+00:41:13.920 --> 00:41:22.110
+antoinecarriere: And it's it's going to be our product. For the Us. For the for for the time being.
+
+298
+00:41:24.000 --> 00:41:28.818
+antoinecarriere: And so we think, like it makes sense to focus on that
+
+299
+00:41:29.700 --> 00:41:49.229
+antoinecarriere: And and it's it's just kind of it allows to shorten the sales cycle because it's because you go to students. I mean, they have these interviews coming up. Either they're going to pay for it, or they're not going to pay for it. It's not like it's going to take years for them to make a decision.
+
+300
+00:41:49.340 --> 00:41:51.680
+antoinecarriere: They're going to make their decision right away.
+
+301
+00:41:53.440 --> 00:42:00.910
+Anthony De Silva: Got it. So sounds like, you guys made a strategic decision about the the Us market. And and this is what you want to focus on.
+
+302
+00:42:00.910 --> 00:42:12.840
+Alex Nativelle: Yeah, basically, this is what we want to do in the Us. Market. Sell the demo days in the Us. Market. Let's be really targeted and align with all strategy. We don't want fundraising. So let's take that out of the picture
+
+303
+00:42:13.090 --> 00:42:17.020
+Alex Nativelle: and do a very specific ask. People can relate to.
+
+304
+00:42:17.450 --> 00:42:17.900
+antoinecarriere: Yeah.
+
+305
+00:42:17.900 --> 00:42:18.630
+Alex Nativelle: It's a interesting.
+
+306
+00:42:19.100 --> 00:42:27.540
+antoinecarriere: Fundamentally, we. What we're saying is that we're not ready to go with our current business model from France into the Us.
+
+307
+00:42:27.840 --> 00:42:38.070
+antoinecarriere: We are going to. We, we want to focus on our business model in France. And for that, the textile video, the tech star kind of presentation doesn't doesn't really help. We don't need it.
+
+308
+00:42:38.434 --> 00:43:01.419
+antoinecarriere: and so we're using it more for a little bit of a kind of a somewhat kind of deferring angle that is leveraging Bob's advice like you need to get kind of students to pay for it. Otherwise it's not going to go anywhere, etc, etc, etc. So it's a little bit of a bet to be to be fair, but that's kind of that's our our take.
+
+309
+00:43:03.350 --> 00:43:11.370
+Anthony De Silva: And then the product that you're gonna show in the video, would that also be like a law
+
+310
+00:43:12.154 --> 00:43:14.179
+Anthony De Silva: interview? So sort of specific.
+
+311
+00:43:14.180 --> 00:43:32.340
+antoinecarriere: Yeah. So so just maybe maybe for you guys to get give us some feedback. Maybe we can highlight a little bit of what that product could be. But it's going to be like, hey? It's a your law student your 15 days, or your 30 days from from Oci.
+
+312
+00:43:32.450 --> 00:43:38.180
+antoinecarriere: and you go through you. You know the companies that you want to interview with.
+
+313
+00:43:38.250 --> 00:43:59.429
+antoinecarriere: and you go through our product. And you kind of you have some flashcards around like repeating, like, What's what's key for this particular law firm? What are the the words I should be using? You do a little bit of of of training on what you you have one or 2 questions around like
+
+314
+00:43:59.821 --> 00:44:14.710
+antoinecarriere: why you are. Why, this firm etc, and you get some sort of of of check. That is that you're you're ready, or here's what you should focus on and and and that's it.
+
+315
+00:44:14.750 --> 00:44:22.689
+antoinecarriere: And then kind of you're ready for the day. And so that's that's the the view. So you you have a lost yeah.
+
+316
+00:44:24.310 --> 00:44:26.700
+Carlo Scaglia: Personally, I love these things so
+
+317
+00:44:26.820 --> 00:44:32.220
+Carlo Scaglia: I'm always super happy to help in turning what you have in mind as ideas into
+
+318
+00:44:32.690 --> 00:44:38.919
+Carlo Scaglia: flows, video structure stuff like that. So just hit me up, guys, I like doing it.
+
+319
+00:44:40.020 --> 00:44:42.100
+Alex Nativelle: I will take you up on your offer. Don't worry.
+
+320
+00:44:42.850 --> 00:44:49.130
+NSG: Yeah, Carlos, like, literally, this is what I do, guys, Hello, big, shining light. That's great.
+
+321
+00:44:50.430 --> 00:44:57.209
+Anthony De Silva: Maybe like a couple of questions I would have if I'm in the audience right? Ask someone who's never heard of brio.
+
+322
+00:44:57.760 --> 00:44:59.660
+Anthony De Silva: I would wonder
+
+323
+00:44:59.800 --> 00:45:09.679
+Anthony De Silva: why brio is specifically focusing on law. So maybe that's I don't know if that's something you want to address like in the pitch or in a Q&A,
+
+324
+00:45:10.490 --> 00:45:14.659
+Anthony De Silva: and or like the second portion that that is like.
+
+325
+00:45:15.300 --> 00:45:20.899
+Anthony De Silva: if I'm someone who's like slightly familiar with brio, I know they have a a whole different product offering.
+
+326
+00:45:21.160 --> 00:45:28.389
+Anthony De Silva: then the question is like, why are they only specifically focusing on law right now? Right? So
+
+327
+00:45:31.070 --> 00:45:39.799
+Anthony De Silva: not sure how like critical. These are to be answered in the pitch, but those are just some of the things that that I would be wondering if I was in the audience.
+
+328
+00:45:40.180 --> 00:45:40.520
+Alex Nativelle: Yeah. No.
+
+329
+00:45:40.520 --> 00:45:43.550
+Alex Nativelle: Like, is there like anything special about.
+
+330
+00:45:44.340 --> 00:45:55.370
+Anthony De Silva: The product that you're offering to these law students or like, why are we going after the law students in a bigger market, or like a specific pain point that you guys can solve.
+
+331
+00:45:55.810 --> 00:45:56.940
+Anthony De Silva: Maybe.
+
+332
+00:45:57.840 --> 00:46:07.080
+antoinecarriere: Yeah. And the the. So that that's that's awesome. Likely it's the 1st question after the after the video. It's kind of why? Why, law, and the answer would be
+
+333
+00:46:07.630 --> 00:46:12.920
+antoinecarriere: law. It's super competitive, and it's very fast paced.
+
+334
+00:46:13.489 --> 00:46:36.239
+antoinecarriere: And students are. It's the the law interview. The Oci interview is not technical, it's really behavioral. And that's where our product really shines. And so, as we were thinking about like, where where to go first.st Now, this is only one of the markets, one of the segments, and you could
+
+335
+00:46:36.410 --> 00:46:39.509
+antoinecarriere: maybe that's that's how we how we eject it.
+
+336
+00:46:39.620 --> 00:46:48.420
+antoinecarriere: And so so I think maybe the the answer needs to make sure. Make it clear that it's it's law as an administration
+
+337
+00:46:48.640 --> 00:46:52.650
+antoinecarriere: of the many kind of we're super specific.
+
+338
+00:46:52.790 --> 00:46:56.159
+antoinecarriere: And and we have a solution for everything.
+
+339
+00:46:56.330 --> 00:46:59.309
+antoinecarriere: And right now we're showing just law.
+
+340
+00:46:59.936 --> 00:47:06.809
+antoinecarriere: but at the same time there's a reason why we've chosen to start in the us with law. So so kind of balancing this.
+
+341
+00:47:06.810 --> 00:47:08.150
+antoinecarriere: Yeah, it's the price.
+
+342
+00:47:08.550 --> 00:47:24.079
+NSG: Last last point for me on this, I think one issue here that may not be an issue, but could be a just a challenge for you all to overcome is having a more visceral example or case study of success in this context.
+
+343
+00:47:25.110 --> 00:47:31.420
+NSG: Right? Cause you're you're clearly demonstrating an aspirational pivot, and
+
+344
+00:47:32.260 --> 00:47:45.689
+NSG: I think it'll the question in in my mind, and that might enter some other people's minds. Who would want to refer you to legal contacts or help is they need something to come with more than just these guys that do this.
+
+345
+00:47:45.850 --> 00:47:54.060
+NSG: You know, stuff in France are bringing their tech here, and they want to focus on law schools rather than they want to focus on law schools. It would be great if you said, we have helped.
+
+346
+00:47:54.310 --> 00:47:58.050
+NSG: You know, we are helping actively law students. And here's how
+
+347
+00:47:58.606 --> 00:48:01.269
+NSG: I don't know if that's possible within 3 weeks.
+
+348
+00:48:01.770 --> 00:48:07.860
+NSG: But it it reminds me of what Rhonda was able to pull off in, just, you know, 6 weeks.
+
+349
+00:48:10.990 --> 00:48:14.648
+Alex Nativelle: Yeah, that's a very good point. But one other thing, we're thinking, about
+
+350
+00:48:14.930 --> 00:48:15.390
+antoinecarriere: Yep.
+
+351
+00:48:15.390 --> 00:48:18.900
+Alex Nativelle: Maybe we can get a a Berkeley.
+
+352
+00:48:19.070 --> 00:48:24.049
+antoinecarriere: School students to to kind of play the game with us.
+
+353
+00:48:25.960 --> 00:48:26.710
+antoinecarriere: Yep.
+
+354
+00:48:28.520 --> 00:48:31.609
+NSG: Evidence we need. We need evidence. Go ahead, Chris.
+
+355
+00:48:32.000 --> 00:48:37.240
+Chris Wong: I can help you. With that, Antoine. I got a couple of people that reached out to me that are in Northwestern's Law school. So
+
+356
+00:48:37.690 --> 00:48:38.730
+Chris Wong: if you need people.
+
+357
+00:48:41.370 --> 00:48:46.699
+antoinecarriere: I knew that by kind of teasing Chris, we say, there's Berkeley.
+
+358
+00:48:48.100 --> 00:48:49.089
+Chris Wong: It caught me.
+
+359
+00:48:51.460 --> 00:48:57.470
+NSG: Cool, great guys. I really appreciate how much effort you put into preparing to share with us.
+
+360
+00:49:01.420 --> 00:49:09.531
+antoinecarriere: We should okay any other feedback. Otherwise we're very happy to rescind our time. No, reclaim our time.
+
+361
+00:49:10.000 --> 00:49:10.580
+NSG: That's right.
+
+362
+00:49:11.800 --> 00:49:13.429
+NSG: Yield, yield!
+
+363
+00:49:13.430 --> 00:49:14.590
+antoinecarriere: Yield! Yield!
+
+364
+00:49:18.430 --> 00:49:24.830
+Anthony De Silva: Okay, I can. I can go next. I don't have anything super prepared.
+
+365
+00:49:26.670 --> 00:49:33.479
+Anthony De Silva: I can walk you through like what our vision and the objective of of of the presentation is so.
+
+366
+00:49:33.480 --> 00:49:33.980
+NSG: Sounds, great.
+
+367
+00:49:34.560 --> 00:49:38.700
+Anthony De Silva: We're gonna start with the the 1 min pitch
+
+368
+00:49:39.410 --> 00:49:52.529
+Anthony De Silva: I'll I'll talk about the video first, st so I'll do my pitch. And then what I want to get out of the the video is demo, the product, and how we're able to save time and money for the customers.
+
+369
+00:49:53.110 --> 00:49:57.469
+Anthony De Silva: So we'll walk you through, of
+
+370
+00:49:57.790 --> 00:50:01.739
+Anthony De Silva: making a making a booking on our website, or or the app
+
+371
+00:50:03.260 --> 00:50:08.839
+Anthony De Silva: and how the process works, if like how we schedule it. An inspector shows up.
+
+372
+00:50:09.090 --> 00:50:20.829
+Anthony De Silva: does that thing, and then we'll talk about the AI workflow that transforms the the this long Pdf. Into a more actionable report in within minutes.
+
+373
+00:50:21.180 --> 00:50:27.790
+Anthony De Silva: and, like all the benefits, the additional support, like with the repair price estimates that you get
+
+374
+00:50:28.070 --> 00:50:36.820
+Anthony De Silva: with our platform, and perhaps an aspirational reach here would be also to talk about
+
+375
+00:50:37.120 --> 00:50:42.820
+Anthony De Silva: the data collection app that we have in our roadmap in the next 6 to 8 months.
+
+376
+00:50:43.359 --> 00:50:49.700
+Anthony De Silva: But if you don't do that. Maybe we can focus on, like our partnership with
+
+377
+00:50:49.820 --> 00:50:57.669
+Anthony De Silva: Fannie Mae. How we send this on the back end to Fannie Mae. Some of this data to accelerate the process of of the appraisal
+
+378
+00:50:57.950 --> 00:50:58.850
+Anthony De Silva: and
+
+379
+00:51:00.610 --> 00:51:09.850
+Anthony De Silva: and then, like, demonstrate like right after the end of the home inspection, you'll get all these reports we send back when send data to Fannie Mae, and you're able to
+
+380
+00:51:10.080 --> 00:51:12.689
+Anthony De Silva: accelerate the the closing timeline
+
+381
+00:51:14.310 --> 00:51:16.240
+Anthony De Silva: and maybe also like talk about some
+
+382
+00:51:16.850 --> 00:51:25.189
+Anthony De Silva: like the savings for the buyer. I think I like calculated yesterday annually, the whole industry would be able to save about 1.5 billion.
+
+383
+00:51:25.310 --> 00:51:30.000
+Anthony De Silva: So maybe that's a it's a number that we could potentially highlight
+
+384
+00:51:32.600 --> 00:51:36.619
+Anthony De Silva: But for the coming back to the pitch part, this is what I'm struggling a little bit.
+
+385
+00:51:37.040 --> 00:51:43.190
+Anthony De Silva: I wanted to like, wow! The audience, but I don't know like what what to.
+
+386
+00:51:43.460 --> 00:51:45.699
+NSG: What? What do you want to get out of Demo Day.
+
+387
+00:51:45.950 --> 00:51:53.079
+Anthony De Silva: Yeah, so get to to be introduced to customers specific, like lenders
+
+388
+00:51:53.260 --> 00:51:55.679
+Anthony De Silva: and brokerages that we can partner with.
+
+389
+00:51:59.480 --> 00:52:00.240
+Anthony De Silva: Yeah.
+
+390
+00:52:01.400 --> 00:52:03.199
+NSG: Okay? Are you excited?
+
+391
+00:52:03.690 --> 00:52:04.290
+Anthony De Silva: Yeah.
+
+392
+00:52:04.810 --> 00:52:07.979
+NSG: Okay. Alright, I just. I'm trying to tease this out of you. I'm trying to get the end.
+
+393
+00:52:07.980 --> 00:52:10.320
+Anthony De Silva: Was my face not? Was my face not.
+
+394
+00:52:10.320 --> 00:52:17.169
+NSG: You can't tell. You can't tell from this awesome, beautiful, poofy hair that I've got on top of my head that I'm stoked about this.
+
+395
+00:52:17.170 --> 00:52:18.300
+Anthony De Silva: Haircut, yesterday.
+
+396
+00:52:18.300 --> 00:52:19.189
+NSG: It looks great, that's what.
+
+397
+00:52:19.190 --> 00:52:19.820
+Anthony De Silva: None of it.
+
+398
+00:52:19.820 --> 00:52:26.939
+NSG: It out, man, it's beautiful. No. So I'm thinking, like I want you to get
+
+399
+00:52:27.734 --> 00:52:31.439
+NSG: not. That's the wrong word. I'm trying to think of the right word?
+
+400
+00:52:31.870 --> 00:52:34.209
+NSG: I asked, excited. But it's almost like
+
+401
+00:52:34.910 --> 00:53:01.390
+NSG: this is your company and me like like you're you're here like, get these lenders and get these people to get connected like this is a huge opportunity. So I want you to come with the heat man. I don't want you to just kind of ease through it here. I know you're cool, so that definitely has already come off without you talk. But now I want you to go. Okay, there are gonna be at least some people in the room that have a meaningful connection. And and I don't want you to say lenders. What lenders are you talking about?
+
+402
+00:53:04.970 --> 00:53:06.920
+NSG: Give me some examples. Let's get real.
+
+403
+00:53:06.920 --> 00:53:15.659
+Anthony De Silva: Lenders probably have a presence, at least in like Texas, for now, to begin with, but nationwide presents eventually, right? So
+
+404
+00:53:16.490 --> 00:53:17.220
+NSG: Okay?
+
+405
+00:53:17.580 --> 00:53:29.569
+NSG: Well, well, so so the issue with people, when we hear those types of asks is that in our head we might have a connection, but because the Rolodex is usually massive, it's gonna be hard for us to narrow down.
+
+406
+00:53:29.680 --> 00:53:35.990
+NSG: So you're gonna need to do some word play to get us to be inspired to like, take a step.
+
+407
+00:53:36.170 --> 00:53:45.309
+NSG: So think of a call to action. Right? What QR. Code do we scan? What do we see in our head. How do we already immediately sort and go? Oh, I know someone that could be helpful to connect really with
+
+408
+00:53:45.520 --> 00:53:53.099
+NSG: right. And then there's also the other side of it, which is, I think, you have 2 layers right? One is the connections on the b 2 b side, the other one is like the very practical notion that, like
+
+409
+00:53:53.260 --> 00:53:57.640
+NSG: most people in the room, either have or have been in a home
+
+410
+00:53:57.760 --> 00:54:09.920
+NSG: and couldn't relate to the problem that you're solving. So you have a double opportunity to like, draw people in and get them bought in on what you're offering, what you do and how you help. It's a very relatable thing. So I I want.
+
+411
+00:54:10.030 --> 00:54:12.629
+Anthony De Silva: To like, almost activate a little bit more like.
+
+412
+00:54:12.970 --> 00:54:30.740
+NSG: And then maybe this is just the energy right now. But I want act. I want to activate your passion and your rigor with how excited you might be to like, really take advantage of Demo Day, and how you're talking about your company, so that you get not only the people in that room as you prepare for. But even the people in this call right now excited to want to help you think through this.
+
+413
+00:54:30.860 --> 00:54:34.580
+NSG: So that's just like like my challenge to you as as our fearless leader. Really.
+
+414
+00:54:35.170 --> 00:54:36.543
+Anthony De Silva: Gotcha gotcha.
+
+415
+00:54:38.580 --> 00:54:43.079
+NSG: Any other feedback from you guys. I don't know if I'm just preaching here and.
+
+416
+00:54:44.510 --> 00:54:51.319
+antoinecarriere: Yeah, the the maybe another way to make it real is to make it real for me.
+
+417
+00:54:51.760 --> 00:54:58.110
+antoinecarriere: So you say, for every single one of the people in the room. So I want you to think about
+
+418
+00:54:58.450 --> 00:55:01.750
+antoinecarriere: the the person you you got your mortgage from.
+
+419
+00:55:02.239 --> 00:55:13.629
+antoinecarriere: I want you to think about, you know, like some sort of some sort of starting from from the individual like who in my contact should I be looking for?
+
+420
+00:55:14.464 --> 00:55:22.589
+antoinecarriere: Just it. It. I don't know if it if it resonates. But for me, when you say lender, I just don't know what it means
+
+421
+00:55:22.860 --> 00:55:39.779
+antoinecarriere: versus if you say Oh, my mortgage broker. Now I get it. Oh, I have a mortgage broker, or the, you see, kind of using a word that, or kind of some sort of bringing me into a place where I can make sense of it. You know.
+
+422
+00:55:40.980 --> 00:55:52.530
+Anthony De Silva: Gotcha gotcha with the pitch. I yeah, no, I was contemplating of going with something like, imagine this. Imagine that. But I think we received feedback like. We shouldn't do that
+
+423
+00:55:52.740 --> 00:55:56.820
+Anthony De Silva: if I'm from right, Neil, sometime back, just like.
+
+424
+00:55:57.690 --> 00:56:05.129
+NSG: Yeah, I mean, imagine it itself is something I will probably coach you away from that being said. I think the feedback is still sound.
+
+425
+00:56:05.130 --> 00:56:17.139
+Anthony De Silva: Yeah, yeah, on the mortgage lenders. Yeah, yeah, I could. Probably. Yeah, there's there's definitely opportunity for me to like narrow like, even within mortgage lenders like who specifically, I want to target
+
+426
+00:56:18.960 --> 00:56:30.729
+Anthony De Silva: and like, even with the last pitch, I got a few people trying to want wanting to connect me with like individual, real realtors, which is not like what we want to do that do at this stage. Right? So.
+
+427
+00:56:30.930 --> 00:56:48.170
+NSG: I just want you to be vicious about it, like I want. I want a little bit more of a killer instinct to come out of you who you want to like, what you want to get out of Demo Day and your video because there's people in the room that will help you. But there's people outside of the room that you're going to share this video with that are also going to help you. And you need to make sure that you are meticulous and thinking through
+
+428
+00:56:48.430 --> 00:56:52.639
+NSG: all of your effort to like, activate that call to action with the right folks.
+
+429
+00:56:53.330 --> 00:57:04.839
+NSG: And I just wanna see, I want to see more like thought put into like what exactly they need to do after they hear your pitch or see it, to go. Take those steps to make those connections on your behalf.
+
+430
+00:57:07.520 --> 00:57:10.900
+Carlo Scaglia: One thing that helps me with this. Anthony, is like
+
+431
+00:57:11.440 --> 00:57:14.660
+Carlo Scaglia: kind of understanding. Who's your hero in the story like?
+
+432
+00:57:15.050 --> 00:57:18.900
+Carlo Scaglia: And it's a bit of a cheesy way, but like someone like.
+
+433
+00:57:19.230 --> 00:57:33.049
+Carlo Scaglia: who is this hero? Who is this kind of like person? But now it really is. It was just like super powered right, and I think it's like characterizing them as much as possible. And one hand you paint a picture of like
+
+434
+00:57:33.340 --> 00:57:37.340
+Carlo Scaglia: really an official world. And then it comes in this hero
+
+435
+00:57:37.490 --> 00:57:42.600
+Carlo Scaglia: that just changes stuff and like adds so much value to
+
+436
+00:57:42.840 --> 00:57:47.340
+Carlo Scaglia: the right kind of people, right? And it's like, who is it exactly. And the more you can like
+
+437
+00:57:48.090 --> 00:58:12.560
+Carlo Scaglia: humanize this hero, I think the easier it gets to create the story around your pitch, and also just to be passionate about things you get excited about who this who this hero is, because you kind of give them the attributes and the qualities that you admire to an extent. And you're like, Wow, this person's just like so amazing, so helpful, so smart. So whatever right? It's like for the brio guys, it could be the ultimate
+
+438
+00:58:12.840 --> 00:58:27.370
+Carlo Scaglia: career coach that comes from a crazy expertise, that when you talk to them you're just so deeply inspired from them. Right? And that's maybe their heroes when they pitch it. It's like that's them. It's like. So if you understand who that hero is for you, I think it. You also get a lot more passion when you talk about them.
+
+439
+00:58:29.060 --> 00:58:41.910
+Anthony De Silva: Yeah, yeah, no, that that makes sense. Like, I know, like the the audience that I like, that would really help my business if I'm able to get to them. So yeah, maybe as I pitch like, I'll I'll keep them in mind. And as as if I'm talking to them.
+
+440
+00:58:45.510 --> 00:58:47.240
+Anthony De Silva: Yeah, good feedback. Thanks, Carla.
+
+441
+00:58:56.470 --> 00:58:59.800
+Esmaeil Sadeghi: Yeah, am I? Next, okay, so
+
+442
+00:59:01.120 --> 00:59:04.009
+Esmaeil Sadeghi: let me share the screen first.st
+
+443
+00:59:08.010 --> 00:59:30.919
+Esmaeil Sadeghi: Okay, so we want to like showcase, a very complex problem. Basically try to simplify it for the audience. So 1st of all, the objective for us, really, it's we don't think that would be like any like direct kind of like connection where someone says that I'll use your product in our factory, for instance. But of course they would be like introduction
+
+444
+00:59:30.920 --> 00:59:50.929
+Esmaeil Sadeghi: connection to part manufacturing, if possible, and that's that would be really possible through like making the audience interested in what we are doing, especially the core value, like taking, like moving, manufacturing from gas for to certainty. So what we do actually in the in the 1 min, like video would be mostly focusing on the problem.
+
+445
+00:59:51.090 --> 01:00:20.660
+Esmaeil Sadeghi: and to some extent our solution. And it's slightly like focusing on the product and how it works like before after our solution. And finally, it would be the ask so, and we want to make it like very simple, as is like, not really like putting a lot of information there. So trying just to like spark their interest. So. And we have actually 2 different scenarios for for this video, like, it's starting like. So the initial idea was like me and Parry are like working together in the lab, and like having like a failed parts and like, and that
+
+446
+01:00:20.940 --> 01:00:24.089
+Esmaeil Sadeghi: how we work together to make it like fine.
+
+447
+01:00:24.110 --> 01:00:39.310
+Esmaeil Sadeghi: But since we don't really have access nowadays to like to the lab that we were working before, so now we want to take some other ideas. Maybe, like in this way, I don't know how much deep we can go like to make like people interested in our product. But this is a real
+
+448
+01:00:39.310 --> 01:00:57.180
+Esmaeil Sadeghi: engine failure that happened recently in 2021, and that was really because of some failures in the part that we they saw. And then they troubleshooted for for this. Basically so we started with, we start with this video, basically so
+
+449
+01:00:58.120 --> 01:01:19.620
+Esmaeil Sadeghi: and breaking news tonight, kind of like breaking news, basically down on the Denver area. After we take like this video for like 5 seconds like, give some space for the audience to the audience to think about like, and this could have happened like to them. For instance, at some point. Fortunately not so. And this would be something that we build upon and, like our product, would be supporting
+
+450
+01:01:19.937 --> 01:01:29.460
+Esmaeil Sadeghi: removing some uncertainty in manufacturing of such parts in the future. So this was like some failed parts, basically after it, but it passed like the inspection. At some points.
+
+451
+01:01:29.480 --> 01:01:45.649
+Esmaeil Sadeghi: Of course, there are multiple inspection along the way as well, but at some points someone didn't really inspect like. There are some failures in the part, and our solution would help them to to get rid of this type of guesswork, like someone saying that this is good enough. So let's put it in the in the engine somehow.
+
+452
+01:01:45.650 --> 01:02:03.070
+Esmaeil Sadeghi: Yeah, so this is the purpose. And then it has to be like complementary to what we are saying, like and then the rest of the material basically like market like marketing, like business model, or some some other aspects of the business would be covered in our like overall. Pitch 1 min, pitch as well.
+
+453
+01:02:03.430 --> 01:02:15.750
+Esmaeil Sadeghi: So this is the idea that we have. So please help us if if you think that would be like relevant, basically like so we don't want to have it so much emotional, for instance. But
+
+454
+01:02:16.070 --> 01:02:30.586
+Esmaeil Sadeghi: or maybe it's scary. But if you think this is a good idea, we already like created some similar video. So we even like, we thought, maybe we should like, shall we use like the same video like it would be so much real. Or we should like, take it something like
+
+455
+01:02:31.417 --> 01:02:37.630
+Esmaeil Sadeghi: like to build something ourselves, like with AI tools, and so on. So this was like the example.
+
+456
+01:02:43.000 --> 01:02:45.279
+Esmaeil Sadeghi: This is probably too unreal. Maybe so.
+
+457
+01:02:45.280 --> 01:03:00.720
+NSG: I mean, I I think the news story makes it super real. The only issue in leap is making sure that you can make the case that you would actually have addressed that issue right, and make the case for that with evidence, because it's very common for
+
+458
+01:03:00.900 --> 01:03:26.980
+NSG: startups, if you will to associate themselves with like a hero. Story of saying like this is a huge problem that happened. We'll fix it, but like they don't have proof that they can or would, or we would even be taken seriously to do so. So, making sure you have the evidence to kind of tie what optifab does to actually addressing this issue in a legitimate way would be really important. But I know, Meg, you've had your hand up so definitely want to defer to you.
+
+459
+01:03:26.980 --> 01:03:51.899
+Meg Hall: Yeah, I mean. So 1st of all, I think what you just said was pretty close to what I was going to say. So 1st of all, I love the like. The storytelling of this is amazing, like it really kind of took something that kind of sounds like it could be a little bit planned and really like brought it to life, and I think it really is going to make people really excited and capture them so great storytelling. But the same thing as Neil was just saying like before. At least.
+
+460
+01:03:51.900 --> 01:03:58.389
+Meg Hall: when I pictured your guys problem you guys were solving. I thought it was more about reducing waste.
+
+461
+01:03:58.510 --> 01:04:00.969
+Meg Hall: This sounds like it's more like, you know.
+
+462
+01:04:01.120 --> 01:04:25.809
+Meg Hall: like 6 Qa. Or, you know, like the 6 like the 6, whatever it is, belt, you know where it's like stopping the parts like making sure your your parts are Qaed and stuff like that, and being like more precise. And that is a very different problem. So I just want to make sure that we're hitting on the right the problem that you guys solve like, is it reducing waste? Or is it increasing? Pre increasing the quality of your parts and reducing errors.
+
+463
+01:04:26.910 --> 01:04:49.419
+Esmaeil Sadeghi: This is a good question in terms of like messaging, and what we should deliver actually to the audience. To me it's really both because the cost of this engine is 20 million dollars. So this flight was safely like landed afterwards. So basically, no one got any like danger like something, and nothing happened there, but it was lost of like 20 million dollars for for this engine to to replace.
+
+464
+01:04:49.420 --> 01:05:01.070
+Esmaeil Sadeghi: So it would be both like a quality. If if actually, that part would have like safely passed like the the quality inspection and so on. So this kind of like waste couldn't be couldn't like, be there, basically
+
+465
+01:05:01.401 --> 01:05:15.320
+Esmaeil Sadeghi: so but you're right. So we have to really stick to one single message to make it like more valuable to the especially to the audience. Basically, some audience is looking for quality. Basically, some people are looking for ways and sustainability.
+
+466
+01:05:17.370 --> 01:05:26.850
+Esmaeil Sadeghi: but yes, so it has to be like connected in that way. Basically, it's now we're talking about like quality. Basically, we have to connect our idea to to quality inspection here as well.
+
+467
+01:05:27.540 --> 01:05:31.650
+NSG: I I would just add the smile. I don't. I don't know if you have to only choose one.
+
+468
+01:05:31.930 --> 01:05:32.310
+Esmaeil Sadeghi: Okay.
+
+469
+01:05:32.310 --> 01:05:47.549
+NSG: I I do think that there's a way for you to make the connection between the 2 and make it strong even with the time constraint that you have here, because you just did it literally. In your response to Meg just now you explained to us both of the how these are interrelated issues. Go ahead, Meg.
+
+470
+01:05:47.750 --> 01:06:15.170
+Meg Hall: Well, I was just thinking that people have been trying to solve the quality issue for decades. And there's like entire professions around that that thing. So that's where I wonder if the waste one might be. I mean, I think this is more of like your guys like company go to market right is deciding which of the 2 is is more relevant. But my thought is is like there might be less competitors out there on the waste side than there might be on the the quality side. But I think that's up to you guys to decide which one it is you want to focus on.
+
+471
+01:06:15.170 --> 01:06:39.669
+Esmaeil Sadeghi: Actually to actually to me, and also to our team, the cost, or like your waste, and so on, would be the really the outcome of the journey. Basically. So quality is standing somewhere in between. And then if you want to have high quality parts, so it has to show it somewhere and like saving some material somewhere. Yeah, so yeah, definitely, that would be more outcome oriented for us if we focus on like reducing the amount of waste and and increasing the efficiency as well.
+
+472
+01:06:40.007 --> 01:07:03.869
+Esmaeil Sadeghi: Yeah, so definitely, that would be so much relevant to what we are doing now. But the term sustainability was not really something that we could sell a lot in the Us. Especially like no one cares about sustainability directly, like in terms of like. But of course, the economy piece of sustainability, how we can save money for them. It's, of course, of interest, and how you can increase efficiency and save some money for us at the end of the day.
+
+473
+01:07:05.290 --> 01:07:11.719
+Carlo Scaglia: I think you guys got a really compelling story this year. There was like the highest amount of plane crashes ever.
+
+474
+01:07:11.870 --> 01:07:14.409
+Carlo Scaglia: So it's like, you're you're literally
+
+475
+01:07:14.750 --> 01:07:21.220
+Carlo Scaglia: the right moment to do this, and people are getting more worried about it than last year. There was all the Boeing scandals as in
+
+476
+01:07:21.650 --> 01:07:24.680
+Carlo Scaglia: people, I think, haven't been this
+
+477
+01:07:24.840 --> 01:07:28.070
+Carlo Scaglia: worried about plane crashes since flying on a Concorde.
+
+478
+01:07:28.650 --> 01:07:37.279
+Carlo Scaglia: So it like it. It just makes sense to play on this kind of news, and it's like, yes, people have been working on it for ages, but clearly
+
+479
+01:07:37.490 --> 01:07:47.789
+Carlo Scaglia: it's been working badly because they're they're crashing. Planes are falling out the sky, you know, so I don't know. I I think for me it shows that the issue is still far from solved. So
+
+480
+01:07:48.130 --> 01:07:52.460
+Carlo Scaglia: I would personally go on that one, and I've never had a fear of flying. But
+
+481
+01:07:52.650 --> 01:07:57.910
+Carlo Scaglia: now, when I get on planes like, maybe maybe we're in for a thrill ride, you know.
+
+482
+01:07:58.220 --> 01:08:01.970
+NSG: Carla, you should let Chloe take you out on the spin. She's flying people around now, you know.
+
+483
+01:08:01.970 --> 01:08:07.250
+Carlo Scaglia: Yeah, I know. I know I'm letting. I'm letting Viv tell the stories. It's okay. I'll I'll watch.
+
+484
+01:08:08.630 --> 01:08:31.079
+Esmaeil Sadeghi: Yeah. So when it comes to like 3D. Printing and also manufacturing as a whole, there could be always some like a very like I would say, emotional stories that we could make, but it has to be. As Neil mentioned, it has to be connected to what we offer at the end, like I was like listening to like a trade shows. I joined recently. It was like a company basically like they were working with a like a
+
+485
+01:08:32.279 --> 01:08:53.972
+Esmaeil Sadeghi: a boy, basically like had a cancer like bone cancer. And then they use like a 3D printing to make some implants like removing some of this cancer from the bone, and it was together with like 3D. Printing. And so and then literally so, everyone was like, I would say I might still had some emotion there, like 3D printing is wonderful to save some lives of, especially like the kids and children, and so on. So
+
+486
+01:08:54.479 --> 01:09:04.340
+Esmaeil Sadeghi: yeah, there could be always some stories. But but it's also important to be real, actually not too far away from reality. And how we can really even like. In that case
+
+487
+01:09:04.450 --> 01:09:19.829
+Esmaeil Sadeghi: we could also do something like to support. But then we don't really have any strong like cases study to support. But in this case, like engine and like turbine blades. And like these materials, the metallic parts in this engine. Probably these are something that we can really have some words there.
+
+488
+01:09:23.149 --> 01:09:25.849
+Esmaeil Sadeghi: yeah, great. So I'll stop here and hopefully.
+
+489
+01:09:27.189 --> 01:09:40.059
+NSG: You've got you've got. I agree with Carlo. You've got a compelling story that you can put together here, though, so I can. I can see how this can come together. Just make sure that it's grounded in reality to a certain extent. As long as we do that we can get there, it'll be good.
+
+490
+01:09:46.499 --> 01:09:47.559
+NSG: is it, Chris?
+
+491
+01:09:49.229 --> 01:09:50.380
+Chloe Lannert: Megs! Up.
+
+492
+01:09:51.660 --> 01:09:52.710
+NSG: Oh, Meg! Sorry!
+
+493
+01:09:53.163 --> 01:09:54.069
+Meg Hall: It's okay.
+
+494
+01:09:54.080 --> 01:09:58.920
+Meg Hall: Okay. So the way I have this right now is I
+
+495
+01:09:58.920 --> 01:10:21.479
+Meg Hall: for like my plan for the day and like the fact that we only have just a few minutes is I'm really gonna put me focused in on like 2 main things. One is we're creating like this visual of like the playbook right? And so our team is all gonna be wearing like warm up tracksuits that all say sales play on them right? And so we're kind of make like leaning into this like team like sports theme.
+
+496
+01:10:21.480 --> 01:10:29.739
+Meg Hall: And then like. The main thing we want people to know, is like that. We can help companies to increase their average deal size and win bigger deals. Right?
+
+497
+01:10:29.740 --> 01:10:56.900
+Meg Hall: So for professionals in the room we want for them to envision like sales, play X helping their company, and like, if they're not in the sales team, refer us to the sales team and I want to be able to use this on our, on our video or on our website to be able to see like the 60 second demo right? And then for investors. I want for this to give them credibility, that this is a real company. We're not a spammy AI robo caller, and that we have real customers and real revenue.
+
+498
+01:10:56.930 --> 01:10:58.779
+Meg Hall: Okay, so.
+
+499
+01:10:58.780 --> 01:11:00.640
+NSG: Super clear, Meg. Thank you.
+
+500
+01:11:01.180 --> 01:11:15.680
+Meg Hall: Cool. Okay? So I have. I don't have a visual thing. But what I have is the script. So I'm in the 60 second script. So I'm gonna go through that I did make like a longer one. And this is my shorter one, which I'm definitely struggling with cutting out everything. But we'll see how it goes. Okay.
+
+501
+01:11:15.720 --> 01:11:40.770
+Meg Hall: so is your team looking to win bigger deals. Well, prospecting through email blasts is the equivalent of a hail. Mary low odds, high risk. It hurts your Brand's credibility and your domain score, and it sets your reps up for failure because they're missing. The fundamentals ultimately reps show up to meetings unprepared and choke when it comes time to meet with the C-suite we built sales, play X as a central place for account, planning
+
+502
+01:11:40.770 --> 01:11:55.410
+Meg Hall: aimed at keeping your team focused on winning large deals. Our AI researches, your top accounts around the clock tracking the company's news leadership moves product changes, hiring shifts and even changes in the public, public or employee sentiment.
+
+503
+01:11:55.600 --> 01:12:17.070
+Meg Hall: Next, our messaging engine maps, their needs to your products, vertical expertise and customer win stories, creating a personalized sales playbook for each account that gives you the key prospects, messaging use cases, value cases and proposals and slide decks drafted in minutes. Each document is built to empower your champion, to ask for budget approval.
+
+504
+01:12:17.070 --> 01:12:30.500
+Meg Hall: Finally, our coaches, which are real people, but I might just have, like real people, be as like a word in there, joins your pipeline, calls to update your team on the latest account news keeping your team all aligned and focused on winning those big opportunities.
+
+505
+01:12:30.560 --> 01:12:47.900
+Meg Hall: Sales play X is already helping major technology companies like ringcentral bassware and smart communications. In fact, we're helping 20% of the Excel Kkkr portfolio increase their average deal size, ready to crush your quota and win bigger deals. Sign up now for your free strategic account playbook.
+
+506
+01:12:55.680 --> 01:13:11.240
+NSG: Cool this. All this sounds like it. Re it. It almost reads like, it's it's gonna serve a dual purpose right? Because this is gonna be something you can use largely outside of this context, based on how you just provided the overview. It's like, almost like a sales product. Demo.
+
+507
+01:13:13.410 --> 01:13:17.720
+NSG: good idea for conflating the different
+
+508
+01:13:18.630 --> 01:13:22.860
+NSG: goals you have. I think the investor piece is covered in the Q&A
+
+509
+01:13:23.000 --> 01:13:38.520
+NSG: and overall, because they understand the product with this. This kind of checks out for me. I'll think about it some more. I think I'll probably have to see it to have any like edits or tweaks. But so long as you're okay with it, being like a very apparent ad for sales play.
+
+510
+01:13:40.160 --> 01:13:40.620
+Meg Hall: Yeah.
+
+511
+01:13:41.080 --> 01:13:45.969
+NSG: I don't have any immediate critiques like. Nothing immediately comes to mind that I would. I would
+
+512
+01:13:46.430 --> 01:13:56.250
+NSG: challenge about it unless you guys have other perspectives. I mean, the only other thing that came to mind was a more specific visceral, like use case
+
+513
+01:13:57.590 --> 01:14:16.399
+NSG: like from one of the specific companies you've helped like that might be really powerful and compelling cause. I think right now it's like high level talking about what you do rather than talking about an actual, like beneficial example that someone could even like conceptualize. Oh, wow! This would actually be really helpful, because the only thought I had at the midpoint of you going. Giving that overview is is.
+
+514
+01:14:16.590 --> 01:14:31.530
+NSG: And this is the the age old, like everyone's gonna think this way now is, can't they just start to implement things like this themselves. And can't they automate that research and identification and training? But that's a Q&A thing as well that you can address. So yeah, I'll let other people check.
+
+515
+01:14:31.530 --> 01:14:35.750
+Alex Nativelle: Yeah, I agree with that. And one of the thing I had was
+
+516
+01:14:35.890 --> 01:14:42.030
+Alex Nativelle: when you said, like the investor, I want to show them we're not spammy. It felt a bit weird, I was like.
+
+517
+01:14:42.150 --> 01:14:51.090
+Alex Nativelle: and we have. And we are real revenue. And we are a real company. I'm like, Yeah, you're here for textiles. You already kind of have that credibility. I feel like.
+
+518
+01:14:51.650 --> 01:15:00.670
+Alex Nativelle: maybe I want to push you a little bit more like, what do you want them to feel. What do you want them to do after the pitch and like reach out and, like, you know, kind of like deep dive a bit on that.
+
+519
+01:15:00.980 --> 01:15:22.400
+Meg Hall: Yeah, I mean that a lot of the investors I've met with have all said like that. They like not all of them. But some of them say that they won't like talk to sales tech right? And marketing techs. They feel like there's too many of them. And I think that those robo dialers. If if people hear that we're sales or marketing tech, they assume we're one of those, and it really is like we need to have them very clearly know. That's not who we are. If that makes sense.
+
+520
+01:15:22.400 --> 01:15:26.969
+Alex Nativelle: Okay, I'm getting excited seeing you that because I think there's an opportunity to have an enemy here.
+
+521
+01:15:27.000 --> 01:15:46.089
+Alex Nativelle: So it's kind of like, you know everyone now is thinking AI for sales, and it just spamming people. And that's 1 of the thing you were saying, like the 1st week when we were in the car. Right? They're all spammy, etcetera. We are the complete opposite of that. We're, gonna you know. And then that creates the contrast that gives the message, but also says, Oh.
+
+522
+01:15:46.090 --> 01:15:59.289
+Alex Nativelle: and you have the right person to embody that right? Like you're very relatable. You're a great salesperson, and that's going to translate to the audience like, I know how to do sales. Those people. They haven't understand everyone hype about this. This is not the way to go. I'm telling you.
+
+523
+01:15:59.310 --> 01:16:00.290
+Alex Nativelle: I hear us.
+
+524
+01:16:00.610 --> 01:16:13.180
+Meg Hall: I like that. Yeah, let's make them the enemy. I should almost like Troll, though. Troll them a little bit. That'd be kind of fun. I could do a whole social media series on that. Maybe not just 60. Second video. But I like where you're going with it.
+
+525
+01:16:13.180 --> 01:16:29.320
+NSG: I mean again. I don't have the evidence for this, but I do feel a lot of energy and frustration about the the sales spam and slop. That is happening right now. If it's so bad, it's getting way worse, and I hate it. And I I want you to be the answer to our prayers.
+
+526
+01:16:29.320 --> 01:16:50.040
+Meg Hall: Yeah, in my 3 min, like, when I wrote out my original script, it ended up being 3 min. It wasn't aiming to be 3 min. But basically, I spent the 1st minute talking about how bad like the robo dialers are. And like, how much of a problem this is causing where it's actually, it's hurting sales reps. And it's hurting the customers. And it also the whole like Google, how they're like blocking a lot of emails and stuff like that?
+
+527
+01:16:50.315 --> 01:17:03.800
+Meg Hall: So I can go really deep into that. It's just with 60 seconds. I think that I need to focus more on like the demo. But like I do have like, literally the script. So I might end up making a longer video that actually goes more into like
+
+528
+01:17:03.800 --> 01:17:07.020
+Meg Hall: what we're doing, you know, versus like.
+
+529
+01:17:07.330 --> 01:17:07.730
+Alex Nativelle: Yeah.
+
+530
+01:17:08.730 --> 01:17:17.500
+Alex Nativelle: I kind of feel like it can be like a sentence, right? Like an impactful one. And just show that what you're about and you create. You paint that enemy right?
+
+531
+01:17:17.500 --> 01:17:17.940
+Meg Hall: Yeah.
+
+532
+01:17:17.940 --> 01:17:24.090
+Alex Nativelle: And like, improve your credibility. And yeah, that I feel good about this.
+
+533
+01:17:24.720 --> 01:17:25.540
+Meg Hall: Thank you.
+
+534
+01:17:25.951 --> 01:17:30.480
+Piyush Verma (Neural Defend): Meg, I have a a comment on this. So you mentioned
+
+535
+01:17:31.230 --> 01:17:37.470
+Piyush Verma (Neural Defend): a client that you're serving them. So why not have, like some sort of a testimonial.
+
+536
+01:17:37.590 --> 01:17:57.649
+Piyush Verma (Neural Defend): even if it's just 5 seconds. They're talking about something that you want. That you think is the biggest problem, like, for example, spammy thing. Maybe they can say something about that. You know that this is one of the platforms we come came across, which is not spammy, and you know, as compared to everybody else.
+
+537
+01:17:57.650 --> 01:18:12.679
+Meg Hall: Yeah, actually, I do have a question. What you're making me think of is I've been recording a lot of my customer calls, you know, because I have, like the auto joining on my customer calls so like, have you ever seen a good 1 min video that includes like a bunch of like audio from customers
+
+538
+01:18:13.110 --> 01:18:14.450
+Meg Hall: like a compilation.
+
+539
+01:18:14.450 --> 01:18:17.700
+Chloe Lannert: Run bare, 1, 24.
+
+540
+01:18:17.700 --> 01:18:19.749
+NSG: Yeah, the rumber product videos.
+
+541
+01:18:21.730 --> 01:18:31.060
+Meg Hall: Let me check it out, because I think I do have like a lot of a lot of like clips. You know that I could exist like use. And maybe I just show the product on top of that.
+
+542
+01:18:32.650 --> 01:18:43.989
+Chloe Lannert: That's exactly what he did. It was conversations being like, How do you use? Run, bear with with customers? And it showed like the product with little loom images of their faces. In the corner.
+
+543
+01:18:45.520 --> 01:18:50.509
+Meg Hall: Otter doesn't have their picture, so it's only audio only, but I can find a way to make it work.
+
+544
+01:18:50.860 --> 01:18:57.939
+Chloe Lannert: He also like had a separate conversation versus pulling old audio. So you'd have to sort of do it differently. But.
+
+545
+01:18:57.940 --> 01:18:58.340
+Meg Hall: Hmm.
+
+546
+01:18:58.340 --> 01:18:59.579
+Chloe Lannert: Something you can play with.
+
+547
+01:18:59.920 --> 01:19:00.580
+Meg Hall: Okay.
+
+548
+01:19:00.890 --> 01:19:06.860
+Carlo Scaglia: There's a company called Bawdy BOAR DY,
+
+549
+01:19:07.661 --> 01:19:20.658
+Carlo Scaglia: which is literally like an AI voice agent, and I think it's kind of interesting. They raised the whole round by investors talking to body that even talk to the founders. And so it's just pure chat.
+
+550
+01:19:21.220 --> 01:19:26.060
+Carlo Scaglia: they don't have visuals. I don't have anything. So I think if you looked at any of the videos that they've done
+
+551
+01:19:26.697 --> 01:19:40.800
+Carlo Scaglia: that probably should be some good, some good info for it. I think if you tie audio to like also visual that relates to it like I don't know. Sales play. X helped us like do this, and then the visuals just kind of show, like an idyllic scenarios.
+
+552
+01:19:41.330 --> 01:19:41.940
+Meg Hall: Oh, yeah.
+
+553
+01:19:41.940 --> 01:19:42.480
+Carlo Scaglia: When they'll get it.
+
+554
+01:19:42.480 --> 01:19:47.440
+Meg Hall: That'd be using. Yeah, yeah, if I can. If I can make that happen, that'd be really cool.
+
+555
+01:19:48.090 --> 01:19:49.960
+Carlo Scaglia: This shouldn't be too hard, you know.
+
+556
+01:19:54.260 --> 01:19:55.339
+Chloe Lannert: Chris, you ready?
+
+557
+01:19:58.020 --> 01:19:58.939
+Meg Hall: Thanks guys.
+
+558
+01:20:00.110 --> 01:20:18.280
+NSG: Nice job, Meg, and then, by the way, I know we're running up on time. If people are willing to stick around to help out both Chris and and Piusa. I think those are the only 2 left that'd be great. I unfortunately have a hard stop because I have to meet with Mircha about helping you guys and and helping them with the event software and stuff for Demote and beyond.
+
+559
+01:20:26.960 --> 01:20:34.950
+NSG: But Chris and to you. So I'm down to work with you guys outside of this to get feedback on the storyboard along with Chloe. So just let us know and send over whatever you have.
+
+560
+01:20:36.620 --> 01:20:37.630
+Chris Wong: Should I keep going.
+
+561
+01:20:38.870 --> 01:20:39.240
+Chloe Lannert: Yeah.
+
+562
+01:20:39.240 --> 01:20:44.259
+NSG: Oh, yeah. Oh, yeah, absolutely. Yeah. You just it's just some people are gonna drop, probably within the next 3 min.
+
+563
+01:20:44.260 --> 01:20:45.440
+Chris Wong: Okay, cool.
+
+564
+01:20:46.430 --> 01:20:49.344
+Chris Wong: Okay? Yeah. So for us,
+
+565
+01:20:50.790 --> 01:21:09.650
+Chris Wong: I think the overall goal for us is really to drive awareness of what we're solving for, and then also get interest to potential customers. So lawyers or law firms of whoever is in the audience and the takeaway that I want to have them come away with in terms of doing that is like helping them build a relationship with their law firm, which, or their lawyer, which is an important relationship in their life.
+
+566
+01:21:10.366 --> 01:21:11.400
+Chris Wong: And so
+
+567
+01:21:11.680 --> 01:21:21.160
+Chris Wong: kind of going through to get to achieve that, I think 1st is kind of leaning onto my background. So gonna do a quick intro similar to what was what happened in the very beginning of techstars kind of leading into
+
+568
+01:21:21.310 --> 01:21:24.960
+Chris Wong: how I got to the problem. And then being a lawyer before.
+
+569
+01:21:25.090 --> 01:21:35.350
+Chris Wong: and then the next part. The beginning part of this is really driving the whole goal of getting the audience to feel the pain of time tracking and invoicing, which is the new component that we're solving for
+
+570
+01:21:35.605 --> 01:21:59.319
+Chris Wong: and I want to be able, because I know the audience not not very many of them will be lawyers or any. Possibly none of them will be lawyers, so the frame it from the audience mindset, and then kind of like bridge it to how like what that mindset is to the lawyer. So for the audience is going to be. They're expensive, and they want to know why it's so expensive, and what's like kind of the value they're getting out from that lawyer and then shifting into what the lawyer is doing on their side, in terms of like communicating that.
+
+571
+01:21:59.320 --> 01:22:02.379
+NSG: Dude. You're the expert, you are the lawyer.
+
+572
+01:22:02.730 --> 01:22:04.250
+NSG: This is me right.
+
+573
+01:22:04.250 --> 01:22:04.870
+Chris Wong: Yeah.
+
+574
+01:22:05.360 --> 01:22:20.380
+NSG: You just get to claim that. So you don't even have to have anyone else in the. There might be people in the audience might not. But it's it's your authenticity that I think trumps any need to make the case. Beyond that, you already know the problem, and that's apparent to all of us, too, I think during this program.
+
+575
+01:22:20.630 --> 01:22:20.960
+Chris Wong: We have.
+
+576
+01:22:20.960 --> 01:22:25.390
+NSG: Talked about this problem is make it very evident that you can empathize with them really, really, effectively.
+
+577
+01:22:26.520 --> 01:22:37.271
+Chris Wong: Okay, cool. So I'll just I mean I. And it's kind of those stories that a little bit of a stories about that kind of explain the pain, the complexity of timekeeping and time tracking, invoicing, which I think is a little bit of educational
+
+578
+01:22:37.851 --> 01:22:47.160
+Chris Wong: and then showing ideally that the small and solo law firm, which we're targeting is kind of a 1 person show. So they have to drive all these different things, and they have to. And so time is so critical for them.
+
+579
+01:22:47.643 --> 01:23:02.409
+Chris Wong: Then in the product, demo, it's really kind of let them feel the pain relief through innovation. And here we're gonna be snipping kind of like showcasing a little bit of like where the AI powered tools kind of come into play. So ingesting excel spreadsheets, and then allowing that to get
+
+580
+01:23:02.600 --> 01:23:04.640
+Chris Wong: developed into their invoices.
+
+581
+01:23:04.890 --> 01:23:28.219
+Chris Wong: pulling their invoices so they can create their own personal style. It's like a very easily onboarding process, because I think one of the difficult things for law firms is onboarding. And so this makes it super easy for them to just do that. And then we'll go into the kind of the end is like the automated time tracking tool that we have. So we're gonna sync that up. So you're gonna be kind of the wow factor will be about the time tracking tool. That's just automatically kind of like generating the tasks that they're doing
+
+582
+01:23:28.360 --> 01:23:36.739
+Chris Wong: and then reporting insights around, helping them, helping law firms actually develop their business, the right business model, which is a big pain point for these one person lawyers
+
+583
+01:23:37.094 --> 01:23:48.569
+Chris Wong: and then by that time we're hoping that we're working with design partners. So we could showcase some quotes or like some social proof around that to show that we have, like the the the ability to show that our solution is solving their problem.
+
+584
+01:23:49.340 --> 01:23:53.779
+Chris Wong: and then to unlock, like the whole takeaway with this product. Demo?
+
+585
+01:23:56.890 --> 01:23:58.070
+Chris Wong: Sorry I'm coughing.
+
+586
+01:23:58.416 --> 01:24:19.469
+Chris Wong: The goal that I want to take away with the product, Demos, to get the audience to see how this tool can actually help lawyers and benefit that benefit the audience themselves. And where this plays into the whole like idea is that they have more time for the lawyer. It's actually they have more time to do substant law, which is what they set out to do when they actually started their career. They never thought themselves as business people, or like having to manage a business.
+
+587
+01:24:19.470 --> 01:24:32.219
+Chris Wong: The other one is determining kind of what business model works for the odd, for the client and the lawyer. So if you're in the audience and you're a client, you can figure out what works for you, and it helps the lawyer do that. And then really, it's this whole emotion of trust and transparency.
+
+588
+01:24:32.460 --> 01:24:39.920
+Chris Wong: So I wanna add, have them kind of feel that this is will help build that even more with the tool that we have. And then again showcasing that proof.
+
+589
+01:24:40.445 --> 01:25:02.119
+Chris Wong: And then, yeah. And so most of the beginning of the presentation is, gonna be a lot of like emotion and kind of getting them to empathize and feel the pain and then understand how the solution helps them and solve their problems, and like the relief of that, and then the Q. And A is a little bit more on the thoughtfulness and the logic behind all this, and then it'll really address kind of pain points there. So they get a little bit of the emotion and the logic at the same time.
+
+590
+01:25:02.120 --> 01:25:22.470
+Chris Wong: and then wrap it up with like kind of emotional. How this changes the way that lawyers work. And so during the questions, it's all the ones that you know it's market size, opportunity, struggle with kind of penetrating into the market, differentiating yourself from competitors, traction, so forth. Design partners. How that's been going. And so that's the overall kind of like, yeah.
+
+591
+01:25:22.650 --> 01:25:27.160
+Chris Wong: takeaway that I'm trying to get through this. And then, yeah, just wrap it up by that.
+
+592
+01:25:33.060 --> 01:25:44.190
+Chloe Lannert: So I I really like using the QA. To cover like the business details. I think you also there won't be a ton of lawyers in the audience, but
+
+593
+01:25:44.540 --> 01:26:08.299
+Chloe Lannert: most people in the audience will have a lawyer or will know lawyers. So I think you you do have a pretty significant customer acquisition, opportunity here I think you could play with it, and like with the end of the QA. Say like, if you have a lawyer in your life who's suffering, and you want more clarity on like your billing and stuff like you can sort of
+
+594
+01:26:08.520 --> 01:26:09.959
+Chloe Lannert: pitch both
+
+595
+01:26:10.140 --> 01:26:15.960
+Chloe Lannert: the audience members and the and like. Give them the pitch for their lawyers, I think. That could be cool.
+
+596
+01:26:16.504 --> 01:26:19.979
+Chloe Lannert: Can you flip back to the video section?
+
+597
+01:26:22.570 --> 01:26:37.510
+Chloe Lannert: Yeah, I think this will be an easy customer education move to like, give people the understanding of what lawyers are actually up to. Feel like I'm stuck in the air out of the room. If anyone else wants to jump in. I I like this format. I think it
+
+598
+01:26:37.790 --> 01:26:39.300
+Chloe Lannert: makes sense at a high level.
+
+599
+01:26:41.410 --> 01:26:44.820
+Chloe Lannert: Antoine Fuchs Carlo. Anything.
+
+600
+01:26:46.110 --> 01:26:52.720
+antoinecarriere: Yeah, no, I I think it makes it makes a ton of sense. I think the the product demo.
+
+601
+01:26:55.970 --> 01:27:03.860
+antoinecarriere: I mean to me. There's there's kind of a functional benefit of the product Demo. That shows like, Hey, how easy it is, etc, etc.
+
+602
+01:27:04.180 --> 01:27:08.990
+antoinecarriere: And then at some point, you were talking about like the the
+
+603
+01:27:11.440 --> 01:27:17.403
+antoinecarriere: you were talking about, like what they can do, what the lawyers can do. It's not on the page, but you were kind of
+
+604
+01:27:19.540 --> 01:27:22.724
+antoinecarriere: I wouldn't focus that much on that
+
+605
+01:27:24.225 --> 01:27:35.909
+antoinecarriere: kind of, because I I would say, like, I mean that it's kind of lawyer. Happy lawyer! Happy! That's that's kind of the the whole, the whole thing. And then the the
+
+606
+01:27:36.660 --> 01:27:38.940
+antoinecarriere: and I do think that there's
+
+607
+01:27:39.220 --> 01:27:58.049
+antoinecarriere: because everything is a trade off. And so actually, maybe your product, Demo is is even a little bit shorter than a minute. because you you can. You can save that piece and and and you have, like a longer QA. And and I don't. I don't. I'm kind of.
+
+608
+01:27:58.170 --> 01:28:14.650
+antoinecarriere: I would say that that whole, because because you're not going to throw it to lawyers, and because I I don't think they need to understand again the whole, the whole point to to what the to what Neil was saying. Kind of everybody's going to agree that, hey?
+
+609
+01:28:15.800 --> 01:28:19.529
+antoinecarriere: This is like billing is not fun.
+
+610
+01:28:20.090 --> 01:28:24.380
+antoinecarriere: Time tracking is not fun, and it's important
+
+611
+01:28:24.550 --> 01:28:36.619
+antoinecarriere: for Lawyer in particular. I mean, you're super credible to say it, and it's it's a very kind of typical thing. Now, the more you try to prove the point, the more you're kind of drawing me into
+
+612
+01:28:37.020 --> 01:28:50.009
+antoinecarriere: trying to question that, you know. Like, say, oh, now you've said 2 h that it saved. Oh, is 2 HA lot, or is it a little? You know I start to put my versus if you say like.
+
+613
+01:28:50.560 --> 01:28:54.150
+antoinecarriere: she she told her time, and she and she told her money.
+
+614
+01:28:54.300 --> 01:29:08.549
+antoinecarriere: I kind of I buy it at face value, you know the the and I think that's a little bit the same around like the product, Demo, if you try to focus too much on how happy the lawyer is and what they can do.
+
+615
+01:29:09.020 --> 01:29:11.540
+antoinecarriere: maybe it won't resonate as much
+
+616
+01:29:13.200 --> 01:29:18.060
+antoinecarriere: That's that's all. I I'm because otherwise it makes it makes total sense.
+
+617
+01:29:20.150 --> 01:29:28.080
+Chris Wong: Got it. Yeah, thank you for that. Yeah. Going too deep could have its has negative impact. So I appreciate that thought, yeah, I'll think I'll think through that.
+
+618
+01:29:30.723 --> 01:29:31.889
+Carlo Scaglia: Largely. Yeah.
+
+619
+01:29:32.300 --> 01:29:42.560
+Carlo Scaglia: agree. I don't have much more to add in all fairness, Chris, other than I think. My goal is like your pain relief through innovation. That's kind of like the outcome
+
+620
+01:29:42.700 --> 01:29:49.330
+Carlo Scaglia: of legalese, right? But if it's a demo then it's like.
+
+621
+01:29:49.690 --> 01:29:55.110
+Carlo Scaglia: but the goal should be a little bit tight in terms of what is the ideal state that you want people to be in after they've seen it?
+
+622
+01:29:55.290 --> 01:29:57.900
+Carlo Scaglia: So is this something that'd be like?
+
+623
+01:29:58.060 --> 01:30:16.219
+Carlo Scaglia: Yes, I'm a lawyer. I've got no idea why I'm gonna build this high. So I'm definitely gonna introduce this to my lawyer because I want to have clearer tracking of my expenses, or is it something like, Oh, yeah, I know lawyers. Perhaps this could be useful to them. Let me send it over to them. But
+
+624
+01:30:16.360 --> 01:30:21.409
+Carlo Scaglia: you know it's like from this demo. What is the outcome that you really
+
+625
+01:30:21.680 --> 01:30:30.879
+Carlo Scaglia: looking for is, as I said, I think, pain, relief through innovation. That's just the the result of using legalese. But the goal of the product, Demo, I think, is
+
+626
+01:30:31.100 --> 01:30:35.689
+Carlo Scaglia: like I, I said, it's just you need to have it in mind, and you you do, for sure.
+
+627
+01:30:35.800 --> 01:30:42.060
+Carlo Scaglia: but it's a little bit like after someone sees it a demo day, or once you have it, and you can have it on your website, or whatever.
+
+628
+01:30:42.210 --> 01:30:45.450
+Carlo Scaglia: What is the ideal scenario that you want them to be in.
+
+629
+01:30:48.730 --> 01:30:52.309
+Chris Wong: Got it. Yep, super helpful. I could be more tight with that. Yeah.
+
+630
+01:30:53.050 --> 01:30:59.170
+Chloe Lannert: One more little double tap on the Q. And a. You should be prepared to address privacy
+
+631
+01:30:59.720 --> 01:31:05.360
+Chloe Lannert: just because if any client is going to introduce this to their lawyer or think about their lawyer using AI tools.
+
+632
+01:31:05.510 --> 01:31:08.230
+Chloe Lannert: They'll want to know that their data, secure
+
+633
+01:31:08.380 --> 01:31:12.880
+Chloe Lannert: like the on the client side more understandable billing secure data.
+
+634
+01:31:14.203 --> 01:31:17.719
+Chloe Lannert: Piyush! You wanna jump in.
+
+635
+01:31:18.964 --> 01:31:24.500
+Piyush Verma (Neural Defend): Yeah. So I think, Chris, this one, maybe
+
+636
+01:31:26.456 --> 01:31:35.349
+Piyush Verma (Neural Defend): I don't know if you are trying to do this graphically, or how's how are you trying to represent this entire story like you? Have you thought about it?
+
+637
+01:31:37.665 --> 01:31:48.679
+Chris Wong: Yeah, I'll it. I'm gonna do. Probably a video for the product demo. And it'll be like snippets of things kind of like showing, showcasing that and then the rest will be kind of just talking.
+
+638
+01:31:48.830 --> 01:31:51.210
+Chris Wong: Yeah, with some, maybe possibly slides. Yeah.
+
+639
+01:31:52.546 --> 01:31:56.710
+Chloe Lannert: I meant, are you ready to show your storyboard for your video?
+
+640
+01:31:58.130 --> 01:32:01.409
+Piyush Verma (Neural Defend): Yeah, yeah. I mean, I have
+
+641
+01:32:01.932 --> 01:32:07.560
+Piyush Verma (Neural Defend): scribbled notes on the notebook handwritten notes. But I can. I can share the
+
+642
+01:32:07.680 --> 01:32:24.380
+Piyush Verma (Neural Defend): overarching thoughts here, and would would love to hear your feedback from you guys. So so the the biggest question is so right now, we have a very, very specific Beachhead market, which is like the Kyc companies, verification companies that serve the banks.
+
+643
+01:32:24.610 --> 01:32:27.779
+Piyush Verma (Neural Defend): And that's what we are trying to focus on. We have a bunch of
+
+644
+01:32:27.880 --> 01:32:55.549
+Piyush Verma (Neural Defend): potential design partners and and people in India that are working with us. So that's a very clear beachhead market which we are focusing on. But at the same time there's a conflicting thought that there is a much larger market out there which is like dating apps. Government, igaming, crypto trading. All of these use cases are also there, which are which I know that are present in the Us.
+
+645
+01:32:55.690 --> 01:32:57.060
+Piyush Verma (Neural Defend): And
+
+646
+01:32:57.220 --> 01:33:11.669
+Piyush Verma (Neural Defend): so, therefore this entire larger market is available to us. So which one should we focus on through the this demo day? Opportunity is the is the biggest question right now, and I think for that, the Chloe. I would
+
+647
+01:33:12.229 --> 01:33:20.499
+Piyush Verma (Neural Defend): it would be ideal to to have a discussion with New and Neil, because you guys know the audience more than I do
+
+648
+01:33:21.046 --> 01:33:31.740
+Piyush Verma (Neural Defend): so so that would be the the biggest question which one should be focused. And then the the second question is, should we create like some sort of a
+
+649
+01:33:31.870 --> 01:33:37.799
+Piyush Verma (Neural Defend): a deep fake of somebody in the crowd that creates some sort of a wow factor
+
+650
+01:33:37.820 --> 01:34:05.079
+Piyush Verma (Neural Defend): and just keeps something that they remember after they go home, and they talk to everybody like their friends and their whoever their colleagues, that we saw this cool, deep fake startup. That's 1 way to do it the the other way to do it is, we show, like a a very, very specific workflow, that here the product integrates into the Api of the of the customers. And this is how it works. So.
+
+651
+01:34:05.280 --> 01:34:09.399
+Piyush Verma (Neural Defend): yeah, that's that's all from my side.
+
+652
+01:34:09.660 --> 01:34:15.100
+Chloe Lannert: Okay. Few things the market you focus on is the one where you have the most evidence that people are willing to pay for this.
+
+653
+01:34:15.880 --> 01:34:21.449
+Piyush Verma (Neural Defend): In India, not in the Us. But these are Us. Audience. So that's why the conflicting opinion.
+
+654
+01:34:21.990 --> 01:34:22.615
+Chloe Lannert: Yeah.
+
+655
+01:34:23.700 --> 01:34:32.800
+Chloe Lannert: Still, where do you have the most evidence of willingness to pay? We can give, like our guess, on which verticals
+
+656
+01:34:33.050 --> 01:34:41.830
+Chloe Lannert: will like sound the best, but that's that's not anything real. Second, I
+
+657
+01:34:42.200 --> 01:34:55.160
+Chloe Lannert: I'd need to reread techstars like media releases. But I don't think you can defake random people in the audience. You can deep fake Neil if he says, Okay, you can like defake him in the video, or like
+
+658
+01:34:55.610 --> 01:35:04.139
+Chloe Lannert: people in the class. But you gotta be careful with consent. There. Yeah, I think
+
+659
+01:35:04.830 --> 01:35:09.499
+Chloe Lannert: so. Run me back through your goals for this week.
+
+660
+01:35:09.500 --> 01:35:17.660
+Piyush Verma (Neural Defend): So I think, yeah, I think the goal. The goals are to have more people as a part of our customer discovery process.
+
+661
+01:35:18.744 --> 01:35:22.910
+Piyush Verma (Neural Defend): More. I mean potential design partners.
+
+662
+01:35:23.170 --> 01:35:28.949
+Piyush Verma (Neural Defend): people that we want to talk to and understand their pain points so that we, we understand the
+
+663
+01:35:29.120 --> 01:35:32.420
+Piyush Verma (Neural Defend): the problems more deeply from the wider industry.
+
+664
+01:35:33.352 --> 01:35:38.000
+Piyush Verma (Neural Defend): So that eventually, let's say, a few months down the line. We we have
+
+665
+01:35:38.430 --> 01:35:44.730
+Piyush Verma (Neural Defend): a a few more solidified use cases in the us market right now. It it's it's not very
+
+666
+01:35:44.980 --> 01:35:48.640
+Piyush Verma (Neural Defend): clear what what we are doing in in the Us. You know.
+
+667
+01:35:50.119 --> 01:35:54.779
+Chloe Lannert: Why are you so committed to the Us. Then at least.
+
+668
+01:35:54.780 --> 01:35:55.700
+Piyush Verma (Neural Defend): So, okay.
+
+669
+01:35:56.030 --> 01:36:02.449
+Piyush Verma (Neural Defend): yeah. So I'll tell you what happened. So I spoke with, this investor last week last 2 last week.
+
+670
+01:36:02.560 --> 01:36:03.730
+Piyush Verma (Neural Defend): They are
+
+671
+01:36:03.780 --> 01:36:24.939
+Piyush Verma (Neural Defend): one of the largest investors in India. It's kind of the Sequoia part of India. So they interestingly, they asked us questions about the global market when we told them that we are focusing on India, we have this, this design partners. They're like, okay. But the the Indian market is is just, you know 200 million dollar market right now.
+
+672
+01:36:25.290 --> 01:36:35.670
+Piyush Verma (Neural Defend): are you? What? What's your? What are your insights about the Us. Market? Because that's what they're seeing at, because if they want to fund us, they they are. They want to fund like a billion dollar company.
+
+673
+01:36:35.750 --> 01:36:44.240
+Piyush Verma (Neural Defend): And they want to see that larger market. And they are asking me for insights about the global market. And right now I don't have much
+
+674
+01:36:44.560 --> 01:36:45.939
+Piyush Verma (Neural Defend): to share with them.
+
+675
+01:36:46.290 --> 01:36:52.590
+Chloe Lannert: Okay, we can pick up this conversation later down the line. I want to give space for everyone else to give feedback.
+
+676
+01:36:53.350 --> 01:36:54.250
+Chloe Lannert: Yeah.
+
+677
+01:36:58.210 --> 01:37:04.070
+Carlo Scaglia: I mean, if it's to me, it sounds like you're you wanted to. Don't invest, to play here with them a day.
+
+678
+01:37:04.480 --> 01:37:09.180
+Carlo Scaglia: So, and I think what you guys have is a pretty cool, deep tech product
+
+679
+01:37:09.400 --> 01:37:17.629
+Carlo Scaglia: with very real life applications. I think deepfakes is something that we're seeing a lot. And so I think, just kind of like
+
+680
+01:37:17.740 --> 01:37:20.120
+Carlo Scaglia: going down the classic route of our
+
+681
+01:37:20.740 --> 01:37:23.970
+Carlo Scaglia: investor pitch type thing while showcasing your product.
+
+682
+01:37:24.220 --> 01:37:32.160
+Carlo Scaglia: painting the true like size of the problem and how scary it is for so many people like, I think it's over the past few years, for example, that I've started to see
+
+683
+01:37:32.633 --> 01:37:48.710
+Carlo Scaglia: families blur out the faces of their kids on photos right? Like how you didn't see that 3 years ago. Now you're starting to see it. So people a lot more tuned with this issue, and I feel more at home. So while you're you're targeting Kyc companies, and it's very good. I think a lot of people can really relate.
+
+684
+01:37:49.120 --> 01:37:57.330
+Carlo Scaglia: So what you're targeting. So I think you can almost create a pitch that's super personable in that respect, and then show how your solution is going to help out like
+
+685
+01:37:57.670 --> 01:38:03.540
+Carlo Scaglia: yes Kyc. Company to start with, but eventually it can help out, like everyone at any scales, to protect
+
+686
+01:38:04.070 --> 01:38:10.970
+Carlo Scaglia: themselves from from deep fake. So I think if you create a narrative around this one around this theme and make it personal and
+
+687
+01:38:11.200 --> 01:38:21.109
+Carlo Scaglia: showcase the tech and show like a very clear understanding of how you can deploy this. You have a really compelling pitch rather than going deep deep into the tech. Because
+
+688
+01:38:21.210 --> 01:38:37.450
+Carlo Scaglia: what you guys are doing is pretty complex. So I doubt many people understand the depth of the tech. But a lot of people understand the depth of the problem. So I think if you go there and you position yourself as like the best people to address it. From a personal point of view, I think that can make for a super compelling pitch.
+
+689
+01:38:38.400 --> 01:38:38.800
+Chris Wong: So.
+
+690
+01:38:38.800 --> 01:38:48.740
+Piyush Verma (Neural Defend): So, okay, so what I'm hearing is you're saying that we in the in the same video, we address a specific Kyc audience. And at the same time, towards the end.
+
+691
+01:38:48.980 --> 01:38:56.730
+Piyush Verma (Neural Defend): we open up the problem statement and say that these are the other problems that everybody is facing in the world. So we kind of address both
+
+692
+01:38:56.920 --> 01:38:58.840
+Piyush Verma (Neural Defend): scenarios, right?
+
+693
+01:38:59.445 --> 01:39:07.910
+Carlo Scaglia: I wasn't. Send just for the pitch just for the video saying, like you, you've got the whole pitch. You got the 1 min. Video, the 1 min pitch and the 4 min QA.
+
+694
+01:39:08.340 --> 01:39:13.940
+Carlo Scaglia: I think it's if it's talking to broader audience. It depends also what you want out of this.
+
+695
+01:39:14.330 --> 01:39:26.040
+Carlo Scaglia: I think it's good to start on a relatable issue like in all fairness. When you said Kyc. At the start of the program, I have to Google what Kyc. Was. I don't know what Kyc. Was. I'm sure the people are smarter than me, and they know what it is. Well, I didn't know what it was.
+
+696
+01:39:26.150 --> 01:39:33.159
+Carlo Scaglia: But then you tell me deep fakes and stuff like that. I immediately know what that is, so I I don't know. I think if you want to stop with like
+
+697
+01:39:33.430 --> 01:39:36.619
+Carlo Scaglia: capturing people, I would just go on the broader
+
+698
+01:39:37.110 --> 01:39:57.229
+Carlo Scaglia: industry. And that also shows the investors just how big this is, and the Kyc. Maybe in their QA. Or in the intro picture is like, look, this is just our easiest way in other people that we've gained traction with. And this is how we stop. But it's just the start, right? And it's like your way into the industry. I wouldn't do it all in one video, because 1 min it's super short.
+
+699
+01:39:57.400 --> 01:40:16.830
+Carlo Scaglia: I. This is my general approach to videos and have your own way. Do what you think is right. But I always think that like it's good to level the playing field with who you're talking to. So they understand you. You understand them. And then you can build understanding from that further rather than starting with something that's like so moonshot that you just lose people in the start.
+
+700
+01:40:18.380 --> 01:40:19.060
+Piyush Verma (Neural Defend): Got it.
+
+701
+01:40:25.710 --> 01:40:26.690
+Chloe Lannert: Yeah. Antoine.
+
+702
+01:40:28.180 --> 01:40:36.848
+antoinecarriere: Yeah, to me. I I don't know if that it's about the the product video, but kind of the general, the the whole pitch
+
+703
+01:40:38.420 --> 01:40:49.720
+antoinecarriere: my instinctive reaction. When I see this is, I'm 100% convinced that there's a problem. And I'm 100% convinced that it's kind of a place for innovation
+
+704
+01:40:50.305 --> 01:40:59.030
+antoinecarriere: and that there's money to be made in that in that space. So no issue whatsoever. There, my big issue
+
+705
+01:40:59.150 --> 01:41:08.289
+antoinecarriere: is, I'm thinking there's palantir, there's Google, there's cyber security juggernauts.
+
+706
+01:41:08.500 --> 01:41:20.314
+antoinecarriere: that kind of. Why are they not doing this? Why is kind of this little team coming from India. Going to be kind of
+
+707
+01:41:23.110 --> 01:41:45.579
+antoinecarriere: kind of taking any meaningful share of this of this market. So to me, that's the main thing. And so if I'm thinking of myself in the audience, I'm going to say, Oh, that that's so cool! That's so cool. What they're doing. But I'm not going to be kind of interested in giving some some contacts, because I'm going to think like
+
+708
+01:41:46.080 --> 01:42:09.484
+antoinecarriere: I mean, there has to be like there. I I don't. I don't. I don't get it. And so I do think that you need to address that that point around like, why, a nimble small team based out of India, or India, or anywhere anywhere. You know India, France, Norway, whatever
+
+709
+01:42:10.430 --> 01:42:16.870
+antoinecarriere: Going to be able to to tackle that that market effectively.
+
+710
+01:42:20.440 --> 01:42:26.220
+antoinecarriere: and I don't know that I I got that from the from the the whole. The whole thing.
+
+711
+01:42:27.890 --> 01:42:36.140
+Piyush Verma (Neural Defend): Yeah, yeah, I think that's a fair point. We have to somehow talk about the competitive differentiation, I guess.
+
+712
+01:42:36.883 --> 01:42:44.889
+Piyush Verma (Neural Defend): But that 1 min. Is it enough to put everything across? Is the important question.
+
+713
+01:42:45.750 --> 01:42:49.110
+Piyush Verma (Neural Defend): But maybe we can some in some way.
+
+714
+01:42:49.110 --> 01:42:52.560
+antoinecarriere: To me. You need to have an answer to that.
+
+715
+01:42:53.560 --> 01:43:15.539
+antoinecarriere: and you need to either preempt the question before the QA. Or this is one of the questions that you have to address, because, again, that's going to be the what will the to me? It's a question that is big enough that if I don't think they have a credible answer, which means, if I haven't heard any kind of answer.
+
+716
+01:43:15.670 --> 01:43:21.390
+antoinecarriere: I'm going. I'm I'm just going to refrain from kind of talking about you guys.
+
+717
+01:43:23.010 --> 01:43:36.679
+antoinecarriere: which might not mean that I'm going to refrain from saying like, Oh, this is so cool! They've done a a great kind of a a fake, deep fake, etcetera. So I might. I might. I might actually share something that you would
+
+718
+01:43:36.740 --> 01:43:55.230
+antoinecarriere: that you would provide that is visually appealing a little bit like a Tiktok video, you know, some something that and so that you you might. You might become viral because of that, because that that one piece of and maybe that's that's that's all all you need.
+
+719
+01:43:55.340 --> 01:44:15.449
+antoinecarriere: But that would be more like the fun of it, so I wouldn't share it with kind of deep fake specialists. I would share it with all of my friends. So the good news is, I have friends. I may not know deep fake specialists, and so so, so, so I do. I do. But I do think that if you kind of. If you want to get like targeted contacts
+
+720
+01:44:15.590 --> 01:44:23.509
+antoinecarriere: you need to have, because you're going to speak with another audience who may know people, but who don't don't know about the topic well enough
+
+721
+01:44:23.630 --> 01:44:32.369
+antoinecarriere: to know that. And so they're going to have like simple questions like what's different. And you need to have a simple answer that resonates
+
+722
+01:44:33.930 --> 01:44:55.480
+antoinecarriere: it shouldn't be complicated. The the reason why it should be something as simple as Hey I and I'm I don't. I don't know what what it is, but it could be something as simple as, Hey, they're they're bloated. These companies are bloated. They have like hundreds of people. And and we're we've we've or it could be as simple as, Hey, we've
+
+723
+01:44:55.640 --> 01:44:59.300
+antoinecarriere: we've actually on benchmarks. We crush the competition.
+
+724
+01:44:59.480 --> 01:45:18.070
+antoinecarriere: Am I going to check your benchmarks. Am I going to check that? You crush your competition? No, I'm going to be satisfied with the answer now. It better not be wrong, false, because then you put yourself in Geo. Probably so it could could be a very simple kind of answer. I don't think it needs to be a complicated answer.
+
+725
+01:45:18.540 --> 01:45:24.779
+antoinecarriere: You don't. It doesn't. But it does need to be kind of something, something that you discussed.
+
+726
+01:45:25.780 --> 01:45:28.339
+Chloe Lannert: Yeah. Totally. Chris, take us home.
+
+727
+01:45:31.060 --> 01:45:46.629
+Chris Wong: Yeah, I I think as I think about this one, it's if you're if one of the goals is to get into the Us. Market, or like at drive awareness. I think another piece of it is, who in the Us. Market does this really trying to solve? So being a little more like specific on that for example, like
+
+728
+01:45:46.890 --> 01:45:56.540
+Chris Wong: well, I have like a few thoughts. Is it? Is it the like content creators of the in the Us. That need this, that are like their their kind of identities being taken and kind of like pulled apart?
+
+729
+01:45:56.560 --> 01:46:19.420
+Chris Wong: Or is it like Ceos of businesses that they're like taking these information and kind of showing among their employees in the company? Or is it celebrities a-list celebrities in the United States, where in Hollywood. People are kind of using them and taking. And then also, like miskit masking, like, I think it's like identifying kind of like the best people that are having the bit like having the pain point also, possibly willing to pay, and then kind of highlighting that story.
+
+730
+01:46:19.685 --> 01:46:33.209
+Chris Wong: Could be really helpful in this. And and you could even look at like past you know, if there's been any incidents where deep fakes actually impacted. kind of some kind of issue, and then kind of raise it, or there's some kind of news. Kind of
+
+731
+01:46:33.210 --> 01:46:59.520
+Chris Wong: kind of pulling around what Ishmael and Patia is kind of like they're doing kind of like newsreels on on incidences, if there is any, with defects, maybe look into that. But it's really highlighting kind of who are you trying to serve in the Us. And that can kind of help give you better connections on the right people that you want to go for through the audience. I'm sure it's like, if it's content, Creator, or someone like someone may know, like those kind of people. So it gives them a better focus on who they who could. They can give you a better connection with in the
+
+732
+01:46:59.590 --> 01:47:01.000
+Chris Wong: yeah for the demo day.
+
+733
+01:47:01.090 --> 01:47:01.639
+Chris Wong: That's it.
+
+734
+01:47:01.640 --> 01:47:05.390
+Carlo Scaglia: I'm sure there was some used during elections for this.
+
+735
+01:47:07.460 --> 01:47:08.240
+Chris Wong: Yeah, politicians.
+
+736
+01:47:08.240 --> 01:47:10.180
+Chloe Lannert: Okay, I mean.
+
+737
+01:47:10.180 --> 01:47:10.640
+Chris Wong: Sure.
+
+738
+01:47:10.640 --> 01:47:13.119
+Chloe Lannert: Trump Pope like 2 days ago.
+
+739
+01:47:15.470 --> 01:47:16.570
+Chloe Lannert: Anyways.
+
+740
+01:47:16.920 --> 01:47:17.580
+Piyush Verma (Neural Defend): Yeah, thanks.
+
+741
+01:47:17.580 --> 01:47:21.659
+Piyush Verma (Neural Defend): This was great. Great guys. Thank you so much. We'll we'll work on it.
+
+742
+01:47:26.400 --> 01:47:27.230
+Carlo Scaglia: Thank you.
+
