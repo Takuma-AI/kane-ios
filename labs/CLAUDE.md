@@ -46,10 +46,19 @@ product-name/
 ├── pitches/          # Features fighting for existence
 │   ├── active/      # Being shaped or built
 │   └── shipped/     # What we learned by shipping
-└── codebase/        # Git submodule - the implementation
+└── codebase/        # Git submodule - INDEPENDENT REPOSITORY
 ```
 
-Critical: Pitches live at product level, NEVER inside codebase. Thinking and building are separate acts.
+Critical: 
+- Pitches live at product level, NEVER inside codebase
+- Thinking and building are separate acts
+- Each codebase is its own git repository with independent history
+
+## Working with Product Codebases
+
+@.claude/git-submodules.md
+
+Products are git submodules. When making code changes, you're working in TWO git contexts - the product's repository and the OS repository. Always know which context you're in.
 
 ## Building Philosophy
 
@@ -96,6 +105,7 @@ Rails is the brain. iOS is the nervous system:
 - Stay minimal - Rails does the work
 
 @.claude/hotwire-native-patterns.md
+@.claude/hotwire-native/  # Full iOS development modules when needed
 
 ## Critical Principles
 
