@@ -1,101 +1,128 @@
 # Takuma OS
 
-A living system for organizing work that emerges from the process of defining it.
+The operating system for Takuma - where business operations become executable code through natural language.
 
-## Quick Start
+## What This Is
 
+This repository IS Takuma. Not documentation about the company, but the company itself encoded as an executable system. Every document here is a word program that runs as real-world progress.
+
+## For Human Operators
+
+### Philosophy
+
+We believe words have become code. Not metaphorically - literally. This repository embodies that belief. Every CLAUDE.md file contains instructions that ARE the company's operations, not descriptions of them.
+
+When you work here, you're not using the OS - you're executing it.
+
+### Getting Started
+
+1. **Clone with submodules**: 
+   ```bash
+   git clone --recursive [repository-url]
+   # Or if already cloned:
+   git submodule update --init --recursive
+   ```
+
+2. **Understand the structure**:
+   - `/core/` - Company DNA (handbook, manifesto, thought leadership)
+   - `/labs/` - Product development studio
+   - `/bespoke/` - Consulting engagements  
+   - `/knowledge/` - Shared patterns and references
+   - `/tools/` - Automation utilities
+   - `/local/` - Your personal workspace (gitignored)
+   - `/archive/` - Historical work preserved
+
+3. **Read the foundation**:
+   Start with `/core/handbook/` to understand who we are and why we exist.
+
+### Working with AI Agents
+
+Each directory contains a CLAUDE.md file that serves as the operating instructions for that department. When launching an AI agent:
+
+- At root level: Agent understands the entire company
+- At `/labs/`: Agent becomes a product development partner
+- At `/bespoke/`: Agent becomes a consulting co-founder
+- At specific products/clients: Agent has full context for that work
+
+The system is hierarchical - each level inherits from its parent while adding its own context.
+
+### Git Submodules
+
+Products in `/labs/` use git submodules for their codebases. This separates intent (the OS) from implementation (the code).
+
+#### Update all submodules:
 ```bash
-# Clone this repository
-git clone https://github.com/Takuma-AI/takuma-os.git
-cd takuma-os
-
-# Create your workspace
-mkdir ~/my-workspace
-cd ~/my-workspace
-mkdir -p "🌍 EARTH" "⚔️ SIDE QUESTS" knowledge tools research plan
-
-# Start with a Side Quest
-cd "⚔️ SIDE QUESTS"
-mkdir "🔬 My First Experiment"
+git submodule update --remote --merge
 ```
 
-**Using Claude Code?** See `SETUP.md` for detailed setup instructions.
+#### Add a new product:
+```bash
+cd labs
+git submodule add [repository-url] [product-name]/codebase
+```
 
-Read `philosophy/getting-started.md` for the full introduction.
+#### Important: 
+- Submodules always track the latest main branch
+- Commit submodule updates to the OS when products evolve significantly
+- Keep product vision and pitches in the OS, code in the submodule
 
-## What's Included
+### Daily Workflow
 
-### 📚 knowledge/
-Curated wisdom that informs our work. Books, frameworks, and insights from:
-- 37signals (Getting Real, Shape Up, REWORK)
-- The Great CEO Within
-- Jobs to be Done methodology
-- And more...
+1. **Morning**: Pull latest state
+   ```bash
+   git pull --recurse-submodules
+   ```
 
-### 🛠️ tools/
-Utilities that reduce friction:
-- `basecamp-sync` - Upload markdown to Basecamp
-- `youtube-transcribe` - Extract wisdom from videos
+2. **Working**: Each change is a decision
+   - Make changes with intent
+   - Commit with meaningful messages
+   - Push progress daily
 
-**Quick access**: Use `./sync` and `./yt` from the root directory.
+3. **Evening**: Share your progress
+   ```bash
+   git push
+   ```
 
-### 💭 philosophy/
-The principles behind Progress Management:
-- Why progress > projects
-- Naming conventions (emojis and organization)
-- Getting started guide
+### The Local Folder
 
-### Example Projects
-- 🌒 **TAKUMA** - See how a company workspace is organized
-- 🌅 **SHOKUNA** - Active project example (Founders Agreement)
+The `/local/` directory is gitignored. Use it for:
+- Personal experiments
+- Messy drafts
+- Work not ready for the shared OS
+- Anything you want to keep private
 
-## Core Principles
+### Making Changes
 
-**Progress > Projects**: Work emerges from the process of defining it. Don't over-plan.
+This OS evolves through pull requests. Each PR should:
+- Have a clear epicenter (the one thing it enables)
+- Explain the struggle it addresses
+- Show what reality looks like after merging
+- Be shipped as soon as it enables progress
 
-**Living Documentation**: CLAUDE.md files capture context and evolve with your work.
+### Architecture Principles
 
-**Knowledge-Informed**: Let the curated wisdom guide your decisions.
+1. **Words are code** - Every document is executable
+2. **Departments are directories** - Each folder is a functional unit
+3. **Context cascades** - Child directories inherit parent context
+4. **Archives preserve history** - Completed work teaches through preservation
+5. **Main is reality** - The main branch is always the current state
 
-**Maintained Agency**: You decide, tools and AI amplify.
+## Recent Updates
 
-## The Emoji Convention
+- **2025-08-08**: Initial OS architecture established
+- **2025-08-08**: Core philosophy encoded from handbook
+- **2025-08-08**: Department structures created (labs, bespoke)
 
-- **Projects get emojis** (🌍 EARTH, ⚔️ SIDE QUESTS) - living work with personality
-- **Utilities don't** (knowledge, tools, research) - stable infrastructure
+For detailed history: `git log --oneline`
 
-This creates instant visual distinction and keeps utility paths clean for automation.
+## Remember
 
-## Your First Day
+You're not documenting work. You're encoding it.
 
-1. **Explore knowledge/** - Start with Getting Real or Shape Up
-2. **Create a Side Quest** - Low commitment, high learning
-3. **Use CLAUDE.md** - Document context as you work
-4. **Let it evolve** - Don't force structure prematurely
+You're not managing the company. You're programming it.
 
-## Contributing Back
-
-When you create something worth sharing:
-1. Copy it to your fork of Takuma OS
-2. Clean up any sensitive content
-3. Submit a pull request
-4. Help others experience Progress Management
-
-## Philosophy
-
-This isn't about imposing structure - it's about creating space for work to reveal what it wants to become. The system should feel alive, not mechanical.
-
-For deeper understanding, read:
-- `philosophy/progress-management.md` - The core methodology
-- `philosophy/getting-started.md` - Practical first steps
-- `knowledge/Books/Getting Real/` - The philosophical foundation
-
-## Support
-
-This is an evolving system. If something doesn't make sense, that's valuable feedback. Open an issue or contribute improvements.
-
-Remember: The magic isn't in the structure - it's in the approach.
+You're not using Takuma OS. You ARE Takuma OS in action.
 
 ---
 
-*"The work itself tells you what it wants to become."*
+*Discover intent. Refine and repeat.*

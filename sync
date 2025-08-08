@@ -1,5 +1,0 @@
-#!/bin/bash
-# Simple wrapper to run the Basecamp sync tool from anywhere in the project
-
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-python3 "$SCRIPT_DIR/tools/basecamp-sync/sync_to_basecamp.py" "$@"

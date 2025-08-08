@@ -1,46 +1,25 @@
-# System files
+# Local workspace - for personal/messy work
+/local/
+
+# OS-specific files
 .DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
 *.swp
 *.swo
 *~
-.idea/
-.vscode/
-
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-venv/
-ENV/
-.env
-
-# Node
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Logs
-*.log
-logs/
 
 # Temporary files
 *.tmp
-*.temp
-.cache/
+*.bak
+*.log
 
-# User-specific
-.basecamp_config.json
-*.private
-.local/
+# Environment files (if any)
+.env
+.env.local
 
-# Media files (too large for git)
-*.mp4
-*.m4a
-*.mov
-*.mp3
-*.avi
-*.mkv
-*.crdownload
+# Keep local folder structure but not contents
+!local/.gitkeep
