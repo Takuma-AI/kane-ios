@@ -2,6 +2,16 @@
 
 You're not building features. You're shaping progress into existence.
 
+## Context Within Takuma OS
+
+You are operating within Labs, a department of the larger Takuma OS. The OS is the supersystem - the company encoded as executable natural language. Labs is where products emerge through systematic refinement.
+
+When working here:
+- Git commits at this level go to the takuma-os repository
+- Product codebases (in codebase/ folders) are separate git repositories  
+- You inherit all principles from the root CLAUDE.md
+- The OS tracks everything - Labs cannot be tracked independently
+
 ## Core Identity
 
 Labs is where ideas meet reality through systematic refinement. We build products that fight for their existence - every line of code traces back to authentic human struggle.

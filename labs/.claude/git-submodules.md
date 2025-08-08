@@ -4,9 +4,18 @@ Products in Labs are git submodules - independent repositories tracked within th
 
 ## Critical Understanding
 
-When working at the Labs level, you're operating across TWO git contexts:
-1. **The OS repository** - The overall takuma-os system
-2. **Product repositories** - Individual codebases like kane, hashi
+You are in the Labs department of Takuma OS. The OS is the only repository you can commit to at this level. When working here, you're operating across TWO git contexts:
+
+1. **The OS repository** (takuma-os) - Where you make commits for:
+   - Vision documents
+   - Pitches
+   - CLAUDE.md files
+   - Any changes outside of codebase/ folders
+
+2. **Product repositories** - Individual codebases like kane, hashi:
+   - These are separate GitHub repositories
+   - Changes here require committing within the submodule
+   - After pushing product changes, update the OS reference
 
 ## Committing Product Changes
 
