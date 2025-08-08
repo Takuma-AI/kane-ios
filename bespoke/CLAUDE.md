@@ -65,7 +65,7 @@ We're not hired hands. We're capability builders:
 - Build their confidence alongside their product
 
 ### Progress Over Perfection
-Ship understanding daily:
+Ship understanding when it crystallizes:
 - Small insights compound
 - Quick wins build momentum
 - Real feedback beats speculation

@@ -59,7 +59,7 @@ When operating at any level:
 1. First sense what has the most energy
 2. Let structure emerge from the epicenter  
 3. Create only what enables progress
-4. Ship daily to learn what evolves next
+4. Ship when it enables learning
 
 Context cascades - each level inherits from its parent while adding its essence.
 

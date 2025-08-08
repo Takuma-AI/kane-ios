@@ -39,12 +39,12 @@ Every product needs something to fight against. What current solution or pattern
 
 ### 4. Appetite Setting
 
-In AI time, appetites are compressed:
-- Large Batch: 6 days (was 6 weeks)
-- Small Batch: 2 days (was 2 weeks)
-- Spike: 4 hours (was 2 days)
+Appetites are about scope, not speed:
+- Large Batch: Full exploration of a major concept
+- Small Batch: Focused refinement of specific capability
+- Spike: Quick probe to test assumptions
 
-Always ask: "How much time is this worth?"
+Always ask: "How much complexity serves this problem?"
 
 ### 5. Solution Sketching
 
@@ -71,7 +71,7 @@ Move from problem to approach, but keep it rough - details come during building.
 - Habit: [What they'd need to change]
 
 ## Appetite
-[Time budget: 2 days, 4 days, or 6 days]
+[Scope boundary: Small batch, Large batch, or Spike]
 
 ## Solution
 [Rough approach - key elements, main flows, focused on enabling progress]
@@ -98,8 +98,8 @@ Move from problem to approach, but keep it rough - details come during building.
 ### Embrace These
 - Specific users with specific problems
 - Clear boundaries and trade-offs
-- Time constraints as creative force
-- "Good enough" as a target
+- Constraints as creative force
+- "Good enough" as wisdom
 - Shipping to learn
 
 ## Remember
@@ -108,4 +108,4 @@ Move from problem to approach, but keep it rough - details come during building.
 - The best ideas have natural stopping points
 - If you can't explain it in one sentence, it's not shaped
 - An idea isn't shaped until you know what you're NOT building
-- In AI time, we shape by sketching real interfaces, not abstractions
+- We shape by sketching real interfaces, not abstractions

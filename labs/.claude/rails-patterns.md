@@ -50,9 +50,9 @@ The interface IS the product. Everything else supports what users see.
 ```
 
 ### Progressive Implementation
-Day 1: Hardcoded views
-Day 2: Simple models
-Day 3: Add behavior as needed
+Phase 1: Hardcoded views
+Phase 2: Simple models
+Phase 3: Add behavior as needed
 
 Never build infrastructure before interface.
 
@@ -146,9 +146,9 @@ end
 
 ## Development Workflow
 
-### Daily Shipping
+### Incremental Progress
 ```bash
-# Morning: Start fresh
+# Start fresh
 rails server
 
 # Build incrementally
@@ -225,7 +225,7 @@ end
 - Convention over configuration
 - Build what you see in the UI
 - Start simple, enhance gradually
-- Ship working software daily
+- Ship working software when it teaches
 - If Rails has a way, use it
 - The best code is no code
 - Delete fearlessly

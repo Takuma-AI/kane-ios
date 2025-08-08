@@ -30,13 +30,13 @@ And an enemy to fight against:
 - The enemy of forgetting
 - The enemy of context switching
 
-### Appetite, Not Estimates
-Work expands to fill time. Constrain time to reveal essence:
-- Large batch: 6 days (was 6 weeks)
-- Small batch: 2 days (was 2 weeks)  
-- Spike: 4 hours (was 2 days)
+### Appetite as Creative Constraint
+Constraints reveal essence. Set boundaries not for speed but for focus:
+- Large batch: Major feature with full exploration
+- Small batch: Focused improvement with clear scope  
+- Spike: Quick exploration to learn feasibility
 
-When time runs out, we ship what exists, not extend for perfection.
+When reaching boundaries, ship what teaches, not what impresses.
 
 ## Product Structure
 
@@ -67,24 +67,24 @@ The interface IS the product. Everything else supports what users see:
 - If Rails has a way, use it
 
 ### Ship to Learn
-- Ship embarrassingly early
-- Ship before you're ready
+- Ship when understanding crystallizes
 - Ship to discover what matters
 - Ship because real feedback beats imagined problems
+- Ship what teaches, not what's complete
 
-## The Daily Rhythm
+## The Creative Process
 
-**Morning**: Find today's epicenter
-**Midday**: Build the simplest thing that could work
-**Afternoon**: Ship what enables progress
-**Evening**: Learn what wants to emerge tomorrow
+**Discovery**: Find the epicenter of energy
+**Shaping**: Build the simplest thing that could work
+**Shipping**: Release what enables progress
+**Learning**: Let usage reveal what wants to emerge
 
 ## Quality Markers
 
 Good work in Labs:
 - Enables specific progress for specific humans
-- Ships daily without breaking
-- Reduces complexity over time
+- Ships when understanding is clear
+- Reduces complexity through iteration
 - Feels obvious in retrospect
 
 ## When Building iOS Apps
