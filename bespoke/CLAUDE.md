@@ -93,7 +93,7 @@ Every artifact is executable:
 - Don't build for them, build with them
 - Show your screen, explain your thinking
 - Leave them capable of continuing alone
-- Success = they don't need us anymore
+- Success = we've productized ourselves into their workflow
 
 ### Document for Action
 Every document must answer "So what?":
