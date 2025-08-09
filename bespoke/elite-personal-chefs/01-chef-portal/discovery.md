@@ -1,4 +1,4 @@
-# Discovery Transcript - Chef Portal Vision
+# Discovery - Chef Portal
 
 ## Chef's Core Request
 "I want to see how everything works. How do you set up the repo? Like what do I do to build my environment? Like how do I do any of this? I want the full experience of being fucking in it, like all in it, all up in it."

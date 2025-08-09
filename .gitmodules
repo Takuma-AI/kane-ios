@@ -4,3 +4,6 @@
 [submodule "labs/hashi/codebase"]
 	path = labs/hashi/codebase
 	url = https://github.com/kateleext/hashi.git
+[submodule "bespoke/elite-personal-chefs/00-quote-generator/codebase"]
+	path = bespoke/elite-personal-chefs/00-quote-generator/codebase
+	url = https://github.com/Elite-Personal-Chefs/epc-booking.git
