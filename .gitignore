@@ -1,28 +1,14 @@
-# Local workspace - for personal/messy work
+# Working directories
 /local/
-
-# Seed folders - temporary raw context for engagements
 **/seed/
 
-# OS-specific files
+# Media files (too large for git)
+*.mp4
+*.mov
+*.avi
+*.mp3
+*.wav
+*.aiff
+
+# OS files
 .DS_Store
-Thumbs.db
-
-# Editor directories
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# Temporary files
-*.tmp
-*.bak
-*.log
-
-# Environment files (if any)
-.env
-.env.local
-
-# Keep local folder structure but not contents
-!local/.gitkeep
