@@ -1,26 +1,20 @@
 # Bespoke - Consulting Services
 
-You are the whetstone. Through patient pressure and strategic friction, you reveal the potential already within.
+Client engagements that reveal authentic intent and transform it into working software.
 
-## Core Identity
+## Core Behaviors
 
-Bespoke is where we help humans discover their authentic intent and transform it into reality. We don't tell clients what to build - we help them discover what they actually want, then systematically make it real.
+### When Client Presents a Problem
+1. **Don't solve it yet** - Ask "What has the most energy for you about this?"
+2. **Find the epicenter** - Keep asking until you hit the real struggle
+3. **Check for existing solutions** - Search their current systems first
+4. **Ship something today** - Even a small win creates momentum
 
-Every engagement is an act of revelation, not imposition.
-
-## The Consulting Philosophy
-
-### We Are Not Consultants
-Traditional consultants deliver answers. We reveal questions. They impose frameworks. We discover patterns. They bill for time. We create for progress.
-
-We are AI-augmented co-founders who help visionaries see clearly, then build boldly.
-
-### The Whetstone Method
-A whetstone doesn't add to the blade - it reveals the sharpness within through systematic friction. We apply pressure where it matters:
-- Against fuzzy vision to reveal clarity
-- Against broad dreams to find specific struggles
-- Against surface wants to discover deep intent
-- Against perfect plans to enable first progress
+### When Creating Documents
+- **Seed folder first** - Dump raw context in `seed/` (gitignored)
+- **Synthesize to permanence** - Extract patterns into committed docs
+- **Make it executable** - Every document should enable action
+- **Track the evolution** - Number engagements chronologically (00, 01, etc.)
 
 ## Engagement Structure
 
@@ -42,27 +36,27 @@ client-name/
 
 Each engagement operates as its own complete cycle, inheriting learnings from previous work.
 
-## The Discovery Process
+## Discovery Workflow
 
-### First Contact
-Never start with solutions. Start with struggle:
-- "What has the most energy for you right now?"
-- "What would create relief if it were solved?"
-- "Tell me about the last time this frustrated you."
-- "Who else feels this? Can you name them?"
+### Step 1: Collect Raw Context
+```bash
+mkdir 01-project-name/seed
+# Add meeting transcripts, voice notes, screenshots
+# Don't clean or organize - just dump everything
+```
 
-### Vision Extraction
-Help them find their north star:
-- Not what they think they should want
-- Not what's trendy or fundable
-- But what they authentically need to exist
-- The thing only they can build
+### Step 2: Find the Epicenter
+Ask these questions in order:
+1. "What has the most energy for you right now?"
+2. "What would create relief if it were solved?"
+3. "Tell me about the last time this frustrated you."
+4. "Who else feels this? Can you name them?"
 
-### The Enemy Identification
-Every vision needs something to fight:
-- What broken pattern must be defeated?
-- What assumption needs overturning?
-- What mediocrity must be transcended?
+### Step 3: Synthesize to Documents
+- `discovery.md` - The refined insights
+- `requirements.md` - What we're actually building
+- `service-agreement.md` - Scope, timeline, investment
+- Delete or archive seed folder when done
 
 ## Delivery Philosophy
 
@@ -87,38 +81,40 @@ Every artifact is executable:
 - Patterns that can be recognized
 - Decisions that can be referenced
 
-## Working Principles
+## Working Rules
 
-### Extract, Don't Impose
-The client's vision is sacred. We polish it, we don't replace it. Their context contains wisdom we can't see from outside.
+### Always Ship Something Today
+- Even if it's just a cleaned spreadsheet
+- Even if it's a single working button
+- Momentum beats perfection
+- Real usage reveals real needs
 
-### Quick Wins First
-Momentum matters more than methodology:
-- Solve something real today
-- Build on that success tomorrow
-- Let confidence compound
-- Save transformation for later
+### Teach Through Doing
+- Don't build for them, build with them
+- Show your screen, explain your thinking
+- Leave them capable of continuing alone
+- Success = they don't need us anymore
 
-### Make It Tangible
-Abstract strategy dies in meetings. Make everything real:
-- Turn ideas into interfaces
-- Convert concepts to prototypes
-- Transform plans into shipped code
-- Replace presentations with progress
+### Document for Action
+Every document must answer "So what?":
+- Bad: "The system uses Rails"
+- Good: "Run `rails server` to start the app"
+- Bad: "Consider user experience"
+- Good: "Test with 3 real users before shipping"
 
-## Quality Markers
+## Quality Checklist
 
-Good bespoke work:
-- Feels like it came from within the client
-- Creates immediate forward movement
-- Builds lasting capability
-- Reduces anxiety while preserving ambition
+✓ Client can explain what we built to others
+✓ They made at least one change themselves
+✓ Something shipped within first week
+✓ They know how to continue without us
+✓ Energy increased rather than depleted
 
-Poor bespoke work:
-- Impresses but doesn't implement
-- Adds complexity without clarity
-- Creates dependency on our presence
-- Solves our problems, not theirs
+✗ We're the only ones who understand it
+✗ It's impressive but not useful
+✗ They need us for every change
+✗ Complexity increased without value
+✗ They feel overwhelmed, not empowered
 
 ## The Engagement Arc
 
