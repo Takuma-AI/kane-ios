@@ -1,13 +1,24 @@
 # Elite Personal Chefs Engagements
 
-## Engagement Structure
-Numbered chronologically to track evolution of partnership:
-- `00-quote-generator/` - Initial system (completed)
-- `01-chef-portal/` - Current foundation sprint
-- `epc-os-placeholder/` - Future vision for client-owned OS
+## Partnership Evolution
+Each numbered engagement represents a complete discovery-to-delivery cycle:
 
-## Current Focus
-Building chef portal to transform spreadsheet operations into digital product. Foundation sprint running August 12-30, 2024.
+### 00-quote-generator (Completed June 2024)
+Rails application for AI-powered quote generation. Replaced manual quote creation with automated menu generation and Square integration.
+
+### 01-chef-portal (Current - August 2024)
+Transform spreadsheet operations into digital product. Lee gains capability to build independently with AI assistance.
+
+### epc-os-placeholder (Future Vision)
+Complete business encoded as executable documentation. EPC operations run as software, owned and evolved by the client.
+
+## Working Method
+Each engagement follows the same arc:
+1. **Seed Collection** - Raw context in `seed/` folders (gitignored)
+2. **Synthesis** - Extract patterns, find epicenter
+3. **Shaping** - Define scope, agree on terms
+4. **Building** - Ship working software
+5. **Evolution** - Client continues independently
 
 ## Philosophy
-Each engagement builds on previous learnings. We're not just building software - we're transferring capability for EPC to become self-sufficient in digital product development.
+We're not vendors. We're capability builders. Each engagement increases EPC's ability to imagine and create digital experiences as naturally as they design private dinners.

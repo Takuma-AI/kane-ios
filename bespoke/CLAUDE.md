@@ -24,14 +24,23 @@ A whetstone doesn't add to the blade - it reveals the sharpness within through s
 
 ## Engagement Structure
 
+Each client has multiple engagements over time, numbered chronologically:
+
 ```
 client-name/
-├── CLAUDE.md         # Client-specific context and vision
-├── discovery/        # Intent revelation artifacts
-├── shaping/          # Vision refinement documents
-├── implementation/   # Execution guides and progress
-└── archive/          # Completed work and lessons
+├── 00-initial-project/      # First engagement
+│   ├── seed/                # GITIGNORED - raw context dump
+│   ├── discovery.md         # Refined insights from seed
+│   ├── requirements.md      # What we're building
+│   ├── service-agreement.md # Commercial terms
+│   └── invoice.md           # Payment record
+├── 01-next-project/         # Second engagement
+│   └── [same structure]
+└── client-os-placeholder/   # Vision for their future OS
+    └── sketch.md
 ```
+
+Each engagement operates as its own complete cycle, inheriting learnings from previous work.
 
 ## The Discovery Process
 
@@ -113,16 +122,30 @@ Poor bespoke work:
 
 ## The Engagement Arc
 
-### Week 1: Discovery
-Find the epicenter. Everything else is noise until this crystallizes.
+### Discovery Phase
+**Raw → Refined → Ready**
 
-### Week 2: Shaping
-Turn struggle into vision. Make the implicit explicit.
+1. **Seed Collection** (in `seed/` folder - gitignored)
+   - Meeting transcripts, voice notes, screenshots
+   - Spreadsheet exports, existing documentation
+   - Stream of consciousness, whiteboard photos
+   
+2. **Synthesis** (creates permanent artifacts)
+   - Extract patterns from the mess
+   - Find the epicenter of energy
+   - Crystallize requirements
+   - Document the authentic struggle
 
-### Week 3: Building
+3. **Shaping** (defines the work)
+   - Service agreement with clear scope
+   - Technical requirements
+   - Success metrics
+   - Timeline and investment
+
+### Building Phase
 Ship first progress. Real usage teaches what theory cannot.
 
-### Week 4+: Evolution
+### Evolution Phase
 Systematic refinement based on reality, not speculation.
 
 ## Remember
