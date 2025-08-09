@@ -1,28 +1,19 @@
-# Quote Generator System - Invoice
+# Elite Personal Chefs - Settlement
 
-**Client:** Elite Personal Chefs
-**Project:** Quote Generator Development
-**Invoice Date:** July 2024
-**Status:** PAID
+## Services
 
-## Services Rendered
+| Item | Amount |
+|------|--------|
+| Project Fee | $5,000.00 |
+| Additional Hours (4 @ $100/hr*) | $400.00 |
+| June Maintenance (2x markup) | $37.70 |
+| July Maintenance (2x markup) | $47.78 |
+| **TOTAL** | **$5,485.48** |
 
-### Foundation Sprint (2 weeks)
-Development of custom quote generation system with AI-powered menu creation and Square integration.
+## Payment
 
-**Deliverables:**
-- Rails application with AI menu generation
-- Square invoice integration
-- Meal prep calculator
-- Admin dashboard
-- Production deployment
-- Knowledge transfer and documentation
+Zelle to Neal
 
-## Investment
-Foundation Sprint: $5,000
+## Note
 
-## Payment Terms
-Net 30
-
-## Notes
-Early partner rate applied. System successfully deployed and transitioned to client team for ongoing maintenance.
+*$100/hr was early supporter rate (standard $300/hr). Future rate: $200/hr.
