@@ -8,9 +8,9 @@
 Rails application replacing manual quote creation with AI-powered menu generation and Square integration. Chefs can generate professional quotes in minutes instead of hours.
 
 ## Impact
+- Doubled weekly meal prep clients
+- Biggest revenue month ever: $214,388.84 (last 30 days paid invoices)
 - Quote creation time: 45 minutes → 3 minutes
-- Weekly time saved: 15+ hours
-- Conversion rate improvement: 2x
 
 ## Technical Foundation
 Established patterns for future EPC development:
