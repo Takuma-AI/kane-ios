@@ -9,9 +9,6 @@ Rails application for AI-powered quote generation. Replaced manual quote creatio
 ### 01-chef-portal (Current - August 2024)
 Transform spreadsheet operations into digital product. Lee gains capability to build independently with AI assistance.
 
-### epc-os-placeholder (Future Vision)
-Complete business encoded as executable documentation. EPC operations run as software, owned and evolved by the client.
-
 ## Working Method
 Each engagement follows the same arc:
 1. **Seed Collection** - Raw context in `seed/` folders (gitignored)
