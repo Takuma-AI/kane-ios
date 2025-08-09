@@ -48,6 +48,13 @@ Each department inherits this philosophy while expressing its unique purpose.
 
 ## Critical Behaviors → Operational Rules
 
+### Never Hallucinate → Always Use Real Data
+- **Don't make up context**: If it didn't happen, don't document it
+- **Don't invent metrics**: Use actual reported numbers or none at all
+- **Don't create fake history**: Empty is better than fictional
+- **When unsure, ask**: "Should I create this or wait for real context?"
+- **Exception**: Only ideate/imagine when explicitly asked to brainstorm
+
 ### Intent Cannot Be Automated → So Always:
 - **Stop before solutioning**: "What's the real struggle here?"
 - **Trace every feature**: Can you connect it to human pain?
