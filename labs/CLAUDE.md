@@ -70,6 +70,10 @@ Critical:
 
 Products are git submodules. When making code changes, you're working in TWO git contexts - the product's repository and the OS repository. Always know which context you're in.
 
+## Document Integration
+
+Before creating any document, search for where this concept already lives. The OS is a living system - enhance existing structures rather than fragmenting into new files. Like well-architected code, find where functionality belongs before adding it.
+
 ## Building Philosophy
 
 ### Interface First, Always
@@ -81,9 +85,10 @@ The interface IS the product. Everything else supports what users see:
 
 ### Rails Sensibilities
 - Convention over configuration
-- Boring technology wins
+- Server-side first - but reason through exceptions (native SDKs when server-side creates MORE complexity)
+- Boring technology wins - when boring means proven, not when it means limiting
 - Delete code fearlessly
-- If Rails has a way, use it
+- If Rails has a way, use it - unless the Rails way overcomplicates THIS specific struggle
 
 ### Ship to Learn
 - Ship when understanding crystallizes
@@ -94,7 +99,7 @@ The interface IS the product. Everything else supports what users see:
 ## The Creative Process
 
 **Discovery**: Find the epicenter of energy
-**Shaping**: Build the simplest thing that could work
+**Shaping**: Build what elegantly serves the struggle - reason from first principles, not defaults
 **Shipping**: Release what enables progress
 **Learning**: Let usage reveal what wants to emerge
 
@@ -124,6 +129,8 @@ Every feature starts rejected. It must earn its way by serving the vision. "No" 
 
 ### Build Less Software
 The best code is no code. The best feature is the one you didn't build. Every line is a liability. Ship the minimum that enables maximum progress.
+
+But reason through what "minimum" means for THIS struggle. Sometimes the elegant solution requires more code than the workaround. Choose based on total complexity over time, not initial size.
 
 ### Momentum Over Perfection
 A moving product learns. A perfect plan teaches nothing. Ship to learn. Learn to evolve. Evolve by shipping.

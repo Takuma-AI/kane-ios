@@ -66,22 +66,24 @@ git submodule add [repository-url] [product-name]/codebase
 - Commit submodule updates to the OS when products evolve significantly
 - Keep product vision and pitches in the OS, code in the submodule
 
-### Daily Workflow
+### Working with the OS
 
-1. **Morning**: Pull latest state
+1. **Start**: Pull latest state
    ```bash
    git pull --recurse-submodules
    ```
 
-2. **Working**: Each change is a decision
+2. **During Work**: Each change is a decision
    - Make changes with intent
-   - Commit with meaningful messages
-   - Push progress daily
+   - Commit when understanding crystallizes
+   - Push when work creates meaningful progress
 
-3. **Evening**: Share your progress
+3. **Completion**: Share your progress
    ```bash
    git push
    ```
+
+Work happens in units of meaningful progress, not time. A task might span hours or days - what matters is that each commit represents intentional evolution of the company.
 
 ### The Local Folder
 
