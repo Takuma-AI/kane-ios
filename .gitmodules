@@ -7,3 +7,6 @@
 [submodule "bespoke/elite-personal-chefs/00-quote-generator/codebase"]
 	path = bespoke/elite-personal-chefs/00-quote-generator/codebase
 	url = https://github.com/Elite-Personal-Chefs/epc-booking.git
+[submodule "labs/progress-template/codebase"]
+	path = labs/progress-template/codebase
+	url = https://github.com/Takuma-AI/progress-management-template.git
