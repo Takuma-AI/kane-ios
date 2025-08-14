@@ -10,3 +10,9 @@
 [submodule "labs/progress-template/codebase"]
 	path = labs/progress-template/codebase
 	url = https://github.com/Takuma-AI/progress-management-template.git
+[submodule "bespoke/shokuna/01-scouting-demand/demand-compass"]
+	path = bespoke/shokuna/01-scouting-demand/demand-compass
+	url = https://github.com/Takuma-AI/shokuna-demand-compass.git
+[submodule "tools/mcp/openai-deep-research-mcp"]
+	path = tools/mcp/openai-deep-research-mcp
+	url = https://github.com/kateleext/openai-deep-research-mcp.git
