@@ -2,7 +2,7 @@
 **Elite Personal Chefs × TAKUMA**
 
 ## Project Overview
-By September 1st, 2025: One core workflow transforms from spreadsheet to product. More importantly, you gain the capability to build digital experiences yourself—imagining and creating new features as naturally as you design private dinner experiences.
+By September 1st, 2025: One core experience transforms from spreadsheet to product. More importantly, you gain the capability to build digital experiences yourself—imagining and creating new features as naturally as you design private dinner experiences.
 
 ## Our Collaboration
 You know how to build a restaurant: concept, kitchen design, equipment selection, hiring specialists for beverage programs or pastry. We're teaching you to do the same for digital experiences—except your specialists are AI agents, your kitchen is a development environment, and your equipment is code that you own and control.

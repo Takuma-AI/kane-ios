@@ -6,6 +6,15 @@ Rails does the work. Native apps coordinate. The Rails app IS the iOS/Android ap
 
 URLs drive everything. Native enhances web, doesn't replace it. Start with web, add native only where it adds real value.
 
+## Module System
+
+For comprehensive implementation details, load specific modules from `hotwire-native/`:
+- **Setup**: `00-overview.md`, `01-basic-app-setup.md`, `02-url-driven-navigation.md`
+- **Features**: `03-component-communication.md`, `04-bridge-components.md`, `05-native-screens.md`
+- **Navigation**: `06-tab-navigation.md`, `07-authentication-sessions.md`
+- **Advanced**: `08-push-notifications.md`, `09-file-upload-camera.md`, `10-error-handling-recovery.md`
+- **Operations**: `11-testing-debugging.md`, `12-deployment-distribution.md`
+
 ## When to Use Native
 
 ### Use Native Screens When
@@ -208,6 +217,25 @@ print("🔵 Native received:", message.event)
 - Touch-friendly tap targets
 - Fast server response times
 
+## Integration with Submodules
+
+When working with labs products that have iOS apps:
+
+### Submodule Structure
+```
+labs/[product]/
+├── codebase/          # Git submodule
+│   ├── [product]-rails/
+│   └── [product]-ios/
+└── vision.md
+```
+
+### Development Workflow
+1. Rails app in submodule provides all logic
+2. iOS app in submodule wraps Rails with Hotwire Native
+3. Use bridge components for native features
+4. Path configuration lives in Rails
+
 ## Remember
 
 - The web app does the work, native coordinates
@@ -216,3 +244,4 @@ print("🔵 Native received:", message.event)
 - Start with web, add native only where it adds real value
 - Session persistence requires native SDKs for OAuth
 - Test on real devices before shipping
+- Load specific modules from `hotwire-native/` as needed

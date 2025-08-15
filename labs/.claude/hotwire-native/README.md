@@ -2,6 +2,10 @@
 
 Complete implementation guide for converting Rails apps to native iOS apps using Hotwire Native.
 
+## Quick Reference
+
+For patterns and decision trees, see: `../hotwire-native-patterns.md`
+
 ## Module Loading Strategy
 
 Load modules as needed to preserve token efficiency. Each module is comprehensive and self-contained.
@@ -38,6 +42,10 @@ Load specific modules based on the task:
 - Adding native features? Load 04-05
 - Implementing tabs? Load 06
 - Debugging issues? Load 11
+
+## Philosophy & Patterns
+
+Core patterns and philosophy are documented in `../hotwire-native-patterns.md`. This directory contains detailed implementation guides for each aspect of Hotwire Native development.
 
 ## Remember
 

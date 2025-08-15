@@ -1,13 +1,13 @@
-# Shaping Work - From Idea to Buildable Vision
+# Shaping Work - From Struggle to Solution
 
 ## What is Shaping?
 
-Shaping is the pre-work that turns a raw idea into something ready to build. It's more than an idea but less than a specification. The output is work that is:
+Shaping is discovering what to build by understanding the struggle. It's the pre-work that reveals what we know versus what we assume. The output is work that is:
 - **Rough**: Unfinished but clear in direction
-- **Solved**: Key problems have answers
-- **Bounded**: Has an appetite (time limit)
+- **Solved**: Key problems have answers based on knowledge, not assumptions
+- **Bounded**: Limited by what we can ship without guessing
 
-But first, you must understand the real problem being solved.
+Shaping isn't planning - it's revealing what already wants to exist.
 
 ## The Shaping Process
 
@@ -39,12 +39,12 @@ Every product needs something to fight against. What current solution or pattern
 
 ### 4. Appetite Setting
 
-Appetites are about scope, not speed:
-- Large Batch: Full exploration of a major concept
-- Small Batch: Focused refinement of specific capability
-- Spike: Quick probe to test assumptions
+Appetites are about assumption density, not time:
+- **Small Batch**: What we know (ship immediately)
+- **Large Batch**: What we mostly know (test one assumption)
+- **Spike**: What we need to learn (pure discovery)
 
-Always ask: "How much complexity serves this problem?"
+Always ask: "How many assumptions are we making?"
 
 ### 5. Solution Sketching
 
@@ -71,7 +71,7 @@ Move from problem to approach, but keep it rough - details come during building.
 - Habit: [What they'd need to change]
 
 ## Appetite
-[Scope boundary: Small batch, Large batch, or Spike]
+[Assumption level: Small batch (known), Large batch (one assumption), or Spike (discovery)]
 
 ## Solution
 [Rough approach - key elements, main flows, focused on enabling progress]
@@ -102,10 +102,20 @@ Move from problem to approach, but keep it rough - details come during building.
 - "Good enough" as wisdom
 - Shipping to learn
 
+## Integration with Development
+
+Shaped work feeds directly into interface-first development:
+1. Shape reveals the struggle and epicenter
+2. Interface-first builds from what we know
+3. Ship to test assumptions
+4. Learn and reshape
+
 ## Remember
 
-- Shaping is about setting boundaries, not removing them
-- The best ideas have natural stopping points
+- Shaping reveals what we know versus what we assume
+- Ship what's known to test what's assumed
+- The best shapes have minimal assumptions
 - If you can't explain it in one sentence, it's not shaped
 - An idea isn't shaped until you know what you're NOT building
 - We shape by sketching real interfaces, not abstractions
+- Every assumption adds risk - minimize them
