@@ -1,0 +1,2345 @@
+WEBVTT
+
+00:00.000 --> 00:06.000
+All right, Doran, let's take a look at what you're working on.
+
+00:06.000 --> 00:09.000
+Yeah, and I'm just sharing my screen.
+
+00:09.000 --> 00:10.000
+Okay.
+
+00:10.000 --> 00:18.000
+Yeah, so this is an update based on your last round of feedback on stacks on homepage.
+
+00:18.000 --> 00:26.000
+And just a quick refresher stacks on a whole page would allow you to stack multiple projects in what we call stacks.
+
+00:26.000 --> 00:28.000
+And there's three ways in which you can do that.
+
+00:28.000 --> 00:32.000
+Like a folder basically, right, like putting things together that are related.
+
+00:32.000 --> 00:33.000
+Exactly, exactly.
+
+00:33.000 --> 00:38.000
+Yeah, you can think of it as a folder, essentially.
+
+00:38.000 --> 00:41.000
+So there are three ways in which you can do it.
+
+00:41.000 --> 00:48.000
+You can either drag a project and recently visited on top of another project.
+
+00:48.000 --> 00:52.000
+And you'll see that the context changes into a create stack.
+
+00:52.000 --> 00:56.000
+Once you release that, you'll move to the top to the pinned areas.
+
+00:56.000 --> 00:59.000
+So over here, you can see that you have a new stack here.
+
+00:59.000 --> 01:01.000
+You can click inside.
+
+01:01.000 --> 01:04.000
+You can give it a new name.
+
+01:04.000 --> 01:07.000
+Let's call it cycle five.
+
+01:07.000 --> 01:08.000
+Save it.
+
+01:08.000 --> 01:13.000
+And the projects they just drop on top of each other, of course, will form that stack.
+
+01:13.000 --> 01:18.000
+You can as well just drag the project from recently visited on top of let's say,
+
+01:18.000 --> 01:20.000
+a house remodel in this case.
+
+01:20.000 --> 01:26.000
+And a new stack is going to be created exactly the same as previously was.
+
+01:26.000 --> 01:29.000
+So again, you can rename it, etc.
+
+01:29.000 --> 01:35.000
+You can as well drag a project from, let's say, getting started to any corner.
+
+01:35.000 --> 01:40.000
+Within the pinned area at the top and same, you get a new stack.
+
+01:40.000 --> 01:43.000
+Let's call it a little world.
+
+01:43.000 --> 01:45.000
+And that's done.
+
+01:45.000 --> 01:47.000
+You can move the stacks.
+
+01:47.000 --> 01:49.000
+You can still move them around in the top section.
+
+01:49.000 --> 01:51.000
+So let's say I'm working on cycle five.
+
+01:51.000 --> 01:53.000
+I want to have it on the top left.
+
+01:53.000 --> 01:55.000
+I'm going to move it there.
+
+01:55.000 --> 01:59.000
+Maybe, you know, this is companies stack where I have all my base camp.
+
+01:59.000 --> 02:02.000
+So I can rename it base camp.
+
+02:02.000 --> 02:06.000
+And I can, it's just so much easier to organize your pinned areas.
+
+02:06.000 --> 02:09.000
+And I know many people have many projects in the pin areas.
+
+02:09.000 --> 02:13.000
+It is very hard to keep track of, you know, where things are.
+
+02:13.000 --> 02:16.000
+And you know, when we stack so it's just much easier to control that.
+
+02:16.000 --> 02:19.000
+And I can ask a couple of questions.
+
+02:19.000 --> 02:20.000
+I'm.
+
+02:20.000 --> 02:21.000
+This is great.
+
+02:21.000 --> 02:22.000
+Really like the transition.
+
+02:22.000 --> 02:26.000
+When you rename the stack to, it's really smooth and direct.
+
+02:26.000 --> 02:28.000
+What.
+
+02:28.000 --> 02:31.000
+I'm wondering, did you guys explored all.
+
+02:31.000 --> 02:34.000
+So, so every time you create a stack, it says new stack.
+
+02:34.000 --> 02:39.000
+And we don't ask you to rename it there.
+
+02:39.000 --> 02:46.000
+Had you explored or do you want to explore like concatenating the two projects that you if you create a new stack.
+
+02:46.000 --> 02:53.000
+So, you know, only on creation, if there's just two, which of course is how it might work to start.
+
+02:53.000 --> 02:56.000
+I wonder if I could say like, can you open that one, for example?
+
+02:56.000 --> 03:04.000
+Yeah, so it's house remodel on project name three. I almost wonder if it could be like.
+
+03:04.000 --> 03:10.000
+House remodel plus project name three, but then again, like as you add more, we wouldn't want to keep concatenating.
+
+03:10.000 --> 03:19.000
+I just wonder if, if it would, if it's going to be something people are going to have a bunch of stacks called new stack.
+
+03:19.000 --> 03:22.000
+But then again, maybe they'll just figure out how to rename it. I don't know any thoughts on that.
+
+03:22.000 --> 03:24.000
+Do you play with that at all?
+
+03:25.000 --> 03:36.000
+Yeah, I mean, one of the things that I've considered when we when we first started this was to have the stack name being the name of the project that you first drop.
+
+03:36.000 --> 03:48.000
+So in this case, if I'm dropping, for instance, project name four on top of the little laptop, the project is going to be called project name four because that's the one that I'm dropping.
+
+03:48.000 --> 03:54.000
+But again, you know, to your points, like it might not make sense for a lot of people.
+
+03:54.000 --> 03:57.000
+And you know, it's a good example for our case.
+
+03:57.000 --> 04:05.000
+You know, if we have cycle five, if I'm dropping a project in cycle five, it's not going to be reflecting the actual thing that I want.
+
+04:05.000 --> 04:19.000
+So do you have the previous design we looked at before this because that that's sort of in a sense, solved it because it showed the miniature versions of the projects inside the stack.
+
+04:19.000 --> 04:29.000
+Yeah. So, so this is the this is the previous version where the stack would not be actually, you know, a wide project like box.
+
+04:29.000 --> 04:33.000
+Something like that you see the projects within the stack.
+
+04:33.000 --> 04:39.000
+And that was the nice side about this is that you would just like in a glimpse, see what's inside.
+
+04:39.000 --> 04:50.000
+And when you click, it will open, sorry to go back, it will open and you see the exact projects that you see in smaller version.
+
+04:50.000 --> 04:59.000
+So that's one advantage, perhaps, to the previous design, but I think that as we looked at it.
+
+04:59.000 --> 05:13.000
+It in this one situation, it kind of looks alright, but when you have a bunch of them, it starts to feel pretty overwhelming pretty quickly. So, okay, one of the thought I had, can you go back to the to the, yeah, in chrome.
+
+05:13.000 --> 05:19.000
+Close that out and drag a project on top of another project, but don't drop, don't create a stack yet.
+
+05:19.000 --> 05:30.000
+See what says create a stack. I wonder if we should say stack these projects or something like that, instead of create a stack, it's not, it's a little bit like.
+
+05:30.000 --> 05:37.000
+It's a bit more about the end goal, which is stacking them up versus creating something.
+
+05:37.000 --> 05:42.000
+I don't know, just a thought, I'm just kind of riffing out loud, but that was something I was thinking about.
+
+05:42.000 --> 05:46.000
+The other thing I want to bring up real quick, can you open a actual stack?
+
+05:46.000 --> 05:52.000
+The link at the bottom empty stack, I assume that just removes the projects, can you try that?
+
+05:52.000 --> 05:59.000
+Yeah, so when you click this, the projects go back in the pinned areas, then you get a message, no projects in this stack.
+
+05:59.000 --> 06:02.000
+And then that bottom link changes to delete stack.
+
+06:02.000 --> 06:07.000
+At this point, you can just remove the stack completely, which will get rid of it.
+
+06:07.000 --> 06:12.000
+Yeah, I like that.
+
+06:12.000 --> 06:16.000
+The whole thing I would think about is, instead of saying empty stack.
+
+06:16.000 --> 06:24.000
+Since it's worth, since we have room, it's not a button, it's like, I wonder if it could say like.
+
+06:24.000 --> 06:31.000
+Remove projects from the stack, remove all projects from the stack, or maybe, yeah, maybe empty this stack.
+
+06:31.000 --> 06:36.000
+Just empty stack is a little bit brutal in a sense.
+
+06:36.000 --> 06:40.000
+It's like, it's pretty short, and I'm not totally sure.
+
+06:40.000 --> 06:44.000
+I think I know what it does, but it feels a little stark.
+
+06:44.000 --> 06:52.000
+Yeah, one thing we can do to kind of combine, so I was also wondering about, potentially, you know, do we need to explain it more or just tell them what's going to happen at all.
+
+06:52.000 --> 06:57.000
+So like, you could combine it to like, move projects back to pinned.
+
+06:57.000 --> 07:00.000
+Yeah, but they're not all pinned.
+
+07:00.000 --> 07:03.000
+They are.
+
+07:03.000 --> 07:06.000
+Okay, we need to talk about that then.
+
+07:06.000 --> 07:12.000
+Yeah, that doesn't make any sense to me, but okay, we'll get, we'll get into that in a second.
+
+07:12.000 --> 07:15.000
+Yeah, so we could, we could explain that.
+
+07:15.000 --> 07:20.000
+Related to the empty stack, and you know, we've kind of gone back and forth on whether or not.
+
+07:20.000 --> 07:24.000
+You know, I mean, just basically like, is, do we consider this destructive?
+
+07:24.000 --> 07:28.000
+During QA came up, like, should we do need to be warned what's going to happen?
+
+07:28.000 --> 07:31.000
+Do we need to, you know, really be explicit about what's happening?
+
+07:31.000 --> 07:34.000
+Generally, I think it's like, it's a stack.
+
+07:34.000 --> 07:36.000
+You're not losing anything when you empty it.
+
+07:36.000 --> 07:39.000
+Like, I don't think you, you know, so like, I think we could be better on the worry about.
+
+07:39.000 --> 07:42.000
+I don't personally think we have to, like, warn on it.
+
+07:42.000 --> 07:43.000
+No.
+
+07:43.000 --> 07:52.000
+The only thing is though, just to play this out is it's not destructive, obviously, because you're not deleting any projects, but.
+
+07:52.000 --> 07:56.000
+It's something you can, you can hit it by accident.
+
+07:56.000 --> 08:01.000
+And if you did have a dozen projects in here, it would be really frustrating.
+
+08:01.000 --> 08:03.000
+To hit that and not get.
+
+08:03.000 --> 08:07.000
+I think that was the main QA thing is that you could just like, you accidentally click or whatever.
+
+08:07.000 --> 08:08.000
+Oh, yeah.
+
+08:08.000 --> 08:10.000
+Yeah.
+
+08:10.000 --> 08:17.000
+I wonder if there's a place to put it where it's less accidental.
+
+08:17.000 --> 08:21.000
+Or I mean, we could of course have a confirmation, but it feels, it feels heavy.
+
+08:21.000 --> 08:26.000
+I mean, we could say empty stack, you click it and it says, are you sure?
+
+08:26.000 --> 08:28.000
+And you have to click it again or something like that.
+
+08:28.000 --> 08:31.000
+There are some things we could do, but let's.
+
+08:31.000 --> 08:34.000
+I'll just leave that on the table.
+
+08:34.000 --> 08:42.000
+Yeah, one of the, one of the things that we, we've done in one of the initial versions was to have, have the delete stack or empty stack.
+
+08:42.000 --> 08:44.000
+Once you click on the edit.
+
+08:44.000 --> 08:47.000
+So you would have it here, essentially.
+
+08:47.000 --> 08:49.000
+Yeah.
+
+08:49.000 --> 08:52.000
+I like that too, actually, Doran, can you actually do that again?
+
+08:52.000 --> 08:57.000
+So we don't currently have a delete unless you write empty it out first, which is a nice, also a nice.
+
+08:57.000 --> 09:02.000
+Safety mechanism, safety valve there.
+
+09:02.000 --> 09:05.000
+Yeah, we could have when you're in that mode.
+
+09:05.000 --> 09:09.000
+We could actually reveal the empty stack link at the bottom, even.
+
+09:09.000 --> 09:13.000
+I don't even know if I put it right next to that, but like maybe that, just that whole thing.
+
+09:13.000 --> 09:16.000
+It presents all the options that you would have.
+
+09:16.000 --> 09:19.000
+Yeah, I mean, we went back up to that.
+
+09:19.000 --> 09:22.000
+My main hesitant, I was just like.
+
+09:22.000 --> 09:30.000
+It feels like you're not entering an edit stack mode as much as you're like entering an edit title load, you know, so like it's hard to know if.
+
+09:30.000 --> 09:33.000
+Is that where you think you would find that find that, but like.
+
+09:33.000 --> 09:34.000
+Yeah.
+
+09:34.000 --> 09:36.000
+You know, how often do you need to empty a stack?
+
+09:36.000 --> 09:38.000
+How often do you need to delete them?
+
+09:38.000 --> 09:43.000
+This is kind of one of those like.
+
+09:43.000 --> 09:48.000
+The obvious easy, the possible situation is like.
+
+09:48.000 --> 09:58.000
+I agree that it's not an edit state necessarily, but like it's, if you ever need to do it, and you don't know how and you wish there was a way and we show you how and now you know it's like great, you can do it.
+
+09:58.000 --> 10:04.000
+Versus trading that off against the frustration of like hitting that back center.
+
+10:04.000 --> 10:09.000
+And you're not entering out a dozen things that you carefully put in there, like that would be pretty frustrating.
+
+10:09.000 --> 10:14.000
+So I would almost prefer to like have that as part of the.
+
+10:14.000 --> 10:21.000
+Quote edit state, even though it's not an edit mode, whatever, whatever it is, settings mode, essentially.
+
+10:21.000 --> 10:24.000
+Just so you don't do it by accident, you know.
+
+10:24.000 --> 10:29.000
+Yeah, probably, you know, you're going to have to figure out how to name them.
+
+10:29.000 --> 10:34.000
+However, I guess there's also an empty thing. I mean, it's pretty soon you'll notice that there's this other option.
+
+10:34.000 --> 10:35.000
+Right.
+
+10:35.000 --> 10:37.000
+Cool.
+
+10:37.000 --> 10:48.000
+Yeah, I think it's a good idea to show the empty stack, maybe at the bottom where it is now, but only when you click the edit title, this one shows up.
+
+10:48.000 --> 10:53.000
+In which case, you would not click it by accident, because this would not, you will not see it.
+
+10:53.000 --> 10:56.000
+Yeah, I think we should do that. I actually think we should probably do that.
+
+10:56.000 --> 10:57.000
+Yeah.
+
+10:57.000 --> 10:58.000
+Okay.
+
+10:58.000 --> 11:00.000
+And then how do you get a project out of here?
+
+11:00.000 --> 11:02.000
+Normally, just drag it out.
+
+11:02.000 --> 11:05.000
+Yes, we can just drag it out and it just goes away.
+
+11:05.000 --> 11:07.000
+Cool.
+
+11:07.000 --> 11:12.000
+And then when you drag, if you drag the other one out, is that essentially the same as.
+
+11:12.000 --> 11:16.000
+Yeah, we can just condition there.
+
+11:16.000 --> 11:19.000
+Yeah, you should show a message. You should show this message.
+
+11:19.000 --> 11:20.000
+Yeah.
+
+11:20.000 --> 11:22.000
+Catch.
+
+11:22.000 --> 11:23.000
+Cool.
+
+11:23.000 --> 11:32.000
+So close that door and one very minor thing, but they said we were talking about the empty stack text there, like.
+
+11:32.000 --> 11:46.000
+We talked about a few different options, like it was a little bit confusing to many activities, but like, because we have that like empty stack language currently, you know, like that that's an action you can take to empty this tack, you know, so if I was strange to use that word those words there.
+
+11:46.000 --> 11:47.000
+Yeah.
+
+11:47.000 --> 11:48.000
+Yeah.
+
+11:48.000 --> 11:49.000
+Yeah.
+
+11:49.000 --> 12:08.000
+It felt like we had like zero projects before instead of like empty stack and it felt like it was generated by the computer rather than, you know, put some thought into it and make it more human.
+
+12:08.000 --> 12:09.000
+Yeah.
+
+12:09.000 --> 12:11.000
+So yeah, I wonder what's your.
+
+12:11.000 --> 12:21.000
+The first thing that comes to mind, even though I don't think I love it is like nothing inside or no projects.
+
+12:21.000 --> 12:27.000
+Yeah, it's me it's like it's inside, even though it's a stack is not really an inside thing.
+
+12:27.000 --> 12:29.000
+No projects was one that I thought of too.
+
+12:29.000 --> 12:30.000
+What was that, what was that project?
+
+12:30.000 --> 12:31.000
+No projects.
+
+12:31.000 --> 12:32.000
+I thought that too.
+
+12:32.000 --> 12:33.000
+Like that scene.
+
+12:33.000 --> 12:40.000
+Yeah, no projects seems better than zero projects.
+
+12:40.000 --> 12:46.000
+You could all say this, I mean, this stack is empty, but, but, but, but empty of what?
+
+12:46.000 --> 12:56.000
+So I do like the directness of just getting to the point like no projects or, yeah, no projects, perhaps could be fun.
+
+12:56.000 --> 13:06.000
+You know, I also say I'm not, I'm not a fan of the italics simply because I love the talics, but I don't think our italics are, I don't like this typeface really lends itself well.
+
+13:06.000 --> 13:10.000
+Yeah, at this size, especially so I would probably just go.
+
+13:10.000 --> 13:11.000
+Just lose it.
+
+13:11.000 --> 13:12.000
+I mean, I like the style.
+
+13:12.000 --> 13:17.000
+I really do like there's an elegance to italics, but I don't think they add anything here.
+
+13:17.000 --> 13:27.000
+I was, I was, I was waiting for the session to ask you about Alex because like a few people suggested it's moving back to San Serif.
+
+13:27.000 --> 13:31.000
+But then I thought it's just as Jason about this.
+
+13:31.000 --> 13:37.000
+I go all caps, I go, so like see the little brand header over there on the right hand side.
+
+13:37.000 --> 13:42.000
+Yeah, I think we use all caps in a few spots like small all caps, I think would be, could be nice.
+
+13:42.000 --> 13:44.000
+Yeah, I'll try that.
+
+13:44.000 --> 13:45.000
+Yeah, play with that.
+
+13:45.000 --> 13:47.000
+You're good at type. So that's what that.
+
+13:47.000 --> 13:48.000
+Yeah.
+
+13:48.000 --> 13:49.000
+Cool.
+
+13:49.000 --> 13:50.000
+Okay.
+
+13:50.000 --> 13:51.000
+Yeah, so that's that.
+
+13:51.000 --> 13:54.000
+And then of course you can drag all the projects within the stack.
+
+13:54.000 --> 13:56.000
+If it's open, can you open a stack?
+
+13:56.000 --> 13:58.000
+Can I drag something in now?
+
+13:58.000 --> 14:01.000
+No, so this whole area is locked.
+
+14:01.000 --> 14:05.000
+And it's because the this panel is taking so much space.
+
+14:05.000 --> 14:10.000
+Yeah, it would be quite fiddly to try to drag stuff inside.
+
+14:10.000 --> 14:11.000
+Yeah, right.
+
+14:11.000 --> 14:14.000
+So we decided to kind of like blank out all the space.
+
+14:14.000 --> 14:17.000
+And if you click it, of course, you will close it.
+
+14:17.000 --> 14:25.000
+It exists to like a model, except that it doesn't have a dark background like as we, as we have it in other places.
+
+14:25.000 --> 14:27.000
+What do you think about that?
+
+14:27.000 --> 14:30.000
+What do you think about sort of blurring or dimming the background?
+
+14:30.000 --> 14:33.000
+Given the fact that you can't drag things in when it's open.
+
+14:33.000 --> 14:39.000
+Do you think it would make sense to almost stylistically double down on that?
+
+14:39.000 --> 14:42.000
+Like if it's blurred out, you wouldn't expect you can do anything with the background.
+
+14:42.000 --> 14:45.000
+Right now, I kind of expect I can.
+
+14:45.000 --> 14:51.000
+Yeah, so the initial idea behind not having a background was that this is supposed to be like a quick action.
+
+14:51.000 --> 15:01.000
+This is not, this is not like a model where you go in and you have to focus on something else like a form or a button or like whatever or read something.
+
+15:01.000 --> 15:04.000
+This is more like click, click, die.
+
+15:04.000 --> 15:11.000
+And it's almost like memory muscle rather than you're actually having to consume the content that it inside.
+
+15:11.000 --> 15:16.000
+And this is why I see it slightly different from what a model usually is.
+
+15:16.000 --> 15:23.000
+And this is why I removed the background essentially, but you know, that said, it's so easy to edit back that.
+
+15:23.000 --> 15:26.000
+No, I can see, I can see how it does.
+
+15:26.000 --> 15:27.000
+I think I buy that.
+
+15:27.000 --> 15:30.000
+By the way, the transition sometimes over zoom. It's hard to see.
+
+15:30.000 --> 15:34.000
+Does this sort of zoom up or is it just like materializing because it'd be nice.
+
+15:34.000 --> 15:37.000
+If it grew, it fades, it fades in.
+
+15:37.000 --> 15:39.000
+Okay. Can we grow it?
+
+15:39.000 --> 15:40.000
+Can we?
+
+15:40.000 --> 15:42.000
+I'll try and expand from there.
+
+15:42.000 --> 15:49.000
+Yeah, I just would, if we can get that to look nice, I think it'd be, it feel.
+
+15:49.000 --> 15:51.000
+More like what you expect.
+
+15:51.000 --> 15:53.000
+Yeah, yeah, more, more control.
+
+15:53.000 --> 15:54.000
+Yeah, yeah.
+
+15:54.000 --> 15:55.000
+Cool.
+
+15:55.000 --> 15:56.000
+Yeah.
+
+15:56.000 --> 15:57.000
+Nice.
+
+15:57.000 --> 15:58.000
+Okay.
+
+15:58.000 --> 15:59.000
+Yeah.
+
+15:59.000 --> 16:00.000
+Does escape.
+
+16:00.000 --> 16:02.000
+If you hit escape, will it, will it X out?
+
+16:02.000 --> 16:03.000
+Yeah.
+
+16:03.000 --> 16:04.000
+Cool.
+
+16:04.000 --> 16:06.000
+All right.
+
+16:06.000 --> 16:08.000
+So let's get to this.
+
+16:09.000 --> 16:12.000
+Contention, contentious point.
+
+16:12.000 --> 16:17.000
+If you, if you clear a stack, all those projects become pinned.
+
+16:17.000 --> 16:23.000
+I don't, I assume there's some reason for this, but I don't like it because they didn't,
+
+16:23.000 --> 16:25.000
+like you can pull one from recently visited.
+
+16:25.000 --> 16:28.000
+To me, putting it up there is just putting it in a stack.
+
+16:28.000 --> 16:30.000
+It's not saying pin it also.
+
+16:30.000 --> 16:33.000
+So it's, it's doing two things when it shouldn't do two things.
+
+16:33.000 --> 16:35.000
+It should do one thing.
+
+16:35.000 --> 16:38.000
+Can we not have it to that or were we out here with that?
+
+16:38.000 --> 16:40.000
+Why, why was that decision made?
+
+16:40.000 --> 16:45.000
+I mean, this is truly contentious, of course.
+
+16:45.000 --> 16:50.000
+The idea is that the, the, the stuff that you have at the top, they're all pinned.
+
+16:50.000 --> 16:53.000
+And people are used to that.
+
+16:53.000 --> 16:54.000
+I'm used to that.
+
+16:54.000 --> 17:01.000
+And it's, it's kind of implicit that once you have a project at the top in the pinned area,
+
+17:01.000 --> 17:06.000
+like this pinned itself, regardless if it's in a stack or outside the stack,
+
+17:06.000 --> 17:13.000
+I do understand and agree with the argument that, you know, project in the stack,
+
+17:13.000 --> 17:15.000
+you don't see pinned here.
+
+17:15.000 --> 17:20.000
+So surely they are not pinned in this case.
+
+17:20.000 --> 17:26.000
+There's, of course, a technical aspect on this as well to mix, to mix the,
+
+17:26.000 --> 17:29.000
+if you hear something screaming, that's my cat.
+
+17:29.000 --> 17:31.000
+It's not a baby.
+
+17:31.000 --> 17:32.000
+You're something screaming.
+
+17:32.000 --> 17:34.000
+It's, it's my kids.
+
+17:34.000 --> 17:35.000
+So,
+
+17:35.000 --> 17:36.000
+the cat doesn't scream.
+
+17:36.000 --> 17:40.000
+Yes, going back to this, there's, there's also like a technical aspect to it.
+
+17:40.000 --> 17:44.000
+In, in the way these cards are modeled.
+
+17:44.000 --> 17:51.000
+So the idea is that once you drag a project, let's say, 100 designed newsroom here into the new stack.
+
+17:51.000 --> 17:54.000
+It becomes pinned automatically.
+
+17:54.000 --> 18:00.000
+And even though it doesn't show here, but because the stack is in the pinned area.
+
+18:00.000 --> 18:04.000
+Surely the projects within the stacks or pinned as well.
+
+18:04.000 --> 18:10.000
+It's almost like it's hierarchically the top section, it's everything is pinned.
+
+18:10.000 --> 18:14.000
+What's underneath the section is, is recently visited.
+
+18:14.000 --> 18:23.000
+Yeah, we embrace that more when we added the ability to, you know, to just drag a recently visited project up to pin it.
+
+18:23.000 --> 18:25.000
+Because that's new as part of this as well.
+
+18:25.000 --> 18:27.000
+Like before you could never do that.
+
+18:27.000 --> 18:31.000
+And, you know, really it is.
+
+18:31.000 --> 18:34.000
+You know, without majorly remunning this in this page.
+
+18:34.000 --> 18:39.000
+Like it is a pinned section is how it just functions, you know, code wise, etc.
+
+18:39.000 --> 18:43.000
+And so I think letting people drag recently visited projects up there.
+
+18:43.000 --> 18:44.000
+I think it's really cool.
+
+18:44.000 --> 18:47.000
+We've talked about how we've always wanted to just like, oh, that's how you pin it.
+
+18:47.000 --> 18:49.000
+You just drag it up there and now it's pinned.
+
+18:49.000 --> 18:52.000
+So like dragging a recently visited project up onto a stack.
+
+18:52.000 --> 18:56.000
+To me, makes just as much sense that like it's pin now.
+
+18:56.000 --> 19:00.000
+This is the pin section that doesn't have to always be that way.
+
+19:00.000 --> 19:05.000
+But I think based on where we've come from, it would be really hard to change that assumption.
+
+19:05.000 --> 19:10.000
+Okay, so this is a primarily technical.
+
+19:10.000 --> 19:13.000
+I mean, I would say.
+
+19:13.000 --> 19:19.000
+And as far as like for this specific project, I'd say 70% technical.
+
+19:20.000 --> 19:24.000
+But personally, I mean, to me, it makes more sense this way.
+
+19:24.000 --> 19:26.000
+That this is a pinned section.
+
+19:26.000 --> 19:31.000
+I think if we wanted to rethink like, no, things up here, they can be anything.
+
+19:31.000 --> 19:32.000
+They're not pinned.
+
+19:32.000 --> 19:36.000
+They're just, this is just another group of projects pinned or not project.
+
+19:36.000 --> 19:41.000
+I think we'd have to like rethink this page more of like what is this section?
+
+19:41.000 --> 19:43.000
+If it's not the pinned section.
+
+19:43.000 --> 19:47.000
+This section is a part of your desk where you put the stuff that's important to you.
+
+19:47.000 --> 19:48.000
+That's how I would think about this.
+
+19:48.000 --> 19:52.000
+So let me, let me make my case, at least share my point of view on this.
+
+19:52.000 --> 19:56.000
+I think once we introduce stacks, it's not just pinned.
+
+19:56.000 --> 19:57.000
+So it was just pinned.
+
+19:57.000 --> 19:59.000
+So we're coming from a place of just pinned.
+
+19:59.000 --> 20:00.000
+But now it's not.
+
+20:00.000 --> 20:05.000
+Now it's, it's like things that are to pinned or, or, or together, these are,
+
+20:05.000 --> 20:08.000
+this is just like one separate place to put the stuff that's in play.
+
+20:08.000 --> 20:10.000
+Like currently kind of in play.
+
+20:10.000 --> 20:13.000
+Now, if you think about.
+
+20:13.000 --> 20:16.000
+When, so let's say you open that new stack.
+
+20:16.000 --> 20:18.000
+It says four projects, don't.
+
+20:18.000 --> 20:21.000
+So if you're done, let's say the cycle is over.
+
+20:21.000 --> 20:24.000
+Let's say you had a 12 cycle projects in here.
+
+20:24.000 --> 20:27.000
+And you had all your 12 cycle projects in here.
+
+20:27.000 --> 20:29.000
+Brian, you're managing these projects.
+
+20:29.000 --> 20:30.000
+You put them all in here.
+
+20:30.000 --> 20:31.000
+Cycle is over.
+
+20:31.000 --> 20:33.000
+You hit empty.
+
+20:33.000 --> 20:37.000
+Think about what, what's going on in that moment at that time.
+
+20:37.000 --> 20:40.000
+You're saying like, I don't want these together anymore.
+
+20:40.000 --> 20:43.000
+There's a pretty good chance you probably don't want them at the top anymore either
+
+20:43.000 --> 20:44.000
+because they're like done.
+
+20:44.000 --> 20:47.000
+It's sort of like they're kind of like over.
+
+20:47.000 --> 20:54.000
+But now you've got 12 pinned projects that have just shown up in this pin section.
+
+20:54.000 --> 20:58.000
+You had three or four pinned things before because you pinned these four things.
+
+20:58.000 --> 21:01.000
+Now you've got 12 things that are pinned, which is overwhelmed the four things that you had.
+
+21:01.000 --> 21:05.000
+And now you probably have to go through and unpin the things that you don't want up there anymore.
+
+21:06.000 --> 21:11.000
+So the way I'm thinking about it is when you, when you take stuff out of a stack.
+
+21:11.000 --> 21:16.000
+It's probably because it's over, in a sense, the way this is currently designed.
+
+21:16.000 --> 21:20.000
+So I don't think pinning it by default at that point.
+
+21:20.000 --> 21:26.000
+Would line up with the scenario I'm, you know, we're assuming here.
+
+21:26.000 --> 21:30.000
+The scenario that I think would be most likely, which is I'm done with this stuff.
+
+21:30.000 --> 21:33.000
+Don't need it up here anymore.
+
+21:33.000 --> 21:36.000
+So, so my, my, just my preference.
+
+21:36.000 --> 21:39.000
+And this is not a veto or anything like that.
+
+21:39.000 --> 21:44.000
+But my preference would be if it's possible to remember the state of the project.
+
+21:44.000 --> 21:47.000
+If it was pinned great and you take it out, it stays pinned.
+
+21:47.000 --> 21:53.000
+If it was before in previously, previously seen or previously, what's it called?
+
+21:53.000 --> 21:55.000
+Recently visited recently visited.
+
+21:55.000 --> 21:59.000
+I'm thinking, hey, and basically recently visited you take it out.
+
+21:59.000 --> 22:12.000
+And it was came from there to go back to there is, is my, my thinking to me this, this new section is a, is an, is an, is a expansion of the concept of up top.
+
+22:12.000 --> 22:15.000
+I think of the section now is up top.
+
+22:15.000 --> 22:18.000
+What goes up top pin stuff and stuff and stacks.
+
+22:18.000 --> 22:21.000
+But it doesn't change the nature of the projects within the stack itself.
+
+22:21.000 --> 22:23.000
+The projects are the same.
+
+22:23.000 --> 22:25.000
+It's not a conversion.
+
+22:25.000 --> 22:26.000
+It's a new pin.
+
+22:26.000 --> 22:30.000
+It's just their together and all the things that are together live up here.
+
+22:30.000 --> 22:32.000
+So that's, that's my thing.
+
+22:32.000 --> 22:34.000
+I don't know what's, what's possible.
+
+22:34.000 --> 22:35.000
+What's reasonable.
+
+22:35.000 --> 22:38.000
+No, I think, I think I think that makes a lot of sense.
+
+22:38.000 --> 22:44.000
+And I think the scenario that you painted is, is, is, is, is more common than not.
+
+22:44.000 --> 22:47.000
+And I, I totally agree with that.
+
+22:47.000 --> 22:54.000
+I think one of the technical challenges we had around that was without getting it too much detail here.
+
+22:54.000 --> 22:59.000
+The challenge was like, how do you drag a project from here there without actually pinning it?
+
+22:59.000 --> 23:00.000
+Right.
+
+23:00.000 --> 23:06.000
+But I think we should flip that on its head and say, actually, we can pin it.
+
+23:06.000 --> 23:11.000
+But only look at unpining it when you hit empty stack.
+
+23:11.000 --> 23:17.000
+Rather than, because these are pinned here now, essentially in the, in the back end.
+
+23:17.000 --> 23:20.000
+So that, that though, don't know that.
+
+23:20.000 --> 23:26.000
+So if, if empty stack unpinned everything, there might have been things that you had pinned that you did want to stay up there.
+
+23:26.000 --> 23:30.000
+But I, I would just wonder if you could ask who you're working on this with.
+
+23:30.000 --> 23:35.000
+But Nicholas, Nicholas, if you could ask Nicholas, if it'd be possible.
+
+23:35.000 --> 23:42.000
+To, I, and I can see, like, I can see through why maybe it wouldn't be right now.
+
+23:42.000 --> 23:46.000
+That, that this is sort of an adaptation of pins.
+
+23:46.000 --> 23:48.000
+And so therefore, that's how it works.
+
+23:48.000 --> 23:57.000
+But if we could remember the state of a project and putting it up there, if it goes into, if it goes into a stack, it just in a stack.
+
+23:57.000 --> 24:01.000
+And stacks are essentially themselves pinned.
+
+24:01.000 --> 24:06.000
+But what's inside of them is the things that are inside of them are what they were.
+
+24:06.000 --> 24:09.000
+If it was pinned, it was pinned. If it wasn't pinned, it wasn't pinned.
+
+24:09.000 --> 24:11.000
+I don't think it should change the state.
+
+24:11.000 --> 24:14.000
+It's not intuitive to me that it's changing the state.
+
+24:14.000 --> 24:19.000
+And in fact, it's doing something to a project without me seeing it, without me understanding what that means.
+
+24:19.000 --> 24:25.000
+And I know we don't want pins here either because they have no meaning inside of the stack as you can't unpinned in a stack.
+
+24:25.000 --> 24:33.000
+So understanding though that like, we're probably, there's some leverage here because just the way things currently work.
+
+24:33.000 --> 24:38.000
+And I know this might be changing. So I would just inquire and just see, like, is this a day?
+
+24:38.000 --> 24:44.000
+And it is worth the work. Is it, is it like this actually would change a whole bunch of stuff would be really complicated.
+
+24:44.000 --> 24:46.000
+Because I think that's worth just understanding.
+
+24:46.000 --> 24:48.000
+Yeah, we're looking to it.
+
+24:48.000 --> 24:49.000
+We'll go to it.
+
+24:49.000 --> 24:51.000
+All right.
+
+24:51.000 --> 25:06.000
+But just one additional thing like on that, like, to see how far we would need to take it, which is, you know, what happens when you drag a recently visited project just up to that section.
+
+25:06.000 --> 25:12.000
+Like, if you just grab, I want to call it the pinback section.
+
+25:12.000 --> 25:13.000
+Let's call it up top.
+
+25:13.000 --> 25:14.000
+Let's call it up top.
+
+25:14.000 --> 25:15.000
+If you drag it up top.
+
+25:15.000 --> 25:22.000
+So like I was saying, so like right now, and then the latest thing, I say, what's live, you can't drag it at all.
+
+25:22.000 --> 25:24.000
+This is what we're about to ship.
+
+25:24.000 --> 25:29.000
+You can drag a project from recently visited up top.
+
+25:29.000 --> 25:31.000
+In a pin.
+
+25:32.000 --> 25:33.000
+Empty space.
+
+25:33.000 --> 25:34.000
+Right.
+
+25:34.000 --> 25:38.000
+So I think that project three, drag it up into the empty space somewhere.
+
+25:38.000 --> 25:39.000
+Yep.
+
+25:39.000 --> 25:47.000
+It makes sense because you're placing it up there individually by itself, individual things by themselves up top are pinned.
+
+25:47.000 --> 25:57.000
+But stacks, which also exist up top, are not pinned. They're just, they just live up top.
+
+25:57.000 --> 26:02.000
+So I think if you drag a project into a stack, it just retains a state that it had.
+
+26:02.000 --> 26:09.000
+If you drag a project from recently visited up into pinned and drop it alone on its own, it does get pinned.
+
+26:09.000 --> 26:15.000
+So logically, I think that all adds up whether or not it's doable.
+
+26:15.000 --> 26:20.000
+I mean, anything's doable, but doable within, you know, where we're at in this project.
+
+26:21.000 --> 26:24.000
+I mean, like for me, it feels.
+
+26:24.000 --> 26:30.000
+Just like from my, the way my mind works, I guess I said, like it feels, as it feels logical that.
+
+26:30.000 --> 26:36.000
+It feels strange that dragging a card off reduces two different.
+
+26:36.000 --> 26:40.000
+Like sometimes you drag a card up and it's pinned, sometimes you drag a card up and it's not pinned.
+
+26:40.000 --> 26:42.000
+Like that to me seems to reach.
+
+26:42.000 --> 26:45.000
+Okay, well.
+
+26:45.000 --> 26:48.000
+If the session wasn't called pinned in your head, right?
+
+26:48.000 --> 26:54.000
+Because it's been called pinned for the past, however many years now at this point.
+
+26:54.000 --> 26:57.000
+If it was always called up top.
+
+26:57.000 --> 27:02.000
+I know where there's like the counterfactual here like, can you, can you forget what it was called before?
+
+27:02.000 --> 27:08.000
+And can you imagine if it wasn't called pinned, but like pinning things put stuff up top.
+
+27:08.000 --> 27:13.000
+And now there's not new things that can go up top, which are stacks.
+
+27:13.000 --> 27:16.000
+And this whole section was never called pinned.
+
+27:16.000 --> 27:22.000
+Or another way to think about it would be this, let's say anything up top turned green.
+
+27:22.000 --> 27:28.000
+And dragging projects into folder into stacks would just turn them green also.
+
+27:28.000 --> 27:30.000
+You're like, why is it green?
+
+27:30.000 --> 27:32.000
+Like it's in a stack.
+
+27:32.000 --> 27:35.000
+What does that do with changing the color of the object?
+
+27:35.000 --> 27:40.000
+Normally the behavior was if I drag a project up on its own up top, it turns green.
+
+27:40.000 --> 27:45.000
+But putting it in a stack, why would it also turn a green?
+
+27:45.000 --> 27:49.000
+What I'm trying to do is just groups and things and group stuff lives up top as well.
+
+27:49.000 --> 27:50.000
+Maybe that's kind of a weak argument.
+
+27:50.000 --> 27:51.000
+I don't know.
+
+27:51.000 --> 27:53.000
+I'm just wondering trying to like break.
+
+27:53.000 --> 27:59.000
+Whatever I find myself in those in those patterns, I try to break away from.
+
+28:00.000 --> 28:04.000
+Like the title of the section.
+
+28:04.000 --> 28:06.000
+Injecting too much meaning.
+
+28:06.000 --> 28:09.000
+Just because the history momentum of it, right?
+
+28:09.000 --> 28:13.000
+And I might be, I might not be making good argument by the way, it's just.
+
+28:13.000 --> 28:17.000
+I would try to think of this as up top now has two kinds of things.
+
+28:17.000 --> 28:20.000
+Things to sing on their own or pin so they stay there.
+
+28:20.000 --> 28:23.000
+Stacks also stay there.
+
+28:23.000 --> 28:27.000
+I mean, you can think about it in terms of like weight almost a stack is heavier.
+
+28:28.000 --> 28:30.000
+It stays up there because it's heavier.
+
+28:30.000 --> 28:31.000
+Can.
+
+28:31.000 --> 28:33.000
+You know, you pin something.
+
+28:33.000 --> 28:34.000
+Actually, this is backwards.
+
+28:34.000 --> 28:35.000
+That doesn't even make sense.
+
+28:35.000 --> 28:36.000
+Forget that even said that part.
+
+28:36.000 --> 28:39.000
+But I'm just thinking there's two kinds of things that are up top.
+
+28:39.000 --> 28:44.000
+And putting something in a stack does not also do two things to it.
+
+28:44.000 --> 28:46.000
+It doesn't pin it first and then put it in a stack.
+
+28:46.000 --> 28:48.000
+It just puts it into a stack.
+
+28:48.000 --> 28:49.000
+Yeah.
+
+28:49.000 --> 28:50.000
+Yeah.
+
+28:50.000 --> 28:54.000
+Only I wonder though is that if we do that, which.
+
+28:54.000 --> 28:55.000
+I can't.
+
+28:55.000 --> 28:56.000
+Definitely can see.
+
+28:56.000 --> 28:57.000
+Houses.
+
+28:57.000 --> 28:58.000
+Some places to it.
+
+28:58.000 --> 29:05.000
+But like, if we do that, it kind of seems like in the stack, we would need to show whether something's pinned or not.
+
+29:05.000 --> 29:06.000
+Like.
+
+29:06.000 --> 29:11.000
+I don't think it matters here because.
+
+29:11.000 --> 29:13.000
+Think about what you're doing here.
+
+29:13.000 --> 29:15.000
+I don't need to know the state of something.
+
+29:15.000 --> 29:18.000
+I can't move things around in here, right?
+
+29:18.000 --> 29:20.000
+You can you can shuffle them around.
+
+29:20.000 --> 29:21.000
+Right.
+
+29:21.000 --> 29:24.000
+But, but what I'm saying is you can move anything around.
+
+29:24.000 --> 29:25.000
+So.
+
+29:25.000 --> 29:27.000
+The fact that two of them were pinned.
+
+29:27.000 --> 29:28.000
+Then you couldn't move.
+
+29:28.000 --> 29:29.000
+It actually would add more complexity.
+
+29:29.000 --> 29:30.000
+Here's.
+
+29:30.000 --> 29:31.000
+Here's what I'm referring to.
+
+29:31.000 --> 29:33.000
+It's just that like.
+
+29:33.000 --> 29:35.000
+You could take two actions here to get first up.
+
+29:35.000 --> 29:37.000
+You can drag it out.
+
+29:37.000 --> 29:38.000
+And you can.
+
+29:38.000 --> 29:39.000
+Empty stack.
+
+29:39.000 --> 29:40.000
+Yeah.
+
+29:40.000 --> 29:41.000
+So you can.
+
+29:41.000 --> 29:43.000
+And then those cards go somewhere.
+
+29:43.000 --> 29:47.000
+And my point is that like, if you don't, you know, because you don't remember where you drag the stuff from.
+
+29:47.000 --> 29:50.000
+So like, if we don't show what's pinned or not.
+
+29:50.000 --> 29:52.000
+And you like drag a card up.
+
+29:52.000 --> 29:55.000
+Like some of the cards are going to land and pin to some of the cards going to drop back.
+
+29:55.000 --> 29:56.000
+And they say,
+
+29:56.000 --> 29:59.000
+and you wouldn't know which one it's going to which way it's going to happen, you know.
+
+29:59.000 --> 30:00.000
+Yes.
+
+30:00.000 --> 30:01.000
+That's true.
+
+30:01.000 --> 30:03.000
+So that makes it feel like, oh, now we need to show like, which is pinned and which isn't pinned.
+
+30:03.000 --> 30:05.000
+But then can you unpin from here?
+
+30:05.000 --> 30:08.000
+And you know, they could just, it seems like more complication than it helps.
+
+30:08.000 --> 30:10.000
+So that's, that's fair.
+
+30:10.000 --> 30:15.000
+Um, I would argue it doesn't matter what it was to you right now.
+
+30:15.000 --> 30:21.000
+Like, I would just argue that if you take it out, it, it was what it was.
+
+30:21.000 --> 30:23.000
+So if it was pinned, it goes back into pinned.
+
+30:23.000 --> 30:25.000
+If it wasn't pinned, it goes back down below.
+
+30:25.000 --> 30:30.000
+Like, I don't, because I can't change the behavior of the item.
+
+30:30.000 --> 30:33.000
+I, I, because I can't, let's say something was pinned.
+
+30:33.000 --> 30:34.000
+And I wanted it to be unpinned.
+
+30:34.000 --> 30:36.000
+I couldn't unpin it and then drop it down below.
+
+30:36.000 --> 30:40.000
+It just is going to retain, it's going to, it's going to revert back to what it was.
+
+30:40.000 --> 30:41.000
+Regardless.
+
+30:41.000 --> 30:43.000
+And there's, there's nothing I can do about that.
+
+30:43.000 --> 30:48.000
+So I would, I would just, um, let it do what it was or let it be what it was.
+
+30:48.000 --> 30:53.000
+But anyway, that, that's just, you know, I, I think it's worth mulling it over.
+
+30:53.000 --> 30:57.000
+But the bigger, the bigger question is, before you even mull it over, technically,
+
+30:57.000 --> 30:59.000
+what would be possible to do that?
+
+30:59.000 --> 31:04.000
+And if, if it turns out that that's like a major rework, it's not worth it at all.
+
+31:04.000 --> 31:07.000
+I think so, this is a matter of like.
+
+31:07.000 --> 31:11.000
+I think both arguments are, are fair.
+
+31:11.000 --> 31:15.000
+One argument, my argument would not be even worth entertaining at all.
+
+31:15.000 --> 31:18.000
+If it turns out that's technically quite difficult at this point.
+
+31:18.000 --> 31:20.000
+So it'd be nice to find out.
+
+31:20.000 --> 31:23.000
+And then maybe we can discuss it again.
+
+31:23.000 --> 31:24.000
+Yeah.
+
+31:24.000 --> 31:25.000
+Yeah.
+
+31:25.000 --> 31:26.000
+Okay, let's do that.
+
+31:26.000 --> 31:27.000
+Yeah.
+
+31:27.000 --> 31:30.000
+I mean, overall, I think both both arguments are great.
+
+31:30.000 --> 31:34.000
+And I'm, I'm for both among the fans on, on both those.
+
+31:34.000 --> 31:37.000
+Um, I also say that like.
+
+31:37.000 --> 31:40.000
+If we go with the way it is, it's not the end of the world.
+
+31:40.000 --> 31:42.000
+It's, it's still fine.
+
+31:42.000 --> 31:46.000
+You know, I just, uh, I think that.
+
+31:46.000 --> 31:48.000
+Well, anyway, let's see.
+
+31:48.000 --> 31:49.000
+Okay.
+
+31:49.000 --> 31:55.000
+If it ships the way it is, I'm, I'm not going to like really argue beyond that.
+
+31:55.000 --> 31:57.000
+It just feels more intuitive.
+
+31:57.000 --> 32:02.000
+Um, that these things don't pick up additional variables.
+
+32:02.000 --> 32:06.000
+I really like the wording that you used like up top.
+
+32:06.000 --> 32:09.000
+And I wonder in that case, if you reframe it like that,
+
+32:09.000 --> 32:11.000
+that would make a lot more sense.
+
+32:11.000 --> 32:15.000
+Um, not to have, you know, the confusion between pinned on pin, etc.
+
+32:15.000 --> 32:21.000
+In which case, like, do we actually need pins, you know, because you can just drag it up.
+
+32:21.000 --> 32:22.000
+Right.
+
+32:22.000 --> 32:24.000
+The pins are not really needed.
+
+32:24.000 --> 32:26.000
+Um,
+
+32:26.000 --> 32:31.000
+and you know, in which case we, we, we remove that, that confusion.
+
+32:31.000 --> 32:33.000
+Yeah, I think that's an interesting point to you.
+
+32:33.000 --> 32:38.000
+I would say there's something about the pins that, um, visually.
+
+32:38.000 --> 32:42.000
+Um, help to distinguish.
+
+32:42.000 --> 32:44.000
+Things in a different way.
+
+32:44.000 --> 32:48.000
+I like up top versus like up top as a conceptually up top.
+
+32:48.000 --> 32:53.000
+I don't know what that really means on its own.
+
+32:53.000 --> 32:58.000
+Um, until I pin something or I, I, I make a stack or something like.
+
+32:58.000 --> 33:02.000
+The section doesn't describe itself very well when it's one or the other.
+
+33:02.000 --> 33:04.000
+When it's both kind of does.
+
+33:04.000 --> 33:09.000
+Um, but if they were just like six pin things, I would prefer that section was actually called pinned.
+
+33:09.000 --> 33:13.000
+Um, but, um, it also doesn't even need a name.
+
+33:13.000 --> 33:16.000
+I mean, as it doesn't have one.
+
+33:16.000 --> 33:19.000
+Like, it doesn't have a name.
+
+33:19.000 --> 33:20.000
+Yeah, in part.
+
+33:20.000 --> 33:21.000
+I mean, part of the research.
+
+33:21.000 --> 33:22.000
+Didn't it?
+
+33:22.000 --> 33:24.000
+When we did before stacks or no.
+
+33:24.000 --> 33:25.000
+What's that?
+
+33:25.000 --> 33:26.000
+Did it.
+
+33:26.000 --> 33:27.000
+I'm like blanking.
+
+33:27.000 --> 33:30.000
+Did it actually used to, it didn't say pin before, right?
+
+33:30.000 --> 33:31.000
+Yeah.
+
+33:31.000 --> 33:35.000
+It used to, I think in a previous iteration, a few iterations ago.
+
+33:35.000 --> 33:36.000
+But right.
+
+33:36.000 --> 33:40.000
+So the pins, the pins do the own, their own job here to say, like, this is the pins stuff.
+
+33:40.000 --> 33:43.000
+But now that there's stacks, it's, it's just like it's up top.
+
+33:43.000 --> 33:46.000
+We can, we can just call it that.
+
+33:46.000 --> 33:47.000
+Yeah.
+
+33:47.000 --> 33:52.000
+And part of the reason that your pins exist or have value is like, you know, first of all,
+
+33:52.000 --> 33:56.000
+you need a way to like move it, pin it, move it up top whatever.
+
+33:56.000 --> 33:59.000
+You need a way to do it, you know, without dragging the dropping.
+
+33:59.000 --> 34:00.000
+That is one thing.
+
+34:00.000 --> 34:06.000
+And then also, like, at least in the current design, there's not a empty section waiting for stuff to be dragged into it.
+
+34:06.000 --> 34:09.000
+Like, if you have a pin to anything, there's no section there.
+
+34:09.000 --> 34:11.000
+It doesn't, it doesn't exist until you pin your first thing.
+
+34:11.000 --> 34:12.000
+So, right.
+
+34:12.000 --> 34:17.000
+We would need to like, adding section that's always empty, saying, drag your first project up top.
+
+34:17.000 --> 34:18.000
+Exactly.
+
+34:18.000 --> 34:19.000
+Exactly.
+
+34:19.000 --> 34:25.000
+Can you remind me, if you drag house remodeled down into recently visited, does it unpin it?
+
+34:25.000 --> 34:26.000
+No, can't.
+
+34:26.000 --> 34:27.000
+Okay.
+
+34:27.000 --> 34:36.000
+So, in that case, I don't think I'm okay with the way it works.
+
+34:36.000 --> 34:41.000
+But I don't think it's necessary that you can drag a project from recently visited up and dependent to pin it.
+
+34:41.000 --> 34:45.000
+I think you can drag it up to make a stack.
+
+34:45.000 --> 34:52.000
+But to, to drag it up and pin it, not be the drag it down and unpin it seems a little bit odd to me.
+
+34:53.000 --> 35:01.000
+Anyway, mind, these are minor edge case outlier things that don't really matter.
+
+35:01.000 --> 35:03.000
+We're, you know, we're in the weeds, right?
+
+35:03.000 --> 35:04.000
+Because this is really good.
+
+35:04.000 --> 35:11.000
+So we're in the weeds, like, you know, how to, how to finish the last one or two percent of this.
+
+35:11.000 --> 35:15.000
+But this feels like this feels a lot better than, than, than the version we looked at last week.
+
+35:15.000 --> 35:18.000
+And I appreciate how quickly you guys made these changes.
+
+35:18.000 --> 35:21.000
+Yeah, happy with how we turned out.
+
+35:21.000 --> 35:24.000
+One quick question.
+
+35:24.000 --> 35:26.000
+The mobile side of things.
+
+35:26.000 --> 35:30.000
+So like, mobile is working on supporting this.
+
+35:30.000 --> 35:33.000
+And it's just going to be, you know, read only on mobile.
+
+35:33.000 --> 35:35.000
+So you're going to create stacks and stuff like that.
+
+35:35.000 --> 35:36.000
+We're not doing that right now.
+
+35:36.000 --> 35:39.000
+But like, you know, you'd be able to see your stacks, obviously, on mobile.
+
+35:39.000 --> 35:44.000
+So that's probably going to be, you know, two wish weeks, maybe a little bit more.
+
+35:44.000 --> 35:45.000
+And before it's ready on mobile.
+
+35:45.000 --> 35:49.000
+And so there was the question of, you know, are we okay shipping this.
+
+35:49.000 --> 35:50.000
+You make a bunch of stacks.
+
+35:50.000 --> 35:53.000
+You go to mobile and the stacks aren't there.
+
+35:53.000 --> 35:57.000
+And you know, all the projects are there because, well, they're all, they're all pin print.
+
+35:57.000 --> 35:59.000
+Anyway, all the projects are there.
+
+35:59.000 --> 36:00.000
+Yeah.
+
+36:00.000 --> 36:02.000
+But they're not in stacks.
+
+36:02.000 --> 36:08.000
+You know, my general take was it like, you know, like, two weeks we can announce, you know, available soon on mobile.
+
+36:08.000 --> 36:10.000
+You're not really losing anything.
+
+36:10.000 --> 36:11.000
+It's probably good enough.
+
+36:11.000 --> 36:14.000
+But I just want to double check it.
+
+36:14.000 --> 36:15.000
+You saw much reason.
+
+36:15.000 --> 36:17.000
+Like, how do you think it'd be like, I mean, all these stacks.
+
+36:17.000 --> 36:18.000
+So I went to mobile.
+
+36:18.000 --> 36:21.000
+And I don't see my snacks.
+
+36:21.000 --> 36:24.000
+My, my gut on that is that.
+
+36:24.000 --> 36:28.000
+And I never say this, but I think we shouldn't wait.
+
+36:28.000 --> 36:31.000
+And the main reason why is because.
+
+36:31.000 --> 36:34.000
+If you put a dozen projects, you start to really organize things.
+
+36:34.000 --> 36:36.000
+You put a dozen here and a dozen there.
+
+36:36.000 --> 36:39.000
+Before you had three pin things because like those are your top three things.
+
+36:39.000 --> 36:40.000
+And you always want them at the top.
+
+36:40.000 --> 36:44.000
+And now all of a sudden, you're going to have, you know, 27 things at the top.
+
+36:44.000 --> 36:46.000
+You know, a dozen on this and a dozen on that.
+
+36:46.000 --> 36:47.000
+And then the three pinned that you had.
+
+36:47.000 --> 36:52.000
+And now, now your pins are less valuable.
+
+36:52.000 --> 36:54.000
+Then, then before.
+
+36:54.000 --> 36:58.000
+And then I imagine if you start to unpin projects because you're like, wait a second.
+
+36:58.000 --> 36:59.000
+I just want these three pin.
+
+36:59.000 --> 37:02.000
+Then it's going to start to mess with your stacks on desktop.
+
+37:02.000 --> 37:05.000
+But you won't be able to see that until you get back to desktop.
+
+37:05.000 --> 37:08.000
+And now your folder or your stack has eight things instead of 12.
+
+37:08.000 --> 37:11.000
+There's just like these mixed behaviors that.
+
+37:11.000 --> 37:16.000
+I feel like in the grand scheme of things, we should, we should wait until that works.
+
+37:16.000 --> 37:18.000
+We don't need to wait.
+
+37:18.000 --> 37:23.000
+It's not like it's breaking anything.
+
+37:23.000 --> 37:28.000
+But it just feels disconnected.
+
+37:28.000 --> 37:30.000
+In a way where it might be.
+
+37:30.000 --> 37:33.000
+I would say it probably would be frustrating.
+
+37:33.000 --> 37:36.000
+To have a few pin things.
+
+37:36.000 --> 37:37.000
+And then a few stacks.
+
+37:37.000 --> 37:38.000
+And then on, on mobile.
+
+37:38.000 --> 37:45.000
+It's just like this long list of pin things.
+
+37:45.000 --> 37:48.000
+You know, normally we, we just ship stuff.
+
+37:48.000 --> 37:51.000
+And mobile would catch up or mobile would be ahead of us or whatever.
+
+37:51.000 --> 37:56.000
+But given the fact that this is the home screen and mobile screens are small to begin with.
+
+37:56.000 --> 37:58.000
+I think people.
+
+37:58.000 --> 38:05.000
+That might find, you know, a few dozen surprise projects up there and pin to be quite frustrating.
+
+38:05.000 --> 38:07.000
+That's my general gut sense.
+
+38:07.000 --> 38:08.000
+I don't know.
+
+38:08.000 --> 38:09.000
+Yeah.
+
+38:09.000 --> 38:14.000
+Do you, do you buy that or do you think it's not important enough or.
+
+38:14.000 --> 38:15.000
+Yeah.
+
+38:15.000 --> 38:16.000
+It's totally reasonable.
+
+38:16.000 --> 38:17.000
+Yeah.
+
+38:17.000 --> 38:23.000
+Certainly going on sort of our, you know, normal approach of like, well, don't we don't want to be waiting on stuff.
+
+38:23.000 --> 38:28.000
+So, you know, just like didn't want this branch to sit out there for too long.
+
+38:28.000 --> 38:29.000
+And now we got to rebase it.
+
+38:29.000 --> 38:31.000
+You know, just.
+
+38:31.000 --> 38:32.000
+Yep.
+
+38:32.000 --> 38:33.000
+That's a tradeoff for sure.
+
+38:33.000 --> 38:38.000
+And, you know, just like the fact is like, OK, so people would have, you know, how many people were going to be involved.
+
+38:38.000 --> 38:39.000
+Like people would have to know about the feature.
+
+38:39.000 --> 38:40.000
+They'd have to try the feature.
+
+38:40.000 --> 38:44.000
+They'd have to probably create a bunch of stacks or a lot of projects in the stacks.
+
+38:44.000 --> 38:47.000
+And then they'd have to be using mobile and use it a lot.
+
+38:47.000 --> 38:51.000
+So by general thought was like, you know, the risk was fairly low.
+
+38:51.000 --> 38:53.000
+Let's keep things moving.
+
+38:53.000 --> 39:03.000
+I'd say, you know, I think the best part of what you were saying there was about the, you know, just as like, you know, the screen size of mobile, like just kind of like thinking about it, like.
+
+39:03.000 --> 39:08.000
+You could almost take advantage of these stacks because it's going to make your life on mobile a lot easier.
+
+39:08.000 --> 39:15.000
+And like, you know, like, oh my gosh, if I could put all my cycle projects in my stack and on my phone, it'd be so much easier to manage and then you do it and like it doesn't work.
+
+39:15.000 --> 39:24.000
+Yeah, so I think that the fact that it stacks are actually very beneficial on a small screen on mobile is another plus and in waiting.
+
+39:24.000 --> 39:27.000
+And I don't, I don't think if we have major implications to wait.
+
+39:27.000 --> 39:28.000
+Here's another way to do it.
+
+39:28.000 --> 39:30.000
+We could just ship it as is don't tell anybody it exists.
+
+39:30.000 --> 39:31.000
+Yeah.
+
+39:31.000 --> 39:34.000
+Or people are going to find an idea, you know, just like just put it out there.
+
+39:34.000 --> 39:36.000
+We can start using it anyway.
+
+39:36.000 --> 39:38.000
+Some people will find it somehow by accident.
+
+39:38.000 --> 39:41.000
+And then we don't have to keep branches synced up like this.
+
+39:41.000 --> 39:43.000
+It's in production.
+
+39:43.000 --> 39:44.000
+We're good to go.
+
+39:44.000 --> 39:45.000
+Yeah.
+
+39:45.000 --> 39:47.000
+I would actually vote for that.
+
+39:47.000 --> 39:52.000
+You know, thinking it through because we don't have the tradeoffs of keeping branches in sync and rebasing and the whole thing.
+
+39:52.000 --> 39:57.000
+So just ship it as is once we've tightened up a couple of these little details and you don't play with them.
+
+39:57.000 --> 39:59.000
+We've changed the edit state and a couple of things like that.
+
+39:59.000 --> 40:02.000
+Ship it quietly.
+
+40:02.000 --> 40:04.000
+We can start to play with ourselves.
+
+40:04.000 --> 40:07.000
+Someone will discover it. Don't tell the community yet. Don't tell anybody.
+
+40:07.000 --> 40:09.000
+Although maybe we could tell the community.
+
+40:09.000 --> 40:13.000
+We could tell the community and just say, hey, look, here's how it works.
+
+40:13.000 --> 40:18.000
+Just so you know, for the next few weeks, it's not going to be available on mobile.
+
+40:18.000 --> 40:20.000
+Therefore, if you do this, this is going to happen.
+
+40:20.000 --> 40:22.000
+So you might want to hold off on that.
+
+40:22.000 --> 40:24.000
+But we can get some more people involved that way.
+
+40:24.000 --> 40:26.000
+That'd be a nice thing to actually to involve them.
+
+40:26.000 --> 40:27.000
+Now they think about it.
+
+40:27.000 --> 40:29.000
+Just letting them know up front.
+
+40:29.000 --> 40:31.000
+We wouldn't announce it publicly in that way.
+
+40:31.000 --> 40:34.000
+Where hey, just by so you know, like this is going to be kind of weird on mobile.
+
+40:34.000 --> 40:36.000
+This is like more of an insider thing.
+
+40:36.000 --> 40:38.000
+And then we can move on.
+
+40:38.000 --> 40:39.000
+I'd be up for that.
+
+40:39.000 --> 40:40.000
+Yeah.
+
+40:41.000 --> 40:43.000
+Yeah, it's like a soft soft lunch.
+
+40:43.000 --> 40:44.000
+Yeah, soft lunch.
+
+40:44.000 --> 40:45.000
+Yeah. Yeah.
+
+40:45.000 --> 40:48.000
+You had a very good point about this experience.
+
+40:48.000 --> 40:52.000
+You know, creating stacks and organizing your stuff is such a personal thing to do.
+
+40:52.000 --> 40:53.000
+Right.
+
+40:53.000 --> 40:56.000
+Like I can definitely see myself organizing all my stacks and then going on mobile.
+
+40:56.000 --> 40:57.000
+I'm not seeing them.
+
+40:57.000 --> 41:00.000
+I'll be like, where's my stuff?
+
+41:00.000 --> 41:01.000
+Yeah.
+
+41:01.000 --> 41:02.000
+Yeah.
+
+41:02.000 --> 41:05.000
+Well, as long as we again, tell the community that this is sort of hey,
+
+41:05.000 --> 41:07.000
+you guys have an early preview essentially.
+
+41:07.000 --> 41:10.000
+This is live in your account, but it's a bit of a, you know, early preview.
+
+41:10.000 --> 41:13.000
+We're not going to announce this formally for everybody until.
+
+41:13.000 --> 41:16.000
+Uh, this is working on mobile, but here's what will happen if you do it.
+
+41:16.000 --> 41:19.000
+So, you know, proceed at your own risk, essentially.
+
+41:19.000 --> 41:21.000
+Not like there's any risk, but, you know what I mean?
+
+41:21.000 --> 41:22.000
+Yeah.
+
+41:22.000 --> 41:23.000
+Yeah.
+
+41:23.000 --> 41:24.000
+Yeah.
+
+41:24.000 --> 41:25.000
+Okay.
+
+41:25.000 --> 41:26.000
+That'd be, that'd be good.
+
+41:26.000 --> 41:29.000
+I would solve all of our problems too, but branches won't know.
+
+41:29.000 --> 41:30.000
+Okay.
+
+41:30.000 --> 41:31.000
+Cool.
+
+41:31.000 --> 41:32.000
+Cool.
+
+41:32.000 --> 41:35.000
+I think that's everything that we have so far.
+
+41:35.000 --> 41:38.000
+So, Dorn, do you want to just check it with Nicholas about?
+
+41:38.000 --> 41:43.000
+Like, what would be, it would it be possible to maintain?
+
+41:43.000 --> 41:48.000
+The status or the, yeah, the status of a recently visited project or a pin project in the stack.
+
+41:48.000 --> 41:51.000
+Even though stacks are always going to be displayed up top.
+
+41:51.000 --> 41:52.000
+Yeah.
+
+41:52.000 --> 41:53.000
+Yeah.
+
+41:53.000 --> 41:54.000
+Oh, let's find out.
+
+41:54.000 --> 41:56.000
+Let's just find out that we can discuss asynchronously, wherever.
+
+41:56.000 --> 41:57.000
+Yeah.
+
+41:57.000 --> 41:58.000
+Yeah.
+
+41:58.000 --> 41:59.000
+Okay.
+
+41:59.000 --> 42:00.000
+Cool.
+
+42:00.000 --> 42:01.000
+This is great.
+
+42:01.000 --> 42:02.000
+Cool.
+
+42:02.000 --> 42:03.000
+People are going to like this.
+
+42:03.000 --> 42:05.000
+You can see where this goes.
+
+42:05.000 --> 42:07.000
+Like, click into a stack for a second, Dorn.
+
+42:07.000 --> 42:12.000
+I can imagine and then click on the name of the stack to go into like whatever edit mode.
+
+42:12.000 --> 42:14.000
+I can imagine like adding a background image.
+
+42:14.000 --> 42:16.000
+You know, I can imagine changing the color of the stack.
+
+42:16.000 --> 42:20.000
+Like, there's a lot of things that a lot of levers off of this week and pull.
+
+42:20.000 --> 42:23.000
+To make these stacks stand out even more.
+
+42:23.000 --> 42:27.000
+I mean, you can imagine creating a stack for a client and uploading the client logo.
+
+42:27.000 --> 42:32.000
+You know, and so now you got Nike got the swoosh.
+
+42:32.000 --> 42:35.000
+And it could replace the name just like, you know,
+
+42:35.000 --> 42:40.000
+hit never mind or close out of here.
+
+42:40.000 --> 42:42.000
+Close out completely.
+
+42:42.000 --> 42:43.000
+Yeah.
+
+42:43.000 --> 42:45.000
+And scroll, scroll down to the top again or up to the top.
+
+42:45.000 --> 42:46.000
+Sorry.
+
+42:46.000 --> 42:47.000
+So we have hauncher design.
+
+42:47.000 --> 42:50.000
+But of course, if you, if you hover over that.
+
+42:50.000 --> 42:53.000
+And you replace with your logo, it could replace with the logo.
+
+42:53.000 --> 42:58.000
+So the new stack could be called Nike or it could have the swoosh, right?
+
+42:58.000 --> 43:00.000
+And then you're like, oh, this is pretty great.
+
+43:00.000 --> 43:03.000
+All my Nike client projects are in here, got the Nike logo.
+
+43:03.000 --> 43:07.000
+So there's a lot of opportunities here to expand this simple idea,
+
+43:07.000 --> 43:10.000
+which is what we get when we simplify this compared to the other version,
+
+43:10.000 --> 43:12.000
+where we had like a window into all the little projects,
+
+43:12.000 --> 43:15.000
+you kind of lose the ability to do more.
+
+43:15.000 --> 43:16.000
+Yeah.
+
+43:16.000 --> 43:19.000
+I mean, there's not much room here for that if we went there, right?
+
+43:19.000 --> 43:21.000
+So I think I think this.
+
+43:21.000 --> 43:23.000
+This is going to be a really nice improvement.
+
+43:23.000 --> 43:28.000
+It also it's within the within the within the be the spirit of just.
+
+43:28.000 --> 43:31.000
+Fisher price, which is, you know, simplifying these things,
+
+43:31.000 --> 43:33.000
+making them very straightforward.
+
+43:33.000 --> 43:35.000
+And we're trying to reduce some clutter here.
+
+43:35.000 --> 43:36.000
+So I like it.
+
+43:36.000 --> 43:37.000
+Yeah.
+
+43:37.000 --> 43:38.000
+Yeah. Cool.
+
+43:38.000 --> 43:39.000
+Good work.
+
+43:39.000 --> 43:41.000
+All right.
+
+43:41.000 --> 43:42.000
+Thanks guys.
+
+43:42.000 --> 43:43.000
+Thanks.
+
+43:43.000 --> 43:44.000
+See you.
+
+43:44.000 --> 43:45.000
+Bye.
+
+43:45.000 --> 43:46.000
+Bye.
+

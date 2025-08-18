@@ -16,3 +16,6 @@
 [submodule "tools/mcp/openai-deep-research-mcp"]
 	path = tools/mcp/openai-deep-research-mcp
 	url = https://github.com/kateleext/openai-deep-research-mcp.git
+[submodule "bespoke/elite-personal-chefs/01-chef-portal/epc-os"]
+	path = bespoke/elite-personal-chefs/01-chef-portal/epc-os
+	url = https://github.com/kateleext/epc-os.git
