@@ -19,3 +19,6 @@
 [submodule "bespoke/elite-personal-chefs/01-chef-portal/epc-os"]
 	path = bespoke/elite-personal-chefs/01-chef-portal/epc-os
 	url = https://github.com/kateleext/epc-os.git
+[submodule "tools/mcp/basecamp"]
+	path = tools/mcp/basecamp
+	url = https://github.com/Takuma-AI/basecamp-mcp.git
