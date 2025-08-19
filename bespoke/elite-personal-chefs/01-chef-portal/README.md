@@ -1,62 +1,69 @@
-# Chef Portal Project
+# Chef Portal Project - Elite Personal Chefs
 
-A payment collection system that ensures chefs get paid and eliminates manual payroll verification.
+A two-week intensive to build a payment collection and payroll automation system for Elite Personal Chefs.
 
-## Project Structure
+## Project Phases
 
-```
-01-chef-portal/
-├── README.md                 # You are here
-├── overview.md              # Project vision and goals
-├── requirements.md          # Core requirements
-├── service-agreement.md     # Commercial terms
-│
-├── discovery/               # Problem discovery and analysis
-│   ├── discovery.md        # Refined insights from research
-│   └── lees-requirements.md # Original requirements from Lee
-│
-├── project/                 # Active project work
-│   ├── kickoff-message.md  # Team communication
-│   ├── breadboard.md       # Core interface design
-│   ├── breadboard-cheatsheet.md # Implementation reference
-│   └── schedule/           # Timeline and sessions
-│       ├── detailed-schedule.md  # Full 2-week plan
-│       └── session-agenda.md     # Discovery session guide
-│
-├── seed/                    # Raw context (gitignored)
-│   ├── additional-context.md # Austin's workflow details
-│   └── windows-troubleshoot.md
-│
-├── machine-setup/           # Development environment
-│   └── [setup guides]
-│
-├── epc-os-sketch/          # Future vision
-│   └── sketch.md
-│
-└── internal-notes.md       # Project management notes
-```
+### 📋 [Phase 0: Discovery](./phase-0-discovery/)
+Understanding the problem and defining the solution
+- Client requirements and pain points
+- Service agreement and scope
+- Initial system analysis
+
+### ✏️ [Phase 1: Breadboarding](./phase-1-breadboarding/) 
+**Week 1, Day 1 - Monday Morning**
+Mapping the system structure without visual design
+- Screen flows and navigation
+- User actions on each screen
+- Core functionality definition
+
+### 🎨 [Phase 2: Interface Design](./phase-2-interface-design/)
+**Week 1, Days 2-4**
+Creating the visual interface
+- Fat marker sketches (Tuesday)
+- Interface mocks in Rails ERB (Tuesday-Wednesday)
+- Mobile-responsive design (Wednesday)
+- Clickable demo with dummy data (Thursday)
+
+### ⚡ [Phase 3: Wiring](./phase-3-wiring/)
+**Week 2, Days 1-3**
+Connecting to real systems
+- Square API integration (Monday-Tuesday)
+- Payment flow automation
+- Database and business logic
+- Spreadsheet automation via Zapier (Thursday)
+
+### 🚀 [Phase 4: Deployment](./phase-4-deployment/)
+**Week 2, Days 3-5**
+Going live with pilot chef
+- Production deployment on Render
+- Machine setup and environment configuration
+- Pilot testing (Friday)
+- Documentation and handoff
 
 ## Quick Links
 
-### For Client Review
-- [Project Overview](overview.md)
-- [Service Agreement](service-agreement.md)
-- [Kickoff Message](project/kickoff-message.md)
+- [Project Schedule](./detailed-schedule.md)
+- [Overview & Vision](./overview.md)
+- [Communications](./communications/) - Daily updates and messages
+- [EPC OS Vision](./epc-os-sketch/) - Long-term company operating system
+- [Internal Notes](./internal-notes.md) - Implementation details
 
-### For Development
-- [Current Breadboard](project/breadboard.md)
-- [Implementation Guide](project/breadboard-cheatsheet.md)
-- [Development Schedule](project/schedule/detailed-schedule.md)
+## Current Status
 
-### For Reference
-- [Discovery Insights](discovery/discovery.md)
-- [Original Requirements](discovery/lees-requirements.md)
-- [Machine Setup](machine-setup/README.md)
+**Today:** Phase 1 - Breadboarding Session (Monday Morning)
+**Next:** Claude Code installation and landing page (Monday Afternoon)
 
-## Project Status
+## Project Team
 
-**Current Phase**: Development (Week 1 of 2)
+- **Lee** - COO, owns payroll process
+- **Austin** - CEO, product vision
+- **Amy** - Operations, job coordination
+- **Kate** - Technical implementation and teaching
 
-**Next Milestone**: Monday kickoff - Breadboard refinement session
+## Success Metrics
 
-**Success Metric**: One chef processes real payment through portal by end of Week 2
+- [ ] Chef can collect payment in under 2 minutes
+- [ ] Payment data flows automatically to Lee's spreadsheet
+- [ ] One successful pilot payment processed
+- [ ] Team can modify system independently post-project
