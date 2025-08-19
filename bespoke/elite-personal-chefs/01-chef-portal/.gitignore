@@ -1,0 +1,25 @@
+# Sandbox and temporary directories
+sandbox/
+tmp/
+
+# Rails temporary files
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Cache files
+/tmp/cache/
+/public/assets/
+/node_modules/
+
+# Environment files
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
