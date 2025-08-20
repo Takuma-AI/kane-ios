@@ -22,3 +22,6 @@
 [submodule "tools/mcp/basecamp"]
 	path = tools/mcp/basecamp
 	url = https://github.com/Takuma-AI/basecamp-mcp.git
+[submodule "tools/mcp/youtube-transcribe"]
+	path = tools/mcp/youtube-transcribe
+	url = https://github.com/Takuma-AI/yt-transcribe-mcp.git
