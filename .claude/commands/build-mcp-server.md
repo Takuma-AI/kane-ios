@@ -165,14 +165,63 @@ Create `credentials.example.json`:
 
 Create `.gitignore`:
 ```
+# Python
 __pycache__/
 *.py[cod]
+*$py.class
 venv/
 .venv/
+
+# Credentials - NEVER commit these
 credentials.json
 .env
 *.token
+
+# IDE
+.vscode/
+.idea/
+
+# MacOS
 .DS_Store
+
+# Test scripts and development files
+tests/
+test_*.py
+*.test.py
+development/
+scratch/
+tmp/
+
+# Log files
+*.log
+logs/
+
+# Local development notes
+notes.md
+TODO.md
+local_*.md
+IMPLEMENTATION_STATUS.md
+```
+
+Create `tests/` directory for test scripts:
+```bash
+mkdir tests
+cat > tests/README.md << 'EOF'
+# Test Scripts
+
+This directory contains test scripts for local development. These files are not tracked in git.
+
+## Important
+- Test scripts are gitignored and won't be shared
+- Place all test files here, not in the root directory
+- Name them test_*.py for consistency
+- Each developer creates their own test scripts as needed
+
+## Why Tests Are Gitignored
+- Test scripts often contain specific IDs and test data
+- Keeps the repository clean and focused on core server code
+- Prevents accidental commits of development/debugging code
+EOF
 ```
 
 ### Phase 3: Test Connection
@@ -181,10 +230,14 @@ credentials.json
 # Install dependencies
 ./venv/bin/pip install -r requirements.txt
 
-# Create test script
-cat > test_connection.py << 'EOF'
+# Create test script in tests/ directory
+cat > tests/test_connection.py << 'EOF'
 #!/usr/bin/env python3
 import asyncio
+import sys
+import os
+# Add parent directory to path for imports
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from server import [minimal_tool_name]
 
 async def test():
@@ -204,7 +257,7 @@ cp credentials.example.json credentials.json
 # [Instruct user to edit credentials.json]
 
 # Test
-./venv/bin/python test_connection.py
+./venv/bin/python tests/test_connection.py
 ```
 
 ### Phase 4: Connect to Claude Code
