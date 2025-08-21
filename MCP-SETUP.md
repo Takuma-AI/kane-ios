@@ -17,7 +17,6 @@ You'll need to get these API keys before running setup:
 | Service | Where to Get | What It Does |
 |---------|--------------|--------------|
 | **Basecamp** | [3.basecamp.com/integrations](https://3.basecamp.com/integrations) | Project management, todos, documents |
-| **OpenAI** | [platform.openai.com/api-keys](https://platform.openai.com/api-keys) | Deep research with o3/o4-mini models |
 | **Perplexity** | [perplexity.ai/settings/api](https://www.perplexity.ai/settings/api) | Web research and analysis |
 
 ## Quick Setup (5 minutes)
@@ -64,7 +63,6 @@ You'll need to get these API keys before running setup:
 ## What Each Server Does
 
 - **basecamp**: Full Basecamp integration - create todos, upload documents, manage projects
-- **openai-deep-research**: Access to OpenAI's o3/o4-mini deep research models
 - **perplexity-deep-research**: Advanced web research with Perplexity's Sonar models
 - **pdf-generator**: Convert markdown to beautiful PDFs with multiple styles
 - **youtube-transcribe**: Download and transcribe YouTube videos using Whisper
@@ -82,7 +80,6 @@ chmod +x setup-mcp.sh
 ### API key errors
 - Double-check your API keys are correct
 - Make sure you have the right permissions/tier for each service
-- OpenAI: Requires payment method on file
 - Perplexity: Requires API access (separate from regular subscription)
 
 ### MCP servers not showing in Claude
@@ -106,7 +103,6 @@ If the automated script doesn't work, here's what it does:
 
 2. **Add credentials:**
    - `basecamp/credentials.json` - Basecamp API
-   - `openai-deep-research-mcp/.env` - OpenAI key
    - `perplexity-deep-research/credentials.json` - Perplexity key
 
 3. **Add to Claude:**

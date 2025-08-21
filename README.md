@@ -57,7 +57,6 @@ The system is hierarchical - each level inherits from its parent while adding it
 Claude has access to powerful MCP (Model Context Protocol) servers when working in this OS:
 
 - **Basecamp**: Full project management integration
-- **OpenAI Deep Research**: Advanced research with o3/o4-mini models  
 - **Perplexity Deep Research**: Web research and analysis
 - **PDF Generator**: Create PDFs from markdown
 - **YouTube Transcribe**: Download and transcribe videos

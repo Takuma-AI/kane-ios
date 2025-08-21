@@ -83,7 +83,6 @@ setup_python_mcp() {
 
 # Setup each MCP server
 setup_python_mcp "basecamp"
-setup_python_mcp "openai-deep-research-mcp"
 setup_python_mcp "pdf-generator"
 setup_python_mcp "perplexity-deep-research"
 setup_python_mcp "youtube-transcribe"
@@ -117,24 +116,6 @@ EOF
     echo -e "${GREEN}✓ Basecamp credentials saved${NC}"
 else
     echo -e "${GREEN}✓ Basecamp credentials already exist${NC}"
-fi
-
-# OpenAI credentials
-echo ""
-echo -e "${BLUE}OpenAI API Setup:${NC}"
-OPENAI_ENV="$SCRIPT_DIR/tools/mcp/openai-deep-research-mcp/.env"
-if [ ! -f "$OPENAI_ENV" ]; then
-    echo "You'll need an OpenAI API key for Deep Research."
-    echo "Get one from: https://platform.openai.com/api-keys"
-    echo ""
-    read -p "Enter your OpenAI API Key: " openai_key
-    
-    cat > "$OPENAI_ENV" <<EOF
-OPENAI_API_KEY=$openai_key
-EOF
-    echo -e "${GREEN}✓ OpenAI credentials saved${NC}"
-else
-    echo -e "${GREEN}✓ OpenAI credentials already exist${NC}"
 fi
 
 # Perplexity credentials
@@ -179,7 +160,6 @@ add_mcp_server() {
 
 # Add each server
 add_mcp_server "basecamp" "$SCRIPT_DIR/tools/mcp/basecamp/venv/bin/python $SCRIPT_DIR/tools/mcp/basecamp/server.py"
-add_mcp_server "openai-deep-research" "$SCRIPT_DIR/tools/mcp/openai-deep-research-mcp/venv/bin/python $SCRIPT_DIR/tools/mcp/openai-deep-research-mcp/server.py"
 add_mcp_server "pdf-generator" "$SCRIPT_DIR/tools/mcp/pdf-generator/venv/bin/python $SCRIPT_DIR/tools/mcp/pdf-generator/server.py"
 add_mcp_server "perplexity-deep-research" "$SCRIPT_DIR/tools/mcp/perplexity-deep-research/venv/bin/python $SCRIPT_DIR/tools/mcp/perplexity-deep-research/server.py"
 add_mcp_server "youtube-transcribe" "$SCRIPT_DIR/tools/mcp/youtube-transcribe/venv/bin/python $SCRIPT_DIR/tools/mcp/youtube-transcribe/server.py"
@@ -201,7 +181,6 @@ echo "3. Test the tools by asking Claude to use them"
 echo ""
 echo "Available MCP tools:"
 echo "  • Basecamp - Project management integration"
-echo "  • OpenAI Deep Research - Advanced research with o3/o4-mini models"
 echo "  • Perplexity Deep Research - Web research and analysis"
 echo "  • PDF Generator - Create PDFs from markdown"
 echo "  • YouTube Transcribe - Download and transcribe videos"

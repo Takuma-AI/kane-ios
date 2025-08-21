@@ -13,9 +13,6 @@
 [submodule "bespoke/shokuna/01-scouting-demand/demand-compass"]
 	path = bespoke/shokuna/01-scouting-demand/demand-compass
 	url = https://github.com/Takuma-AI/shokuna-demand-compass.git
-[submodule "tools/mcp/openai-deep-research-mcp"]
-	path = tools/mcp/openai-deep-research-mcp
-	url = https://github.com/kateleext/openai-deep-research-mcp.git
 [submodule "bespoke/elite-personal-chefs/01-chef-portal/epc-os"]
 	path = bespoke/elite-personal-chefs/01-chef-portal/epc-os
 	url = https://github.com/kateleext/epc-os.git
