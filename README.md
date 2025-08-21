@@ -23,7 +23,13 @@ When you work here, you're not using the OS - you're executing it.
    git submodule update --init --recursive
    ```
 
-2. **Understand the structure**:
+2. **Set up MCP servers** (for Claude superpowers):
+   ```bash
+   ./setup-mcp.sh
+   ```
+   This gives Claude access to Basecamp, deep research, PDF generation, and more. See [MCP-SETUP.md](MCP-SETUP.md) for details.
+
+3. **Understand the structure**:
    - `/core/` - Company DNA (handbook, manifesto, thought leadership)
    - `/labs/` - Product development studio
    - `/bespoke/` - Consulting engagements  
@@ -32,7 +38,7 @@ When you work here, you're not using the OS - you're executing it.
    - `/local/` - Your personal workspace (gitignored)
    - `/archive/` - Historical work preserved
 
-3. **Read the foundation**:
+4. **Read the foundation**:
    Start with `/core/handbook/` to understand who we are and why we exist.
 
 ### Working with AI Agents
@@ -45,6 +51,18 @@ Each directory contains a CLAUDE.md file that serves as the operating instructio
 - At specific products/clients: Agent has full context for that work
 
 The system is hierarchical - each level inherits from its parent while adding its own context.
+
+#### MCP Server Tools
+
+Claude has access to powerful MCP (Model Context Protocol) servers when working in this OS:
+
+- **Basecamp**: Full project management integration
+- **OpenAI Deep Research**: Advanced research with o3/o4-mini models  
+- **Perplexity Deep Research**: Web research and analysis
+- **PDF Generator**: Create PDFs from markdown
+- **YouTube Transcribe**: Download and transcribe videos
+
+Run `./setup-mcp.sh` to enable these tools. See [MCP-SETUP.md](MCP-SETUP.md) for full documentation.
 
 ### Git Submodules
 
