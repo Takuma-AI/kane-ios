@@ -25,3 +25,12 @@
 [submodule "tools/mcp/youtube-transcribe"]
 	path = tools/mcp/youtube-transcribe
 	url = https://github.com/Takuma-AI/yt-transcribe-mcp.git
+[submodule "tools/mcp/pdf-generator"]
+	path = tools/mcp/pdf-generator
+	url = https://github.com/Takuma-AI/pdf-generator-mcp.git
+[submodule "bespoke/elite-personal-chefs/01-chef-portal/epc-portal"]
+	path = bespoke/elite-personal-chefs/01-chef-portal/epc-portal
+	url = https://github.com/chefaustinyancey/epc-portal.git
+[submodule "tools/mcp/perplexity-deep-research"]
+	path = tools/mcp/perplexity-deep-research
+	url = https://github.com/Takuma-AI/perplexity-deep-research-mcp.git
