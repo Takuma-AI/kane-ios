@@ -16,21 +16,21 @@
 [submodule "bespoke/elite-personal-chefs/01-chef-portal/epc-os"]
 	path = bespoke/elite-personal-chefs/01-chef-portal/epc-os
 	url = https://github.com/kateleext/epc-os.git
-[submodule "tools/mcp/basecamp"]
-	path = tools/mcp/basecamp
-	url = https://github.com/Takuma-AI/basecamp-mcp.git
-[submodule "tools/mcp/youtube-transcribe"]
-	path = tools/mcp/youtube-transcribe
-	url = https://github.com/Takuma-AI/yt-transcribe-mcp.git
-[submodule "tools/mcp/pdf-generator"]
-	path = tools/mcp/pdf-generator
-	url = https://github.com/Takuma-AI/pdf-generator-mcp.git
 [submodule "bespoke/elite-personal-chefs/01-chef-portal/epc-portal"]
 	path = bespoke/elite-personal-chefs/01-chef-portal/epc-portal
 	url = https://github.com/chefaustinyancey/epc-portal.git
-[submodule "tools/mcp/perplexity-deep-research"]
-	path = tools/mcp/perplexity-deep-research
-	url = https://github.com/Takuma-AI/perplexity-deep-research-mcp.git
 [submodule "labs/phone-booth"]
 	path = labs/phone-booth
 	url = https://github.com/Takuma-AI/phone-booth.git
+[submodule "tools/servers/basecamp"]
+	path = tools/servers/basecamp
+	url = https://github.com/Takuma-AI/basecamp-mcp.git
+[submodule "tools/servers/pdf-generator"]
+	path = tools/servers/pdf-generator
+	url = https://github.com/Takuma-AI/pdf-generator-mcp.git
+[submodule "tools/servers/perplexity-deep-research"]
+	path = tools/servers/perplexity-deep-research
+	url = https://github.com/Takuma-AI/perplexity-deep-research-mcp.git
+[submodule "tools/servers/youtube-transcribe"]
+	path = tools/servers/youtube-transcribe
+	url = https://github.com/Takuma-AI/yt-transcribe-mcp.git

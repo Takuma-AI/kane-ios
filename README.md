@@ -25,9 +25,9 @@ When you work here, you're not using the OS - you're executing it.
 
 2. **Set up MCP servers** (for Claude superpowers):
    ```bash
-   ./setup-mcp.sh
+   ./tools/setup-servers.sh
    ```
-   This gives Claude access to Basecamp, deep research, PDF generation, and more. See [MCP-SETUP.md](MCP-SETUP.md) for details.
+   This gives Claude access to Basecamp, deep research, PDF generation, and more. See [tools/setup.md](tools/setup.md) for details.
 
 3. **Understand the structure**:
    - `/core/` - Company DNA (handbook, manifesto, thought leadership)
@@ -61,7 +61,7 @@ Claude has access to powerful MCP (Model Context Protocol) servers when working 
 - **PDF Generator**: Create PDFs from markdown
 - **YouTube Transcribe**: Download and transcribe videos
 
-Run `./setup-mcp.sh` to enable these tools. See [MCP-SETUP.md](MCP-SETUP.md) for full documentation.
+Run `./tools/setup-servers.sh` to enable these tools. See [tools/setup.md](tools/setup.md) for full documentation.
 
 ### Git Submodules
 
