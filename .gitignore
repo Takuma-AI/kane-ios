@@ -1,6 +1,7 @@
 # Working directories
 /local/
 **/seed/
+**/seeds/
 
 # Media files (too large for git)
 *.mp4
