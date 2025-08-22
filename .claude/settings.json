@@ -1,0 +1,7 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "statusLine": {
+    "type": "command",
+    "command": "input=$(cat); model=$(echo \"$input\" | jq -r '.model.display_name' | sed 's/Claude 3.5 //' | sed 's/Claude //' | cut -d' ' -f1); style=$(echo \"$input\" | jq -r '.output_style' | jq -r '.name // \"default\"'); root=$(git rev-parse --show-toplevel 2>/dev/null || pwd); rel_path=$(pwd | sed \"s|$root||\"); dept=$(echo \"$rel_path\" | cut -d'/' -f2 | tr '[:lower:]' '[:upper:]'); subdir=$(basename \"$(pwd)\"); if [ -z \"$dept\" ]; then dept=\"ROOT\"; fi; if [ \"$subdir\" = \"$(basename $root)\" ]; then subdir=\"~\"; fi; printf '\\033[2m%s | %s | %s | %s\\033[0m' \"$dept\" \"$subdir\" \"$model\" \"$style\""
+  }
+}
