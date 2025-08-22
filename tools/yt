@@ -1,5 +1,0 @@
-#!/bin/bash
-# Simple wrapper to run the YouTube transcribe tool from anywhere in the project
-
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-python3 "$SCRIPT_DIR/tools/youtube-transcribe/transcribe.py" "$@"
