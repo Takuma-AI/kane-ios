@@ -31,3 +31,6 @@
 [submodule "tools/mcp/perplexity-deep-research"]
 	path = tools/mcp/perplexity-deep-research
 	url = https://github.com/Takuma-AI/perplexity-deep-research-mcp.git
+[submodule "labs/phone-booth"]
+	path = labs/phone-booth
+	url = https://github.com/Takuma-AI/phone-booth.git
