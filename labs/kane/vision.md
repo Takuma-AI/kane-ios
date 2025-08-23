@@ -2,7 +2,7 @@
 
 ## Vision
 
-Managing money starts with understanding why you spend, not setting limits on what you spend. KANE shows you the real patterns in your spending - the stress purchases, the forgotten subscriptions, the habits you didn't know you had - so you can make conscious choices about where your money goes.
+KANE is your financial thought partner - helping you understand why you spend through weekly conversations about your actual money. Not budget reviews. Not expense reports. Deep, Jobs-style interviews that reveal the stories behind your transactions and help you see who you are versus who you're becoming.
 
 ## The Market Truth
 
@@ -12,15 +12,15 @@ When someone says "I need a budget," they really mean "I feel out of control." W
 
 ## The Paradigm Shift
 
-Budgets are like calorie counting - arbitrary restrictions without understanding the underlying hunger. They tell you to spend less without ever asking why you spend. You white-knuckle through limits that inevitably fail because the root patterns remain untouched.
+Every transaction has a story. Every pattern reveals identity. Every week of spending teaches you something about who you are versus who you want to be.
 
-KANE works from the inside out. First, understand why you spend the way you do. See your purchases as memories - that coffee shop where you had the breakthrough, the subscription you forgot existed, the impulse buy that marked a transition. Only once you understand these patterns can you begin the real work of alignment.
+The breakthrough: You don't need another app analyzing your spending FOR you. You need a thought partner helping you understand yourself THROUGH your spending. The same Starbucks purchase can be a morning ritual (Want) or stress response (Kill). Only you know which. KANE helps you discover these patterns through conversation, not categorization.
 
-**Traditional Path:** Budget → Track → Fail → Shame → Abandon
+**Traditional Path:** App analyzes → Categorizes → Judges → You ignore
 
-**KANE Path:** Notice → Recognize → Understand → Choose → Agency
+**KANE Path:** You sort → We talk → You discover → You choose
 
-The difference: Budgets impose external structure. Understanding reveals internal structure. One fights against you. One works with you.
+The difference: Self-discovered insights create change. External analysis creates resistance.
 
 ## The Enemy
 
@@ -36,25 +36,31 @@ Every successful app addresses feeling okay differently:
 
 ## Core Beliefs
 
-- **Understanding precedes change**: You can't sustainably change what you don't understand
-- **Spending is memory, not data**: Each transaction carries emotional weight and context that reveals patterns
-- **Patterns emerge through recognition**: Not through categorization but through seeing the visceral memories together
-- **Alignment follows awareness**: Once you see why you spend, you can choose who you're becoming
-- **Small revelations compound**: Daily moments of recognition create lasting behavioral change
+- **Intent cannot be automated**: Only you know why you bought something - KANE amplifies your understanding, not replaces it
+- **Progress means understanding, not restriction**: Know yourself first, change naturally follows
+- **Three identities matter**: Who you think you are, who you want to be, who you really are (based on spending)
+- **Trust enables transformation**: Radical privacy and zero judgment create the safety for real vulnerability
+- **Conversation reveals truth**: Weekly Jobs-style interviews uncover patterns no algorithm could find
+- **Self-discovery sticks**: When YOU realize your patterns, behavior changes. When an app tells you, nothing happens
 
 ## The Journey
 
-### Start with Now
-Who have you supported in the past 7 days? Start with your most recent purchases - they're fresh in memory, full of context. Each transaction is a choice you just made about who you're becoming.
+### Week 1: Sort Your Reality
+You sort transactions into Need/Want/Kill. Not categories - intentions. The same merchant can be all three depending on context. Only you know which. This sorting itself is the first act of understanding.
 
-### See the Pattern
-As you review recent spending, patterns emerge. The morning coffee routine. The stress-triggered Amazon orders. The subscriptions silently renewing. You're not looking at historical data - you're watching your life unfold through money.
+### Weekly: The Interview
+After sorting, you sit down with KANE for a conversation. Not a report - a conversation. About clusters of spending. About patterns. About the story behind that week. Five insights in fifteen minutes about who you really are.
 
-### Understand the Why
-Each purchase had a reason. The dinner that saved a tough day. The app you thought would change everything. The gift that strengthened a relationship. Understanding these reasons reveals what's actually driving your financial life.
+### Ongoing: The Mirror Effect
+Through these conversations, you see three versions of yourself:
+- Who you think you are (before sorting)
+- Who you want to be (your aspirations)
+- Who you really are (what spending reveals)
 
-### Shape Tomorrow
-With understanding comes agency. Not through budgets or limits, but through conscious recognition: "This is who I've been supporting. Is this who I want to keep becoming?" Your next purchase becomes a conscious choice, not an unconscious pattern.
+KANE helps you see all three. More importantly, helps you close the gaps.
+
+### The Transformation
+Week by week, purchase by purchase, conversation by conversation - you develop a relationship with money that serves your life. Not through restriction. Through understanding.
 
 ## What We're NOT Building
 
@@ -80,6 +86,8 @@ With understanding comes agency. Not through budgets or limits, but through cons
 
 ## The Promise
 
+"There's a better version of you that lives in how you choose to spend money. Let's discover that version together, one week at a time."
+
 KANE doesn't give you a budget. It gives you understanding.
 
 And understanding gives you everything else:
@@ -89,3 +97,8 @@ And understanding gives you everything else:
 - Choice without judgment
 
 **Because once you understand why you spend, you can choose who you're becoming.**
+
+Not through AI analyzing your spending.
+Through you discovering your patterns.
+Through conversations that reveal truth.
+Through a thought partnership that preserves your agency while amplifying your understanding.

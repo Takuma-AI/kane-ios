@@ -63,12 +63,18 @@ Research the API:
 
 ## Build Process
 
-### Phase 1: Create Structure
+### Phase 1: Create GitHub Repository First
 
 ```bash
-# Create the MCP server directory
-mkdir -p /Users/kate/Documents/Manual\ Library/Projects/takuma-os/tools/mcp/[service-name]
-cd /Users/kate/Documents/Manual\ Library/Projects/takuma-os/tools/mcp/[service-name]
+# Create GitHub repository for the MCP server
+gh repo create Takuma-AI/[service]-mcp --public --description "MCP server for [service] integration"
+
+# Clone it as a submodule directly into tools/servers/
+cd /Users/kate/Documents/Manual\ Library/Projects/takuma-os
+git submodule add https://github.com/Takuma-AI/[service]-mcp.git tools/servers/[service-name]
+
+# Enter the new submodule
+cd tools/servers/[service-name]
 
 # Initialize Python environment
 python3 -m venv venv
@@ -95,13 +101,13 @@ mcp = FastMCP("[service-name]")
 
 # Credentials loading
 def load_credentials():
-    """Load credentials from environment or saved file"""
-    # Environment variables first
+    """Load credentials from environment variables (project .env file)"""
+    # Load from environment variables set by .env file in project root
     creds = {
         'api_key': os.getenv('[SERVICE]_API_KEY')
     }
     
-    # Local file fallback (within MCP server directory)
+    # For local testing only - credentials.json fallback
     if not creds['api_key']:
         creds_file = os.path.join(os.path.dirname(__file__), 'credentials.json')
         if os.path.exists(creds_file):
@@ -263,12 +269,15 @@ cp credentials.example.json credentials.json
 ### Phase 4: Connect to Claude Code
 
 ```bash
+# Add to Claude using the submodule path
 claude mcp add [service-name] \
-  /Users/kate/Documents/Manual\ Library/Projects/takuma-os/tools/mcp/[service-name]/venv/bin/python \
-  /Users/kate/Documents/Manual\ Library/Projects/takuma-os/tools/mcp/[service-name]/server.py
+  "$PWD/tools/servers/[service-name]/venv/bin/python $PWD/tools/servers/[service-name]/server.py"
 
 # Verify
 claude mcp list
+
+# Update project .env file with credentials
+echo "[SERVICE]_API_KEY=your_api_key_here" >> /Users/kate/Documents/Manual\ Library/Projects/takuma-os/.env
 ```
 
 ### Phase 5: Progressive Enhancement

@@ -1,0 +1,5 @@
+{
+  "hooks": {
+    "output": "/Users/kate/.claude/hooks/tts-notification.sh"
+  }
+}
