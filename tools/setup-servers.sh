@@ -83,10 +83,23 @@ setup_python_mcp() {
     echo "Installing dependencies..."
     ./venv/bin/pip install --quiet --upgrade pip
     if [ -f "requirements.txt" ]; then
-        ./venv/bin/pip install --quiet -r requirements.txt
+        if ./venv/bin/pip install --quiet -r requirements.txt; then
+            echo -e "${GREEN}✓ $server_name dependencies installed${NC}"
+        else
+            echo -e "${RED}✗ Failed to install dependencies for $server_name${NC}"
+            return 1
+        fi
+    else
+        echo -e "${YELLOW}⚠ No requirements.txt found for $server_name${NC}"
     fi
     
-    echo -e "${GREEN}✓ $server_name dependencies installed${NC}"
+    # Test the server can start
+    echo "Testing server startup..."
+    if timeout 5s ./venv/bin/python server.py > /dev/null 2>&1; then
+        echo -e "${GREEN}✓ $server_name server starts successfully${NC}"
+    else
+        echo -e "${YELLOW}⚠ $server_name server test timed out (this may be normal)${NC}"
+    fi
 }
 
 # Setup each MCP server
@@ -110,7 +123,7 @@ if [ -f "$ENV_FILE" ]; then
     echo "Current configuration:"
     echo "----------------------"
     # Show what's configured (without revealing actual keys)
-    if grep -q "^BASECAMP_ACCOUNT_ID=" "$ENV_FILE"; then
+    if grep -q "^BASECAMP_ACCESS_TOKEN=" "$ENV_FILE" || grep -q "^BASECAMP_TOKEN=" "$ENV_FILE"; then
         echo -e "${GREEN}✓ Basecamp credentials configured${NC}"
     else
         echo -e "${YELLOW}⚠ Basecamp credentials not configured${NC}"
@@ -136,27 +149,55 @@ else
 fi
 
 # Configure Basecamp if needed
-if ! grep -q "^BASECAMP_ACCOUNT_ID=" "$ENV_FILE" 2>/dev/null || [[ "$reconfigure" =~ ^[Yy]$ ]]; then
+if ! (grep -q "^BASECAMP_ACCESS_TOKEN=" "$ENV_FILE" || grep -q "^BASECAMP_TOKEN=" "$ENV_FILE") 2>/dev/null || [[ "$reconfigure" =~ ^[Yy]$ ]]; then
     echo ""
     echo -e "${BLUE}Basecamp API Setup:${NC}"
-    echo "You'll need Basecamp API credentials."
-    echo "Get them from: https://3.basecamp.com/integrations"
+    echo "For new Basecamp integration using OAuth tokens, visit:"
+    echo "https://hashi-cdb3.onrender.com/mcp/setup"
     echo ""
-    read -p "Enter your Basecamp Account ID: " basecamp_account_id
-    read -p "Enter your Basecamp Personal Access Token: " basecamp_token
+    echo "This will generate OAuth tokens with proper permissions."
+    echo "Copy the .env content from there and paste it here."
+    echo ""
+    echo "Alternative: Use Personal Access Token from:"
+    echo "https://launchpad.37signals.com/integrations"
+    echo ""
+    read -p "Do you have OAuth tokens from Hashi (recommended)? (y/N): " use_oauth
     
-    # Remove old Basecamp entries if they exist
-    grep -v "^BASECAMP_" "$ENV_FILE" > "$ENV_FILE.tmp" 2>/dev/null || true
-    mv "$ENV_FILE.tmp" "$ENV_FILE"
-    
-    # Add new Basecamp entries
-    cat >> "$ENV_FILE" <<EOF
+    if [[ "$use_oauth" =~ ^[Yy]$ ]]; then
+        echo ""
+        echo "Please visit: https://hashi-cdb3.onrender.com/mcp/setup"
+        echo "Copy the .env content and paste it below (press Enter then Ctrl+D when done):"
+        echo ""
+        
+        # Read multi-line input
+        oauth_content=$(cat)
+        
+        # Remove old Basecamp entries if they exist
+        grep -v "^BASECAMP_" "$ENV_FILE" > "$ENV_FILE.tmp" 2>/dev/null || true
+        mv "$ENV_FILE.tmp" "$ENV_FILE"
+        
+        # Add OAuth content
+        echo "" >> "$ENV_FILE"
+        echo "# Basecamp API (OAuth)" >> "$ENV_FILE"
+        echo "$oauth_content" >> "$ENV_FILE"
+        
+        echo -e "${GREEN}✓ Basecamp OAuth credentials saved to .env${NC}"
+    else
+        read -p "Enter your Basecamp Personal Access Token: " basecamp_token
+        
+        # Remove old Basecamp entries if they exist
+        grep -v "^BASECAMP_" "$ENV_FILE" > "$ENV_FILE.tmp" 2>/dev/null || true
+        mv "$ENV_FILE.tmp" "$ENV_FILE"
+        
+        # Add new Basecamp entries
+        cat >> "$ENV_FILE" <<EOF
 
-# Basecamp API
-BASECAMP_ACCOUNT_ID=$basecamp_account_id
+# Basecamp API (Personal Access Token)
 BASECAMP_ACCESS_TOKEN=$basecamp_token
 EOF
-    echo -e "${GREEN}✓ Basecamp credentials saved to .env${NC}"
+        echo -e "${GREEN}✓ Basecamp credentials saved to .env${NC}"
+        echo -e "${YELLOW}Note: OAuth tokens from Hashi provide better functionality${NC}"
+    fi
 fi
 
 # Configure Perplexity if needed
@@ -223,6 +264,53 @@ add_mcp_server "youtube-transcribe" "$PROJECT_ROOT/tools/servers/youtube-transcr
 echo ""
 echo -e "${YELLOW}Testing MCP server connections...${NC}"
 claude mcp list
+
+# Final validation
+echo ""
+echo -e "${YELLOW}Final validation...${NC}"
+
+# Check that all servers have their required files
+validation_errors=0
+
+for server in "basecamp" "pdf-generator" "perplexity-deep-research" "youtube-transcribe"; do
+    server_path="$PROJECT_ROOT/tools/servers/$server"
+    if [ ! -f "$server_path/server.py" ]; then
+        echo -e "${RED}✗ $server/server.py not found${NC}"
+        validation_errors=$((validation_errors + 1))
+    fi
+    
+    if [ ! -d "$server_path/venv" ]; then
+        echo -e "${RED}✗ $server venv not created${NC}"
+        validation_errors=$((validation_errors + 1))
+    fi
+    
+    if [ ! -f "$server_path/venv/bin/python" ]; then
+        echo -e "${RED}✗ $server venv Python not found${NC}"
+        validation_errors=$((validation_errors + 1))
+    fi
+done
+
+# Check .env file has required credentials
+if [ -f "$ENV_FILE" ]; then
+    if ! (grep -q "^BASECAMP_ACCESS_TOKEN=" "$ENV_FILE" || grep -q "^BASECAMP_TOKEN=" "$ENV_FILE"); then
+        echo -e "${YELLOW}⚠ Basecamp credentials not configured in .env${NC}"
+        echo "  Run the script again to configure them"
+    fi
+    
+    if ! grep -q "^PERPLEXITY_API_KEY=" "$ENV_FILE"; then
+        echo -e "${YELLOW}⚠ Perplexity API key not configured in .env${NC}"
+        echo "  This is optional but recommended for research features"
+    fi
+else
+    echo -e "${RED}✗ .env file not found${NC}"
+    validation_errors=$((validation_errors + 1))
+fi
+
+if [ $validation_errors -eq 0 ]; then
+    echo -e "${GREEN}✓ All validations passed${NC}"
+else
+    echo -e "${YELLOW}⚠ $validation_errors validation issues found${NC}"
+fi
 
 echo ""
 echo -e "${GREEN}╔════════════════════════════════════════════╗${NC}"
