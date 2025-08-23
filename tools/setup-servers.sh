@@ -40,6 +40,26 @@ if ! command -v python3 &> /dev/null; then
 fi
 echo -e "${GREEN}✓ Python 3 found${NC}"
 
+# Check for system dependencies
+echo -e "${YELLOW}Checking system dependencies...${NC}"
+
+# Check for pango (required for PDF generation)
+if command -v brew &> /dev/null; then
+    # macOS with Homebrew
+    if ! brew list pango &>/dev/null; then
+        echo -e "${YELLOW}Installing pango for PDF generation...${NC}"
+        brew install pango cairo || echo -e "${YELLOW}⚠ Could not install pango automatically${NC}"
+    else
+        echo -e "${GREEN}✓ Pango found${NC}"
+    fi
+elif command -v apt-get &> /dev/null; then
+    # Ubuntu/Debian
+    if ! dpkg -l | grep -q libpango; then
+        echo -e "${YELLOW}Installing pango for PDF generation...${NC}"
+        sudo apt-get update && sudo apt-get install -y libpango-1.0-0 libpangocairo-1.0-0
+    fi
+fi
+
 # Check for Node.js (not currently needed but good to check)
 if ! command -v node &> /dev/null; then
     echo -e "${YELLOW}⚠ Node.js is not installed (not currently required)${NC}"
@@ -66,6 +86,31 @@ setup_python_mcp() {
     
     cd "$server_path"
     
+    # Create a wrapper script that loads environment variables
+    cat > run.sh << EOF
+#!/bin/bash
+# MCP Server wrapper script for $server_name
+# This ensures environment variables are loaded from .env
+
+# Get the directory of this script
+SCRIPT_DIR="\$(cd "\$(dirname "\${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="\$(cd "\$SCRIPT_DIR/../../.." && pwd)"
+
+# Load environment from .env file if it exists
+if [ -f "\$PROJECT_ROOT/.env" ]; then
+    export \$(grep -v '^#' "\$PROJECT_ROOT/.env" | xargs)
+fi
+
+# Special handling for pdf-generator libraries on macOS
+if [ "$server_name" = "pdf-generator" ] && command -v brew &> /dev/null; then
+    export DYLD_LIBRARY_PATH="/opt/homebrew/lib:/usr/local/lib:\$DYLD_LIBRARY_PATH"
+fi
+
+# Run the server with the virtual environment
+exec "\$SCRIPT_DIR/venv/bin/python" "\$SCRIPT_DIR/server.py"
+EOF
+    chmod +x run.sh
+    
     # Check if venv exists and has correct path
     if [ -d "venv" ]; then
         # Check if venv points to current directory
@@ -82,6 +127,16 @@ setup_python_mcp() {
     # Activate venv and install requirements
     echo "Installing dependencies..."
     ./venv/bin/pip install --quiet --upgrade pip
+    
+    # Special handling for pdf-generator to find system libraries
+    if [ "$server_name" = "pdf-generator" ]; then
+        if command -v brew &> /dev/null; then
+            # Set environment for macOS to find pango/cairo libraries
+            export DYLD_LIBRARY_PATH="/opt/homebrew/lib:/usr/local/lib:$DYLD_LIBRARY_PATH"
+            export PKG_CONFIG_PATH="/opt/homebrew/lib/pkgconfig:/usr/local/lib/pkgconfig:$PKG_CONFIG_PATH"
+        fi
+    fi
+    
     if [ -f "requirements.txt" ]; then
         if ./venv/bin/pip install --quiet -r requirements.txt; then
             echo -e "${GREEN}✓ $server_name dependencies installed${NC}"
@@ -108,15 +163,14 @@ setup_python_mcp "pdf-generator"
 setup_python_mcp "perplexity-deep-research"
 setup_python_mcp "youtube-transcribe"
 
-# Handle API keys and credentials using .env file
+# Check API keys configuration
 echo ""
 echo -e "${YELLOW}═══════════════════════════════════════════${NC}"
-echo -e "${YELLOW}        API Keys Configuration${NC}"
+echo -e "${YELLOW}        API Keys Status${NC}"
 echo -e "${YELLOW}═══════════════════════════════════════════${NC}"
 
 ENV_FILE="$PROJECT_ROOT/.env"
 
-# Check if .env file exists
 if [ -f "$ENV_FILE" ]; then
     echo -e "${GREEN}✓ .env file found${NC}"
     echo ""
@@ -127,138 +181,61 @@ if [ -f "$ENV_FILE" ]; then
         echo -e "${GREEN}✓ Basecamp credentials configured${NC}"
     else
         echo -e "${YELLOW}⚠ Basecamp credentials not configured${NC}"
+        echo "  Visit https://hashi-cdb3.onrender.com/mcp/setup for OAuth tokens"
+        echo "  Or get a Personal Access Token from https://launchpad.37signals.com/integrations"
     fi
     
     if grep -q "^PERPLEXITY_API_KEY=" "$ENV_FILE"; then
         echo -e "${GREEN}✓ Perplexity API key configured${NC}"
     else
         echo -e "${YELLOW}⚠ Perplexity API key not configured${NC}"
-    fi
-    echo ""
-    read -p "Do you want to reconfigure API keys? (y/N): " reconfigure
-    if [[ ! "$reconfigure" =~ ^[Yy]$ ]]; then
-        echo "Keeping existing configuration."
-    else
-        cp "$ENV_FILE" "$ENV_FILE.backup"
-        echo "Backed up existing .env to .env.backup"
-        > "$ENV_FILE"  # Clear the file
+        echo "  Get one from: https://www.perplexity.ai/settings/api"
     fi
 else
-    echo -e "${YELLOW}No .env file found. Creating one...${NC}"
-    touch "$ENV_FILE"
-fi
-
-# Configure Basecamp if needed
-if ! (grep -q "^BASECAMP_ACCESS_TOKEN=" "$ENV_FILE" || grep -q "^BASECAMP_TOKEN=" "$ENV_FILE") 2>/dev/null || [[ "$reconfigure" =~ ^[Yy]$ ]]; then
+    echo -e "${YELLOW}⚠ No .env file found${NC}"
     echo ""
-    echo -e "${BLUE}Basecamp API Setup:${NC}"
-    echo "For new Basecamp integration using OAuth tokens, visit:"
-    echo "https://hashi-cdb3.onrender.com/mcp/setup"
+    echo "Please create a .env file with your API keys:"
+    echo "  BASECAMP_ACCESS_TOKEN=your_token_here"
+    echo "  PERPLEXITY_API_KEY=your_key_here"
     echo ""
-    echo "This will generate OAuth tokens with proper permissions."
-    echo "Copy the .env content from there and paste it here."
-    echo ""
-    echo "Alternative: Use Personal Access Token from:"
-    echo "https://launchpad.37signals.com/integrations"
-    echo ""
-    read -p "Do you have OAuth tokens from Hashi (recommended)? (y/N): " use_oauth
-    
-    if [[ "$use_oauth" =~ ^[Yy]$ ]]; then
-        echo ""
-        echo "Please visit: https://hashi-cdb3.onrender.com/mcp/setup"
-        echo "Copy the .env content and paste it below (press Enter then Ctrl+D when done):"
-        echo ""
-        
-        # Read multi-line input
-        oauth_content=$(cat)
-        
-        # Remove old Basecamp entries if they exist
-        grep -v "^BASECAMP_" "$ENV_FILE" > "$ENV_FILE.tmp" 2>/dev/null || true
-        mv "$ENV_FILE.tmp" "$ENV_FILE"
-        
-        # Add OAuth content
-        echo "" >> "$ENV_FILE"
-        echo "# Basecamp API (OAuth)" >> "$ENV_FILE"
-        echo "$oauth_content" >> "$ENV_FILE"
-        
-        echo -e "${GREEN}✓ Basecamp OAuth credentials saved to .env${NC}"
-    else
-        read -p "Enter your Basecamp Personal Access Token: " basecamp_token
-        
-        # Remove old Basecamp entries if they exist
-        grep -v "^BASECAMP_" "$ENV_FILE" > "$ENV_FILE.tmp" 2>/dev/null || true
-        mv "$ENV_FILE.tmp" "$ENV_FILE"
-        
-        # Add new Basecamp entries
-        cat >> "$ENV_FILE" <<EOF
-
-# Basecamp API (Personal Access Token)
-BASECAMP_ACCESS_TOKEN=$basecamp_token
-EOF
-        echo -e "${GREEN}✓ Basecamp credentials saved to .env${NC}"
-        echo -e "${YELLOW}Note: OAuth tokens from Hashi provide better functionality${NC}"
-    fi
-fi
-
-# Configure Perplexity if needed
-if ! grep -q "^PERPLEXITY_API_KEY=" "$ENV_FILE" 2>/dev/null || [[ "$reconfigure" =~ ^[Yy]$ ]]; then
-    echo ""
-    echo -e "${BLUE}Perplexity API Setup:${NC}"
-    echo "You'll need a Perplexity API key."
-    echo "Get one from: https://www.perplexity.ai/settings/api"
-    echo ""
-    read -p "Enter your Perplexity API Key: " perplexity_key
-    
-    # Remove old Perplexity entry if it exists
-    grep -v "^PERPLEXITY_" "$ENV_FILE" > "$ENV_FILE.tmp" 2>/dev/null || true
-    mv "$ENV_FILE.tmp" "$ENV_FILE"
-    
-    # Add new Perplexity entry
-    cat >> "$ENV_FILE" <<EOF
-
-# Perplexity API
-PERPLEXITY_API_KEY=$perplexity_key
-EOF
-    echo -e "${GREEN}✓ Perplexity credentials saved to .env${NC}"
-fi
-
-# Clean up old credential files if they exist (migration)
-echo ""
-echo -e "${YELLOW}Cleaning up old credential files...${NC}"
-if [ -f "$PROJECT_ROOT/tools/servers/basecamp/credentials.json" ]; then
-    mv "$PROJECT_ROOT/tools/servers/basecamp/credentials.json" "$PROJECT_ROOT/tools/servers/basecamp/credentials.json.migrated"
-    echo "Migrated basecamp/credentials.json to .env"
-fi
-if [ -f "$PROJECT_ROOT/tools/servers/perplexity-deep-research/credentials.json" ]; then
-    mv "$PROJECT_ROOT/tools/servers/perplexity-deep-research/credentials.json" "$PROJECT_ROOT/tools/servers/perplexity-deep-research/credentials.json.migrated"
-    echo "Migrated perplexity-deep-research/credentials.json to .env"
+    echo "For Basecamp OAuth (recommended):"
+    echo "  Visit https://hashi-cdb3.onrender.com/mcp/setup"
 fi
 
 # Add MCP servers to Claude
 echo ""
 echo -e "${YELLOW}Adding MCP servers to Claude...${NC}"
 
-# Function to add MCP server if not already added
+# Function to add or update MCP server
 add_mcp_server() {
     local name=$1
     local command=$2
     
-    # Check if server already exists
-    if claude mcp list 2>/dev/null | grep -q "^$name:"; then
-        echo -e "${GREEN}✓ $name already configured${NC}"
+    # Check if server already exists and remove it first
+    if claude mcp list 2>/dev/null | grep -q "$name:"; then
+        echo "Updating $name configuration..."
+        claude mcp remove "$name" 2>/dev/null || true
     else
         echo "Adding $name..."
-        cd "$PROJECT_ROOT"  # Run from project root for project-level config
+    fi
+    
+    # Add the server with latest configuration
+    cd "$PROJECT_ROOT"  # Run from project root for project-level config
+    if claude mcp add "$name" "$command" 2>/dev/null; then
+        echo -e "${GREEN}✓ $name configured${NC}"
+    else
+        # If add fails, it might be because it still exists, try force update
+        claude mcp remove "$name" 2>/dev/null || true
         claude mcp add "$name" "$command"
-        echo -e "${GREEN}✓ $name added${NC}"
+        echo -e "${GREEN}✓ $name configured (updated)${NC}"
     fi
 }
 
-# Add each server
-add_mcp_server "basecamp" "$PROJECT_ROOT/tools/servers/basecamp/venv/bin/python $PROJECT_ROOT/tools/servers/basecamp/server.py"
-add_mcp_server "pdf-generator" "$PROJECT_ROOT/tools/servers/pdf-generator/venv/bin/python $PROJECT_ROOT/tools/servers/pdf-generator/server.py"
-add_mcp_server "perplexity-deep-research" "$PROJECT_ROOT/tools/servers/perplexity-deep-research/venv/bin/python $PROJECT_ROOT/tools/servers/perplexity-deep-research/server.py"
-add_mcp_server "youtube-transcribe" "$PROJECT_ROOT/tools/servers/youtube-transcribe/venv/bin/python $PROJECT_ROOT/tools/servers/youtube-transcribe/server.py"
+# Add each server using the wrapper scripts
+add_mcp_server "basecamp" "$PROJECT_ROOT/tools/servers/basecamp/run.sh"
+add_mcp_server "pdf-generator" "$PROJECT_ROOT/tools/servers/pdf-generator/run.sh"
+add_mcp_server "perplexity-deep-research" "$PROJECT_ROOT/tools/servers/perplexity-deep-research/run.sh"
+add_mcp_server "youtube-transcribe" "$PROJECT_ROOT/tools/servers/youtube-transcribe/run.sh"
 
 # Test the setup
 echo ""
@@ -290,20 +267,12 @@ for server in "basecamp" "pdf-generator" "perplexity-deep-research" "youtube-tra
     fi
 done
 
-# Check .env file has required credentials
+# Check .env file exists (credentials are optional)
 if [ -f "$ENV_FILE" ]; then
-    if ! (grep -q "^BASECAMP_ACCESS_TOKEN=" "$ENV_FILE" || grep -q "^BASECAMP_TOKEN=" "$ENV_FILE"); then
-        echo -e "${YELLOW}⚠ Basecamp credentials not configured in .env${NC}"
-        echo "  Run the script again to configure them"
-    fi
-    
-    if ! grep -q "^PERPLEXITY_API_KEY=" "$ENV_FILE"; then
-        echo -e "${YELLOW}⚠ Perplexity API key not configured in .env${NC}"
-        echo "  This is optional but recommended for research features"
-    fi
+    echo -e "${GREEN}✓ .env file exists${NC}"
 else
-    echo -e "${RED}✗ .env file not found${NC}"
-    validation_errors=$((validation_errors + 1))
+    echo -e "${YELLOW}⚠ .env file not found${NC}"
+    echo "  Create one with your API keys for full functionality"
 fi
 
 if [ $validation_errors -eq 0 ]; then

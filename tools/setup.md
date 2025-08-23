@@ -138,3 +138,4 @@ git submodule update --remote --merge
 - Check server logs: `tools/servers/[server-name]/server.log`
 - Test individual servers: `claude mcp list`
 - Ask Claude to test each tool to verify it's working
+- **Run `/setup` in Claude** for automated health check and troubleshooting
