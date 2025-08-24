@@ -40,6 +40,61 @@ We are the whetstone for human potential in the AI age. Through systematic frict
 
 Each department inherits this philosophy while expressing its unique purpose.
 
+### Navigation Reality Check
+
+The OS operates at multiple levels. Always know where you are:
+
+**Working Directory Awareness**
+```bash
+pwd                    # Where am I physically?
+git remote -v          # Which git repository is this?
+git submodule status   # What submodules exist here?
+```
+
+**Three-Level Navigation Pattern**
+1. **OS Root** (`/Users/kate/Projects/takuma-os/`) - Company-wide operations
+2. **Department Level** (`/labs/`, `/bespoke/`, `/tools/`) - Department context
+3. **Product Level** (`/labs/hashi/codebase/`) - Actual implementation
+
+**Product Codebases Are Submodules**
+```bash
+# ✓ CORRECT - Navigate to actual code
+cd /Users/kate/Projects/takuma-os/labs/hashi/codebase
+
+# ✗ WRONG - This is just the product wrapper
+cd labs/hashi  # Only contains vision.md and pitches/
+```
+
+**Tool Servers Are Also Submodules**
+```bash
+# MCP servers live in tools/servers/
+cd /Users/kate/Projects/takuma-os/tools/servers/basecamp
+cd /Users/kate/Projects/takuma-os/tools/servers/pdf-generator
+```
+
+**Git Context Switches at Boundaries**
+- In OS directories: You're in takuma-os repo
+- In `/codebase` directories: You're in product's repo  
+- In `/tools/servers/*`: You're in that tool's repo
+- Always verify with `git remote -v` before committing
+
+**Common Navigation Patterns**
+```bash
+# From anywhere, return to OS root
+cd /Users/kate/Projects/takuma-os
+
+# Check what's at current level
+ls -la
+
+# See all submodules from OS root
+git submodule status
+
+# Update all submodules to latest
+git submodule update --remote --merge
+```
+
+Remember: Submodules track HEAD of their main branch. We evolve with reality, not historical snapshots.
+
 ## Navigation Principles
 
 @.claude/epicenter-finding.md
