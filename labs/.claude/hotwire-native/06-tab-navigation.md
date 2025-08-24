@@ -5,120 +5,64 @@ Tab navigation in Hotwire Native means multiple independent navigation stacks, e
 
 ## Complete Tab Bar Implementation
 
-### 1. Create Tab Structure in SceneDelegate
+### 1. Create Tab Model
+
+```swift
+// App/Models/Tabs.swift
+import HotwireNative
+import UIKit
+
+struct Tabs {
+    private static let hikesTab = HotwireTab(
+        title: "Hikes",
+        image: UIImage(systemName: "figure.walk"),
+        selectedImage: UIImage(systemName: "figure.walk.fill"),
+        visitableURL: baseURL.appending(path: "/hikes")
+    )
+    
+    private static let profileTab = HotwireTab(
+        title: "Profile",
+        image: UIImage(systemName: "person"),
+        selectedImage: UIImage(systemName: "person.fill"),
+        visitableURL: baseURL.appending(path: "/profile")
+    )
+}
+
+extension HotwireTab {
+    static var all: [HotwireTab] {
+        [Tabs.hikesTab, Tabs.profileTab]
+    }
+}
+```
+
+### 2. Use HotwireTabBarController in SceneDelegate
 
 ```swift
 // App/Delegates/SceneDelegate.swift
-import UIKit
 import HotwireNative
+import UIKit
+
+let baseURL = URL(string: "http://localhost:3000")!
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     var window: UIWindow?
     
-    private let baseURL = URL(string: "https://yourapp.com")!
-    
-    // One navigator per tab
-    private var navigators: [Navigator] = []
+    private let tabBarController = HotwireTabBarController()
     
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        guard let windowScene = scene as? UIWindowScene else { return }
-        
-        window = UIWindow(windowScene: windowScene)
-        
-        // Create tab bar controller
-        let tabBarController = UITabBarController()
-        tabBarController.viewControllers = createTabs()
-        
         window?.rootViewController = tabBarController
-        window?.makeKeyAndVisible()
-        
-        // Start navigation for each tab
-        startInitialNavigation()
+        tabBarController.load()
     }
-    
-    private func createTabs() -> [UIViewController] {
-        // Define your tabs
-        let tabs = [
-            TabConfig(
-                title: "Home",
-                icon: "house",
-                path: "/",
-                name: "home"
-            ),
-            TabConfig(
-                title: "Resources", 
-                icon: "folder",
-                path: "/resources",
-                name: "resources"
-            ),
-            TabConfig(
-                title: "Profile",
-                icon: "person",
-                path: "/profile", 
-                name: "profile"
-            )
-        ]
-        
-        // Create navigator for each tab
-        return tabs.map { tab in
-            let navigator = createNavigator(for: tab)
-            navigators.append(navigator)
-            
-            // Set tab bar item
-            navigator.rootViewController.tabBarItem = UITabBarItem(
-                title: tab.title,
-                image: UIImage(systemName: tab.icon),
-                selectedImage: UIImage(systemName: "\(tab.icon).fill")
-            )
-            
-            return navigator.rootViewController
-        }
-    }
-    
-    private func createNavigator(for tab: TabConfig) -> Navigator {
-        Navigator(
-            configuration: Configuration(
-                name: tab.name,
-                startLocation: baseURL.appending(path: tab.path),
-                pathConfigurationURL: baseURL.appending(path: "/configurations/ios-v1.json")
-            ),
-            bridgeComponents: [
-                FormComponent.self,
-                MenuComponent.self,
-                ButtonComponent.self
-            ]
-        )
-    }
-    
-    private func startInitialNavigation() {
-        // Navigate each tab to its start location
-        for (index, navigator) in navigators.enumerated() {
-            if let config = tabConfig(at: index) {
-                navigator.navigate(to: baseURL.appending(path: config.path))
-            }
-        }
-    }
-    
-    private func tabConfig(at index: Int) -> TabConfig? {
-        let configs = [
-            TabConfig(title: "Home", icon: "house", path: "/", name: "home"),
-            TabConfig(title: "Resources", icon: "folder", path: "/resources", name: "resources"),
-            TabConfig(title: "Profile", icon: "person", path: "/profile", name: "profile")
-        ]
-        return index < configs.count ? configs[index] : nil
-    }
-}
-
-// Tab configuration
-struct TabConfig {
-    let title: String
-    let icon: String
-    let path: String
-    let name: String
 }
 ```
 
-### 2. Rails Path Configuration for Tabs
+**Key Points:**
+- `HotwireTabBarController` manages multiple navigation stacks automatically
+- Each tab gets its own Navigator and Session
+- The `load()` method initializes all tabs from `HotwireTab.all`
+- No manual Navigator creation needed - the framework handles it
+
+### 3. Rails Path Configuration for Tabs
 
 ```ruby
 # app/controllers/configurations_controller.rb

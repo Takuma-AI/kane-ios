@@ -1,42 +1,49 @@
-# Native Screens - The Correct API for Hotwire Native 1.2.1
+# Native Screens - SwiftUI Integration with Path Configuration
 
 ## Core Principle
-Native screens completely replace web views for specific URLs. They're triggered via NavigatorDelegate when the Rails app navigates to specific paths. Use for platform-specific features that can't be web views.
+Native screens completely replace web views for specific URLs. They're triggered via path configuration and NavigatorDelegate working together. Rails tells iOS which view controller to use, NavigatorDelegate creates the actual instance.
 
-## The Real API: NavigatorDelegate
+## The Pattern: Path Configuration + NavigatorDelegate
 
-### 1. Set Up NavigatorDelegate in SceneDelegate
+### 1. Rails Path Configuration
+```ruby
+# app/controllers/configurations_controller.rb
+def ios_v1
+  render json: {
+    settings: {},
+    rules: [
+      {
+        patterns: ["/hikes/\\d+/map$"],
+        properties: {
+          view_controller: "map"  # Identifies native screen
+        }
+      },
+      # Other rules...
+    ]
+  }
+end
+```
+
+### 2. NavigatorDelegate Implementation
 ```swift
-// SceneDelegate.swift
-lazy var navigator: Navigator = {
-    let config = Navigator.Configuration(
-        name: "main",
-        startLocation: baseURL
-    )
-    let nav = Navigator(configuration: config)
-    nav.delegate = self  // CRITICAL: Must set delegate
-    return nav
-}()
-
-// MARK: - NavigatorDelegate
+// App/Delegates/SceneDelegate.swift
 extension SceneDelegate: NavigatorDelegate {
-    func handle(proposal: VisitProposal) -> ProposalResult {
-        // Route based on URL path
-        switch proposal.url.path {
-        case "/plaid":
-            return .acceptCustom(PlaidViewController(url: proposal.url))
-        case "/camera":
-            return .acceptCustom(CameraViewController(url: proposal.url))
+    func handle(
+        proposal: VisitProposal,
+        from navigator: Navigator
+    ) -> ProposalResult {
+        // Check if path config specified a view controller
+        switch proposal.viewController {
+        case "map": 
+            return .acceptCustom(MapController(url: proposal.url))
         default:
-            return .accept  // Use web view
+            return .accept  // Use default web view
         }
     }
 }
 ```
 
-**BREAKING CHANGE**: The `pathConfigurationURL` parameter was removed from Navigator.Configuration in Hotwire Native 1.2.1. Use NavigatorDelegate for custom routing instead.
-
-### 2. ProposalResult Options
+### 3. ProposalResult Options
 - `.accept` - Use default web view (most URLs)
 - `.acceptCustom(UIViewController)` - Use your custom native view controller
 - `.reject` - Cancel navigation entirely

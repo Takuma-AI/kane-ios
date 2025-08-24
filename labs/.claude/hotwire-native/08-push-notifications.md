@@ -17,47 +17,21 @@ Push notifications connect your Rails app to users through Apple Push Notificati
 
 ### 2. iOS Push Registration
 
+The push notification permission request happens through a bridge component (shown below). But you need to handle the token registration in AppDelegate:
+
 ```swift
-// App/SceneDelegate.swift
+// App/Delegates/AppDelegate.swift
 import UIKit
 import HotwireNative
-import UserNotifications
 
-class SceneDelegate: UIResponder, UIWindowSceneDelegate {
-    // ... existing setup ...
-    
-    func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        // ... existing setup ...
-        
-        // Register for push notifications
-        registerForPushNotifications()
-        
-        // Handle notification if app launched from one
-        if let notificationResponse = connectionOptions.notificationResponse {
-            handleNotificationResponse(notificationResponse)
-        }
-    }
-    
-    private func registerForPushNotifications() {
-        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge]) { granted, error in
-            print("Push authorization granted: \(granted)")
-            
-            if granted {
-                DispatchQueue.main.async {
-                    UIApplication.shared.registerForRemoteNotifications()
-                }
-            }
-        }
-    }
-}
-
-// App/AppDelegate.swift (Create this file)
-import UIKit
-
+@main
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Set up notification delegate
-        UNUserNotificationCenter.current().delegate = self
+        // Register bridge components including NotificationTokenComponent
+        Hotwire.registerBridgeComponents([
+            NotificationTokenComponent.self
+        ])
         return true
     }
     
@@ -66,13 +40,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let token = deviceToken.map { String(format: "%02.2hhx", $0) }.joined()
         print("Device token: \(token)")
         
-        // Send to Rails
-        PushNotificationService.shared.registerToken(token)
+        // Send to Rails via view model
+        Task { await NotificationTokenViewModel().register(deviceToken) }
     }
     
     // Handle registration failure
     func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
-        print("Failed to register for push: \(error)")
+        print("Failed to register: \(error.localizedDescription)")
     }
 }
 
@@ -103,93 +77,103 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
 }
 ```
 
-### 3. Push Token Registration Service
+### 3. Bridge Component for Permission Request
 
 ```swift
-// App/Services/PushNotificationService.swift
-import Foundation
+// App/Components/NotificationTokenComponent.swift
+import HotwireNative
+import UIKit
+import UserNotifications
 
-class PushNotificationService {
-    static let shared = PushNotificationService()
+class NotificationTokenComponent: BridgeComponent {
+    override class var name: String { "notification-token" }
     
-    private let baseURL = URL(string: "https://yourapp.com")!
-    
-    func registerToken(_ token: String) {
-        // Store token locally first
-        UserDefaults.standard.set(token, forKey: "push_token")
-        
-        // Send to Rails
-        Task {
-            await sendTokenToServer(token)
-        }
+    override func onReceive(message: Message) {
+        guard message.event == "requestPermission" else { return }
+        Task { await requestNotificationPermission() }
     }
     
-    private func sendTokenToServer(_ token: String) async {
-        let url = baseURL.appending(path: "/api/push_tokens")
+    private func requestNotificationPermission() async {
+        do {
+            let center = UNUserNotificationCenter.current()
+            let options: UNAuthorizationOptions = [.alert, .sound, .badge]
+            if try await center.requestAuthorization(options: options) {
+                UIApplication.shared.registerForRemoteNotifications()
+            }
+        } catch {
+            print("Failed to authorize: \(error.localizedDescription)")
+        }
+    }
+}
+```
+
+### 4. Send Token to Rails
+
+```swift
+// App/ViewModels/NotificationTokenViewModel.swift
+import Foundation
+
+class NotificationTokenViewModel {
+    func register(_ deviceToken: Data) async {
+        let token = deviceToken.map { String(format: "%02.2hhx", $0) }.joined()
+        let url = baseURL.appending(path: "notification_tokens")
+        
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
         
-        // Include user authentication if available
-        if let authToken = AuthenticationHelper.shared.retrieveAuthToken() {
-            request.setValue("Bearer \(authToken)", forHTTPHeaderField: "Authorization")
-        }
-        
-        let payload = ["token": token, "platform": "ios"]
-        request.httpBody = try? JSONEncoder().encode(payload)
+        let notificationToken = NotificationToken(token: token)
+        request.httpBody = try? JSONEncoder().encode(notificationToken)
         
         do {
             let (_, response) = try await URLSession.shared.data(for: request)
             if let httpResponse = response as? HTTPURLResponse {
-                print("Token registration response: \(httpResponse.statusCode)")
+                print("Token registration: \(httpResponse.statusCode)")
             }
         } catch {
             print("Failed to register token: \(error)")
         }
     }
 }
+
+// App/Models/NotificationToken.swift
+struct NotificationToken: Encodable {
+    let token: String
+    let platform = "iOS"
+}
 ```
 
-### 4. Rails Push Token Management
+### 5. Rails Push Token Management
 
 ```ruby
-# app/models/push_token.rb
-class PushToken < ApplicationRecord
+# app/models/notification_token.rb
+class NotificationToken < ApplicationRecord
   belongs_to :user
   
-  validates :token, presence: true, uniqueness: true
-  validates :platform, inclusion: { in: %w[ios android] }
-  
-  scope :ios, -> { where(platform: "ios") }
-  scope :active, -> { where(active: true) }
+  validates :token, presence: true
+  validates :platform, inclusion: { in: %w[iOS FCM] }
 end
 
-# app/controllers/api/push_tokens_controller.rb
-class Api::PushTokensController < ApplicationController
-  skip_before_action :verify_authenticity_token
+# app/models/user.rb - add association
+class User < ApplicationRecord
+  has_many :notification_tokens
+  # ... existing code
+end
+
+# app/controllers/notification_tokens_controller.rb
+class NotificationTokensController < ApplicationController
   before_action :authenticate_user!
+  skip_before_action :verify_authenticity_token
   
   def create
-    @push_token = current_user.push_tokens.find_or_initialize_by(
-      token: params[:token],
-      platform: params[:platform]
-    )
-    
-    @push_token.active = true
-    @push_token.last_used_at = Time.current
-    
-    if @push_token.save
-      render json: { status: "registered" }
-    else
-      render json: { errors: @push_token.errors }, status: :unprocessable_entity
-    end
+    current_user.notification_tokens.find_or_create_by!(notification_token_params)
+    head :created
   end
   
-  def destroy
-    @push_token = current_user.push_tokens.find_by(token: params[:token])
-    @push_token&.update(active: false)
-    
-    head :no_content
+  private
+  
+  def notification_token_params
+    params.permit(:token, :platform)
   end
 end
 
@@ -212,7 +196,41 @@ class CreatePushTokens < ActiveRecord::Migration[7.0]
 end
 ```
 
-### 5. Sending Push Notifications from Rails
+### 5. Setting Up APNs Authentication
+
+#### Create APNs Key on Apple Developer Portal
+
+1. Go to [developer.apple.com](https://developer.apple.com/account)
+2. Navigate to **Keys** (not Certificates)
+3. Click the **+** button to create a new key
+4. Name your key (e.g., "Push Notifications")
+5. Check **Apple Push Notifications service (APNs)**
+6. Click **Continue** then **Register**
+7. Download the `.p8` file (you can only download once!)
+8. Note the **Key ID** (shown on the page)
+9. Note your **Team ID** (top right of the page)
+
+#### Add to Rails Credentials
+
+```bash
+rails credentials:edit
+```
+
+Add the following structure:
+
+```yaml
+apns:
+  key_id: "ABC123DEF4"  # Your Key ID from step 8
+  team_id: "XYZ789GHI0"  # Your Team ID from step 9
+  key: |
+    -----BEGIN PRIVATE KEY-----
+    [paste the entire contents of your .p8 file here]
+    -----END PRIVATE KEY-----
+```
+
+The same key works for both development and production, and for all your apps under the same team.
+
+### 6. Sending Push Notifications from Rails
 
 ```ruby
 # Gemfile
@@ -287,14 +305,21 @@ end
 # config/initializers/apns.rb
 require 'apnotic'
 
-# Use your APNs certificate or key
-APNS_CLIENT = Apnotic::Connection.new(
-  cert_path: Rails.root.join("config", "certs", "apns_production.pem"),
-  url: Rails.env.production? ? "https://api.push.apple.com" : "https://api.development.push.apple.com"
-)
+# Use APNs Authentication Key (.p8) - simpler and more reliable than certificates
+credentials = Rails.application.credentials.dig(:apns)
+
+if credentials
+  APNS_CLIENT = Apnotic::Connection.new(
+    auth_method: :token,
+    cert_path: Rails.root.join("config", "certs", "AuthKey_#{credentials[:key_id]}.p8"),
+    key_id: credentials[:key_id],
+    team_id: credentials[:team_id],
+    url: Rails.env.production? ? "https://api.push.apple.com" : "https://api.sandbox.push.apple.com"
+  )
+end
 ```
 
-### 6. Notification Templates
+### 7. Notification Templates
 
 ```ruby
 # app/models/concerns/notifiable.rb
@@ -339,7 +364,7 @@ class User < ApplicationRecord
 end
 ```
 
-### 7. Rich Notifications (Optional)
+### 8. Rich Notifications (Optional)
 
 ```swift
 // Create Notification Service Extension in Xcode
@@ -377,7 +402,7 @@ class NotificationService: UNNotificationServiceExtension {
 }
 ```
 
-### 8. Testing Push Notifications
+### 9. Testing Push Notifications
 
 ```ruby
 # test/services/push_notification_service_test.rb

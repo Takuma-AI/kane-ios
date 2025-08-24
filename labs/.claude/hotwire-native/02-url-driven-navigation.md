@@ -21,135 +21,87 @@ The beauty is you control all of this from Rails. Want to change how a screen ap
 ```ruby
 # app/controllers/configurations_controller.rb
 class ConfigurationsController < ApplicationController
-  skip_before_action :authenticate_user!
   
   def ios_v1
     render json: {
-      rules: navigation_rules
+      settings: {},
+      rules: [
+        {
+          patterns: ["/new$", "/edit$"],
+          properties: {
+            context: "modal"
+          }
+        },
+        {
+          patterns: [".*"],
+          properties: {
+            context: "default"
+          }
+        }
+      ]
     }
-  end
-  
-  private
-  
-  def navigation_rules
-    [
-      # Order matters! First match wins
-      auth_rules,
-      modal_rules,
-      native_screen_rules,
-      special_navigation_rules,
-      default_rules
-    ].flatten
-  end
-  
-  def auth_rules
-    [
-      {
-        patterns: ["/sessions/new$", "/users/sign_in$"],
-        properties: {
-          presentation: "clear_all",
-          title: "Sign In"
-        }
-      },
-      {
-        patterns: ["/users/sign_up$"],
-        properties: {
-          presentation: "modal",
-          title: "Create Account"
-        }
-      }
-    ]
-  end
-  
-  def modal_rules
-    [
-      {
-        patterns: ["/new$", "/edit$"],
-        properties: {
-          presentation: "modal"
-        }
-      },
-      {
-        patterns: ["/resources/\\d+/share$"],
-        properties: {
-          presentation: "modal",
-          title: "Share"
-        }
-      }
-    ]
-  end
-  
-  def native_screen_rules
-    [
-      {
-        patterns: ["/camera$"],
-        properties: {
-          view_controller: "CameraViewController",
-          title: "Camera"
-        }
-      },
-      {
-        patterns: ["/resources/\\d+/map$"],
-        properties: {
-          view_controller: "MapViewController",
-          pull_to_refresh: false
-        }
-      }
-    ]
-  end
-  
-  def special_navigation_rules
-    [
-      {
-        patterns: ["/resources/\\d+$"],
-        properties: {
-          presentation: "replace"
-        }
-      },
-      {
-        patterns: ["/external/"],
-        properties: {
-          presentation: "modal",
-          modal_style: "fullScreen"
-        }
-      }
-    ]
-  end
-  
-  def default_rules
-    [
-      {
-        patterns: [".*"],
-        properties: {
-          presentation: "push"
-        }
-      }
-    ]
   end
 end
 ```
 
-## Presentation Modes Explained
+**Key Points:**
+- The `settings` key is required even if empty
+- The `context` property determines presentation (not `presentation`)
+- "modal" context presents as a modal
+- "default" context pushes onto the navigation stack
+- First matching pattern wins
+  
+## Extended Path Configuration Examples
 
-### push (Default)
+While the book focuses on the `context` property with "modal" and "default" values, here are additional patterns that are useful in practice:
+
 ```ruby
-# Standard navigation - adds to stack
-{ presentation: "push" }
-# User can go back, navigation bar shows back button
+# More comprehensive configuration
+def ios_v1
+  render json: {
+    settings: {},
+    rules: [
+      # Authentication screens
+      {
+        patterns: ["/sessions/new$", "/users/sign_in$"],
+        properties: {
+          context: "modal",
+          pull_to_refresh_enabled: false
+        }
+      },
+      # Forms as modals
+      {
+        patterns: ["/new$", "/edit$"],
+        properties: {
+          context: "modal"
+        }
+      },
+      # Default navigation
+      {
+        patterns: [".*"],
+        properties: {
+          context: "default"
+        }
+      }
+    ]
+  }
+end
+```
+
+## Context Values Explained
+
+### default
+```ruby
+# Standard push navigation
+{ context: "default" }
+# Pushes onto navigation stack with back button
 ```
 
 ### modal
 ```ruby
-# Opens as modal overlay
-{ presentation: "modal" }
-# Good for: forms, focused tasks, temporary flows
-```
-
-### replace
-```ruby
-# Replaces current view without adding to stack
-{ presentation: "replace" }
-# Good for: redirects, updating current screen
+# Modal presentation
+{ context: "modal" }
+# Opens as modal overlay, good for forms and focused tasks
 ```
 
 ### clear_all

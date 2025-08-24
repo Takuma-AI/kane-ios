@@ -1,15 +1,15 @@
-# Hotwire Native Overview - Rails Apps as iOS Apps
+# Hotwire Native Overview
 
 ## What is Hotwire Native?
 
-Hotwire Native lets you wrap your Rails app in a native iOS shell. Your Rails app provides all the business logic and UI, while the iOS app acts as a thin coordinator that manages web views. This is NOT a hybrid app framework—it's a different philosophy entirely.
+Hotwire Native renders HTML from your Rails server in an embedded web view, packaged inside a native app. You can let your web app be the basis for everything, wrap it in a native shell for navigation, and only build native interactions where it's really needed.
 
 ## The Key Insight
 
-**Your Rails app IS the iOS app.** The native code just provides:
-- Navigation coordination
-- Platform API access (camera, push notifications)
-- Native UI elements when beneficial
+Most of your logic will remain on the server, with the apps acting as thin clients to your HTML. The native code provides:
+- Navigation management through the framework
+- Platform API access (camera, push notifications, etc.)
+- Native UI elements when web isn't sufficient
 
 ## For Rails Developers (No Swift Required)
 
@@ -42,37 +42,19 @@ Hotwire Native lets you wrap your Rails app in a native iOS shell. Your Rails ap
 - Submit to App Store Connect
 - Beta testing setup
 
-## The Three-Layer Architecture
+## Architecture Overview
 
-```
-┌─────────────────────────────────────────┐
-│          Rails App (Layer 1)            │
-│  • All business logic                   │
-│  • All UI/UX                           │
-│  • Navigation rules                    │
-│  • Data persistence                    │
-└─────────────────────────────────────────┘
-                    ▲
-                    │ URLs
-                    ▼
-┌─────────────────────────────────────────┐
-│     Hotwire Native Framework (Layer 2)  │
-│  • Navigator (coordinates navigation)    │
-│  • Session (manages web views)          │
-│  • Path Configuration (routing rules)   │
-│  • Bridge (web-native communication)    │
-└─────────────────────────────────────────┘
-                    ▲
-                    │ Minimal Code
-                    ▼
-┌─────────────────────────────────────────┐
-│        iOS App Code (Layer 3)          │
-│  • SceneDelegate (app lifecycle)       │
-│  • Bridge Components (native features)  │
-│  • Native Screens (when needed)        │
-│  • Push notification handling          │
-└─────────────────────────────────────────┘
-```
+The app consists of:
+- **Rails Server**: Provides HTML, handles business logic, maintains state
+- **Hotwire Native Framework**: Manages navigation, web views, and communication
+- **Native App Shell**: Thin wrapper that configures the framework and adds native features
+
+Key Components:
+- **Navigator**: Manages navigation between screens
+- **Session**: Handles the web view and page visits
+- **Path Configuration**: Server-driven routing rules for modals, tabs, etc.
+- **Bridge Components**: JavaScript-to-native communication for features
+- **Native Screens**: Full native views when web isn't sufficient
 
 ## Quick Start Checklist
 
@@ -104,10 +86,8 @@ Yes! The same Rails app serves:
 - iOS app (native-wrapped experience)
 - Future Android app (same approach)
 
-### "How is this different from PWAs?"
-- **PWAs**: Web app with some native features
-- **Hotwire Native**: Native app with web content
-- **Key difference**: Full access to iOS APIs and App Store distribution
+### "How is this different from fully native?"
+After an initial upfront cost, it's possible to not touch the native code again for years. Changes to the Rails codebase automatically update the app's features without App Store updates.
 
 ### "What about offline?"
 Hotwire Native requires internet (like any Rails app). For offline:

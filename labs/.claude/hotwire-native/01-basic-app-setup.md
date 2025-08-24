@@ -1,28 +1,20 @@
-# Basic App Setup - Navigator, Session, SceneDelegate
+# Basic App Setup
 
 ## Core Principle
-In Hotwire Native, the web view IS the application. The iOS app is just a thin coordination layer that manages web views through Navigator and Session components. This constraint is the key to the entire architecture.
+Hotwire Native renders HTML from your Rails server in an embedded web view, packaged inside a native app. Most of your logic will remain on the server, with the apps acting as thin clients to your HTML.
 
-Think of it this way: You're not building an iOS app with web views. You're putting your Rails app in a native wrapper that knows how to navigate between pages, show modals, and access device features. The Rails app does all the work—the iOS code just coordinates.
+## Architecture
 
-## The Three Layers Explained
+The app consists of three parts:
 
-```
-1. Web app (Rails)     → Business logic, UI, navigation rules
-2. Navigation shell    → Hotwire Native framework (Navigator, Session)
-3. Platform integration → Minimal Swift code for iOS-specific features
-```
+**Your Rails Server:**
+All business logic, UI, and state management lives here. The Rails app serves HTML just like it does for web browsers.
 
-Let's break down what each layer actually does:
+**Hotwire Native Framework:**
+Provides Navigator and Session components that manage navigation and web views. You configure this layer but don't modify it.
 
-**Layer 1 - Your Rails App:**
-This is where ALL your application logic lives. Every screen, every form, every bit of business logic. The Rails app doesn't even know it's being displayed in an iOS app—it just serves HTML like always.
-
-**Layer 2 - Hotwire Native Framework:**
-This is the magic layer. It provides Navigator (which manages navigation between screens) and Session (which manages web views). You don't write this code—you just configure it. Think of it as a very smart web browser that knows how to present your pages as native screens.
-
-**Layer 3 - Your iOS Code:**
-This should be tiny! Just enough to start the app, point it at your Rails server, and handle iOS-specific features like camera access. If you find yourself writing lots of iOS code, you're probably doing it wrong.
+**Your Native Code:**
+Minimal Swift/Kotlin code to configure the framework and add native features when needed.
 
 ## iOS Project Organization
 
@@ -136,116 +128,59 @@ Remember: If you're writing lots of Swift code, you're probably fighting the fra
 
 ## Complete SceneDelegate Implementation
 
-Now let's create the iOS app. Don't worry about understanding every line of Swift—I'll explain what matters and you can copy-paste the rest. The SceneDelegate is like the `application.rb` file in Rails—it's where your app starts.
+The SceneDelegate is where your app starts. Here's the complete implementation:
 
-**The entry point - where everything starts:**
 ```swift
-// App/Delegates/SceneDelegate.swift
-import UIKit
+// SceneDelegate.swift
 import HotwireNative
+import UIKit
+
+// Define the base URL outside the class (as shown in the book)
+let baseURL = URL(string: "http://localhost:3000")!
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     var window: UIWindow?
     
-    // THE core decision: What's your Rails app URL?
-    private let baseURL = URL(string: "https://yourapp.com")!
-    
-    // Navigator manages all navigation and coordinates sessions
-    private lazy var navigator = Navigator(
-        configuration: Navigator.Configuration(
-            name: "main",
-            startLocation: baseURL
-        )
-    )
+    // Navigator configuration with .init shorthand
+    private let navigator = Navigator(configuration: .init(
+        name: "main",
+        startLocation: baseURL.appending(path: "hikes")
+    ))
     
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        guard let windowScene = scene as? UIWindowScene else { return }
-        
-        window = UIWindow(windowScene: windowScene)
         window?.rootViewController = navigator.rootViewController
-        window?.makeKeyAndVisible()
-        
-        navigator.route(baseURL)
+        navigator.start()
     }
 }
 ```
 
 **What's happening here:**
-1. `baseURL` - Change this to your Rails app URL. During development, use `http://localhost:3000`
-2. `Navigator.Configuration` - Note the nested type - Configuration is inside Navigator
-3. `navigator.route(baseURL)` - Method to start navigation (not `navigate`)
-4. Simplified configuration - Advanced features like pathConfigurationURL can be added later
-5. The rest is boilerplate—it creates a window and tells the Navigator to load your homepage
-
-That's it! Your iOS app is now ready to display your Rails app. But we need to tell Rails how to handle iOS visitors differently...
-
-## Rails Path Configuration
-
-**Define navigation rules in Rails, not iOS:**
-```ruby
-# app/controllers/configurations_controller.rb
-class ConfigurationsController < ApplicationController
-  def ios_v1
-    render json: {
-      rules: [
-        {
-          patterns: ["/new$", "/edit$"],
-          properties: {
-            presentation: "modal"
-          }
-        },
-        {
-          patterns: ["/accounts/\\d+$"],
-          properties: {
-            presentation: "replace"
-          }
-        }
-      ]
-    }
-  end
-end
-```
+1. `baseURL` - During development use `http://localhost:3000`, in production use your Rails app URL
+2. Navigator configuration requires `name` and `startLocation`
+3. `navigator.start()` initiates the first visit
+4. The window's rootViewController is set to the navigator's rootViewController
+5. That's it - your Rails app is now displaying in iOS!
 
 ## Understanding the Framework Components
 
 ### Navigator: The Orchestrator
-```swift
-// Framework manages this - understand but don't modify
-class Navigator {
-    // Owns the navigation controller
-    let rootViewController: UINavigationController
-    
-    // Manages main and modal sessions
-    private var mainSession: Session
-    private var modalSession: Session?
-    
-    // Path configuration determines routing
-    let pathConfiguration: PathConfiguration
-    
-    func navigate(to url: URL) {
-        // 1. Consult path configuration
-        // 2. Route to appropriate session
-        // 3. Session handles the visit
-    }
-}
-```
+The Navigator component from Hotwire Native manages all navigation and coordinates sessions. It:
+- Owns the navigation controller (rootViewController)
+- Manages main and modal sessions
+- Routes visits based on path configuration
+- Handles the navigation stack (push/pop/replace)
+
+You configure it but don't modify its internals. The framework handles all the complexity.
 
 ### Session: Web View Lifecycle Manager
-```swift
-// Framework code - for reference only
-class Session {
-    // Owns the WKWebView
-    private let webView: WKWebView
-    
-    // Manages visits (page loads)
-    private var currentVisit: Visit?
-    
-    func visit(_ visitable: Visitable) {
-        // Only ONE Visitable can own the web view at a time
-        // This is the key constraint
-    }
-}
-```
+Sessions manage the WKWebView and its lifecycle:
+- Each session owns one web view
+- Only ONE Visitable can own the web view at a time (key constraint!)
+- Manages visits (page loads)
+- Handles JavaScript bridge communication
+
+### Key Constraint to Remember
+**Web view ownership is exclusive** - Only one Visitable at a time can own a web view. This is why navigation works the way it does - the framework manages transferring ownership as you navigate.
 
 ## Setting Up Your Rails App
 
@@ -366,6 +301,37 @@ curl https://yourapp.com/configurations/ios-v1.json
 <% end %>
 ```
 
+## Path Configuration (Foundation)
+
+While detailed path configuration comes later, know that Rails will define navigation rules:
+
+```ruby
+# app/controllers/configurations_controller.rb
+class ConfigurationsController < ApplicationController
+  def ios_v1
+    render json: {
+      rules: [
+        {
+          patterns: ["/new$", "/edit$"],
+          properties: {
+            presentation: "modal"
+          }
+        }
+      ]
+    }
+  end
+end
+```
+
+Then connect it in your SceneDelegate:
+```swift
+private let navigator = Navigator(configuration: .init(
+    name: "main",
+    startLocation: baseURL.appending(path: "hikes"),
+    pathConfigurationURL: baseURL.appending(path: "configurations/ios_v1.json")
+))
+```
+
 ## Common Setup Mistakes
 
 ### ❌ Don't: Create custom navigation logic
@@ -377,10 +343,11 @@ func customNavigate(to url: URL) {
 }
 ```
 
-### ✅ Do: Use Navigator.route()
+### ✅ Do: Use Navigator methods
 ```swift
 // Right - Let framework handle it
-navigator.route(url)
+navigator.start() // For initial visit
+// Navigation happens automatically through link clicks
 ```
 
 ### ❌ Don't: Store state in iOS
