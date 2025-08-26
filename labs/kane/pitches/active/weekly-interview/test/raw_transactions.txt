@@ -1,0 +1,32 @@
+                merchant_name                | amount | transaction_date 
+---------------------------------------------+--------+------------------
+ Amazon                                      |   8.42 | 2025-08-24
+ Amazon                                      |   9.36 | 2025-08-24
+ Amazon                                      |  69.76 | 2025-08-24
+ Vercel Inc.                                 |   20.0 | 2025-08-24
+ Amazon                                      |   11.6 | 2025-08-23
+ Affirm                                      |  14.59 | 2025-08-22
+ Claude.ai                                   |  222.0 | 2025-08-22
+ Elevenlabs.io                               |   5.55 | 2025-08-22
+ Let Loose                                   |   48.6 | 2025-08-22
+ Mariano's                                   |   5.51 | 2025-08-22
+ Paris Baguette                              |  82.21 | 2025-08-22
+ Patreonirel Memb                            |   7.95 | 2025-08-22
+ Target                                      |   53.2 | 2025-08-22
+ Amazon                                      |    6.0 | 2025-08-21
+ Every Every.to                              |   20.0 | 2025-08-21
+ Monthly Maintenance Fee                     |   12.0 | 2025-08-21
+ Paypal Pay in 4                             |  18.28 | 2025-08-21
+ Web Authorized Pmt Paypal                   |    6.6 | 2025-08-21
+ Windsurf                                    |  16.65 | 2025-08-21
+ Google One                                  |   9.99 | 2025-08-20
+ Klarna                                      |   39.4 | 2025-08-20
+ Uber Eats                                   |  31.23 | 2025-08-20
+ Affirm                                      |  87.65 | 2025-08-19
+ Amazon                                      |  20.38 | 2025-08-19
+ Amazon                                      |  98.55 | 2025-08-19
+ Codecademy Codecademy.co Ny - 126.0000 Euro | 147.62 | 2025-08-19
+ Klarna                                      |  50.95 | 2025-08-19
+ Midjourney Inc. Midjourney.co               |   10.0 | 2025-08-19
+(28 rows)
+

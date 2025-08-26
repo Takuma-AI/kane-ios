@@ -19,8 +19,8 @@
 [submodule "bespoke/elite-personal-chefs/01-chef-portal/epc-portal"]
 	path = bespoke/elite-personal-chefs/01-chef-portal/epc-portal
 	url = https://github.com/chefaustinyancey/epc-portal.git
-[submodule "labs/phone-booth"]
-	path = labs/phone-booth
+[submodule "labs/phone-booth/codebase"]
+	path = labs/phone-booth/codebase
 	url = https://github.com/Takuma-AI/phone-booth.git
 [submodule "tools/servers/basecamp"]
 	path = tools/servers/basecamp
