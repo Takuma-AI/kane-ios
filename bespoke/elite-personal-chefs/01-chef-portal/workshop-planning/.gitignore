@@ -1,0 +1,2 @@
+# Ignore seed data (raw files, large documents)
+seed/
