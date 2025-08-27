@@ -79,6 +79,7 @@ if [ -f .env ]; then
     # Check which keys are configured (without showing values)
     grep -q "BASECAMP" .env && echo "✓ Basecamp configured" || echo "✗ Basecamp not configured"
     grep -q "PERPLEXITY" .env && echo "✓ Perplexity configured" || echo "✗ Perplexity not configured"
+    grep -q "OPENAI_API_KEY" .env && echo "✓ OpenAI configured" || echo "✗ OpenAI not configured"
 else
     echo "✗ No .env file found"
 fi
@@ -94,6 +95,9 @@ If .env doesn't exist or is incomplete:
 
 2. **Perplexity API**: 
    - Get API key from https://www.perplexity.ai/settings/api
+
+3. **OpenAI API** (for image generation):
+   - Get API key from https://platform.openai.com/api-keys
 
 Would you like me to create a .env template for you to fill in?"
 ```
@@ -111,6 +115,9 @@ BASECAMP_ACCESS_TOKEN=your_token_here
 
 # Perplexity API
 PERPLEXITY_API_KEY=your_key_here
+
+# OpenAI API (for image generation)
+OPENAI_API_KEY=your_key_here
 
 # Add other service keys as needed
 EOF
@@ -164,6 +171,7 @@ Expected output should show all as "✓ Connected":
 - pdf-generator
 - perplexity-deep-research
 - youtube-transcribe
+- openai-images
 
 If any show "✗ Failed to connect":
 1. Check individual server logs
@@ -208,12 +216,14 @@ Environment:
 ✓ .env configured
 ✓ Basecamp credentials
 ✓ Perplexity API key
+✓ OpenAI API key
 
 MCP Servers:
 ✓ basecamp - Connected
 ✓ pdf-generator - Connected  
 ✓ perplexity-deep-research - Connected
 ✓ youtube-transcribe - Connected
+✓ openai-images - Connected
 
 Project Structure:
 ✓ All departments present
