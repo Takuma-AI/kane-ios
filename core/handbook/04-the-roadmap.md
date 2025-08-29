@@ -1,54 +1,61 @@
 # The Roadmap
 
-We start by being the whetstone ourselves. We evolve into creating whetstones for others.
+Our primary bet is building products that help humans understand and shape themselves. Consulting serves as optional funding and learning, not the core path.
 
-### Phase 1: We Are The Whetstone
-**Consulting that unlocks impossible progress.**
+### The Main Bet: Kane
+**A money app that helps you understand yourself from the inside out.**
 
-We're not consultants who deliver PDFs. We're forward-deployed engineers of intent.
+Kane is our primary focus - the first example of what consumer software becomes in the AI age. Not an app with AI features, but an experience that was impossible before: conversations that evolve based on your unique patterns, questions that deepen as the relationship develops, a system that literally becomes different for each person.
 
-The whetstone reveals what's already there through patient pressure and strategic friction. We prepare your kitchen and act as sous chef while you remain the visionary. Every technical decision encodes best practices invisibly so you focus on what matters: how your creation should feel.
+Money is the perfect wedge because it's honest - you can't fake what you actually buy. Every transaction is a decision, every pattern reveals identity. Kane helps you see three versions of yourself:
+- Who you think you are
+- Who you want to be  
+- Who your spending says you really are
 
-We amplify your expertise, not replace it. You steer, we navigate. You design the experience, we handle the architecture. Fixed time, variable scope - shipping something real beats perfecting assumptions.
+This isn't about budgeting. It's about understanding who you're becoming through the most honest mirror we have.
 
-Every engagement teaches us how intent crystallizes into executable reality.
+### Supporting Through Selective Consulting
+**Learning while building, funding while shipping.**
 
-### Phase 2: Productizing The Practice
-**Our methods become their tools.**
+We remain open to consulting engagements that:
+- Fund our product development without dilution
+- Teach us about real-world intent-to-progress transformation
+- Align with our methodology and values
+- Command premium rates for our unique approach
 
-Two categories emerge:
+These engagements aren't the goal - they're fuel for the main bet. Every client interaction teaches us something about how humans discover and refine their intent, feeding back into Kane's development.
 
-1. **Custom solutions**: Built specifically for them, they own and steer - their word programs made real
-2. **TAKUMA tools**: Our methods as products, they license and use - the Ruby of AI systems
+### The Evolution Path
 
-Customers become beta testers of our evolving methodology.
+**Short Term (Now):** All-in on Kane
+- Ship weekly iterations based on user conversations
+- Test core assumptions about money and identity
+- Build the experience that proves the paradigm
+- Use consulting selectively to maintain runway
 
-### Phase 3: Products Overtake Consulting
-**Scale through software, not hours.**
+**Medium Term:** Kane validates the model
+- Kane demonstrates product-market fit
+- Revenue from Kane reduces consulting dependency
+- Methodology crystallizes through real usage
+- Second product emerges from Kane learnings
 
-The tools become so essential that customers can't imagine working without them.
-Consulting becomes the exception, products become the rule.
-
-Every human becomes a programmer of reality through natural language.
+**Long Term:** Platform emergence
+- Multiple products using the same core philosophy
+- Tools that let others build intent-oriented experiences
+- Consulting becomes rare, high-value strategic work
+- Products generate sustainable revenue
 
 ## Why This Works
 
-**We're forward-deployed engineers of human potential.** Every engagement teaches us how intent becomes progress in the real world.
+**Products compound, consulting doesn't.** Every line of Kane code builds lasting value.
 
-**Consulting funds innovation.** Revenue today enables products tomorrow.
+**Kane is the proof.** Success with Kane validates the entire philosophy.
 
-**Customers validate direction.** What they desperately need becomes what we build.
+**Focus beats fragmentation.** One great product beats ten good ideas.
 
-**Network effects of agency.** Awakened creators awaken others.
+**Learning through building.** Real users teach us more than any client engagement.
 
-## The Product Lab
-
-Beyond consulting engagements, we allocate a monthly time budget for building experimental products. These products are designed to directly address the progress we seek to create:
-
-- **KANE**: Personal finance as value expression
-- **TakumaOS**: The platform that makes word programming natural
-
-Each explores how to return humans to their nature as creators.
+The roadmap is simple: Make Kane undeniable. Everything else follows.
 
 ---
 

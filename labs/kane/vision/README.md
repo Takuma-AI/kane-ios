@@ -1,82 +1,72 @@
-# KANE Vision Documentation
+# Kane Vision
 
-The complete vision for KANE as an emergent AI agent platform that uses money as a lens for consciousness amplification.
+A money app that helps you feel good about spending by understanding it from the inside out - then grows into a system uniquely yours.
 
-## Structure
+## The One-Page Version
 
-### 📍 [`core/`](core/) - Foundational Concepts
-- **[`consolidated-vision.md`](core/consolidated-vision.md)** - The unified vision bringing everything together
-- **[`synthesis.md`](core/synthesis.md)** - Initial breakthrough: money as identity mirror
-- **[`emergent-agents-theory.md`](core/emergent-agents-theory.md)** - How agents grow from behavior, not configuration
-
-### 🎨 [`design/`](design/) - Experience & Interaction
-- **[`design-philosophy.md`](design/design-philosophy.md)** - Core design principles and anti-patterns
-- **[`experience-moments.md`](design/experience-moments.md)** - Specific transformational interactions
-- **[`proactive-agent-vision.md`](design/proactive-agent-vision.md)** - How proactive AI behaviors work
-
-### 🎯 [`strategy/`](strategy/) - Market & Positioning
-- **[`market-position-manifesto.md`](strategy/market-position-manifesto.md)** - Depth vs breadth positioning
-- **[`emergent-agent-vision.md`](strategy/emergent-agent-vision.md)** - Brief crystallization for Basecamp
-
-### 📦 [`archive/`](archive/) - Historical Documents
-- **[`original-vision.md`](archive/original-vision.md)** - Original vision document with weekly interview concept
-- **[`original-philosophy.md`](archive/original-philosophy.md)** - Original philosophy: mirror vs judge
-- **[`basecamp-manifesto.md`](archive/basecamp-manifesto.md)** - Full manifesto shared with Neal
-
-## The Vision in One Page
-
-### What KANE Is
-An emergent AI agent platform that uses money as the forcing function to discover what matters to you, then grows specialized support systems in those areas. Not a budgeting app - consciousness infrastructure for human development.
-
-### The Core Insight
-People don't know what they want. Ask them to build AI agents and they'll create a mess. But their spending reveals truth. KANE does Jobs-to-Be-Done analysis on YOU through your behavior, then grows the exact support systems you need.
+### What Kane Is
+Kane helps you understand your spending from the inside out. Not through categories and budgets, but through understanding why you spend and what it reveals about who you're becoming. Users save $300-500/month not through restriction but through clarity.
 
 ### How It Works
-1. **Money reveals values** - "What purchase are you proud of?"
-2. **Patterns emerge** - Spend on cooking → chef domain appears
-3. **Agents crystallize** - Domains deepen into specialized helpers
-4. **Transformation happens** - Understanding creates natural change
+Start with two questions: "What purchase are you proud of?" and "What do you regret?" This shifts the conversation from shame to understanding. Through weekly conversations about your actual spending, Kane helps you see patterns you couldn't see alone.
 
-### The Three Pillars
-1. **Generative UI** - Interface discovered from your patterns, not designed upfront
-2. **Emergent Agents** - Support systems grow from behavior, not configuration
-3. **Consciousness Amplification** - AI helps you think better, not think for you
+### What Makes It Different
+Traditional apps impose categories and limits. Kane grows from your actual behavior. As patterns emerge from your spending, the system develops capabilities in areas where you're investing. Your Kane literally becomes different from everyone else's.
 
-### Why This Matters
-In a world where AI can do everything, how do you decide what matters? KANE uses money as the forcing function - "put your money where your mouth is" becomes literal. The agents that emerge are perfectly aligned because they grow from proven behavior, not aspirational prompts.
+### The Bigger Vision
+Kane represents what consumer software becomes in the AI age - not apps with AI features, but systems that grow from your life to amplify your capability. Money is just the starting point. Understanding who you're becoming is the destination.
 
-### The Business Model
-- **Base tier** (low cost): Money consciousness that saves users $300-500/month
-- **Premium tier**: Full agent ecosystem, computationally expensive but worth it
+## Vision Documents
 
-### The Ultimate Vision
-KANE becomes the lens through which you understand yourself and make progress. Starting with money because money is honest. Ending with transformation because transformation is the point.
+- [`what-kane-is.md`](what-kane-is.md) - The complete vision balancing money management and AI platform
+- [`money-as-lens.md`](money-as-lens.md) - Why money is the perfect forcing function for truth
+- [`system-evolution.md`](system-evolution.md) - Technical vision of software that grows from use
+- [`manual-prototype.md`](manual-prototype.md) - How we're learning by being the system first
+- [`archive/`](archive/) - Previous iterations and historical documents
 
-## Key Differentiators
+## Key Insights
 
-| Traditional Apps | KANE |
-|-----------------|------|
-| Analyze FOR you | Think WITH you |
-| Tell you what to do | Ask what matters |
-| Categories and budgets | Domains and agents |
-| Shame dashboard | Consciousness mirror |
-| One-size-fits-all | Uniquely generated |
+### For Users
+- Finally feel good about your spending
+- Understand where to cut with hope, not shame  
+- See your money patterns reveal who you're becoming
+- Save money through understanding, not restriction
 
-## Design Principles
+### For the Market
+- Not another budgeting app but a new category
+- AI that amplifies human agency rather than replacing it
+- Software that grows from use rather than configuration
+- Personal development through financial understanding
 
-- **Conversation over configuration**
-- **Emergence over imposition**
-- **Story over statistics**
-- **Recognition over analysis**
-- **Progress over perfection**
+### For Us
+- Start manual to understand what to build
+- Money is the lens, transformation is the product
+- Systems grow from behavior, not configuration
+- Preserve agency while amplifying capability
 
 ## The Journey
 
-**Week 1:** "This asks why, not what"
-**Month 1:** "It sees patterns I don't"
-**Month 3:** "I'm actually changing"
-**Year 1:** "This is how I understand myself"
+**Manual Phase (Now):** Be the system for 5-10 people, learn what matters
+**MVP Phase:** Build core understanding engine with basic domain emergence
+**Growth Phase:** Enable full system evolution and generative interfaces
+**Vision Phase:** Platform for human development that starts with money
 
----
+## Core Principles
 
-This vision represents a fundamental reimagining of both personal finance and consumer AI. Not an app with AI features, but consciousness infrastructure that happens to start with money.
+1. **Understanding over categorization** - Why matters more than where
+2. **Growth over configuration** - Systems emerge from behavior
+3. **Agency over automation** - Amplify don't replace human capability
+4. **Progress over perfection** - Small changes compound
+5. **Truth over aspiration** - Ground everything in actual behavior
+
+## Next Steps
+
+1. Begin manual prototype with close friends (See [`manual-prototype.md`](manual-prototype.md))
+2. Document all patterns and insights
+3. Build MVP based on manual learnings
+4. Test system evolution with small user group
+5. Iterate toward the full vision
+
+## Remember
+
+Kane isn't just a money app. It's the first example of software that grows from your actual life to help you become who you want to be. We start with money because money reveals truth. We end with transformation because transformation is the point.

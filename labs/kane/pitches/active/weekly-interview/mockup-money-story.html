@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Your Money Story - KANE</title>
+  
+  <!-- Kane's custom font -->
+  <style>
+    @font-face {
+      font-family: 'GameFont';
+      src: url('/assets/DeterminationSansWebRegular-369X.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    :root {
+      --color-background: #0A0A0A;
+      --color-surface: #141414;
+      --color-text: #D9D9D9;
+      --color-text-muted: #808080;
+      --color-need: #9FC0F0;
+      --color-want: #70C548;
+      --color-kill: #EA7575;
+      --color-border: #2A2A2A;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: var(--color-background);
+      color: var(--color-text);
+      font-family: 'GameFont', monospace;
+      line-height: 1.6;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Scrollytelling Container */
+    .story-container {
+      min-height: 100vh;
+      position: relative;
+    }
+
+    /* Timeline dots at top */
+    .timeline {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 60px;
+      background: var(--color-background);
+      border-bottom: 1px solid var(--color-border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      z-index: 100;
+      backdrop-filter: blur(10px);
+      background: rgba(10, 10, 10, 0.9);
+    }
+
+    .timeline-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--color-text-muted);
+      opacity: 0.3;
+      transition: all 0.3s ease;
+    }
+
+    .timeline-dot.active {
+      width: 12px;
+      height: 12px;
+      background: var(--color-text);
+      opacity: 1;
+    }
+
+    /* Opening summary */
+    .summary {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 80px 24px 40px;
+      text-align: center;
+    }
+
+    .summary-date {
+      font-size: 14px;
+      color: var(--color-text-muted);
+      margin-bottom: 8px;
+      letter-spacing: 0.5px;
+    }
+
+    .summary-headline {
+      font-size: 28px;
+      font-weight: 500;
+      margin-bottom: 40px;
+      line-height: 1.3;
+    }
+
+    /* Pie chart visualization */
+    .summary-chart {
+      width: 240px;
+      height: 240px;
+      margin: 40px auto;
+      position: relative;
+    }
+
+    .pie-chart {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background: conic-gradient(
+        var(--color-want) 0deg 261deg,  /* $801 = 70.8% */
+        var(--color-kill) 261deg 354deg, /* $287 = 25.4% */
+        var(--color-text-muted) 354deg 360deg /* $42 = 3.7% */
+      );
+      position: relative;
+      animation: rotateIn 1s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    @keyframes rotateIn {
+      from {
+        transform: scale(0) rotate(-90deg);
+        opacity: 0;
+      }
+      to {
+        transform: scale(1) rotate(0deg);
+        opacity: 1;
+      }
+    }
+
+    /* Center hole for donut effect */
+    .pie-center {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 140px;
+      height: 140px;
+      background: var(--color-background);
+      border-radius: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .pie-total {
+      font-size: 32px;
+      font-weight: 700;
+      color: var(--color-text);
+      margin-bottom: 4px;
+    }
+
+    .pie-label {
+      font-size: 12px;
+      color: var(--color-text-muted);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    /* Labels pointing to pie sections */
+    .pie-labels {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      pointer-events: none;
+    }
+
+    .pie-label-item {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 14px;
+      color: var(--color-text-muted);
+      animation: fadeIn 1s ease-out forwards;
+      opacity: 0;
+    }
+
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+
+    /* Position labels around the pie */
+    .pie-label-item.well-spent {
+      top: 20%;
+      right: -80px;
+      animation-delay: 0.5s;
+    }
+
+    .pie-label-item.regretted {
+      bottom: 30%;
+      right: -60px;
+      animation-delay: 0.7s;
+    }
+
+    .pie-label-item.needs {
+      bottom: 15%;
+      left: -50px;
+      animation-delay: 0.9s;
+    }
+
+    .label-line {
+      width: 30px;
+      height: 1px;
+      background: var(--color-text-muted);
+      opacity: 0.3;
+    }
+
+    .label-text {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .label-amount {
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--color-text);
+      margin-bottom: 2px;
+    }
+
+    .label-desc {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      opacity: 0.7;
+    }
+
+    .scroll-hint {
+      font-size: 12px;
+      color: var(--color-text-muted);
+      opacity: 0.7;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 0.7; }
+      50% { opacity: 0.3; }
+    }
+
+    /* Story chapters */
+    .chapter {
+      min-height: 100vh;
+      padding: 100px 24px 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .chapter-title {
+      font-size: 18px;
+      color: var(--color-text-muted);
+      margin-bottom: 32px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    /* The mirror visualization - cleaner vertical stack */
+    .mirror {
+      margin: 60px auto;
+      position: relative;
+      width: 100%;
+      max-width: 280px;
+    }
+
+    .mirror-container {
+      position: relative;
+      width: 100%;
+      border-radius: 12px;
+      overflow: hidden;
+      background: var(--color-surface);
+    }
+
+    /* Building section (top) */
+    .mirror-building {
+      position: relative;
+      background: linear-gradient(180deg, rgba(112, 197, 72, 0.4) 0%, rgba(112, 197, 72, 0.1) 100%);
+      padding: 24px;
+      min-height: 120px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      animation: slideDown 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    @keyframes slideDown {
+      from {
+        transform: translateY(-20px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    /* Draining section (bottom) */
+    .mirror-draining {
+      position: relative;
+      background: linear-gradient(180deg, rgba(234, 117, 117, 0.1) 0%, rgba(234, 117, 117, 0.4) 100%);
+      padding: 24px;
+      min-height: 80px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      animation: slideUp 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+      animation-delay: 0.2s;
+      animation-fill-mode: both;
+    }
+
+    @keyframes slideUp {
+      from {
+        transform: translateY(20px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    /* The dividing line */
+    .mirror-divide {
+      height: 1px;
+      background: var(--color-border);
+      position: relative;
+    }
+
+    /* Amount styling */
+    .mirror-amount {
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      line-height: 1;
+    }
+
+    .mirror-building .mirror-amount {
+      color: var(--color-want);
+    }
+
+    .mirror-draining .mirror-amount {
+      color: var(--color-kill);
+    }
+
+    /* Label styling */
+    .mirror-label {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      opacity: 0.7;
+      margin-bottom: 16px;
+    }
+
+    /* Details styling */
+    .mirror-details {
+      font-size: 14px;
+      line-height: 1.5;
+      opacity: 0.85;
+      text-align: center;
+    }
+
+    /* Size variations */
+    .mirror-container.ratio-large .mirror-building {
+      min-height: 160px;
+    }
+
+    .mirror-container.ratio-large .mirror-draining {
+      min-height: 60px;
+    }
+
+    .mirror-container.ratio-medium .mirror-building {
+      min-height: 120px;
+    }
+
+    .mirror-container.ratio-medium .mirror-draining {
+      min-height: 120px;
+    }
+
+    .mirror-container.ratio-small .mirror-building {
+      min-height: 80px;
+    }
+
+    .mirror-container.ratio-small .mirror-draining {
+      min-height: 140px;
+    }
+
+    /* Story text */
+    .story-text {
+      font-size: 18px;
+      line-height: 1.8;
+      margin-bottom: 32px;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 0.8s forwards;
+    }
+
+    .story-text.highlight {
+      font-size: 22px;
+      font-weight: 500;
+      color: var(--color-text);
+      margin: 32px 0;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Specific transaction callouts - no boxes, just text */
+    .transaction-callout {
+      margin: 32px 0;
+      padding-left: 24px;
+      position: relative;
+    }
+
+    .transaction-callout::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 8px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--color-text-muted);
+    }
+
+    .transaction-callout.kill::before {
+      background: var(--color-kill);
+      animation: pulse 2s infinite;
+    }
+
+    .transaction-merchant {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 4px;
+      color: var(--color-text);
+    }
+
+    .transaction-details {
+      font-size: 16px;
+      color: var(--color-text-muted);
+      line-height: 1.5;
+    }
+
+    /* Final insight */
+    .insight {
+      min-height: 100vh;
+      padding: 100px 24px 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .insight-icon {
+      font-size: 48px;
+      margin-bottom: 24px;
+      animation: glow 2s infinite;
+    }
+
+    @keyframes glow {
+      0%, 100% { opacity: 0.5; }
+      50% { opacity: 1; }
+    }
+
+    .insight-text {
+      font-size: 22px;
+      line-height: 1.6;
+      margin-bottom: 40px;
+    }
+
+    .insight-action {
+      display: inline-block;
+      padding: 16px 32px;
+      background: var(--color-want);
+      color: var(--color-background);
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 18px;
+      font-weight: 500;
+      transition: transform 0.2s ease;
+    }
+
+    .insight-action:active {
+      transform: scale(0.95);
+    }
+
+    /* Dashboard footer */
+    .dashboard {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: var(--color-surface);
+      border-top: 1px solid var(--color-border);
+      padding: 16px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      backdrop-filter: blur(10px);
+      background: rgba(20, 20, 20, 0.95);
+      transform: translateY(100%);
+      transition: transform 0.3s ease;
+    }
+
+    .dashboard.visible {
+      transform: translateY(0);
+    }
+
+    .dashboard-item {
+      text-align: center;
+    }
+
+    .dashboard-label {
+      font-size: 10px;
+      color: var(--color-text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 4px;
+    }
+
+    .dashboard-value {
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    /* Responsive adjustments */
+    @media (min-width: 430px) {
+      .chapter, .summary, .insight {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Timeline navigation -->
+  <div class="timeline">
+    <div class="timeline-dot active"></div>
+    <div class="timeline-dot"></div>
+    <div class="timeline-dot"></div>
+    <div class="timeline-dot"></div>
+    <div class="timeline-dot"></div>
+  </div>
+
+  <div class="story-container">
+    <!-- Opening Summary -->
+    <section class="summary">
+      <div class="summary-date">AUGUST 26, 2025</div>
+      <h1 class="summary-headline">Day 14 building with AI tools</h1>
+      
+      <div class="summary-chart">
+        <div class="pie-chart"></div>
+        <div class="pie-center">
+          <div class="pie-total">$1,130</div>
+          <div class="pie-label">This Week</div>
+        </div>
+        <div class="pie-labels">
+          <div class="pie-label-item well-spent">
+            <div class="label-line"></div>
+            <div class="label-text">
+              <div class="label-amount">$801</div>
+              <div class="label-desc">Well spent</div>
+            </div>
+          </div>
+          <div class="pie-label-item regretted">
+            <div class="label-line"></div>
+            <div class="label-text">
+              <div class="label-amount">$287</div>
+              <div class="label-desc">Regretted</div>
+            </div>
+          </div>
+          <div class="pie-label-item needs">
+            <div class="label-text">
+              <div class="label-amount">$42</div>
+              <div class="label-desc">Needs</div>
+            </div>
+            <div class="label-line"></div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="scroll-hint">↓ scroll to explore</div>
+    </section>
+
+    <!-- Chapter 1: The Tools Story -->
+    <section class="chapter">
+      <h2 class="chapter-title">Your Tools & Craft</h2>
+      
+      <p class="story-text">
+        You're not experimenting anymore. 
+        $506 on AI tools in two weeks isn't trying things out.
+      </p>
+
+      <div class="mirror">
+        <div class="mirror-container ratio-large">
+          <div class="mirror-building">
+            <div class="mirror-amount">$506</div>
+            <div class="mirror-label">Building</div>
+            <div class="mirror-details">Claude Pro · Vercel · Windsurf</div>
+          </div>
+          <div class="mirror-divide"></div>
+          <div class="mirror-draining">
+            <div class="mirror-amount">$152</div>
+            <div class="mirror-label">Dead weight</div>
+            <div class="mirror-details">3 zombies</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="transaction-callout kill">
+        <div class="transaction-merchant">Codecademy</div>
+        <div class="transaction-details">$147.62 monthly · Haven't opened since July 29th</div>
+      </div>
+
+      <p class="story-text highlight">
+        Those zombie subscriptions are eating 23% of your tool budget.
+      </p>
+    </section>
+
+    <!-- Chapter 2: The Home Story -->
+    <section class="chapter">
+      <h2 class="chapter-title">Taking Care of Yourself</h2>
+      
+      <p class="story-text">
+        Setting up your space was necessary.
+        The Amazon orders, the apartment basics.
+        You're almost done with this phase.
+      </p>
+
+      <div class="mirror">
+        <div class="mirror-container ratio-medium">
+          <div class="mirror-building">
+            <div class="mirror-amount">$293</div>
+            <div class="mirror-label">Necessary</div>
+            <div class="mirror-details">Amazon · Workspace setup</div>
+          </div>
+          <div class="mirror-divide"></div>
+          <div class="mirror-draining">
+            <div class="mirror-amount">$58</div>
+            <div class="mirror-label">Impulse</div>
+            <div class="mirror-details">Wanted the vibe</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="transaction-callout kill">
+        <div class="transaction-merchant">Martie</div>
+        <div class="transaction-details">Candles, vibrator, keto snacks · Still in box</div>
+      </div>
+
+      <p class="story-text">
+        The pattern: You buy the feeling, not the thing.
+      </p>
+    </section>
+
+    <!-- Chapter 3: The Social Story -->
+    <section class="chapter">
+      <h2 class="chapter-title">Your Social World</h2>
+      
+      <p class="story-text">
+        Paris Baguette for $82 wasn't just pastries.
+        It was showing up right for a friend's birthday.
+        That generosity is real.
+      </p>
+
+      <div class="mirror">
+        <div class="mirror-container ratio-small">
+          <div class="mirror-building">
+            <div class="mirror-amount">$82</div>
+            <div class="mirror-label">Generous</div>
+            <div class="mirror-details">Paris Baguette</div>
+          </div>
+          <div class="mirror-divide"></div>
+          <div class="mirror-draining">
+            <div class="mirror-amount">$80</div>
+            <div class="mirror-label">Emergency tax</div>
+            <div class="mirror-details">Let Loose · Uber Eats CVS</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="transaction-callout kill">
+        <div class="transaction-merchant">Uber Eats · CVS</div>
+        <div class="transaction-details">$31.23 for laxatives at 9pm Monday</div>
+      </div>
+
+      <p class="story-text">
+        Your timing costs you. Same generosity, double the price.
+      </p>
+    </section>
+
+    <!-- The Insight -->
+    <section class="insight">
+      <div class="insight-icon">💡</div>
+      
+      <p class="insight-text">
+        Your AI spending tripled this week.<br>
+        You're still paying for tools you abandoned.<br><br>
+        
+        <strong>Five minutes would save you $152/month.</strong>
+      </p>
+
+      <a href="#" class="insight-action">Start the conversation</a>
+    </section>
+  </div>
+
+  <!-- Dashboard (shows after scrolling) -->
+  <div class="dashboard" id="dashboard">
+    <div class="dashboard-item">
+      <div class="dashboard-label">Burn Rate</div>
+      <div class="dashboard-value">$158/day</div>
+    </div>
+    <div class="dashboard-item">
+      <div class="dashboard-label">Alignment</div>
+      <div class="dashboard-value" style="color: var(--color-want)">74%</div>
+    </div>
+    <div class="dashboard-item">
+      <div class="dashboard-label">This Week</div>
+      <div class="dashboard-value">28 sorted</div>
+    </div>
+  </div>
+
+  <script>
+    // Timeline dots update on scroll
+    const sections = document.querySelectorAll('section');
+    const dots = document.querySelectorAll('.timeline-dot');
+    const dashboard = document.getElementById('dashboard');
+    
+    window.addEventListener('scroll', () => {
+      const scrollPosition = window.scrollY + window.innerHeight / 2;
+      
+      sections.forEach((section, index) => {
+        const top = section.offsetTop;
+        const bottom = top + section.offsetHeight;
+        
+        if (scrollPosition >= top && scrollPosition < bottom) {
+          dots.forEach(dot => dot.classList.remove('active'));
+          if (dots[index]) {
+            dots[index].classList.add('active');
+          }
+        }
+      });
+
+      // Show dashboard after scrolling past summary
+      if (window.scrollY > window.innerHeight * 0.8) {
+        dashboard.classList.add('visible');
+      } else {
+        dashboard.classList.remove('visible');
+      }
+    });
+
+    // Animate bars on scroll into view
+    const bars = document.querySelectorAll('.bar-positive, .bar-negative');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.animation = 'none';
+          setTimeout(() => {
+            entry.target.style.animation = '';
+          }, 10);
+        }
+      });
+    });
+
+    bars.forEach(bar => observer.observe(bar));
+  </script>
+</body>
+</html>

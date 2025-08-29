@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Neal's Money Mirror - KANE</title>
+  
+  <style>
+    @font-face {
+      font-family: 'GameFont';
+      src: url('/assets/DeterminationSansWebRegular-369X.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    :root {
+      --color-background: #0A0A0A;
+      --color-surface: #141414;
+      --color-text: #D9D9D9;
+      --color-text-muted: #808080;
+      --color-building: #70C548;
+      --color-draining: #EA7575;
+      --color-neutral: #9FC0F0;
+      --color-border: #2A2A2A;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: var(--color-background);
+      color: var(--color-text);
+      font-family: 'GameFont', -apple-system, sans-serif;
+      line-height: 1.6;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Timeline at top */
+    .timeline {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 60px;
+      background: rgba(10, 10, 10, 0.95);
+      border-bottom: 1px solid var(--color-border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      z-index: 100;
+      backdrop-filter: blur(10px);
+    }
+
+    .timeline-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--color-text-muted);
+      opacity: 0.3;
+      transition: all 0.3s ease;
+    }
+
+    .timeline-dot.active {
+      width: 12px;
+      height: 12px;
+      background: var(--color-text);
+      opacity: 1;
+    }
+
+    /* Opening summary */
+    .summary {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 100px 24px 40px;
+      text-align: center;
+    }
+
+    .summary-date {
+      font-size: 14px;
+      color: var(--color-text-muted);
+      margin-bottom: 16px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    .summary-headline {
+      font-size: 32px;
+      font-weight: 600;
+      margin-bottom: 16px;
+      line-height: 1.2;
+    }
+
+    .summary-subhead {
+      font-size: 20px;
+      color: var(--color-text-muted);
+      margin-bottom: 48px;
+    }
+
+    /* Story chapters */
+    .chapter {
+      min-height: 100vh;
+      padding: 100px 24px 60px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .chapter-title {
+      font-size: 16px;
+      color: var(--color-text-muted);
+      margin-bottom: 32px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    /* The Mirror Visualization */
+    .mirror {
+      margin: 48px 0;
+      position: relative;
+    }
+
+    .mirror-container {
+      position: relative;
+      border-radius: 12px;
+      overflow: hidden;
+      background: var(--color-surface);
+    }
+
+    /* Building section (top) */
+    .mirror-building {
+      padding: 32px;
+      background: linear-gradient(180deg, 
+        rgba(112, 197, 72, 0.3) 0%, 
+        rgba(112, 197, 72, 0.05) 100%);
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    /* Draining section (bottom) */
+    .mirror-draining {
+      padding: 32px;
+      background: linear-gradient(180deg, 
+        rgba(234, 117, 117, 0.05) 0%, 
+        rgba(234, 117, 117, 0.3) 100%);
+    }
+
+    .mirror-section-label {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      opacity: 0.7;
+      margin-bottom: 20px;
+    }
+
+    .mirror-building .mirror-section-label {
+      color: var(--color-building);
+    }
+
+    .mirror-draining .mirror-section-label {
+      color: var(--color-draining);
+    }
+
+    /* Transaction rows */
+    .mirror-item {
+      margin-bottom: 20px;
+      opacity: 0;
+      transform: translateY(10px);
+      animation: fadeInUp 0.5s forwards;
+    }
+
+    .mirror-item:nth-child(2) { animation-delay: 0.1s; }
+    .mirror-item:nth-child(3) { animation-delay: 0.2s; }
+    .mirror-item:nth-child(4) { animation-delay: 0.3s; }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .mirror-item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 8px;
+    }
+
+    .mirror-item-title {
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    .mirror-item-amount {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    .mirror-building .mirror-item-amount {
+      color: var(--color-building);
+    }
+
+    .mirror-draining .mirror-item-amount {
+      color: var(--color-draining);
+    }
+
+    .mirror-item-detail {
+      font-size: 14px;
+      color: var(--color-text-muted);
+      line-height: 1.4;
+    }
+
+    /* Progress bar visualization */
+    .progress-bar {
+      height: 8px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 4px;
+      overflow: hidden;
+      margin-top: 8px;
+    }
+
+    .progress-fill {
+      height: 100%;
+      border-radius: 4px;
+      animation: growWidth 1s ease-out forwards;
+    }
+
+    .mirror-building .progress-fill {
+      background: var(--color-building);
+    }
+
+    .mirror-draining .progress-fill {
+      background: var(--color-draining);
+    }
+
+    @keyframes growWidth {
+      from { width: 0; }
+    }
+
+    /* The flip insight */
+    .flip-insight {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: 8px;
+      padding: 24px;
+      margin: 32px 0;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .flip-insight::before {
+      content: '↔';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 48px;
+      opacity: 0.05;
+    }
+
+    .flip-text {
+      font-size: 18px;
+      line-height: 1.6;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    .flip-amount {
+      color: var(--color-draining);
+      font-weight: 600;
+    }
+
+    .flip-alternative {
+      color: var(--color-building);
+      font-weight: 600;
+    }
+
+    /* Story text */
+    .story-text {
+      font-size: 18px;
+      line-height: 1.8;
+      margin: 24px 0;
+      color: var(--color-text-muted);
+    }
+
+    .story-text.highlight {
+      font-size: 22px;
+      font-weight: 500;
+      color: var(--color-text);
+      margin: 40px 0;
+      text-align: center;
+    }
+
+    /* The insight section */
+    .insight {
+      min-height: 100vh;
+      padding: 100px 24px 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .insight-icon {
+      font-size: 48px;
+      margin-bottom: 32px;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 0.5; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.1); }
+    }
+
+    .insight-text {
+      font-size: 24px;
+      line-height: 1.5;
+      margin-bottom: 24px;
+    }
+
+    .insight-subtext {
+      font-size: 18px;
+      color: var(--color-text-muted);
+      line-height: 1.6;
+      margin-bottom: 48px;
+    }
+
+    /* Dashboard footer */
+    .dashboard {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(20, 20, 20, 0.95);
+      border-top: 1px solid var(--color-border);
+      padding: 16px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      backdrop-filter: blur(10px);
+      transform: translateY(100%);
+      transition: transform 0.3s ease;
+    }
+
+    .dashboard.visible {
+      transform: translateY(0);
+    }
+
+    .dashboard-item {
+      text-align: center;
+    }
+
+    .dashboard-label {
+      font-size: 10px;
+      color: var(--color-text-muted);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 4px;
+    }
+
+    .dashboard-value {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    .scroll-hint {
+      font-size: 12px;
+      color: var(--color-text-muted);
+      opacity: 0.5;
+      animation: bounce 2s infinite;
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+  </style>
+</head>
+<body>
+  <!-- Timeline navigation -->
+  <div class="timeline">
+    <div class="timeline-dot active"></div>
+    <div class="timeline-dot"></div>
+    <div class="timeline-dot"></div>
+    <div class="timeline-dot"></div>
+    <div class="timeline-dot"></div>
+  </div>
+
+  <!-- Opening Summary -->
+  <section class="summary">
+    <div class="summary-date">May 24-31, 2025</div>
+    <h1 class="summary-headline">$751 vanished this week</h1>
+    <p class="summary-subhead">That's another month of Claude Pro + Cursor</p>
+    
+    <div class="scroll-hint">↓ see the mirror</div>
+  </section>
+
+  <!-- Chapter 1: Travel & Future -->
+  <section class="chapter">
+    <h2 class="chapter-title">Chapter 1: Movement</h2>
+    
+    <div class="mirror">
+      <div class="mirror-container">
+        <div class="mirror-building">
+          <div class="mirror-section-label">Building Momentum</div>
+          
+          <div class="mirror-item">
+            <div class="mirror-item-header">
+              <span class="mirror-item-title">United Airlines</span>
+              <span class="mirror-item-amount">$1,294</span>
+            </div>
+            <div class="mirror-item-detail">Two flights booked · Building connections</div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 85%"></div>
+            </div>
+          </div>
+          
+          <div class="mirror-item">
+            <div class="mirror-item-header">
+              <span class="mirror-item-title">Strategic Tools</span>
+              <span class="mirror-item-amount">$114</span>
+            </div>
+            <div class="mirror-item-detail">Apple · Acorns · Patreon support</div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 60%"></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="mirror-draining">
+          <div class="mirror-section-label">But Also Bleeding</div>
+          
+          <div class="mirror-item">
+            <div class="mirror-item-header">
+              <span class="mirror-item-title">Superhuman</span>
+              <span class="mirror-item-amount">-$30</span>
+            </div>
+            <div class="mirror-item-detail">Another month of an unused tool</div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 30%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="flip-insight">
+      <p class="flip-text">
+        That <span class="flip-amount">$30 Superhuman subscription</span> you haven't opened?<br>
+        It's <span class="flip-alternative">half a month of Cursor</span> you actually want.
+      </p>
+    </div>
+  </section>
+
+  <!-- Chapter 2: The Coffee Escape -->
+  <section class="chapter">
+    <h2 class="chapter-title">Chapter 2: Productivity Theater</h2>
+    
+    <div class="mirror">
+      <div class="mirror-container">
+        <div class="mirror-building">
+          <div class="mirror-section-label">What You Think You're Buying</div>
+          
+          <div class="mirror-item">
+            <div class="mirror-item-header">
+              <span class="mirror-item-title">"Work Sessions"</span>
+              <span class="mirror-item-amount">$183</span>
+            </div>
+            <div class="mirror-item-detail">8 coffee shop visits in 7 days</div>
+          </div>
+        </div>
+        
+        <div class="mirror-draining">
+          <div class="mirror-section-label">What You're Actually Buying</div>
+          
+          <div class="mirror-item">
+            <div class="mirror-item-header">
+              <span class="mirror-item-title">Expensive Procrastination</span>
+              <span class="mirror-item-amount">-$183</span>
+            </div>
+            <div class="mirror-item-detail">
+              Blue Bottle 3x ($77) · Motivat 3x ($55) · Starbucks ($13) · Timeless ($27)
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 70%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="flip-insight">
+      <p class="flip-text">
+        <span class="flip-amount">$183 on coffee shops</span> this week equals<br>
+        <span class="flip-alternative">9 months of Claude Pro</span> or<br>
+        <span class="flip-alternative">an entire course on the AI tools</span> you say you want to master
+      </p>
+    </div>
+
+    <p class="story-text">
+      You visited coffee shops 8 times in 7 days. 
+      Not for the coffee - for the feeling of being productive without having to actually produce.
+    </p>
+  </section>
+
+  <!-- Chapter 3: Food Spiral -->
+  <section class="chapter">
+    <h2 class="chapter-title">Chapter 3: The Hunger Games</h2>
+    
+    <div class="mirror">
+      <div class="mirror-container">
+        <div class="mirror-building">
+          <div class="mirror-section-label">The Plan</div>
+          
+          <div class="mirror-item">
+            <div class="mirror-item-header">
+              <span class="mirror-item-title">Amazon Grocery</span>
+              <span class="mirror-item-amount">$204</span>
+            </div>
+            <div class="mirror-item-detail">Full grocery order · "This week I cook"</div>
+          </div>
+        </div>
+        
+        <div class="mirror-draining">
+          <div class="mirror-section-label">The Reality</div>
+          
+          <div class="mirror-item">
+            <div class="mirror-item-header">
+              <span class="mirror-item-title">Uber Eats Spiral</span>
+              <span class="mirror-item-amount">-$241</span>
+            </div>
+            <div class="mirror-item-detail">4 orders in one day while groceries rot</div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 90%"></div>
+            </div>
+          </div>
+          
+          <div class="mirror-item">
+            <div class="mirror-item-header">
+              <span class="mirror-item-title">Señor Sisig</span>
+              <span class="mirror-item-amount">-$93</span>
+            </div>
+            <div class="mirror-item-detail">Two separate charges · Treating people who didn't ask</div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 40%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="flip-insight">
+      <p class="flip-text">
+        <span class="flip-amount">$538 on food chaos</span> (groceries + delivery + restaurants) =<br>
+        <span class="flip-alternative">2 months of that Tesla payment</span> you keep talking about
+      </p>
+    </div>
+
+    <p class="story-text highlight">
+      You bought groceries to feel responsible,<br>
+      then ordered delivery to avoid responsibility.
+    </p>
+  </section>
+
+  <!-- The Pattern -->
+  <section class="chapter">
+    <h2 class="chapter-title">The Pattern Revealed</h2>
+    
+    <div class="mirror">
+      <div class="mirror-container">
+        <div class="mirror-building">
+          <div class="mirror-section-label">Your Actual Investments</div>
+          
+          <div class="mirror-item">
+            <div class="mirror-item-header">
+              <span class="mirror-item-title">Future Building</span>
+              <span class="mirror-item-amount">$1,827</span>
+            </div>
+            <div class="mirror-item-detail">Travel · Tools · Essentials · Progress</div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 71%"></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="mirror-draining">
+          <div class="mirror-section-label">Your Expensive Escapes</div>
+          
+          <div class="mirror-item">
+            <div class="mirror-item-header">
+              <span class="mirror-item-title">Avoidance Tax</span>
+              <span class="mirror-item-amount">-$751</span>
+            </div>
+            <div class="mirror-item-detail">Coffee shops · Delivery · Dead subscriptions</div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 29%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <p class="story-text highlight">
+      29% of your spending is on avoiding your actual life.
+    </p>
+    
+    <div class="flip-insight">
+      <p class="flip-text">
+        Every week, <span class="flip-amount">$751 disappears</span> into escapes.<br>
+        That's <span class="flip-alternative">$3,000/month</span> or<br>
+        <span class="flip-alternative">$36,000/year</span> spent running from yourself.
+      </p>
+    </div>
+  </section>
+
+  <!-- The Insight -->
+  <section class="insight">
+    <div class="insight-icon">🪞</div>
+    
+    <h2 class="insight-text">
+      You're not wasting money on coffee.<br>
+      You're buying expensive hiding places.
+    </h2>
+    
+    <p class="insight-subtext">
+      $183 on coffee shops where you don't work<br>
+      $241 on delivery while groceries spoil<br>
+      $30 on tools you never open<br><br>
+      
+      That's <strong>$454 this week</strong> on avoiding the deep work<br>
+      you say you want to do.
+    </p>
+    
+    <div class="flip-insight">
+      <p class="flip-text">
+        One week from home. No coffee shops. No escapes.<br>
+        Save <span class="flip-alternative">$450</span> and maybe find<br>
+        what you've been running from.
+      </p>
+    </div>
+  </section>
+
+  <!-- Dashboard -->
+  <div class="dashboard" id="dashboard">
+    <div class="dashboard-item">
+      <div class="dashboard-label">Weekly Burn</div>
+      <div class="dashboard-value">$2,578</div>
+    </div>
+    <div class="dashboard-item">
+      <div class="dashboard-label">Escape Tax</div>
+      <div class="dashboard-value" style="color: var(--color-draining)">29%</div>
+    </div>
+    <div class="dashboard-item">
+      <div class="dashboard-label">Building</div>
+      <div class="dashboard-value" style="color: var(--color-building)">71%</div>
+    </div>
+  </div>
+
+  <script>
+    // Timeline dots update on scroll
+    const sections = document.querySelectorAll('section');
+    const dots = document.querySelectorAll('.timeline-dot');
+    const dashboard = document.getElementById('dashboard');
+    
+    window.addEventListener('scroll', () => {
+      const scrollPosition = window.scrollY + window.innerHeight / 2;
+      
+      sections.forEach((section, index) => {
+        const top = section.offsetTop;
+        const bottom = top + section.offsetHeight;
+        
+        if (scrollPosition >= top && scrollPosition < bottom) {
+          dots.forEach(dot => dot.classList.remove('active'));
+          if (dots[index]) {
+            dots[index].classList.add('active');
+          }
+        }
+      });
+
+      // Show dashboard after scrolling past summary
+      if (window.scrollY > window.innerHeight * 0.8) {
+        dashboard.classList.add('visible');
+      } else {
+        dashboard.classList.remove('visible');
+      }
+    });
+  </script>
+</body>
+</html>

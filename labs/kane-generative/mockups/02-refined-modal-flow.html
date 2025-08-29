@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>KANE - Modal Flow</title>
+    <style>
+        @font-face {
+            font-family: 'Determination';
+            src: url('DeterminationSansWebRegular-369X.ttf') format('truetype');
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            user-select: none;
+        }
+
+        body {
+            font-family: 'Determination', -apple-system, sans-serif;
+            background: #000;
+            color: #fff;
+            overflow: hidden;
+            -webkit-font-smoothing: antialiased;
+            letter-spacing: 0.02em;
+            height: 100vh;
+            position: relative;
+        }
+
+        /* Base Layer - Garden/Mirror */
+        .garden-layer {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            padding: 40px 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.5s ease;
+        }
+
+        .garden-layer.blurred {
+            filter: blur(8px);
+            transform: scale(0.95);
+            opacity: 0.5;
+        }
+
+        .money-story {
+            text-align: center;
+            max-width: 380px;
+        }
+
+        .story-title {
+            font-size: 20px;
+            color: #666;
+            margin-bottom: 32px;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .story-insight {
+            font-size: 32px;
+            line-height: 1.5;
+            margin-bottom: 24px;
+            opacity: 0;
+            animation: fadeIn 1s ease forwards;
+        }
+
+        .story-insight.delay-1 { animation-delay: 0.3s; }
+        .story-insight.delay-2 { animation-delay: 0.6s; }
+
+        @keyframes fadeIn {
+            to { opacity: 1; }
+        }
+
+        /* String Interface - Bottom Bar */
+        .string-interface {
+            position: fixed;
+            bottom: 40px;
+            left: 24px;
+            right: 24px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 100;
+        }
+
+        .string-bar {
+            width: 100%;
+            height: 2px;
+            background: #333;
+            position: relative;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .string-bar::before {
+            content: 'tap to type or swipe up to speak';
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 8px;
+            white-space: nowrap;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            opacity: 0.8;
+        }
+
+        .string-bar.active {
+            height: 4px;
+            background: #00ff88;
+            box-shadow: 0 0 20px rgba(0, 255, 136, 0.5);
+        }
+
+        .string-bar.active::before {
+            content: 'listening...';
+            color: #00ff88;
+        }
+
+        /* Modal Layer */
+        .modal-layer {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: #000;
+            transform: translateY(100%);
+            transition: transform 0.4s cubic-bezier(0.32, 0.72, 0, 1);
+            z-index: 200;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .modal-layer.active {
+            transform: translateY(0);
+        }
+
+        /* Modal Header */
+        .modal-header {
+            padding: 20px 24px;
+            border-bottom: 1px solid #222;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .modal-title {
+            font-size: 18px;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: #999;
+        }
+
+        .modal-close {
+            width: 32px;
+            height: 32px;
+            border: none;
+            background: none;
+            color: #666;
+            font-size: 24px;
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+
+        .modal-close:hover {
+            color: #fff;
+        }
+
+        /* Modal Content */
+        .modal-content {
+            flex: 1;
+            overflow-y: auto;
+            padding: 32px 24px;
+        }
+
+        /* Transaction Sorting */
+        .transaction-card {
+            background: #111;
+            border: 1px solid #222;
+            padding: 20px;
+            margin-bottom: 16px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .transaction-amount {
+            font-size: 28px;
+            color: #fff;
+            margin-bottom: 8px;
+        }
+
+        .transaction-merchant {
+            font-size: 18px;
+            color: #999;
+            margin-bottom: 16px;
+        }
+
+        .transaction-actions {
+            display: flex;
+            gap: 12px;
+        }
+
+        .sort-button {
+            flex: 1;
+            padding: 12px;
+            border: 1px solid #333;
+            background: none;
+            color: #999;
+            font-family: inherit;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .sort-button.worth-it {
+            border-color: #00ff88;
+            color: #00ff88;
+        }
+
+        .sort-button.worth-it:hover {
+            background: #00ff88;
+            color: #000;
+        }
+
+        .sort-button.not-worth {
+            border-color: #ff0040;
+            color: #ff0040;
+        }
+
+        .sort-button.not-worth:hover {
+            background: #ff0040;
+            color: #000;
+        }
+
+        /* Progress Bar */
+        .progress-container {
+            position: fixed;
+            top: 60px;
+            left: 24px;
+            right: 24px;
+            height: 4px;
+            background: #222;
+            border-radius: 2px;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background: #00ff88;
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        /* Conversation Messages */
+        .message {
+            margin-bottom: 24px;
+            opacity: 0;
+            animation: slideUp 0.5s ease forwards;
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .message.kane {
+            font-size: 24px;
+            line-height: 1.4;
+        }
+
+        .message.user {
+            font-size: 20px;
+            color: #00ff88;
+            text-align: right;
+        }
+
+        /* Opening Screens */
+        .opening-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: #000;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 40px 32px;
+            z-index: 1000;
+        }
+
+        .opening-screen.hidden {
+            display: none;
+        }
+
+        .opening-text {
+            font-size: 44px;
+            line-height: 1.3;
+            margin-bottom: 36px;
+            opacity: 0;
+            transform: translateY(10px);
+            animation: fadeUp 0.8s ease forwards;
+            max-width: 420px;
+        }
+
+        .opening-text.subtitle {
+            font-size: 32px;
+            color: #999;
+            margin-bottom: 48px;
+        }
+
+        .opening-text.delay-1 { animation-delay: 0.6s; }
+        .opening-text.delay-2 { animation-delay: 1.2s; }
+
+        @keyframes fadeUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .tap-continue {
+            position: absolute;
+            bottom: 60px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 16px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            opacity: 0;
+            animation: fadeIn 0.8s ease forwards;
+            animation-delay: 2s;
+        }
+    </style>
+</head>
+<body>
+    <!-- Opening Screen 1 -->
+    <div class="opening-screen" id="opening1">
+        <div class="opening-text subtitle">Let's cut to the chase.</div>
+        <div class="opening-text delay-1">No, we can't force you to spend less.</div>
+        <div class="opening-text delay-2">But we can help you spend right.</div>
+        <div class="tap-continue">Tap to continue</div>
+    </div>
+
+    <!-- Opening Screen 2 -->
+    <div class="opening-screen hidden" id="opening2">
+        <div class="opening-text">We're willing to bet that when you spend right, you'll also spend less.</div>
+        <div class="opening-text subtitle delay-1">Bet?</div>
+        <button class="bet-button" style="
+            background: #00ff88;
+            color: #000;
+            border: none;
+            padding: 20px 60px;
+            font-size: 24px;
+            font-family: inherit;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            cursor: pointer;
+            margin-top: 32px;
+            font-weight: bold;
+            opacity: 0;
+            animation: fadeUp 0.8s ease forwards;
+            animation-delay: 1.6s;
+        ">BET.</button>
+    </div>
+
+    <!-- Base Layer - Garden -->
+    <div class="garden-layer" id="garden">
+        <div class="money-story">
+            <div class="story-title">Your Money Story</div>
+            <div class="story-insight">You're building something.</div>
+            <div class="story-insight delay-1">$150 on climbing isn't spending—it's investing in strength.</div>
+            <div class="story-insight delay-2">Your stress shows up in takeout orders.</div>
+        </div>
+    </div>
+
+    <!-- String Interface -->
+    <div class="string-interface">
+        <div class="string-bar" id="stringBar"></div>
+    </div>
+
+    <!-- Modal Layer -->
+    <div class="modal-layer" id="modal">
+        <div class="modal-header">
+            <div class="modal-title">Processing Transactions</div>
+            <button class="modal-close" id="modalClose">×</button>
+        </div>
+        
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+
+        <div class="modal-content" id="modalContent">
+            <!-- Dynamic content goes here -->
+        </div>
+    </div>
+
+    <script>
+        // Opening screen flow
+        const opening1 = document.getElementById('opening1');
+        const opening2 = document.getElementById('opening2');
+        const garden = document.getElementById('garden');
+        const modal = document.getElementById('modal');
+        const modalContent = document.getElementById('modalContent');
+        const stringBar = document.getElementById('stringBar');
+        const progressBar = document.getElementById('progressBar');
+
+        // Screen transitions
+        opening1.addEventListener('click', () => {
+            opening1.classList.add('hidden');
+            opening2.classList.remove('hidden');
+        });
+
+        document.querySelector('.bet-button').addEventListener('click', () => {
+            opening2.classList.add('hidden');
+            // Start the main experience
+            setTimeout(() => showQuickOnboarding(), 500);
+        });
+
+        // Quick onboarding
+        function showQuickOnboarding() {
+            garden.classList.add('blurred');
+            modal.classList.add('active');
+            
+            modalContent.innerHTML = `
+                <div class="message kane">What's a recent purchase you're proud of?</div>
+            `;
+            
+            // Simulate conversation
+            setTimeout(() => {
+                modalContent.innerHTML += `
+                    <div class="message user">I bought a climbing membership for $150</div>
+                `;
+                
+                setTimeout(() => {
+                    modalContent.innerHTML += `
+                        <div class="message kane">What made that worth it?</div>
+                    `;
+                    
+                    setTimeout(() => {
+                        modalContent.innerHTML += `
+                            <div class="message user">Gets me out, makes me stronger</div>
+                        `;
+                        
+                        setTimeout(() => {
+                            modalContent.innerHTML += `
+                                <div class="message kane">Got it. Investments in strength and sanity. Let's look at your other spending.</div>
+                                <button class="bet-button" style="
+                                    width: 100%;
+                                    margin-top: 32px;
+                                    background: #00ff88;
+                                    color: #000;
+                                    border: none;
+                                    padding: 20px;
+                                    font-size: 20px;
+                                    font-family: inherit;
+                                    text-transform: uppercase;
+                                    letter-spacing: 0.1em;
+                                    cursor: pointer;
+                                    font-weight: bold;
+                                " onclick="connectBank()">Connect Your Bank</button>
+                            `;
+                        }, 1500);
+                    }, 1500);
+                }, 1500);
+            }, 1000);
+        }
+
+        // Bank connection leads to transaction sorting
+        function connectBank() {
+            modalContent.innerHTML = `
+                <div class="message kane">Loading your recent transactions...</div>
+            `;
+            
+            // Simulate loading then show transactions
+            setTimeout(() => showTransactionSorting(), 2000);
+        }
+
+        // Transaction sorting interface
+        function showTransactionSorting() {
+            const transactions = [
+                { amount: '$12.50', merchant: 'Starbucks', date: 'Today' },
+                { amount: '$89.00', merchant: 'Whole Foods', date: 'Yesterday' },
+                { amount: '$45.00', merchant: 'DoorDash', date: '2 days ago' },
+                { amount: '$150.00', merchant: 'Brooklyn Boulders', date: '3 days ago' }
+            ];
+            
+            let currentIndex = 0;
+            
+            function showNextTransaction() {
+                if (currentIndex >= transactions.length) {
+                    // Done sorting
+                    modal.classList.remove('active');
+                    garden.classList.remove('blurred');
+                    return;
+                }
+                
+                const t = transactions[currentIndex];
+                progressBar.style.width = `${((currentIndex + 1) / transactions.length) * 100}%`;
+                
+                modalContent.innerHTML = `
+                    <div class="transaction-card">
+                        <div class="transaction-amount">${t.amount}</div>
+                        <div class="transaction-merchant">${t.merchant} • ${t.date}</div>
+                        <div class="transaction-actions">
+                            <button class="sort-button worth-it" onclick="sortTransaction(true)">Worth It</button>
+                            <button class="sort-button not-worth" onclick="sortTransaction(false)">Not Worth It</button>
+                        </div>
+                    </div>
+                `;
+                
+                currentIndex++;
+            }
+            
+            window.sortTransaction = function(worthIt) {
+                // Update garden based on sorting
+                showNextTransaction();
+            };
+            
+            showNextTransaction();
+        }
+
+        // String interface interaction
+        let touchStartY = 0;
+        let isDragging = false;
+
+        stringBar.addEventListener('touchstart', (e) => {
+            touchStartY = e.touches[0].clientY;
+            isDragging = true;
+        });
+
+        stringBar.addEventListener('touchmove', (e) => {
+            if (!isDragging) return;
+            
+            const currentY = e.touches[0].clientY;
+            const deltaY = touchStartY - currentY;
+            
+            if (deltaY > 30) {
+                // Swipe up detected - activate voice
+                stringBar.classList.add('active');
+                garden.classList.add('blurred');
+                modal.classList.add('active');
+                modalContent.innerHTML = `
+                    <div class="message kane">I'm listening...</div>
+                `;
+            }
+        });
+
+        stringBar.addEventListener('touchend', () => {
+            isDragging = false;
+            stringBar.classList.remove('active');
+        });
+
+        stringBar.addEventListener('click', () => {
+            // Tap to type
+            garden.classList.add('blurred');
+            modal.classList.add('active');
+            modalContent.innerHTML = `
+                <input type="text" placeholder="Type your thought..." style="
+                    width: 100%;
+                    padding: 16px;
+                    background: #111;
+                    border: 1px solid #333;
+                    color: #fff;
+                    font-size: 18px;
+                    font-family: inherit;
+                ">
+            `;
+        });
+
+        // Modal close
+        document.getElementById('modalClose').addEventListener('click', () => {
+            modal.classList.remove('active');
+            garden.classList.remove('blurred');
+        });
+    </script>
+</body>
+</html>

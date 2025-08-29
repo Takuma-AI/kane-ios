@@ -37,8 +37,10 @@ Between Kate Lee and Neal Sales-Griffin, the co-founders of TAKUMA, we are commi
 ## Partnership Essentials
 
 **Intellectual Property**
-- Everything created for TAKUMA belongs to TAKUMA
+- Everything created for TAKUMA belongs to TAKUMA (including Kane)
+- Projects started within TAKUMA context are company assets
 - Personal projects remain personal unless explicitly contributed
+- We agree upfront when starting any project whether it's company or personal
 - Client deliverables belong to clients as specified in contracts
 - Our methodologies and tools remain TAKUMA's
 
@@ -59,6 +61,7 @@ Between Kate Lee and Neal Sales-Griffin, the co-founders of TAKUMA, we are commi
 - We don't foresee this, but life happens
 - Either partner can exit with 30 days written notice
 - Departing partner keeps vested equity only
+- No buyout provisions - equity remains as passive ownership
 - Client transitions handled together with care
 - No non-compete - we trust each other's integrity
 - If circumstances force an exit, we'll handle it with grace
@@ -68,9 +71,25 @@ Between Kate Lee and Neal Sales-Griffin, the co-founders of TAKUMA, we are commi
 - We'll revise and adjust as needed
 - Both must agree before bringing in new partners
 
+## Handbook vs Agreement
+
+**The Handbook is Fluid**
+- Domain ownership evolves as we shift focus to Kane
+- Operating procedures adjust based on what we learn
+- Roles adapt to the work at hand
+- Updated regularly to reflect current reality
+
+**This Agreement is Solid**
+- Core commitments remain stable
+- Equity structure is fixed
+- IP ownership is clear
+- Partnership terms are binding
+
+What's written below is what we're signing. The handbook guides our work, but this agreement defines our partnership.
+
 ## Evolution
 
-This agreement lives. As we learn, it evolves. Quarterly reviews keep us aligned.
+This agreement can be amended with mutual written consent. Quarterly reviews keep us aligned on both the fluid handbook and any needed agreement updates.
 
 ---
 

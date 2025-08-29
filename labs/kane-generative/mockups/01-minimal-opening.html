@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>KANE</title>
+    <style>
+        @font-face {
+            font-family: 'Determination';
+            src: url('DeterminationSansWebRegular-369X.ttf') format('truetype');
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            user-select: none;
+        }
+
+        body {
+            font-family: 'Determination', -apple-system, sans-serif;
+            background: #000;
+            color: #fff;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+            letter-spacing: 0.02em;
+        }
+
+        .screen {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 40px 32px;
+            position: relative;
+            max-width: 480px;
+            margin: 0 auto;
+        }
+
+        .screen.hidden {
+            display: none;
+        }
+
+        /* First screen text animations */
+        .text-line {
+            font-size: 44px;
+            line-height: 1.3;
+            margin-bottom: 36px;
+            opacity: 0;
+            transform: translateY(10px);
+            animation: fadeUp 0.8s ease forwards;
+            text-align: left;
+            max-width: 420px;
+            font-weight: 500;
+        }
+
+        .text-line.opener {
+            font-size: 32px;
+            color: #999;
+            margin-bottom: 48px;
+            animation-delay: 0s;
+        }
+
+        .text-line.delay-1 { animation-delay: 0.6s; }
+        .text-line.delay-2 { animation-delay: 1.2s; }
+
+        @keyframes fadeUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Tap area for screens */
+        .tap-area {
+            position: absolute;
+            bottom: 60px;
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 0;
+            animation: fadeIn 0.8s ease forwards;
+            animation-delay: 2s;
+            cursor: pointer;
+        }
+
+        .tap-hint {
+            font-size: 16px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        /* Begin journey button */
+        .begin-journey {
+            position: absolute;
+            bottom: 60px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+            opacity: 0;
+            animation: fadeIn 0.8s ease forwards;
+            animation-delay: 3.2s;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .begin-journey:hover {
+            transform: translateX(-50%) translateY(-5px);
+        }
+
+        .begin-text {
+            font-size: 18px;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .swipe-arrow {
+            width: 24px;
+            height: 40px;
+            position: relative;
+            animation: swipeUp 2s ease-in-out infinite;
+        }
+
+        .swipe-arrow::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            transform: translateX(-50%);
+            width: 2px;
+            height: 30px;
+            background: #666;
+        }
+
+        .swipe-arrow::after {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            transform: translateX(-50%) rotate(45deg);
+            width: 10px;
+            height: 10px;
+            border-top: 2px solid #666;
+            border-left: 2px solid #666;
+        }
+
+        @keyframes fadeIn {
+            to { opacity: 1; }
+        }
+
+        @keyframes swipeUp {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        /* Second screen - Clarity */
+        .clarity-text {
+            font-size: 36px;
+            line-height: 1.4;
+            margin-bottom: 32px;
+            opacity: 0;
+            animation: fadeUp 0.8s ease forwards;
+            max-width: 420px;
+        }
+
+        .clarity-text.secondary {
+            font-size: 28px;
+            color: #999;
+            animation-delay: 0.4s;
+            margin-bottom: 48px;
+        }
+
+        .bet-prompt {
+            font-size: 32px;
+            margin-bottom: 32px;
+            opacity: 0;
+            animation: fadeUp 0.8s ease forwards;
+            animation-delay: 0.8s;
+        }
+
+        .bet-button {
+            background: #00ff88;
+            color: #000;
+            border: none;
+            padding: 20px 60px;
+            font-size: 24px;
+            font-family: 'Determination', -apple-system, sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            cursor: pointer;
+            opacity: 0;
+            animation: fadeUp 0.8s ease forwards;
+            animation-delay: 1.2s;
+            transition: all 0.3s ease;
+            font-weight: bold;
+        }
+
+        .bet-button:hover {
+            background: #00ff88;
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(0, 255, 136, 0.5);
+        }
+
+        .bet-button:active {
+            transform: scale(0.98);
+        }
+
+        /* Conversation Screen */
+        .conversation-screen {
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .chat-container {
+            flex: 1;
+            overflow-y: auto;
+            padding: 32px;
+            padding-bottom: 140px;
+        }
+
+        .chat-message {
+            margin-bottom: 24px;
+            opacity: 0;
+            animation: fadeUp 0.5s ease forwards;
+        }
+
+        .chat-message.kane .message-text {
+            font-size: 28px;
+            line-height: 1.4;
+            color: #fff;
+        }
+
+        .chat-message.user .message-text {
+            font-size: 24px;
+            line-height: 1.4;
+            color: #00ff88;
+            text-align: right;
+        }
+
+        /* Voice Interface */
+        .voice-interface {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, #000 70%, transparent);
+            padding: 24px 32px 40px;
+        }
+
+        .current-listening {
+            min-height: 30px;
+            font-size: 20px;
+            color: #00ff88;
+            margin-bottom: 16px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .current-listening.active {
+            opacity: 1;
+        }
+
+        .conversation-screen .voice-area {
+            position: relative;
+            width: 100%;
+            height: 80px;
+        }
+
+        .conversation-screen .hold-hint {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 16px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            transition: opacity 0.3s ease;
+        }
+
+        .conversation-screen .voice-area.recording .hold-hint {
+            opacity: 0;
+        }
+
+        /* Second screen */
+        .question {
+            font-size: 40px;
+            line-height: 1.4;
+            text-align: left;
+            max-width: 380px;
+            margin-bottom: 24px;
+            opacity: 0;
+            animation: fadeUp 0.8s ease forwards;
+            transition: all 0.3s ease;
+        }
+
+        .question.recording {
+            opacity: 0.3;
+            transform: scale(0.95);
+        }
+
+        .instruction {
+            font-size: 20px;
+            color: #666;
+            text-align: left;
+            margin-bottom: 80px;
+            opacity: 0;
+            animation: fadeUp 0.8s ease forwards;
+            animation-delay: 0.3s;
+        }
+
+        /* Live transcript */
+        .transcript {
+            font-size: 40px;
+            line-height: 1.4;
+            text-align: left;
+            max-width: 380px;
+            color: #00ff88;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .transcript.active {
+            opacity: 1;
+        }
+
+        /* Follow-up question */
+        .followup-question {
+            font-size: 32px;
+            line-height: 1.4;
+            text-align: left;
+            max-width: 380px;
+            margin-top: 40px;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.5s ease;
+        }
+
+        .followup-question.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Voice recording area */
+        .voice-area {
+            position: relative;
+            width: 100%;
+            max-width: 320px;
+            height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+
+        /* Waveform container */
+        .waveform-container {
+            position: relative;
+            width: 100%;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Static dotted line */
+        .waveform-dots {
+            width: 100%;
+            height: 2px;
+            background-image: repeating-linear-gradient(
+                to right,
+                #333 0px,
+                #333 4px,
+                transparent 4px,
+                transparent 12px
+            );
+            transition: opacity 0.3s ease;
+        }
+
+        /* Animated soundwaves */
+        .soundwaves {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            gap: 3px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .soundwaves.active {
+            opacity: 1;
+        }
+
+        .soundwave-bar {
+            width: 3px;
+            background: #00ff88;
+            animation: wave 0.6s ease-in-out infinite;
+            box-shadow: 0 0 8px rgba(0, 255, 136, 0.3);
+        }
+
+        .soundwave-bar:nth-child(1) { height: 20px; animation-delay: 0s; }
+        .soundwave-bar:nth-child(2) { height: 30px; animation-delay: 0.1s; }
+        .soundwave-bar:nth-child(3) { height: 40px; animation-delay: 0.2s; }
+        .soundwave-bar:nth-child(4) { height: 35px; animation-delay: 0.3s; }
+        .soundwave-bar:nth-child(5) { height: 45px; animation-delay: 0.4s; }
+        .soundwave-bar:nth-child(6) { height: 35px; animation-delay: 0.5s; }
+        .soundwave-bar:nth-child(7) { height: 40px; animation-delay: 0.6s; }
+        .soundwave-bar:nth-child(8) { height: 30px; animation-delay: 0.7s; }
+        .soundwave-bar:nth-child(9) { height: 25px; animation-delay: 0.8s; }
+        .soundwave-bar:nth-child(10) { height: 35px; animation-delay: 0.9s; }
+        .soundwave-bar:nth-child(11) { height: 30px; animation-delay: 1s; }
+        .soundwave-bar:nth-child(12) { height: 20px; animation-delay: 1.1s; }
+
+        @keyframes wave {
+            0%, 100% { transform: scaleY(0.5); }
+            50% { transform: scaleY(1.2); }
+        }
+
+        /* Active recording state */
+        .voice-area.recording .waveform-dots {
+            opacity: 0;
+        }
+
+        .voice-area.recording .soundwaves {
+            opacity: 1;
+        }
+
+        .hold-hint {
+            position: absolute;
+            top: -40px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 14px;
+            color: #444;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            transition: all 0.3s;
+        }
+
+        .voice-area.recording .hold-hint {
+            color: #00ff88;
+            top: -50px;
+        }
+
+        /* Touch feedback */
+        body.touching {
+            background: #050505;
+        }
+
+        /* Third screen - response */
+        .response-text {
+            font-size: 24px;
+            line-height: 1.5;
+            text-align: center;
+            max-width: 360px;
+            opacity: 0;
+            animation: fadeUp 0.8s ease forwards;
+        }
+
+        .user-answer {
+            font-size: 20px;
+            color: #00ff88;
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            border-left: 2px solid #00ff88;
+            opacity: 0;
+            animation: fadeUp 0.8s ease forwards;
+            animation-delay: 0.2s;
+        }
+    </style>
+</head>
+<body>
+    <!-- Screen 1: Opening -->
+    <div class="screen" id="screen1">
+        <div class="text-line opener">
+            Let's get to the point.
+        </div>
+        
+        <div class="text-line delay-1">
+            No, we can't force you to spend less.
+        </div>
+        
+        <div class="text-line delay-2">
+            But we can help you spend right.
+        </div>
+        
+        <div class="tap-area" id="tapToScreen2">
+            <div class="tap-hint">Tap to continue</div>
+        </div>
+    </div>
+
+    <!-- Screen 2: Clarity Message -->
+    <div class="screen hidden" id="screen2">
+        <div class="clarity-text">
+            This means, helping you gain clarity on what's worth spending on and why.
+        </div>
+        
+        <div class="clarity-text secondary">
+            We feel pretty confident you'll also save money along the way.
+        </div>
+        
+        <div class="bet-prompt">Bet?</div>
+        
+        <button class="bet-button" id="betButton">BET.</button>
+    </div>
+
+    <!-- Screen 3: Conversation -->
+    <div class="screen conversation-screen hidden" id="screen3">
+        <!-- Chat transcript area -->
+        <div class="chat-container" id="chatContainer">
+            <div class="chat-message kane">
+                <div class="message-text">Let's start with this — what's one thing you bought recently that you're proud of?</div>
+            </div>
+        </div>
+        
+        <!-- Voice interaction at bottom -->
+        <div class="voice-interface">
+            <div class="current-listening" id="currentListening"></div>
+            <div class="voice-area" id="voiceArea">
+                <div class="hold-hint">Hold to speak</div>
+                <div class="waveform-container">
+                    <div class="waveform-dots"></div>
+                    <div class="soundwaves" id="soundwaves">
+                        <div class="soundwave-bar"></div>
+                        <div class="soundwave-bar"></div>
+                        <div class="soundwave-bar"></div>
+                        <div class="soundwave-bar"></div>
+                        <div class="soundwave-bar"></div>
+                        <div class="soundwave-bar"></div>
+                        <div class="soundwave-bar"></div>
+                        <div class="soundwave-bar"></div>
+                        <div class="soundwave-bar"></div>
+                        <div class="soundwave-bar"></div>
+                        <div class="soundwave-bar"></div>
+                        <div class="soundwave-bar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        // Screen 1 to Screen 2
+        document.getElementById('tapToScreen2').addEventListener('click', function() {
+            document.getElementById('screen1').classList.add('hidden');
+            document.getElementById('screen2').classList.remove('hidden');
+        });
+
+        // Screen 2 to Screen 3 (BET button)
+        document.getElementById('betButton').addEventListener('click', function() {
+            document.getElementById('screen2').classList.add('hidden');
+            document.getElementById('screen3').classList.remove('hidden');
+        });
+
+        // Conversation logic
+        const chatContainer = document.getElementById('chatContainer');
+        const voiceArea = document.getElementById('voiceArea');
+        const soundwaves = document.getElementById('soundwaves');
+        const currentListening = document.getElementById('currentListening');
+        let isRecording = false;
+        let conversationStep = 0;
+
+        // Conversation flow
+        const conversations = [
+            {
+                userSays: "I bought a climbing membership for $150",
+                kaneResponds: "Nice. What made that worth it for you?",
+                insight: "physical investment"
+            },
+            {
+                userSays: "It gets me out of the house and I feel stronger",
+                kaneResponds: "So $150 for strength and sanity. That's actually pretty cheap therapy. What about something you regret buying?",
+                insight: "values health over convenience"
+            },
+            {
+                userSays: "Ordered takeout three times last week",
+                kaneResponds: "What was happening that week?",
+                insight: "stress spending pattern"
+            },
+            {
+                userSays: "Work was crazy, didn't have energy to cook",
+                kaneResponds: "So you traded money for time when you were exhausted. Not all spending is equal - sometimes that takeout is survival. Want to see how your spending patterns tell your story?",
+                insight: "contextual spending awareness"
+            }
+        ];
+
+        // Add message to chat
+        function addMessage(text, isUser = false) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `chat-message ${isUser ? 'user' : 'kane'}`;
+            messageDiv.innerHTML = `<div class="message-text">${text}</div>`;
+            chatContainer.appendChild(messageDiv);
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+        }
+
+        // Recording functions
+        const startRecording = (e) => {
+            e.preventDefault();
+            if (conversationStep >= conversations.length) {
+                // Show bank connection prompt
+                showBankPrompt();
+                return;
+            }
+
+            isRecording = true;
+            voiceArea.classList.add('recording');
+            soundwaves.classList.add('active');
+            currentListening.classList.add('active');
+            currentListening.innerHTML = '';
+            
+            // Simulate live transcription
+            const words = conversations[conversationStep].userSays.split(' ');
+            let wordIndex = 0;
+            
+            const transcriptTimer = setInterval(() => {
+                if (wordIndex < words.length && isRecording) {
+                    currentListening.innerHTML += (wordIndex > 0 ? ' ' : '') + words[wordIndex];
+                    wordIndex++;
+                } else {
+                    clearInterval(transcriptTimer);
+                }
+            }, 150);
+        };
+
+        const stopRecording = () => {
+            if (isRecording) {
+                isRecording = false;
+                voiceArea.classList.remove('recording');
+                soundwaves.classList.remove('active');
+                
+                // Add user message
+                const userText = currentListening.innerHTML;
+                if (userText) {
+                    addMessage(userText, true);
+                    currentListening.classList.remove('active');
+                    currentListening.innerHTML = '';
+                    
+                    // Kane responds after delay
+                    setTimeout(() => {
+                        addMessage(conversations[conversationStep].kaneResponds);
+                        conversationStep++;
+                        
+                        // Check if we should show bank prompt
+                        if (conversationStep >= conversations.length) {
+                            setTimeout(showBankPrompt, 2000);
+                        }
+                    }, 1000);
+                }
+            }
+        };
+
+        // Show bank connection prompt
+        function showBankPrompt() {
+            const promptHTML = `
+                <div class="chat-message kane" style="margin-top: 40px;">
+                    <div class="message-text">Ready to see your full story?</div>
+                </div>
+                <div style="padding: 32px; opacity: 0; animation: fadeUp 0.5s ease forwards; animation-delay: 0.5s;">
+                    <button class="bet-button" style="width: 100%; animation: none; opacity: 1;">
+                        Connect Your Bank
+                    </button>
+                    <p style="text-align: center; color: #666; margin-top: 16px; font-size: 14px;">
+                        Safe & secure with Plaid
+                    </p>
+                </div>
+            `;
+            chatContainer.innerHTML += promptHTML;
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+        }
+
+        // Event listeners
+        voiceArea.addEventListener('mousedown', startRecording);
+        voiceArea.addEventListener('mouseup', stopRecording);
+        voiceArea.addEventListener('mouseleave', stopRecording);
+        
+        voiceArea.addEventListener('touchstart', startRecording);
+        voiceArea.addEventListener('touchend', stopRecording);
+        voiceArea.addEventListener('touchcancel', stopRecording);
+
+        // Prevent text selection
+        document.addEventListener('selectstart', (e) => e.preventDefault());
+    </script>
+</body>
+</html>

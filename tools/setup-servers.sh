@@ -162,7 +162,7 @@ setup_python_mcp "basecamp"
 setup_python_mcp "pdf-generator"
 setup_python_mcp "perplexity-deep-research"
 setup_python_mcp "youtube-transcribe"
-setup_python_mcp "openai-images"
+setup_python_mcp "image-gen"
 
 # Check API keys configuration
 echo ""
@@ -193,11 +193,11 @@ if [ -f "$ENV_FILE" ]; then
         echo "  Get one from: https://www.perplexity.ai/settings/api"
     fi
     
-    if grep -q "^OPENAI_API_KEY=" "$ENV_FILE"; then
-        echo -e "${GREEN}✓ OpenAI API key configured${NC}"
+    if grep -q "^GEMINI_API_KEY=" "$ENV_FILE"; then
+        echo -e "${GREEN}✓ Gemini API key configured${NC}"
     else
-        echo -e "${YELLOW}⚠ OpenAI API key not configured${NC}"
-        echo "  Get one from: https://platform.openai.com/api-keys"
+        echo -e "${YELLOW}⚠ Gemini API key not configured${NC}"
+        echo "  Get one from: https://aistudio.google.com"
     fi
 else
     echo -e "${YELLOW}⚠ No .env file found${NC}"
@@ -205,7 +205,7 @@ else
     echo "Please create a .env file with your API keys:"
     echo "  BASECAMP_ACCESS_TOKEN=your_token_here"
     echo "  PERPLEXITY_API_KEY=your_key_here"
-    echo "  OPENAI_API_KEY=your_key_here"
+    echo "  GEMINI_API_KEY=your_key_here"
     echo ""
     echo "For Basecamp OAuth (recommended):"
     echo "  Visit https://hashi-cdb3.onrender.com/mcp/setup"
@@ -245,7 +245,7 @@ add_mcp_server "basecamp" "$PROJECT_ROOT/tools/servers/basecamp/run.sh"
 add_mcp_server "pdf-generator" "$PROJECT_ROOT/tools/servers/pdf-generator/run.sh"
 add_mcp_server "perplexity-deep-research" "$PROJECT_ROOT/tools/servers/perplexity-deep-research/run.sh"
 add_mcp_server "youtube-transcribe" "$PROJECT_ROOT/tools/servers/youtube-transcribe/run.sh"
-add_mcp_server "openai-images" "$PROJECT_ROOT/tools/servers/openai-images/run.sh"
+add_mcp_server "image-gen" "$PROJECT_ROOT/tools/servers/image-gen/run.sh"
 
 # Test the setup
 echo ""
@@ -259,7 +259,7 @@ echo -e "${YELLOW}Final validation...${NC}"
 # Check that all servers have their required files
 validation_errors=0
 
-for server in "basecamp" "pdf-generator" "perplexity-deep-research" "youtube-transcribe" "openai-images"; do
+for server in "basecamp" "pdf-generator" "perplexity-deep-research" "youtube-transcribe" "image-gen"; do
     server_path="$PROJECT_ROOT/tools/servers/$server"
     if [ ! -f "$server_path/server.py" ]; then
         echo -e "${RED}✗ $server/server.py not found${NC}"
@@ -306,7 +306,7 @@ echo "  • Basecamp - Project management integration"
 echo "  • Perplexity Deep Research - Web research and analysis"
 echo "  • PDF Generator - Create PDFs from markdown"
 echo "  • YouTube Transcribe - Download and transcribe videos"
-echo "  • OpenAI Images - Generate images with DALL-E 3"
+echo "  • Image Gen - Generate and edit images with Gemini 2.5 Flash (Nano Banana)"
 echo ""
 echo -e "${YELLOW}Important:${NC} All API keys are now stored in the .env file"
 echo "This file is gitignored and won't be committed to the repository."

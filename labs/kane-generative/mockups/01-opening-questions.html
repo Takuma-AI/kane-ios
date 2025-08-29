@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kane - Opening Questions</title>
+    <style>
+        @font-face {
+            font-family: 'Determination';
+            src: url('https://fonts.cdnfonts.com/s/98887/DeterminationSansWebRegular-369X.woff') format('woff');
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: #000;
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 500px;
+            width: 100%;
+        }
+
+        .logo {
+            font-family: 'Determination', monospace;
+            font-size: 24px;
+            margin-bottom: 60px;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+
+        .question-flow {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+
+        .question-screen {
+            display: none;
+            animation: fadeIn 0.5s ease-in;
+        }
+
+        .question-screen.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 30px;
+            line-height: 1.3;
+        }
+
+        .input-area {
+            position: relative;
+        }
+
+        textarea {
+            width: 100%;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 16px;
+            color: #fff;
+            font-size: 17px;
+            line-height: 1.5;
+            resize: none;
+            min-height: 120px;
+            transition: all 0.2s;
+        }
+
+        textarea:focus {
+            outline: none;
+            border-color: rgba(255, 255, 255, 0.3);
+            background: rgba(255, 255, 255, 0.08);
+        }
+
+        textarea::placeholder {
+            color: rgba(255, 255, 255, 0.4);
+        }
+
+        .continue-btn {
+            margin-top: 20px;
+            background: #fff;
+            color: #000;
+            border: none;
+            padding: 16px 32px;
+            border-radius: 100px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: block;
+            margin-left: auto;
+        }
+
+        .continue-btn:hover {
+            transform: scale(1.02);
+        }
+
+        .continue-btn:disabled {
+            opacity: 0.3;
+            cursor: not-allowed;
+        }
+
+        .connect-screen {
+            text-align: center;
+        }
+
+        .connect-screen p {
+            font-size: 18px;
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 40px;
+            line-height: 1.5;
+        }
+
+        .plaid-btn {
+            background: #00D632;
+            color: #000;
+            border: none;
+            padding: 18px 40px;
+            border-radius: 100px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: inline-block;
+        }
+
+        .plaid-btn:hover {
+            transform: scale(1.02);
+            background: #00E835;
+        }
+
+        .example-text {
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.4);
+            margin-top: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">KANE</div>
+
+        <!-- Screen 1: Proud Purchase -->
+        <div class="question-screen active" id="screen1">
+            <h1>What's a recent purchase you're really proud of?</h1>
+            <div class="input-area">
+                <textarea 
+                    id="proud-purchase" 
+                    placeholder="Could be something big or small..."
+                    autofocus
+                ></textarea>
+                <p class="example-text">Examples: "My new climbing shoes" or "$300 cooking class" or "That book I actually finished"</p>
+            </div>
+            <button class="continue-btn" onclick="nextScreen(2)" disabled>Continue →</button>
+        </div>
+
+        <!-- Screen 2: Regret Purchase -->
+        <div class="question-screen" id="screen2">
+            <h1>What's one you regret?</h1>
+            <div class="input-area">
+                <textarea 
+                    id="regret-purchase" 
+                    placeholder="We all have them..."
+                ></textarea>
+                <p class="example-text">Examples: "Another online course I won't finish" or "That expensive dinner that wasn't worth it"</p>
+            </div>
+            <button class="continue-btn" onclick="nextScreen(3)" disabled>Continue →</button>
+        </div>
+
+        <!-- Screen 3: Connect Bank -->
+        <div class="question-screen connect-screen" id="screen3">
+            <h1>Let's see what your spending reveals</h1>
+            <p>Connect your bank to understand your money from the inside out. No budgets, no shame – just clarity.</p>
+            <button class="plaid-btn" onclick="connectBank()">Connect Your Bank →</button>
+        </div>
+    </div>
+
+    <script>
+        // Enable continue button when text is entered
+        document.getElementById('proud-purchase').addEventListener('input', function(e) {
+            const btn = document.querySelector('#screen1 .continue-btn');
+            btn.disabled = e.target.value.trim().length < 5;
+        });
+
+        document.getElementById('regret-purchase').addEventListener('input', function(e) {
+            const btn = document.querySelector('#screen2 .continue-btn');
+            btn.disabled = e.target.value.trim().length < 5;
+        });
+
+        function nextScreen(screenNum) {
+            // Hide all screens
+            document.querySelectorAll('.question-screen').forEach(screen => {
+                screen.classList.remove('active');
+            });
+            
+            // Show next screen
+            setTimeout(() => {
+                document.getElementById('screen' + screenNum).classList.add('active');
+                
+                // Focus textarea if present
+                const textarea = document.querySelector('#screen' + screenNum + ' textarea');
+                if (textarea) {
+                    textarea.focus();
+                }
+            }, 100);
+
+            // Store answers
+            if (screenNum === 2) {
+                localStorage.setItem('proud_purchase', document.getElementById('proud-purchase').value);
+            } else if (screenNum === 3) {
+                localStorage.setItem('regret_purchase', document.getElementById('regret-purchase').value);
+            }
+        }
+
+        function connectBank() {
+            // In real app, this would open Plaid
+            // For mockup, go to teaching phase
+            window.location.href = '02-teaching-phase.html';
+        }
+    </script>
+</body>
+</html>

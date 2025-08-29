@@ -1,0 +1,23 @@
+date,amount,merchant,category,notes
+2025-01-21,7.50,BLUE BOTTLE COFFEE,Food & Drink,Morning status coffee (photographed)
+2025-01-21,129.00,ALLBIRDS,Shopping,Tech uniform sneakers
+2025-01-21,24.00,SWEETGREEN,Food & Drink,Lunch at the "right" place
+2025-01-21,89.99,LINKEDIN PREMIUM,Professional Services,Career performance platform
+2025-01-22,8.25,SIGHTGLASS COFFEE,Food & Drink,Artisanal morning ritual
+2025-01-22,165.00,PATAGONIA,Shopping,Tech bro vest uniform
+2025-01-22,42.50,THE BIRD,Food & Drink,Team lunch performance
+2025-01-23,6.75,PHILZ COFFEE,Food & Drink,Midweek coffee aesthetic
+2025-01-23,28.00,CHIPOTLE,Food & Drink,Quick dinner between events
+2025-01-23,125.00,EVENTBRITE,Entertainment,Tech networking event ticket
+2025-01-24,7.25,BLUE BOTTLE,Food & Drink,Thursday morning ritual
+2025-01-24,185.00,SMUGGLER'S COVE,Food & Drink,Thursday cocktails (doesn't like rum)
+2025-01-24,45.00,UBER,Transportation,To and from cocktail performance
+2025-01-25,320.00,AIRBNB,Travel,Tahoe weekend (for the gram)
+2025-01-25,89.00,REI,Shopping,Outdoor gear for image
+2025-01-25,52.00,WHOLE FOODS,Groceries,Organic lifestyle groceries
+2025-01-26,65.00,SKI RENTAL,Recreation,Tahoe ski rental (doesn't really ski)
+2025-01-26,18.50,LAKE TAHOE COFFEE,Food & Drink,Mountain coffee aesthetic
+2025-01-26,95.00,BASE CAMP PIZZA,Food & Drink,Apres ski performance dinner
+2025-01-27,48.00,GAS STATION,Transportation,Tahoe trip gas
+2025-01-27,12.99,VSCO,Software,Photo editing for lifestyle posts
+2025-01-27,75.00,TONYS PIZZA SOMA,Food & Drink,Sunday recovery dinner with actual friends
