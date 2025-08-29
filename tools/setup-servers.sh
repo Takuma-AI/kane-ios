@@ -162,7 +162,6 @@ setup_python_mcp "basecamp"
 setup_python_mcp "pdf-generator"
 setup_python_mcp "perplexity-deep-research"
 setup_python_mcp "youtube-transcribe"
-setup_python_mcp "image-gen"
 
 # Check API keys configuration
 echo ""
@@ -245,7 +244,6 @@ add_mcp_server "basecamp" "$PROJECT_ROOT/tools/servers/basecamp/run.sh"
 add_mcp_server "pdf-generator" "$PROJECT_ROOT/tools/servers/pdf-generator/run.sh"
 add_mcp_server "perplexity-deep-research" "$PROJECT_ROOT/tools/servers/perplexity-deep-research/run.sh"
 add_mcp_server "youtube-transcribe" "$PROJECT_ROOT/tools/servers/youtube-transcribe/run.sh"
-add_mcp_server "image-gen" "$PROJECT_ROOT/tools/servers/image-gen/run.sh"
 
 # Test the setup
 echo ""
@@ -259,7 +257,7 @@ echo -e "${YELLOW}Final validation...${NC}"
 # Check that all servers have their required files
 validation_errors=0
 
-for server in "basecamp" "pdf-generator" "perplexity-deep-research" "youtube-transcribe" "image-gen"; do
+for server in "basecamp" "pdf-generator" "perplexity-deep-research" "youtube-transcribe"; do
     server_path="$PROJECT_ROOT/tools/servers/$server"
     if [ ! -f "$server_path/server.py" ]; then
         echo -e "${RED}✗ $server/server.py not found${NC}"
@@ -306,7 +304,6 @@ echo "  • Basecamp - Project management integration"
 echo "  • Perplexity Deep Research - Web research and analysis"
 echo "  • PDF Generator - Create PDFs from markdown"
 echo "  • YouTube Transcribe - Download and transcribe videos"
-echo "  • Image Gen - Generate and edit images with Gemini 2.5 Flash (Nano Banana)"
 echo ""
 echo -e "${YELLOW}Important:${NC} All API keys are now stored in the .env file"
 echo "This file is gitignored and won't be committed to the repository."

@@ -34,6 +34,3 @@
 [submodule "tools/servers/youtube-transcribe"]
 	path = tools/servers/youtube-transcribe
 	url = https://github.com/Takuma-AI/yt-transcribe-mcp.git
-[submodule "tools/servers/openai-images"]
-	path = tools/servers/openai-images
-	url = https://github.com/Takuma-AI/openai-images-mcp.git
