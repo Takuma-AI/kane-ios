@@ -85,7 +85,7 @@ struct MainView: View {
                         .padding(.top, 4)
                 }
                 .padding(.horizontal)
-                .padding(.top, DEBUG ? 0 : 20)
+                .padding(.top, 20)
                 
                 // Main content
                 ScrollView {
@@ -254,14 +254,14 @@ struct SimpleDateDisplay: View {
                         if let tomorrow = Calendar.current.date(byAdding: .day, value: 1, to: selectedDate) {
                             Text(formatShortDate(tomorrow))
                                 .font(.system(size: 14))
-                                .foregroundColor(.white.opacity(0.3 + min(0.3, abs(dragOffset) / 100)))
+                                .foregroundColor(.white.opacity(0.3 + min(0.3, abs(dragOffset) / 100.0)))
                         }
                         
                         // Day after tomorrow
                         if let dayAfter = Calendar.current.date(byAdding: .day, value: 2, to: selectedDate) {
                             Text(formatShortDate(dayAfter))
                                 .font(.system(size: 14))
-                                .foregroundColor(.white.opacity(0.2 + min(0.2, abs(dragOffset) / 150)))
+                                .foregroundColor(.white.opacity(0.2 + min(0.2, abs(dragOffset) / 150.0)))
                         }
                     }
                     .padding(.leading, 20)
