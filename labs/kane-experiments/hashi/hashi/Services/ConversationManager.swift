@@ -10,6 +10,7 @@ class ConversationManager: ObservableObject {
     @Published var isConnected = false
     @Published var currentMessage = ""
     @Published var configurationError: String?
+    @Published var agentAudioLevel: Float = 0.0  // Track agent's voice level
     
     private var viewContext: NSManagedObjectContext?
     private var cancellables = Set<AnyCancellable>()

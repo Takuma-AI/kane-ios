@@ -18,11 +18,11 @@ struct AudioReactiveStrandView: View {
                 Color.clear
                 
                 if isActive && !isDragging {
-                    // Audio-reactive strands
+                    // Audio-reactive strands - combine user and agent audio
                     ForEach(0..<5, id: \.self) { index in
                         AudioReactiveWave(
                             index: index,
-                            amplitude: audioMonitor.amplitude,
+                            amplitude: max(audioMonitor.amplitude, conversationManager.agentAudioLevel),
                             frequencyBand: audioMonitor.frequencyBands[safe: index] ?? 0.0,
                             phase: wavePhase,
                             geometry: geometry
