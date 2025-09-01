@@ -56,6 +56,22 @@ struct MainView: View {
             }
             
             VStack(spacing: 0) {
+                // Debug reset button (top right, very small)
+                #if DEBUG
+                HStack {
+                    Spacer()
+                    Button(action: {
+                        resetDatabase()
+                    }) {
+                        Image(systemName: "trash.circle")
+                            .font(.system(size: 12))
+                            .foregroundColor(.white.opacity(0.2))
+                    }
+                    .padding(.trailing, 10)
+                    .padding(.top, 10)
+                }
+                #endif
+                
                 // Header section with date and dynamic text
                 VStack(alignment: .leading, spacing: 8) {
                     // Date display with swipe gesture
@@ -66,7 +82,7 @@ struct MainView: View {
                         .padding(.top, 4)
                 }
                 .padding(.horizontal)
-                .padding(.top, 20)
+                .padding(.top, DEBUG ? 0 : 20)
                 
                 // Main content
                 ScrollView {
@@ -137,32 +153,104 @@ struct MainView: View {
             print("❌ Failed to fetch focuses: \(error)")
         }
     }
+    
+    func resetDatabase() {
+        print("🗑️ Resetting database...")
+        
+        // Delete all focuses
+        let focusRequest: NSFetchRequest<NSFetchRequestResult> = Focus.fetchRequest()
+        let focusDeleteRequest = NSBatchDeleteRequest(fetchRequest: focusRequest)
+        
+        // Delete all tasks
+        let taskRequest: NSFetchRequest<NSFetchRequestResult> = FocusTask.fetchRequest()
+        let taskDeleteRequest = NSBatchDeleteRequest(fetchRequest: taskRequest)
+        
+        do {
+            try viewContext.execute(focusDeleteRequest)
+            try viewContext.execute(taskDeleteRequest)
+            try viewContext.save()
+            
+            // Force refresh the view
+            viewContext.refreshAllObjects()
+            
+            print("✅ Database reset complete")
+            
+            // Haptic feedback
+            let impactFeedback = UIImpactFeedbackGenerator(style: .light)
+            impactFeedback.prepare()
+            impactFeedback.impactOccurred()
+        } catch {
+            print("❌ Failed to reset database: \(error)")
+        }
+    }
 }
 
 struct SimpleDateDisplay: View {
     @Binding var selectedDate: Date
     @State private var dragOffset: CGFloat = 0
+    @State private var isDragging = false
     
     var body: some View {
-        HStack(spacing: 20) {
-            // Today's date (main display)
-            Text(formatDate(selectedDate))
-                .font(.system(size: 14, weight: .medium))
-                .foregroundColor(.white)
-            
-            // Tomorrow (faintly visible)
-            if dragOffset < -20 {
-                Text(formatDate(Calendar.current.date(byAdding: .day, value: 1, to: selectedDate) ?? selectedDate))
-                    .font(.system(size: 14))
-                    .foregroundColor(.white.opacity(0.3))
-                    .transition(.opacity)
+        VStack(alignment: .leading, spacing: 8) {
+            // TODAY header if it's today
+            if Calendar.current.isDateInToday(selectedDate) {
+                Text("TODAY")
+                    .font(.system(size: 10, weight: .semibold))
+                    .foregroundColor(.white.opacity(0.5))
+                    .tracking(1.5) // Letter spacing
             }
             
-            Spacer()
+            // Date carousel
+            HStack(spacing: 0) {
+                // Main date display
+                VStack(alignment: .leading, spacing: 4) {
+                    // Month abbreviation
+                    HStack(spacing: 6) {
+                        Text(monthAbbreviation(selectedDate))
+                            .font(.system(size: 12, weight: .medium))
+                            .foregroundColor(.white.opacity(0.7))
+                        
+                        // Vertical divider
+                        Rectangle()
+                            .fill(Color.white.opacity(0.3))
+                            .frame(width: 1, height: 12)
+                        
+                        // Day and weekday
+                        Text(formatMainDate(selectedDate))
+                            .font(.system(size: 18, weight: .semibold))
+                            .foregroundColor(.white)
+                    }
+                }
+                
+                // Future dates (animated based on drag)
+                if isDragging || abs(dragOffset) > 5 {
+                    HStack(spacing: 20) {
+                        // Tomorrow
+                        if let tomorrow = Calendar.current.date(byAdding: .day, value: 1, to: selectedDate) {
+                            Text(formatShortDate(tomorrow))
+                                .font(.system(size: 14))
+                                .foregroundColor(.white.opacity(0.3 + min(0.3, abs(dragOffset) / 100)))
+                        }
+                        
+                        // Day after tomorrow
+                        if let dayAfter = Calendar.current.date(byAdding: .day, value: 2, to: selectedDate) {
+                            Text(formatShortDate(dayAfter))
+                                .font(.system(size: 14))
+                                .foregroundColor(.white.opacity(0.2 + min(0.2, abs(dragOffset) / 150)))
+                        }
+                    }
+                    .padding(.leading, 20)
+                    .transition(.opacity.combined(with: .move(edge: .trailing)))
+                }
+                
+                Spacer()
+            }
+            .offset(x: dragOffset * 0.3) // Parallax effect
         }
         .gesture(
             DragGesture()
                 .onChanged { value in
+                    isDragging = true
                     dragOffset = value.translation.width
                 }
                 .onEnded { value in
@@ -170,51 +258,61 @@ struct SimpleDateDisplay: View {
                     
                     if value.translation.width > threshold {
                         // Swipe right - go to previous day
-                        withAnimation {
+                        withAnimation(.spring(response: 0.4, dampingFraction: 0.8)) {
                             selectedDate = Calendar.current.date(byAdding: .day, value: -1, to: selectedDate) ?? selectedDate
                         }
                     } else if value.translation.width < -threshold {
                         // Swipe left - go to next day
-                        withAnimation {
+                        withAnimation(.spring(response: 0.4, dampingFraction: 0.8)) {
                             selectedDate = Calendar.current.date(byAdding: .day, value: 1, to: selectedDate) ?? selectedDate
                         }
                     }
                     
-                    withAnimation {
+                    withAnimation(.spring(response: 0.3, dampingFraction: 0.7)) {
                         dragOffset = 0
+                        isDragging = false
                     }
                 }
         )
+        .animation(.easeInOut(duration: 0.2), value: isDragging)
     }
     
-    func formatDate(_ date: Date) -> String {
+    func monthAbbreviation(_ date: Date) -> String {
         let formatter = DateFormatter()
+        formatter.dateFormat = "MMM"
+        return formatter.string(from: date).uppercased()
+    }
+    
+    func formatMainDate(_ date: Date) -> String {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "d"
+        let day = formatter.string(from: date)
         
-        if Calendar.current.isDateInToday(date) {
-            formatter.dateFormat = "'Today,' EEEE 'the' d'st'"
-        } else if Calendar.current.isDateInTomorrow(date) {
-            formatter.dateFormat = "'Tomorrow,' EEEE 'the' d'st'"
-        } else if Calendar.current.isDateInYesterday(date) {
-            formatter.dateFormat = "'Yesterday,' EEEE 'the' d'st'"
-        } else {
-            formatter.dateFormat = "EEEE 'the' d'st'"
-        }
+        formatter.dateFormat = "EEEE"
+        let weekday = formatter.string(from: date)
         
-        var dateString = formatter.string(from: date)
-        
-        // Fix ordinal suffix
-        let day = Calendar.current.component(.day, from: date)
+        // Get ordinal suffix
+        let dayNum = Calendar.current.component(.day, from: date)
         let suffix: String
-        switch day {
+        switch dayNum {
         case 1, 21, 31: suffix = "st"
         case 2, 22: suffix = "nd"
         case 3, 23: suffix = "rd"
         default: suffix = "th"
         }
         
-        dateString = dateString.replacingOccurrences(of: "\(day)st", with: "\(day)\(suffix)")
+        return "\(day)\(suffix) \(weekday)"
+    }
+    
+    func formatShortDate(_ date: Date) -> String {
+        let formatter = DateFormatter()
         
-        return dateString
+        if Calendar.current.isDateInTomorrow(date) {
+            return "Tomorrow"
+        } else {
+            formatter.dateFormat = "MMM d"
+            return formatter.string(from: date)
+        }
     }
 }
 
