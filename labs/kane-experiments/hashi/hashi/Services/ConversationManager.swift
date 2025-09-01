@@ -38,10 +38,18 @@ class ConversationManager: ObservableObject {
             
             print("📍 Using agent ID: \(agentId)")
             
+            // Get current context for the agent
+            let contextMessage = getCurrentContext()
+            
+            // Create conversation config with initial context
+            var config = ConversationConfig()
+            // TODO: When SDK supports initial context, add it here
+            // config.initialContext = contextMessage
+            
             // Start conversation with public agent for now
             conversation = try await ElevenLabs.startConversation(
                 agentId: agentId,
-                config: ConversationConfig()
+                config: config
             )
             
             setupObservers()
@@ -180,23 +188,40 @@ class ConversationManager: ObservableObject {
     // Tool implementations
     private func createFocus(parameters: [String: Any], context: NSManagedObjectContext) -> String {
         print("🎯 Creating Focus...")
-        let title = parameters["title"] as? String ?? "Untitled"
-        let contextText = parameters["context"] as? String ?? ""
-        print("   Title: \(title)")
-        print("   Context: \(contextText)")
         
-        let focus = Focus(context: context)
-        focus.id = UUID()
-        focus.title = title
-        focus.context = contextText
-        focus.date = Date()
-        focus.completed = false
-        focus.createdAt = Date()
+        // Check current focus count
+        let calendar = Calendar.current
+        let today = calendar.startOfDay(for: Date())
+        let tomorrow = calendar.date(byAdding: .day, value: 1, to: today)!
+        
+        let focusRequest: NSFetchRequest<Focus> = Focus.fetchRequest()
+        focusRequest.predicate = NSPredicate(format: "date >= %@ AND date < %@", today as NSDate, tomorrow as NSDate)
         
         do {
+            let existingFocuses = try context.fetch(focusRequest)
+            
+            // Enforce 3 focus maximum
+            if existingFocuses.count >= 3 {
+                print("⚠️ Maximum focus limit reached (3)")
+                return "Cannot create focus: Maximum of 3 focuses per day already reached. Consider completing or removing an existing focus first."
+            }
+            
+            let title = parameters["title"] as? String ?? "Untitled"
+            let contextText = parameters["context"] as? String ?? ""
+            print("   Title: \(title)")
+            print("   Context: \(contextText)")
+            
+            let focus = Focus(context: context)
+            focus.id = UUID()
+            focus.title = title
+            focus.context = contextText
+            focus.date = Date()
+            focus.completed = false
+            focus.createdAt = Date()
+            
             try context.save()
             print("✅ Focus saved successfully!")
-            return "Created focus: \(title)"
+            return "Created focus: \(title) (Focus \(existingFocuses.count + 1)/3)"
         } catch {
             print("❌ Failed to save: \(error)")
             return "Failed to create focus: \(error.localizedDescription)"
@@ -296,6 +321,52 @@ class ConversationManager: ObservableObject {
             return state
         } catch {
             return "Failed to fetch current state"
+        }
+    }
+    
+    private func getCurrentContext() -> String {
+        guard let context = viewContext else {
+            return "No context available."
+        }
+        
+        let calendar = Calendar.current
+        let today = calendar.startOfDay(for: Date())
+        let tomorrow = calendar.date(byAdding: .day, value: 1, to: today)!
+        
+        // Fetch today's focuses
+        let focusRequest: NSFetchRequest<Focus> = Focus.fetchRequest()
+        focusRequest.predicate = NSPredicate(format: "date >= %@ AND date < %@", today as NSDate, tomorrow as NSDate)
+        
+        do {
+            let focuses = try context.fetch(focusRequest)
+            
+            // Build context message
+            var contextMessage = "CURRENT STATE:\n"
+            
+            // Rule: Maximum 3 focuses per day
+            contextMessage += "Rule: Never create more than 3 focus items per day.\n"
+            contextMessage += "Current focus count: \(focuses.count)/3\n\n"
+            
+            if !focuses.isEmpty {
+                contextMessage += "Existing focuses for today:\n"
+                for (index, focus) in focuses.enumerated() {
+                    contextMessage += "\(index + 1). \(focus.title ?? "Untitled")"
+                    if focus.completed {
+                        contextMessage += " (completed)"
+                    }
+                    contextMessage += "\n"
+                    if let context = focus.context, !context.isEmpty {
+                        contextMessage += "   Context: \(context)\n"
+                    }
+                }
+            } else {
+                contextMessage += "No focuses created yet today.\n"
+            }
+            
+            print("📝 Context for agent:\n\(contextMessage)")
+            return contextMessage
+        } catch {
+            return "Error fetching current state."
         }
     }
 }
