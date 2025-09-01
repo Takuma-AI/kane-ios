@@ -7,6 +7,9 @@ struct AudioReactiveStrandView: View {
     
     @State private var wavePhase: CGFloat = 0
     @State private var timer: Timer?
+    @State private var dragOffset: CGFloat = 0
+    @State private var isDragging = false
+    @State private var bendAmount: CGFloat = 0
     
     var body: some View {
         GeometryReader { geometry in
@@ -14,7 +17,7 @@ struct AudioReactiveStrandView: View {
                 // Invisible background to ensure tappability
                 Color.clear
                 
-                if isActive {
+                if isActive && !isDragging {
                     // Audio-reactive strands
                     ForEach(0..<5, id: \.self) { index in
                         AudioReactiveWave(
@@ -25,6 +28,13 @@ struct AudioReactiveStrandView: View {
                             geometry: geometry
                         )
                     }
+                } else if isDragging {
+                    // Bent strand while dragging
+                    BentStrand(
+                        bendAmount: bendAmount,
+                        dragOffset: dragOffset,
+                        geometry: geometry
+                    )
                 } else {
                     // Quiet dotted line when not active
                     DottedSoundBar(
@@ -37,9 +47,37 @@ struct AudioReactiveStrandView: View {
             }
         }
         .contentShape(Rectangle())
-        .onTapGesture {
-            activateStrand()
-        }
+        .gesture(
+            DragGesture(minimumDistance: 10)
+                .onChanged { value in
+                    if !isDragging && !isActive {
+                        // Start dragging - provide initial haptic
+                        isDragging = true
+                        let impactFeedback = UIImpactFeedbackGenerator(style: .light)
+                        impactFeedback.prepare()
+                        impactFeedback.impactOccurred()
+                    }
+                    
+                    // Update drag offset (only upward)
+                    let upwardDrag = min(0, value.translation.height)
+                    dragOffset = upwardDrag
+                    
+                    // Calculate bend amount based on drag distance
+                    bendAmount = abs(upwardDrag) / 100
+                }
+                .onEnded { value in
+                    // Check if drag was sufficient to activate
+                    let upwardDrag = value.translation.height
+                    
+                    if upwardDrag < -30 && !isActive {
+                        // Sufficient upward drag - activate strand
+                        pluckStrand()
+                    } else {
+                        // Not enough drag or already active - release back
+                        releaseStrand()
+                    }
+                }
+        )
         .onChange(of: conversationManager.isConnected) { connected in
             if connected && !isActive {
                 isActive = true
@@ -54,28 +92,48 @@ struct AudioReactiveStrandView: View {
         }
     }
     
-    private func activateStrand() {
-        print("🎯 Strand tapped! isActive: \(isActive)")
-        if !isActive {
-            // Haptic feedback
-            let impactFeedback = UIImpactFeedbackGenerator(style: .medium)
-            impactFeedback.prepare()
-            impactFeedback.impactOccurred()
-            
-            isActive = true
-            startAnimations()
+    private func pluckStrand() {
+        print("🎯 Strand plucked!")
+        
+        // Strong haptic feedback for pluck
+        let impactFeedback = UIImpactFeedbackGenerator(style: .heavy)
+        impactFeedback.prepare()
+        impactFeedback.impactOccurred()
+        
+        // Animate the release with bounce
+        withAnimation(.spring(response: 0.4, dampingFraction: 0.3, blendDuration: 0)) {
+            dragOffset = 0
+            bendAmount = 0
+            isDragging = false
+        }
+        
+        // Activate after a brief delay to show the bounce
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+            self.isActive = true
+            self.startAnimations()
             
             print("🎤 Starting conversation...")
             Task {
-                await conversationManager.startConversation()
+                await self.conversationManager.startConversation()
             }
-        } else {
-            isActive = false
-            stopAnimations()
-            
-            print("🔇 Ending conversation...")
-            conversationManager.endConversation()
         }
+    }
+    
+    private func releaseStrand() {
+        // Animate back to rest position
+        withAnimation(.spring(response: 0.3, dampingFraction: 0.7, blendDuration: 0)) {
+            dragOffset = 0
+            bendAmount = 0
+            isDragging = false
+        }
+    }
+    
+    private func deactivateStrand() {
+        isActive = false
+        stopAnimations()
+        
+        print("🔇 Ending conversation...")
+        conversationManager.endConversation()
     }
     
     private func startAnimations() {
@@ -180,6 +238,48 @@ struct AudioReactiveWave: View {
         .blur(radius: index % 2 == 0 ? 0 : 0.5)
         .animation(.easeInOut(duration: 0.1), value: amplitude)
         .animation(.easeInOut(duration: 0.15), value: frequencyBand)
+    }
+}
+
+// Bent strand view for when dragging
+struct BentStrand: View {
+    let bendAmount: CGFloat
+    let dragOffset: CGFloat
+    let geometry: GeometryProxy
+    
+    var body: some View {
+        Path { path in
+            let midY = geometry.size.height / 2
+            let width = geometry.size.width
+            let controlPointY = midY + dragOffset
+            
+            // Create a bent line using a quadratic curve
+            path.move(to: CGPoint(x: 0, y: midY))
+            
+            // Multiple strands with slight variations
+            for i in 0..<5 {
+                let offset = CGFloat(i - 2) * 2
+                path.move(to: CGPoint(x: 0, y: midY + offset))
+                
+                // Quadratic curve to create the bend
+                path.addQuadCurve(
+                    to: CGPoint(x: width, y: midY + offset),
+                    control: CGPoint(x: width / 2, y: controlPointY + offset)
+                )
+            }
+        }
+        .stroke(
+            LinearGradient(
+                colors: [
+                    Color.white.opacity(0.8),
+                    Color.cyan.opacity(0.6)
+                ],
+                startPoint: .leading,
+                endPoint: .trailing
+            ),
+            lineWidth: 2
+        )
+        .blur(radius: 0.5)
     }
 }
 
