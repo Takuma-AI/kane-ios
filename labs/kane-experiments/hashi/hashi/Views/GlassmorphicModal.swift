@@ -8,6 +8,15 @@ struct GlassmorphicModal: View {
     @State private var scale: CGFloat = 0.9
     @State private var opacity: Double = 0
     
+    // Navigation stack state
+    @State private var navigationStack: [(focus: Focus?, task: FocusTask?)] = []
+    @State private var currentFocus: Focus?
+    @State private var currentTask: FocusTask?
+    
+    private var canGoBack: Bool {
+        !navigationStack.isEmpty
+    }
+    
     var body: some View {
         ZStack {
             // Background dimming
@@ -28,6 +37,23 @@ struct GlassmorphicModal: View {
                         .padding(.top, 8)
                     
                     HStack {
+                        // Back button
+                        if canGoBack {
+                            Button(action: {
+                                navigateBack()
+                            }) {
+                                HStack(spacing: 4) {
+                                    Image(systemName: "chevron.left")
+                                        .font(.system(size: 12, weight: .medium))
+                                    Text("Back")
+                                        .font(.system(size: 14, weight: .medium))
+                                }
+                                .foregroundColor(.white.opacity(0.7))
+                            }
+                            .padding(.leading)
+                            .padding(.top, 12)
+                        }
+                        
                         Spacer()
                         
                         // Close button
@@ -52,14 +78,16 @@ struct GlassmorphicModal: View {
                 // Content
                 ScrollView {
                     VStack(alignment: .leading, spacing: 20) {
-                        if let focus = focus {
-                            FocusDetailView(focus: focus)
-                        } else if let task = task {
-                            TaskDetailView(task: task)
+                        if let focus = currentFocus ?? focus {
+                            FocusDetailView(focus: focus, onNavigate: navigateToItem)
+                        } else if let task = currentTask ?? task {
+                            TaskDetailView(task: task, onNavigate: navigateToItem)
                         }
                     }
                     .padding()
                 }
+                .animation(.easeInOut(duration: 0.2), value: currentFocus?.id)
+                .animation(.easeInOut(duration: 0.2), value: currentTask?.id)
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(
@@ -138,10 +166,31 @@ struct GlassmorphicModal: View {
             isPresented = false
         }
     }
+    
+    private func navigateToItem(focus: Focus? = nil, task: FocusTask? = nil) {
+        // Push current state to navigation stack
+        navigationStack.append((currentFocus ?? self.focus, currentTask ?? self.task))
+        
+        // Update current state with animation
+        withAnimation(.easeInOut(duration: 0.2)) {
+            currentFocus = focus
+            currentTask = task
+        }
+    }
+    
+    private func navigateBack() {
+        guard let previous = navigationStack.popLast() else { return }
+        
+        withAnimation(.easeInOut(duration: 0.2)) {
+            currentFocus = previous.focus
+            currentTask = previous.task
+        }
+    }
 }
 
 struct FocusDetailView: View {
     let focus: Focus
+    var onNavigate: ((focus: Focus?, task: FocusTask?)) -> Void = { _, _ in }
     
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
@@ -207,24 +256,34 @@ struct FocusDetailView: View {
                         .tracking(1.2)
                     
                     ForEach(Array(tasks).sorted { $0.createdAt < $1.createdAt }) { task in
-                        HStack {
-                            Image(systemName: task.completedAt != nil ? "checkmark.circle.fill" : "circle")
-                                .font(.system(size: 16))
-                                .foregroundColor(task.completedAt != nil ? .green : .white.opacity(0.5))
-                            
-                            Text(task.content ?? "")
-                                .font(.system(size: 14))
-                                .foregroundColor(.white.opacity(0.8))
-                                .strikethrough(task.completedAt != nil)
-                            
-                            Spacer()
+                        Button(action: {
+                            onNavigate((nil, task))
+                        }) {
+                            HStack {
+                                Image(systemName: task.completedAt != nil ? "checkmark.circle.fill" : "circle")
+                                    .font(.system(size: 16))
+                                    .foregroundColor(task.completedAt != nil ? .green : .white.opacity(0.5))
+                                
+                                Text(task.content ?? "")
+                                    .font(.system(size: 14))
+                                    .foregroundColor(.white.opacity(0.8))
+                                    .strikethrough(task.completedAt != nil)
+                                    .multilineTextAlignment(.leading)
+                                
+                                Spacer()
+                                
+                                Image(systemName: "chevron.right")
+                                    .font(.system(size: 12))
+                                    .foregroundColor(.white.opacity(0.3))
+                            }
+                            .padding(.vertical, 8)
+                            .padding(.horizontal, 12)
+                            .background(
+                                RoundedRectangle(cornerRadius: 8)
+                                    .fill(Color.white.opacity(0.05))
+                            )
                         }
-                        .padding(.vertical, 8)
-                        .padding(.horizontal, 12)
-                        .background(
-                            RoundedRectangle(cornerRadius: 8)
-                                .fill(Color.white.opacity(0.05))
-                        )
+                        .buttonStyle(PlainButtonStyle())
                     }
                 }
             }
@@ -241,6 +300,7 @@ struct FocusDetailView: View {
 
 struct TaskDetailView: View {
     let task: FocusTask
+    var onNavigate: ((focus: Focus?, task: FocusTask?)) -> Void = { _, _ in }
     
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
@@ -286,21 +346,35 @@ struct TaskDetailView: View {
             
             // Parent focus
             if let focus = task.focus {
-                VStack(alignment: .leading, spacing: 8) {
-                    Text("PART OF")
-                        .font(.system(size: 11, weight: .semibold))
-                        .foregroundColor(.white.opacity(0.5))
-                        .tracking(1.2)
-                    
-                    Text(focus.title ?? "Untitled Focus")
-                        .font(.system(size: 16, weight: .medium))
-                        .foregroundColor(.white.opacity(0.9))
+                Button(action: {
+                    onNavigate((focus, nil))
+                }) {
+                    VStack(alignment: .leading, spacing: 8) {
+                        HStack {
+                            Text("PART OF")
+                                .font(.system(size: 11, weight: .semibold))
+                                .foregroundColor(.white.opacity(0.5))
+                                .tracking(1.2)
+                            
+                            Spacer()
+                            
+                            Image(systemName: "chevron.right")
+                                .font(.system(size: 12))
+                                .foregroundColor(.white.opacity(0.3))
+                        }
+                        
+                        Text(focus.title ?? "Untitled Focus")
+                            .font(.system(size: 16, weight: .medium))
+                            .foregroundColor(.white.opacity(0.9))
+                            .multilineTextAlignment(.leading)
+                    }
+                    .padding()
+                    .background(
+                        RoundedRectangle(cornerRadius: 12)
+                            .fill(Color.white.opacity(0.05))
+                    )
                 }
-                .padding()
-                .background(
-                    RoundedRectangle(cornerRadius: 12)
-                        .fill(Color.white.opacity(0.05))
-                )
+                .buttonStyle(PlainButtonStyle())
             }
         }
     }

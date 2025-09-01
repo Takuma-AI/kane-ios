@@ -387,12 +387,23 @@ struct FocusCard: View {
     @State private var contentOpacity = 0.0
     @State private var scale = 0.9
     
+    // Determine if this is a draft (no context or very short context)
+    private var isDraft: Bool {
+        guard let context = focus.context else { return true }
+        return context.trimmingCharacters(in: .whitespacesAndNewlines).count < 10
+    }
+    
+    // Base opacity for the card
+    private var baseOpacity: Double {
+        isDraft ? 0.5 : 1.0
+    }
+    
     var body: some View {
         ZStack {
             // Glass background layers
             RoundedRectangle(cornerRadius: 16)
                 .fill(.ultraThinMaterial)
-                .opacity(0.3 * contentOpacity)
+                .opacity(0.3 * contentOpacity * baseOpacity)
             
             RoundedRectangle(cornerRadius: 16)
                 .fill(
@@ -405,23 +416,25 @@ struct FocusCard: View {
                         endPoint: .bottomTrailing
                     )
                 )
-                .opacity(contentOpacity)
+                .opacity(contentOpacity * baseOpacity)
             
-            // Dramatic glow border that appears first
-            RoundedRectangle(cornerRadius: 16)
-                .strokeBorder(
-                    LinearGradient(
-                        colors: [
-                            Color.cyan.opacity(0.8),
-                            Color.purple.opacity(0.4)
-                        ],
-                        startPoint: .topLeading,
-                        endPoint: .bottomTrailing
-                    ),
-                    lineWidth: 2
-                )
-                .opacity(glowOpacity)
-                .blur(radius: glowOpacity > 0.5 ? 1 : 0)
+            // Dramatic glow border that appears first (only for approved/active)
+            if !isDraft {
+                RoundedRectangle(cornerRadius: 16)
+                    .strokeBorder(
+                        LinearGradient(
+                            colors: [
+                                Color.cyan.opacity(0.8),
+                                Color.purple.opacity(0.4)
+                            ],
+                            startPoint: .topLeading,
+                            endPoint: .bottomTrailing
+                        ),
+                        lineWidth: 2
+                    )
+                    .opacity(glowOpacity)
+                    .blur(radius: glowOpacity > 0.5 ? 1 : 0)
+            }
             
             // Regular border
             RoundedRectangle(cornerRadius: 16)
@@ -436,20 +449,44 @@ struct FocusCard: View {
                     ),
                     lineWidth: 0.5
                 )
-                .opacity(contentOpacity)
+                .opacity(contentOpacity * baseOpacity)
             
             // Content
             VStack(alignment: .leading, spacing: 8) {
-                Text(focus.title ?? "")
-                    .font(.system(size: 17, weight: .medium))
-                    .foregroundColor(.white)
-                    .lineLimit(2)
+                HStack {
+                    Text(focus.title ?? "")
+                        .font(.system(size: 17, weight: .medium))
+                        .foregroundColor(.white.opacity(isDraft ? 0.7 : 1.0))
+                        .lineLimit(2)
+                    
+                    Spacer()
+                    
+                    // Draft indicator
+                    if isDraft {
+                        Text("DRAFT")
+                            .font(.system(size: 10, weight: .bold))
+                            .foregroundColor(.white.opacity(0.4))
+                            .padding(.horizontal, 6)
+                            .padding(.vertical, 2)
+                            .background(
+                                Capsule()
+                                    .fill(Color.white.opacity(0.1))
+                            )
+                    }
+                }
                 
-                Text(focus.context ?? "")
-                    .font(.system(size: 13))
-                    .foregroundColor(.white.opacity(0.6))
-                    .lineLimit(2)
-                    .lineSpacing(2)
+                if let context = focus.context, !context.isEmpty {
+                    Text(context)
+                        .font(.system(size: 13))
+                        .foregroundColor(.white.opacity(isDraft ? 0.4 : 0.6))
+                        .lineLimit(2)
+                        .lineSpacing(2)
+                } else {
+                    Text("Tap to add context")
+                        .font(.system(size: 13))
+                        .foregroundColor(.white.opacity(0.3))
+                        .italic()
+                }
             }
             .padding()
             .opacity(contentOpacity)
@@ -457,20 +494,28 @@ struct FocusCard: View {
         .padding(.horizontal)
         .scaleEffect(scale)
         .onAppear {
-            // Dramatic entrance animation sequence
-            withAnimation(.easeOut(duration: 0.3)) {
-                glowOpacity = 1.0
-                scale = 1.0
-            }
-            
-            // Fade in content after glow
-            withAnimation(.easeIn(duration: 0.4).delay(0.2)) {
-                contentOpacity = 1.0
-            }
-            
-            // Fade out glow
-            withAnimation(.easeOut(duration: 0.5).delay(0.5)) {
-                glowOpacity = 0.0
+            if isDraft {
+                // Subtle entrance for drafts
+                withAnimation(.easeOut(duration: 0.3)) {
+                    scale = 1.0
+                    contentOpacity = 1.0
+                }
+            } else {
+                // Dramatic entrance animation sequence for approved
+                withAnimation(.easeOut(duration: 0.3)) {
+                    glowOpacity = 1.0
+                    scale = 1.0
+                }
+                
+                // Fade in content after glow
+                withAnimation(.easeIn(duration: 0.4).delay(0.2)) {
+                    contentOpacity = 1.0
+                }
+                
+                // Fade out glow
+                withAnimation(.easeOut(duration: 0.5).delay(0.5)) {
+                    glowOpacity = 0.0
+                }
             }
             
             isAppearing = false
