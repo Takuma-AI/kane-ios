@@ -193,75 +193,35 @@ struct FocusDetailView: View {
     var onNavigate: (Focus?, FocusTask?) -> Void = { _, _ in }
     
     var body: some View {
-        VStack(alignment: .leading, spacing: 16) {
+        VStack(alignment: .leading, spacing: 20) {
             // Title
             Text(focus.title ?? "Untitled")
-                .font(.system(size: 24, weight: .bold))
+                .font(.system(size: 28, weight: .bold))
                 .foregroundColor(.white)
                 .frame(maxWidth: .infinity, alignment: .leading)
             
-            // Status badge
-            HStack {
-                Image(systemName: focus.completed ? "checkmark.circle.fill" : "circle")
-                    .foregroundColor(focus.completed ? .green : .white.opacity(0.5))
-                
-                Text(focus.completed ? "Completed" : "In Progress")
-                    .font(.system(size: 14, weight: .medium))
-                    .foregroundColor(focus.completed ? .green : .white.opacity(0.7))
-                
-                Spacer()
-            }
-            .padding(.horizontal, 12)
-            .padding(.vertical, 6)
-            .background(
-                RoundedRectangle(cornerRadius: 8)
-                    .fill(Color.white.opacity(0.1))
-            )
-            .frame(maxWidth: .infinity)
-            
-            // Context
+            // Context (directly under title, no card)
             if let context = focus.context, !context.isEmpty {
-                VStack(alignment: .leading, spacing: 8) {
-                    Text("CONTEXT")
-                        .font(.system(size: 11, weight: .semibold))
-                        .foregroundColor(.white.opacity(0.5))
-                        .tracking(1.2)
-                    
-                    Text(context)
-                        .font(.system(size: 16))
-                        .foregroundColor(.white.opacity(0.9))
-                        .lineSpacing(4)
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                }
+                Text(context)
+                    .font(.system(size: 18))
+                    .foregroundColor(.white.opacity(0.8))
+                    .lineSpacing(6)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+            }
+            
+            // Created date (subtle, lighter)
+            Text("Created \(formatDate(focus.createdAt))")
+                .font(.system(size: 14))
+                .foregroundColor(.white.opacity(0.4))
                 .frame(maxWidth: .infinity, alignment: .leading)
-                .padding()
-                .background(
-                    RoundedRectangle(cornerRadius: 12)
-                        .fill(Color.white.opacity(0.05))
-                )
-            }
+                .padding(.top, 8)
             
-            // Created date
-            VStack(alignment: .leading, spacing: 4) {
-                Text("CREATED")
-                    .font(.system(size: 11, weight: .semibold))
-                    .foregroundColor(.white.opacity(0.5))
-                    .tracking(1.2)
-                
-                Text(formatDate(focus.createdAt))
-                    .font(.system(size: 14))
-                    .foregroundColor(.white.opacity(0.7))
-            }
-            .frame(maxWidth: .infinity, alignment: .leading)
-            
-            // Associated tasks
+            // Associated tasks (if any)
             if let tasks = focus.tasks as? Set<FocusTask>, !tasks.isEmpty {
-                VStack(alignment: .leading, spacing: 12) {
-                    Text("TASKS")
-                        .font(.system(size: 11, weight: .semibold))
-                        .foregroundColor(.white.opacity(0.5))
-                        .tracking(1.2)
-                        .frame(maxWidth: .infinity, alignment: .leading)
+                VStack(alignment: .leading, spacing: 10) {
+                    Divider()
+                        .background(Color.white.opacity(0.1))
+                        .padding(.vertical, 8)
                     
                     ForEach(Array(tasks).sorted { $0.createdAt < $1.createdAt }) { task in
                         Button(action: {
@@ -270,11 +230,11 @@ struct FocusDetailView: View {
                             HStack {
                                 Image(systemName: task.completedAt != nil ? "checkmark.circle.fill" : "circle")
                                     .font(.system(size: 16))
-                                    .foregroundColor(task.completedAt != nil ? .green : .white.opacity(0.5))
+                                    .foregroundColor(task.completedAt != nil ? .green.opacity(0.7) : .white.opacity(0.3))
                                 
                                 Text(task.content ?? "")
-                                    .font(.system(size: 14))
-                                    .foregroundColor(.white.opacity(0.8))
+                                    .font(.system(size: 15))
+                                    .foregroundColor(.white.opacity(0.7))
                                     .strikethrough(task.completedAt != nil)
                                     .multilineTextAlignment(.leading)
                                 
@@ -282,14 +242,9 @@ struct FocusDetailView: View {
                                 
                                 Image(systemName: "chevron.right")
                                     .font(.system(size: 12))
-                                    .foregroundColor(.white.opacity(0.3))
+                                    .foregroundColor(.white.opacity(0.2))
                             }
-                            .padding(.vertical, 8)
-                            .padding(.horizontal, 12)
-                            .background(
-                                RoundedRectangle(cornerRadius: 8)
-                                    .fill(Color.white.opacity(0.05))
-                            )
+                            .padding(.vertical, 6)
                         }
                         .buttonStyle(PlainButtonStyle())
                     }
@@ -312,31 +267,25 @@ struct TaskDetailView: View {
     var onNavigate: (Focus?, FocusTask?) -> Void = { _, _ in }
     
     var body: some View {
-        VStack(alignment: .leading, spacing: 16) {
+        VStack(alignment: .leading, spacing: 20) {
             // Content
             Text(task.content ?? "Untitled Task")
-                .font(.system(size: 20, weight: .semibold))
+                .font(.system(size: 24, weight: .semibold))
                 .foregroundColor(.white)
                 .frame(maxWidth: .infinity, alignment: .leading)
             
-            // Status
-            HStack {
-                Image(systemName: task.completedAt != nil ? "checkmark.circle.fill" : "circle")
-                    .foregroundColor(task.completedAt != nil ? .green : .white.opacity(0.5))
-                
-                Text(task.completedAt != nil ? "Completed" : task.isBlocker ? "Blocker" : "Pending")
-                    .font(.system(size: 14, weight: .medium))
-                    .foregroundColor(task.completedAt != nil ? .green : task.isBlocker ? .orange : .white.opacity(0.7))
-                
-                Spacer()
+            // Simple completion indicator
+            if task.completedAt != nil {
+                HStack(spacing: 8) {
+                    Image(systemName: "checkmark.circle.fill")
+                        .foregroundColor(.green.opacity(0.7))
+                        .font(.system(size: 18))
+                    
+                    Text("Completed")
+                        .font(.system(size: 16))
+                        .foregroundColor(.green.opacity(0.7))
+                }
             }
-            .padding(.horizontal, 12)
-            .padding(.vertical, 6)
-            .background(
-                RoundedRectangle(cornerRadius: 8)
-                    .fill(Color.white.opacity(0.1))
-            )
-            .frame(maxWidth: .infinity)
             
             // AI Progress
             if let aiProgress = task.aiProgress, !aiProgress.isEmpty {

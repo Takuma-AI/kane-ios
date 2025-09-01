@@ -8,11 +8,12 @@ struct LaunchView: View {
     
     var body: some View {
         ZStack {
+            // Always start with white background
+            Color.white
+                .ignoresSafeArea()
+            
             if !animationComplete {
-                // Launch animation: black circle on white background
-                Color.white
-                    .ignoresSafeArea()
-                
+                // Launch animation: black circle expanding
                 Circle()
                     .fill(Color.black)
                     .scaleEffect(circleScale)
@@ -24,19 +25,23 @@ struct LaunchView: View {
                     .transition(.opacity.combined(with: .move(edge: .bottom)))
             }
         }
+        .preferredColorScheme(.light) // Force light mode initially
         .onAppear {
             // Request microphone permission immediately
             requestMicrophonePermission()
             
-            // Start the circle expansion animation
-            withAnimation(.easeInOut(duration: 1.2)) {
-                circleScale = 3.0 // Expand to fill screen
+            // Small delay before starting animation for visual impact
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                // Start the circle expansion animation (slower)
+                withAnimation(.easeInOut(duration: 1.8)) {
+                    circleScale = 3.0 // Expand to fill screen
+                }
             }
             
             // After expansion, switch to main view
-            DispatchQueue.main.asyncAfter(deadline: .now() + 1.2) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2.2) {
                 animationComplete = true
-                withAnimation(.easeOut(duration: 0.3)) {
+                withAnimation(.easeOut(duration: 0.5)) {
                     showMainView = true
                 }
             }
