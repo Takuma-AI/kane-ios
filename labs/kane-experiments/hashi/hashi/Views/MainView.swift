@@ -77,12 +77,17 @@ struct MainView: View {
                 // Main content
                 ScrollView {
                     VStack(spacing: 20) {
-                        // Focus cards
+                        // Focus cards with push animation
                         if todaysFocuses.isEmpty && !isStrandActive {
                             EmptyStateView()
                         } else {
                             ForEach(todaysFocuses) { focus in
                                 FocusCard(focus: focus)
+                                    .transition(.asymmetric(
+                                        insertion: .push(from: .top).combined(with: .opacity),
+                                        removal: .scale.combined(with: .opacity)
+                                    ))
+                                    .animation(.spring(response: 0.5, dampingFraction: 0.8), value: todaysFocuses.count)
                             }
                         }
                         
@@ -143,13 +148,17 @@ struct EmptyStateView: View {
 
 struct FocusCard: View {
     let focus: Focus
+    @State private var isAppearing = true
+    @State private var glowOpacity = 0.0
+    @State private var contentOpacity = 0.0
+    @State private var scale = 0.9
     
     var body: some View {
         ZStack {
             // Glass background layers
             RoundedRectangle(cornerRadius: 16)
                 .fill(.ultraThinMaterial)
-                .opacity(0.3)
+                .opacity(0.3 * contentOpacity)
             
             RoundedRectangle(cornerRadius: 16)
                 .fill(
@@ -162,8 +171,25 @@ struct FocusCard: View {
                         endPoint: .bottomTrailing
                     )
                 )
+                .opacity(contentOpacity)
             
-            // Border glow
+            // Dramatic glow border that appears first
+            RoundedRectangle(cornerRadius: 16)
+                .strokeBorder(
+                    LinearGradient(
+                        colors: [
+                            Color.cyan.opacity(0.8),
+                            Color.purple.opacity(0.4)
+                        ],
+                        startPoint: .topLeading,
+                        endPoint: .bottomTrailing
+                    ),
+                    lineWidth: 2
+                )
+                .opacity(glowOpacity)
+                .blur(radius: glowOpacity > 0.5 ? 1 : 0)
+            
+            // Regular border
             RoundedRectangle(cornerRadius: 16)
                 .strokeBorder(
                     LinearGradient(
@@ -176,6 +202,7 @@ struct FocusCard: View {
                     ),
                     lineWidth: 0.5
                 )
+                .opacity(contentOpacity)
             
             // Content
             VStack(alignment: .leading, spacing: 8) {
@@ -191,8 +218,29 @@ struct FocusCard: View {
                     .lineSpacing(2)
             }
             .padding()
+            .opacity(contentOpacity)
         }
         .padding(.horizontal)
+        .scaleEffect(scale)
+        .onAppear {
+            // Dramatic entrance animation sequence
+            withAnimation(.easeOut(duration: 0.3)) {
+                glowOpacity = 1.0
+                scale = 1.0
+            }
+            
+            // Fade in content after glow
+            withAnimation(.easeIn(duration: 0.4).delay(0.2)) {
+                contentOpacity = 1.0
+            }
+            
+            // Fade out glow
+            withAnimation(.easeOut(duration: 0.5).delay(0.5)) {
+                glowOpacity = 0.0
+            }
+            
+            isAppearing = false
+        }
     }
 }
 
