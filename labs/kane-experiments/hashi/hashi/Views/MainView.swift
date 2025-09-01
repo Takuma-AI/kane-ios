@@ -214,69 +214,81 @@ struct SimpleDateDisplay: View {
     @Binding var selectedDate: Date
     @State private var dragOffset: CGFloat = 0
     @State private var isDragging = false
+    @State private var headerOpacity: Double = 1.0
+    
+    private var dynamicHeader: String {
+        let calendar = Calendar.current
+        if calendar.isDateInToday(selectedDate) {
+            return "TODAY"
+        } else if calendar.isDateInTomorrow(selectedDate) {
+            return "TOMORROW"
+        } else {
+            // Get the weekday
+            let formatter = DateFormatter()
+            formatter.dateFormat = "EEEE"
+            return "THIS \(formatter.string(from: selectedDate).uppercased())"
+        }
+    }
     
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
-            // TODAY header if it's today
-            if Calendar.current.isDateInToday(selectedDate) {
-                Text("TODAY")
-                    .font(.system(size: 10, weight: .semibold))
-                    .foregroundColor(.white.opacity(0.5))
-                    .tracking(1.5) // Letter spacing
-            }
+            // Dynamic header that changes based on selected date
+            Text(dynamicHeader)
+                .font(.system(size: 10, weight: .semibold))
+                .foregroundColor(.white.opacity(0.5))
+                .tracking(1.5)
+                .opacity(headerOpacity)
+                .animation(.easeInOut(duration: 0.2), value: dynamicHeader)
             
             // Date carousel
-            HStack(spacing: 0) {
-                // Main date display
-                VStack(alignment: .leading, spacing: 4) {
-                    // Month abbreviation
-                    HStack(spacing: 6) {
-                        Text(monthAbbreviation(selectedDate))
-                            .font(.system(size: 12, weight: .medium))
-                            .foregroundColor(.white.opacity(0.7))
-                        
-                        // Vertical divider
-                        Rectangle()
-                            .fill(Color.white.opacity(0.3))
-                            .frame(width: 1, height: 12)
-                        
-                        // Day and weekday
-                        Text(formatMainDate(selectedDate))
-                            .font(.system(size: 18, weight: .semibold))
-                            .foregroundColor(.white)
-                    }
-                }
+            ZStack(alignment: .leading) {
+                // Current date (always in same position)
+                Text(formatDate(selectedDate))
+                    .font(.system(size: 18, weight: .semibold))
+                    .foregroundColor(.white)
+                    .offset(x: dragOffset * 0.5)
                 
-                // Future dates (animated based on drag)
-                if isDragging || abs(dragOffset) > 5 {
-                    HStack(spacing: 20) {
-                        // Tomorrow
+                // Next dates preview when dragging
+                if isDragging && dragOffset < -20 {
+                    HStack(spacing: 30) {
                         if let tomorrow = Calendar.current.date(byAdding: .day, value: 1, to: selectedDate) {
-                            Text(formatShortDate(tomorrow))
-                                .font(.system(size: 14))
-                                .foregroundColor(.white.opacity(0.3 + min(0.3, abs(dragOffset) / 100.0)))
+                            Text(formatDate(tomorrow))
+                                .font(.system(size: 18, weight: .semibold))
+                                .foregroundColor(.white.opacity(min(0.6, abs(dragOffset) / 100.0)))
                         }
                         
-                        // Day after tomorrow
                         if let dayAfter = Calendar.current.date(byAdding: .day, value: 2, to: selectedDate) {
-                            Text(formatShortDate(dayAfter))
-                                .font(.system(size: 14))
-                                .foregroundColor(.white.opacity(0.2 + min(0.2, abs(dragOffset) / 150.0)))
+                            Text(formatDate(dayAfter))
+                                .font(.system(size: 18, weight: .semibold))
+                                .foregroundColor(.white.opacity(min(0.3, abs(dragOffset) / 150.0)))
                         }
                     }
-                    .padding(.leading, 20)
-                    .transition(.opacity.combined(with: .move(edge: .trailing)))
+                    .offset(x: 200 + dragOffset * 0.5)
                 }
                 
-                Spacer()
+                // Previous date preview when dragging
+                if isDragging && dragOffset > 20 {
+                    if let yesterday = Calendar.current.date(byAdding: .day, value: -1, to: selectedDate) {
+                        Text(formatDate(yesterday))
+                            .font(.system(size: 18, weight: .semibold))
+                            .foregroundColor(.white.opacity(min(0.6, dragOffset / 100.0)))
+                            .offset(x: -200 + dragOffset * 0.5)
+                    }
+                }
             }
-            .offset(x: dragOffset * 0.3) // Parallax effect
+            .frame(height: 24)
+            .clipped()
         }
         .gesture(
             DragGesture()
                 .onChanged { value in
                     isDragging = true
                     dragOffset = value.translation.width
+                    
+                    // Fade out header during drag
+                    withAnimation(.easeOut(duration: 0.1)) {
+                        headerOpacity = max(0.2, 1.0 - abs(value.translation.width) / 100.0)
+                    }
                 }
                 .onEnded { value in
                     let threshold: CGFloat = 50
@@ -297,47 +309,20 @@ struct SimpleDateDisplay: View {
                         dragOffset = 0
                         isDragging = false
                     }
+                    
+                    // Fade header back in
+                    withAnimation(.easeIn(duration: 0.3).delay(0.1)) {
+                        headerOpacity = 1.0
+                    }
                 }
         )
         .animation(.easeInOut(duration: 0.2), value: isDragging)
     }
     
-    func monthAbbreviation(_ date: Date) -> String {
+    func formatDate(_ date: Date) -> String {
         let formatter = DateFormatter()
-        formatter.dateFormat = "MMM"
+        formatter.dateFormat = "MMM dd"
         return formatter.string(from: date).uppercased()
-    }
-    
-    func formatMainDate(_ date: Date) -> String {
-        let formatter = DateFormatter()
-        formatter.dateFormat = "d"
-        let day = formatter.string(from: date)
-        
-        formatter.dateFormat = "EEEE"
-        let weekday = formatter.string(from: date)
-        
-        // Get ordinal suffix
-        let dayNum = Calendar.current.component(.day, from: date)
-        let suffix: String
-        switch dayNum {
-        case 1, 21, 31: suffix = "st"
-        case 2, 22: suffix = "nd"
-        case 3, 23: suffix = "rd"
-        default: suffix = "th"
-        }
-        
-        return "\(day)\(suffix) \(weekday)"
-    }
-    
-    func formatShortDate(_ date: Date) -> String {
-        let formatter = DateFormatter()
-        
-        if Calendar.current.isDateInTomorrow(date) {
-            return "Tomorrow"
-        } else {
-            formatter.dateFormat = "MMM d"
-            return formatter.string(from: date)
-        }
     }
 }
 
