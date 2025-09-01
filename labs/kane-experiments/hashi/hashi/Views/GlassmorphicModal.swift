@@ -198,6 +198,7 @@ struct FocusDetailView: View {
             Text(focus.title ?? "Untitled")
                 .font(.system(size: 24, weight: .bold))
                 .foregroundColor(.white)
+                .frame(maxWidth: .infinity, alignment: .leading)
             
             // Status badge
             HStack {
@@ -207,6 +208,8 @@ struct FocusDetailView: View {
                 Text(focus.completed ? "Completed" : "In Progress")
                     .font(.system(size: 14, weight: .medium))
                     .foregroundColor(focus.completed ? .green : .white.opacity(0.7))
+                
+                Spacer()
             }
             .padding(.horizontal, 12)
             .padding(.vertical, 6)
@@ -214,6 +217,7 @@ struct FocusDetailView: View {
                 RoundedRectangle(cornerRadius: 8)
                     .fill(Color.white.opacity(0.1))
             )
+            .frame(maxWidth: .infinity)
             
             // Context
             if let context = focus.context, !context.isEmpty {
@@ -227,7 +231,9 @@ struct FocusDetailView: View {
                         .font(.system(size: 16))
                         .foregroundColor(.white.opacity(0.9))
                         .lineSpacing(4)
+                        .frame(maxWidth: .infinity, alignment: .leading)
                 }
+                .frame(maxWidth: .infinity, alignment: .leading)
                 .padding()
                 .background(
                     RoundedRectangle(cornerRadius: 12)
@@ -246,6 +252,7 @@ struct FocusDetailView: View {
                     .font(.system(size: 14))
                     .foregroundColor(.white.opacity(0.7))
             }
+            .frame(maxWidth: .infinity, alignment: .leading)
             
             // Associated tasks
             if let tasks = focus.tasks as? Set<FocusTask>, !tasks.isEmpty {
@@ -254,6 +261,7 @@ struct FocusDetailView: View {
                         .font(.system(size: 11, weight: .semibold))
                         .foregroundColor(.white.opacity(0.5))
                         .tracking(1.2)
+                        .frame(maxWidth: .infinity, alignment: .leading)
                     
                     ForEach(Array(tasks).sorted { $0.createdAt < $1.createdAt }) { task in
                         Button(action: {
@@ -286,6 +294,7 @@ struct FocusDetailView: View {
                         .buttonStyle(PlainButtonStyle())
                     }
                 }
+                .frame(maxWidth: .infinity, alignment: .leading)
             }
         }
     }
@@ -308,6 +317,7 @@ struct TaskDetailView: View {
             Text(task.content ?? "Untitled Task")
                 .font(.system(size: 20, weight: .semibold))
                 .foregroundColor(.white)
+                .frame(maxWidth: .infinity, alignment: .leading)
             
             // Status
             HStack {
@@ -317,6 +327,8 @@ struct TaskDetailView: View {
                 Text(task.completedAt != nil ? "Completed" : task.isBlocker ? "Blocker" : "Pending")
                     .font(.system(size: 14, weight: .medium))
                     .foregroundColor(task.completedAt != nil ? .green : task.isBlocker ? .orange : .white.opacity(0.7))
+                
+                Spacer()
             }
             .padding(.horizontal, 12)
             .padding(.vertical, 6)
@@ -324,6 +336,7 @@ struct TaskDetailView: View {
                 RoundedRectangle(cornerRadius: 8)
                     .fill(Color.white.opacity(0.1))
             )
+            .frame(maxWidth: .infinity)
             
             // AI Progress
             if let aiProgress = task.aiProgress, !aiProgress.isEmpty {
@@ -336,7 +349,9 @@ struct TaskDetailView: View {
                     Text(aiProgress)
                         .font(.system(size: 14))
                         .foregroundColor(.cyan.opacity(0.8))
+                        .frame(maxWidth: .infinity, alignment: .leading)
                 }
+                .frame(maxWidth: .infinity, alignment: .leading)
                 .padding()
                 .background(
                     RoundedRectangle(cornerRadius: 12)
@@ -367,7 +382,9 @@ struct TaskDetailView: View {
                             .font(.system(size: 16, weight: .medium))
                             .foregroundColor(.white.opacity(0.9))
                             .multilineTextAlignment(.leading)
+                            .frame(maxWidth: .infinity, alignment: .leading)
                     }
+                    .frame(maxWidth: .infinity)
                     .padding()
                     .background(
                         RoundedRectangle(cornerRadius: 12)
