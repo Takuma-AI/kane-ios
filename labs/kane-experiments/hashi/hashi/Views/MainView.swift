@@ -56,23 +56,17 @@ struct MainView: View {
             }
             
             VStack(spacing: 0) {
-                // Calendar scroll at top
-                HStack {
-                    CalendarView(selectedDate: $selectedDate)
-                        .frame(height: 60)
+                // Header section with date and dynamic text
+                VStack(alignment: .leading, spacing: 8) {
+                    // Date display with swipe gesture
+                    SimpleDateDisplay(selectedDate: $selectedDate)
                     
-                    // Debug refresh button
-                    Button(action: {
-                        debugPrintAllFocuses()
-                        // Force view refresh
-                        viewContext.refreshAllObjects()
-                    }) {
-                        Image(systemName: "arrow.clockwise")
-                            .foregroundColor(.white.opacity(0.6))
-                            .padding(8)
-                    }
+                    // Dynamic header text
+                    DynamicHeaderText(focusCount: todaysFocuses.count)
+                        .padding(.top, 4)
                 }
-                .padding(.top)
+                .padding(.horizontal)
+                .padding(.top, 20)
                 
                 // Main content
                 ScrollView {
@@ -135,13 +129,120 @@ struct MainView: View {
     }
 }
 
+struct SimpleDateDisplay: View {
+    @Binding var selectedDate: Date
+    @State private var dragOffset: CGFloat = 0
+    
+    var body: some View {
+        HStack(spacing: 20) {
+            // Today's date (main display)
+            Text(formatDate(selectedDate))
+                .font(.system(size: 14, weight: .medium))
+                .foregroundColor(.white)
+            
+            // Tomorrow (faintly visible)
+            if dragOffset < -20 {
+                Text(formatDate(Calendar.current.date(byAdding: .day, value: 1, to: selectedDate) ?? selectedDate))
+                    .font(.system(size: 14))
+                    .foregroundColor(.white.opacity(0.3))
+                    .transition(.opacity)
+            }
+            
+            Spacer()
+        }
+        .gesture(
+            DragGesture()
+                .onChanged { value in
+                    dragOffset = value.translation.width
+                }
+                .onEnded { value in
+                    let threshold: CGFloat = 50
+                    
+                    if value.translation.width > threshold {
+                        // Swipe right - go to previous day
+                        withAnimation {
+                            selectedDate = Calendar.current.date(byAdding: .day, value: -1, to: selectedDate) ?? selectedDate
+                        }
+                    } else if value.translation.width < -threshold {
+                        // Swipe left - go to next day
+                        withAnimation {
+                            selectedDate = Calendar.current.date(byAdding: .day, value: 1, to: selectedDate) ?? selectedDate
+                        }
+                    }
+                    
+                    withAnimation {
+                        dragOffset = 0
+                    }
+                }
+        )
+    }
+    
+    func formatDate(_ date: Date) -> String {
+        let formatter = DateFormatter()
+        
+        if Calendar.current.isDateInToday(date) {
+            formatter.dateFormat = "'Today,' EEEE 'the' d'st'"
+        } else if Calendar.current.isDateInTomorrow(date) {
+            formatter.dateFormat = "'Tomorrow,' EEEE 'the' d'st'"
+        } else if Calendar.current.isDateInYesterday(date) {
+            formatter.dateFormat = "'Yesterday,' EEEE 'the' d'st'"
+        } else {
+            formatter.dateFormat = "EEEE 'the' d'st'"
+        }
+        
+        var dateString = formatter.string(from: date)
+        
+        // Fix ordinal suffix
+        let day = Calendar.current.component(.day, from: date)
+        let suffix: String
+        switch day {
+        case 1, 21, 31: suffix = "st"
+        case 2, 22: suffix = "nd"
+        case 3, 23: suffix = "rd"
+        default: suffix = "th"
+        }
+        
+        dateString = dateString.replacingOccurrences(of: "\(day)st", with: "\(day)\(suffix)")
+        
+        return dateString
+    }
+}
+
+struct DynamicHeaderText: View {
+    let focusCount: Int
+    
+    private var headerText: String {
+        if focusCount == 0 {
+            return "What will make today a success?"
+        } else if focusCount == 1 {
+            return "Focus. Execute. Ship."
+        } else if focusCount == 2 {
+            return "Two paths converge."
+        } else {
+            return "Maximum velocity engaged."
+        }
+    }
+    
+    var body: some View {
+        Text(headerText)
+            .font(.system(size: 28, weight: .bold))
+            .foregroundColor(.white)
+            .animation(.easeInOut, value: headerText)
+    }
+}
+
 struct EmptyStateView: View {
     var body: some View {
         VStack(spacing: 16) {
-            Text("Pluck the strand to begin your journey")
+            // Arrow pointing down
+            Image(systemName: "arrow.down")
+                .font(.system(size: 20))
+                .foregroundColor(.white.opacity(0.4))
+                .padding(.top, 60)
+            
+            Text("Pluck the strand to begin")
                 .font(.system(size: 16, weight: .medium))
                 .foregroundColor(.white.opacity(0.6))
-                .padding(.top, 100)
         }
     }
 }
@@ -280,42 +381,3 @@ struct TaskRow: View {
     }
 }
 
-struct CalendarView: View {
-    @Binding var selectedDate: Date
-    
-    var body: some View {
-        ScrollView(.horizontal, showsIndicators: false) {
-            HStack(spacing: 20) {
-                ForEach(-7..<8) { dayOffset in
-                    let date = Calendar.current.date(byAdding: .day, value: dayOffset, to: Date())!
-                    let isToday = Calendar.current.isDateInToday(date)
-                    let isSelected = Calendar.current.isDate(date, inSameDayAs: selectedDate)
-                    
-                    VStack(spacing: 4) {
-                        Text(dayName(for: date))
-                            .font(.caption)
-                            .foregroundColor(.white.opacity(0.5))
-                        
-                        Text("\(Calendar.current.component(.day, from: date))")
-                            .font(.system(size: 16, weight: isToday ? .bold : .regular))
-                            .foregroundColor(isSelected ? .white : .white.opacity(0.7))
-                    }
-                    .padding(.horizontal, 12)
-                    .padding(.vertical, 8)
-                    .background(isSelected ? Color.white.opacity(0.1) : Color.clear)
-                    .cornerRadius(8)
-                    .onTapGesture {
-                        selectedDate = date
-                    }
-                }
-            }
-            .padding(.horizontal)
-        }
-    }
-    
-    func dayName(for date: Date) -> String {
-        let formatter = DateFormatter()
-        formatter.dateFormat = "EEE"
-        return formatter.string(from: date)
-    }
-}
