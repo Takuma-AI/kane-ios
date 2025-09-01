@@ -164,21 +164,21 @@ struct AudioReactiveWave: View {
     let phase: CGFloat
     let geometry: GeometryProxy
     
-    // Strand-specific properties based on index
+    // Strand-specific properties based on index - increased variations
     private var baseAmplitude: CGFloat {
-        [8, 10, 6, 12, 7][index]
+        [5, 15, 8, 20, 12][index]  // Much more variation in heights
     }
     
     private var frequency: CGFloat {
-        [2.5, 3.0, 4.0, 2.0, 3.5][index]
+        [2.0, 3.5, 5.0, 1.5, 4.0][index]  // More frequency variation
     }
     
     private var phaseMultiplier: CGFloat {
-        [1.0, 1.2, 0.8, 1.5, 0.9][index]
+        [1.0, 1.5, 0.6, 2.0, 0.8][index]  // More phase variation for desync
     }
     
     private var verticalOffset: CGFloat {
-        [0, -1.5, 1.5, -0.75, 0.75][index]
+        [0, -3, 3, -1.5, 1.5][index]  // Slightly more vertical spread
     }
     
     private var opacity: Double {
@@ -206,18 +206,21 @@ struct AudioReactiveWave: View {
                 // Base wave
                 let baseWave = sin((relativeX * .pi * 3 * frequency) - (phase * phaseMultiplier))
                 
-                // Audio modulation
-                // Amplitude affects overall wave height
-                let amplitudeModulation = 1.0 + CGFloat(amplitude) * 2.0
+                // Audio modulation - much more dramatic response
+                // Amplitude affects overall wave height (increased from 2.0 to 5.0)
+                let amplitudeModulation = 1.0 + CGFloat(amplitude) * 5.0
                 
-                // Frequency band creates additional ripples
-                let frequencyModulation = sin(relativeX * .pi * 8) * CGFloat(frequencyBand) * 0.3
+                // Frequency band creates additional ripples (increased from 0.3 to 0.6)
+                let frequencyModulation = sin(relativeX * .pi * 8) * CGFloat(frequencyBand) * 0.6
+                
+                // Add secondary wave for more complexity when audio is active
+                let secondaryWave = sin(relativeX * .pi * 12) * CGFloat(amplitude) * 0.4
                 
                 // Combine waves
-                let combinedWave = baseWave + frequencyModulation
+                let combinedWave = baseWave + frequencyModulation + secondaryWave
                 
-                // Apply amplitude with audio reactivity
-                let finalAmplitude = baseAmplitude * amplitudeModulation * (0.5 + CGFloat(frequencyBand))
+                // Apply amplitude with audio reactivity (increased response)
+                let finalAmplitude = baseAmplitude * amplitudeModulation * (0.3 + CGFloat(frequencyBand) * 1.5)
                 
                 let y = midY + finalAmplitude * combinedWave
                 
