@@ -85,7 +85,9 @@ struct MainView: View {
                     // Dynamic header text
                     DynamicHeaderText(focusCount: todaysFocuses.count)
                         .padding(.top, 4)
+                        .frame(maxWidth: .infinity, alignment: .leading)
                 }
+                .frame(maxWidth: .infinity, alignment: .leading)
                 .padding(.horizontal)
                 .padding(.top, 20)
                 
@@ -94,6 +96,7 @@ struct MainView: View {
                     // Success criteria section
                     if todaysFocuses.isEmpty && !isStrandActive {
                         EmptyStateView()
+                            .frame(maxWidth: .infinity)
                     } else if !todaysFocuses.isEmpty {
                             VStack(alignment: .leading, spacing: 12) {
                                 Text("Success criteria for today")
@@ -140,6 +143,7 @@ struct MainView: View {
                         }
                 }
                 .padding(.vertical, 20)
+                .frame(maxWidth: .infinity, alignment: .leading)
                 
                     Spacer()
                         .frame(minHeight: 100)
@@ -380,40 +384,30 @@ struct EmptyStateView: View {
     @State private var bounceAnimation = false
     
     var body: some View {
-        VStack(spacing: 0) {
+        VStack(spacing: 12) {
             Spacer()
-                .frame(height: 120)
+                .frame(minHeight: 200)
             
-            // Big question text  
-            Text("What will make\ntoday a success?")
-                .font(.system(size: 32, weight: .bold))
-                .foregroundColor(.white.opacity(0.9))
-                .multilineTextAlignment(.center)
-                .lineSpacing(8)
-                .padding(.horizontal, 40)
-                .frame(maxWidth: .infinity, alignment: .center)
+            // Just the activation instruction
+            Image(systemName: "arrow.up")
+                .font(.system(size: 24, weight: .light))
+                .foregroundColor(.white.opacity(0.4))
+                .offset(y: bounceAnimation ? -8 : 0)
+                .animation(
+                    .easeInOut(duration: 1.2)
+                    .repeatForever(autoreverses: true),
+                    value: bounceAnimation
+                )
+            
+            Text("Drag the strand upward to begin")
+                .font(.system(size: 16, weight: .medium))
+                .foregroundColor(.white.opacity(0.5))
             
             Spacer()
-            
-            // Activation instruction at bottom
-            VStack(spacing: 12) {
-                Image(systemName: "arrow.up")
-                    .font(.system(size: 24, weight: .light))
-                    .foregroundColor(.white.opacity(0.4))
-                    .offset(y: bounceAnimation ? -8 : 0)
-                    .animation(
-                        .easeInOut(duration: 1.2)
-                        .repeatForever(autoreverses: true),
-                        value: bounceAnimation
-                    )
-                
-                Text("Drag the strand upward to begin")
-                    .font(.system(size: 16, weight: .medium))
-                    .foregroundColor(.white.opacity(0.5))
-            }
-            .padding(.bottom, 120) // More space above the strand
+                .frame(minHeight: 100)
         }
-        .frame(maxWidth: .infinity)
+        .frame(maxWidth: .infinity, alignment: .center)
+        .padding(.horizontal)
         .onAppear {
             bounceAnimation = true
         }
