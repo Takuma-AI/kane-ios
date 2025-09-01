@@ -135,6 +135,11 @@ struct AudioReactiveStrandView: View {
     }
     
     private func deactivateStrand() {
+        // Haptic feedback for deactivation
+        let impactFeedback = UIImpactFeedbackGenerator(style: .medium)
+        impactFeedback.prepare()
+        impactFeedback.impactOccurred()
+        
         isActive = false
         stopAnimations()
         

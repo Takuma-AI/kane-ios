@@ -38,6 +38,13 @@ class ConversationManager: ObservableObject {
             print("✅ Conversation object created: \(conversation != nil)")
             
             setupObservers()
+            print("✅ Conversation object ready, waiting for initialization...")
+            
+            // Wait for the conversation to be fully initialized
+            // This ensures the WebRTC connection is established before unmuting
+            try await Task.sleep(nanoseconds: 1_500_000_000) // 1.5 second delay
+            
+            // Now mark as connected and unmute
             isConnected = true
             print("✅ Conversation connected!")
             
@@ -50,6 +57,10 @@ class ConversationManager: ObservableObject {
                 do {
                     try await conv.setMuted(false)
                     print("🔊 Successfully unmuted conversation")
+                    
+                    // Additional small delay to ensure audio pipeline is ready
+                    try await Task.sleep(nanoseconds: 200_000_000) // 0.2 second
+                    print("🎤 Audio pipeline ready - you can speak now!")
                 } catch {
                     print("❌ Failed to unmute: \(error)")
                 }
@@ -82,12 +93,21 @@ class ConversationManager: ObservableObject {
         conversation.$state
             .sink { [weak self] state in
                 print("🔊 Conversation state changed: \(state)")
-                // ConversationState is an enum with cases: idle, connecting, active, ended, error
-                if case .active = state {
-                    self?.isConnected = true
+                
+                switch state {
+                case .active:
+                    // Don't immediately set connected here, wait for proper initialization
                     print("🎙️ Conversation is now ACTIVE - ready for voice!")
-                } else {
+                case .connecting:
+                    print("⏳ Conversation is connecting...")
+                case .ended:
                     self?.isConnected = false
+                    print("🔚 Conversation has ended")
+                case .error:
+                    self?.isConnected = false
+                    print("❌ Conversation error occurred")
+                default:
+                    print("❓ Unknown state: \(state)")
                 }
             }
             .store(in: &cancellables)
