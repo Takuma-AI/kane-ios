@@ -97,6 +97,8 @@ struct MainView: View {
                     if todaysFocuses.isEmpty && !isStrandActive {
                         EmptyStateView()
                             .frame(maxWidth: .infinity)
+                            .opacity(contentOpacity)
+                            .offset(y: contentOffset)
                     } else if !todaysFocuses.isEmpty {
                             VStack(alignment: .leading, spacing: 12) {
                                 Text("Success criteria for today")
@@ -119,6 +121,8 @@ struct MainView: View {
                                         }
                                 }
                             }
+                            .opacity(contentOpacity)
+                            .offset(y: contentOffset)
                         }
                         
                         // Blocker tasks section
@@ -191,6 +195,23 @@ struct MainView: View {
                 }
             }
         )
+        .onAppear {
+            // Staggered fade-in animations
+            withAnimation(.easeOut(duration: 0.8)) {
+                headerOpacity = 1
+                contentOffset = 0
+            }
+            
+            // Content appears slightly after header
+            withAnimation(.easeOut(duration: 0.8).delay(0.3)) {
+                contentOpacity = 1
+            }
+            
+            // Strand appears last
+            withAnimation(.easeOut(duration: 0.6).delay(0.6)) {
+                strandOpacity = 1
+            }
+        }
     }
     
     func debugPrintAllFocuses() {

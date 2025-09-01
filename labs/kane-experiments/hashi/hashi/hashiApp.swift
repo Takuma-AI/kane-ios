@@ -8,7 +8,7 @@ struct hashiApp: App {
     
     var body: some Scene {
         WindowGroup {
-            MainView()
+            LaunchView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
                 .environmentObject(conversationManager)
                 .preferredColorScheme(.dark)
