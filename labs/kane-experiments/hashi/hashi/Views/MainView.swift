@@ -22,6 +22,12 @@ struct MainView: View {
     @State private var selectedFocus: Focus?
     @State private var selectedTask: FocusTask?
     
+    // Animation states for launch
+    @State private var headerOpacity: Double = 0
+    @State private var contentOpacity: Double = 0
+    @State private var strandOpacity: Double = 0
+    @State private var contentOffset: CGFloat = 20
+    
     var body: some View {
         ZStack {
             // Black background with subtle lens flares (from kane-native)
@@ -90,6 +96,8 @@ struct MainView: View {
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding(.horizontal)
                 .padding(.top, 20)
+                .opacity(headerOpacity)
+                .offset(y: contentOffset)
                 
                 // Main content
                 VStack(alignment: .leading, spacing: 24) {
@@ -101,12 +109,6 @@ struct MainView: View {
                             .offset(y: contentOffset)
                     } else if !todaysFocuses.isEmpty {
                             VStack(alignment: .leading, spacing: 12) {
-                                Text("Success criteria for today")
-                                    .font(.system(size: 12, weight: .medium))
-                                    .foregroundColor(.white.opacity(0.5))
-                                    .textCase(.uppercase)
-                                    .padding(.horizontal)
-                                
                                 ForEach(todaysFocuses) { focus in
                                     FocusCard(focus: focus)
                                         .transition(.asymmetric(
@@ -145,6 +147,41 @@ struct MainView: View {
                                 }
                             }
                         }
+                        
+                        // Agent Task Cards (Mock)
+                        VStack(alignment: .leading, spacing: 16) {
+                            Text("Background agents working for you")
+                                .font(.system(size: 12, weight: .medium))
+                                .foregroundColor(.white.opacity(0.5))
+                                .textCase(.uppercase)
+                                .padding(.horizontal)
+                            
+                            VStack(spacing: 12) {
+                                AgentTaskCard(
+                                    title: "Health insurance sorted",
+                                    status: "Comparing 3 plans that fit your startup budget",
+                                    progress: 0.7,
+                                    icon: "heart.text.square"
+                                )
+                                
+                                AgentTaskCard(
+                                    title: "Parents' dinner secured",
+                                    status: "Booked at Chez Laurent for Saturday 7pm",
+                                    progress: 1.0,
+                                    icon: "fork.knife"
+                                )
+                                
+                                AgentTaskCard(
+                                    title: "Your skincare routine",
+                                    status: "Analyzing your skin type against 42 products",
+                                    progress: 0.4,
+                                    icon: "sparkles"
+                                )
+                            }
+                            .padding(.horizontal)
+                        }
+                        .opacity(contentOpacity * 0.8)
+                        .offset(y: contentOffset)
                 }
                 .padding(.vertical, 20)
                 .frame(maxWidth: .infinity, alignment: .leading)
@@ -178,6 +215,7 @@ struct MainView: View {
                         .offset(y: -40)
                     )
             }
+            .opacity(strandOpacity)
         }
         .onAppear {
             conversationManager.setContext(viewContext)
@@ -381,21 +419,17 @@ struct DynamicHeaderText: View {
         if focusCount == 0 {
             return "What will make today a success?"
         } else if focusCount == 1 {
-            return "What else?"
+            return "What's the one thing that unlocks everything else?"
         } else if focusCount == 2 {
-            return "One more thing?"
+            return "What would make this complete?"
         } else {
-            return "Maximum focus reached"
+            return "Your focus is set. Time to execute."
         }
-    }
-    
-    private var fontSize: CGFloat {
-        focusCount == 0 ? 28 : 20
     }
     
     var body: some View {
         Text(headerText)
-            .font(.system(size: fontSize, weight: .bold))
+            .font(.system(size: 28, weight: .bold))
             .foregroundColor(.white)
             .animation(.easeInOut, value: headerText)
     }
@@ -640,6 +674,122 @@ struct TaskRow: View {
         }
         .onAppear {
             isCompleted = task.completedAt != nil
+        }
+    }
+}
+
+struct AgentTaskCard: View {
+    let title: String
+    let status: String
+    let progress: Double
+    let icon: String
+    
+    @State private var pulseAnimation = false
+    
+    var body: some View {
+        ZStack {
+            // Subtle glass background with gradient
+            RoundedRectangle(cornerRadius: 12)
+                .fill(
+                    LinearGradient(
+                        colors: [
+                            Color.cyan.opacity(0.05),
+                            Color.purple.opacity(0.03)
+                        ],
+                        startPoint: .topLeading,
+                        endPoint: .bottomTrailing
+                    )
+                )
+            
+            RoundedRectangle(cornerRadius: 12)
+                .strokeBorder(
+                    LinearGradient(
+                        colors: [
+                            Color.cyan.opacity(0.2),
+                            Color.purple.opacity(0.1)
+                        ],
+                        startPoint: .topLeading,
+                        endPoint: .bottomTrailing
+                    ),
+                    lineWidth: 0.5
+                )
+            
+            HStack(spacing: 12) {
+                // Icon with subtle animation
+                ZStack {
+                    Circle()
+                        .fill(Color.white.opacity(0.05))
+                        .frame(width: 36, height: 36)
+                    
+                    if progress < 1.0 {
+                        Circle()
+                            .stroke(Color.cyan.opacity(0.3), lineWidth: 1)
+                            .frame(width: 36, height: 36)
+                            .scaleEffect(pulseAnimation ? 1.2 : 1.0)
+                            .opacity(pulseAnimation ? 0 : 0.5)
+                            .animation(
+                                .easeInOut(duration: 2)
+                                .repeatForever(autoreverses: false),
+                                value: pulseAnimation
+                            )
+                    }
+                    
+                    Image(systemName: icon)
+                        .font(.system(size: 16))
+                        .foregroundColor(progress >= 1.0 ? .green.opacity(0.8) : .cyan.opacity(0.7))
+                }
+                
+                // Content
+                VStack(alignment: .leading, spacing: 4) {
+                    Text(title)
+                        .font(.system(size: 14, weight: .semibold))
+                        .foregroundColor(.white.opacity(0.9))
+                    
+                    Text(status)
+                        .font(.system(size: 12))
+                        .foregroundColor(.white.opacity(0.5))
+                        .lineLimit(1)
+                }
+                
+                Spacer()
+                
+                // Progress indicator
+                if progress < 1.0 {
+                    ZStack {
+                        Circle()
+                            .stroke(Color.white.opacity(0.1), lineWidth: 2)
+                            .frame(width: 32, height: 32)
+                        
+                        Circle()
+                            .trim(from: 0, to: progress)
+                            .stroke(
+                                LinearGradient(
+                                    colors: [Color.cyan, Color.purple],
+                                    startPoint: .topLeading,
+                                    endPoint: .bottomTrailing
+                                ),
+                                style: StrokeStyle(lineWidth: 2, lineCap: .round)
+                            )
+                            .frame(width: 32, height: 32)
+                            .rotationEffect(Angle(degrees: -90))
+                        
+                        Text("\(Int(progress * 100))%")
+                            .font(.system(size: 9, weight: .medium))
+                            .foregroundColor(.white.opacity(0.5))
+                    }
+                } else {
+                    Image(systemName: "checkmark.circle.fill")
+                        .font(.system(size: 20))
+                        .foregroundColor(.green.opacity(0.8))
+                }
+            }
+            .padding(.horizontal, 12)
+            .padding(.vertical, 10)
+        }
+        .onAppear {
+            if progress < 1.0 {
+                pulseAnimation = true
+            }
         }
     }
 }
