@@ -190,7 +190,7 @@ struct GlassmorphicModal: View {
 
 struct FocusDetailView: View {
     let focus: Focus
-    var onNavigate: ((focus: Focus?, task: FocusTask?)) -> Void = { _, _ in }
+    var onNavigate: (Focus?, FocusTask?) -> Void = { _, _ in }
     
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
@@ -257,7 +257,7 @@ struct FocusDetailView: View {
                     
                     ForEach(Array(tasks).sorted { $0.createdAt < $1.createdAt }) { task in
                         Button(action: {
-                            onNavigate((nil, task))
+                            onNavigate(nil, task)
                         }) {
                             HStack {
                                 Image(systemName: task.completedAt != nil ? "checkmark.circle.fill" : "circle")
@@ -300,7 +300,7 @@ struct FocusDetailView: View {
 
 struct TaskDetailView: View {
     let task: FocusTask
-    var onNavigate: ((focus: Focus?, task: FocusTask?)) -> Void = { _, _ in }
+    var onNavigate: (Focus?, FocusTask?) -> Void = { _, _ in }
     
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
@@ -347,7 +347,7 @@ struct TaskDetailView: View {
             // Parent focus
             if let focus = task.focus {
                 Button(action: {
-                    onNavigate((focus, nil))
+                    onNavigate(focus, nil)
                 }) {
                     VStack(alignment: .leading, spacing: 8) {
                         HStack {
