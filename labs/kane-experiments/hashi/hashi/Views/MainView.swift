@@ -70,33 +70,43 @@ struct MainView: View {
                 
                 // Main content
                 ScrollView {
-                    VStack(spacing: 20) {
-                        // Focus cards with push animation
+                    VStack(alignment: .leading, spacing: 24) {
+                        // Success criteria section
                         if todaysFocuses.isEmpty && !isStrandActive {
                             EmptyStateView()
-                        } else {
-                            ForEach(todaysFocuses) { focus in
-                                FocusCard(focus: focus)
-                                    .transition(.asymmetric(
-                                        insertion: .push(from: .top).combined(with: .opacity),
-                                        removal: .scale.combined(with: .opacity)
-                                    ))
-                                    .animation(.spring(response: 0.5, dampingFraction: 0.8), value: todaysFocuses.count)
+                        } else if !todaysFocuses.isEmpty {
+                            VStack(alignment: .leading, spacing: 12) {
+                                Text("Success criteria for today")
+                                    .font(.system(size: 12, weight: .medium))
+                                    .foregroundColor(.white.opacity(0.5))
+                                    .textCase(.uppercase)
+                                    .padding(.horizontal)
+                                
+                                ForEach(todaysFocuses) { focus in
+                                    FocusCard(focus: focus)
+                                        .transition(.asymmetric(
+                                            insertion: .push(from: .top).combined(with: .opacity),
+                                            removal: .scale.combined(with: .opacity)
+                                        ))
+                                        .animation(.spring(response: 0.5, dampingFraction: 0.8), value: todaysFocuses.count)
+                                }
                             }
                         }
                         
-                        // Blocker tasks
+                        // Blocker tasks section
                         if !blockerTasks.isEmpty {
                             VStack(alignment: .leading, spacing: 12) {
-                                Text("Clearing the path")
-                                    .font(.caption)
-                                    .foregroundColor(.white.opacity(0.6))
+                                Text("Other blockers")
+                                    .font(.system(size: 12, weight: .medium))
+                                    .foregroundColor(.white.opacity(0.5))
+                                    .textCase(.uppercase)
+                                    .padding(.horizontal)
                                 
                                 ForEach(blockerTasks) { task in
                                     TaskRow(task: task)
+                                        .padding(.horizontal)
                                 }
                             }
-                            .padding(.horizontal)
                         }
                     }
                     .padding(.vertical, 20)
@@ -347,6 +357,7 @@ struct FocusCard: View {
 
 struct TaskRow: View {
     let task: FocusTask
+    @State private var isCompleted = false
     
     var body: some View {
         ZStack {
@@ -359,13 +370,39 @@ struct TaskRow: View {
                 .strokeBorder(Color.white.opacity(0.1), lineWidth: 0.5)
             
             HStack {
-                Circle()
-                    .strokeBorder(Color.white.opacity(0.3), lineWidth: 1.5)
-                    .frame(width: 20, height: 20)
+                // Progress circle
+                ZStack {
+                    Circle()
+                        .strokeBorder(Color.white.opacity(0.3), lineWidth: 1.5)
+                        .frame(width: 20, height: 20)
+                    
+                    if isCompleted || task.completedAt != nil {
+                        Circle()
+                            .fill(Color.green.opacity(0.8))
+                            .frame(width: 12, height: 12)
+                            .transition(.scale.combined(with: .opacity))
+                    }
+                    
+                    // Progress indicator for AI work
+                    if let aiProgress = task.aiProgress, !aiProgress.isEmpty {
+                        Circle()
+                            .trim(from: 0, to: 0.3)
+                            .stroke(Color.cyan, lineWidth: 2)
+                            .frame(width: 20, height: 20)
+                            .rotationEffect(.degrees(-90))
+                            .animation(.linear(duration: 1).repeatForever(autoreverses: false), value: aiProgress)
+                    }
+                }
+                .onTapGesture {
+                    withAnimation(.spring(response: 0.3, dampingFraction: 0.7)) {
+                        isCompleted.toggle()
+                    }
+                }
                 
                 Text(task.content ?? "")
                     .font(.system(size: 14))
                     .foregroundColor(.white.opacity(0.8))
+                    .strikethrough(isCompleted || task.completedAt != nil, color: .white.opacity(0.5))
                 
                 Spacer()
                 
@@ -377,6 +414,9 @@ struct TaskRow: View {
             }
             .padding(.horizontal)
             .padding(.vertical, 10)
+        }
+        .onAppear {
+            isCompleted = task.completedAt != nil
         }
     }
 }
