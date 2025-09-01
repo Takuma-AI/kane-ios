@@ -47,6 +47,12 @@ struct AudioReactiveStrandView: View {
             }
         }
         .contentShape(Rectangle())
+        .onTapGesture {
+            // Tap to deactivate when active
+            if isActive {
+                deactivateStrand()
+            }
+        }
         .gesture(
             DragGesture(minimumDistance: 10)
                 .onChanged { value in
@@ -62,8 +68,8 @@ struct AudioReactiveStrandView: View {
                     let upwardDrag = min(0, value.translation.height)
                     dragOffset = upwardDrag
                     
-                    // Calculate bend amount based on drag distance
-                    bendAmount = abs(upwardDrag) / 100
+                    // Calculate bend amount based on drag distance - much more subtle
+                    bendAmount = abs(upwardDrag) / 300  // Changed from 100 to 300 for less bend
                 }
                 .onEnded { value in
                     // Check if drag was sufficient to activate
@@ -244,45 +250,62 @@ struct AudioReactiveWave: View {
     }
 }
 
-// Bent strand view for when dragging
+// Bent strand view for when dragging - subtle dotted effect
 struct BentStrand: View {
     let bendAmount: CGFloat
     let dragOffset: CGFloat
     let geometry: GeometryProxy
     
     var body: some View {
-        Path { path in
-            let midY = geometry.size.height / 2
-            let width = geometry.size.width
-            let controlPointY = midY + dragOffset
-            
-            // Create a bent line using a quadratic curve
-            path.move(to: CGPoint(x: 0, y: midY))
-            
-            // Multiple strands with slight variations
-            for i in 0..<5 {
-                let offset = CGFloat(i - 2) * 2
-                path.move(to: CGPoint(x: 0, y: midY + offset))
+        ZStack {
+            // Create a dotted bent line similar to the inactive state
+            Path { path in
+                let midY = geometry.size.height / 2
+                let width = geometry.size.width
+                let controlPointY = midY + (dragOffset * 0.5) // Make bend even more subtle
                 
-                // Quadratic curve to create the bend
-                path.addQuadCurve(
-                    to: CGPoint(x: width, y: midY + offset),
-                    control: CGPoint(x: width / 2, y: controlPointY + offset)
-                )
+                // Single dotted line that bends
+                let dotSpacing: CGFloat = 6
+                let dotSize: CGFloat = 2
+                let numDots = Int(width / dotSpacing)
+                
+                for i in 0..<numDots {
+                    let x = CGFloat(i) * dotSpacing
+                    let t = x / width
+                    
+                    // Calculate position along the quadratic curve
+                    let bezierY = pow(1 - t, 2) * midY + 
+                                 2 * (1 - t) * t * controlPointY + 
+                                 pow(t, 2) * midY
+                    
+                    // Draw a small circle (dot)
+                    path.addEllipse(in: CGRect(
+                        x: x - dotSize/2,
+                        y: bezierY - dotSize/2,
+                        width: dotSize,
+                        height: dotSize
+                    ))
+                }
+            }
+            .fill(Color.white.opacity(0.6))
+            
+            // Subtle glow when bending
+            if bendAmount > 0.01 {
+                Path { path in
+                    let midY = geometry.size.height / 2
+                    let width = geometry.size.width
+                    let controlPointY = midY + (dragOffset * 0.5)
+                    
+                    path.move(to: CGPoint(x: 0, y: midY))
+                    path.addQuadCurve(
+                        to: CGPoint(x: width, y: midY),
+                        control: CGPoint(x: width / 2, y: controlPointY)
+                    )
+                }
+                .stroke(Color.white.opacity(0.2 * bendAmount), lineWidth: 1)
+                .blur(radius: 2)
             }
         }
-        .stroke(
-            LinearGradient(
-                colors: [
-                    Color.white.opacity(0.8),
-                    Color.cyan.opacity(0.6)
-                ],
-                startPoint: .leading,
-                endPoint: .trailing
-            ),
-            lineWidth: 2
-        )
-        .blur(radius: 0.5)
     }
 }
 

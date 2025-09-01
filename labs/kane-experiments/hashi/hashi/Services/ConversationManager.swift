@@ -27,30 +27,15 @@ class ConversationManager: ObservableObject {
     func startConversation() async {
         do {
             print("🔄 Starting ElevenLabs conversation...")
-            
-            // Check if we need a signed URL for a private agent
-            if let signedUrl = try await ElevenLabsConfig.getSignedUrl() {
-                print("🔐 Using signed URL for private agent")
-                // TODO: When SDK supports signed URLs, use it here
-                // For now, falling back to public agent
-                print("⚠️ Signed URL support not yet implemented, using public agent")
-            }
-            
             print("📍 Using agent ID: \(agentId)")
             
-            // Get current context for the agent
-            let contextMessage = getCurrentContext()
-            
-            // Create conversation config with initial context
-            var config = ConversationConfig()
-            // TODO: When SDK supports initial context, add it here
-            // config.initialContext = contextMessage
-            
-            // Start conversation with public agent for now
+            // Start conversation with public agent
             conversation = try await ElevenLabs.startConversation(
                 agentId: agentId,
-                config: config
+                config: ConversationConfig()
             )
+            
+            print("✅ Conversation object created: \(conversation != nil)")
             
             setupObservers()
             isConnected = true
@@ -58,19 +43,21 @@ class ConversationManager: ObservableObject {
             
             // Make sure we're not muted
             if let conv = conversation {
-                print("🎤 Mute status: \(conv.isMuted)")
-                if conv.isMuted {
-                    print("🔇 Unmuting conversation...")
-                    try? await conv.setMuted(false)
+                print("🎤 Initial mute status: \(conv.isMuted)")
+                print("🎤 Conversation state: \(conv.state)")
+                
+                // Always try to unmute
+                do {
+                    try await conv.setMuted(false)
+                    print("🔊 Successfully unmuted conversation")
+                } catch {
+                    print("❌ Failed to unmute: \(error)")
                 }
-            }
-            
-            // Send initial trigger message after a short delay
-            Task {
-                try? await Task.sleep(nanoseconds: 1_000_000_000) // 1 second delay
-                print("📤 Sending initial greeting...")
-                // The agent should respond to silence or you can trigger with:
-                // conversation?.sendAudioData(...) or similar method if available
+                
+                // Check mute status again
+                print("🎤 Final mute status: \(conv.isMuted)")
+            } else {
+                print("❌ Conversation object is nil!")
             }
         } catch {
             print("❌ Failed to start conversation: \(error)")
