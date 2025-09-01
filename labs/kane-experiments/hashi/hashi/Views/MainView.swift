@@ -18,6 +18,9 @@ struct MainView: View {
     
     @State private var selectedDate = Date()
     @State private var isStrandActive = false
+    @State private var showingModal = false
+    @State private var selectedFocus: Focus?
+    @State private var selectedTask: FocusTask?
     
     var body: some View {
         ZStack {
@@ -105,6 +108,11 @@ struct MainView: View {
                                             removal: .scale.combined(with: .opacity)
                                         ))
                                         .animation(.spring(response: 0.5, dampingFraction: 0.8), value: todaysFocuses.count)
+                                        .onTapGesture {
+                                            selectedFocus = focus
+                                            selectedTask = nil
+                                            showingModal = true
+                                        }
                                 }
                             }
                         }
@@ -121,6 +129,11 @@ struct MainView: View {
                                 ForEach(blockerTasks) { task in
                                     TaskRow(task: task)
                                         .padding(.horizontal)
+                                        .onTapGesture {
+                                            selectedTask = task
+                                            selectedFocus = nil
+                                            showingModal = true
+                                        }
                                 }
                             }
                         }
@@ -139,6 +152,18 @@ struct MainView: View {
             conversationManager.setContext(viewContext)
             debugPrintAllFocuses()
         }
+        .overlay(
+            Group {
+                if showingModal {
+                    GlassmorphicModal(
+                        isPresented: $showingModal,
+                        focus: selectedFocus,
+                        task: selectedTask
+                    )
+                    .transition(.opacity.combined(with: .move(edge: .bottom)))
+                }
+            }
+        )
     }
     
     func debugPrintAllFocuses() {
