@@ -172,13 +172,14 @@ class ConversationManager: ObservableObject {
         case "create_focus":
             return createFocus(parameters: parameters, context: context)
             
-        // Start with just one tool for testing
-        // case "create_task":
-        //     return createTask(parameters: parameters, context: context)
-        // case "update_focus":
-        //     return updateFocus(parameters: parameters, context: context)
-        // case "get_current_state":
-        //     return getCurrentState(context: context)
+        case "create_task":
+            return createTask(parameters: parameters, context: context)
+            
+        case "update_focus":
+            return updateFocus(parameters: parameters, context: context)
+            
+        case "get_current_state":
+            return getCurrentState(context: context)
             
         default:
             return "Unknown tool: \(name)"
