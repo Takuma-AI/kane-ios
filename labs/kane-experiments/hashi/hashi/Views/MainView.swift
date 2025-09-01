@@ -58,7 +58,9 @@ struct MainView: View {
                 .blendMode(.plusLighter)
             }
             
-            VStack(spacing: 0) {
+            // Pull-to-refresh ScrollView
+            ScrollView {
+                VStack(spacing: 0) {
                 // Debug reset button (top right, very small)
                 #if DEBUG
                 HStack {
@@ -88,12 +90,11 @@ struct MainView: View {
                 .padding(.top, 20)
                 
                 // Main content
-                ScrollView {
-                    VStack(alignment: .leading, spacing: 24) {
-                        // Success criteria section
-                        if todaysFocuses.isEmpty && !isStrandActive {
-                            EmptyStateView()
-                        } else if !todaysFocuses.isEmpty {
+                VStack(alignment: .leading, spacing: 24) {
+                    // Success criteria section
+                    if todaysFocuses.isEmpty && !isStrandActive {
+                        EmptyStateView()
+                    } else if !todaysFocuses.isEmpty {
                             VStack(alignment: .leading, spacing: 12) {
                                 Text("Success criteria for today")
                                     .font(.system(size: 12, weight: .medium))
@@ -137,15 +138,37 @@ struct MainView: View {
                                 }
                             }
                         }
-                    }
-                    .padding(.vertical, 20)
                 }
+                .padding(.vertical, 20)
                 
+                    Spacer()
+                        .frame(minHeight: 100)
+                }
+            }
+            .refreshable {
+                // Trigger a refresh - could reload data from Core Data
+                // For now, just a placeholder that completes immediately
+                try? await Task.sleep(nanoseconds: 500_000_000)
+            }
+            
+            // Audio-reactive strand overlay at bottom
+            VStack {
                 Spacer()
-                
-                // Audio-reactive strand at bottom
                 AudioReactiveStrandView(isActive: $isStrandActive)
                     .frame(height: 60)
+                    .background(
+                        LinearGradient(
+                            colors: [
+                                Color.black.opacity(0),
+                                Color.black.opacity(0.8),
+                                Color.black
+                            ],
+                            startPoint: .top,
+                            endPoint: .bottom
+                        )
+                        .frame(height: 100)
+                        .offset(y: -40)
+                    )
             }
         }
         .onAppear {
@@ -333,168 +356,66 @@ struct DynamicHeaderText: View {
         if focusCount == 0 {
             return "What will make today a success?"
         } else if focusCount == 1 {
-            return "Focus. Execute. Ship."
+            return "What else?"
         } else if focusCount == 2 {
-            return "Two paths converge."
+            return "One more thing?"
         } else {
-            return "Maximum velocity engaged."
+            return "Maximum focus reached"
         }
+    }
+    
+    private var fontSize: CGFloat {
+        focusCount == 0 ? 28 : 20
     }
     
     var body: some View {
         Text(headerText)
-            .font(.system(size: 28, weight: .bold))
+            .font(.system(size: fontSize, weight: .bold))
             .foregroundColor(.white)
             .animation(.easeInOut, value: headerText)
     }
 }
 
 struct EmptyStateView: View {
-    @State private var pulseAnimation = false
-    @State private var floatAnimation = false
+    @State private var bounceAnimation = false
     
     var body: some View {
-        VStack(spacing: 24) {
+        VStack(spacing: 0) {
             Spacer()
-                .frame(height: 40)
+                .frame(height: 120)
             
-            // Main illustration - pulsing circle with focus icon
-            ZStack {
-                // Outer pulsing ring
-                Circle()
-                    .stroke(
-                        LinearGradient(
-                            colors: [
-                                Color.cyan.opacity(0.3),
-                                Color.purple.opacity(0.2)
-                            ],
-                            startPoint: .topLeading,
-                            endPoint: .bottomTrailing
-                        ),
-                        lineWidth: 2
-                    )
-                    .frame(width: 100, height: 100)
-                    .scaleEffect(pulseAnimation ? 1.2 : 1.0)
-                    .opacity(pulseAnimation ? 0 : 0.6)
-                    .animation(
-                        .easeInOut(duration: 2)
-                        .repeatForever(autoreverses: false),
-                        value: pulseAnimation
-                    )
-                
-                // Inner circle
-                Circle()
-                    .fill(
-                        LinearGradient(
-                            colors: [
-                                Color.white.opacity(0.05),
-                                Color.white.opacity(0.02)
-                            ],
-                            startPoint: .topLeading,
-                            endPoint: .bottomTrailing
-                        )
-                    )
-                    .frame(width: 80, height: 80)
-                
-                // Focus icon
-                Image(systemName: "target")
-                    .font(.system(size: 36, weight: .light))
-                    .foregroundColor(.white.opacity(0.5))
-                    .offset(y: floatAnimation ? -5 : 5)
-                    .animation(
-                        .easeInOut(duration: 3)
-                        .repeatForever(autoreverses: true),
-                        value: floatAnimation
-                    )
-            }
-            
-            VStack(spacing: 12) {
-                Text("Set Your Daily Focus")
-                    .font(.system(size: 22, weight: .semibold))
-                    .foregroundColor(.white.opacity(0.9))
-                
-                Text("Define up to 3 priorities that will\nmake today successful")
-                    .font(.system(size: 15))
-                    .foregroundColor(.white.opacity(0.5))
-                    .multilineTextAlignment(.center)
-                    .lineSpacing(4)
-            }
-            
-            // Instructions
-            VStack(spacing: 20) {
-                // Divider
-                Rectangle()
-                    .fill(Color.white.opacity(0.1))
-                    .frame(width: 60, height: 1)
-                
-                VStack(spacing: 16) {
-                    HStack(spacing: 12) {
-                        Image(systemName: "hand.draw")
-                            .font(.system(size: 18))
-                            .foregroundColor(.cyan.opacity(0.7))
-                            .frame(width: 24)
-                        
-                        Text("Drag the strand upward to start")
-                            .font(.system(size: 14))
-                            .foregroundColor(.white.opacity(0.6))
-                        
-                        Spacer()
-                    }
-                    
-                    HStack(spacing: 12) {
-                        Image(systemName: "mic.fill")
-                            .font(.system(size: 18))
-                            .foregroundColor(.purple.opacity(0.7))
-                            .frame(width: 24)
-                        
-                        Text("Speak your priorities naturally")
-                            .font(.system(size: 14))
-                            .foregroundColor(.white.opacity(0.6))
-                        
-                        Spacer()
-                    }
-                    
-                    HStack(spacing: 12) {
-                        Image(systemName: "sparkles")
-                            .font(.system(size: 18))
-                            .foregroundColor(.yellow.opacity(0.7))
-                            .frame(width: 24)
-                        
-                        Text("AI captures and organizes them")
-                            .font(.system(size: 14))
-                            .foregroundColor(.white.opacity(0.6))
-                        
-                        Spacer()
-                    }
-                }
+            // Big question text  
+            Text("What will make\ntoday a success?")
+                .font(.system(size: 32, weight: .bold))
+                .foregroundColor(.white.opacity(0.9))
+                .multilineTextAlignment(.center)
+                .lineSpacing(8)
                 .padding(.horizontal, 40)
-            }
-            .padding(.top, 20)
-            
-            // Arrow pointing down with subtle animation
-            VStack(spacing: 8) {
-                Image(systemName: "arrow.down")
-                    .font(.system(size: 20, weight: .light))
-                    .foregroundColor(.white.opacity(0.3))
-                    .offset(y: floatAnimation ? 0 : 5)
-                    .animation(
-                        .easeInOut(duration: 1.5)
-                        .repeatForever(autoreverses: true),
-                        value: floatAnimation
-                    )
-                
-                Text("Pull to begin")
-                    .font(.system(size: 13, weight: .medium))
-                    .foregroundColor(.white.opacity(0.4))
-            }
-            .padding(.top, 30)
+                .frame(maxWidth: .infinity, alignment: .center)
             
             Spacer()
-                .frame(height: 40)
+            
+            // Activation instruction at bottom
+            VStack(spacing: 12) {
+                Image(systemName: "arrow.up")
+                    .font(.system(size: 24, weight: .light))
+                    .foregroundColor(.white.opacity(0.4))
+                    .offset(y: bounceAnimation ? -8 : 0)
+                    .animation(
+                        .easeInOut(duration: 1.2)
+                        .repeatForever(autoreverses: true),
+                        value: bounceAnimation
+                    )
+                
+                Text("Drag the strand upward to begin")
+                    .font(.system(size: 16, weight: .medium))
+                    .foregroundColor(.white.opacity(0.5))
+            }
+            .padding(.bottom, 120) // More space above the strand
         }
+        .frame(maxWidth: .infinity)
         .onAppear {
-            pulseAnimation = true
-            floatAnimation = true
+            bounceAnimation = true
         }
     }
 }
