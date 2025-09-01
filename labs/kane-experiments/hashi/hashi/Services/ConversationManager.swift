@@ -9,12 +9,15 @@ class ConversationManager: ObservableObject {
     @Published var conversation: Conversation?
     @Published var isConnected = false
     @Published var currentMessage = ""
+    @Published var configurationError: String?
     
     private var viewContext: NSManagedObjectContext?
     private var cancellables = Set<AnyCancellable>()
     
-    // ElevenLabs agent configured to capture priorities as natural language milestones
-    private let agentId = "agent_8401k3ywmrm1fsrtb1etpn74kw9e"
+    // Use configuration for agent ID
+    private var agentId: String {
+        return ElevenLabsConfig.agentId
+    }
     
     func setContext(_ context: NSManagedObjectContext) {
         self.viewContext = context
@@ -23,6 +26,18 @@ class ConversationManager: ObservableObject {
     func startConversation() async {
         do {
             print("🔄 Starting ElevenLabs conversation...")
+            
+            // Check if we need a signed URL for a private agent
+            if let signedUrl = try await ElevenLabsConfig.getSignedUrl() {
+                print("🔐 Using signed URL for private agent")
+                // TODO: When SDK supports signed URLs, use it here
+                // For now, falling back to public agent
+                print("⚠️ Signed URL support not yet implemented, using public agent")
+            }
+            
+            print("📍 Using agent ID: \(agentId)")
+            
+            // Start conversation with public agent for now
             conversation = try await ElevenLabs.startConversation(
                 agentId: agentId,
                 config: ConversationConfig()
