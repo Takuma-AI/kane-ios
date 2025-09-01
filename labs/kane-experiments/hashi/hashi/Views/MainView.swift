@@ -365,17 +365,151 @@ struct DynamicHeaderText: View {
 }
 
 struct EmptyStateView: View {
+    @State private var pulseAnimation = false
+    @State private var floatAnimation = false
+    
     var body: some View {
-        VStack(spacing: 16) {
-            // Arrow pointing down
-            Image(systemName: "arrow.down")
-                .font(.system(size: 20))
-                .foregroundColor(.white.opacity(0.4))
-                .padding(.top, 60)
+        VStack(spacing: 24) {
+            Spacer()
+                .frame(height: 40)
             
-            Text("Pluck the strand to begin")
-                .font(.system(size: 16, weight: .medium))
-                .foregroundColor(.white.opacity(0.6))
+            // Main illustration - pulsing circle with focus icon
+            ZStack {
+                // Outer pulsing ring
+                Circle()
+                    .stroke(
+                        LinearGradient(
+                            colors: [
+                                Color.cyan.opacity(0.3),
+                                Color.purple.opacity(0.2)
+                            ],
+                            startPoint: .topLeading,
+                            endPoint: .bottomTrailing
+                        ),
+                        lineWidth: 2
+                    )
+                    .frame(width: 100, height: 100)
+                    .scaleEffect(pulseAnimation ? 1.2 : 1.0)
+                    .opacity(pulseAnimation ? 0 : 0.6)
+                    .animation(
+                        .easeInOut(duration: 2)
+                        .repeatForever(autoreverses: false),
+                        value: pulseAnimation
+                    )
+                
+                // Inner circle
+                Circle()
+                    .fill(
+                        LinearGradient(
+                            colors: [
+                                Color.white.opacity(0.05),
+                                Color.white.opacity(0.02)
+                            ],
+                            startPoint: .topLeading,
+                            endPoint: .bottomTrailing
+                        )
+                    )
+                    .frame(width: 80, height: 80)
+                
+                // Focus icon
+                Image(systemName: "target")
+                    .font(.system(size: 36, weight: .light))
+                    .foregroundColor(.white.opacity(0.5))
+                    .offset(y: floatAnimation ? -5 : 5)
+                    .animation(
+                        .easeInOut(duration: 3)
+                        .repeatForever(autoreverses: true),
+                        value: floatAnimation
+                    )
+            }
+            
+            VStack(spacing: 12) {
+                Text("Set Your Daily Focus")
+                    .font(.system(size: 22, weight: .semibold))
+                    .foregroundColor(.white.opacity(0.9))
+                
+                Text("Define up to 3 priorities that will\nmake today successful")
+                    .font(.system(size: 15))
+                    .foregroundColor(.white.opacity(0.5))
+                    .multilineTextAlignment(.center)
+                    .lineSpacing(4)
+            }
+            
+            // Instructions
+            VStack(spacing: 20) {
+                // Divider
+                Rectangle()
+                    .fill(Color.white.opacity(0.1))
+                    .frame(width: 60, height: 1)
+                
+                VStack(spacing: 16) {
+                    HStack(spacing: 12) {
+                        Image(systemName: "hand.draw")
+                            .font(.system(size: 18))
+                            .foregroundColor(.cyan.opacity(0.7))
+                            .frame(width: 24)
+                        
+                        Text("Drag the strand upward to start")
+                            .font(.system(size: 14))
+                            .foregroundColor(.white.opacity(0.6))
+                        
+                        Spacer()
+                    }
+                    
+                    HStack(spacing: 12) {
+                        Image(systemName: "mic.fill")
+                            .font(.system(size: 18))
+                            .foregroundColor(.purple.opacity(0.7))
+                            .frame(width: 24)
+                        
+                        Text("Speak your priorities naturally")
+                            .font(.system(size: 14))
+                            .foregroundColor(.white.opacity(0.6))
+                        
+                        Spacer()
+                    }
+                    
+                    HStack(spacing: 12) {
+                        Image(systemName: "sparkles")
+                            .font(.system(size: 18))
+                            .foregroundColor(.yellow.opacity(0.7))
+                            .frame(width: 24)
+                        
+                        Text("AI captures and organizes them")
+                            .font(.system(size: 14))
+                            .foregroundColor(.white.opacity(0.6))
+                        
+                        Spacer()
+                    }
+                }
+                .padding(.horizontal, 40)
+            }
+            .padding(.top, 20)
+            
+            // Arrow pointing down with subtle animation
+            VStack(spacing: 8) {
+                Image(systemName: "arrow.down")
+                    .font(.system(size: 20, weight: .light))
+                    .foregroundColor(.white.opacity(0.3))
+                    .offset(y: floatAnimation ? 0 : 5)
+                    .animation(
+                        .easeInOut(duration: 1.5)
+                        .repeatForever(autoreverses: true),
+                        value: floatAnimation
+                    )
+                
+                Text("Pull to begin")
+                    .font(.system(size: 13, weight: .medium))
+                    .foregroundColor(.white.opacity(0.4))
+            }
+            .padding(.top, 30)
+            
+            Spacer()
+                .frame(height: 40)
+        }
+        .onAppear {
+            pulseAnimation = true
+            floatAnimation = true
         }
     }
 }
