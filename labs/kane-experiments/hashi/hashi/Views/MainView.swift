@@ -234,19 +234,19 @@ struct MainView: View {
             }
         )
         .onAppear {
-            // Staggered fade-in animations
-            withAnimation(.easeOut(duration: 0.8)) {
+            // Staggered fade-in animations - much slower
+            withAnimation(.easeOut(duration: 1.5).delay(0.5)) {
                 headerOpacity = 1
                 contentOffset = 0
             }
             
-            // Content appears slightly after header
-            withAnimation(.easeOut(duration: 0.8).delay(0.3)) {
+            // Content appears after header with longer delay
+            withAnimation(.easeOut(duration: 1.2).delay(1.2)) {
                 contentOpacity = 1
             }
             
-            // Strand appears last
-            withAnimation(.easeOut(duration: 0.6).delay(0.6)) {
+            // Strand appears last, even later
+            withAnimation(.easeOut(duration: 1.0).delay(1.8)) {
                 strandOpacity = 1
             }
         }
