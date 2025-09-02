@@ -2,7 +2,7 @@ import SwiftUI
 import CoreData
 
 @main
-struct hashiApp: App {
+struct kaneApp: App {
     let persistenceController = PersistenceController.shared
     @StateObject private var conversationManager = ConversationManager()
     

@@ -21,6 +21,7 @@ struct MainView: View {
     @State private var showingModal = false
     @State private var selectedFocus: Focus?
     @State private var selectedTask: FocusTask?
+    @State private var mockAgentTask: FocusTask?
     
     // Animation states for launch
     @State private var headerOpacity: Double = 0
@@ -65,7 +66,7 @@ struct MainView: View {
             }
             
             // Pull-to-refresh ScrollView
-            ScrollView {
+            ScrollView(showsIndicators: false) {
                 VStack(spacing: 0) {
                 // Debug reset button (top right, very small)
                 #if DEBUG
@@ -148,40 +149,78 @@ struct MainView: View {
                             }
                         }
                         
-                        // Agent Task Cards (Mock)
-                        VStack(alignment: .leading, spacing: 16) {
-                            Text("Background agents working for you")
+                        // Agent Task Cards (Mock) - Only show when there are focuses
+                        if !todaysFocuses.isEmpty {
+                            VStack(alignment: .leading, spacing: 16) {
+                                Text("Meanwhile...")
                                 .font(.system(size: 12, weight: .medium))
                                 .foregroundColor(.white.opacity(0.5))
                                 .textCase(.uppercase)
                                 .padding(.horizontal)
                             
                             VStack(spacing: 12) {
-                                AgentTaskCard(
-                                    title: "Health insurance sorted",
-                                    status: "Comparing 3 plans that fit your startup budget",
-                                    progress: 0.7,
-                                    icon: "heart.text.square"
-                                )
+                                Button(action: {
+                                    mockAgentTask = createMockAgentTask(
+                                        title: "Health insurance analysis",
+                                        content: "Analyzing health insurance options based on your startup needs and budget constraints. Currently comparing 3 plans under $400/month with good coverage.",
+                                        aiProgress: "Blue Shield PPO ($389/mo): Best network coverage\nKaiser HMO ($320/mo): Most affordable\nAnthem PPO ($410/mo): Best for travel"
+                                    )
+                                    selectedTask = mockAgentTask
+                                    selectedFocus = nil
+                                    showingModal = true
+                                }) {
+                                    AgentTaskCard(
+                                        title: "Health insurance sorted",
+                                        status: "Comparing 3 plans that fit your startup budget",
+                                        progress: 0.7,
+                                        icon: "heart.text.square"
+                                    )
+                                }
+                                .buttonStyle(PlainButtonStyle())
                                 
-                                AgentTaskCard(
-                                    title: "Parents' dinner secured",
-                                    status: "Booked at Chez Laurent for Saturday 7pm",
-                                    progress: 1.0,
-                                    icon: "fork.knife"
-                                )
+                                Button(action: {
+                                    mockAgentTask = createMockAgentTask(
+                                        title: "Parents' anniversary dinner",
+                                        content: "Reserved special table for your parents' anniversary celebration at their favorite restaurant.",
+                                        aiProgress: "✅ Confirmed: Saturday 7pm\n✅ Window table reserved\n✅ Anniversary dessert arranged\n✅ Dietary restrictions noted"
+                                    )
+                                    selectedTask = mockAgentTask
+                                    selectedFocus = nil
+                                    showingModal = true
+                                }) {
+                                    AgentTaskCard(
+                                        title: "Parents' dinner secured",
+                                        status: "Booked at Chez Laurent for Saturday 7pm",
+                                        progress: 1.0,
+                                        icon: "fork.knife"
+                                    )
+                                }
+                                .buttonStyle(PlainButtonStyle())
                                 
-                                AgentTaskCard(
-                                    title: "Your skincare routine",
-                                    status: "Analyzing your skin type against 42 products",
-                                    progress: 0.4,
-                                    icon: "sparkles"
-                                )
+                                Button(action: {
+                                    mockAgentTask = createMockAgentTask(
+                                        title: "Personalized skincare routine",
+                                        content: "Building your personalized morning and evening skincare routine based on combination skin type analysis.",
+                                        aiProgress: "Morning routine:\n1. Gentle cleanser (CeraVe Foaming)\n2. Vitamin C serum (Skinceuticals)\n3. Moisturizer + SPF\n\nEvening:\n1. Oil cleanser\n2. Retinol (analyzing 12 options...)"
+                                    )
+                                    selectedTask = mockAgentTask
+                                    selectedFocus = nil
+                                    showingModal = true
+                                }) {
+                                    AgentTaskCard(
+                                        title: "Your skincare routine",
+                                        status: "Analyzing your skin type against 42 products",
+                                        progress: 0.4,
+                                        icon: "sparkles"
+                                    )
+                                }
+                                .buttonStyle(PlainButtonStyle())
                             }
                             .padding(.horizontal)
                         }
                         .opacity(contentOpacity * 0.8)
                         .offset(y: contentOffset)
+                        }
                 }
                 .padding(.vertical, 20)
                 .frame(maxWidth: .infinity, alignment: .leading)
@@ -199,22 +238,34 @@ struct MainView: View {
             // Audio-reactive strand overlay at bottom
             VStack {
                 Spacer()
-                AudioReactiveStrandView(isActive: $isStrandActive)
-                    .frame(height: 60)
-                    .background(
-                        LinearGradient(
-                            colors: [
-                                Color.black.opacity(0),
-                                Color.black.opacity(0.8),
-                                Color.black
-                            ],
-                            startPoint: .top,
-                            endPoint: .bottom
-                        )
-                        .frame(height: 100)
-                        .offset(y: -40)
+                
+                // Container with background that extends to bottom
+                VStack(spacing: 0) {
+                    // The actual strand with safe padding from bottom
+                    AudioReactiveStrandView(isActive: $isStrandActive)
+                        .frame(height: 60)
+                        .padding(.bottom, 40) // Safe distance from iOS gesture area
+                    
+                    // Extra space at bottom for background
+                    Spacer()
+                        .frame(height: 20)
+                }
+                .background(
+                    LinearGradient(
+                        colors: [
+                            Color.black.opacity(0),
+                            Color.black.opacity(0.8),
+                            Color.black,
+                            Color.black
+                        ],
+                        startPoint: .top,
+                        endPoint: .bottom
                     )
+                    .frame(height: 200)
+                    .offset(y: -60)
+                )
             }
+            .ignoresSafeArea(edges: .bottom)
             .opacity(strandOpacity)
         }
         .onAppear {
@@ -250,6 +301,18 @@ struct MainView: View {
                 strandOpacity = 1
             }
         }
+    }
+    
+    // Helper function to create mock agent tasks for modal display
+    func createMockAgentTask(title: String, content: String, aiProgress: String) -> FocusTask {
+        let task = FocusTask(context: viewContext)
+        task.id = UUID()
+        task.content = content
+        task.aiProgress = aiProgress
+        task.createdAt = Date()
+        task.isBlocker = false
+        // Don't save - this is just for display
+        return task
     }
     
     func debugPrintAllFocuses() {

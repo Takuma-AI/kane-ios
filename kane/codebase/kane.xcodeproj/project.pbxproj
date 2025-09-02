@@ -11,26 +11,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		44A93AAB2E6535C700ABB13F /* hashi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hashi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A93AAB2E6535C700ABB13F /* kane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kane.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		44A93AD72E653DDE00ABB13F /* Exceptions for "hashi" folder in "hashi" target */ = {
+		44A93AD72E653DDE00ABB13F /* Exceptions for "kane" folder in "kane" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 44A93AAA2E6535C700ABB13F /* hashi */;
+			target = 44A93AAA2E6535C700ABB13F /* kane */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		44A93AAD2E6535C700ABB13F /* hashi */ = {
+		44A93AAD2E6535C700ABB13F /* kane */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				44A93AD72E653DDE00ABB13F /* Exceptions for "hashi" folder in "hashi" target */,
+				44A93AD72E653DDE00ABB13F /* Exceptions for "kane" folder in "kane" target */,
 			);
-			path = hashi;
+			path = kane;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -50,7 +50,7 @@
 		44A93AA22E6535C700ABB13F = {
 			isa = PBXGroup;
 			children = (
-				44A93AAD2E6535C700ABB13F /* hashi */,
+				44A93AAD2E6535C700ABB13F /* kane */,
 				44A93ADD2E65422300ABB13F /* Frameworks */,
 				44A93AAC2E6535C700ABB13F /* Products */,
 			);
@@ -59,7 +59,7 @@
 		44A93AAC2E6535C700ABB13F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				44A93AAB2E6535C700ABB13F /* hashi.app */,
+				44A93AAB2E6535C700ABB13F /* kane.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,9 +74,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		44A93AAA2E6535C700ABB13F /* hashi */ = {
+		44A93AAA2E6535C700ABB13F /* kane */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 44A93ABB2E6535C800ABB13F /* Build configuration list for PBXNativeTarget "hashi" */;
+			buildConfigurationList = 44A93ABB2E6535C800ABB13F /* Build configuration list for PBXNativeTarget "kane" */;
 			buildPhases = (
 				44A93AA72E6535C700ABB13F /* Sources */,
 				44A93AA82E6535C700ABB13F /* Frameworks */,
@@ -87,14 +87,14 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				44A93AAD2E6535C700ABB13F /* hashi */,
+				44A93AAD2E6535C700ABB13F /* kane */,
 			);
-			name = hashi;
+			name = kane;
 			packageProductDependencies = (
 				44A93ADE2E65422300ABB13F /* ElevenLabs */,
 			);
-			productName = hashi;
-			productReference = 44A93AAB2E6535C700ABB13F /* hashi.app */;
+			productName = kane;
+			productReference = 44A93AAB2E6535C700ABB13F /* kane.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -112,7 +112,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 44A93AA62E6535C700ABB13F /* Build configuration list for PBXProject "hashi" */;
+			buildConfigurationList = 44A93AA62E6535C700ABB13F /* Build configuration list for PBXProject "kane" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -129,7 +129,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				44A93AAA2E6535C700ABB13F /* hashi */,
+				44A93AAA2E6535C700ABB13F /* kane */,
 			);
 		};
 /* End PBXProject section */
@@ -286,7 +286,7 @@
 				DEVELOPMENT_TEAM = Z32SXH5WQ4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = hashi/info.plist;
+				INFOPLIST_FILE = kane/info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,7 +297,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.takuma.hashi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.takuma.kane;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -315,7 +315,7 @@
 				DEVELOPMENT_TEAM = Z32SXH5WQ4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = hashi/info.plist;
+				INFOPLIST_FILE = kane/info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -326,7 +326,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.takuma.hashi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.takuma.kane;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -337,7 +337,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		44A93AA62E6535C700ABB13F /* Build configuration list for PBXProject "hashi" */ = {
+		44A93AA62E6535C700ABB13F /* Build configuration list for PBXProject "kane" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44A93AB92E6535C800ABB13F /* Debug */,
@@ -346,7 +346,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		44A93ABB2E6535C800ABB13F /* Build configuration list for PBXNativeTarget "hashi" */ = {
+		44A93ABB2E6535C800ABB13F /* Build configuration list for PBXNativeTarget "kane" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44A93ABC2E6535C800ABB13F /* Debug */,

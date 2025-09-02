@@ -7,7 +7,7 @@
 	<key>CFBundleName</key>
 	<string>$(PRODUCT_NAME)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Hashi</string>
+	<string>Kane</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>CFBundleShortVersionString</key>
@@ -17,13 +17,13 @@
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>Hashi needs microphone access for voice conversations to capture your priorities</string>
+	<string>Kane needs microphone access for voice conversations to capture your priorities</string>
 	<key>NSSpeechRecognitionUsageDescription</key>
-	<string>Hashi uses speech recognition to understand your voice and create focus items</string>
+	<string>Kane uses speech recognition to understand your voice and create focus items</string>
 	<key>UILaunchScreen</key>
 	<dict>
 		<key>UIColorName</key>
-		<string>Black</string>
+		<string>White</string>
 	</dict>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>

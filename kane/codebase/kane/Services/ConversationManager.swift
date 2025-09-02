@@ -30,43 +30,26 @@ class ConversationManager: ObservableObject {
             print("📍 Using agent ID: \(agentId)")
             
             // Start conversation with public agent
+            let config = ConversationConfig()
+            
             conversation = try await ElevenLabs.startConversation(
                 agentId: agentId,
-                config: ConversationConfig()
+                config: config
             )
             
             print("✅ Conversation object created: \(conversation != nil)")
             
             setupObservers()
-            print("✅ Conversation object ready, waiting for initialization...")
+            print("✅ Conversation object ready!")
             
-            // Wait for the conversation to be fully initialized
-            // This ensures the WebRTC connection is established before unmuting
-            try await Task.sleep(nanoseconds: 1_500_000_000) // 1.5 second delay
-            
-            // Now mark as connected and unmute
+            // Mark as connected immediately - let's trust the SDK
             isConnected = true
             print("✅ Conversation connected!")
             
-            // Make sure we're not muted
+            // The conversation should start unmuted by default
             if let conv = conversation {
-                print("🎤 Initial mute status: \(conv.isMuted)")
                 print("🎤 Conversation state: \(conv.state)")
-                
-                // Always try to unmute
-                do {
-                    try await conv.setMuted(false)
-                    print("🔊 Successfully unmuted conversation")
-                    
-                    // Additional small delay to ensure audio pipeline is ready
-                    try await Task.sleep(nanoseconds: 200_000_000) // 0.2 second
-                    print("🎤 Audio pipeline ready - you can speak now!")
-                } catch {
-                    print("❌ Failed to unmute: \(error)")
-                }
-                
-                // Check mute status again
-                print("🎤 Final mute status: \(conv.isMuted)")
+                print("🎤 Ready - you can speak now!")
             } else {
                 print("❌ Conversation object is nil!")
             }
@@ -93,6 +76,7 @@ class ConversationManager: ObservableObject {
         conversation.$state
             .sink { [weak self] state in
                 print("🔊 Conversation state changed: \(state)")
+                print("🕐 Timestamp: \(Date())")
                 
                 switch state {
                 case .active:
@@ -102,10 +86,13 @@ class ConversationManager: ObservableObject {
                     print("⏳ Conversation is connecting...")
                 case .ended:
                     self?.isConnected = false
-                    print("🔚 Conversation has ended")
+                    print("🔚 Conversation has ended - may have timed out")
+                    print("⚠️ If this happened unexpectedly, the conversation may have hit a time limit")
+                    // Could add auto-reconnect logic here
                 case .error:
                     self?.isConnected = false
                     print("❌ Conversation error occurred")
+                    print("⚠️ This could be due to timeout, network issues, or API limits")
                 default:
                     print("❓ Unknown state: \(state)")
                 }

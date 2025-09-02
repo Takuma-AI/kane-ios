@@ -1,8 +1,8 @@
-[submodule "labs/kane/codebase"]
-	path = labs/kane/codebase
+[submodule "labs/archive/2025-09-02-kane/codebase"]
+	path = labs/archive/2025-09-02-kane/codebase
 	url = https://github.com/kateleext/kane.git
-[submodule "labs/hashi/codebase"]
-	path = labs/hashi/codebase
+[submodule "labs/archive/2025-09-02-hashi/codebase"]
+	path = labs/archive/2025-09-02-hashi/codebase
 	url = https://github.com/kateleext/hashi.git
 [submodule "bespoke/elite-personal-chefs/00-quote-generator/codebase"]
 	path = bespoke/elite-personal-chefs/00-quote-generator/codebase

@@ -25,23 +25,22 @@ struct LaunchView: View {
                     .transition(.opacity.combined(with: .move(edge: .bottom)))
             }
         }
-        .preferredColorScheme(.light) // Force light mode initially
         .onAppear {
             // Request microphone permission immediately
             requestMicrophonePermission()
             
-            // Small delay before starting animation for visual impact
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
-                // Start the circle expansion animation (slower)
-                withAnimation(.easeInOut(duration: 1.8)) {
+            // Start animation immediately for smooth transition
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+                // Start the circle expansion animation
+                withAnimation(.easeInOut(duration: 1.5)) {
                     circleScale = 3.0 // Expand to fill screen
                 }
             }
             
             // After expansion, switch to main view
-            DispatchQueue.main.asyncAfter(deadline: .now() + 2.2) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1.7) {
                 animationComplete = true
-                withAnimation(.easeOut(duration: 0.5)) {
+                withAnimation(.easeOut(duration: 0.4)) {
                     showMainView = true
                 }
             }
