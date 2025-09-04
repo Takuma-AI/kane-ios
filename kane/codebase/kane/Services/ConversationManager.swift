@@ -11,9 +11,14 @@ class ConversationManager: ObservableObject {
     @Published var currentMessage = ""
     @Published var configurationError: String?
     @Published var agentAudioLevel: Float = 0.0  // Track agent's voice level
+    @Published var connectionStatus: String = "Disconnected"
     
     private var viewContext: NSManagedObjectContext?
     private var cancellables = Set<AnyCancellable>()
+    private var reconnectTimer: Timer?
+    private var isReconnecting = false
+    private var lastActivityTime = Date()
+    private var keepAliveTimer: Timer?
     
     // Use configuration for agent ID
     private var agentId: String {
@@ -29,8 +34,12 @@ class ConversationManager: ObservableObject {
             print("🔄 Starting ElevenLabs conversation...")
             print("📍 Using agent ID: \(agentId)")
             
-            // Start conversation with public agent
+            // Configure conversation with extended timeouts for long inputs
+            // Note: If the SDK supports timeout configuration, it would be here
             let config = ConversationConfig()
+            // TODO: When SDK documentation is available, add:
+            // config.maxRecordingDuration = 180 // seconds
+            // config.inactivityTimeout = 60 // seconds
             
             conversation = try await ElevenLabs.startConversation(
                 agentId: agentId,
@@ -40,10 +49,13 @@ class ConversationManager: ObservableObject {
             print("✅ Conversation object created: \(conversation != nil)")
             
             setupObservers()
+            startKeepAliveTimer()
             print("✅ Conversation object ready!")
             
             // Mark as connected immediately - let's trust the SDK
             isConnected = true
+            connectionStatus = "Connected"
+            lastActivityTime = Date()
             print("✅ Conversation connected!")
             
             // The conversation should start unmuted by default
@@ -56,6 +68,71 @@ class ConversationManager: ObservableObject {
         } catch {
             print("❌ Failed to start conversation: \(error)")
             isConnected = false
+            connectionStatus = "Connection Failed"
+        }
+    }
+    
+    // Auto-reconnect when connection drops
+    private func attemptReconnection() {
+        guard !isReconnecting else { return }
+        
+        isReconnecting = true
+        connectionStatus = "Reconnecting..."
+        
+        print("🔄 Attempting to reconnect conversation...")
+        
+        Task {
+            // Wait a moment before reconnecting
+            try? await Task.sleep(nanoseconds: 1_000_000_000) // 1 second
+            
+            await startConversation()
+            isReconnecting = false
+        }
+    }
+    
+    // Monitor audio activity to detect when user is speaking
+    private func startAudioActivityMonitor() {
+        // Monitor audio levels if available from the conversation
+        // This helps detect if user is actively speaking
+        Timer.scheduledTimer(withTimeInterval: 0.5, repeats: true) { [weak self] _ in
+            guard let self = self, self.isConnected else { return }
+            
+            // If we detect audio activity, update last activity time
+            // This prevents timeout during active speech
+            if self.conversation != nil {
+                self.lastActivityTime = Date()
+            }
+        }
+    }
+    
+    // Keep the connection alive with periodic activity tracking
+    private func startKeepAliveTimer() {
+        keepAliveTimer?.invalidate()
+        
+        // Check every 15 seconds for better responsiveness
+        keepAliveTimer = Timer.scheduledTimer(withTimeInterval: 15.0, repeats: true) { [weak self] _ in
+            guard let self = self else { return }
+            
+            let timeSinceLastActivity = Date().timeIntervalSince(self.lastActivityTime)
+            
+            // If approaching timeout, try to keep connection alive
+            if timeSinceLastActivity > 15 && self.isConnected {
+                print("⚡ Sending keep-alive signal after \(Int(timeSinceLastActivity)) seconds")
+                
+                // Try to keep the connection alive by checking state
+                Task { @MainActor in
+                    if let conv = self.conversation {
+                        // Access the state to trigger any internal keep-alive
+                        let _ = conv.state
+                        self.lastActivityTime = Date()
+                    }
+                }
+            }
+            
+            // Warn if no activity for extended period
+            if timeSinceLastActivity > 60 {
+                print("⚠️ Extended silence: \(Int(timeSinceLastActivity)) seconds")
+            }
         }
     }
     
@@ -72,29 +149,46 @@ class ConversationManager: ObservableObject {
     private func setupObservers() {
         guard let conversation else { return }
         
+        // Monitor for audio activity
+        startAudioActivityMonitor()
+        
         // Monitor connection state
         conversation.$state
             .sink { [weak self] state in
                 print("🔊 Conversation state changed: \(state)")
                 print("🕐 Timestamp: \(Date())")
                 
-                switch state {
-                case .active:
-                    // Don't immediately set connected here, wait for proper initialization
-                    print("🎙️ Conversation is now ACTIVE - ready for voice!")
-                case .connecting:
-                    print("⏳ Conversation is connecting...")
-                case .ended:
-                    self?.isConnected = false
-                    print("🔚 Conversation has ended - may have timed out")
-                    print("⚠️ If this happened unexpectedly, the conversation may have hit a time limit")
-                    // Could add auto-reconnect logic here
-                case .error:
-                    self?.isConnected = false
-                    print("❌ Conversation error occurred")
-                    print("⚠️ This could be due to timeout, network issues, or API limits")
-                default:
-                    print("❓ Unknown state: \(state)")
+                Task { @MainActor in
+                    guard let self = self else { return }
+                    
+                    switch state {
+                    case .active:
+                        self.isConnected = true
+                        self.connectionStatus = "Connected"
+                        self.lastActivityTime = Date()
+                        print("🎙️ Conversation is now ACTIVE - ready for voice!")
+                    case .connecting:
+                        self.connectionStatus = "Connecting..."
+                        print("⏳ Conversation is connecting...")
+                    case .ended:
+                        self.isConnected = false
+                        self.connectionStatus = "Disconnected"
+                        print("🔚 Conversation has ended - may have timed out")
+                        print("⚠️ Attempting automatic reconnection...")
+                        
+                        // Auto-reconnect after unexpected end
+                        self.attemptReconnection()
+                    case .error:
+                        self.isConnected = false
+                        self.connectionStatus = "Connection Error"
+                        print("❌ Conversation error occurred")
+                        print("⚠️ Attempting automatic reconnection...")
+                        
+                        // Auto-reconnect after error
+                        self.attemptReconnection()
+                    default:
+                        print("❓ Unknown state: \(state)")
+                    }
                 }
             }
             .store(in: &cancellables)

@@ -8,9 +8,16 @@ struct LaunchView: View {
     
     var body: some View {
         ZStack {
-            // Always start with white background
-            Color.white
-                .ignoresSafeArea()
+            // Background color management
+            if !animationComplete {
+                // White background during initial animation
+                Color.white
+                    .ignoresSafeArea()
+            } else {
+                // Black background once animation is complete
+                Color.black
+                    .ignoresSafeArea()
+            }
             
             if !animationComplete {
                 // Launch animation: black circle expanding
@@ -21,8 +28,8 @@ struct LaunchView: View {
             }
             
             if showMainView {
-                MainView()
-                    .transition(.opacity.combined(with: .move(edge: .bottom)))
+                QuestView()
+                    .transition(.opacity) // Only fade, no sliding
             }
         }
         .onAppear {
