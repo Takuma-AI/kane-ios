@@ -34,3 +34,9 @@
 [submodule "tools/servers/youtube-transcribe"]
 	path = tools/servers/youtube-transcribe
 	url = https://github.com/Takuma-AI/yt-transcribe-mcp.git
+[submodule "kane/codebase"]
+	path = kane/codebase
+	url = https://github.com/Takuma-AI/kane-ios.git
+[submodule "kane/server"]
+	path = kane/server
+	url = https://github.com/Takuma-AI/kane-server.git
