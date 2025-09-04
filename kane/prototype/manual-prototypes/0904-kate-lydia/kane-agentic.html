@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kane</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif;
+            background: #000;
+            color: #fff;
+            line-height: 1.6;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        /* Subtle background gradients */
+        .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            pointer-events: none;
+            z-index: 0;
+        }
+        
+        .lens-flare-1 {
+            position: absolute;
+            top: -10%;
+            left: -10%;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(0, 255, 255, 0.08), rgba(0, 255, 255, 0.02), transparent);
+            mix-blend-mode: plus-lighter;
+        }
+        
+        .lens-flare-2 {
+            position: absolute;
+            bottom: -10%;
+            right: -10%;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(147, 51, 234, 0.06), rgba(147, 51, 234, 0.01), transparent);
+            mix-blend-mode: plus-lighter;
+        }
+        
+        .container {
+            position: relative;
+            z-index: 1;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* AI Activity Indicator */
+        .ai-status {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 0;
+            margin-bottom: 20px;
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 13px;
+        }
+        
+        .ai-dot {
+            width: 6px;
+            height: 6px;
+            background: #00ff88;
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 0.4; transform: scale(1); }
+            50% { opacity: 1; transform: scale(1.2); }
+        }
+        
+        /* Date selector */
+        .date-strip {
+            display: flex;
+            gap: 8px;
+            overflow-x: auto;
+            padding: 20px 0;
+            margin-bottom: 8px;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+        }
+        
+        .date-strip::-webkit-scrollbar {
+            display: none;
+        }
+        
+        .date-item {
+            min-width: 60px;
+            text-align: center;
+            padding: 12px 8px;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        
+        .date-item.active {
+            background: rgba(102, 126, 234, 0.15);
+            border-color: rgba(102, 126, 234, 0.3);
+        }
+        
+        .date-day {
+            font-size: 10px;
+            color: rgba(255, 255, 255, 0.4);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+        }
+        
+        .date-num {
+            font-size: 18px;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.9);
+        }
+        
+        /* Header */
+        .header-text {
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 24px;
+            background: linear-gradient(135deg, #fff 0%, rgba(255, 255, 255, 0.6) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        /* Action cards - what needs Lydia's attention */
+        .action-card {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(102, 126, 234, 0.05));
+            border: 1px solid rgba(102, 126, 234, 0.3);
+            border-radius: 16px;
+            padding: 16px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .action-card:hover {
+            transform: translateX(4px);
+            border-color: rgba(102, 126, 234, 0.5);
+        }
+        
+        .action-label {
+            font-size: 11px;
+            color: rgba(102, 126, 234, 0.8);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+        
+        .action-title {
+            font-size: 16px;
+            font-weight: 500;
+            color: #fff;
+            margin-bottom: 4px;
+        }
+        
+        .action-detail {
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.6);
+            line-height: 1.4;
+        }
+        
+        .action-buttons {
+            display: flex;
+            gap: 8px;
+            margin-top: 12px;
+        }
+        
+        .btn {
+            padding: 8px 16px;
+            border-radius: 20px;
+            border: none;
+            font-size: 13px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        
+        .btn-primary {
+            background: rgba(102, 126, 234, 0.8);
+            color: #fff;
+        }
+        
+        .btn-primary:hover {
+            background: rgba(102, 126, 234, 1);
+            transform: scale(1.05);
+        }
+        
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.15);
+        }
+        
+        /* Progress notification */
+        .progress-card {
+            background: rgba(0, 255, 136, 0.05);
+            border: 1px solid rgba(0, 255, 136, 0.2);
+            border-radius: 16px;
+            padding: 16px;
+            margin-bottom: 12px;
+            position: relative;
+        }
+        
+        .progress-label {
+            font-size: 11px;
+            color: rgba(0, 255, 136, 0.8);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+        
+        .progress-title {
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 8px;
+        }
+        
+        .progress-items {
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.5);
+            line-height: 1.6;
+        }
+        
+        .progress-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 4px;
+        }
+        
+        .check {
+            color: rgba(0, 255, 136, 0.8);
+            font-size: 12px;
+        }
+        
+        /* Hashi cards */
+        .hashi-card {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+        }
+        
+        .hashi-card:hover {
+            background: rgba(255, 255, 255, 0.04);
+            border-color: rgba(102, 126, 234, 0.2);
+            transform: translateX(4px);
+        }
+        
+        .hashi-content {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+        
+        .hashi-icon {
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.3);
+            margin-top: 3px;
+        }
+        
+        .hashi-text {
+            flex: 1;
+        }
+        
+        .hashi-title {
+            font-size: 17px;
+            font-weight: 500;
+            color: rgba(255, 255, 255, 0.9);
+            line-height: 1.4;
+            margin-bottom: 6px;
+        }
+        
+        .hashi-context {
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.4);
+            line-height: 1.5;
+        }
+        
+        .hashi-progress {
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            font-size: 12px;
+            color: rgba(0, 255, 136, 0.6);
+        }
+        
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.95);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            z-index: 1000;
+            padding: 20px;
+            overflow-y: auto;
+        }
+        
+        .modal.active {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+        }
+        
+        .modal-content {
+            width: 100%;
+            max-width: 500px;
+            margin: 40px 0;
+            animation: slideUp 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .modal-close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 32px;
+            height: 32px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            color: rgba(255, 255, 255, 0.4);
+            font-size: 18px;
+        }
+        
+        .flyer-preview {
+            background: #fff;
+            border-radius: 12px;
+            padding: 24px;
+            margin: 20px 0;
+            color: #000;
+            font-family: 'Georgia', serif;
+        }
+        
+        .flyer-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .flyer-title {
+            font-size: 28px;
+            color: #ff6b6b;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        
+        .flyer-subtitle {
+            font-size: 16px;
+            color: #666;
+        }
+        
+        .flyer-highlight {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 12px;
+            margin: 16px 0;
+            border-radius: 4px;
+        }
+        
+        .flyer-section {
+            margin: 16px 0;
+        }
+        
+        .flyer-section h3 {
+            color: #ff6b6b;
+            margin-bottom: 8px;
+            font-size: 18px;
+        }
+        
+        .flyer-footer {
+            text-align: center;
+            margin-top: 20px;
+            padding-top: 16px;
+            border-top: 2px solid #eee;
+        }
+        
+        .qr-placeholder {
+            width: 80px;
+            height: 80px;
+            background: #f0f0f0;
+            border: 2px solid #ddd;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            color: #999;
+        }
+        
+        .edit-note {
+            background: rgba(255, 193, 7, 0.1);
+            border: 1px solid rgba(255, 193, 7, 0.3);
+            border-radius: 8px;
+            padding: 12px;
+            margin: 16px 0;
+            font-size: 13px;
+            color: rgba(255, 193, 7, 0.9);
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="lens-flare-1"></div>
+        <div class="lens-flare-2"></div>
+    </div>
+    
+    <div class="container">
+        <!-- AI Status -->
+        <div class="ai-status">
+            <span class="ai-dot"></span>
+            <span>AI working on 3 shots • 2 need your approval</span>
+        </div>
+        
+        <!-- Date selector -->
+        <div class="date-strip">
+            <div class="date-item" data-date="2025-09-05">
+                <div class="date-day">Fri</div>
+                <div class="date-num">5</div>
+            </div>
+            <div class="date-item active" data-date="2025-09-06">
+                <div class="date-day">Sat</div>
+                <div class="date-num">6</div>
+            </div>
+        </div>
+        
+        <!-- Header -->
+        <h1 class="header-text">Ready for your approval</h1>
+        
+        <!-- Action needed cards -->
+        <div class="action-card" onclick="openModal('flyer')">
+            <div class="action-label">Ready to print</div>
+            <div class="action-title">Kids Olympics flyer designed</div>
+            <div class="action-detail">Safety-focused messaging • QR code for signups • Bright colors tested</div>
+            <div class="action-buttons">
+                <button class="btn btn-primary" onclick="event.stopPropagation(); approveFlyer()">Approve & send to FedEx</button>
+                <button class="btn btn-secondary" onclick="event.stopPropagation(); openModal('flyer')">Review</button>
+            </div>
+        </div>
+        
+        <div class="action-card" onclick="openModal('responses')">
+            <div class="action-label">Needs your voice</div>
+            <div class="action-title">Parent concern responses drafted</div>
+            <div class="action-detail">5 common objections • Your tone matched from past emails</div>
+            <div class="action-buttons">
+                <button class="btn btn-primary" onclick="event.stopPropagation(); openModal('responses')">Practice these</button>
+                <button class="btn btn-secondary" onclick="event.stopPropagation(); openModal('responses')">Edit</button>
+            </div>
+        </div>
+        
+        <!-- Progress notification -->
+        <div class="progress-card">
+            <div class="progress-label">AI Completed</div>
+            <div class="progress-title">Email capture form ready</div>
+            <div class="progress-items">
+                <div class="progress-item">
+                    <span class="check">✓</span>
+                    <span>Google Form created with your account</span>
+                </div>
+                <div class="progress-item">
+                    <span class="check">✓</span>
+                    <span>Fields: Name, email, child age (optional), interest level</span>
+                </div>
+                <div class="progress-item">
+                    <span class="check">✓</span>
+                    <span>Auto-tags for "farmers-market-sept6"</span>
+                </div>
+                <div class="progress-item">
+                    <span class="check">✓</span>
+                    <span>QR code generated: bit.ly/air-winnetka</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Main Hashi -->
+        <div class="hashi-card" onclick="openModal('market')">
+            <div class="hashi-content">
+                <div class="hashi-icon">★</div>
+                <div class="hashi-text">
+                    <div class="hashi-title">50+ farmers market leads captured</div>
+                    <div class="hashi-context">7am pickup • Table 23 reserved • Demo at 9:30am</div>
+                    <div class="hashi-progress">AI: 3 of 4 shots ready • Print approval needed</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hashi-card" onclick="openModal('space')">
+            <div class="hashi-content">
+                <div class="hashi-icon">☆</div>
+                <div class="hashi-text">
+                    <div class="hashi-title">Space ready for grand reopening</div>
+                    <div class="hashi-context">After market • Contractor confirms Friday completion</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal for Flyer Review -->
+    <div class="modal" id="modal-flyer">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('flyer')">×</button>
+            
+            <div class="action-label">AI-Generated Flyer</div>
+            <h2 style="color: #fff; margin: 16px 0;">Review before printing</h2>
+            
+            <div class="flyer-preview">
+                <div class="flyer-header">
+                    <div class="flyer-title" style="font-size: 36px; color: #ff1493;">MOM! DAD! LOOK!</div>
+                    <div class="flyer-subtitle" style="font-size: 20px; color: #ff6b6b;">I can learn to FLY! 🎪✨</div>
+                </div>
+                
+                <div class="flyer-highlight" style="background: #e8f4ff; border-left: 4px solid #00b4d8;">
+                    <strong style="font-size: 18px;">Please please please can I try?</strong><br>
+                    <span style="font-size: 16px;">It's like being a superhero but REAL!</span>
+                </div>
+                
+                <div class="flyer-section">
+                    <h3 style="color: #00b4d8; font-size: 22px;">Kids Olympics - Saturday Sept 14!</h3>
+                    <p style="font-size: 16px; line-height: 1.6;">
+                        <strong>I could win PRIZES! 🏆</strong><br>
+                        All my friends are doing it<br>
+                        It's only $15 (that's like 2 Robux gift cards!)<br>
+                        You can watch me be AMAZING
+                    </p>
+                </div>
+                
+                <div class="flyer-section" style="background: #fff9e6; padding: 12px; border-radius: 8px;">
+                    <p style="font-size: 14px; font-style: italic; color: #666;">
+                        <strong>Dear Parents:</strong> It's actually very safe - we stay close to the ground with thick mats. Kids build incredible confidence. Think gymnastics meets climbing. Certified instructors, small groups.
+                    </p>
+                </div>
+                
+                <div class="flyer-section">
+                    <p style="font-size: 18px; text-align: center; color: #ff1493; font-weight: bold;">
+                        The lady at the booth said I'd be GREAT at this!<br>
+                        <span style="font-size: 14px; color: #666;">She's SO cool and she can fly!</span>
+                    </p>
+                </div>
+                
+                <div class="flyer-footer">
+                    <div class="qr-placeholder">QR CODE</div>
+                    <p style="margin-top: 8px; font-size: 14px;">
+                        <strong>Air Winnetka</strong> (It's by the ice cream shop!)<br>
+                        567 Green Bay Rd • Sign up: bit.ly/air-kids
+                    </p>
+                </div>
+            </div>
+            
+            <div class="edit-note">
+                <strong>AI Strategy:</strong> Redesigned for kids to grab and convince parents. Kid voice in main text, parent reassurance in small print. Used "it's like 2 Robux cards" for kid-relatable pricing. Location reference "by the ice cream shop" because kids navigate by landmarks they care about.
+            </div>
+            
+            <div class="action-buttons" style="margin-top: 20px;">
+                <button class="btn btn-primary" onclick="sendToFedEx()" style="width: 100%;">Send to FedEx (200 copies, cardstock)</button>
+                <button class="btn btn-secondary" onclick="requestEdit()" style="width: 100%; margin-top: 8px;">Request changes</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal for Response Scripts -->
+    <div class="modal" id="modal-responses">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('responses')">×</button>
+            
+            <div class="action-label">AI-Prepared Scripts</div>
+            <h2 style="color: #fff; margin: 16px 0;">Common parent concerns</h2>
+            
+            <div style="background: rgba(255, 255, 255, 0.03); border-radius: 12px; padding: 16px; margin-bottom: 16px;">
+                <div style="color: rgba(255, 107, 107, 0.8); font-size: 14px; margin-bottom: 8px;">
+                    "Is this safe for my 7-year-old?"
+                </div>
+                <div style="color: rgba(255, 255, 255, 0.8); font-size: 15px; line-height: 1.6;">
+                    "Absolutely! Actually, it's safer than playground monkey bars because we're never more than 3 feet off the ground in beginner classes, and we have thick crash mats underneath. Plus, I'm a certified instructor and we keep a 3:1 ratio max. Your 7-year-old is the perfect age - they're fearless but still listen to instructions!"
+                </div>
+            </div>
+            
+            <div style="background: rgba(255, 255, 255, 0.03); border-radius: 12px; padding: 16px; margin-bottom: 16px;">
+                <div style="color: rgba(255, 107, 107, 0.8); font-size: 14px; margin-bottom: 8px;">
+                    "My kid isn't very athletic..."
+                </div>
+                <div style="color: rgba(255, 255, 255, 0.8); font-size: 15px; line-height: 1.6;">
+                    "That's exactly why aerial is perfect! It's not about being athletic - it's about building confidence and having fun. Some of our best students started out shy or uncoordinated. The silks actually support your body weight, so kids who struggle with traditional sports often surprise themselves with what they can do here."
+                </div>
+            </div>
+            
+            <div style="background: rgba(255, 255, 255, 0.03); border-radius: 12px; padding: 16px; margin-bottom: 16px;">
+                <div style="color: rgba(255, 107, 107, 0.8); font-size: 14px; margin-bottom: 8px;">
+                    "How much does this cost?"
+                </div>
+                <div style="color: rgba(255, 255, 255, 0.8); font-size: 15px; line-height: 1.6;">
+                    "The Kids Olympics on the 14th is just $15 to enter - it's really more of a fun intro event. For ongoing classes, we're doing special grand reopening pricing right now. But honestly, come to the Olympics first, see if your kid loves it, then we can talk about the right package for your family."
+                </div>
+            </div>
+            
+            <div class="edit-note">
+                <strong>AI Analysis:</strong> Matched your conversational tone from the transcript. Emphasized safety without being defensive. Used your "monkey bars" comparison. Avoided corporate language, kept it parent-to-parent authentic.
+            </div>
+            
+            <div class="action-buttons" style="margin-top: 20px;">
+                <button class="btn btn-primary" onclick="saveScripts()" style="width: 100%;">Save to my phone</button>
+                <button class="btn btn-secondary" onclick="practiceMode()" style="width: 100%; margin-top: 8px;">Practice mode</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal for Market Details -->
+    <div class="modal" id="modal-market">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('market')">×</button>
+            
+            <div class="action-label">Tomorrow 7am</div>
+            <h2 style="color: #fff; margin: 16px 0;">50+ farmers market leads captured</h2>
+            
+            <div style="margin: 20px 0;">
+                <div class="section-label" style="color: rgba(102, 126, 234, 0.8); margin-bottom: 12px;">Shots on Goal</div>
+                
+                <!-- Shot 1: Flyer -->
+                <div style="background: rgba(255, 255, 255, 0.03); border-radius: 12px; padding: 16px; margin-bottom: 12px; border: 1px solid rgba(102, 126, 234, 0.2);">
+                    <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 8px;">
+                        <div style="flex: 1;">
+                            <div style="color: #fff; font-size: 15px; font-weight: 500;">Kid-powered flyer campaign</div>
+                            <div style="color: rgba(255, 255, 255, 0.5); font-size: 13px; margin-top: 4px;">Kids grab flyer → convince parents → you close</div>
+                        </div>
+                        <div style="background: rgba(102, 126, 234, 0.2); padding: 4px 8px; border-radius: 12px;">
+                            <span style="color: rgba(102, 126, 234, 0.9); font-size: 11px; font-weight: 600;">NEEDS APPROVAL</span>
+                        </div>
+                    </div>
+                    <div style="background: rgba(0, 0, 0, 0.3); border-radius: 8px; padding: 12px; margin-top: 8px;">
+                        <div style="color: rgba(255, 255, 255, 0.7); font-size: 12px; line-height: 1.5;">
+                            <strong>AI Context:</strong> Kids are your sales force. They see aerial, get excited, grab flyer to show parents. Flyer speaks in kid voice ("MOM! DAD! LOOK!") with parent reassurance in small print. Location described as "by the ice cream shop" because that's how kids navigate.
+                        </div>
+                    </div>
+                    <button class="btn btn-primary" onclick="event.stopPropagation(); closeModal('market'); setTimeout(() => openModal('flyer'), 300)" style="margin-top: 8px; font-size: 12px;">Review flyer design</button>
+                </div>
+                
+                <!-- Shot 2: Email Capture -->
+                <div style="background: rgba(255, 255, 255, 0.03); border-radius: 12px; padding: 16px; margin-bottom: 12px; border: 1px solid rgba(255, 193, 7, 0.2);">
+                    <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 8px;">
+                        <div style="flex: 1;">
+                            <div style="color: #fff; font-size: 15px; font-weight: 500;">Frictionless email capture strategy</div>
+                            <div style="color: rgba(255, 255, 255, 0.5); font-size: 13px; margin-top: 4px;">Contest entry → minimal fields → instant gratification</div>
+                        </div>
+                        <div style="background: rgba(255, 193, 7, 0.2); padding: 4px 8px; border-radius: 12px;">
+                            <span style="color: rgba(255, 193, 7, 0.9); font-size: 11px; font-weight: 600;">NEEDS PLATFORM</span>
+                        </div>
+                    </div>
+                    <div style="background: rgba(0, 0, 0, 0.3); border-radius: 8px; padding: 12px; margin-top: 8px;">
+                        <div style="color: rgba(255, 255, 255, 0.7); font-size: 12px; line-height: 1.5;">
+                            <strong>AI Research:</strong> Winnetka Farmers Market gets packed 9-11am. Table 23 is by the entrance (high traffic). Parents juggle coffee, kids, dogs. Contest entry ("Win free month!") gets 3x more signups than "Join our list." Keep form to: Name + Email only. Child age can wait for follow-up.
+                        </div>
+                        <div style="margin-top: 12px; padding: 12px; background: rgba(255, 255, 255, 0.02); border-radius: 8px;">
+                            <div style="display: flex; gap: 8px; margin-bottom: 8px;">
+                                <img src="data:image/svg+xml,%3Csvg width='60' height='40' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='60' height='40' fill='%23333'/%3E%3Ctext x='30' y='25' text-anchor='middle' fill='%23666' font-size='8'%3EMarket Photo%3C/text%3E%3C/svg%3E" style="border-radius: 4px;">
+                                <img src="data:image/svg+xml,%3Csvg width='60' height='40' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='60' height='40' fill='%23333'/%3E%3Ctext x='30' y='25' text-anchor='middle' fill='%23666' font-size='8'%3ETable 23%3C/text%3E%3C/svg%3E" style="border-radius: 4px;">
+                                <img src="data:image/svg+xml,%3Csvg width='60' height='40' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='60' height='40' fill='%23333'/%3E%3Ctext x='30' y='25' text-anchor='middle' fill='%23666' font-size='8'%3ECrowd Flow%3C/text%3E%3C/svg%3E" style="border-radius: 4px;">
+                            </div>
+                            <div style="color: rgba(255, 255, 255, 0.5); font-size: 11px;">
+                                AI found: Saturday market layout, peak times, typical crowd of 2,000+
+                            </div>
+                        </div>
+                        <div style="margin-top: 12px; padding: 12px; background: rgba(102, 126, 234, 0.1); border-radius: 8px; border: 1px solid rgba(102, 126, 234, 0.2);">
+                            <div style="color: rgba(255, 255, 255, 0.8); font-size: 13px; margin-bottom: 8px;">
+                                <strong>Which platform do you prefer?</strong>
+                            </div>
+                            <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+                                <button class="btn btn-secondary" style="font-size: 12px; padding: 6px 12px;">Current CRM</button>
+                                <button class="btn btn-secondary" style="font-size: 12px; padding: 6px 12px;">Google Forms</button>
+                                <button class="btn btn-secondary" style="font-size: 12px; padding: 6px 12px;">Mailchimp</button>
+                                <button class="btn btn-secondary" style="font-size: 12px; padding: 6px 12px;">Other</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Shot 3: Response Scripts -->
+                <div style="background: rgba(255, 255, 255, 0.03); border-radius: 12px; padding: 16px; margin-bottom: 12px; border: 1px solid rgba(0, 255, 136, 0.2);">
+                    <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 8px;">
+                        <div style="flex: 1;">
+                            <div style="color: #fff; font-size: 15px; font-weight: 500;">Parent objection handlers</div>
+                            <div style="color: rgba(255, 255, 255, 0.5); font-size: 13px; margin-top: 4px;">Your voice, prepared answers, confidence boost</div>
+                        </div>
+                        <div style="background: rgba(0, 255, 136, 0.2); padding: 4px 8px; border-radius: 12px;">
+                            <span style="color: rgba(0, 255, 136, 0.9); font-size: 11px; font-weight: 600;">READY TO USE</span>
+                        </div>
+                    </div>
+                    <div style="background: rgba(0, 0, 0, 0.3); border-radius: 8px; padding: 12px; margin-top: 8px;">
+                        <div style="color: rgba(255, 255, 255, 0.7); font-size: 12px; line-height: 1.5;">
+                            <strong>AI learned from:</strong> Your conversation style, past emails, competitor research. Matched your "parent-to-parent" tone. Used your monkey bars comparison. Avoided corporate speak. 5 scripts ready, including "my kid isn't athletic" and pricing concerns.
+                        </div>
+                    </div>
+                    <button class="btn btn-secondary" onclick="event.stopPropagation(); closeModal('market'); setTimeout(() => openModal('responses'), 300)" style="margin-top: 8px; font-size: 12px;">Practice responses</button>
+                </div>
+                
+                <!-- Shot 4: Demo Plan -->
+                <div style="background: rgba(255, 255, 255, 0.03); border-radius: 12px; padding: 16px; margin-bottom: 12px; border: 1px solid rgba(255, 193, 7, 0.2);">
+                    <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 8px;">
+                        <div style="flex: 1;">
+                            <div style="color: #fff; font-size: 15px; font-weight: 500;">60-second "I could do that" demo</div>
+                            <div style="color: rgba(255, 255, 255, 0.5); font-size: 13px; margin-top: 4px;">Accessible moves → kid participation → crowd gathering</div>
+                        </div>
+                        <div style="background: rgba(255, 193, 7, 0.2); padding: 4px 8px; border-radius: 12px;">
+                            <span style="color: rgba(255, 193, 7, 0.9); font-size: 11px; font-weight: 600;">NEEDS INPUT</span>
+                        </div>
+                    </div>
+                    <div style="background: rgba(0, 0, 0, 0.3); border-radius: 8px; padding: 12px; margin-top: 8px;">
+                        <div style="color: rgba(255, 255, 255, 0.7); font-size: 12px; line-height: 1.5;">
+                            <strong>AI recommendation:</strong> Start with "foot lock" (looks hard, actually easy). Have instructor do one impressive move for wow factor. Then invite kid to try "airplane" pose. Music: upbeat but not circus-y. 9:30am slot = maximum foot traffic.
+                        </div>
+                        <div style="margin-top: 8px;">
+                            <input type="text" placeholder="Which instructor is helping?" style="width: 100%; padding: 8px; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 8px; color: #fff; font-size: 13px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="margin-top: 24px; padding: 16px; background: rgba(102, 126, 234, 0.05); border-radius: 12px; border: 1px solid rgba(102, 126, 234, 0.2);">
+                <div style="font-size: 14px; color: rgba(255, 255, 255, 0.9); margin-bottom: 8px;">
+                    <strong>What you need to do tonight:</strong>
+                </div>
+                <div style="color: rgba(255, 255, 255, 0.6); font-size: 13px; line-height: 1.8;">
+                    1. Approve kid-voice flyer (AI sends to FedEx)<br>
+                    2. Confirm which instructor for demo<br>
+                    3. Charge iPad for signups<br>
+                    4. Quick review of response scripts
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal for Space Setup -->
+    <div class="modal" id="modal-space">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('space')">×</button>
+            
+            <div class="action-label">Saturday Afternoon</div>
+            <h2 style="color: #fff; margin: 16px 0;">Space ready for grand reopening</h2>
+            
+            <div style="margin: 20px 0;">
+                <div class="section-label" style="color: rgba(102, 126, 234, 0.8); margin-bottom: 12px;">Context</div>
+                <div style="color: rgba(255, 255, 255, 0.7); font-size: 14px; line-height: 1.6;">
+                    Contractor finishes Friday. Saturday afternoon (after farmers market) is our window to transform construction-complete into experience-ready. Thursday's ribbon cutting needs to photograph well. Chamber president wants to hang from silk.
+                </div>
+            </div>
+            
+            <div style="margin: 20px 0;">
+                <div class="section-label" style="color: rgba(102, 126, 234, 0.8); margin-bottom: 12px;">Shots on Goal</div>
+                
+                <div style="display: flex; flex-direction: column; gap: 12px;">
+                    <div style="background: rgba(255, 255, 255, 0.03); border-radius: 12px; padding: 16px; border: 1px solid rgba(255, 255, 255, 0.1);">
+                        <div style="color: #fff; font-size: 15px; margin-bottom: 4px;">Install Kallax entry system</div>
+                        <div style="color: rgba(255, 255, 255, 0.5); font-size: 13px;">2x2 + 1x2 white units. Storage for 12, defines flow.</div>
+                    </div>
+                    
+                    <div style="background: rgba(255, 255, 255, 0.03); border-radius: 12px; padding: 16px; border: 1px solid rgba(255, 255, 255, 0.1);">
+                        <div style="color: #fff; font-size: 15px; margin-bottom: 4px;">Paint bathroom charcoal</div>
+                        <div style="color: rgba(255, 255, 255, 0.5); font-size: 13px;">Boutique hotel vibe, not gym. Dark walls, warm feeling.</div>
+                    </div>
+                    
+                    <div style="background: rgba(255, 255, 255, 0.03); border-radius: 12px; padding: 16px; border: 1px solid rgba(255, 255, 255, 0.1);">
+                        <div style="color: #fff; font-size: 15px; margin-bottom: 4px;">Mount brass sconces</div>
+                        <div style="color: rgba(255, 255, 255, 0.5); font-size: 13px;">Already purchased. Evening ambiance for classes.</div>
+                    </div>
+                    
+                    <div style="background: rgba(255, 255, 255, 0.03); border-radius: 12px; padding: 16px; border: 1px solid rgba(255, 255, 255, 0.1);">
+                        <div style="color: #fff; font-size: 15px; margin-bottom: 4px;">Create triangle signature wall</div>
+                        <div style="color: rgba(255, 255, 255, 0.5); font-size: 13px;">Yellow tape for now, vinyl later. Future Instagram spot.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function openModal(id) {
+            const modal = document.getElementById('modal-' + id);
+            if (modal) {
+                modal.classList.add('active');
+                document.body.style.overflow = 'hidden';
+            } else {
+                console.error('Modal not found:', 'modal-' + id);
+            }
+        }
+        
+        function closeModal(id) {
+            const modal = document.getElementById('modal-' + id);
+            if (modal) {
+                modal.classList.remove('active');
+                document.body.style.overflow = 'auto';
+            }
+        }
+        
+        function approveFlyer() {
+            // Simulate sending to FedEx
+            alert('✓ Sent to FedEx! They'll text you when ready (usually 2 hours). 200 copies on cardstock = $47.50');
+        }
+        
+        function sendToFedEx() {
+            closeModal('flyer');
+            approveFlyer();
+        }
+        
+        function requestEdit() {
+            const change = prompt('What would you like to change?');
+            if (change) {
+                alert('AI is updating the flyer. Will notify you in ~5 minutes.');
+                closeModal('flyer');
+            }
+        }
+        
+        function saveScripts() {
+            alert('✓ Scripts saved to Notes app and added to your Farmers Market folder');
+            closeModal('responses');
+        }
+        
+        function practiceMode() {
+            alert('Starting practice mode... AI will play skeptical parent!');
+        }
+        
+        // Date selection
+        document.querySelectorAll('.date-item').forEach(item => {
+            item.addEventListener('click', function() {
+                document.querySelectorAll('.date-item').forEach(d => d.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>

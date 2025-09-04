@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kane - Lydia's Progress</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif;
+            background: #000;
+            color: #fff;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+        .header {
+            padding: 20px;
+            background: #111;
+            border-bottom: 1px solid #222;
+        }
+        
+        .header h1 {
+            font-size: 24px;
+            font-weight: 600;
+            color: #fff;
+            margin-bottom: 8px;
+        }
+        
+        .energy-indicator {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #888;
+            font-size: 14px;
+        }
+        
+        .energy-dot {
+            width: 8px;
+            height: 8px;
+            background: #ff6b6b;
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+        
+        .calendar-strip {
+            display: flex;
+            gap: 2px;
+            padding: 20px;
+            overflow-x: auto;
+            background: #111;
+            border-bottom: 1px solid #222;
+            scroll-snap-type: x mandatory;
+        }
+        
+        .day-card {
+            min-width: 120px;
+            padding: 16px;
+            background: #1a1a1a;
+            border-radius: 12px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            scroll-snap-align: start;
+            position: relative;
+        }
+        
+        .day-card.active {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            transform: scale(1.05);
+        }
+        
+        .day-card.today {
+            border: 2px solid #667eea;
+        }
+        
+        .day-name {
+            font-size: 12px;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 4px;
+        }
+        
+        .day-card.active .day-name {
+            color: rgba(255,255,255,0.8);
+        }
+        
+        .day-date {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        
+        .hashi-count {
+            font-size: 12px;
+            color: #888;
+            background: rgba(0,0,0,0.3);
+            padding: 4px 8px;
+            border-radius: 20px;
+        }
+        
+        .day-card.active .hashi-count {
+            background: rgba(0,0,0,0.2);
+            color: rgba(255,255,255,0.9);
+        }
+        
+        .main-content {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .hashi-container {
+            margin-bottom: 32px;
+        }
+        
+        .hashi-card {
+            background: #1a1a1a;
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            border: 1px solid #2a2a2a;
+        }
+        
+        .hashi-card:hover {
+            background: #222;
+            border-color: #667eea;
+            transform: translateX(4px);
+        }
+        
+        .hashi-header {
+            display: flex;
+            align-items: start;
+            justify-content: space-between;
+            margin-bottom: 12px;
+        }
+        
+        .hashi-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #fff;
+            flex: 1;
+            line-height: 1.4;
+        }
+        
+        .hashi-status {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 12px;
+            background: rgba(102, 126, 234, 0.1);
+            border-radius: 20px;
+            font-size: 12px;
+            color: #667eea;
+        }
+        
+        .status-dot {
+            width: 6px;
+            height: 6px;
+            background: currentColor;
+            border-radius: 50%;
+        }
+        
+        .hashi-metric {
+            color: #888;
+            font-size: 14px;
+            margin-top: 8px;
+        }
+        
+        .hashi-metric strong {
+            color: #fff;
+        }
+        
+        .progress-bar {
+            height: 4px;
+            background: #2a2a2a;
+            border-radius: 2px;
+            margin-top: 12px;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            border-radius: 2px;
+            transition: width 0.3s ease;
+        }
+        
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.8);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            overflow-y: auto;
+        }
+        
+        .modal.active {
+            display: block;
+        }
+        
+        .modal-content {
+            max-width: 700px;
+            margin: 40px auto;
+            background: #1a1a1a;
+            border-radius: 24px;
+            overflow: hidden;
+            animation: slideUp 0.3s ease;
+        }
+        
+        @keyframes slideUp {
+            from {
+                transform: translateY(100px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        
+        .modal-header {
+            padding: 24px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .modal-title {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        
+        .modal-subtitle {
+            opacity: 0.9;
+            font-size: 14px;
+        }
+        
+        .close-button {
+            position: absolute;
+            top: 24px;
+            right: 24px;
+            width: 32px;
+            height: 32px;
+            background: rgba(0,0,0,0.2);
+            border-radius: 50%;
+            border: none;
+            color: white;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .close-button:hover {
+            background: rgba(0,0,0,0.3);
+            transform: rotate(90deg);
+        }
+        
+        .modal-body {
+            padding: 24px;
+        }
+        
+        .context-section {
+            margin-bottom: 32px;
+        }
+        
+        .section-label {
+            font-size: 12px;
+            color: #667eea;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+        
+        .context-text {
+            color: #ccc;
+            line-height: 1.8;
+            font-size: 15px;
+        }
+        
+        .context-highlight {
+            background: rgba(102, 126, 234, 0.1);
+            padding: 16px;
+            border-radius: 12px;
+            margin: 16px 0;
+            border-left: 3px solid #667eea;
+        }
+        
+        .tasks-section {
+            margin-top: 32px;
+        }
+        
+        .task-item {
+            display: flex;
+            align-items: start;
+            gap: 12px;
+            padding: 16px;
+            background: #222;
+            border-radius: 12px;
+            margin-bottom: 12px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .task-item:hover {
+            background: #2a2a2a;
+            transform: translateX(4px);
+        }
+        
+        .task-checkbox {
+            width: 20px;
+            height: 20px;
+            border: 2px solid #444;
+            border-radius: 50%;
+            flex-shrink: 0;
+            margin-top: 2px;
+            transition: all 0.3s ease;
+        }
+        
+        .task-item:hover .task-checkbox {
+            border-color: #667eea;
+        }
+        
+        .task-item.completed .task-checkbox {
+            background: #667eea;
+            border-color: #667eea;
+        }
+        
+        .task-content {
+            flex: 1;
+        }
+        
+        .task-title {
+            color: #fff;
+            font-size: 15px;
+            margin-bottom: 4px;
+            font-weight: 500;
+        }
+        
+        .task-item.completed .task-title {
+            color: #666;
+            text-decoration: line-through;
+        }
+        
+        .task-detail {
+            color: #888;
+            font-size: 13px;
+            line-height: 1.4;
+        }
+        
+        .task-priority {
+            padding: 4px 8px;
+            background: rgba(255, 107, 107, 0.1);
+            color: #ff6b6b;
+            border-radius: 6px;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        
+        .dependencies {
+            display: flex;
+            gap: 8px;
+            margin-top: 16px;
+            flex-wrap: wrap;
+        }
+        
+        .dependency-chip {
+            padding: 6px 12px;
+            background: rgba(102, 126, 234, 0.1);
+            border: 1px solid rgba(102, 126, 234, 0.3);
+            border-radius: 20px;
+            font-size: 13px;
+            color: #a8b4ff;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .dependency-chip:hover {
+            background: rgba(102, 126, 234, 0.2);
+            border-color: #667eea;
+        }
+        
+        .footer-note {
+            text-align: center;
+            color: #666;
+            font-size: 12px;
+            padding: 40px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Air Winnetka Launch</h1>
+        <div class="energy-indicator">
+            <span class="energy-dot"></span>
+            <span>Farmers Market Saturday • Grand Reopening Sept 12-15</span>
+        </div>
+    </div>
+    
+    <div class="calendar-strip">
+        <div class="day-card today" data-date="2025-09-04">
+            <div class="day-name">Today</div>
+            <div class="day-date">4</div>
+            <div class="hashi-count">3 outcomes</div>
+        </div>
+        <div class="day-card active" data-date="2025-09-05">
+            <div class="day-name">Friday</div>
+            <div class="day-date">5</div>
+            <div class="hashi-count">2 outcomes</div>
+        </div>
+        <div class="day-card" data-date="2025-09-06">
+            <div class="day-name">Saturday</div>
+            <div class="day-date">6</div>
+            <div class="hashi-count">1 outcome</div>
+        </div>
+    </div>
+    
+    <div class="main-content">
+        <div class="hashi-container">
+            <!-- Friday's Hashi -->
+            <div class="hashi-card" onclick="openModal('space-ready')">
+                <div class="hashi-header">
+                    <div class="hashi-title">Space creates "wow" first impression for Saturday visitors</div>
+                    <div class="hashi-status">
+                        <span class="status-dot"></span>
+                        <span>In Progress</span>
+                    </div>
+                </div>
+                <div class="hashi-metric">Success: <strong>Entry feels intentional • Bathroom gets compliments • People ask about triangle wall</strong></div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 40%"></div>
+                </div>
+            </div>
+            
+            <div class="hashi-card" onclick="openModal('farmers-prep')">
+                <div class="hashi-header">
+                    <div class="hashi-title">Farmers market materials ready to convert visitors</div>
+                    <div class="hashi-status">
+                        <span class="status-dot"></span>
+                        <span>Not Started</span>
+                    </div>
+                </div>
+                <div class="hashi-metric">Success: <strong>Clear flyer • Demo plan • Signup system ready</strong></div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 0%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal for Space Ready -->
+    <div class="modal" id="modal-space-ready">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close-button" onclick="closeModal('space-ready')">×</button>
+                <div class="modal-title">Space creates "wow" first impression</div>
+                <div class="modal-subtitle">Target: Friday evening • Enables: Community trust & word-of-mouth</div>
+            </div>
+            <div class="modal-body">
+                <div class="context-section">
+                    <div class="section-label">Why This Matters Now</div>
+                    <div class="context-text">
+                        Saturday's farmers market is our first major public touchpoint before grand reopening. When people say "I'll check it out," they often come by within 48 hours of hearing about us. The space needs to deliver on the promise we make at the booth.
+                        
+                        <div class="context-highlight">
+                            <strong>The real fear:</strong> People walk in, see an unfinished space that feels like "just another fitness studio" and never come back. First impressions are everything in Winnetka - this community talks.
+                        </div>
+                        
+                        The contractor finishes tomorrow (Friday), but finishing construction isn't the same as creating an experience. We need the space to tell our story: elevated, intentional, different from anything else in the North Shore.
+                    </div>
+                </div>
+                
+                <div class="context-section">
+                    <div class="section-label">Success Indicators</div>
+                    <div class="context-text">
+                        • People pause when they walk in (the "wow" moment)<br>
+                        • The bathroom makes them do a double-take<br>
+                        • They notice and ask about the triangle wall<br>
+                        • The entry flow feels natural, not cluttered<br>
+                        • Instagram-worthy moments exist without staging
+                    </div>
+                </div>
+                
+                <div class="context-section">
+                    <div class="section-label">Critical Context for Execution</div>
+                    <div class="context-text">
+                        <strong>Space constraints:</strong> 12x12 main room, narrow entry corridor. Every inch matters.<br><br>
+                        <strong>Brand tension:</strong> Corporate wants gray walls and standard fixtures. We want warmth and personality. Threading the needle between compliance and uniqueness.<br><br>
+                        <strong>Time reality:</strong> Whatever isn't done by 6pm Friday waits until after farmers market. No second chances for first impressions.
+                    </div>
+                </div>
+                
+                <div class="tasks-section">
+                    <div class="section-label">Shots on Goal</div>
+                    
+                    <div class="task-item">
+                        <div class="task-checkbox"></div>
+                        <div class="task-content">
+                            <div class="task-title">Install entry area with Kallax system</div>
+                            <div class="task-detail">2x2 + 1x2 units with table surface. Creates defined entry, storage for 12 students, front desk presence. White to brighten dark entry.</div>
+                        </div>
+                        <div class="task-priority">Today</div>
+                    </div>
+                    
+                    <div class="task-item">
+                        <div class="task-checkbox"></div>
+                        <div class="task-content">
+                            <div class="task-title">Paint bathroom charcoal gray with warm undertones</div>
+                            <div class="task-detail">Benjamin Moore "Wrought Iron" or similar. Creates boutique hotel feel, not gym. Hides wear, adds sophistication.</div>
+                        </div>
+                        <div class="task-priority">Critical</div>
+                    </div>
+                    
+                    <div class="task-item">
+                        <div class="task-checkbox"></div>
+                        <div class="task-content">
+                            <div class="task-title">Mount two brass sconces in main space</div>
+                            <div class="task-detail">Already purchased ($80/pair). Creates warm pools of light for evening classes. Suggests premium without saying it.</div>
+                        </div>
+                        <div class="task-priority">Today</div>
+                    </div>
+                    
+                    <div class="task-item">
+                        <div class="task-checkbox"></div>
+                        <div class="task-content">
+                            <div class="task-title">Project and tape triangle on signature wall</div>
+                            <div class="task-detail">Use projector to get proportions perfect. Yellow tape for now, vinyl later. This becomes our Instagram wall where members sign.</div>
+                        </div>
+                        <div class="task-priority">If Time</div>
+                    </div>
+                    
+                    <div class="task-item">
+                        <div class="task-checkbox"></div>
+                        <div class="task-content">
+                            <div class="task-title">Add elevated bathroom touches</div>
+                            <div class="task-detail">Aesop hand soap ($35), small succulent, black hand towels. These details signal "not your average gym."</div>
+                        </div>
+                        <div class="task-priority">Final Touch</div>
+                    </div>
+                </div>
+                
+                <div class="dependencies">
+                    <div class="dependency-chip">→ Enables: Farmers market conversions</div>
+                    <div class="dependency-chip">→ Enables: Grand reopening attendance</div>
+                    <div class="dependency-chip">← Needs: Contractor completes base work</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal for Farmers Market Prep -->
+    <div class="modal" id="modal-farmers-prep">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close-button" onclick="closeModal('farmers-prep')">×</button>
+                <div class="modal-title">Farmers market materials ready to convert</div>
+                <div class="modal-subtitle">Target: Friday night • Enables: 50+ grand reopening attendees</div>
+            </div>
+            <div class="modal-body">
+                <div class="context-section">
+                    <div class="section-label">Why This Matters Now</div>
+                    <div class="context-text">
+                        2,000 people flow through Winnetka Farmers Market on Saturday mornings. These aren't random passersby - they're engaged community members who value local businesses and have Saturday morning energy.
+                        
+                        <div class="context-highlight">
+                            <strong>The opportunity:</strong> Parents are there with kids who need activities. They're in "yes" mode, credit cards in hand, looking for what's new in town. This is our highest-quality lead pool before grand reopening.
+                        </div>
+                        
+                        But farmers markets are sensory overload. We have 5 seconds to catch attention, 30 seconds to create interest, and 2 minutes max to convert to action. Every material needs to work hard.
+                    </div>
+                </div>
+                
+                <div class="context-section">
+                    <div class="section-label">Success Indicators</div>
+                    <div class="context-text">
+                        • 50+ people take flyers and seem genuinely interested<br>
+                        • 20+ kids sign up for Olympics on the spot<br>
+                        • Parents ask "Is this safe for beginners?" (engagement!)<br>
+                        • We capture email/phone for follow-up<br>
+                        • People take photos of our booth/demo
+                    </div>
+                </div>
+                
+                <div class="context-section">
+                    <div class="section-label">Critical Context for Materials</div>
+                    <div class="context-text">
+                        <strong>Audience reality:</strong> Affluent parents who've "tried everything" for their kids. Skeptical of new fitness trends but desperate for activities that build confidence.<br><br>
+                        <strong>Competitive context:</strong> They know yoga, pilates, barre. They DON'T know aerial can be accessible. We're fighting the "circus = dangerous" perception.<br><br>
+                        <strong>Conversion psychology:</strong> Kids Olympics is less threatening than "aerial classes." It's time-bound, competitive (parents love achievement), and sounds fun not scary.
+                    </div>
+                </div>
+                
+                <div class="tasks-section">
+                    <div class="section-label">Shots on Goal</div>
+                    
+                    <div class="task-item">
+                        <div class="task-checkbox"></div>
+                        <div class="task-content">
+                            <div class="task-title">Design "safe adventure" focused flyer</div>
+                            <div class="task-detail">Lead with Kids Olympics (Sept 14, ages 6-14, beginner-friendly). Include grand reopening schedule. QR code to signup form. Bright, not intimidating.</div>
+                        </div>
+                        <div class="task-priority">Tonight</div>
+                    </div>
+                    
+                    <div class="task-item">
+                        <div class="task-checkbox"></div>
+                        <div class="task-content">
+                            <div class="task-title">Create 60-second demo routine</div>
+                            <div class="task-detail">Accessible moves that make people think "I could do that!" Not cirque-level intimidation. Include one kid if possible - social proof.</div>
+                        </div>
+                        <div class="task-priority">Critical</div>
+                    </div>
+                    
+                    <div class="task-item">
+                        <div class="task-checkbox"></div>
+                        <div class="task-content">
+                            <div class="task-title">Set up simple email capture system</div>
+                            <div class="task-detail">iPad with Google Form: Name, email, "Kid age" or "Adult interest", follow-up permission. Prize drawing for motivation (free month?).</div>
+                        </div>
+                        <div class="task-priority">Tonight</div>
+                    </div>
+                    
+                    <div class="task-item">
+                        <div class="task-checkbox"></div>
+                        <div class="task-content">
+                            <div class="task-title">Prep elevator pitches for common concerns</div>
+                            <div class="task-detail">"Is it safe?" → "Safer than playground monkey bars, all certified instructors." "Is my kid too young?" → "We start at 6, builds confidence like nothing else."</div>
+                        </div>
+                        <div class="task-priority">Friday</div>
+                    </div>
+                    
+                    <div class="task-item">
+                        <div class="task-checkbox"></div>
+                        <div class="task-content">
+                            <div class="task-title">Print 200 flyers at FedEx</div>
+                            <div class="task-detail">Full color, cardstock not paper (quality signal). Include map to studio from market. Friday afternoon to avoid rush.</div>
+                        </div>
+                        <div class="task-priority">Friday PM</div>
+                    </div>
+                </div>
+                
+                <div class="dependencies">
+                    <div class="dependency-chip">→ Enables: Grand reopening attendance</div>
+                    <div class="dependency-chip">→ Enables: Kids program fills</div>
+                    <div class="dependency-chip">→ Enables: Email list growth</div>
+                    <div class="dependency-chip">← Needs: Clear value proposition</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer-note">
+        Kane prototype • Organizing progress around outcomes, not tasks
+    </div>
+    
+    <script>
+        function openModal(id) {
+            document.getElementById('modal-' + id).classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+        
+        function closeModal(id) {
+            document.getElementById('modal-' + id).classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+        
+        // Handle day selection
+        document.querySelectorAll('.day-card').forEach(card => {
+            card.addEventListener('click', function() {
+                document.querySelectorAll('.day-card').forEach(c => c.classList.remove('active'));
+                this.classList.add('active');
+                
+                // Here you would load the Hashi for the selected date
+                console.log('Selected date:', this.dataset.date);
+            });
+        });
+        
+        // Handle task completion
+        document.querySelectorAll('.task-item').forEach(task => {
+            task.addEventListener('click', function(e) {
+                e.stopPropagation();
+                this.classList.toggle('completed');
+                
+                // Update progress bar
+                const modal = this.closest('.modal');
+                const completed = modal.querySelectorAll('.task-item.completed').length;
+                const total = modal.querySelectorAll('.task-item').length;
+                const progress = (completed / total) * 100;
+                
+                // This would update the main progress bar
+                console.log('Progress:', progress + '%');
+            });
+        });
+    </script>
+</body>
+</html>
