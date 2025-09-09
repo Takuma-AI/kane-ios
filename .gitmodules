@@ -40,3 +40,6 @@
 [submodule "kane/server"]
 	path = kane/server
 	url = https://github.com/Takuma-AI/kane-server.git
+[submodule "bespoke/exordi/tearsheet"]
+	path = bespoke/exordi/tearsheet
+	url = https://github.com/kateleext/exordi-tearsheet.git
