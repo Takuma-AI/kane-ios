@@ -1,6 +1,6 @@
 # Exordi × Takuma
 
-## We're Here to Make Exordi the Definitive Space Where Passion Creates Connection
+## We're Here to Make Exordi the Leading Content Production Figure in the World
 
 Every single content requirement will flow through your platform — not because you built infrastructure, but because passionate creators produce content that actually connects. You've proven this. Time to make it repeatable without you.
 

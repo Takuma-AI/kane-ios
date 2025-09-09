@@ -818,27 +818,43 @@
     </div>
     
     <script>
+        // Debug function to test modals
+        function testModal() {
+            const modals = document.querySelectorAll('.modal');
+            console.log('Found modals:', modals.length);
+            modals.forEach(m => console.log('Modal ID:', m.id));
+        }
+        
         function openModal(id) {
+            console.log('Opening modal:', id);
             const modal = document.getElementById('modal-' + id);
+            console.log('Found modal element:', modal);
             if (modal) {
                 modal.classList.add('active');
+                modal.style.display = 'flex';  // Force display
                 document.body.style.overflow = 'hidden';
+                console.log('Modal opened successfully');
             } else {
                 console.error('Modal not found:', 'modal-' + id);
+                // List all elements with class modal
+                document.querySelectorAll('.modal').forEach(m => {
+                    console.log('Available modal:', m.id);
+                });
             }
         }
         
         function closeModal(id) {
+            console.log('Closing modal:', id);
             const modal = document.getElementById('modal-' + id);
             if (modal) {
                 modal.classList.remove('active');
+                modal.style.display = 'none';  // Force hide
                 document.body.style.overflow = 'auto';
             }
         }
         
         function approveFlyer() {
-            // Simulate sending to FedEx
-            alert('✓ Sent to FedEx! They'll text you when ready (usually 2 hours). 200 copies on cardstock = $47.50');
+            alert("✓ Sent to FedEx! They'll text you when ready (usually 2 hours). 200 copies on cardstock = $47.50");
         }
         
         function sendToFedEx() {
@@ -864,10 +880,26 @@
         }
         
         // Date selection
-        document.querySelectorAll('.date-item').forEach(item => {
-            item.addEventListener('click', function() {
-                document.querySelectorAll('.date-item').forEach(d => d.classList.remove('active'));
-                this.classList.add('active');
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Page loaded, setting up event listeners');
+            
+            // Test modals exist
+            testModal();
+            
+            document.querySelectorAll('.date-item').forEach(item => {
+                item.addEventListener('click', function() {
+                    document.querySelectorAll('.date-item').forEach(d => d.classList.remove('active'));
+                    this.classList.add('active');
+                });
+            });
+            
+            // Add click handlers to cards if onclick isn't working
+            document.querySelectorAll('.action-card').forEach(card => {
+                console.log('Setting up action card:', card);
+            });
+            
+            document.querySelectorAll('.hashi-card').forEach(card => {
+                console.log('Setting up hashi card:', card);
             });
         });
     </script>
