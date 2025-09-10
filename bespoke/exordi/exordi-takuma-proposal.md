@@ -1,48 +1,55 @@
 # Exordi × Takuma
 
-## We're Here to Make Exordi the Leading Content Production Figure in the World
+## The Vision You've Mapped
 
-Every single content requirement will flow through your platform — not because you built infrastructure, but because passionate creators produce content that actually connects. You've proven this. Time to make it repeatable without you.
+You want Exordi to become the leading content production platform in the world — where every single content requirement flows through your ecosystem.
 
-## The Problem We're Hearing
+Your growth plan laid out what needs to happen: You need passionate creators in every key city who create content the Exordi way. And you need revenue to flow without your personal involvement in every deal.
 
-The platform stops working the moment reality gets complex. Morocco deal lost because of a login issue. Melbourne deal lost because you can't search by city. Clients brief incorrectly because there's no expense field, no template, no guidance.
+You've proven the model works. The demand is there. But right now, scaling means replicating yourself — your eye for matching creators to brands, your ability to spot when a brief will fail, your instinct for which passion fits which purpose. 
 
-Some of this is mechanical — missing features you've already identified. But underneath: clients don't know what makes a good brief. Without you translating their needs, outputs fail and they blame Exordi. You recognize when Charysse's artistic sense fits Cambridge Satchel. You prevent failures before they happen.
+This isn't about automating busywork so you can focus on the Creator Academy. It's about translating what makes you special into the product experience itself. Real progress means the platform embodies your DNA.
 
-The platform handles the basics. Your judgment handles everything that matters. Neither is in the product yet.
+## What's Actually Blocking Scale
 
-## Make Real Progress Without Waiting on Anyone
+You've mapped out Project Chimera with every feature the platform needs. City search, expense fields, better templates. All necessary. All buildable. These are the mechanics. But the difference between a platform that processes orders and one that creates magic isn't in the feature list. It's in whether the product carries your DNA — your ability to recognize when a creator's passion aligns with a brand's need, your instinct for what will resonate, your judgment about which connections will create magic.
 
-The right hire can transform a startup. But even the best hire needs a foundation to build on — systems that embody your judgment, processes that encode your approach. Without this, they're guessing at what you would do instead of amplifying what you've proven works.
+Right now you're writing feature specs like you're briefing a dev shop. But you can't spec your way into magic — even when you bring engineering in-house. A great engineer can build every feature perfectly and still miss what makes Exordi special: you.
 
-Morocco went off-platform. Melbourne couldn't find creators. Clients brief incorrectly. Not because the platform lacks features — because it lacks you. Build this foundation now. Then anyone you hire can truly scale your vision.
+You ARE the product. We'll empower you to think from first principles about what the product should feel like, not just what needs fixing. To build from your core DNA outward rather than from problems inward. When you learn to think about product this way — as an embodiment of what makes you special rather than a list of features to implement — you become unstoppable.
 
 ## What We Build Together
 
-Your Chimera specs have the mechanics mapped. We can build those. But we'll also discover the magic you haven't captured yet — the subtle patterns in how you match creators, the questions that reveal what clients really need, the judgment calls that prevent failures.
+This is a transformation project, not an outsourced dev engagement. We're not here to be your engineering team. We're here to empower you to amplify your judgment into the product experience. 
 
-Together we take your vision from sketches to working product. All for a clear outcome: An agency onboards and generates stable revenue without your involvement.
+Together we'll:
+- Build a working foundation you can ship and learn from immediately
+- Distill how you match creators to brands into repeatable product experiences
+- Move you from spec-writing to product leadership
+- Translate your nuance and direction into something others can build on
+
+A future CTO might rebuild everything we create. That's fine. The value isn't in the code — it's in unblocking your progress now and translating your judgment into product form.
+
+## Why Us, Why Now
+
+A few months ago, we transformed Chef Austin at Elite Personal Chefs — in two weeks, we took him from sketch to automated revenue. Using what we built, EPC has already booked $40,000+ in revenue that required no upfront selling. More importantly, taught him to see his product as an embodiment of EPC's special sauce. Since then, Chef has been the one making commits and shipping features with the help of AI. 
+
+We understand your business — Neal is already an investor in Exordi. We see what you're building and why it matters.
+
+Our incentives align with yours: we only succeed when you ship and when agencies generate revenue without you. No long contracts, no ongoing dependency. Just transformation and results.
 
 ## The Investment
 
 $15,000 total, tied to real progress:
+- $5,000 to begin  
+- $5,000 when working MVP ships (target: 4 weeks)  
+- $5,000 upon platform success (e.g. when first agency generates revenue without you — we can define this together)
 
-$5,000 to begin  
-$5,000 when working MVP ships (target: 4 weeks)  
-$5,000 when first agency generates revenue without you  
+This investment isn't just in building features — it's in unblocking progress now and transforming how you think about and lead product. That transformation stays with you forever, regardless of who builds what next.
 
-We succeed only when you succeed. The 4-week target keeps us focused on what actually ships, not what could be perfect.
+## Start Now, Not Later
+When you make progress contingent on external factors, you stay stuck. When you focus on what you can control — becoming the product leader Exordi needs — everything else falls into place.
 
-## Why This Works Now
+Four weeks from now, you could have a working foundation that embodies your judgment. You could be thinking about product from first principles. You could be leading from vision rather than reacting with specs.
 
-You have the infrastructure. You've proven the model. You know what good looks like.
-
-The only step left: teaching the platform to see what you see.
-
-No hiring required. No fundraising needed.  
-Just your judgment, amplified.
-
----
-
-*Takuma develops technology that amplifies visionaries. Your success is our only metric.*
+Let's do this, shall we?

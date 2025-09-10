@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice #1 - Elite Personal Chefs</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            font-size: 11px;
+            line-height: 1.4;
+            padding: 40px;
+            margin: 0;
+            max-width: 600px;
+        }
+        
+        h1 {
+            font-size: 20px;
+            font-weight: 600;
+            letter-spacing: 2px;
+            margin-bottom: 30px;
+            color: #fff;
+        }
+        
+        .invoice-header {
+            margin-bottom: 30px;
+            font-size: 11px;
+        }
+        
+        .invoice-header strong {
+            color: #ccc;
+        }
+        
+        .section-title {
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #333;
+            padding-bottom: 5px;
+        }
+        
+        .bill-to {
+            margin-bottom: 30px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        th {
+            text-align: left;
+            padding: 8px;
+            border-bottom: 1px solid #333;
+            font-weight: 500;
+            font-size: 10px;
+            text-transform: uppercase;
+            color: #999;
+        }
+        
+        td {
+            padding: 8px;
+            border-bottom: 1px solid #1a1a1a;
+            font-size: 11px;
+            color: #fff;
+        }
+        
+        td.right, th.right {
+            text-align: right;
+        }
+        
+        .totals td {
+            border-bottom: none;
+            padding: 4px 8px;
+        }
+        
+        .totals .label {
+            text-align: right;
+            color: #999;
+            font-size: 10px;
+        }
+        
+        .totals .amount {
+            text-align: right;
+            color: #fff;
+            font-weight: 500;
+        }
+        
+        .balance-due {
+            font-weight: 600;
+            font-size: 13px;
+            color: #fff;
+            border-top: 2px solid #444;
+            padding-top: 8px;
+            margin-top: 8px;
+        }
+        
+        .payment-section {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #0a0a0a;
+            border: 1px solid #222;
+            border-radius: 4px;
+        }
+        
+        .payment-section p {
+            margin: 5px 0;
+            font-size: 11px;
+        }
+        
+        .payment-section strong {
+            color: #ccc;
+        }
+        
+        hr {
+            border: none;
+            border-top: 1px solid #333;
+            margin: 25px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>INVOICE</h1>
+    
+    <div class="invoice-header">
+        <strong>Invoice #:</strong> 1<br>
+        <strong>Date:</strong> September 8, 2025<br>
+        <strong>Due:</strong> September 10, 2025
+    </div>
+    
+    <hr>
+    
+    <div class="bill-to">
+        <div class="section-title">BILL TO</div>
+        Elite Personal Chefs<br>
+        chefaustin@elitepersonalchefs.com
+    </div>
+    
+    <div class="section-title">SERVICES RENDERED</div>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Description</th>
+                <th class="right">Qty</th>
+                <th class="right">Rate</th>
+                <th class="right">Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Chef Portal Development and Training</td>
+                <td class="right">1</td>
+                <td class="right">$5,000.00</td>
+                <td class="right">$5,000.00</td>
+            </tr>
+            <tr>
+                <td>Ad-hoc Training Hours (8/04-05)</td>
+                <td class="right">3</td>
+                <td class="right">$200.00</td>
+                <td class="right">$600.00</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <table class="totals">
+        <tr>
+            <td class="label">Subtotal:</td>
+            <td class="amount">$5,600.00</td>
+        </tr>
+        <tr>
+            <td class="label">Deposit Paid:</td>
+            <td class="amount">($2,500.00)</td>
+        </tr>
+        <tr class="balance-due">
+            <td class="label"><strong>BALANCE DUE:</strong></td>
+            <td class="amount"><strong>$3,100.00</strong></td>
+        </tr>
+    </table>
+    
+    <div class="payment-section">
+        <div class="section-title">PAYMENT INSTRUCTIONS</div>
+        <p><strong>Method:</strong> Zelle</p>
+        <p><strong>Payee:</strong> Kate</p>
+        <p><strong>Phone:</strong> (224) 420-1116</p>
+        <p style="margin-top: 10px; font-size: 10px; color: #999;">Please reference invoice #1 with payment.</p>
+    </div>
+</body>
+</html>
